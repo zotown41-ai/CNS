@@ -1,75 +1,213 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>文献追踪报告</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>日报</title>
   <style>
-    body { font-family: Arial, "Microsoft YaHei", sans-serif; line-height: 1.7; margin: 32px; color: #222; }
-    h1, h2, h3 { color: #0f3d6e; }
-    .paper { border: 1px solid #ddd; border-radius: 8px; padding: 12px 16px; margin: 12px 0; background: #fff; }
-    .journal { margin-top: 28px; }
-    .warnings { color: #9a6700; }
-    a { color: #0b63c9; word-break: break-all; }
+    :root {
+      --bg: #f4f8fc;
+      --text: #0f172a;
+      --muted: #64748b;
+      --card: rgba(255,255,255,.94);
+      --border: rgba(148,163,184,.24);
+      --shadow: 0 16px 38px rgba(15,23,42,.08);
+      --accent: #2563eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(37,99,235,.15), transparent 30%),
+        linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+    }
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px 14px 34px;
+    }
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 18px;
+      box-shadow: var(--shadow);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(28px, 5vw, 40px);
+    }
+    .muted {
+      color: var(--muted);
+      line-height: 1.8;
+      margin: 0;
+    }
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr auto auto;
+      gap: 10px;
+      margin-top: 16px;
+      align-items: center;
+    }
+    select, button, a.btn {
+      min-height: 44px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      font-size: 15px;
+    }
+    select {
+      width: 100%;
+      padding: 0 12px;
+      background: #fff;
+    }
+    button, a.btn {
+      padding: 0 15px;
+      background: #fff;
+      color: var(--text);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .tips {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    .frame-wrap {
+      margin-top: 16px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    iframe {
+      width: 100%;
+      min-height: 78vh;
+      border: 0;
+      background: #fff;
+    }
+    .empty {
+      padding: 22px 18px;
+      color: var(--muted);
+    }
+    @media (max-width: 760px) {
+      .controls { grid-template-columns: 1fr; }
+      iframe { min-height: 72vh; }
+    }
   </style>
 </head>
 <body>
-  <h1>文献追踪报告</h1>
-  <ul>
-    <li><strong>时间范围：</strong>2026-03-22 ~ 2026-03-22</li>
-    <li><strong>目标期刊数：</strong>9</li>
-    <li><strong>本周新论文数：</strong>0</li>
-    <li><strong>本周重点文章数：</strong>0</li>
-    <li><strong>关键词：</strong>免疫代谢, 代谢表观调控, 单细胞算法, 单细胞图谱, 流感, HSV, H1N1, 肺损伤, 肺组织修复, 皮肤免疫</li>
-  </ul>
-  <h2>本周重点文章</h2>
-  <p>本周没有命中关键词的重点文章。</p>
-  <h2>分期刊展示（剩余论文）</h2>
-  
-        <section class="journal">
-          <h3>Nature</h3>
-          <p>本期刊剩余论文为空。</p>
-        </section>
-        
-        <section class="journal">
-          <h3>Science</h3>
-          <p>本期刊剩余论文为空。</p>
-        </section>
-        
-        <section class="journal">
-          <h3>Cell</h3>
-          <p>本期刊剩余论文为空。</p>
-        </section>
-        
-        <section class="journal">
-          <h3>Cell metabolism</h3>
-          <p>本期刊剩余论文为空。</p>
-        </section>
-        
-        <section class="journal">
-          <h3>Immunity</h3>
-          <p>本期刊剩余论文为空。</p>
-        </section>
-        
-        <section class="journal">
-          <h3>Nature Immunology</h3>
-          <p>本期刊剩余论文为空。</p>
-        </section>
-        
-        <section class="journal">
-          <h3>Science Immunology</h3>
-          <p>本期刊剩余论文为空。</p>
-        </section>
-        
-        <section class="journal">
-          <h3>Bioinformatics</h3>
-          <p>本期刊剩余论文为空。</p>
-        </section>
-        
-        <section class="journal">
-          <h3>Nature Protocols</h3>
-          <p>本期刊剩余论文为空。</p>
-        </section>
-        
-  <h2>全局警告</h2><ul class="warnings"><li>本次运行未在指定日期范围内抓到任何论文。</li></ul>
+  <main class="wrap">
+    <section class="hero">
+      <h1>日报</h1>
+      <p class="muted">此页默认优先打开“昨日”日报；如果昨日不存在，则自动回退到最近一个已发布日期。你也可以手动切换日期查看历史日报。</p>
+      <div class="controls">
+        <select id="dateSelect" aria-label="选择日报日期"></select>
+        <button id="openSelected" class="primary" type="button">打开所选日期</button>
+        <a id="openMarkdown" class="btn" href="./daily_report.md">查看最新 Markdown</a>
+      </div>
+      <div class="tips" id="statusText">正在加载可用日期…</div>
+    </section>
+    <section class="frame-wrap">
+      <iframe id="reportFrame" title="日报内容"></iframe>
+      <div id="emptyState" class="empty" hidden>当前没有可用日报。</div>
+    </section>
+  </main>
+
+  <script>
+    const FALLBACK_DATE = "2026-03-22";
+    const MANIFEST_URL = "./available_dates.json";
+    const selectEl = document.getElementById("dateSelect");
+    const openBtn = document.getElementById("openSelected");
+    const markdownBtn = document.getElementById("openMarkdown");
+    const frame = document.getElementById("reportFrame");
+    const statusText = document.getElementById("statusText");
+    const emptyState = document.getElementById("emptyState");
+
+    function formatDate(date) {
+      const y = date.getFullYear();
+      const m = String(date.getMonth() + 1).padStart(2, "0");
+      const d = String(date.getDate()).padStart(2, "0");
+      return `${y}-${m}-${d}`;
+    }
+
+    function getYesterdayLocal() {
+      const now = new Date();
+      now.setHours(12, 0, 0, 0);
+      now.setDate(now.getDate() - 1);
+      return formatDate(now);
+    }
+
+    function reportUrl(dateText) {
+      return `./by-date/${dateText}/`;
+    }
+
+    function applySelection(dateText, options) {
+      if (!dateText) {
+        frame.hidden = true;
+        emptyState.hidden = false;
+        statusText.textContent = "当前没有可用日报。";
+        return;
+      }
+      selectEl.value = dateText;
+      frame.hidden = false;
+      emptyState.hidden = true;
+      frame.src = reportUrl(dateText);
+      const requestedYesterday = getYesterdayLocal();
+      if (dateText === requestedYesterday) {
+        statusText.textContent = `当前显示昨日日报：${dateText}`;
+      } else if (options.includes(requestedYesterday)) {
+        statusText.textContent = `当前显示日报：${dateText}`;
+      } else {
+        statusText.textContent = `昨日日报不存在，当前回退到最近可用日期：${dateText}`;
+      }
+    }
+
+    fetch(MANIFEST_URL, { cache: "no-store" })
+      .then((resp) => resp.ok ? resp.json() : Promise.reject(new Error(`HTTP ${resp.status}`)))
+      .then((data) => {
+        const dates = Array.isArray(data.dates) ? data.dates : [];
+        selectEl.innerHTML = "";
+        dates.forEach((dateText) => {
+          const option = document.createElement("option");
+          option.value = dateText;
+          option.textContent = dateText;
+          selectEl.appendChild(option);
+        });
+
+        if (!dates.length) {
+          applySelection("", dates);
+          return;
+        }
+
+        const yesterday = getYesterdayLocal();
+        const initial = dates.includes(yesterday) ? yesterday : (data.latest || FALLBACK_DATE || dates[0]);
+        applySelection(initial, dates);
+
+        openBtn.addEventListener("click", () => applySelection(selectEl.value, dates));
+        selectEl.addEventListener("change", () => applySelection(selectEl.value, dates));
+
+        if (data.latest_markdown) {
+          markdownBtn.href = data.latest_markdown;
+        }
+      })
+      .catch((err) => {
+        statusText.textContent = `加载日期列表失败：${err.message}`;
+        frame.hidden = true;
+        emptyState.hidden = false;
+      });
+  </script>
 </body>
 </html>
