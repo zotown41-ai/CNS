@@ -124,6 +124,44 @@ function Get-DailyReportEntries([string]$Root) {
     return @($result | Sort-Object Date -Descending)
 }
 
+function Get-WeeklyReportEntries([string]$Root) {
+    Require-Path $Root "周报输出目录"
+    $pattern = '^文献追踪报告-(\d{4}-\d{2}-\d{2})-(\d{4}-\d{2}-\d{2})-(.+?)(?:-(\d+))?$'
+    $candidates = foreach ($dir in Get-ChildItem -LiteralPath $Root -Directory -ErrorAction SilentlyContinue) {
+        if ($dir.Name -match $pattern) {
+            $html = Get-ChildItem -LiteralPath $dir.FullName -File -Filter *.html -ErrorAction SilentlyContinue | Select-Object -First 1
+            $md = Get-ChildItem -LiteralPath $dir.FullName -File -Filter *.md -ErrorAction SilentlyContinue | Select-Object -First 1
+            $json = Get-ChildItem -LiteralPath $dir.FullName -File -Filter *.json -ErrorAction SilentlyContinue | Select-Object -First 1
+            if ($html -and $md -and $json) {
+                $startDate = $matches[1]
+                $endDate = $matches[2]
+                [PSCustomObject]@{
+                    Id = "{0}_{1}" -f $startDate, $endDate
+                    StartDate = $startDate
+                    EndDate = $endDate
+                    Label = "{0} → {1}" -f $startDate, $endDate
+                    Version = if ($matches[4]) { [int]$matches[4] } else { 1 }
+                    FullName = $dir.FullName
+                    Name = $dir.Name
+                    LastWriteTime = $dir.LastWriteTime
+                }
+            }
+        }
+    }
+
+    $result = @()
+    foreach ($group in ($candidates | Group-Object Id)) {
+        $selected = $group.Group |
+            Sort-Object @{ Expression = 'Version'; Descending = $true }, @{ Expression = 'LastWriteTime'; Descending = $true } |
+            Select-Object -First 1
+        if ($selected) {
+            $result += $selected
+        }
+    }
+
+    return @($result | Sort-Object @{ Expression = 'EndDate'; Descending = $true }, @{ Expression = 'StartDate'; Descending = $true })
+}
+
 function Get-DailyLandingHtml([string]$DefaultDate) {
     $template = @'
 <!doctype html>
@@ -343,6 +381,210 @@ function Get-DailyLandingHtml([string]$DefaultDate) {
     return $template.Replace("__DEFAULT_DATE__", $DefaultDate)
 }
 
+function Get-WeeklyLandingHtml([string]$DefaultRangeId) {
+    $template = @'
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>周报</title>
+  <style>
+    :root {
+      --bg: #f4f8fc;
+      --text: #0f172a;
+      --muted: #64748b;
+      --card: rgba(255,255,255,.94);
+      --border: rgba(148,163,184,.24);
+      --shadow: 0 16px 38px rgba(15,23,42,.08);
+      --accent: #2563eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(37,99,235,.15), transparent 30%),
+        linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+    }
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px 14px 34px;
+    }
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 18px;
+      box-shadow: var(--shadow);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(28px, 5vw, 40px);
+    }
+    .muted {
+      color: var(--muted);
+      line-height: 1.8;
+      margin: 0;
+    }
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr auto auto;
+      gap: 10px;
+      margin-top: 16px;
+      align-items: center;
+    }
+    select, button, a.btn {
+      min-height: 44px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      font-size: 15px;
+    }
+    select {
+      width: 100%;
+      padding: 0 12px;
+      background: #fff;
+    }
+    button, a.btn {
+      padding: 0 15px;
+      background: #fff;
+      color: var(--text);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .tips {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    .frame-wrap {
+      margin-top: 16px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    iframe {
+      width: 100%;
+      min-height: 78vh;
+      border: 0;
+      background: #fff;
+    }
+    .empty {
+      padding: 22px 18px;
+      color: var(--muted);
+    }
+    @media (max-width: 760px) {
+      .controls { grid-template-columns: 1fr; }
+      iframe { min-height: 72vh; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>周报</h1>
+      <p class="muted">此页默认打开最新周报；你也可以手动切换历史周报区间，方便在手机上查看不同周次的追踪结果。</p>
+      <div class="controls">
+        <select id="rangeSelect" aria-label="选择周报区间"></select>
+        <button id="openSelected" class="primary" type="button">打开所选周报</button>
+        <a id="openMarkdown" class="btn" href="./weekly_report.md">查看最新 Markdown</a>
+      </div>
+      <div class="tips" id="statusText">正在加载可用周报…</div>
+    </section>
+    <section class="frame-wrap">
+      <iframe id="reportFrame" title="周报内容"></iframe>
+      <div id="emptyState" class="empty" hidden>当前没有可用周报。</div>
+    </section>
+  </main>
+
+  <script>
+    const FALLBACK_RANGE_ID = "__DEFAULT_RANGE_ID__";
+    const MANIFEST_URL = "./available_weeks.json";
+    const selectEl = document.getElementById("rangeSelect");
+    const openBtn = document.getElementById("openSelected");
+    const markdownBtn = document.getElementById("openMarkdown");
+    const frame = document.getElementById("reportFrame");
+    const statusText = document.getElementById("statusText");
+    const emptyState = document.getElementById("emptyState");
+
+    function reportUrl(rangeId) {
+      return `./by-range/${rangeId}/`;
+    }
+
+    function applySelection(rangeId, ranges, labels) {
+      if (!rangeId) {
+        frame.hidden = true;
+        emptyState.hidden = false;
+        statusText.textContent = "当前没有可用周报。";
+        return;
+      }
+      selectEl.value = rangeId;
+      frame.hidden = false;
+      emptyState.hidden = true;
+      frame.src = reportUrl(rangeId);
+      statusText.textContent = `当前显示周报：${labels.get(rangeId) || rangeId}`;
+    }
+
+    fetch(MANIFEST_URL, { cache: "no-store" })
+      .then((resp) => resp.ok ? resp.json() : Promise.reject(new Error(`HTTP ${resp.status}`)))
+      .then((data) => {
+        const ranges = Array.isArray(data.ranges) ? data.ranges : [];
+        const labels = new Map();
+        selectEl.innerHTML = "";
+
+        ranges.forEach((item) => {
+          if (!item || !item.id) {
+            return;
+          }
+          labels.set(item.id, item.label || item.id);
+          const option = document.createElement("option");
+          option.value = item.id;
+          option.textContent = item.label || item.id;
+          selectEl.appendChild(option);
+        });
+
+        if (!ranges.length) {
+          applySelection("", [], labels);
+          return;
+        }
+
+        const rangeIds = ranges.map((item) => item.id);
+        const initial = rangeIds.includes(data.latest) ? data.latest : (FALLBACK_RANGE_ID || rangeIds[0]);
+        applySelection(initial, ranges, labels);
+
+        openBtn.addEventListener("click", () => applySelection(selectEl.value, ranges, labels));
+        selectEl.addEventListener("change", () => applySelection(selectEl.value, ranges, labels));
+
+        if (data.latest_markdown) {
+          markdownBtn.href = data.latest_markdown;
+        }
+      })
+      .catch((err) => {
+        statusText.textContent = `加载周报列表失败：${err.message}`;
+        frame.hidden = true;
+        emptyState.hidden = false;
+      });
+  </script>
+</body>
+</html>
+'@
+    return $template.Replace("__DEFAULT_RANGE_ID__", $DefaultRangeId)
+}
+
 function Get-LatestFileByExtension([string]$DirectoryPath, [string]$Extension) {
     $file = Get-ChildItem -LiteralPath $DirectoryPath -File |
         Where-Object { $_.Extension -ieq $Extension } |
@@ -410,13 +652,18 @@ if (-not $SkipDailyGeneration) {
     ) $DailyProject
 }
 
-$weeklyDir = Get-LatestReportDirectory $WeeklyReportsRoot
+$weeklyEntries = @(Get-WeeklyReportEntries $WeeklyReportsRoot)
 $dailyEntries = @(Get-DailyReportEntries $DailyOutputRoot)
+
+if ($weeklyEntries.Count -eq 0) {
+    throw "未找到可用的周报目录：$WeeklyReportsRoot"
+}
 
 if ($dailyEntries.Count -eq 0) {
     throw "未找到可用的单日日报目录：$DailyOutputRoot"
 }
 
+$weeklyDir = Get-Item -LiteralPath $weeklyEntries[0].FullName
 $dailyDir = Get-Item -LiteralPath $dailyEntries[0].FullName
 
 $weeklyHtml = Get-LatestFileByExtension $weeklyDir.FullName ".html"
@@ -430,6 +677,38 @@ $dailyJson = Get-LatestFileByExtension $dailyDir.FullName ".json"
 Copy-ReportFile $weeklyHtml.FullName (Join-Path $WeeklyDest "index.html")
 Copy-ReportFile $weeklyMd.FullName (Join-Path $WeeklyDest "weekly_report.md")
 Copy-ReportFile $weeklyJson.FullName (Join-Path $WeeklyDest "weekly_records.json")
+
+$weeklyArchiveRoot = Join-Path $WeeklyDest "by-range"
+Reset-Dir $weeklyArchiveRoot
+
+foreach ($entry in $weeklyEntries) {
+    $entryDir = $entry.FullName
+    $destDir = Join-Path $weeklyArchiveRoot $entry.Id
+    Ensure-Dir $destDir
+
+    Copy-ReportFile (Get-LatestFileByExtension $entryDir ".html").FullName (Join-Path $destDir "index.html")
+    Copy-ReportFile (Get-LatestFileByExtension $entryDir ".md").FullName (Join-Path $destDir "weekly_report.md")
+    Copy-ReportFile (Get-LatestFileByExtension $entryDir ".json").FullName (Join-Path $destDir "weekly_records.json")
+}
+
+$weeklyManifest = [ordered]@{
+    generated_at = (Get-Date).ToString("s")
+    latest = $weeklyEntries[0].Id
+    latest_label = $weeklyEntries[0].Label
+    latest_markdown = "./weekly_report.md"
+    ranges = @(
+        $weeklyEntries | ForEach-Object {
+            [ordered]@{
+                id = $_.Id
+                start = $_.StartDate
+                end = $_.EndDate
+                label = $_.Label
+            }
+        }
+    )
+}
+Write-Utf8File (Join-Path $WeeklyDest "available_weeks.json") (($weeklyManifest | ConvertTo-Json -Depth 5) -replace "`n", "`r`n")
+Write-Utf8File (Join-Path $WeeklyDest "index.html") ((Get-WeeklyLandingHtml -DefaultRangeId $weeklyEntries[0].Id) -replace "`n", "`r`n")
 
 Copy-ReportFile $dailyMd.FullName (Join-Path $DailyDest "daily_report.md")
 Copy-ReportFile $dailyJson.FullName (Join-Path $DailyDest "daily_records.json")
@@ -460,9 +739,11 @@ $weeklySourceRelative = "CNS周报/reports/{0}" -f $weeklyDir.Name
 $dailySourceRelative = "paper-overview-extractor-RSS/output/{0}" -f $dailyDir.Name
 
 Update-SubReadme $WeeklyDest "周报" $weeklySourceRelative @(
-    "- 页面：``index.html``",
+    "- 入口页面：``index.html``（默认最新，支持切换历史周报）",
+    "- 历史归档：``by-range/YYYY-MM-DD_YYYY-MM-DD/``",
     "- Markdown：``weekly_report.md``",
-    "- 结构化数据：``weekly_records.json``"
+    "- 结构化数据：``weekly_records.json``",
+    "- 区间清单：``available_weeks.json``"
 )
 
 Update-SubReadme $DailyDest "日报" $dailySourceRelative @(
@@ -480,15 +761,15 @@ $rootReadme = @'
 
 当前仓库公开以下目录：
 
-- `[周报]/`：CNS 周报项目导出的最新周报
-- `[日报]/`：RSS 项目导出的最新日报
+- `[周报]/`：CNS 周报项目导出的周报入口页（支持切换历史周报）
+- `[日报]/`：RSS 项目导出的日报入口页（支持切换历史日报）
 
 ## 手机端查看
 
 优先建议开启 GitHub Pages 后，通过浏览器打开仓库首页，再从首页进入：
 
-- `[日报]/`：查看最新日报页面
-- `[周报]/`：查看最新周报页面
+- `[日报]/`：默认昨日报告，并可切换历史日报
+- `[周报]/`：默认最新周报，并可切换历史周报
 
 如果只想在手机上快速查看：
 

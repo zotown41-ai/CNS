@@ -1,0 +1,3100 @@
+{
+  "generated_at": "2026-03-22T15:07:05",
+  "start": "2026-03-09",
+  "end": "2026-03-15",
+  "journals": [
+    "Nature",
+    "Science",
+    "Cell",
+    "Cell metabolism",
+    "immunity",
+    "Nature Immunology",
+    "Science Immunology",
+    "Bioinformatics",
+    "Nature Protocols"
+  ],
+  "keywords": [
+    "肿瘤免疫",
+    "免疫代谢",
+    "神经退行性疾病",
+    "微生物组",
+    "转化医学"
+  ],
+  "top10": [
+    {
+      "pmid": "41819102",
+      "title": "Respiratory viral infections prime accelerated lung cancer growth.",
+      "journal": "Cell",
+      "pub_date": "2026-03-11",
+      "abstract": "The COVID-19 pandemic has highlighted the long-term consequences of viral pneumonia, yet its impact on cancer development remains unclear. Here, we show that patients previously hospitalized with severe COVID-19 have an increased risk of subsequent lung cancer. Across multiple murine models, severe respiratory viral infections accelerated lung cancer growth, whereas vaccination mitigated infection-enhanced tumor progression. Mechanistically, prior viral pneumonia reprogrammed the lung into a pro-tumor microenvironment marked by the sustained accumulation of tumor-associated neutrophils and heightened immunosuppression. We observed persistent chromatin remodeling at key cytokine loci in immune and structural cells, linking inflammatory memory to tumor-promoting signals. Therapeutically, combined blockade of neutrophil recruitment and programmed death-ligand 1 (PD-L1) restored CD8+ T cell function and suppressed tumor growth. Together, these findings establish a causal link between prior viral pneumonia and lung tumorigenesis, underscoring the need for enhanced surveillance and targeted interventions to reduce post-COVID cancer risk.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cell.2026.02.013",
+      "pmcid": null,
+      "authors": [
+        "Wei Qian",
+        "Xiaoqin Wei",
+        "Andrew J Barros",
+        "Xiangyu Ye",
+        "Haibo Zhang",
+        "Qing Yu",
+        "Samuel P Young",
+        "Eric V Yeatts"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "COVID-19",
+        "epigenetic imprinting",
+        "influenza",
+        "lung cancer",
+        "respiratory viral infection",
+        "tumor-associated neutrophils"
+      ],
+      "weekly_match": true,
+      "score": 43.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.013",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "41819105",
+      "title": "Pluripotent stem-cell-based screening uncovers sildenafil as a mitochondrial disease therapy.",
+      "journal": "Cell",
+      "pub_date": "2026-03-19",
+      "abstract": "Mitochondrial disease encompasses inherited disorders affecting mitochondrial function. A severe and untreatable form of mitochondrial disease is Leigh syndrome (LS), causing psychomotor regression and metabolic crises. To accelerate drug discovery for LS, we screen a library of 5,632 repurposable compounds in neural cells from LS-patient-derived induced pluripotent stem cells (iPSCs). We identify phosphodiesterase type 5 (PDE5) inhibitors as leads and prioritize sildenafil for its clinical safety. Sildenafil corrects mitochondrial membrane potential defects, restores neurodevelopmental pathways, and normalizes calcium responses in LS brain organoids. In small and large mammalian models of LS, sildenafil extends lifespan and ameliorates disease phenotypes. Off-label treatment on an individual basis with sildenafil in six LS patients improves their motor function and resistance to metabolic crises. Collectively, the findings highlight the potential of iPSC-driven drug discovery and position sildenafil as a promising drug candidate for mitochondrial disease.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cell.2026.02.008",
+      "pmcid": null,
+      "authors": [
+        "Annika Zink",
+        "Dao-Fu Dai",
+        "Annika Wittich",
+        "Marie-Thérèse Henke",
+        "Giulia Pedrotti",
+        "Sonja Heiduschka",
+        "Guillem Santamaria",
+        "Tancredi Massimo Pentimalli"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "Leigh syndrome",
+        "PDE5 inhibitors",
+        "PRKG1",
+        "brain organoids",
+        "drug repurposing",
+        "drug screening",
+        "high-content analysis",
+        "iPSCs",
+        "mitochondrial diseases",
+        "sildenafil"
+      ],
+      "weekly_match": true,
+      "score": 40.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.008",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "41747735",
+      "title": "Sensory neuron production of substance P and TAFA4 promotes disease tolerance during viral infection.",
+      "journal": "Immunity",
+      "pub_date": "2026-03-10",
+      "abstract": "Host resistance to infection relies on coordinated interactions between the immune and nervous systems. However, the molecular mechanisms underlying this cross-regulation remain unclear, particularly during viral infections. We have shown that herpes simplex virus type 1 directly activates sensory neurons, inducing production of the neuropeptide substance P (SP) and the neurokine TAFA4. These mediators played independent, tissue-specific immunoregulatory functions in the skin and dorsal root ganglia (DRGs), the main sites of viral replication. In the skin, the SP produced by transient receptor potential vanilloid type 1 (TRPV1)+ sensory neurons limited neutrophil infiltration through the Mas-related G protein-coupled receptor member A1 (MRGPRA1) receptor and promoted skin healing, revealing an unexpected anti-inflammatory role for this neuropeptide. In infected DRGs, a TAFA4-interleukin (IL)-10 pathway promoted the resolution of inflammation after viral clearance. Together, these neuroimmune regulatory pathways reduced the detrimental impact of the infection on host fitness without directly altering pathogen elimination, revealing how the sensory nervous system has developed several mechanisms to promote disease tolerance.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.01.022",
+      "pmcid": null,
+      "authors": [
+        "Anais Roger",
+        "Tiphaine Fohrer",
+        "Ugo Mardelle",
+        "Isaac Thomas",
+        "Sara Teimouri Nezhad",
+        "Surbhi Gupta",
+        "Alissa Dory",
+        "Vidthiya Jeyanathan"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "HSV-1",
+        "MRGPRA1",
+        "TAFA4",
+        "dorsal root ganglia",
+        "immune response",
+        "myeloperoxidase",
+        "neutrophils",
+        "sensory neurons",
+        "skin",
+        "substance P"
+      ],
+      "weekly_match": true,
+      "score": 30.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.022",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "41806833",
+      "title": "Immune-microbiome coordination defines interferon setpoints in healthy humans.",
+      "journal": "Cell",
+      "pub_date": "2026-03-09",
+      "abstract": "Human immune systems are highly variable, with most variation attributable to non-genetic sources. The gut microbiome crucially shapes the immune system; however, its relationship with the baseline immune states of healthy humans remains incompletely understood. Therefore, we performed multi-omic profiling of 110 healthy participants through the ImmunoMicrobiome study. A factor-based integrative approach identified coordinated variation, revealing that the interferon response was amongst the most variable immune features in healthy participants. Microbiome composition, pathways, and stool metabolites varied concomitantly with interferon response pathways. Longitudinal data spanning more than a year indicated the significant stability of these parameters within individuals over time. Our study provides extensive data to examine the relationship between the immune states and microbiomes of healthy individuals at steady state, which paves the way for delineating inter-individual differences relevant for disease susceptibility and responses to therapy.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cell.2026.02.003",
+      "pmcid": null,
+      "authors": [
+        "Joel Babdor",
+        "Ravi K Patel",
+        "Brittany Davidson",
+        "Kelvin Koser",
+        "Cecilia Noecker",
+        "Maha K Rahim",
+        "Jordan E Bisanz",
+        "Iliana Tenvooren"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "human immunology",
+        "immune setpoint",
+        "immune system",
+        "interferon",
+        "microbiome",
+        "multi-omic integration"
+      ],
+      "weekly_match": true,
+      "score": 30.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.003",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "41812649",
+      "title": "Immune cells regulate circulating adipocyte extracellular vesicle levels in response to metabolic shifts.",
+      "journal": "Cell metabolism",
+      "pub_date": "2026-03-10",
+      "abstract": "Extracellular vesicles (EVs) are now recognized as potent mediators of inter-organ signaling and are implicated in the pathogenesis of obesity and associated comorbidities. Despite a recent surge in functional information about EVs, we still lack a basic understanding of how endogenous EV levels are controlled to regulate inter-organ signaling. New flow cytometry technologies have allowed us to study the regulation of circulating endogenous EVs from metabolically relevant cell types such as adipocytes (adipocyte-derived EVs [adipoEVs]). We provide evidence for a paradigm of EV regulation in which tissue-resident immune cells, predominantly macrophages, clear EVs released by local tissue cells or those entering the tissue from circulation, an activity that determines circulating EV levels. In obesity, EV uptake by adipose tissue immune cells is reduced, leading to increased circulating adipoEVs and reduced adipoEV clearance rates. This work shows that tissue immune cells gate tissue EV entry into the circulation, making them key regulators of inter-organ EV signaling.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cmet.2026.02.008",
+      "pmcid": null,
+      "authors": [
+        "Snigdha Tiash",
+        "Saket Awadhesbhai Patel",
+        "Marjori Russo",
+        "Anusha Suresh",
+        "Bo Pang",
+        "Yun-Ling Pai",
+        "Wentong Jia",
+        "Rachael L Field"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "adipocyte",
+        "exosomes",
+        "extracellular vesicles",
+        "insulin resistance",
+        "inter-organ signaling",
+        "macrophage",
+        "mitochondria",
+        "obesity",
+        "spectral flow cytometry",
+        "type 2 diabetes"
+      ],
+      "weekly_match": true,
+      "score": 27.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cmet.2026.02.008",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "41824554",
+      "title": "Inflammatory ILC2s migrate to distal tissues during infection using stage-specific S1P receptors.",
+      "journal": "Science immunology",
+      "pub_date": "2026-03-13",
+      "abstract": "Tissue-resident lymphocytes can recirculate, but the underlying molecular mechanism is poorly understood. During helminth infection, intestinal group 2 innate lymphoid cells (ILC2s) rapidly proliferate and give rise to inflammatory ILC2s (iILC2s), which migrate from the intestine to distal tissues. Here, we show in mice that the redistribution of iILC2s requires access to lymphatic vessels. Interleukin-25 (IL-25) induces a substantial change in the epigenetic landscape of iILC2s, with transcription factors KLF2 and ZEB2 driving increased expression of sphingosine-1-phosphate receptor 1 (S1PR1) and S1PR5, respectively. S1PR5 regulates iILC2 exit from the intestine to the lymph, whereas S1PR1 is critical for iILC2 egress from the mesenteric lymph nodes to the blood and then to distal tissues including the lung, where iILC2s contribute to tissue repair. The requirement of two S1PRs is largely due to the dynamic expression of CD69, which mediates S1PR1 internalization. Thus, S1PRs modulate iILC2 emigration from nonlymphoid and lymphoid organs in a stage-specific manner, which provides a framework for understanding the multistep migration of tissue-resident immune cells.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1126/sciimmunol.adw4613",
+      "pmcid": null,
+      "authors": [
+        "Takamasa Ito",
+        "Christine F Wu",
+        "Yingyu Zhang",
+        "Yoshihiro Ishida",
+        "Kristjan H Gretarsson",
+        "Xinjing Xu",
+        "Raymond Zou",
+        "Vincent Guichard"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 25.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1126/sciimmunol.adw4613",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "41826799",
+      "title": "Competing Subclones and Fitness Diversity Shape Tumor Evolution Across Cancer Types.",
+      "journal": "Bioinformatics (Oxford, England)",
+      "pub_date": "2026-03-12",
+      "abstract": "MOTIVATION: Intratumor heterogeneity arises from ongoing somatic evolution and complicates cancer diagnosis, prognosis, and treatment. Reconstructing evolutionary dynamics typically requires spatiotemporal samples, which are often unavailable in clinical settings. Computational approaches that can infer tumor evolutionary history from single-timepoint bulk sequencing data remain limited.\nRESULTS: We present TEATIME (estimating evolutionary events through single-timepoint sequencing), a novel computational framework that models tumors as mixtures of two competing cell populations: an ancestral clone with baseline fitness and a derived subclone with elevated fitness. Using cross-sectional bulk sequencing data, TEATIME estimates mutation rates, timing of subclone emergence, relative fitness, and number of generations of growth. To quantify intratumor fitness asymmetries, we introduce a novel metric-fitness diversity-which captures the imbalance between competing cell populations and serves as a measure of functional intratumor heterogeneity. Applying TEATIME to 33 tumor types from The Cancer Genome Atlas, we revealed divergent as well as convergent evolutionary patterns. Notably, we found that immune-hot microenvironments constraint subclonal expansion and limit fitness diversity. Moreover, we detected temporal dependencies in mutation acquisition, where early driver mutations in ancestral clones epistatically shape the fitness landscape, predisposing specific subclones to selective advantages. These findings underscore the importance of intratumor competition and tumor-microenvironment interactions in shaping evolutionary trajectories, driving intratumor heterogeneity. Lastly, we demonstrate that TEATIME-derived evolutionary parameters and fitness diversity offer novel prognostic insights across multiple cancer types.\nAVAILABILITY: R implementation of TEATIME is available on GitHub (https://github.com/liliulab/TEATIME) and Zenodo (https://zenodo.org/records/17422174).\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1093/bioinformatics/btag127",
+      "pmcid": null,
+      "authors": [
+        "Hai Chen",
+        "Jingmin Shu",
+        "Rekha Mudappathi",
+        "Elaine Li",
+        "Panwen Wang",
+        "Leif Bergsagel",
+        "Ping Yang",
+        "Zhifu Sun"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 23.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1093/bioinformatics/btag127",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "41672072",
+      "title": "Hormonal rewiring of immunity during dietary restriction ensures host defense and systemic glucose conservation.",
+      "journal": "Immunity",
+      "pub_date": "2026-03-10",
+      "abstract": "Food shortages and infectious diseases were constant threats throughout mammalian evolution and often occurred simultaneously. When food availability is reduced, it is unclear how the host adapts to support glucose-demanding immune processes while preventing hypoglycemia. In the context of dietary restriction (DR), we found that glucocorticoids (GCs) aligned naive, effector, and memory T cell populations with the nutritional status of the host. DR-induced GCs promoted naive T cell homing to the bone marrow, which supported their homeostasis at steady state. Following a primary infection, DR-induced GCs rewired immunity to simultaneously uphold pathogen control and systemic glucose homeostasis. GCs achieved this by dampening effector T cells and enhancing the response of neutrophils with reduced glucose dependence. Although the total effector T cell pool was decreased during DR, GCs enriched memory-precursor effector cells to preserve memory formation. Thus, GCs align immunity and metabolic physiology to ensure host fitness when food availability is reduced.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.01.003",
+      "pmcid": null,
+      "authors": [
+        "Luisa Menezes-Silva",
+        "Mingeum Jeong",
+        "Charles Carr",
+        "Riley M Schneider",
+        "Silvia Pires",
+        "Ana C Codo",
+        "Jazib Uddin",
+        "Alexander Grier"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "T cell",
+        "caloric restriction",
+        "glucocorticoids",
+        "hormones",
+        "metabolism",
+        "neutrophil",
+        "nutrition"
+      ],
+      "weekly_match": true,
+      "score": 22.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.003",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "41831436",
+      "title": "Large-scale metaproteomics of human gut microbiota reveals microbial functions in metabolic diseases and aging.",
+      "journal": "Cell metabolism",
+      "pub_date": "2026-03-13",
+      "abstract": "The protein-level functionalities of the human gut microbiota in large populations, and their associations with host factors, remain unexplored. This study reports a metaproteomic study of 1,967 fecal samples from 1,399 middle-aged and elderly Chinese individuals, identifying microbial functions linked to 44 phenotypes. We uncover aging-associated functional shifts in carbon metabolism and energy production driven by species within the Bacillota, Bacteroidota, Actinomycetota, and Pseudomonadota. Across metabolic diseases, we observe the consistent depletion of Bacillota species and their proteins involved in carbohydrate, energy, amino acid metabolism, and short-chain fatty acid production. We also identify medication-associated features across diabetes, hypertension, and dyslipidemia. Validated in an independent cohort, Megasphaera elsdenii emerged as a hub species in type 2 diabetes. Experimental validation indicates that M. elsdenii is promoted by antidiabetic drugs and may regulate glucose homeostasis through butyrate production. This study provides protein-level evidence of microbial functions in health and disease, highlighting potential therapeutic targets.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cmet.2026.02.012",
+      "pmcid": null,
+      "authors": [
+        "Shuang Liang",
+        "Yingying Sun",
+        "Zelei Miao",
+        "Bang-Yan Li",
+        "Ziyuan Xing",
+        "Yuting Xie",
+        "Enci Cai",
+        "Sainan Li"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "Megasphaera elsdenii",
+        "aging",
+        "diabetes",
+        "human gut microbiome",
+        "metaproteomics"
+      ],
+      "weekly_match": true,
+      "score": 21.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cmet.2026.02.012",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "41818359",
+      "title": "Cancer interception with KRAS inhibitors in preclinical models of pancreatic ductal adenocarcinoma.",
+      "journal": "Science (New York, N.Y.)",
+      "pub_date": "2026-03-12",
+      "abstract": "Transformation of pancreatic epithelial cells to malignant pancreatic ductal adenocarcinoma (PDAC) typically involves the progression of precancerous pancreatic intraepithelial neoplasia (PanINs) bearing oncogenic KRAS mutations. Here, we tested the impact of PDAC interception using either RAS(ON) multiselective or RAS(ON) G12D-selective pharmacological inhibitors [RAS(ON) inhibitors] in mouse models of PDAC. Treatment of PanIN-bearing mice with RAS(ON) inhibitors prompted regression of premalignant lesions that translated into a delay in tumor onset and an increase in overall survival (OS). Long-term interception in tumor-prone mice resulted in a median OS of more than 1 year compared with less than 5 months in nonintercepted control mice (P < 0.0001). Comparing the survival benefits of RAS(ON) inhibition for cancer interception versus RAS(ON) inhibition for cancer treatment, we found that interception provided a greater survival benefit to mice. These findings suggest that a pharmacological approach may reduce premalignant burden and increase survival in PDAC.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1126/science.aec7929",
+      "pmcid": null,
+      "authors": [
+        "Minh T Than",
+        "Lucie Dequiedt",
+        "Rina Sor",
+        "Shreya Nair",
+        "Nune Markosyan",
+        "Emma E Furth",
+        "Chenghua Yang",
+        "Courtney Ray-Fofana"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 19.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1126/science.aec7929",
+      "supplement_reason": null
+    }
+  ],
+  "weekly_papers": {
+    "Nature": [],
+    "Science": [
+      {
+        "pmid": "41818388",
+        "title": "Microglia Rank signaling regulates GnRH neuronal function and the hypothalamic-pituitary-gonadal axis.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-03-12",
+        "abstract": "The hypothalamic-pituitary-gonadal axis (HPG) controls pubertal development, sexual maturation, and fertility. We identified a role of hypothalamic microglia in controlling the HPG axis through receptor activator of nuclear factor κβ (Rank) signaling. Whole-body and microglia Rank depletion led to hypogonadotropic hypogonadism (HH) resulting from an alteration in gonadotropin-releasing hormone (GnRH) neuron function. In addition, we identified rare gene variants of RANK in patients with HH. Transcriptional profiling upon Rank loss revealed defective microglia activation and morphological alterations in the median eminence, decreasing the contacts and engulfment of GnRH terminal projections and impairing GnRH neuronal responses to kisspeptin. Overall, our data uncover the microglia as regulator of GnRH neuronal function through Rank signaling, with potential implications for reproductive maturation and fertility.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aeb6999",
+        "pmcid": null,
+        "authors": [
+          "Alejandro Collado-Sole",
+          "Nozha Borjini",
+          "Jing Zhai",
+          "Francisco Ruiz-Pino",
+          "Gonzalo Soria-Alcaide",
+          "Cintia Folgueira",
+          "Celia García-Vilela",
+          "Beatriz Romero-de la Rosa"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aeb6999",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41818370",
+        "title": "Autophagolysosomal exocytosis inverts Src kinase onto the cell surface in cancer.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-03-12",
+        "abstract": "Overexpression of the proto-oncogene Src is common to a wide variety of cancers. In this work, we found that Src is noncanonically translocated and inverted onto the cell surface in cancer, both in vitro and in vivo. We identified autophagolysosomal exocytosis (ALE) as a secretory mechanism prominent in cancer cell lines. Src represents the prototypical example of a family of membrane-anchored proteins that are transported by this process. Furthermore, this extracellular membrane-associated Src (eSrc) was found in primary tumors, and anti-Src antibody-based therapies mediated tumor cell killing in cell culture systems and in mouse xenograft models. Thus, intracellular N-myristoylated proteins, prototypically Src, can be topologically inverted onto the cell surface in cancer and targeted with antibody therapeutics.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aec1778",
+        "pmcid": null,
+        "authors": [
+          "Corleone S Delaveris",
+          "Rita P Loudermilk",
+          "Apurva Pandey",
+          "Soumya G Remesh",
+          "Trenton M Peters-Clarke",
+          "Snehal D Ganjave",
+          "William J N Dougherty",
+          "Henry M Delavan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 12.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aec1778",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41818359",
+        "title": "Cancer interception with KRAS inhibitors in preclinical models of pancreatic ductal adenocarcinoma.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-03-12",
+        "abstract": "Transformation of pancreatic epithelial cells to malignant pancreatic ductal adenocarcinoma (PDAC) typically involves the progression of precancerous pancreatic intraepithelial neoplasia (PanINs) bearing oncogenic KRAS mutations. Here, we tested the impact of PDAC interception using either RAS(ON) multiselective or RAS(ON) G12D-selective pharmacological inhibitors [RAS(ON) inhibitors] in mouse models of PDAC. Treatment of PanIN-bearing mice with RAS(ON) inhibitors prompted regression of premalignant lesions that translated into a delay in tumor onset and an increase in overall survival (OS). Long-term interception in tumor-prone mice resulted in a median OS of more than 1 year compared with less than 5 months in nonintercepted control mice (P < 0.0001). Comparing the survival benefits of RAS(ON) inhibition for cancer interception versus RAS(ON) inhibition for cancer treatment, we found that interception provided a greater survival benefit to mice. These findings suggest that a pharmacological approach may reduce premalignant burden and increase survival in PDAC.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aec7929",
+        "pmcid": null,
+        "authors": [
+          "Minh T Than",
+          "Lucie Dequiedt",
+          "Rina Sor",
+          "Shreya Nair",
+          "Nune Markosyan",
+          "Emma E Furth",
+          "Chenghua Yang",
+          "Courtney Ray-Fofana"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 19.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aec7929",
+        "supplement_reason": null
+      }
+    ],
+    "Cell": [
+      {
+        "pmid": "41819105",
+        "title": "Pluripotent stem-cell-based screening uncovers sildenafil as a mitochondrial disease therapy.",
+        "journal": "Cell",
+        "pub_date": "2026-03-19",
+        "abstract": "Mitochondrial disease encompasses inherited disorders affecting mitochondrial function. A severe and untreatable form of mitochondrial disease is Leigh syndrome (LS), causing psychomotor regression and metabolic crises. To accelerate drug discovery for LS, we screen a library of 5,632 repurposable compounds in neural cells from LS-patient-derived induced pluripotent stem cells (iPSCs). We identify phosphodiesterase type 5 (PDE5) inhibitors as leads and prioritize sildenafil for its clinical safety. Sildenafil corrects mitochondrial membrane potential defects, restores neurodevelopmental pathways, and normalizes calcium responses in LS brain organoids. In small and large mammalian models of LS, sildenafil extends lifespan and ameliorates disease phenotypes. Off-label treatment on an individual basis with sildenafil in six LS patients improves their motor function and resistance to metabolic crises. Collectively, the findings highlight the potential of iPSC-driven drug discovery and position sildenafil as a promising drug candidate for mitochondrial disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.02.008",
+        "pmcid": null,
+        "authors": [
+          "Annika Zink",
+          "Dao-Fu Dai",
+          "Annika Wittich",
+          "Marie-Thérèse Henke",
+          "Giulia Pedrotti",
+          "Sonja Heiduschka",
+          "Guillem Santamaria",
+          "Tancredi Massimo Pentimalli"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Leigh syndrome",
+          "PDE5 inhibitors",
+          "PRKG1",
+          "brain organoids",
+          "drug repurposing",
+          "drug screening",
+          "high-content analysis",
+          "iPSCs",
+          "mitochondrial diseases",
+          "sildenafil"
+        ],
+        "weekly_match": true,
+        "score": 40.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.008",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41819103",
+        "title": "Human-specific features of the cerebellum and ZP2-regulated synapse development.",
+        "journal": "Cell",
+        "pub_date": "2026-03-19",
+        "abstract": "Understanding the unique features of the human brain compared with non-human primates has long intrigued humankind. The cerebellum refines motor coordination and cognitive functions, contributing to the evolutionary development of human adaptability and dexterity. To identify shared and divergent features across primates, we conducted single-nucleus transcriptomic and chromatin accessibility profiling of the adult cerebellar cortex in humans, chimpanzees, macaques, and marmosets. We revealed human-specific transcriptomic and regulatory features, particularly those involved in synaptogenesis. Notably, we identified enrichment of the sperm receptor zona pellucida glycoprotein 2 (ZP2) and its potential interactors, known for their roles in gamete interaction, in human granule cells (GCs). Experimental data show that ZP2 expression in human GCs is induced by pontine mossy fibers, reducing synaptic proteins at the pontocerebellar glomerular synapses and decreasing cerebellar neuron electrophysiological activity. This unexpected co-option of ZP2 in human-specific synapse regulation provides insights into the evolutionary specialization of the human cerebellum.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.02.014",
+        "pmcid": null,
+        "authors": [
+          "Suel-Kee Kim",
+          "Adriana Cherskov",
+          "Aastha Sindhwani",
+          "Sang-Hun Choi",
+          "Hyojin Kim",
+          "Ming-Li Li",
+          "Menglei Zhang",
+          "Xoel Mato-Blanco"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ZP2",
+          "brain evolution",
+          "cerebellum",
+          "human-specific",
+          "multiomics",
+          "synapse development"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.014",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41819104",
+        "title": "Cell-type-specific transposon demethylation and TAD remodeling in aging mouse brain.",
+        "journal": "Cell",
+        "pub_date": "2026-03-11",
+        "abstract": "Aging is a major risk factor for neurodegenerative diseases, yet the underlying epigenetic mechanisms remain unclear. Here, we generated a comprehensive single-nucleus cell atlas of brain aging across multiple brain regions, comprising 132,551 single-cell methylomes and 72,666 joint chromatin conformation-methylome nuclei. Integration with companion transcriptomic and chromatin accessibility data yielded a cross-modality taxonomy of 36 major cell types. We observed that transposable element (TE) methylation alone distinguished age groups, showing cell-type-specific genome-wide demethylation. Chromatin conformation analysis demonstrated age-related increases in topologically associated domain (TAD) boundary strength with enhanced accessibility at CCCTC-binding factor (CTCF) binding sites. Spatial transcriptomics across 895,296 cells revealed regional heterogeneity during aging within identical cell types. Finally, we developed deep-learning models that reliably predict age-related gene expression changes using multi-modal epigenetic features, providing mechanistic insights into gene regulation. Age-related comparisons use a 2-month baseline reflecting the late-adolescent/early-young adult stage. This dataset advances our understanding of brain aging and offers potential translational applications.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.02.015",
+        "pmcid": null,
+        "authors": [
+          "Qiurui Zeng",
+          "Wenliang Wang",
+          "Wei Tian",
+          "Amit Klein",
+          "Anna Bartlett",
+          "Hanqing Liu",
+          "Joseph R Nery",
+          "Rosa G Castanon"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "3D genome",
+          "DNA methylation",
+          "brain aging",
+          "deep learning",
+          "multi-omic",
+          "neurons and glias",
+          "single-cell",
+          "spatial transcriptome",
+          "topologically associating domains",
+          "transposable elements"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.015",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41819102",
+        "title": "Respiratory viral infections prime accelerated lung cancer growth.",
+        "journal": "Cell",
+        "pub_date": "2026-03-11",
+        "abstract": "The COVID-19 pandemic has highlighted the long-term consequences of viral pneumonia, yet its impact on cancer development remains unclear. Here, we show that patients previously hospitalized with severe COVID-19 have an increased risk of subsequent lung cancer. Across multiple murine models, severe respiratory viral infections accelerated lung cancer growth, whereas vaccination mitigated infection-enhanced tumor progression. Mechanistically, prior viral pneumonia reprogrammed the lung into a pro-tumor microenvironment marked by the sustained accumulation of tumor-associated neutrophils and heightened immunosuppression. We observed persistent chromatin remodeling at key cytokine loci in immune and structural cells, linking inflammatory memory to tumor-promoting signals. Therapeutically, combined blockade of neutrophil recruitment and programmed death-ligand 1 (PD-L1) restored CD8+ T cell function and suppressed tumor growth. Together, these findings establish a causal link between prior viral pneumonia and lung tumorigenesis, underscoring the need for enhanced surveillance and targeted interventions to reduce post-COVID cancer risk.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.02.013",
+        "pmcid": null,
+        "authors": [
+          "Wei Qian",
+          "Xiaoqin Wei",
+          "Andrew J Barros",
+          "Xiangyu Ye",
+          "Haibo Zhang",
+          "Qing Yu",
+          "Samuel P Young",
+          "Eric V Yeatts"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "COVID-19",
+          "epigenetic imprinting",
+          "influenza",
+          "lung cancer",
+          "respiratory viral infection",
+          "tumor-associated neutrophils"
+        ],
+        "weekly_match": true,
+        "score": 43.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.013",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41812662",
+        "title": "Microbiome-produced nicotinic acid controls colon regional identity and injury susceptibility.",
+        "journal": "Cell",
+        "pub_date": "2026-03-10",
+        "abstract": "The regionalized structure of the intestinal epithelium is critical for its function, and the risk for certain diseases has a regional bias. However, how regionalization is established and how it influences disease susceptibility remain poorly understood. Here, we investigated the role of the gut microbiome-the regionalized community of microorganisms in the intestinal lumen-in promoting regionalization of the colon. We found that the proximo-distal identity of colonocytes along the organ's length is disrupted in mice lacking a microbiome and that the proximal colonic microbiome produces high levels of nicotinic acid, which induces Pparα expression to establish proximal colonocyte identity. Furthermore, we report that microbiome-driven proximal identity confers protection against tissue injury in the mouse. Finally, we determined that the human colon is regionalized and loses its proximal identity during certain disease states.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.02.007",
+        "pmcid": null,
+        "authors": [
+          "Jérémie Rispal",
+          "Jasmine R Garcia",
+          "Brisa Palikuqi",
+          "Manasa Vegesna",
+          "Dedeepya Vaka",
+          "Seung Woo Kang",
+          "Coralie Trentesaux",
+          "Juan Du"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "colon",
+          "colonocytes",
+          "dextran sodium sulfate",
+          "epithelium",
+          "host-microbiome interactions",
+          "inflammatory bowel disease",
+          "metabolism",
+          "microbiome",
+          "nicotinic acid",
+          "regionalization"
+        ],
+        "weekly_match": true,
+        "score": 12.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.007",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41812661",
+        "title": "Papuan admixture predated the settlement of Palau.",
+        "journal": "Cell",
+        "pub_date": "2026-03-10",
+        "abstract": "The first people reached Remote Oceania 3,000 years before present (BP), arriving roughly simultaneously in the southwest Pacific, the Marianas Archipelago, and Palau. However, no genome-wide ancient DNA data have been available from Palau, a gap we address by reporting 21 individuals from four archaeological sites dating between 2,900 and 500 BP. All had approximately 60% ancestry related to East Asians and 40% to Papuans, similar to present-day Palauans, the longest stretch of population continuity anywhere in Remote Oceania. The lengths of contiguous Papuan ancestry segments in the oldest individuals show that major admixture between Papuans and East Asians in the ancestors of all sampled Palauans began prior to first settlement. This differs from the pattern in the southwest Pacific, where sampled individuals of the Lapita archaeological culture from three different islands had almost entirely East Asian ancestry, with large amounts of Papuan admixture observed only hundreds of years later.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.02.011",
+        "pmcid": null,
+        "authors": [
+          "Yue-Chen Liu",
+          "Joanne Eakin",
+          "Jolie Liston",
+          "Rosalind Hunter-Anderson",
+          "Calvin Emesiochel",
+          "Kiblas Soaladaob",
+          "Sunny O Ngirmang",
+          "Olivia Cheronet"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Austronesian",
+          "Micronesia",
+          "Palau",
+          "ancient DNA",
+          "first Remote Oceanians"
+        ],
+        "weekly_match": true,
+        "score": 0.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.011",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41806835",
+        "title": "Ferritin aggregation cell engager for CAR T avidity engineering against refractory leukemias.",
+        "journal": "Cell",
+        "pub_date": "2026-03-09",
+        "abstract": "Although promising, chimeric antigen receptor T (CAR T) cell therapy for treating leukemias still faces the critical challenge of antigen modulation, which causes resistance. Building from our clinical insight that both diverse types of leukemia cells and corresponding CAR T cells strongly express CD71 (a ferritin receptor), we designed a ferritin aggregation cell engager (FACE) that can anchor to the CAR T cell surface, guide CAR T cells to face leukemia cells, and facilitate CAR recognition of cognate antigens. In vitro and in vivo experiments with diverse leukemia patient-derived cells and leukemia patient-derived xenograft models show that our FACE-CAR T cells succeed in enhancing therapeutic efficacy with good biosafety, lowering the antigen threshold for overcoming antigen modulation, and even loading chemodrugs in ferritin for combination therapy. This avidity engineering provides a neotype, facile, universal, and flexible approach for improving the efficacy of CAR T cell therapy for diverse refractory leukemias.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.02.005",
+        "pmcid": null,
+        "authors": [
+          "Feng Li",
+          "Yuxing Hu",
+          "Yan Wang",
+          "Xiao Zhang",
+          "Shaowei Qiu",
+          "Xiaoming Hu",
+          "Wenjing Wang",
+          "Shuang Wang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CAR T cell",
+          "avidity engineering",
+          "cell engager",
+          "ferritin",
+          "leukemia"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.005",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41806834",
+        "title": "NAD+ hydrolysis catalyzed by SelO is required for mitochondrial homeostasis.",
+        "journal": "Cell",
+        "pub_date": "2026-03-09",
+        "abstract": "The regulation of nicotinamide adenine dinucleotide (NAD+) is crucial for numerous life processes. However, the mechanisms leading to NAD+ degradation in mitochondria remain insufficiently defined. Through in silico screening of potential NAD-binding proteins, we discovered a mitochondrial reaction in which NAD+ is hydrolyzed to nicotinamide mononucleotide (NMN) and AMP by SELENOO (SelO), using Mn2+ as cofactor. Catalysis depends on SelO's selenocysteine-serine-serine (CSS) C-terminal residues, particularly the selenocysteine 667. In addition to broad metabolic effects, this reaction plays a pronounced role in lipid utilization via SelO directly associating with fatty acid oxidation (FAO) enzymes, and it is conserved in both mammalian cells and bacteria. This reaction is responsive to elevated matrix pH, a signal of enhanced mitochondrial respiration, and protects mitochondria from sustained metabolic overactivation. These findings reveal a conserved mechanism for spatiotemporal NAD+ regulation and highlight its physiological significance in both prokaryotes and eukaryotes.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.01.033",
+        "pmcid": null,
+        "authors": [
+          "Xiaofan Jia",
+          "Teng Zhang",
+          "Chenxi Yang",
+          "Kaiyang Liu",
+          "Li Wu",
+          "Longfei Diao",
+          "Yuting Yang",
+          "Jie Wu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "NAD",
+          "fatty acid oxidation",
+          "hydrolysis reaction",
+          "mitochondrial homeostasis",
+          "nicotinamide adenine dinucleotide",
+          "selenocysteine"
+        ],
+        "weekly_match": true,
+        "score": 10.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.01.033",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41806833",
+        "title": "Immune-microbiome coordination defines interferon setpoints in healthy humans.",
+        "journal": "Cell",
+        "pub_date": "2026-03-09",
+        "abstract": "Human immune systems are highly variable, with most variation attributable to non-genetic sources. The gut microbiome crucially shapes the immune system; however, its relationship with the baseline immune states of healthy humans remains incompletely understood. Therefore, we performed multi-omic profiling of 110 healthy participants through the ImmunoMicrobiome study. A factor-based integrative approach identified coordinated variation, revealing that the interferon response was amongst the most variable immune features in healthy participants. Microbiome composition, pathways, and stool metabolites varied concomitantly with interferon response pathways. Longitudinal data spanning more than a year indicated the significant stability of these parameters within individuals over time. Our study provides extensive data to examine the relationship between the immune states and microbiomes of healthy individuals at steady state, which paves the way for delineating inter-individual differences relevant for disease susceptibility and responses to therapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.02.003",
+        "pmcid": null,
+        "authors": [
+          "Joel Babdor",
+          "Ravi K Patel",
+          "Brittany Davidson",
+          "Kelvin Koser",
+          "Cecilia Noecker",
+          "Maha K Rahim",
+          "Jordan E Bisanz",
+          "Iliana Tenvooren"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "human immunology",
+          "immune setpoint",
+          "immune system",
+          "interferon",
+          "microbiome",
+          "multi-omic integration"
+        ],
+        "weekly_match": true,
+        "score": 30.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.003",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41806832",
+        "title": "Bringing the genetically minimal cell to life on a computer in 4D.",
+        "journal": "Cell",
+        "pub_date": "2026-03-09",
+        "abstract": "We present a whole-cell spatial and kinetic model for the ∼100 min cell cycle of the genetically minimal bacterium JCVI-syn3A. We simulate the complete cell cycle in 4D (space and time), including all genetic information processes, metabolic networks, growth, and cell division. By integrating hybrid computational methods, we model the dynamics of morphological transformations. Growth is driven by insertion of lipids and membrane proteins and constrained by fluorescence imaging data. Chromosome replication and segregation are controlled by the essential structural maintenance of chromosome proteins, analogous to condensin (SMC) and topoisomerase proteins in Brownian dynamics simulations, with replication rates responding to deoxyribonucleotide triphosphate (dNTP) pools from metabolism. The model captures the origin-to-terminus ratio measured in our DNA sequencing and recovers other experimental measurements, such as doubling time, mRNA half-lives, protein distributions, and ribosome counts. Because of stochasticity, each replicate cell is unique. We predict not only the average behavior of partitioning to daughter cells but also the heterogeneity among them.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.02.009",
+        "pmcid": null,
+        "authors": [
+          "Zane R Thornburg",
+          "Andrew Maytin",
+          "Jiwoong Kwon",
+          "Troy A Brier",
+          "Benjamin R Gilbert",
+          "Enguang Fu",
+          "Yang-Le Gao",
+          "Jordan Quenneville"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "DNA sequencing",
+          "Lattice Microbes",
+          "cell cycle",
+          "fluorescence imaging",
+          "minimal cell",
+          "whole-cell modeling"
+        ],
+        "weekly_match": true,
+        "score": 3.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.009",
+        "supplement_reason": null
+      }
+    ],
+    "Cell metabolism": [
+      {
+        "pmid": "41831436",
+        "title": "Large-scale metaproteomics of human gut microbiota reveals microbial functions in metabolic diseases and aging.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-03-13",
+        "abstract": "The protein-level functionalities of the human gut microbiota in large populations, and their associations with host factors, remain unexplored. This study reports a metaproteomic study of 1,967 fecal samples from 1,399 middle-aged and elderly Chinese individuals, identifying microbial functions linked to 44 phenotypes. We uncover aging-associated functional shifts in carbon metabolism and energy production driven by species within the Bacillota, Bacteroidota, Actinomycetota, and Pseudomonadota. Across metabolic diseases, we observe the consistent depletion of Bacillota species and their proteins involved in carbohydrate, energy, amino acid metabolism, and short-chain fatty acid production. We also identify medication-associated features across diabetes, hypertension, and dyslipidemia. Validated in an independent cohort, Megasphaera elsdenii emerged as a hub species in type 2 diabetes. Experimental validation indicates that M. elsdenii is promoted by antidiabetic drugs and may regulate glucose homeostasis through butyrate production. This study provides protein-level evidence of microbial functions in health and disease, highlighting potential therapeutic targets.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.02.012",
+        "pmcid": null,
+        "authors": [
+          "Shuang Liang",
+          "Yingying Sun",
+          "Zelei Miao",
+          "Bang-Yan Li",
+          "Ziyuan Xing",
+          "Yuting Xie",
+          "Enci Cai",
+          "Sainan Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Megasphaera elsdenii",
+          "aging",
+          "diabetes",
+          "human gut microbiome",
+          "metaproteomics"
+        ],
+        "weekly_match": true,
+        "score": 21.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.02.012",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41819088",
+        "title": "Vitamin C inhibits ACSL4 to alleviate ferro-aging in primates.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-03-11",
+        "abstract": "Aging is associated with oxidative stress, but specific druggable pathways remain elusive. Here, we define a conserved iron-lipid axis driving primate aging, termed \"ferro-aging.\" Multi-tissue profiling in humans and non-human primates reveals age-progressive iron accumulation, fueling chronic lipid peroxidation orchestrated by acyl-coenzyme A (CoA) synthetase long-chain family member 4 (ACSL4). Distinct from acute ferroptosis, this ACSL4-mediated process promotes cellular senescence and systemic functional decline. The therapeutic inhibition of hepatic ACSL4 via gene editing alleviates aging phenotypes in mice. Through functional screening and target engagement studies, we identify vitamin C (VC) as a direct inhibitor of ACSL4. Long-term VC administration in aged monkeys for over 40 months potently reduces ferro-aging signatures across tissues, attenuates multi-organ pathology, and improves neurological and metabolic functions. Multi-omic aging clocks indicate the VC-mediated reversal of biological age. Our work establishes ferro-aging as a core, targetable mechanism of primate aging and positions VC as a translatable geroprotective strategy through ACSL4 inhibition.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.02.010",
+        "pmcid": null,
+        "authors": [
+          "Lixiao Liu",
+          "Zikai Zheng",
+          "Wanbang You",
+          "Peng Yang",
+          "Yifan Wen",
+          "Yicheng Qiao",
+          "Shuai Ma",
+          "Hui Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ACSL4",
+          "NRF2",
+          "aging",
+          "ferro-aging",
+          "iron",
+          "primate",
+          "senescence",
+          "vitamin C"
+        ],
+        "weekly_match": true,
+        "score": 11.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.02.010",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41812649",
+        "title": "Immune cells regulate circulating adipocyte extracellular vesicle levels in response to metabolic shifts.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-03-10",
+        "abstract": "Extracellular vesicles (EVs) are now recognized as potent mediators of inter-organ signaling and are implicated in the pathogenesis of obesity and associated comorbidities. Despite a recent surge in functional information about EVs, we still lack a basic understanding of how endogenous EV levels are controlled to regulate inter-organ signaling. New flow cytometry technologies have allowed us to study the regulation of circulating endogenous EVs from metabolically relevant cell types such as adipocytes (adipocyte-derived EVs [adipoEVs]). We provide evidence for a paradigm of EV regulation in which tissue-resident immune cells, predominantly macrophages, clear EVs released by local tissue cells or those entering the tissue from circulation, an activity that determines circulating EV levels. In obesity, EV uptake by adipose tissue immune cells is reduced, leading to increased circulating adipoEVs and reduced adipoEV clearance rates. This work shows that tissue immune cells gate tissue EV entry into the circulation, making them key regulators of inter-organ EV signaling.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.02.008",
+        "pmcid": null,
+        "authors": [
+          "Snigdha Tiash",
+          "Saket Awadhesbhai Patel",
+          "Marjori Russo",
+          "Anusha Suresh",
+          "Bo Pang",
+          "Yun-Ling Pai",
+          "Wentong Jia",
+          "Rachael L Field"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "adipocyte",
+          "exosomes",
+          "extracellular vesicles",
+          "insulin resistance",
+          "inter-organ signaling",
+          "macrophage",
+          "mitochondria",
+          "obesity",
+          "spectral flow cytometry",
+          "type 2 diabetes"
+        ],
+        "weekly_match": true,
+        "score": 27.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.02.008",
+        "supplement_reason": null
+      }
+    ],
+    "immunity": [
+      {
+        "pmid": "41812644",
+        "title": "Antibody responses against bacterial glycans affinity mature and diversify in germinal centers.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Anti-carbohydrate antibodies (Abs) play crucial roles in pathogen control, but their generation remains poorly understood. Here, we studied how B cell immunity against the Streptococcus pyogenes surface polysaccharide is influenced by age and antigen (Ag) exposure across human blood, spleen, and tonsils. The glycan-targeted response shifted from immunoglobulin M (IgM) biased in children toward IgG and IgA biased in adults. Both natural colonization and controlled human infection with S. pyogenes increased class-switched B cells, with evidence of within-clone switching. Glycan-specific B cells readily engaged in germinal center (GC) responses and underwent robust somatic hypermutation (SHM) but had reduced expression of T cell help-associated molecules, correlating with lower antibody-secreting cell (ASC) output. Thus, mucosal pathogen encounters elicit glycan responses that class switch, evolve, and diversify through the GC, with implications for the design and schedule of glycan-containing vaccines.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.02.006",
+        "pmcid": null,
+        "authors": [
+          "Holly A Fryer",
+          "Catherine Pitt",
+          "Hannah R Frost",
+          "Nitika Kandhari",
+          "Sean Byars",
+          "Pailene S Lim",
+          "Rhiannon L Fettes",
+          "Reece M Lovett"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "B cells",
+          "Strep A",
+          "Streptococcus pyogenes",
+          "carbohydrate",
+          "colonization",
+          "germinal center",
+          "group A carbohydrate",
+          "mucosal immunology",
+          "somatic hypermutation",
+          "tonsil"
+        ],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.02.006",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41812642",
+        "title": "Out of many, IL-1.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Sick animals often show reduced social engagement, a form of adaptive behavioral distancing thought to limit pathogen transmission beyond the infected individual. In a recent issue of Cell, Yang et al. identified a defined molecular and anatomical pathway through which inflammatory signals are sensed by the brain and translated into active social withdrawal.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.02.008",
+        "pmcid": null,
+        "authors": [
+          "Jinsu Lee",
+          "Michael A Wheeler"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.02.008",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41759513",
+        "title": "A longitudinal study of children identifies antibody Fc-mediated functions and antigen targets of immunity to Plasmodium vivax malaria.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Plasmodium vivax is the most widespread cause of malaria with a high burden of disease. Progress in reducing the global malaria burden has stalled with no vaccines available partly due to a limited knowledge of targets and mechanisms of protective immunity. We developed a platform to quantify antibody functions to multiple P. vivax antigens and dissect immunity in a longitudinal cohort of children from Papua New Guinea at risk of P. vivax malaria. We identified antigens targeted by multiple functional antibodies, including interactions with Fcγ receptors, which mediate different cellular effector functions, and complement fixation, advancing our understanding of P. vivax immunity. We identified specific antigens targeted by antibodies associated with protection from P. vivax malaria. Evaluating thousands of possible combinations, we identified subsets of antigens in the most protective combinations providing leads for developing highly protective multi-antigen P. vivax vaccines eliciting multi-functional antibody responses to achieve and sustain elimination.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.02.003",
+        "pmcid": "PMC12988864",
+        "authors": [
+          "D Herbert Opi",
+          "Rhea J Longley",
+          "Eizo Takashima",
+          "Tim Spelman",
+          "Yanie Tayipto",
+          "Kael Schoffer",
+          "Jessica Brewster",
+          "Linda Reiling"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Fcγ receptor binding",
+          "Papua New Guinea",
+          "Plasmodium vivax malaria",
+          "antibodies",
+          "children",
+          "complement-fixation",
+          "malaria vaccines"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.02.003",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41759511",
+        "title": "Immunity in Alzheimer's disease: From mechanisms to therapies.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder that leads to cognitive decline, dementia, and ultimately death. Recent anatomical and functional discoveries of neuroimmune interactions during the development and progression of AD are beginning to shed light on disease mechanisms and potential precision immunotherapies. Here, we review the current understanding of the contribution of innate and adaptive immunity to AD pathogenesis and progression. We discuss how microglia and T cells shape stage-specific immune responses in AD, how genetic risk converges on microglial activation and antigen presentation pathways, and the protective and pathogenic roles of microglia and T cells during distinct stages of AD progression. In the context of this deeper understanding of immune cells in AD, we discuss emerging therapeutic approaches in the clinic and argue for the importance of interventions that precisely modulate neuroimmune dynamics at different stages of AD.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1016/j.immuni.2026.02.004",
+        "pmcid": null,
+        "authors": [
+          "Xiaoying Chen",
+          "David M Holtzman",
+          "Marco Colonna"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Alzheimer’s disease",
+          "T cell",
+          "human",
+          "microglia",
+          "mouse",
+          "neuroimmunology",
+          "tau",
+          "β-amyloid"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.02.004",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41759510",
+        "title": "MafB is a conserved transcriptional regulator of macrophage development and functional identity across tissues and species.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Homeostatic resident tissue macrophages (RTMs) not only exhibit diversity across tissues but also share common features that are driven by conserved transcriptional programs. While the transcription factor MafB is highly expressed in macrophages, its role in establishing RTM identity and functions remains unclear. Here, we show that MafB was required for the development of bone-marrow-derived macrophages (BMDMs) and most RTMs in vivo. MafB deficiency retained RTMs in a CD52high immature stage and disrupted global and tissue-specific identities and functions, impairing phagocytosis, splenic iron recycling, and lung, kidney, and gut physiology. Epigenetic profiling revealed that MafB directly regulated key RTM genes in mice and humans, including Csf1r, Mertk, Fcgr1, Cd163, and Zeb2. In silico analyses further demonstrated strong evolutionary conservation of MafB binding sites across vertebrates. Together, these findings establish MafB as a crucial regulator of RTM development and functional identity, linking MafB-dependent transcriptional programs with defining features of RTMs and tissue homeostasis.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.012",
+        "pmcid": "PMC7618887",
+        "authors": [
+          "Domien Vanneste",
+          "Wen Peng",
+          "Zhuangzhuang Liu",
+          "Malik Hamaïdia",
+          "Raphaël La Rocca",
+          "Joan Abinet",
+          "Alexis Balthazar",
+          "Fabienne Perin"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "MafB",
+          "differentiation",
+          "macrophage",
+          "monocyte",
+          "phagocytosis",
+          "transcription factor",
+          "transcriptional regulation"
+        ],
+        "weekly_match": true,
+        "score": 8.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.012",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41747736",
+        "title": "HIV broadly neutralizing antibody escape dynamics drive the outcome of AAV-vectored immunotherapy in humanized mice.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Broadly neutralizing antibodies (bNAbs) have shown promise for the prevention and treatment of HIV. Potency and breadth measured in vitro are often used as predictors of clinical potential; however, human studies demonstrate that the clinical efficacy of bNAbs can be undermined by both preexisting and de novo resistance. Here, we found that HIV-infected humanized mice receiving bNAbs delivered via adeno-associated virus (AAV) as vectored immunotherapy (VIT) could be used to identify antibody escape paths, which were largely conserved for each bNAb. Path selection and consequent therapeutic success were driven by the fitness cost and resistance benefit of emerging mutations. Applying this framework, we independently modulated bNAb resistance or the fitness cost of escape mutants, resulting in the enhanced efficacy of VIT. This escape-path analysis successfully explains the therapeutic efficacy of bNAbs and enables a tractable means of quantifying and comparing the potential for viral escape from therapeutics in vivo.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.031",
+        "pmcid": null,
+        "authors": [
+          "Nicolas M S Galvez",
+          "Adam D Nitido",
+          "Seo Bin Yoo",
+          "Yi Cao",
+          "Cailin E Deal",
+          "Christine L Boutros",
+          "Scott W MacDonald",
+          "Yentli E Soto Albrecht"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "AAV",
+          "HIV",
+          "broadly neutralizing antibody",
+          "escapability",
+          "evolution",
+          "fitness",
+          "humanized mice",
+          "resistance",
+          "vectored immunotherapy"
+        ],
+        "weekly_match": true,
+        "score": 19.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.031",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41747735",
+        "title": "Sensory neuron production of substance P and TAFA4 promotes disease tolerance during viral infection.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Host resistance to infection relies on coordinated interactions between the immune and nervous systems. However, the molecular mechanisms underlying this cross-regulation remain unclear, particularly during viral infections. We have shown that herpes simplex virus type 1 directly activates sensory neurons, inducing production of the neuropeptide substance P (SP) and the neurokine TAFA4. These mediators played independent, tissue-specific immunoregulatory functions in the skin and dorsal root ganglia (DRGs), the main sites of viral replication. In the skin, the SP produced by transient receptor potential vanilloid type 1 (TRPV1)+ sensory neurons limited neutrophil infiltration through the Mas-related G protein-coupled receptor member A1 (MRGPRA1) receptor and promoted skin healing, revealing an unexpected anti-inflammatory role for this neuropeptide. In infected DRGs, a TAFA4-interleukin (IL)-10 pathway promoted the resolution of inflammation after viral clearance. Together, these neuroimmune regulatory pathways reduced the detrimental impact of the infection on host fitness without directly altering pathogen elimination, revealing how the sensory nervous system has developed several mechanisms to promote disease tolerance.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.022",
+        "pmcid": null,
+        "authors": [
+          "Anais Roger",
+          "Tiphaine Fohrer",
+          "Ugo Mardelle",
+          "Isaac Thomas",
+          "Sara Teimouri Nezhad",
+          "Surbhi Gupta",
+          "Alissa Dory",
+          "Vidthiya Jeyanathan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "HSV-1",
+          "MRGPRA1",
+          "TAFA4",
+          "dorsal root ganglia",
+          "immune response",
+          "myeloperoxidase",
+          "neutrophils",
+          "sensory neurons",
+          "skin",
+          "substance P"
+        ],
+        "weekly_match": true,
+        "score": 30.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.022",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41747734",
+        "title": "Effector differentiation by stem-like intraepithelial γδ T cells is required for host defense against infection.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "TCRγδ+ intraepithelial lymphocytes (γδIELs) are crucial for maintaining intestinal homeostasis, yet their functional regulation remains incompletely understood. Here, we demonstrated two distinct γδIEL subsets: CD160+TCF1+BCL6+ stem-like and granzymeB+BLIMP1+ effector-like cells, with the latter exhibiting cytotoxic activity. Stem-like γδIELs differentiated into effector-like cells in response to microbiota and pathogen infection. Interleukin 12 (IL-12), in cooperation with IL-15 and T cell receptor (TCR) signaling, activated a STAT4-BLIMP1 pathway to induce effector differentiation, while IL-12 signaling was required for their cytotoxic function. TCF1 transcription factor deletion reduced stem-like but not effector-like γδIELs, while BCL6 deficiency increased effector-like γδIELs selectively. By contrast, the absence of the transcription factor BLIMP1 not only abolished the development of effector-like γδIELs but also impaired the clearance of enterogenous pathogens. Taken together, these findings define two functionally distinct γδIEL subsets with a hierarchical regulatory program linking microbial and cytokine signals to cytotoxic γδT cell function in the gut.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.006",
+        "pmcid": null,
+        "authors": [
+          "Shiyuan Xie",
+          "Qi Xing",
+          "Qian Zhang",
+          "Hao Zhang",
+          "Qinli Sun",
+          "Qiuyan Lan",
+          "Zhiyu Gu",
+          "Birui Pan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "BCL6",
+          "BLIMP1",
+          "CD160",
+          "Salmonella",
+          "TCF1",
+          "cytotoxicity",
+          "effector-like γδIELs",
+          "intraepithelial γδ T lymphocytes",
+          "stem-like γδIELs",
+          "γδIELs"
+        ],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.006",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41742422",
+        "title": "Antibody-mediated feedback modulates interclonal competition in the germinal center.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Antibodies generated by prior immune responses regulate B cell activation and germinal center (GC) access upon recall immunization. Here, we examined how antibodies produced by an ongoing immune response influence the outcomes of contemporaneous GCs. We developed a mouse model in which expression of the diphtheria toxin receptor from the Prdm1 locus is conditional on tamoxifen-dependent removal of a floxed stop cassette, enabling specific ablation of plasma cells (PCs) and antibodies elicited by an antigen of interest without affecting prior responses. Whereas antibody-mediated feedback was not required for affinity maturation, it modulated competition between B cells with different epitope specificities, specifically by reducing the abundance of clones that recognized the same epitopes as plasma cell-derived soluble antibodies. This form of feedback represents a mechanism by which antibodies can shape epitope specificity in ongoing GCs, with implications for our understanding of immunodominance and for vaccine design strategies aimed at steering GCs toward desired epitopes on complex antigens.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.008",
+        "pmcid": null,
+        "authors": [
+          "Alexandru Barbulescu",
+          "Jana Bilanovic",
+          "Tom Langelaar",
+          "A Katharina Teetz",
+          "Linas Urnavicius",
+          "Alvaro Hobbs",
+          "Jin-Jie Shen",
+          "Nadine H Abrahamse"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "B cell",
+          "antibody-mediated feedback",
+          "germinal center",
+          "influenza hemagglutinin",
+          "plasma cell"
+        ],
+        "weekly_match": true,
+        "score": 8.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.008",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41742421",
+        "title": "Polystyrene microplastic-induced pathophysiology is driven by disruption of efferocytosis.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Microplastics (MPs), microparticles from plastic degradation, pose a substantial threat to human health. Macrophages, the body's immune sentinels, are unable to break down MPs, suggesting that MP accumulation could impair essential functions, such as removal of apoptotic cells (ACs), termed efferocytosis. We found that polystyrene MP (PS-MP) accumulation disrupted efferocytosis by impairing AC digestion in multiple types of macrophages and Sertoli cells, specialized testes phagocytes, in vitro. PS-MP exposure also suppressed efferocytosis and caused damage in the lungs, liver, and testes in vivo. Mechanistically, PS-MP-loaded efferocytotic macrophages had dysregulated metabolic and phagolysosome processes, including accumulation of methylglyoxal (MGO) and increased MGO glycation of glucose-6-phosphate dehydrogenase, an enzyme required for AC digestion. Consistently, we found that overexpression of the MGO detoxification glyoxalase-1 rescued PS-MP-induced defects in AC digestion in vitro and in vivo. Collectively, we demonstrate that PS-MPs directly disrupt efferocytosis, which negatively affects the function and health of multiple organs.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.009",
+        "pmcid": "PMC12948039",
+        "authors": [
+          "Ana C Codo",
+          "Jesus E Romero-Pichardo",
+          "Zhaoquan Wang",
+          "Mariano A Aufiero",
+          "Tomi Lazarov",
+          "Waleska Saitz Rojas",
+          "Nicole S Walker",
+          "Achuth Nair"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "efferocytosis",
+          "immunometabolism",
+          "methylglyoxal",
+          "microplastics",
+          "phagocytosis",
+          "polystyrene",
+          "tissue-resident macrophages"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.009",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41722568",
+        "title": "Hyperactivation of sympathetic nerves fuels basophil infiltration in atopic dermatitis.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Emotional stress exacerbates atopic dermatitis (AD) and contributes to overall disease burden. While sympathetic nervous system (SNS) activity broadly interacts with emotional states, its role in skin immunity remains underexplored. Using a murine model of AD-like disease, we demonstrated that skin inflammation triggered anxiety-like behaviors and hyperactivation of peripheral SNS innervating the affected skin. Disruption of peripheral SNS signaling, either by denervation or anxiety-relief interventions, markedly attenuated skin inflammation. Mechanistically, basophils were identified as key effector cells regulated by SNS activity. Norepinephrine activated β2-adrenergic receptors to enhance basophil motility and the chemokine C-C motif chemokine ligand (CCL)6-C-C motif chemokine receptor (CCR)1 axis, thereby promoting skin inflammation. In human AD, sympathetic nerve remodeling was observed in skin lesions, and basophil-associated CCL23 (the human ortholog of murine CCL6) and CCR1 correlated with disease severity. These findings define an SNS-basophil axis that links emotional states to skin inflammation, highlighting autonomic regulation as a therapeutic target for chronic skin diseases.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.010",
+        "pmcid": null,
+        "authors": [
+          "Xinyang Xie",
+          "Wenjing Jiang",
+          "Lerong Lun",
+          "Xiaobao Huang",
+          "Rui Xu",
+          "Xiuwen Li",
+          "Jipang Zhan",
+          "Yalin Xie"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "adrenergic receptor",
+          "anxiety",
+          "atopic dermatitis",
+          "basophil",
+          "chemokine",
+          "norepinephrine",
+          "skin inflammation",
+          "sympathetic nervous system"
+        ],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.010",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41713422",
+        "title": "The transcriptional repressor Fli1 inhibits proteostasis during nutrient stress to limit NK cell persistence in solid tumors.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Tumor-infiltrating natural killer (NK) cells display reduced persistence and effector functions. Here, we examined the mechanisms underlying NK cell dysfunction in cancer. Gene expression analyses of matched tumor-infiltrating and tumor-adjacent human NK cells revealed that regulators of proteostasis were associated with worse survival outcomes. In mice, NK cells accumulated intracellular protein aggregates within 24 h of tumor infiltration. Nutrient stress in the tumor microenvironment (TME) triggered proteostasis imbalance in primary human NK cells, decreasing translation of cytokine receptors and inhibiting NK cell activation. SCENIC regulon and multiomic analyses identified FLI1 as a transcriptional repressor of the unfolded protein response (UPR) in NK cells. FLI1 induction following IL-15 signaling suppressed pro-survival UPR gene expression, limiting human NK cell proteostasis and intra-tumoral persistence. Fli1 deletion reduced protein aggregates and enhanced NK cell-mediated tumor control in vivo. Thus, the TME metabolome induces NK cell dysfunction through proteostasis imbalance, and FLI1 targeting may enhance NK cell anti-tumor function.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.017",
+        "pmcid": null,
+        "authors": [
+          "Jeong Hyun Ji",
+          "Wesley R Armstrong",
+          "Joey H Li",
+          "Areeba Lalani",
+          "Cassidy D Lee",
+          "Varchas Bharadwaj",
+          "Kenneth Ho",
+          "Jingtong Liang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Fli1",
+          "dysfunction",
+          "metabolism",
+          "natural killer cells",
+          "protein aggregate",
+          "proteostasis",
+          "solid tumors",
+          "tumor interstitial fluid",
+          "tumor microenvironment",
+          "unfolded protein response"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.017",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41702406",
+        "title": "Caspase-4 binds to LPS membranes with positive curvature for non-canonical inflammasome activation.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "The non-canonical inflammasome, comprising caspase-4 in humans, initiates pyroptosis upon sensing cytosolic lipopolysaccharide (LPS) from Gram-negative bacteria. Caspase-4 activation also depends on several guanylate-binding proteins (GBPs), which associate with the surface of cytosolic bacteria. Here, we investigated how caspase-4 accesses its cognate ligand, the hydrophobic lipid A moiety of LPS, and the role of GBPs in this process. GBP1 was essential for caspase-4 activation during infection. Mechanistically, GBP1 deformed the LPS-containing outer membrane of cytosolic bacteria, acting as a GTP-dependent mechanoenzyme. In vitro, GBP1 fragmented LPS micelles and promoted caspase-4/LPS complex formation, thereby enhancing LPS-induced caspase-4 activation. Fragmented LPS micelles presented additional micelle tips that served as binding and activation sites for caspase-4, indicating that caspase-4 engages LPS membranes with defined geometry rather than individual LPS molecules. Thus, GBP-mediated deformation of the LPS-rich outer bacterial membrane generates regions of positive curvature that expose lipid A, enabling caspase-4 binding, oligomerization, and activation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2025.12.017",
+        "pmcid": null,
+        "authors": [
+          "Jakub Began",
+          "Alexandra Boegli",
+          "Leonie Anton",
+          "Denys Biriukov",
+          "Juvan Vairamuthu",
+          "José Carlos Santos",
+          "Petr Broz"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "GBP1",
+          "LPS",
+          "caspase-4",
+          "inflammasomes",
+          "innate immunity",
+          "lipopolysaccharide sensing",
+          "membrane curvature"
+        ],
+        "weekly_match": true,
+        "score": 12.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2025.12.017",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41690309",
+        "title": "Local antibody feedback enforces a checkpoint on affinity maturation in the germinal center and promotes epitope spreading.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Circulating antibodies from previous immune encounters impact subsequent humoral responses. Here, we investigated how local epitope-specific competition shapes ongoing germinal center (GC) responses by delivering an mRNA-LNP-encoded membrane-bound immunogen displaying three conserved HIV-1 envelope (Env) epitopes to mouse models bearing B cell receptors (BCRs) of defined affinities. High-affinity B cells exhibited shorter GC residency than lower-affinity counterparts. B cells engaged GC reactions at equivalent rates in the presence or absence of clonal lineages binding the same epitope with similar affinities; however, higher-affinity clones suppressed lower-affinity counterparts targeting the same epitope. Spatial transcriptomics revealed plasma-like cells within and adjacent to the GC, and early immunoglobulin G (IgG) was detectable in draining lymph nodes. Our findings suggest that a self-modulating local antibody feedback loop limits epitope-specific recognition-dampening selection for higher-affinity B cells and facilitating epitope spreading by redirecting the response toward alternative epitopes.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.011",
+        "pmcid": null,
+        "authors": [
+          "Yu Yan",
+          "Xuesong Wang",
+          "Zhenfei Xie",
+          "Daniel L V Bader",
+          "Ryan H Lim",
+          "Krystal M Ma",
+          "Christopher A Cottrell",
+          "Jon M Steichen"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "B cell",
+          "HIV",
+          "affinity maturation",
+          "antibody feedback",
+          "germinal center",
+          "local antibody pool",
+          "plasma cells",
+          "sequential immunization",
+          "vaccine"
+        ],
+        "weekly_match": true,
+        "score": 8.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.011",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41672072",
+        "title": "Hormonal rewiring of immunity during dietary restriction ensures host defense and systemic glucose conservation.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Food shortages and infectious diseases were constant threats throughout mammalian evolution and often occurred simultaneously. When food availability is reduced, it is unclear how the host adapts to support glucose-demanding immune processes while preventing hypoglycemia. In the context of dietary restriction (DR), we found that glucocorticoids (GCs) aligned naive, effector, and memory T cell populations with the nutritional status of the host. DR-induced GCs promoted naive T cell homing to the bone marrow, which supported their homeostasis at steady state. Following a primary infection, DR-induced GCs rewired immunity to simultaneously uphold pathogen control and systemic glucose homeostasis. GCs achieved this by dampening effector T cells and enhancing the response of neutrophils with reduced glucose dependence. Although the total effector T cell pool was decreased during DR, GCs enriched memory-precursor effector cells to preserve memory formation. Thus, GCs align immunity and metabolic physiology to ensure host fitness when food availability is reduced.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.003",
+        "pmcid": null,
+        "authors": [
+          "Luisa Menezes-Silva",
+          "Mingeum Jeong",
+          "Charles Carr",
+          "Riley M Schneider",
+          "Silvia Pires",
+          "Ana C Codo",
+          "Jazib Uddin",
+          "Alexander Grier"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "T cell",
+          "caloric restriction",
+          "glucocorticoids",
+          "hormones",
+          "metabolism",
+          "neutrophil",
+          "nutrition"
+        ],
+        "weekly_match": true,
+        "score": 22.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.003",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41666933",
+        "title": "Influenza hijacks myeloid cells to inflict type-I interferon-fueled damage in the heart.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Abundant evidence has correlated influenza infection with cardiovascular disease, yet mechanisms linking infection with the heart remain poorly understood. Here, we show that influenza infection damaged the human and murine heart. In mice, we showed that shortly after pulmonary infection, the virus infected a circulating myeloid pro-dendritic cell 3 (pro-DC3) that expressed high concentrations of the chemokine receptor CCR2. The heart, which produces abundant CCL2, preferentially attracted infected pro-DC3. In the myocardium, the virus escaped pro-DC3, infected cardiomyocytes, and triggered production of type-I interferon (IFN-I). Engagement of the IFN-I receptor (IFNAR1) on cardiomyocytes caused tissue damage and compromised heart function. Genetically and therapeutically dampening IFNAR1 exclusively in cardiomyocytes protected the heart while preserving anti-viral immunity in the lung. Our results identify a series of host-pathogen interactions that propagate tissue damage and uncover an axis for intervention to mitigate cardiovascular risk following viral infection.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2025.12.011",
+        "pmcid": null,
+        "authors": [
+          "Jeffrey Downey",
+          "Ana Oliveira-Coelho",
+          "Máté G Kiss",
+          "Gabriel Laghlali",
+          "Alexander Leunig",
+          "Emir Radkevich",
+          "Laszlo Halasz",
+          "Martin Umali"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cardiovascular disease",
+          "heart",
+          "influenza",
+          "myeloid cells",
+          "pro-DC3",
+          "type I interferon"
+        ],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2025.12.011",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41806829",
+        "title": "Resident tissue macrophages maintain intraocular pressure homeostasis.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-09",
+        "abstract": "Intraocular pressure is tightly regulated by the conventional outflow tissues, preventing ocular hypertension that leads to neurodegeneration of the optic nerve, or glaucoma. Although macrophages reside throughout the conventional outflow tract, their role in regulating intraocular pressure remains unknown. Using macrophage lineage-tracing approaches, we uncovered a dual macrophage ontogeny with distinct spatial organization across the mouse lifespan. Long-lived resident tissue macrophages were concentrated in the trabecular meshwork and Schlemm's canal, whereas steady-state monocyte-derived macrophages were abundant around distal vessels. Specific depletion of resident tissue macrophages triggered increased intraocular pressure and outflow resistance, linked to aberrant extracellular matrix turnover in the resistance-generating tissues of the trabecular meshwork. In contrast, dysregulated physiology and tissue remodeling were not observed when monocyte-derived macrophages were depleted. Altogether, we show ontogeny- and tissue-specific macrophage functions within the outflow tract, uncovering the integral homeostatic role of resident tissue macrophages in resistance-generating tissues whose dysfunction is responsible for glaucoma.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.025",
+        "pmcid": "PMC12981339",
+        "authors": [
+          "Katy C Liu",
+          "Aleksander O Grimsrud",
+          "Maria Fernanda Suarez",
+          "Darren Schuman",
+          "Michael L De Ieso",
+          "Megan Kuhn",
+          "Ruth A Kelly",
+          "Rose Mathew"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "glaucoma",
+          "intraocular pressure",
+          "macrophages",
+          "monocytes",
+          "mononuclear phagocytes",
+          "ontogeny",
+          "trabecular meshwork"
+        ],
+        "weekly_match": true,
+        "score": 8.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.025",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Immunology": [
+      {
+        "pmid": "41820552",
+        "title": "TRACKing the tissue-specific origins of diverse effector T cell functions.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-03-12",
+        "abstract": "",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02475-w",
+        "pmcid": null,
+        "authors": [
+          "Orian Bricard",
+          "Adrian Liston"
+        ],
+        "corresponding_authors": [
+          "Orian Bricard",
+          "Adrian Liston"
+        ],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02475-w",
+        "supplement_reason": null
+      }
+    ],
+    "Science Immunology": [
+      {
+        "pmid": "41824555",
+        "title": "T cell development from expanded hematopoietic progenitors reveals initiation control by Lmo2 and Flt3L priming.",
+        "journal": "Science immunology",
+        "pub_date": "2026-03-13",
+        "abstract": "To access the earliest stages of murine T cell development, we adapted a serum-free expansion system for hematopoietic stem and progenitor-like cells. These cells undergo normal T cell differentiation in vivo and in vitro, verified by gene expression trajectories from single-cell RNA sequencing. Their absolute differentiation speed is slower than that of fresh progenitors but is modulated with Flt3L priming. Leveraging this system, the earliest T cell lineage-initiating events in response to Notch signaling included chromatin opening and transcriptional activation of the TCR-Cβ locus. Acute CRISPR knockouts revealed that some transcription factors normally inherited from bone marrow progenitors impede early T cell development, with differing effects on proliferation. Among 23 factors tested, Lmo2 knockout greatly accelerated the onset of germline TCR-Cβ locus transcription and expression of Tcf7, Gata3, and Runx1 and their targets. Thus, normal endogenous expression of this progenitor- and leukemia-associated factor markedly restrains T cell program initiation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.adw7765",
+        "pmcid": null,
+        "authors": [
+          "Boyoung Shin",
+          "Samantha J Chang",
+          "Brendan W MacNabb",
+          "Tom Sidwell",
+          "Brian A Williams",
+          "Ellen V Rothenberg"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.adw7765",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41824554",
+        "title": "Inflammatory ILC2s migrate to distal tissues during infection using stage-specific S1P receptors.",
+        "journal": "Science immunology",
+        "pub_date": "2026-03-13",
+        "abstract": "Tissue-resident lymphocytes can recirculate, but the underlying molecular mechanism is poorly understood. During helminth infection, intestinal group 2 innate lymphoid cells (ILC2s) rapidly proliferate and give rise to inflammatory ILC2s (iILC2s), which migrate from the intestine to distal tissues. Here, we show in mice that the redistribution of iILC2s requires access to lymphatic vessels. Interleukin-25 (IL-25) induces a substantial change in the epigenetic landscape of iILC2s, with transcription factors KLF2 and ZEB2 driving increased expression of sphingosine-1-phosphate receptor 1 (S1PR1) and S1PR5, respectively. S1PR5 regulates iILC2 exit from the intestine to the lymph, whereas S1PR1 is critical for iILC2 egress from the mesenteric lymph nodes to the blood and then to distal tissues including the lung, where iILC2s contribute to tissue repair. The requirement of two S1PRs is largely due to the dynamic expression of CD69, which mediates S1PR1 internalization. Thus, S1PRs modulate iILC2 emigration from nonlymphoid and lymphoid organs in a stage-specific manner, which provides a framework for understanding the multistep migration of tissue-resident immune cells.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.adw4613",
+        "pmcid": null,
+        "authors": [
+          "Takamasa Ito",
+          "Christine F Wu",
+          "Yingyu Zhang",
+          "Yoshihiro Ishida",
+          "Kristjan H Gretarsson",
+          "Xinjing Xu",
+          "Raymond Zou",
+          "Vincent Guichard"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.adw4613",
+        "supplement_reason": null
+      }
+    ],
+    "Bioinformatics": [
+      {
+        "pmid": "41858073",
+        "title": "UPDhmm: detecting Uniparental Disomy from NGS trio data.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-03-12",
+        "abstract": "SUMMARY: Uniparental disomies (UPDs) are copy-neutral chromosomal alterations that occur when both copies of a chromosome pair (entire or segmental) come from one parent. UPDs, including isodisomies (identical parental chromosome) and heterodisomies (two different homologs from the same parent), reflect meiotic and/or mitotic aberrations of chromosomal segregation that can be associated with congenital or acquired disease. Despite their relevance, current methods to detect UPDs using sequence data (exomes or genomes) have limited sensitivity for small events, cannot precisely determine the UPD sub-type or coordinates, and perform poorly when including individuals or populations with consanguinity. We present UPDhmm, a novel tool that uses trio-based sequence data (proband and parents) and models inheritance patterns. UPDhmm predicts the most likely inheritance scenario, normal Mendelian inheritance vs UPD event, based on genotype combinations using a Hidden Markov Model (HMM). We validated the method using simulations on exome and genome data from 1000-Genomes projects. UPDhmm overperformed currently available methods in detecting simulated UPD events in both data types. We applied UPDhmm to a collection of nearly 2400 families with a proband with autism spectrum disorder (Simons Simplex Collection Project) and identified UPD events in two affected individuals, one of them previously unreported. These two events, a paternal isodisomy of chr8 and a maternal heterodisomy of chr22, can be genetic causes of the disease, demonstrating the clinical utility of UPDhmm. Thus, UPDhmm can facilitate the incorporation of UPD detection into clinical pipelines of genomic analysis.\nAVAILABILITY AND IMPLEMENTATION: UPDhmm is implemented in R and is available in the Bioconductor package (version 1.5.0): https://www.bioconductor.org/packages/release/bioc/html/UPDhmm.html. The source code can be found at https://github.com/martasevilla/UPDhmm under the MIT license.\nSUPPLEMENTARY INFORMATION: Supplementary data, including additional figures and datasets, are available online at the journal's website.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag062",
+        "pmcid": null,
+        "authors": [
+          "Marta Sevilla-Porras",
+          "Carlos Ruiz-Arenas",
+          "Luis A Pérez-Jurado"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag062",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41826799",
+        "title": "Competing Subclones and Fitness Diversity Shape Tumor Evolution Across Cancer Types.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-03-12",
+        "abstract": "MOTIVATION: Intratumor heterogeneity arises from ongoing somatic evolution and complicates cancer diagnosis, prognosis, and treatment. Reconstructing evolutionary dynamics typically requires spatiotemporal samples, which are often unavailable in clinical settings. Computational approaches that can infer tumor evolutionary history from single-timepoint bulk sequencing data remain limited.\nRESULTS: We present TEATIME (estimating evolutionary events through single-timepoint sequencing), a novel computational framework that models tumors as mixtures of two competing cell populations: an ancestral clone with baseline fitness and a derived subclone with elevated fitness. Using cross-sectional bulk sequencing data, TEATIME estimates mutation rates, timing of subclone emergence, relative fitness, and number of generations of growth. To quantify intratumor fitness asymmetries, we introduce a novel metric-fitness diversity-which captures the imbalance between competing cell populations and serves as a measure of functional intratumor heterogeneity. Applying TEATIME to 33 tumor types from The Cancer Genome Atlas, we revealed divergent as well as convergent evolutionary patterns. Notably, we found that immune-hot microenvironments constraint subclonal expansion and limit fitness diversity. Moreover, we detected temporal dependencies in mutation acquisition, where early driver mutations in ancestral clones epistatically shape the fitness landscape, predisposing specific subclones to selective advantages. These findings underscore the importance of intratumor competition and tumor-microenvironment interactions in shaping evolutionary trajectories, driving intratumor heterogeneity. Lastly, we demonstrate that TEATIME-derived evolutionary parameters and fitness diversity offer novel prognostic insights across multiple cancer types.\nAVAILABILITY: R implementation of TEATIME is available on GitHub (https://github.com/liliulab/TEATIME) and Zenodo (https://zenodo.org/records/17422174).\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag127",
+        "pmcid": null,
+        "authors": [
+          "Hai Chen",
+          "Jingmin Shu",
+          "Rekha Mudappathi",
+          "Elaine Li",
+          "Panwen Wang",
+          "Leif Bergsagel",
+          "Ping Yang",
+          "Zhifu Sun"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 23.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag127",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41808453",
+        "title": "BrainConnect: processing brain connectivity and spatial transcriptomics data for integrative analysis.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-03-10",
+        "abstract": "MOTIVATION: Characterizing the neuronal connectomes provides route to understand the basis of neural circuit in brains, one of the central missions in neuroscience, but the mapped connectivity is absent of molecular information, obscuring the understanding on the important genes underlying the connectomes. The whole-brain spatial transcriptomics data provide the opportunity to predict and understand the brain connectivity. However, there is no method to process these datasets in consistent data format for integrative analysis.\nRESULTS: In this work, we developed a software to process different kinds of mouse brain connectivity data together with spatial transcriptomics in consistent brain regions to define the connectivity path and strength, and then used the long short-term memory network to predict connectivity strengths from the spatial transcriptomics by using our data framework. We evaluated the model in different ways, and the results showed that our model accurately predicted the connectivity strengths and helped in selecting the important genes potentially involved in the regulation, establishment or maintenance of brain connectivity.\nAVAILABILITY: The software is freely available at Github (https://github.com/CPenglab/BrainConnect) and Pypi (https://pypi.org/project/BrainConnect). An archived version is available at https://doi.org/10.5281/zenodo.18440094.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag120",
+        "pmcid": null,
+        "authors": [
+          "Chenglong Sang",
+          "Cheng Peng"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 12.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag120",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41803074",
+        "title": "VDJ-Insights: simplifying the annotation of genomic IG and TCR regions.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-03-09",
+        "abstract": "MOTIVATION: Accurate annotation of germline immunoglobulin (IG) and T cell receptor (TCR) loci is critical for understanding adaptive immunity.\nRESULTS: VDJ-Insights provides a user-friendly software package for characterizing these complex immune regions. In addition, it assesses gene segment functionality, identifies recombination signal sequences (RSS), and annotates complementarity-determining regions 1 and 2 (CDR1, CDR2). VDJ-Insights achieved over 99% concordance with curated annotations from multiple species, outperforming existing annotation tools. When applied to 95 haplotypes from the Human Pangenome Reference Consortium, VDJ-Insights identified 652 and 275 novel IG and TCR alleles, respectively, highlighting its scalability for large immunogenetic studies.\nAVAILABILITY AND IMPLEMENTATION: Datasets and software package are available in the VDJ-insights repository, https://github.com/BPRC-Bioinfo and https://doi.org/10.5281/zenodo.17588835. Additional intermediate datasets used and analysed during the current study are available from the corresponding authors upon reasonable request.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag108",
+        "pmcid": null,
+        "authors": [
+          "Susan E Ott",
+          "Giang N Le",
+          "Sayed J Mohammadi",
+          "Jesse Mittertreiner",
+          "Erica M Pasini",
+          "Ronald E Bontrop",
+          "Natasja G de Groot",
+          "Jesse Bruijnesteijn"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag108",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41803065",
+        "title": "CoMBCR: Co-Learning Multi-Modalities of BCRs and Gene Expressions.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-03-09",
+        "abstract": "MOTIVATION: B-cell receptors (BCRs) and gene expression profiles are two distinct yet complementary modalities of B cells. However, most analyses treat them independently. Here, we present CoMBCR, a B-cell embedding tool that co-learns BCRs and gene expressions, representing data within a unified latent space for downstream analysis.\nRESULTS: We applied CoMBCR to 126,791 B cells from diverse datasets with matched BCRs and gene expressions. First, CoMBCR outperforms the methods solely encoding BCRs in capturing B-cell biological features, achieving at least 0.1 improvement in Matthews Correlation Coefficient on a SARS-CoV-2 binding prediction task. Second, CoMBCR reveals active immune responses and CDR3 motif preferences through modality gap analysis in SARS-CoV-2-specific memory B cells. Moreover, when supported by spatial transcriptomics data, CoMBCR accurately traces the developmental trajectories of malignant B cells and uncovers transcriptional patterns associated with their survival within lymphoma patients.\nAVAILABILITY AND IMPLEMENTATION: The CoMBCR software is publicly available under the MIT License at https://github.com/deepomicslab/CoMBCR.git.\nSUPPLEMENTARY INFORMATION: Supplementary files are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag115",
+        "pmcid": null,
+        "authors": [
+          "Yiping Zou",
+          "Jiaqi Luo",
+          "Shuaicheng Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "B cells",
+          "BCR",
+          "Co-Learning",
+          "Integration"
+        ],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag115",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Protocols": [
+      {
+        "pmid": "41814089",
+        "title": "FuzDrop: sequence-based prediction of the propensity of proteins for liquid-liquid phase separation and aggregation.",
+        "journal": "Nature protocols",
+        "pub_date": "2026-03-11",
+        "abstract": "Proteins exhibit complex phase behavior as they convert between the native state, the liquid condensate (or droplet) state and the solid condensate (or amyloid) state. To facilitate the study of these processes, we describe the FuzDrop method of predicting the condensation propensity of proteins to undergo liquid-liquid phase separation and to subsequently form amyloid aggregates. The method is based on the principle that liquid condensations reflect a balance between enthalpic and entropic contributions; FuzPred is an algorithm that provides sequence-based estimates for these contributions in stoichiometric complexes ( https://fuzpred.bio.unipd.it/predictor ). FuzDrop extends this algorithm to protein condensates, and enables prediction of the propensity for amyloid formation within liquid condensates, known as the condensation pathway to protein aggregation ( https://fuzdrop.bio.unipd.it/predictor ). This prediction is based on the principle that the sequence regions that promote aggregation within liquid condensates have a multiplicity of binding modes, because they have a strong propensity for both entropic-driven interactions to stabilize the droplet state and enthalpic-driven interactions to stabilize the amyloid state. The time required for FuzDrop predictions on the web server scales linearly with protein length and is typically ~30 s for a protein of 500 residues. By enabling predictions of protein phase behavior, FuzDrop may facilitate experimental studies directed at the development of therapies for protein condensation diseases.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1038/s41596-025-01267-0",
+        "pmcid": null,
+        "authors": [
+          "Michele Vendruscolo",
+          "Monika Fuxreiter"
+        ],
+        "corresponding_authors": [
+          "Michele Vendruscolo",
+          "Monika Fuxreiter",
+          "the MDM2-binding helix",
+          "ionic strength"
+        ],
+        "keywords": [],
+        "weekly_match": true,
+        "score": -2.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41596-025-01267-0",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41807717",
+        "title": "Preparation of placenta-tropic mRNA lipid nanoparticles for pregnancy disorders.",
+        "journal": "Nature protocols",
+        "pub_date": "2026-03-10",
+        "abstract": "Lipid nanoparticles (LNPs) have garnered tremendous enthusiasm in preclinical and clinical settings for the delivery of nucleic acids such as mRNA. With applications in protein replacement therapies, vaccines and gene editing, mRNA LNPs have only recently been explored in the context of pregnancy disorders. There is a significant need for the design of novel therapeutic technologies such as mRNA LNPs to treat obstetric disorders like pre-eclampsia that are associated with placental pathology and detrimental effects on maternal and fetal health. Here, we present a step-by-step procedure for the preparation and evaluation of placenta-tropic mRNA LNPs for researchers from varied disciplines to explore their application in treating pregnancy disorders. In this Protocol, we describe steps for synthesizing and purifying the key ionizable lipid excipient of the placenta-tropic LNP formulation (4 d) before preparing mRNA LNPs using microfluidic mixing (1 d). Then, we detail in vitro mechanistic evaluations of the effect of protein adsorption on LNP-mediated mRNA transfection to placental trophoblasts (3 d). Finally, we outline methods for isolating reproductive tissues from time-dated pregnant mice to assess in vivo LNP biodistribution and mRNA transfection to the murine placenta (16 d). Compared to alternative LNP formulation procedures, this Protocol focuses on delivering mRNA LNPs to the placenta with a workflow that can be applied for a range of obstetric disorders. This Protocol seeks to increase interdisciplinary work at the interface of nanomedicine, gene modulation and reproductive health.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1038/s41596-025-01325-7",
+        "pmcid": null,
+        "authors": [
+          "Kelsey L Swingle",
+          "Michael J Mitchell"
+        ],
+        "corresponding_authors": [
+          "Michael J Mitchell"
+        ],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 0.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41596-025-01325-7",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41803280",
+        "title": "Preparation of targeted lipid nanoparticles for precision nucleic acid delivery.",
+        "journal": "Nature protocols",
+        "pub_date": "2026-03-09",
+        "abstract": "Intravenous administration of lipid nanoparticles for the delivery of nucleic acid therapeutics remains constrained by passive uptake mechanisms in the liver, often necessitating high doses to achieve meaningful transfection in specific cells of interest. Targeted LNPs (tLNPs) can overcome these challenges by (i) enabling receptor-mediated endocytosis in difficult-to-transfect cells, thereby reducing passive clearance; (ii) increasing the proportion of LNPs reaching their intended target; and (iii) enabling comparable protein expression at lower doses. Here, we provide a step-by-step guide for formulating tLNPs functionalized with whole antibodies or antibody fragments using traditional laboratory equipment. We outline procedures for antibody preparation and labeling (0.5-1 d), antibody-LNP conjugation (1-2 d), tLNP purification and characterization (1 d) and in vivo and ex vivo targeting evaluation (3-4 d). To demonstrate the versatility of this protocol, we validate in vivo targeting to two mouse tissues: we show that anti-platelet endothelial cell adhesion molecule 1 antibody conjugation to lung-tropic LNPs enhances lung transfection by five times compared to nontargeted LNPs, and anti-epidermal growth factor receptor antibody conjugation to liver-tropic LNPs enhances liver transfection by 20 times. We also demonstrate ex vivo targeting to primary human T cells, where anti-CD5 antibody conjugation to LNPs boosts uptake by 4.5 times and significantly increases mRNA transfection. Importantly, this modular strategy is compatible with any LNP formulation or antibody. In outlining these procedures, we seek to deliver a robust and reproducible workflow for the manufacturing of tLNPs, with the ultimate goal of advancing their therapeutic potential and facilitating clinical translation.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1038/s41596-025-01330-w",
+        "pmcid": null,
+        "authors": [
+          "Hannah C Geisler",
+          "Elisa Battistini",
+          "Ajay S Thatte",
+          "Marshall S Padilla",
+          "Michael J Mitchell"
+        ],
+        "corresponding_authors": [
+          "Michael J Mitchell"
+        ],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 10.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41596-025-01330-w",
+        "supplement_reason": null
+      }
+    ]
+  },
+  "selected_papers": {
+    "Nature": [],
+    "Science": [
+      {
+        "pmid": "41818359",
+        "title": "Cancer interception with KRAS inhibitors in preclinical models of pancreatic ductal adenocarcinoma.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-03-12",
+        "abstract": "Transformation of pancreatic epithelial cells to malignant pancreatic ductal adenocarcinoma (PDAC) typically involves the progression of precancerous pancreatic intraepithelial neoplasia (PanINs) bearing oncogenic KRAS mutations. Here, we tested the impact of PDAC interception using either RAS(ON) multiselective or RAS(ON) G12D-selective pharmacological inhibitors [RAS(ON) inhibitors] in mouse models of PDAC. Treatment of PanIN-bearing mice with RAS(ON) inhibitors prompted regression of premalignant lesions that translated into a delay in tumor onset and an increase in overall survival (OS). Long-term interception in tumor-prone mice resulted in a median OS of more than 1 year compared with less than 5 months in nonintercepted control mice (P < 0.0001). Comparing the survival benefits of RAS(ON) inhibition for cancer interception versus RAS(ON) inhibition for cancer treatment, we found that interception provided a greater survival benefit to mice. These findings suggest that a pharmacological approach may reduce premalignant burden and increase survival in PDAC.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aec7929",
+        "pmcid": null,
+        "authors": [
+          "Minh T Than",
+          "Lucie Dequiedt",
+          "Rina Sor",
+          "Shreya Nair",
+          "Nune Markosyan",
+          "Emma E Furth",
+          "Chenghua Yang",
+          "Courtney Ray-Fofana"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 19.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aec7929",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41818388",
+        "title": "Microglia Rank signaling regulates GnRH neuronal function and the hypothalamic-pituitary-gonadal axis.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-03-12",
+        "abstract": "The hypothalamic-pituitary-gonadal axis (HPG) controls pubertal development, sexual maturation, and fertility. We identified a role of hypothalamic microglia in controlling the HPG axis through receptor activator of nuclear factor κβ (Rank) signaling. Whole-body and microglia Rank depletion led to hypogonadotropic hypogonadism (HH) resulting from an alteration in gonadotropin-releasing hormone (GnRH) neuron function. In addition, we identified rare gene variants of RANK in patients with HH. Transcriptional profiling upon Rank loss revealed defective microglia activation and morphological alterations in the median eminence, decreasing the contacts and engulfment of GnRH terminal projections and impairing GnRH neuronal responses to kisspeptin. Overall, our data uncover the microglia as regulator of GnRH neuronal function through Rank signaling, with potential implications for reproductive maturation and fertility.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aeb6999",
+        "pmcid": null,
+        "authors": [
+          "Alejandro Collado-Sole",
+          "Nozha Borjini",
+          "Jing Zhai",
+          "Francisco Ruiz-Pino",
+          "Gonzalo Soria-Alcaide",
+          "Cintia Folgueira",
+          "Celia García-Vilela",
+          "Beatriz Romero-de la Rosa"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aeb6999",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41818370",
+        "title": "Autophagolysosomal exocytosis inverts Src kinase onto the cell surface in cancer.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-03-12",
+        "abstract": "Overexpression of the proto-oncogene Src is common to a wide variety of cancers. In this work, we found that Src is noncanonically translocated and inverted onto the cell surface in cancer, both in vitro and in vivo. We identified autophagolysosomal exocytosis (ALE) as a secretory mechanism prominent in cancer cell lines. Src represents the prototypical example of a family of membrane-anchored proteins that are transported by this process. Furthermore, this extracellular membrane-associated Src (eSrc) was found in primary tumors, and anti-Src antibody-based therapies mediated tumor cell killing in cell culture systems and in mouse xenograft models. Thus, intracellular N-myristoylated proteins, prototypically Src, can be topologically inverted onto the cell surface in cancer and targeted with antibody therapeutics.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aec1778",
+        "pmcid": null,
+        "authors": [
+          "Corleone S Delaveris",
+          "Rita P Loudermilk",
+          "Apurva Pandey",
+          "Soumya G Remesh",
+          "Trenton M Peters-Clarke",
+          "Snehal D Ganjave",
+          "William J N Dougherty",
+          "Henry M Delavan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 12.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aec1778",
+        "supplement_reason": null
+      }
+    ],
+    "Cell": [
+      {
+        "pmid": "41819102",
+        "title": "Respiratory viral infections prime accelerated lung cancer growth.",
+        "journal": "Cell",
+        "pub_date": "2026-03-11",
+        "abstract": "The COVID-19 pandemic has highlighted the long-term consequences of viral pneumonia, yet its impact on cancer development remains unclear. Here, we show that patients previously hospitalized with severe COVID-19 have an increased risk of subsequent lung cancer. Across multiple murine models, severe respiratory viral infections accelerated lung cancer growth, whereas vaccination mitigated infection-enhanced tumor progression. Mechanistically, prior viral pneumonia reprogrammed the lung into a pro-tumor microenvironment marked by the sustained accumulation of tumor-associated neutrophils and heightened immunosuppression. We observed persistent chromatin remodeling at key cytokine loci in immune and structural cells, linking inflammatory memory to tumor-promoting signals. Therapeutically, combined blockade of neutrophil recruitment and programmed death-ligand 1 (PD-L1) restored CD8+ T cell function and suppressed tumor growth. Together, these findings establish a causal link between prior viral pneumonia and lung tumorigenesis, underscoring the need for enhanced surveillance and targeted interventions to reduce post-COVID cancer risk.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.02.013",
+        "pmcid": null,
+        "authors": [
+          "Wei Qian",
+          "Xiaoqin Wei",
+          "Andrew J Barros",
+          "Xiangyu Ye",
+          "Haibo Zhang",
+          "Qing Yu",
+          "Samuel P Young",
+          "Eric V Yeatts"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "COVID-19",
+          "epigenetic imprinting",
+          "influenza",
+          "lung cancer",
+          "respiratory viral infection",
+          "tumor-associated neutrophils"
+        ],
+        "weekly_match": true,
+        "score": 43.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.013",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41819105",
+        "title": "Pluripotent stem-cell-based screening uncovers sildenafil as a mitochondrial disease therapy.",
+        "journal": "Cell",
+        "pub_date": "2026-03-19",
+        "abstract": "Mitochondrial disease encompasses inherited disorders affecting mitochondrial function. A severe and untreatable form of mitochondrial disease is Leigh syndrome (LS), causing psychomotor regression and metabolic crises. To accelerate drug discovery for LS, we screen a library of 5,632 repurposable compounds in neural cells from LS-patient-derived induced pluripotent stem cells (iPSCs). We identify phosphodiesterase type 5 (PDE5) inhibitors as leads and prioritize sildenafil for its clinical safety. Sildenafil corrects mitochondrial membrane potential defects, restores neurodevelopmental pathways, and normalizes calcium responses in LS brain organoids. In small and large mammalian models of LS, sildenafil extends lifespan and ameliorates disease phenotypes. Off-label treatment on an individual basis with sildenafil in six LS patients improves their motor function and resistance to metabolic crises. Collectively, the findings highlight the potential of iPSC-driven drug discovery and position sildenafil as a promising drug candidate for mitochondrial disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.02.008",
+        "pmcid": null,
+        "authors": [
+          "Annika Zink",
+          "Dao-Fu Dai",
+          "Annika Wittich",
+          "Marie-Thérèse Henke",
+          "Giulia Pedrotti",
+          "Sonja Heiduschka",
+          "Guillem Santamaria",
+          "Tancredi Massimo Pentimalli"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Leigh syndrome",
+          "PDE5 inhibitors",
+          "PRKG1",
+          "brain organoids",
+          "drug repurposing",
+          "drug screening",
+          "high-content analysis",
+          "iPSCs",
+          "mitochondrial diseases",
+          "sildenafil"
+        ],
+        "weekly_match": true,
+        "score": 40.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.008",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41806833",
+        "title": "Immune-microbiome coordination defines interferon setpoints in healthy humans.",
+        "journal": "Cell",
+        "pub_date": "2026-03-09",
+        "abstract": "Human immune systems are highly variable, with most variation attributable to non-genetic sources. The gut microbiome crucially shapes the immune system; however, its relationship with the baseline immune states of healthy humans remains incompletely understood. Therefore, we performed multi-omic profiling of 110 healthy participants through the ImmunoMicrobiome study. A factor-based integrative approach identified coordinated variation, revealing that the interferon response was amongst the most variable immune features in healthy participants. Microbiome composition, pathways, and stool metabolites varied concomitantly with interferon response pathways. Longitudinal data spanning more than a year indicated the significant stability of these parameters within individuals over time. Our study provides extensive data to examine the relationship between the immune states and microbiomes of healthy individuals at steady state, which paves the way for delineating inter-individual differences relevant for disease susceptibility and responses to therapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.02.003",
+        "pmcid": null,
+        "authors": [
+          "Joel Babdor",
+          "Ravi K Patel",
+          "Brittany Davidson",
+          "Kelvin Koser",
+          "Cecilia Noecker",
+          "Maha K Rahim",
+          "Jordan E Bisanz",
+          "Iliana Tenvooren"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "human immunology",
+          "immune setpoint",
+          "immune system",
+          "interferon",
+          "microbiome",
+          "multi-omic integration"
+        ],
+        "weekly_match": true,
+        "score": 30.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.02.003",
+        "supplement_reason": null
+      }
+    ],
+    "Cell metabolism": [
+      {
+        "pmid": "41812649",
+        "title": "Immune cells regulate circulating adipocyte extracellular vesicle levels in response to metabolic shifts.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-03-10",
+        "abstract": "Extracellular vesicles (EVs) are now recognized as potent mediators of inter-organ signaling and are implicated in the pathogenesis of obesity and associated comorbidities. Despite a recent surge in functional information about EVs, we still lack a basic understanding of how endogenous EV levels are controlled to regulate inter-organ signaling. New flow cytometry technologies have allowed us to study the regulation of circulating endogenous EVs from metabolically relevant cell types such as adipocytes (adipocyte-derived EVs [adipoEVs]). We provide evidence for a paradigm of EV regulation in which tissue-resident immune cells, predominantly macrophages, clear EVs released by local tissue cells or those entering the tissue from circulation, an activity that determines circulating EV levels. In obesity, EV uptake by adipose tissue immune cells is reduced, leading to increased circulating adipoEVs and reduced adipoEV clearance rates. This work shows that tissue immune cells gate tissue EV entry into the circulation, making them key regulators of inter-organ EV signaling.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.02.008",
+        "pmcid": null,
+        "authors": [
+          "Snigdha Tiash",
+          "Saket Awadhesbhai Patel",
+          "Marjori Russo",
+          "Anusha Suresh",
+          "Bo Pang",
+          "Yun-Ling Pai",
+          "Wentong Jia",
+          "Rachael L Field"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "adipocyte",
+          "exosomes",
+          "extracellular vesicles",
+          "insulin resistance",
+          "inter-organ signaling",
+          "macrophage",
+          "mitochondria",
+          "obesity",
+          "spectral flow cytometry",
+          "type 2 diabetes"
+        ],
+        "weekly_match": true,
+        "score": 27.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.02.008",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41831436",
+        "title": "Large-scale metaproteomics of human gut microbiota reveals microbial functions in metabolic diseases and aging.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-03-13",
+        "abstract": "The protein-level functionalities of the human gut microbiota in large populations, and their associations with host factors, remain unexplored. This study reports a metaproteomic study of 1,967 fecal samples from 1,399 middle-aged and elderly Chinese individuals, identifying microbial functions linked to 44 phenotypes. We uncover aging-associated functional shifts in carbon metabolism and energy production driven by species within the Bacillota, Bacteroidota, Actinomycetota, and Pseudomonadota. Across metabolic diseases, we observe the consistent depletion of Bacillota species and their proteins involved in carbohydrate, energy, amino acid metabolism, and short-chain fatty acid production. We also identify medication-associated features across diabetes, hypertension, and dyslipidemia. Validated in an independent cohort, Megasphaera elsdenii emerged as a hub species in type 2 diabetes. Experimental validation indicates that M. elsdenii is promoted by antidiabetic drugs and may regulate glucose homeostasis through butyrate production. This study provides protein-level evidence of microbial functions in health and disease, highlighting potential therapeutic targets.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.02.012",
+        "pmcid": null,
+        "authors": [
+          "Shuang Liang",
+          "Yingying Sun",
+          "Zelei Miao",
+          "Bang-Yan Li",
+          "Ziyuan Xing",
+          "Yuting Xie",
+          "Enci Cai",
+          "Sainan Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Megasphaera elsdenii",
+          "aging",
+          "diabetes",
+          "human gut microbiome",
+          "metaproteomics"
+        ],
+        "weekly_match": true,
+        "score": 21.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.02.012",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41819088",
+        "title": "Vitamin C inhibits ACSL4 to alleviate ferro-aging in primates.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-03-11",
+        "abstract": "Aging is associated with oxidative stress, but specific druggable pathways remain elusive. Here, we define a conserved iron-lipid axis driving primate aging, termed \"ferro-aging.\" Multi-tissue profiling in humans and non-human primates reveals age-progressive iron accumulation, fueling chronic lipid peroxidation orchestrated by acyl-coenzyme A (CoA) synthetase long-chain family member 4 (ACSL4). Distinct from acute ferroptosis, this ACSL4-mediated process promotes cellular senescence and systemic functional decline. The therapeutic inhibition of hepatic ACSL4 via gene editing alleviates aging phenotypes in mice. Through functional screening and target engagement studies, we identify vitamin C (VC) as a direct inhibitor of ACSL4. Long-term VC administration in aged monkeys for over 40 months potently reduces ferro-aging signatures across tissues, attenuates multi-organ pathology, and improves neurological and metabolic functions. Multi-omic aging clocks indicate the VC-mediated reversal of biological age. Our work establishes ferro-aging as a core, targetable mechanism of primate aging and positions VC as a translatable geroprotective strategy through ACSL4 inhibition.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.02.010",
+        "pmcid": null,
+        "authors": [
+          "Lixiao Liu",
+          "Zikai Zheng",
+          "Wanbang You",
+          "Peng Yang",
+          "Yifan Wen",
+          "Yicheng Qiao",
+          "Shuai Ma",
+          "Hui Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ACSL4",
+          "NRF2",
+          "aging",
+          "ferro-aging",
+          "iron",
+          "primate",
+          "senescence",
+          "vitamin C"
+        ],
+        "weekly_match": true,
+        "score": 11.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.02.010",
+        "supplement_reason": null
+      }
+    ],
+    "immunity": [
+      {
+        "pmid": "41747735",
+        "title": "Sensory neuron production of substance P and TAFA4 promotes disease tolerance during viral infection.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Host resistance to infection relies on coordinated interactions between the immune and nervous systems. However, the molecular mechanisms underlying this cross-regulation remain unclear, particularly during viral infections. We have shown that herpes simplex virus type 1 directly activates sensory neurons, inducing production of the neuropeptide substance P (SP) and the neurokine TAFA4. These mediators played independent, tissue-specific immunoregulatory functions in the skin and dorsal root ganglia (DRGs), the main sites of viral replication. In the skin, the SP produced by transient receptor potential vanilloid type 1 (TRPV1)+ sensory neurons limited neutrophil infiltration through the Mas-related G protein-coupled receptor member A1 (MRGPRA1) receptor and promoted skin healing, revealing an unexpected anti-inflammatory role for this neuropeptide. In infected DRGs, a TAFA4-interleukin (IL)-10 pathway promoted the resolution of inflammation after viral clearance. Together, these neuroimmune regulatory pathways reduced the detrimental impact of the infection on host fitness without directly altering pathogen elimination, revealing how the sensory nervous system has developed several mechanisms to promote disease tolerance.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.022",
+        "pmcid": null,
+        "authors": [
+          "Anais Roger",
+          "Tiphaine Fohrer",
+          "Ugo Mardelle",
+          "Isaac Thomas",
+          "Sara Teimouri Nezhad",
+          "Surbhi Gupta",
+          "Alissa Dory",
+          "Vidthiya Jeyanathan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "HSV-1",
+          "MRGPRA1",
+          "TAFA4",
+          "dorsal root ganglia",
+          "immune response",
+          "myeloperoxidase",
+          "neutrophils",
+          "sensory neurons",
+          "skin",
+          "substance P"
+        ],
+        "weekly_match": true,
+        "score": 30.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.022",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41672072",
+        "title": "Hormonal rewiring of immunity during dietary restriction ensures host defense and systemic glucose conservation.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Food shortages and infectious diseases were constant threats throughout mammalian evolution and often occurred simultaneously. When food availability is reduced, it is unclear how the host adapts to support glucose-demanding immune processes while preventing hypoglycemia. In the context of dietary restriction (DR), we found that glucocorticoids (GCs) aligned naive, effector, and memory T cell populations with the nutritional status of the host. DR-induced GCs promoted naive T cell homing to the bone marrow, which supported their homeostasis at steady state. Following a primary infection, DR-induced GCs rewired immunity to simultaneously uphold pathogen control and systemic glucose homeostasis. GCs achieved this by dampening effector T cells and enhancing the response of neutrophils with reduced glucose dependence. Although the total effector T cell pool was decreased during DR, GCs enriched memory-precursor effector cells to preserve memory formation. Thus, GCs align immunity and metabolic physiology to ensure host fitness when food availability is reduced.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.003",
+        "pmcid": null,
+        "authors": [
+          "Luisa Menezes-Silva",
+          "Mingeum Jeong",
+          "Charles Carr",
+          "Riley M Schneider",
+          "Silvia Pires",
+          "Ana C Codo",
+          "Jazib Uddin",
+          "Alexander Grier"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "T cell",
+          "caloric restriction",
+          "glucocorticoids",
+          "hormones",
+          "metabolism",
+          "neutrophil",
+          "nutrition"
+        ],
+        "weekly_match": true,
+        "score": 22.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.003",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41747736",
+        "title": "HIV broadly neutralizing antibody escape dynamics drive the outcome of AAV-vectored immunotherapy in humanized mice.",
+        "journal": "Immunity",
+        "pub_date": "2026-03-10",
+        "abstract": "Broadly neutralizing antibodies (bNAbs) have shown promise for the prevention and treatment of HIV. Potency and breadth measured in vitro are often used as predictors of clinical potential; however, human studies demonstrate that the clinical efficacy of bNAbs can be undermined by both preexisting and de novo resistance. Here, we found that HIV-infected humanized mice receiving bNAbs delivered via adeno-associated virus (AAV) as vectored immunotherapy (VIT) could be used to identify antibody escape paths, which were largely conserved for each bNAb. Path selection and consequent therapeutic success were driven by the fitness cost and resistance benefit of emerging mutations. Applying this framework, we independently modulated bNAb resistance or the fitness cost of escape mutants, resulting in the enhanced efficacy of VIT. This escape-path analysis successfully explains the therapeutic efficacy of bNAbs and enables a tractable means of quantifying and comparing the potential for viral escape from therapeutics in vivo.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.01.031",
+        "pmcid": null,
+        "authors": [
+          "Nicolas M S Galvez",
+          "Adam D Nitido",
+          "Seo Bin Yoo",
+          "Yi Cao",
+          "Cailin E Deal",
+          "Christine L Boutros",
+          "Scott W MacDonald",
+          "Yentli E Soto Albrecht"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "AAV",
+          "HIV",
+          "broadly neutralizing antibody",
+          "escapability",
+          "evolution",
+          "fitness",
+          "humanized mice",
+          "resistance",
+          "vectored immunotherapy"
+        ],
+        "weekly_match": true,
+        "score": 19.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.01.031",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Immunology": [
+      {
+        "pmid": "41820552",
+        "title": "TRACKing the tissue-specific origins of diverse effector T cell functions.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-03-12",
+        "abstract": "",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02475-w",
+        "pmcid": null,
+        "authors": [
+          "Orian Bricard",
+          "Adrian Liston"
+        ],
+        "corresponding_authors": [
+          "Orian Bricard",
+          "Adrian Liston"
+        ],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02475-w",
+        "supplement_reason": null
+      }
+    ],
+    "Science Immunology": [
+      {
+        "pmid": "41824554",
+        "title": "Inflammatory ILC2s migrate to distal tissues during infection using stage-specific S1P receptors.",
+        "journal": "Science immunology",
+        "pub_date": "2026-03-13",
+        "abstract": "Tissue-resident lymphocytes can recirculate, but the underlying molecular mechanism is poorly understood. During helminth infection, intestinal group 2 innate lymphoid cells (ILC2s) rapidly proliferate and give rise to inflammatory ILC2s (iILC2s), which migrate from the intestine to distal tissues. Here, we show in mice that the redistribution of iILC2s requires access to lymphatic vessels. Interleukin-25 (IL-25) induces a substantial change in the epigenetic landscape of iILC2s, with transcription factors KLF2 and ZEB2 driving increased expression of sphingosine-1-phosphate receptor 1 (S1PR1) and S1PR5, respectively. S1PR5 regulates iILC2 exit from the intestine to the lymph, whereas S1PR1 is critical for iILC2 egress from the mesenteric lymph nodes to the blood and then to distal tissues including the lung, where iILC2s contribute to tissue repair. The requirement of two S1PRs is largely due to the dynamic expression of CD69, which mediates S1PR1 internalization. Thus, S1PRs modulate iILC2 emigration from nonlymphoid and lymphoid organs in a stage-specific manner, which provides a framework for understanding the multistep migration of tissue-resident immune cells.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.adw4613",
+        "pmcid": null,
+        "authors": [
+          "Takamasa Ito",
+          "Christine F Wu",
+          "Yingyu Zhang",
+          "Yoshihiro Ishida",
+          "Kristjan H Gretarsson",
+          "Xinjing Xu",
+          "Raymond Zou",
+          "Vincent Guichard"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.adw4613",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41824555",
+        "title": "T cell development from expanded hematopoietic progenitors reveals initiation control by Lmo2 and Flt3L priming.",
+        "journal": "Science immunology",
+        "pub_date": "2026-03-13",
+        "abstract": "To access the earliest stages of murine T cell development, we adapted a serum-free expansion system for hematopoietic stem and progenitor-like cells. These cells undergo normal T cell differentiation in vivo and in vitro, verified by gene expression trajectories from single-cell RNA sequencing. Their absolute differentiation speed is slower than that of fresh progenitors but is modulated with Flt3L priming. Leveraging this system, the earliest T cell lineage-initiating events in response to Notch signaling included chromatin opening and transcriptional activation of the TCR-Cβ locus. Acute CRISPR knockouts revealed that some transcription factors normally inherited from bone marrow progenitors impede early T cell development, with differing effects on proliferation. Among 23 factors tested, Lmo2 knockout greatly accelerated the onset of germline TCR-Cβ locus transcription and expression of Tcf7, Gata3, and Runx1 and their targets. Thus, normal endogenous expression of this progenitor- and leukemia-associated factor markedly restrains T cell program initiation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.adw7765",
+        "pmcid": null,
+        "authors": [
+          "Boyoung Shin",
+          "Samantha J Chang",
+          "Brendan W MacNabb",
+          "Tom Sidwell",
+          "Brian A Williams",
+          "Ellen V Rothenberg"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.adw7765",
+        "supplement_reason": null
+      }
+    ],
+    "Bioinformatics": [
+      {
+        "pmid": "41826799",
+        "title": "Competing Subclones and Fitness Diversity Shape Tumor Evolution Across Cancer Types.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-03-12",
+        "abstract": "MOTIVATION: Intratumor heterogeneity arises from ongoing somatic evolution and complicates cancer diagnosis, prognosis, and treatment. Reconstructing evolutionary dynamics typically requires spatiotemporal samples, which are often unavailable in clinical settings. Computational approaches that can infer tumor evolutionary history from single-timepoint bulk sequencing data remain limited.\nRESULTS: We present TEATIME (estimating evolutionary events through single-timepoint sequencing), a novel computational framework that models tumors as mixtures of two competing cell populations: an ancestral clone with baseline fitness and a derived subclone with elevated fitness. Using cross-sectional bulk sequencing data, TEATIME estimates mutation rates, timing of subclone emergence, relative fitness, and number of generations of growth. To quantify intratumor fitness asymmetries, we introduce a novel metric-fitness diversity-which captures the imbalance between competing cell populations and serves as a measure of functional intratumor heterogeneity. Applying TEATIME to 33 tumor types from The Cancer Genome Atlas, we revealed divergent as well as convergent evolutionary patterns. Notably, we found that immune-hot microenvironments constraint subclonal expansion and limit fitness diversity. Moreover, we detected temporal dependencies in mutation acquisition, where early driver mutations in ancestral clones epistatically shape the fitness landscape, predisposing specific subclones to selective advantages. These findings underscore the importance of intratumor competition and tumor-microenvironment interactions in shaping evolutionary trajectories, driving intratumor heterogeneity. Lastly, we demonstrate that TEATIME-derived evolutionary parameters and fitness diversity offer novel prognostic insights across multiple cancer types.\nAVAILABILITY: R implementation of TEATIME is available on GitHub (https://github.com/liliulab/TEATIME) and Zenodo (https://zenodo.org/records/17422174).\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag127",
+        "pmcid": null,
+        "authors": [
+          "Hai Chen",
+          "Jingmin Shu",
+          "Rekha Mudappathi",
+          "Elaine Li",
+          "Panwen Wang",
+          "Leif Bergsagel",
+          "Ping Yang",
+          "Zhifu Sun"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 23.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag127",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41803065",
+        "title": "CoMBCR: Co-Learning Multi-Modalities of BCRs and Gene Expressions.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-03-09",
+        "abstract": "MOTIVATION: B-cell receptors (BCRs) and gene expression profiles are two distinct yet complementary modalities of B cells. However, most analyses treat them independently. Here, we present CoMBCR, a B-cell embedding tool that co-learns BCRs and gene expressions, representing data within a unified latent space for downstream analysis.\nRESULTS: We applied CoMBCR to 126,791 B cells from diverse datasets with matched BCRs and gene expressions. First, CoMBCR outperforms the methods solely encoding BCRs in capturing B-cell biological features, achieving at least 0.1 improvement in Matthews Correlation Coefficient on a SARS-CoV-2 binding prediction task. Second, CoMBCR reveals active immune responses and CDR3 motif preferences through modality gap analysis in SARS-CoV-2-specific memory B cells. Moreover, when supported by spatial transcriptomics data, CoMBCR accurately traces the developmental trajectories of malignant B cells and uncovers transcriptional patterns associated with their survival within lymphoma patients.\nAVAILABILITY AND IMPLEMENTATION: The CoMBCR software is publicly available under the MIT License at https://github.com/deepomicslab/CoMBCR.git.\nSUPPLEMENTARY INFORMATION: Supplementary files are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag115",
+        "pmcid": null,
+        "authors": [
+          "Yiping Zou",
+          "Jiaqi Luo",
+          "Shuaicheng Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "B cells",
+          "BCR",
+          "Co-Learning",
+          "Integration"
+        ],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag115",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41808453",
+        "title": "BrainConnect: processing brain connectivity and spatial transcriptomics data for integrative analysis.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-03-10",
+        "abstract": "MOTIVATION: Characterizing the neuronal connectomes provides route to understand the basis of neural circuit in brains, one of the central missions in neuroscience, but the mapped connectivity is absent of molecular information, obscuring the understanding on the important genes underlying the connectomes. The whole-brain spatial transcriptomics data provide the opportunity to predict and understand the brain connectivity. However, there is no method to process these datasets in consistent data format for integrative analysis.\nRESULTS: In this work, we developed a software to process different kinds of mouse brain connectivity data together with spatial transcriptomics in consistent brain regions to define the connectivity path and strength, and then used the long short-term memory network to predict connectivity strengths from the spatial transcriptomics by using our data framework. We evaluated the model in different ways, and the results showed that our model accurately predicted the connectivity strengths and helped in selecting the important genes potentially involved in the regulation, establishment or maintenance of brain connectivity.\nAVAILABILITY: The software is freely available at Github (https://github.com/CPenglab/BrainConnect) and Pypi (https://pypi.org/project/BrainConnect). An archived version is available at https://doi.org/10.5281/zenodo.18440094.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag120",
+        "pmcid": null,
+        "authors": [
+          "Chenglong Sang",
+          "Cheng Peng"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 12.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag120",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Protocols": [
+      {
+        "pmid": "41803280",
+        "title": "Preparation of targeted lipid nanoparticles for precision nucleic acid delivery.",
+        "journal": "Nature protocols",
+        "pub_date": "2026-03-09",
+        "abstract": "Intravenous administration of lipid nanoparticles for the delivery of nucleic acid therapeutics remains constrained by passive uptake mechanisms in the liver, often necessitating high doses to achieve meaningful transfection in specific cells of interest. Targeted LNPs (tLNPs) can overcome these challenges by (i) enabling receptor-mediated endocytosis in difficult-to-transfect cells, thereby reducing passive clearance; (ii) increasing the proportion of LNPs reaching their intended target; and (iii) enabling comparable protein expression at lower doses. Here, we provide a step-by-step guide for formulating tLNPs functionalized with whole antibodies or antibody fragments using traditional laboratory equipment. We outline procedures for antibody preparation and labeling (0.5-1 d), antibody-LNP conjugation (1-2 d), tLNP purification and characterization (1 d) and in vivo and ex vivo targeting evaluation (3-4 d). To demonstrate the versatility of this protocol, we validate in vivo targeting to two mouse tissues: we show that anti-platelet endothelial cell adhesion molecule 1 antibody conjugation to lung-tropic LNPs enhances lung transfection by five times compared to nontargeted LNPs, and anti-epidermal growth factor receptor antibody conjugation to liver-tropic LNPs enhances liver transfection by 20 times. We also demonstrate ex vivo targeting to primary human T cells, where anti-CD5 antibody conjugation to LNPs boosts uptake by 4.5 times and significantly increases mRNA transfection. Importantly, this modular strategy is compatible with any LNP formulation or antibody. In outlining these procedures, we seek to deliver a robust and reproducible workflow for the manufacturing of tLNPs, with the ultimate goal of advancing their therapeutic potential and facilitating clinical translation.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1038/s41596-025-01330-w",
+        "pmcid": null,
+        "authors": [
+          "Hannah C Geisler",
+          "Elisa Battistini",
+          "Ajay S Thatte",
+          "Marshall S Padilla",
+          "Michael J Mitchell"
+        ],
+        "corresponding_authors": [
+          "Michael J Mitchell"
+        ],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 10.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41596-025-01330-w",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41807717",
+        "title": "Preparation of placenta-tropic mRNA lipid nanoparticles for pregnancy disorders.",
+        "journal": "Nature protocols",
+        "pub_date": "2026-03-10",
+        "abstract": "Lipid nanoparticles (LNPs) have garnered tremendous enthusiasm in preclinical and clinical settings for the delivery of nucleic acids such as mRNA. With applications in protein replacement therapies, vaccines and gene editing, mRNA LNPs have only recently been explored in the context of pregnancy disorders. There is a significant need for the design of novel therapeutic technologies such as mRNA LNPs to treat obstetric disorders like pre-eclampsia that are associated with placental pathology and detrimental effects on maternal and fetal health. Here, we present a step-by-step procedure for the preparation and evaluation of placenta-tropic mRNA LNPs for researchers from varied disciplines to explore their application in treating pregnancy disorders. In this Protocol, we describe steps for synthesizing and purifying the key ionizable lipid excipient of the placenta-tropic LNP formulation (4 d) before preparing mRNA LNPs using microfluidic mixing (1 d). Then, we detail in vitro mechanistic evaluations of the effect of protein adsorption on LNP-mediated mRNA transfection to placental trophoblasts (3 d). Finally, we outline methods for isolating reproductive tissues from time-dated pregnant mice to assess in vivo LNP biodistribution and mRNA transfection to the murine placenta (16 d). Compared to alternative LNP formulation procedures, this Protocol focuses on delivering mRNA LNPs to the placenta with a workflow that can be applied for a range of obstetric disorders. This Protocol seeks to increase interdisciplinary work at the interface of nanomedicine, gene modulation and reproductive health.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1038/s41596-025-01325-7",
+        "pmcid": null,
+        "authors": [
+          "Kelsey L Swingle",
+          "Michael J Mitchell"
+        ],
+        "corresponding_authors": [
+          "Michael J Mitchell"
+        ],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 0.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41596-025-01325-7",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "41814089",
+        "title": "FuzDrop: sequence-based prediction of the propensity of proteins for liquid-liquid phase separation and aggregation.",
+        "journal": "Nature protocols",
+        "pub_date": "2026-03-11",
+        "abstract": "Proteins exhibit complex phase behavior as they convert between the native state, the liquid condensate (or droplet) state and the solid condensate (or amyloid) state. To facilitate the study of these processes, we describe the FuzDrop method of predicting the condensation propensity of proteins to undergo liquid-liquid phase separation and to subsequently form amyloid aggregates. The method is based on the principle that liquid condensations reflect a balance between enthalpic and entropic contributions; FuzPred is an algorithm that provides sequence-based estimates for these contributions in stoichiometric complexes ( https://fuzpred.bio.unipd.it/predictor ). FuzDrop extends this algorithm to protein condensates, and enables prediction of the propensity for amyloid formation within liquid condensates, known as the condensation pathway to protein aggregation ( https://fuzdrop.bio.unipd.it/predictor ). This prediction is based on the principle that the sequence regions that promote aggregation within liquid condensates have a multiplicity of binding modes, because they have a strong propensity for both entropic-driven interactions to stabilize the droplet state and enthalpic-driven interactions to stabilize the amyloid state. The time required for FuzDrop predictions on the web server scales linearly with protein length and is typically ~30 s for a protein of 500 residues. By enabling predictions of protein phase behavior, FuzDrop may facilitate experimental studies directed at the development of therapies for protein condensation diseases.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1038/s41596-025-01267-0",
+        "pmcid": null,
+        "authors": [
+          "Michele Vendruscolo",
+          "Monika Fuxreiter"
+        ],
+        "corresponding_authors": [
+          "Michele Vendruscolo",
+          "Monika Fuxreiter",
+          "the MDM2-binding helix",
+          "ionic strength"
+        ],
+        "keywords": [],
+        "weekly_match": true,
+        "score": -2.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41596-025-01267-0",
+        "supplement_reason": null
+      }
+    ]
+  },
+  "fulltext_cache": {
+    "41818359": {
+      "success": false,
+      "source_url": "https://doi.org/10.1126/science.aec7929",
+      "final_url": "https://www.science.org/doi/10.1126/science.aec7929",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41818388": {
+      "success": false,
+      "source_url": "https://doi.org/10.1126/science.aeb6999",
+      "final_url": "https://www.science.org/doi/10.1126/science.aeb6999",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41818370": {
+      "success": false,
+      "source_url": "https://doi.org/10.1126/science.aec1778",
+      "final_url": "https://www.science.org/doi/10.1126/science.aec1778",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41819102": {
+      "success": false,
+      "source_url": "https://doi.org/10.1016/j.cell.2026.02.013",
+      "final_url": "https://doi.org/10.1016/j.cell.2026.02.013",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41819105": {
+      "success": false,
+      "source_url": "https://doi.org/10.1016/j.cell.2026.02.008",
+      "final_url": "https://doi.org/10.1016/j.cell.2026.02.008",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41806833": {
+      "success": false,
+      "source_url": "https://doi.org/10.1016/j.cell.2026.02.003",
+      "final_url": "https://doi.org/10.1016/j.cell.2026.02.003",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41812649": {
+      "success": false,
+      "source_url": "https://doi.org/10.1016/j.cmet.2026.02.008",
+      "final_url": "https://doi.org/10.1016/j.cmet.2026.02.008",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41831436": {
+      "success": false,
+      "source_url": "https://doi.org/10.1016/j.cmet.2026.02.012",
+      "final_url": "https://doi.org/10.1016/j.cmet.2026.02.012",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41819088": {
+      "success": false,
+      "source_url": "https://doi.org/10.1016/j.cmet.2026.02.010",
+      "final_url": "https://doi.org/10.1016/j.cmet.2026.02.010",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41747735": {
+      "success": false,
+      "source_url": "https://doi.org/10.1016/j.immuni.2026.01.022",
+      "final_url": "https://doi.org/10.1016/j.immuni.2026.01.022",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41672072": {
+      "success": false,
+      "source_url": "https://doi.org/10.1016/j.immuni.2026.01.003",
+      "final_url": "https://doi.org/10.1016/j.immuni.2026.01.003",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41747736": {
+      "success": false,
+      "source_url": "https://doi.org/10.1016/j.immuni.2026.01.031",
+      "final_url": "https://doi.org/10.1016/j.immuni.2026.01.031",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41820552": {
+      "success": true,
+      "source_url": "https://doi.org/10.1038/s41590-026-02475-w",
+      "final_url": "https://www.nature.com/articles/s41590-026-02475-w",
+      "access_method": "requests",
+      "html_path": "E:\\Desktop\\CNS 简报\\reports\\文献追踪报告-2026-03-09-2026-03-22-nature-science-cell-cell-metabolism-immunity-nature-immunology-science-immunology-bioinformatics-nature-protocols-8\\fulltexts\\nature-immunology-41820552-tracking-the-tissue-specific-origins-of-diverse-effector-t-cell-functions.html",
+      "abstract_text": "A dual-recombinase fate-mapping system enables the permanent labeling of T cells activated during a treatment window, providing insights into the site-specific acquisition of diverse effector functions acquired at different antigen-priming sites.",
+      "results_headings": [],
+      "all_headings": [
+        "Subjects",
+        "References",
+        "Author information",
+        "Authors and Affiliations",
+        "Corresponding authors",
+        "Ethics declarations",
+        "Completing interests",
+        "Rights and permissions",
+        "About this article",
+        "Cite this article",
+        "Share this article",
+        "Associated content",
+        "Tissue-specific clonal selection and differentiation of CD4⁺ T cells during infection",
+        "Explore content",
+        "About the journal",
+        "Publish with us",
+        "Search",
+        "Quick links",
+        "nature.com footer links",
+        "About Nature Portfolio",
+        "Discover content",
+        "Publishing policies",
+        "Author & Researcher services",
+        "Libraries & institutions",
+        "Advertising & partnerships",
+        "Professional development",
+        "Regional websites"
+      ],
+      "corresponding_authors": [
+        "Orian Bricard",
+        "Adrian Liston"
+      ],
+      "note": "Nature 全文页已解析。"
+    },
+    "41824554": {
+      "success": false,
+      "source_url": "https://doi.org/10.1126/sciimmunol.adw4613",
+      "final_url": "https://www.science.org/doi/10.1126/sciimmunol.adw4613",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41824555": {
+      "success": false,
+      "source_url": "https://doi.org/10.1126/sciimmunol.adw7765",
+      "final_url": "https://www.science.org/doi/10.1126/sciimmunol.adw7765",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41826799": {
+      "success": false,
+      "source_url": "https://doi.org/10.1093/bioinformatics/btag127",
+      "final_url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag127/8519619",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41803065": {
+      "success": false,
+      "source_url": "https://doi.org/10.1093/bioinformatics/btag115",
+      "final_url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag115/8512509",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41808453": {
+      "success": false,
+      "source_url": "https://doi.org/10.1093/bioinformatics/btag120",
+      "final_url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag120/8513490",
+      "access_method": "browser-dump-dom",
+      "html_path": null,
+      "abstract_text": "",
+      "results_headings": [],
+      "all_headings": [],
+      "corresponding_authors": [],
+      "note": "未成功抓取到全文 HTML。"
+    },
+    "41803280": {
+      "success": true,
+      "source_url": "https://doi.org/10.1038/s41596-025-01330-w",
+      "final_url": "https://www.nature.com/articles/s41596-025-01330-w",
+      "access_method": "requests",
+      "html_path": "E:\\Desktop\\CNS 简报\\reports\\文献追踪报告-2026-03-09-2026-03-22-nature-science-cell-cell-metabolism-immunity-nature-immunology-science-immunology-bioinformatics-nature-protocols-8\\fulltexts\\nature-protocols-41803280-preparation-of-targeted-lipid-nanoparticles-for-precision-nucleic-acid-delivery.html",
+      "abstract_text": "Intravenous administration of lipid nanoparticles for the delivery of nucleic acid therapeutics remains constrained by passive uptake mechanisms in the liver, often necessitating high doses to achieve meaningful transfection in specific cells of interest. Targeted LNPs (tLNPs) can overcome these challenges by (i) enabling receptor-mediated endocytosis in difficult-to-transfect cells, thereby reducing passive clearance; (ii) increasing the proportion of LNPs reaching their intended target; and (iii) enabling comparable protein expression at lower doses. Here, we provide a step-by-step guide for formulating tLNPs functionalized with whole antibodies or antibody fragments using traditional laboratory equipment. We outline procedures for antibody preparation and labeling (0.5–1 d), antibody–LNP conjugation (1–2 d), tLNP purification and characterization (1 d) and in vivo and ex vivo targeting evaluation (3–4 d). To demonstrate the versatility of this protocol, we validate in vivo targeting to two mouse tissues: we show that anti-platelet endothelial cell adhesion molecule 1 antibody conjugation to lung-tropic LNPs enhances lung transfection by five times compared to nontargeted LNPs, and anti-epidermal growth factor receptor antibody conjugation to liver-tropic LNPs enhances liver transfection by 20 times. We also demonstrate ex vivo targeting to primary human T cells, where anti-CD5 antibody conjugation to LNPs boosts uptake by 4.5 times and significantly increases mRNA transfection. Importantly, this modular strategy is compatible with any LNP formulation or antibody. In outlining these procedures, we seek to deliver a robust and reproducible workflow for the manufacturing of tLNPs, with the ultimate goal of advancing their therapeutic potential and facilitating clinical translation.",
+      "results_headings": [],
+      "all_headings": [
+        "Subjects",
+        "Abstract",
+        "Key points",
+        "Similar content being viewed by others",
+        "A versatile antibody capture system drives specific in vivo delivery of mRNA-loaded lipid nanoparticles",
+        "Targeting and tracking mRNA lipid nanoparticles at the particle, transcript and protein level",
+        "High-throughput platforms for machine learning-guided lipid nanoparticle design",
+        "Introduction",
+        "Overview of the protocol",
+        "Applications of the protocol",
+        "Comparison with other methods",
+        "Limitations",
+        "Experimental design",
+        "Materials",
+        "Biological materials",
+        "Reagents",
+        "Equipment",
+        "Reagent setup",
+        "Procedure",
+        "Part 1: antibody preparation and enzymatic cleavage to generate F(ab′) 2 fragments",
+        "Part 2: DBCO labeling of antibody and antibody fragments, antibody quantification and determination of DOL",
+        "Part 3: preparation of tLNPs",
+        "Part 4: preparation of the SEC column",
+        "Part 5: tLNP purification and characterization",
+        "Part 6: in vivo evaluation of tLNPs",
+        "Part 7: ex vivo evaluation of tLNPs",
+        "Troubleshooting",
+        "Timing",
+        "Part 1: antibody preparation and enzymatic cleavage to generate F(ab′) 2 fragments",
+        "Part 2: DBCO labeling of antibody and antibody fragments, antibody quantification and determination of DOL",
+        "Part 3: preparation of tLNPs",
+        "Part 4: preparation of the SEC column",
+        "Part 5: tLNP purification and characterization",
+        "Part 6: in vivo evaluation of tLNPs",
+        "Part 7: ex vivo evaluation of tLNPs",
+        "Anticipated results",
+        "Reporting summary",
+        "Data availability",
+        "References",
+        "Author information",
+        "Authors and Affiliations",
+        "Contributions",
+        "Corresponding author",
+        "Ethics declarations",
+        "Competing interests",
+        "Peer review",
+        "Peer review information",
+        "Additional information",
+        "Key references",
+        "Supplementary information",
+        "Supplementary Information (download PDF )",
+        "Reporting Summary (download PDF )",
+        "Supplementary Data (download XLSX )",
+        "Source data",
+        "Source Data Figs. 5 and 6 (download XLSX )",
+        "Rights and permissions",
+        "About this article",
+        "Cite this article",
+        "Share this article",
+        "Explore content",
+        "About the journal",
+        "Publish with us",
+        "Search",
+        "Quick links",
+        "nature.com footer links",
+        "About Nature Portfolio",
+        "Discover content",
+        "Publishing policies",
+        "Author & Researcher services",
+        "Libraries & institutions",
+        "Advertising & partnerships",
+        "Professional development",
+        "Regional websites"
+      ],
+      "corresponding_authors": [
+        "Michael J Mitchell"
+      ],
+      "note": "Nature 全文页已解析。"
+    },
+    "41807717": {
+      "success": true,
+      "source_url": "https://doi.org/10.1038/s41596-025-01325-7",
+      "final_url": "https://www.nature.com/articles/s41596-025-01325-7",
+      "access_method": "requests",
+      "html_path": "E:\\Desktop\\CNS 简报\\reports\\文献追踪报告-2026-03-09-2026-03-22-nature-science-cell-cell-metabolism-immunity-nature-immunology-science-immunology-bioinformatics-nature-protocols-8\\fulltexts\\nature-protocols-41807717-preparation-of-placenta-tropic-mrna-lipid-nanoparticles-for-pregnancy-disorders.html",
+      "abstract_text": "Lipid nanoparticles (LNPs) have garnered tremendous enthusiasm in preclinical and clinical settings for the delivery of nucleic acids such as mRNA. With applications in protein replacement therapies, vaccines and gene editing, mRNA LNPs have only recently been explored in the context of pregnancy disorders. There is a significant need for the design of novel therapeutic technologies such as mRNA LNPs to treat obstetric disorders like pre-eclampsia that are associated with placental pathology and detrimental effects on maternal and fetal health. Here, we present a step-by-step procedure for the preparation and evaluation of placenta-tropic mRNA LNPs for researchers from varied disciplines to explore their application in treating pregnancy disorders. In this Protocol, we describe steps for synthesizing and purifying the key ionizable lipid excipient of the placenta-tropic LNP formulation (4 d) before preparing mRNA LNPs using microfluidic mixing (1 d). Then, we detail in vitro mechanistic evaluations of the effect of protein adsorption on LNP-mediated mRNA transfection to placental trophoblasts (3 d). Finally, we outline methods for isolating reproductive tissues from time-dated pregnant mice to assess in vivo LNP biodistribution and mRNA transfection to the murine placenta (16 d). Compared to alternative LNP formulation procedures, this Protocol focuses on delivering mRNA LNPs to the placenta with a workflow that can be applied for a range of obstetric disorders. This Protocol seeks to increase interdisciplinary work at the interface of nanomedicine, gene modulation and reproductive health.",
+      "results_headings": [],
+      "all_headings": [
+        "Subjects",
+        "Abstract",
+        "Key points",
+        "Similar content being viewed by others",
+        "Placenta-tropic VEGF mRNA lipid nanoparticles ameliorate murine pre-eclampsia",
+        "Targeting and tracking mRNA lipid nanoparticles at the particle, transcript and protein level",
+        "mRNA lipid nanoparticle formulation, characterization and evaluation",
+        "Introduction",
+        "Development of the Protocol",
+        "Overview of the Protocol",
+        "Applications of the Protocol",
+        "Comparison with other methods",
+        "Limitations",
+        "Experimental design",
+        "Materials",
+        "Biological materials",
+        "Reagents",
+        "Equipment",
+        "Reagent setup",
+        "Procedure",
+        "Part 1: synthesis and purification of the C14-494 ionizable lipid",
+        "Part 2: preparation of placenta-tropic mRNA LNPs",
+        "Part 3: evaluating the effect of protein adsorption on in vitro mRNA transfection to placental trophoblasts",
+        "Part 4: In vivo mRNA transfection and LNP biodistribution in pregnant mice",
+        "Troubleshooting",
+        "Timing",
+        "Part 1: synthesis and purification of the C14-494 ionizable lipid (4 d)",
+        "Part 2: preparation of placenta-tropic mRNA LNPs (1 d)",
+        "Part 3: evaluating the effect of protein adsorption on in vitro mRNA transfection to placental trophoblasts (3 d)",
+        "Part 4: in vivo mRNA transfection and LNP biodistribution in pregnant mice (16 d)",
+        "Anticipated results",
+        "Reporting summary",
+        "Data availability",
+        "References",
+        "Author information",
+        "Authors and Affiliations",
+        "Contributions",
+        "Corresponding author",
+        "Ethics declarations",
+        "Competing interests",
+        "Peer review",
+        "Peer review information",
+        "Additional information",
+        "Key references",
+        "Supplementary information",
+        "Supplementary Information (download PDF )",
+        "Reporting Summary (download PDF )",
+        "Supplementary Data 1 (download XLSX )",
+        "Source data",
+        "Source Data Fig. 4 and Fig. 6 (download XLSX )",
+        "Rights and permissions",
+        "About this article",
+        "Cite this article",
+        "Share this article",
+        "Associated content",
+        "Placenta-tropic VEGF mRNA lipid nanoparticles ameliorate murine pre-eclampsia",
+        "Explore content",
+        "About the journal",
+        "Publish with us",
+        "Search",
+        "Quick links",
+        "nature.com footer links",
+        "About Nature Portfolio",
+        "Discover content",
+        "Publishing policies",
+        "Author & Researcher services",
+        "Libraries & institutions",
+        "Advertising & partnerships",
+        "Professional development",
+        "Regional websites"
+      ],
+      "corresponding_authors": [
+        "Michael J Mitchell"
+      ],
+      "note": "Nature 全文页已解析。"
+    },
+    "41814089": {
+      "success": true,
+      "source_url": "https://doi.org/10.1038/s41596-025-01267-0",
+      "final_url": "https://www.nature.com/articles/s41596-025-01267-0",
+      "access_method": "requests",
+      "html_path": "E:\\Desktop\\CNS 简报\\reports\\文献追踪报告-2026-03-09-2026-03-22-nature-science-cell-cell-metabolism-immunity-nature-immunology-science-immunology-bioinformatics-nature-protocols-8\\fulltexts\\nature-protocols-41814089-fuzdrop-sequence-based-prediction-of-the-propensity-of-proteins-for-liquid-liquid-phase-separa.html",
+      "abstract_text": "Proteins exhibit complex phase behavior as they convert between the native state, the liquid condensate (or droplet) state and the solid condensate (or amyloid) state. To facilitate the study of these processes, we describe the FuzDrop method of predicting the condensation propensity of proteins to undergo liquid–liquid phase separation and to subsequently form amyloid aggregates. The method is based on the principle that liquid condensations reflect a balance between enthalpic and entropic contributions; FuzPred is an algorithm that provides sequence-based estimates for these contributions in stoichiometric complexes ( https://fuzpred.bio.unipd.it/predictor ). FuzDrop extends this algorithm to protein condensates, and enables prediction of the propensity for amyloid formation within liquid condensates, known as the condensation pathway to protein aggregation ( https://fuzdrop.bio.unipd.it/predictor ). This prediction is based on the principle that the sequence regions that promote aggregation within liquid condensates have a multiplicity of binding modes, because they have a strong propensity for both entropic-driven interactions to stabilize the droplet state and enthalpic-driven interactions to stabilize the amyloid state. The time required for FuzDrop predictions on the web server scales linearly with protein length and is typically ~30 s for a protein of 500 residues. By enabling predictions of protein phase behavior, FuzDrop may facilitate experimental studies directed at the development of therapies for protein condensation diseases.",
+      "results_headings": [],
+      "all_headings": [
+        "Subjects",
+        "Abstract",
+        "Key points",
+        "Similar content being viewed by others",
+        "Low-complexity domains in phase-separated droplets suppress the amyloid formation of yeast prion Sup35",
+        "The role of biomolecular condensates in protein aggregation",
+        "Generic nature of the condensed states of proteins",
+        "Introduction",
+        "Predicting LLPS propensities",
+        "Scope and applications",
+        "Conceptual framework",
+        "Development of the protocol",
+        "Training and performance",
+        "Training and performance",
+        "Training and performance",
+        "Validation and performance",
+        "Experimental validation",
+        "Limitations and future plans",
+        "Materials",
+        "Equipment",
+        "Procedure",
+        "Critical",
+        "Sequence submission",
+        "Box 1 Running the downloaded version of Fuzdrop",
+        "Job monitoring",
+        "Analysis of the results",
+        "Troubleshooting",
+        "Timing",
+        "Application 1",
+        "Application 2",
+        "Application 3",
+        "Application 4",
+        "Application 5",
+        "Anticipated results",
+        "Application 1: protein spontaneous phase separation versus partitioning into droplets",
+        "Application 2: DPRs and motifs stabilizing droplets",
+        "Application 3: APRs and aggregation hot spots",
+        "Application 4: therapeutic target identification for condensation-associated diseases",
+        "Application 5: machine learning prediction algorithm development for mutations associated with condensation diseases",
+        "Reporting summary",
+        "Data availability",
+        "Code availability",
+        "References",
+        "Acknowledgements",
+        "Author information",
+        "Authors and Affiliations",
+        "Contributions",
+        "Corresponding authors",
+        "Ethics declarations",
+        "Competing interests",
+        "Peer review",
+        "Peer review information",
+        "Additional information",
+        "Key references",
+        "Supplementary information",
+        "Reporting Summary (download PDF )",
+        "Rights and permissions",
+        "About this article",
+        "Cite this article",
+        "Share this article",
+        "Associated content",
+        "Protein condensation diseases: therapeutic opportunities",
+        "Explore content",
+        "About the journal",
+        "Publish with us",
+        "Search",
+        "Quick links",
+        "nature.com footer links",
+        "About Nature Portfolio",
+        "Discover content",
+        "Publishing policies",
+        "Author & Researcher services",
+        "Libraries & institutions",
+        "Advertising & partnerships",
+        "Professional development",
+        "Regional websites"
+      ],
+      "corresponding_authors": [
+        "Michele Vendruscolo",
+        "Monika Fuxreiter",
+        "the MDM2-binding helix",
+        "ionic strength"
+      ],
+      "note": "Nature 全文页已解析。"
+    }
+  }
+}
