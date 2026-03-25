@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "task": "paper-overview-extractor-rss",
   "status": "partial_success",
-  "generated_at": "2026-03-25T02:03:34.901495+00:00",
+  "generated_at": "2026-03-25T02:36:16.148099+00:00",
   "date_range": {
     "start": "2026-03-24",
     "end": "2026-03-24"
@@ -240,7 +240,13 @@
           "llm_warning": "",
           "matched_keywords": [],
           "keyword_score": 0,
-          "is_new_to_state": false
+          "is_new_to_state": false,
+          "primary_summary": "作者提出，当异基因细胞或肿瘤细胞表面的主要组织相容性复合体I类分子（MHC I）下调时，这些靶细胞对CD4+ T细胞介导的铁死亡更为敏感。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Here, the authors suggest that, when major histocompatibility complex class I is downregulated on allogenic or tumor cells, they are more susceptible to CD4+ T cell-mediated ferroptosis",
+          "primary_summary_zh": "作者提出，当异基因细胞或肿瘤细胞表面的主要组织相容性复合体I类分子（MHC I）下调时，这些靶细胞对CD4+ T细胞介导的铁死亡更为敏感。"
         },
         {
           "title": "Commensals join the effector game",
@@ -283,7 +289,13 @@
           "llm_warning": "",
           "matched_keywords": [],
           "keyword_score": 0,
-          "is_new_to_state": false
+          "is_new_to_state": false,
+          "primary_summary": "细菌Ⅲ型分泌系统传统上被视为毒力因子，但其在健康肠道微生物组中同样广泛存在；这些系统可递送效应蛋白，调节人体免疫信号传导，并影响个体对炎症性疾病的易感性。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Bacterial type III secretion systems, traditionally viewed as virulence factors, are prevalent in healthy gut microbiomes, where they deliver effectors that modulate human immune signaling and influence susceptibility to inflammatory diseases",
+          "primary_summary_zh": "细菌Ⅲ型分泌系统传统上被视为毒力因子，但其在健康肠道微生物组中同样广泛存在；这些系统可递送效应蛋白，调节人体免疫信号传导，并影响个体对炎症性疾病的易感性。"
         }
       ]
     },
@@ -395,7 +407,13 @@
           "llm_warning": "",
           "matched_keywords": [],
           "keyword_score": 0,
-          "is_new_to_state": false
+          "is_new_to_state": false,
+          "primary_summary": "研究动机：微生物生物转化在化学污染物的环境降解中发挥核心作用，其过程由多种酶的催化活性驱动。然而，在真实环境条件下，将特定酶与污染物去除联系起来并预测相关转化产物，仍是一项重大挑战。本研究提出一种用于反应指纹学习的自监督对比式微调策略，旨在提升基于BERT的反应嵌入在环境生物转化反应中的化学相关性。具体而言，作者对BERT编码器进行微调，使其反应指纹之间的余弦相似度与传统基于结构的指纹之Tanimoto相似度保持一致。\n\n研究结果：所得紧凑型256维指纹被命名为crxnfp，表现出更强的能力，能够按照转化类型对反应进行聚类，并将注意力集中于具有化学意义的反应中心。crxnfp还在多个数据集的反应分类任务中得到验证，其性能优于或可比于现有方法。更重要的是，该指纹实现了基于相似性的关联，将enviPath中的生物转化规则与反应同Rhea和UniProt数据库中的酶注释连接起来，为以酶学信息丰富环境生物转化数据集提供了可扩展的方法。此外，crxnfp还被用于识别参与污染物生物转化的特定酶类别，并在本研究的实验中得到验证，在第三级酶分类上达到91.3%的准确率。总体而言，crxnfp为推进污染物生物转化机制理解，并指导不同环境情境下基于酶学信息的污染物管理策略开发，提供了有前景的解决方案。\n\n代码获取：代码可见于https://github.com/zhangky12/crxnfp 和 https://github.com/zhangky12/crxnfp_knn。\n\n补充信息：补充数据可于Bioinformatics在线版获取。",
+          "primary_summary_source": "pubmed",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "pubmed",
+          "primary_summary_raw": "MOTIVATION: Microbial biotransformation plays a central role in the environmental degradation of chemical contaminants, driven by the catalytic activities of diverse enzymes. However, linking specific enzymes to contaminant removal and predicting associated transformation products (TPs) under real-world conditions remains a major challenge. In this study, we present a self-supervised, contrastive fine-tuning strategy for reaction fingerprint learning, designed to improve the chemical relevance of BERT-based reaction embeddings for environmental biotransformation reactions. Specifically, we fine-tuned a BERT encoder such that the cosine similarity between its reaction fingerprints aligns with the Tanimoto similarity of traditional structure-based fingerprints.\n\nRESULTS: The resulting compact, 256-dimensional fingerprints, termed crxnfp, showed an improved ability to cluster reactions according to transformation type and focus attention on chemically meaningful reaction centers. Our crxnfp fingerprints were further validated in reaction classification tasks across multiple datasets, achieving superior or comparable performance relative to existing methods. Importantly, they enabled a similarity-based association of biotransformation rules and reactions from enviPath with enzyme annotations from the Rhea and UniProt databases, offering a scalable approach to enrich environmental biotransformation datasets with enzymatic information. Additionally, crxnfp was further employed to identify specific enzyme classes involved in contaminant biotransformation, which were subsequently validated through experiments conducted in this study, achieving 91.3% accuracy at the third-level enzyme classification. The crxnfp fingerprints offer a promising solution to advance the understanding of contaminant biotransformation and guide the development of enzyme-informed strategies for contaminant management across diverse environmental contexts.\n\nAVAILABILITY AND IMPLEMENTATION: Code is available at https://github.com/zhangky12/crxnfp and https://github.com/zhangky12/crxnfp_knn.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "primary_summary_zh": "研究动机：微生物生物转化在化学污染物的环境降解中发挥核心作用，其过程由多种酶的催化活性驱动。然而，在真实环境条件下，将特定酶与污染物去除联系起来并预测相关转化产物，仍是一项重大挑战。本研究提出一种用于反应指纹学习的自监督对比式微调策略，旨在提升基于BERT的反应嵌入在环境生物转化反应中的化学相关性。具体而言，作者对BERT编码器进行微调，使其反应指纹之间的余弦相似度与传统基于结构的指纹之Tanimoto相似度保持一致。\n\n研究结果：所得紧凑型256维指纹被命名为crxnfp，表现出更强的能力，能够按照转化类型对反应进行聚类，并将注意力集中于具有化学意义的反应中心。crxnfp还在多个数据集的反应分类任务中得到验证，其性能优于或可比于现有方法。更重要的是，该指纹实现了基于相似性的关联，将enviPath中的生物转化规则与反应同Rhea和UniProt数据库中的酶注释连接起来，为以酶学信息丰富环境生物转化数据集提供了可扩展的方法。此外，crxnfp还被用于识别参与污染物生物转化的特定酶类别，并在本研究的实验中得到验证，在第三级酶分类上达到91.3%的准确率。总体而言，crxnfp为推进污染物生物转化机制理解，并指导不同环境情境下基于酶学信息的污染物管理策略开发，提供了有前景的解决方案。\n\n代码获取：代码可见于https://github.com/zhangky12/crxnfp 和 https://github.com/zhangky12/crxnfp_knn。\n\n补充信息：补充数据可于Bioinformatics在线版获取。"
         },
         {
           "title": "AutoGERN: Single-Cell RNA-Seq Gene Regulatory Network Inference via Explicit Link Modeling and Adaptive Architectures",
@@ -448,7 +466,13 @@
           "llm_warning": "",
           "matched_keywords": [],
           "keyword_score": 0,
-          "is_new_to_state": false
+          "is_new_to_state": false,
+          "primary_summary": "作者提出用于单细胞RNA测序数据基因调控网络推断的图神经网络框架AutoGERN。该方法通过显式学习边嵌入建模调控信息，结合层内与跨层双消息传递机制，以及基于AutoGNN的架构搜索来适配不同数据分布。多项真实数据集实验显示，其性能与稳健性优于现有先进方法。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Abstract Motivation Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide profiling at single-cell resolution, revealing heterogeneous regulatory programs and making gene regulatory network (GRN) inference both central and challenging. Recent graph neural network (GNN)-based approaches for GRN inference typically model edges only implicitly (for example, via concatenated node embeddings), which limits their ability to capture complex regulatory dependencies. In addition, distributional shifts across scRNA-seq datasets make a single fixed GNN architecture poorly suited for broad generalization. Results We present AutoGERN, a GNN framework tailored for GRN inference from scRNA-seq data. AutoGERN explicitly models regulatory information in the message-passing space and learns expressive link (edge) embeddings, which a lightweight multilayer perceptron uses to score gene–gene regulatory associations. To enhance flexibility and representational power, AutoGERN employs dual message-passing spaces (within-layer and cross-layer) and integrates a robust AutoGNN-based architecture search to adapt the network design to differing dataset distributions. Extensive experiments on multiple real scRNA-seq datasets demonstrate that AutoGERN consistently achieves superior performance and robustness compared with state-of-the-art baselines. Availability and implementation The code and data of AutoGERN are available on GitHub at https://github.com/JChander/AutoGERN and on Zenodo at https://doi.org/10.5281/zenodo.18659807",
+          "primary_summary_zh": "作者提出用于单细胞RNA测序数据基因调控网络推断的图神经网络框架AutoGERN。该方法通过显式学习边嵌入建模调控信息，结合层内与跨层双消息传递机制，以及基于AutoGNN的架构搜索来适配不同数据分布。多项真实数据集实验显示，其性能与稳健性优于现有先进方法。"
         }
       ]
     },
@@ -520,7 +544,13 @@
           "llm_warning": "",
           "matched_keywords": [],
           "keyword_score": 0,
-          "is_new_to_state": false
+          "is_new_to_state": false,
+          "primary_summary": "本文以分步实验方案形式介绍了Tracking-seq，这是一种通用的脱靶检测方法。该方法通过追踪复制蛋白A（RPA）这一与单链DNA中间体结合的关键蛋白，评估多种基因编辑器在全基因组范围内的脱靶活性。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "This step-by-step protocol describes a versatile approach for assessing genome-wide off-target activity of diverse genome editors by tracking replication protein A—a key protein that binds single-stranded DNA intermediates",
+          "primary_summary_zh": "本文以分步实验方案形式介绍了Tracking-seq，这是一种通用的脱靶检测方法。该方法通过追踪复制蛋白A（RPA）这一与单链DNA中间体结合的关键蛋白，评估多种基因编辑器在全基因组范围内的脱靶活性。"
         }
       ]
     },
@@ -586,7 +616,13 @@
       "llm_warning": "",
       "matched_keywords": [],
       "keyword_score": 0,
-      "is_new_to_state": false
+      "is_new_to_state": false,
+      "primary_summary": "本文以分步实验方案形式介绍了Tracking-seq，这是一种通用的脱靶检测方法。该方法通过追踪复制蛋白A（RPA）这一与单链DNA中间体结合的关键蛋白，评估多种基因编辑器在全基因组范围内的脱靶活性。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "This step-by-step protocol describes a versatile approach for assessing genome-wide off-target activity of diverse genome editors by tracking replication protein A—a key protein that binds single-stranded DNA intermediates",
+      "primary_summary_zh": "本文以分步实验方案形式介绍了Tracking-seq，这是一种通用的脱靶检测方法。该方法通过追踪复制蛋白A（RPA）这一与单链DNA中间体结合的关键蛋白，评估多种基因编辑器在全基因组范围内的脱靶活性。"
     },
     {
       "title": "MHC class I on target cells regulates CD4 + T cell-mediated immunity",
@@ -638,7 +674,13 @@
       "llm_warning": "",
       "matched_keywords": [],
       "keyword_score": 0,
-      "is_new_to_state": false
+      "is_new_to_state": false,
+      "primary_summary": "作者提出，当异基因细胞或肿瘤细胞表面的主要组织相容性复合体I类分子（MHC I）下调时，这些靶细胞对CD4+ T细胞介导的铁死亡更为敏感。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Here, the authors suggest that, when major histocompatibility complex class I is downregulated on allogenic or tumor cells, they are more susceptible to CD4+ T cell-mediated ferroptosis",
+      "primary_summary_zh": "作者提出，当异基因细胞或肿瘤细胞表面的主要组织相容性复合体I类分子（MHC I）下调时，这些靶细胞对CD4+ T细胞介导的铁死亡更为敏感。"
     },
     {
       "title": "Enzyme Association for Environmental Biotransformation Reactions Through Contrastive Learning of Reaction Center-Specific Fingerprints",
@@ -694,7 +736,13 @@
       "llm_warning": "",
       "matched_keywords": [],
       "keyword_score": 0,
-      "is_new_to_state": false
+      "is_new_to_state": false,
+      "primary_summary": "研究动机：微生物生物转化在化学污染物的环境降解中发挥核心作用，其过程由多种酶的催化活性驱动。然而，在真实环境条件下，将特定酶与污染物去除联系起来并预测相关转化产物，仍是一项重大挑战。本研究提出一种用于反应指纹学习的自监督对比式微调策略，旨在提升基于BERT的反应嵌入在环境生物转化反应中的化学相关性。具体而言，作者对BERT编码器进行微调，使其反应指纹之间的余弦相似度与传统基于结构的指纹之Tanimoto相似度保持一致。\n\n研究结果：所得紧凑型256维指纹被命名为crxnfp，表现出更强的能力，能够按照转化类型对反应进行聚类，并将注意力集中于具有化学意义的反应中心。crxnfp还在多个数据集的反应分类任务中得到验证，其性能优于或可比于现有方法。更重要的是，该指纹实现了基于相似性的关联，将enviPath中的生物转化规则与反应同Rhea和UniProt数据库中的酶注释连接起来，为以酶学信息丰富环境生物转化数据集提供了可扩展的方法。此外，crxnfp还被用于识别参与污染物生物转化的特定酶类别，并在本研究的实验中得到验证，在第三级酶分类上达到91.3%的准确率。总体而言，crxnfp为推进污染物生物转化机制理解，并指导不同环境情境下基于酶学信息的污染物管理策略开发，提供了有前景的解决方案。\n\n代码获取：代码可见于https://github.com/zhangky12/crxnfp 和 https://github.com/zhangky12/crxnfp_knn。\n\n补充信息：补充数据可于Bioinformatics在线版获取。",
+      "primary_summary_source": "pubmed",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "pubmed",
+      "primary_summary_raw": "MOTIVATION: Microbial biotransformation plays a central role in the environmental degradation of chemical contaminants, driven by the catalytic activities of diverse enzymes. However, linking specific enzymes to contaminant removal and predicting associated transformation products (TPs) under real-world conditions remains a major challenge. In this study, we present a self-supervised, contrastive fine-tuning strategy for reaction fingerprint learning, designed to improve the chemical relevance of BERT-based reaction embeddings for environmental biotransformation reactions. Specifically, we fine-tuned a BERT encoder such that the cosine similarity between its reaction fingerprints aligns with the Tanimoto similarity of traditional structure-based fingerprints.\n\nRESULTS: The resulting compact, 256-dimensional fingerprints, termed crxnfp, showed an improved ability to cluster reactions according to transformation type and focus attention on chemically meaningful reaction centers. Our crxnfp fingerprints were further validated in reaction classification tasks across multiple datasets, achieving superior or comparable performance relative to existing methods. Importantly, they enabled a similarity-based association of biotransformation rules and reactions from enviPath with enzyme annotations from the Rhea and UniProt databases, offering a scalable approach to enrich environmental biotransformation datasets with enzymatic information. Additionally, crxnfp was further employed to identify specific enzyme classes involved in contaminant biotransformation, which were subsequently validated through experiments conducted in this study, achieving 91.3% accuracy at the third-level enzyme classification. The crxnfp fingerprints offer a promising solution to advance the understanding of contaminant biotransformation and guide the development of enzyme-informed strategies for contaminant management across diverse environmental contexts.\n\nAVAILABILITY AND IMPLEMENTATION: Code is available at https://github.com/zhangky12/crxnfp and https://github.com/zhangky12/crxnfp_knn.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "primary_summary_zh": "研究动机：微生物生物转化在化学污染物的环境降解中发挥核心作用，其过程由多种酶的催化活性驱动。然而，在真实环境条件下，将特定酶与污染物去除联系起来并预测相关转化产物，仍是一项重大挑战。本研究提出一种用于反应指纹学习的自监督对比式微调策略，旨在提升基于BERT的反应嵌入在环境生物转化反应中的化学相关性。具体而言，作者对BERT编码器进行微调，使其反应指纹之间的余弦相似度与传统基于结构的指纹之Tanimoto相似度保持一致。\n\n研究结果：所得紧凑型256维指纹被命名为crxnfp，表现出更强的能力，能够按照转化类型对反应进行聚类，并将注意力集中于具有化学意义的反应中心。crxnfp还在多个数据集的反应分类任务中得到验证，其性能优于或可比于现有方法。更重要的是，该指纹实现了基于相似性的关联，将enviPath中的生物转化规则与反应同Rhea和UniProt数据库中的酶注释连接起来，为以酶学信息丰富环境生物转化数据集提供了可扩展的方法。此外，crxnfp还被用于识别参与污染物生物转化的特定酶类别，并在本研究的实验中得到验证，在第三级酶分类上达到91.3%的准确率。总体而言，crxnfp为推进污染物生物转化机制理解，并指导不同环境情境下基于酶学信息的污染物管理策略开发，提供了有前景的解决方案。\n\n代码获取：代码可见于https://github.com/zhangky12/crxnfp 和 https://github.com/zhangky12/crxnfp_knn。\n\n补充信息：补充数据可于Bioinformatics在线版获取。"
     },
     {
       "title": "Commensals join the effector game",
@@ -737,7 +785,13 @@
       "llm_warning": "",
       "matched_keywords": [],
       "keyword_score": 0,
-      "is_new_to_state": false
+      "is_new_to_state": false,
+      "primary_summary": "细菌Ⅲ型分泌系统传统上被视为毒力因子，但其在健康肠道微生物组中同样广泛存在；这些系统可递送效应蛋白，调节人体免疫信号传导，并影响个体对炎症性疾病的易感性。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Bacterial type III secretion systems, traditionally viewed as virulence factors, are prevalent in healthy gut microbiomes, where they deliver effectors that modulate human immune signaling and influence susceptibility to inflammatory diseases",
+      "primary_summary_zh": "细菌Ⅲ型分泌系统传统上被视为毒力因子，但其在健康肠道微生物组中同样广泛存在；这些系统可递送效应蛋白，调节人体免疫信号传导，并影响个体对炎症性疾病的易感性。"
     },
     {
       "title": "AutoGERN: Single-Cell RNA-Seq Gene Regulatory Network Inference via Explicit Link Modeling and Adaptive Architectures",
@@ -790,7 +844,13 @@
       "llm_warning": "",
       "matched_keywords": [],
       "keyword_score": 0,
-      "is_new_to_state": false
+      "is_new_to_state": false,
+      "primary_summary": "作者提出用于单细胞RNA测序数据基因调控网络推断的图神经网络框架AutoGERN。该方法通过显式学习边嵌入建模调控信息，结合层内与跨层双消息传递机制，以及基于AutoGNN的架构搜索来适配不同数据分布。多项真实数据集实验显示，其性能与稳健性优于现有先进方法。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Abstract Motivation Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide profiling at single-cell resolution, revealing heterogeneous regulatory programs and making gene regulatory network (GRN) inference both central and challenging. Recent graph neural network (GNN)-based approaches for GRN inference typically model edges only implicitly (for example, via concatenated node embeddings), which limits their ability to capture complex regulatory dependencies. In addition, distributional shifts across scRNA-seq datasets make a single fixed GNN architecture poorly suited for broad generalization. Results We present AutoGERN, a GNN framework tailored for GRN inference from scRNA-seq data. AutoGERN explicitly models regulatory information in the message-passing space and learns expressive link (edge) embeddings, which a lightweight multilayer perceptron uses to score gene–gene regulatory associations. To enhance flexibility and representational power, AutoGERN employs dual message-passing spaces (within-layer and cross-layer) and integrates a robust AutoGNN-based architecture search to adapt the network design to differing dataset distributions. Extensive experiments on multiple real scRNA-seq datasets demonstrate that AutoGERN consistently achieves superior performance and robustness compared with state-of-the-art baselines. Availability and implementation The code and data of AutoGERN are available on GitHub at https://github.com/JChander/AutoGERN and on Zenodo at https://doi.org/10.5281/zenodo.18659807",
+      "primary_summary_zh": "作者提出用于单细胞RNA测序数据基因调控网络推断的图神经网络框架AutoGERN。该方法通过显式学习边嵌入建模调控信息，结合层内与跨层双消息传递机制，以及基于AutoGNN的架构搜索来适配不同数据分布。多项真实数据集实验显示，其性能与稳健性优于现有先进方法。"
     }
   ],
   "warnings": [],
