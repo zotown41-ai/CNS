@@ -139,7 +139,7 @@ function Get-WeeklyReportEntries([string]$Root) {
                     Id = "{0}_{1}" -f $startDate, $endDate
                     StartDate = $startDate
                     EndDate = $endDate
-                    Label = "{0} → {1}" -f $startDate, $endDate
+                    Label = "{0} ~ {1}" -f $startDate, $endDate
                     Version = if ($matches[4]) { [int]$matches[4] } else { 1 }
                     FullName = $dir.FullName
                     Name = $dir.Name
