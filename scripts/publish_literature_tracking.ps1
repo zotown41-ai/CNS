@@ -278,7 +278,7 @@ function Get-DailyLandingHtml([string]$DefaultDate) {
   <main class="wrap">
     <section class="hero">
       <h1>日报</h1>
-      <p class="muted">此页默认优先打开“昨日”日报；如果昨日不存在，则自动回退到最近一个已发布日期。你也可以手动切换日期查看历史日报。</p>
+      <p class="muted">此页默认优先打开“昨日”日报；如果昨日不存在，则自动回退到最近一个已发布日期。你也可以手动切换日期查看历史日报。顶部会显示当前页面对应的日期与版本号。</p>
       <div class="controls">
         <select id="dateSelect" aria-label="选择日报日期"></select>
         <button id="openSelected" class="primary" type="button">打开所选日期</button>
@@ -320,24 +320,37 @@ function Get-DailyLandingHtml([string]$DefaultDate) {
       return `./by-date/${dateText}/`;
     }
 
-    function applySelection(dateText, options) {
+    function getVersionSuffix(meta) {
+      return meta && Number.isFinite(Number(meta.version)) ? `（v${meta.version}）` : "";
+    }
+
+    function getEntryLabel(meta, dateText) {
+      if (meta && meta.label) {
+        return meta.label;
+      }
+      return `${dateText}${getVersionSuffix(meta)}`;
+    }
+
+    function applySelection(dateText, options, metaMap) {
       if (!dateText) {
         frame.hidden = true;
         emptyState.hidden = false;
         statusText.textContent = "当前没有可用日报。";
         return;
       }
+      const meta = metaMap.get(dateText) || null;
       selectEl.value = dateText;
       frame.hidden = false;
       emptyState.hidden = true;
       frame.src = reportUrl(dateText);
       const requestedYesterday = getYesterdayLocal();
+      const currentLabel = getEntryLabel(meta, dateText);
       if (dateText === requestedYesterday) {
-        statusText.textContent = `当前显示昨日日报：${dateText}`;
+        statusText.textContent = `当前显示昨日日报：${currentLabel}`;
       } else if (options.includes(requestedYesterday)) {
-        statusText.textContent = `当前显示日报：${dateText}`;
+        statusText.textContent = `当前显示日报：${currentLabel}`;
       } else {
-        statusText.textContent = `昨日日报不存在，当前回退到最近可用日期：${dateText}`;
+        statusText.textContent = `昨日日报不存在，当前回退到最近可用日期：${currentLabel}`;
       }
     }
 
@@ -345,25 +358,32 @@ function Get-DailyLandingHtml([string]$DefaultDate) {
       .then((resp) => resp.ok ? resp.json() : Promise.reject(new Error(`HTTP ${resp.status}`)))
       .then((data) => {
         const dates = Array.isArray(data.dates) ? data.dates : [];
+        const entries = Array.isArray(data.entries)
+          ? data.entries.filter((item) => item && item.date)
+          : dates.map((dateText) => ({ date: dateText }));
+        const metaMap = new Map();
         selectEl.innerHTML = "";
-        dates.forEach((dateText) => {
+
+        entries.forEach((item) => {
+          metaMap.set(item.date, item);
           const option = document.createElement("option");
-          option.value = dateText;
-          option.textContent = dateText;
+          option.value = item.date;
+          option.textContent = getEntryLabel(item, item.date);
           selectEl.appendChild(option);
         });
 
-        if (!dates.length) {
-          applySelection("", dates);
+        const optionDates = entries.map((item) => item.date);
+        if (!optionDates.length) {
+          applySelection("", optionDates, metaMap);
           return;
         }
 
         const yesterday = getYesterdayLocal();
-        const initial = dates.includes(yesterday) ? yesterday : (data.latest || FALLBACK_DATE || dates[0]);
-        applySelection(initial, dates);
+        const initial = optionDates.includes(yesterday) ? yesterday : (data.latest || FALLBACK_DATE || optionDates[0]);
+        applySelection(initial, optionDates, metaMap);
 
-        openBtn.addEventListener("click", () => applySelection(selectEl.value, dates));
-        selectEl.addEventListener("change", () => applySelection(selectEl.value, dates));
+        openBtn.addEventListener("click", () => applySelection(selectEl.value, optionDates, metaMap));
+        selectEl.addEventListener("change", () => applySelection(selectEl.value, optionDates, metaMap));
 
         if (data.latest_markdown) {
           markdownBtn.href = data.latest_markdown;
@@ -729,8 +749,20 @@ foreach ($entry in $dailyEntries) {
 $dailyManifest = [ordered]@{
     generated_at = (Get-Date).ToString("s")
     latest = $dailyEntries[0].Date
+    latest_version = $dailyEntries[0].Version
+    latest_label = ("{0} (v{1})" -f $dailyEntries[0].Date, $dailyEntries[0].Version)
     latest_markdown = "./daily_report.md"
     dates = @($dailyEntries | ForEach-Object { $_.Date })
+    entries = @(
+        $dailyEntries | ForEach-Object {
+            [ordered]@{
+                date = $_.Date
+                version = $_.Version
+                label = ("{0} (v{1})" -f $_.Date, $_.Version)
+                source_name = $_.Name
+            }
+        }
+    )
 }
 Write-Utf8File (Join-Path $DailyDest "available_dates.json") (($dailyManifest | ConvertTo-Json -Depth 4) -replace "`n", "`r`n")
 Write-Utf8File (Join-Path $DailyDest "index.html") ((Get-DailyLandingHtml -DefaultDate $dailyEntries[0].Date) -replace "`n", "`r`n")
