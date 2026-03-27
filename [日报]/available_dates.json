@@ -1,8 +1,8 @@
 {
-    "generated_at":  "2026-03-27T04:20:35",
+    "generated_at":  "2026-03-27T09:15:18",
     "latest":  "2026-03-26",
-    "latest_version":  2,
-    "latest_label":  "2026-03-26 (v2)",
+    "latest_version":  3,
+    "latest_label":  "2026-03-26 (v3)",
     "latest_markdown":  "./daily_report.md",
     "dates":  [
                   "2026-03-26",
@@ -14,9 +14,9 @@
     "entries":  [
                     {
                         "date":  "2026-03-26",
-                        "version":  2,
-                        "label":  "2026-03-26 (v2)",
-                        "source_name":  "文献追踪报告-2026-03-26-2026-03-26-多期刊-v2"
+                        "version":  3,
+                        "label":  "2026-03-26 (v3)",
+                        "source_name":  "文献追踪报告-2026-03-26-2026-03-26-多期刊-v3"
                     },
                     {
                         "date":  "2026-03-25",
