@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "task": "paper-overview-extractor-rss",
   "status": "partial_success",
-  "generated_at": "2026-04-02T20:20:13.879924+00:00",
+  "generated_at": "2026-04-03T01:15:09.263598+00:00",
   "date_range": {
     "start": "2026-04-02",
     "end": "2026-04-02"
@@ -49,7 +49,7 @@
         {
           "url": "https://www.nature.com/nature/current_issue/rss",
           "ok": true,
-          "final_url": "https://www.nature.com/nature.rss?error=cookies_not_supported&code=6a74445a-54e6-4f01-b9b4-2ed10cf479b3",
+          "final_url": "https://www.nature.com/nature.rss",
           "status_code": 200,
           "error": "",
           "item_count": 75
@@ -2755,7 +2755,7 @@
         {
           "url": "https://www.nature.com/nprot/current_issue/rss",
           "ok": true,
-          "final_url": "https://www.nature.com/nprot.rss?error=cookies_not_supported&code=a54250a7-6baa-447b-a744-397645a4d854",
+          "final_url": "https://www.nature.com/nprot.rss",
           "status_code": 200,
           "error": "",
           "item_count": 8
@@ -2780,7 +2780,7 @@
           ],
           "doi": "10.1038/s41596-025-01305-x",
           "journal": "Nature Protocols",
-          "source_feed": "https://www.nature.com/nprot.rss?error=cookies_not_supported&code=a54250a7-6baa-447b-a744-397645a4d854",
+          "source_feed": "https://www.nature.com/nprot.rss",
           "entry_id": "doi:10.1038/s41596-025-01305-x",
           "pmid": "",
           "pubmed_url": "",
@@ -2834,7 +2834,7 @@
           ],
           "doi": "10.1038/s41596-026-01342-0",
           "journal": "Nature Protocols",
-          "source_feed": "https://www.nature.com/nprot.rss?error=cookies_not_supported&code=a54250a7-6baa-447b-a744-397645a4d854",
+          "source_feed": "https://www.nature.com/nprot.rss",
           "entry_id": "doi:10.1038/s41596-026-01342-0",
           "pmid": "",
           "pubmed_url": "",
@@ -5342,7 +5342,7 @@
       ],
       "doi": "10.1038/s41596-025-01305-x",
       "journal": "Nature Protocols",
-      "source_feed": "https://www.nature.com/nprot.rss?error=cookies_not_supported&code=a54250a7-6baa-447b-a744-397645a4d854",
+      "source_feed": "https://www.nature.com/nprot.rss",
       "entry_id": "doi:10.1038/s41596-025-01305-x",
       "pmid": "",
       "pubmed_url": "",
@@ -5396,7 +5396,7 @@
       ],
       "doi": "10.1038/s41596-026-01342-0",
       "journal": "Nature Protocols",
-      "source_feed": "https://www.nature.com/nprot.rss?error=cookies_not_supported&code=a54250a7-6baa-447b-a744-397645a4d854",
+      "source_feed": "https://www.nature.com/nprot.rss",
       "entry_id": "doi:10.1038/s41596-026-01342-0",
       "pmid": "",
       "pubmed_url": "",
