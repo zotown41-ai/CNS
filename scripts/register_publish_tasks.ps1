@@ -1,15 +1,18 @@
 param(
-    [string]$DailyTaskName = "LiteratureTrackingPublishDaily",
-    [string]$WeeklyTaskName = "LiteratureTrackingPublishWeekly",
-    [string]$DailyPrimaryTime = "04:20",
-    [string]$DailyCheckTime = "09:15",
-    [string]$WeeklyTime = "03:20"
+    [string]$CombinedDailyTaskName = "LiteratureTrackingPublishDailyFull",
+    [string]$PrimaryTime = "06:00",
+    [string]$BackupTime = "09:15",
+    [string[]]$LegacyTaskNames = @(
+        "LiteratureTrackingPublishDaily",
+        "LiteratureTrackingPublishWeekly"
+    )
 )
 
 $ErrorActionPreference = "Stop"
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+$OutputEncoding = [System.Text.UTF8Encoding]::new($false)
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-$repoRoot = Split-Path -Parent $scriptDir
 $publishScript = Join-Path $scriptDir "publish_literature_tracking.ps1"
 
 if (-not (Test-Path -LiteralPath $publishScript)) {
@@ -25,40 +28,31 @@ $settings = New-ScheduledTaskSettingsSet `
     -MultipleInstances IgnoreNew `
     -ExecutionTimeLimit (New-TimeSpan -Hours 72)
 
-$dailyAction = New-ScheduledTaskAction `
+$combinedDailyAction = New-ScheduledTaskAction `
     -Execute "powershell.exe" `
-    -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$publishScript`" -SkipWeeklyGeneration"
+    -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$publishScript`""
 
-$dailyTriggers = @(
-    (New-ScheduledTaskTrigger -Daily -At $DailyPrimaryTime),
-    (New-ScheduledTaskTrigger -Daily -At $DailyCheckTime)
+$combinedDailyTriggers = @(
+    (New-ScheduledTaskTrigger -Daily -At $PrimaryTime),
+    (New-ScheduledTaskTrigger -Daily -At $BackupTime)
 )
 
-$weeklyAction = New-ScheduledTaskAction `
-    -Execute "powershell.exe" `
-    -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$publishScript`" -SkipDailyGeneration"
-
-$weeklyTrigger = New-ScheduledTaskTrigger -Weekly -WeeksInterval 1 -DaysOfWeek Sunday -At $WeeklyTime
-
 Register-ScheduledTask `
-    -TaskName $DailyTaskName `
-    -Action $dailyAction `
-    -Trigger $dailyTriggers `
+    -TaskName $CombinedDailyTaskName `
+    -Action $combinedDailyAction `
+    -Trigger $combinedDailyTriggers `
     -Principal $principal `
     -Settings $settings `
     -Force | Out-Null
 
-Register-ScheduledTask `
-    -TaskName $WeeklyTaskName `
-    -Action $weeklyAction `
-    -Trigger $weeklyTrigger `
-    -Principal $principal `
-    -Settings $settings `
-    -Force | Out-Null
+foreach ($legacyTaskName in $LegacyTaskNames) {
+    $legacyTask = Get-ScheduledTask -TaskName $legacyTaskName -ErrorAction SilentlyContinue
+    if ($legacyTask) {
+        Unregister-ScheduledTask -TaskName $legacyTaskName -Confirm:$false
+        Write-Output "Removed legacy task: $legacyTaskName"
+    }
+}
 
-Write-Output "Registered daily publish task: $DailyTaskName"
-Write-Output "  - triggers: $DailyPrimaryTime and $DailyCheckTime"
-Write-Output "  - action: publish_literature_tracking.ps1 -SkipWeeklyGeneration"
-Write-Output "Registered weekly publish task: $WeeklyTaskName"
-Write-Output "  - trigger: Sunday $WeeklyTime"
-Write-Output "  - action: publish_literature_tracking.ps1 -SkipDailyGeneration"
+Write-Output "Registered combined daily task: $CombinedDailyTaskName"
+Write-Output "  - triggers: $PrimaryTime and $BackupTime"
+Write-Output "  - action: publish_literature_tracking.ps1"
