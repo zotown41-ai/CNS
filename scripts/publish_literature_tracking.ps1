@@ -3,7 +3,11 @@
     [switch]$SkipDailyGeneration,
     [switch]$SkipPush,
     [switch]$AllowEmptyCommit,
-    [int]$DailyOffset = -1
+    [int]$DailyOffset = -1,
+    [switch]$ScheduledPublish,
+    [ValidateSet("Manual", "Auto", "Primary", "VerifyRetry")]
+    [string]$PublishPhase = "Manual",
+    [string]$TimezoneId = "China Standard Time"
 )
 
 $ErrorActionPreference = "Stop"
@@ -39,6 +43,49 @@ function Require-Path([string]$Path, [string]$Label) {
 function Ensure-Dir([string]$Path) {
     if (-not (Test-Path -LiteralPath $Path)) {
         New-Item -ItemType Directory -Path $Path | Out-Null
+    }
+}
+
+function Get-LocalNow([string]$ZoneId) {
+    try {
+        $tz = [System.TimeZoneInfo]::FindSystemTimeZoneById($ZoneId)
+        return [System.TimeZoneInfo]::ConvertTime([datetimeoffset]::UtcNow, $tz).DateTime
+    } catch {
+        return Get-Date
+    }
+}
+
+function Resolve-PublishPhase([datetime]$Now, [string]$RequestedPhase, [bool]$IsScheduledMode) {
+    if (-not $IsScheduledMode -and $RequestedPhase -eq "Manual") {
+        return "Manual"
+    }
+
+    if ($RequestedPhase -eq "Primary" -or $RequestedPhase -eq "VerifyRetry") {
+        return $RequestedPhase
+    }
+
+    if ($Now.TimeOfDay -ge ([TimeSpan]::FromHours(8))) {
+        return "VerifyRetry"
+    }
+    return "Primary"
+}
+
+function Get-ExpectedWeeklyRange([datetime]$Now) {
+    $today = $Now.Date
+    $monday = $today.AddDays(-[int]$today.DayOfWeek + 1)
+    if ($today.DayOfWeek -eq [System.DayOfWeek]::Sunday) {
+        $start = $monday
+        $end = $monday.AddDays(6)
+    } else {
+        $end = $monday.AddDays(-1)
+        $start = $end.AddDays(-6)
+    }
+
+    return [PSCustomObject]@{
+        StartDate = $start.ToString("yyyy-MM-dd")
+        EndDate = $end.ToString("yyyy-MM-dd")
+        Id = "{0}_{1}" -f $start.ToString("yyyy-MM-dd"), $end.ToString("yyyy-MM-dd")
+        Label = "{0} ~ {1}" -f $start.ToString("yyyy-MM-dd"), $end.ToString("yyyy-MM-dd")
     }
 }
 
@@ -124,6 +171,15 @@ function Get-DailyReportEntries([string]$Root) {
     return @($result | Sort-Object Date -Descending)
 }
 
+function Get-DailyEntryByDate([object[]]$Entries, [string]$DateText) {
+    return @(
+        $Entries |
+        Where-Object { $_.Date -eq $DateText } |
+        Sort-Object @{ Expression = 'Version'; Descending = $true }, @{ Expression = 'LastWriteTime'; Descending = $true } |
+        Select-Object -First 1
+    )[0]
+}
+
 function Get-WeeklyReportEntries([string]$Root) {
     Require-Path $Root "周报输出目录"
     $pattern = '^文献追踪报告-(\d{4}-\d{2}-\d{2})-(\d{4}-\d{2}-\d{2})-(.+?)(?:-(\d+))?$'
@@ -160,6 +216,15 @@ function Get-WeeklyReportEntries([string]$Root) {
     }
 
     return @($result | Sort-Object @{ Expression = 'EndDate'; Descending = $true }, @{ Expression = 'StartDate'; Descending = $true })
+}
+
+function Get-WeeklyEntryByRange([object[]]$Entries, [string]$StartDate, [string]$EndDate) {
+    return @(
+        $Entries |
+        Where-Object { $_.StartDate -eq $StartDate -and $_.EndDate -eq $EndDate } |
+        Sort-Object @{ Expression = 'Version'; Descending = $true }, @{ Expression = 'LastWriteTime'; Descending = $true } |
+        Select-Object -First 1
+    )[0]
 }
 
 function Get-DailyLandingHtml([string]$DefaultDate) {
@@ -645,148 +710,356 @@ function Invoke-Git([string[]]$GitArguments) {
     }
 }
 
-Require-Path $RepoRoot "发布仓库"
-Require-Path $WeeklyProject "周报项目"
-Require-Path $DailyProject "日报项目"
-Ensure-Dir $WeeklyDest
-Ensure-Dir $DailyDest
-
-if (-not (Test-Path -LiteralPath (Join-Path $RepoRoot ".nojekyll"))) {
-    Write-Utf8File (Join-Path $RepoRoot ".nojekyll") ""
+function Invoke-GitCapture([string[]]$GitArguments) {
+    $gitArgs = @("-c", "safe.directory=$RepoRoot", "-C", $RepoRoot) + $GitArguments
+    $output = & git @gitArgs 2>&1
+    $exitCode = $LASTEXITCODE
+    if ($exitCode -ne 0) {
+        throw "git 命令失败（exit=$exitCode）：git $($GitArguments -join ' ')`n$($output -join [Environment]::NewLine)"
+    }
+    return @($output)
 }
 
-if (-not $SkipWeeklyGeneration) {
+function Read-JsonFile([string]$Path) {
+    if (-not (Test-Path -LiteralPath $Path)) {
+        return $null
+    }
+
+    $raw = Get-Content -LiteralPath $Path -Raw -Encoding UTF8
+    if ([string]::IsNullOrWhiteSpace($raw)) {
+        return $null
+    }
+
+    return $raw | ConvertFrom-Json
+}
+
+function Test-DailyPublishedState([string]$DestDir, [string]$ExpectedDate) {
+    $manifest = Read-JsonFile (Join-Path $DestDir "available_dates.json")
+    $archiveDir = Join-Path $DestDir ("by-date\{0}" -f $ExpectedDate)
+    if (-not $manifest) {
+        return $false
+    }
+    if ($manifest.latest -ne $ExpectedDate) {
+        return $false
+    }
+    if (-not $manifest.dates -or ($manifest.dates -notcontains $ExpectedDate)) {
+        return $false
+    }
+
+    foreach ($required in @(
+        (Join-Path $DestDir "index.html"),
+        (Join-Path $DestDir "daily_report.md"),
+        (Join-Path $DestDir "daily_records.json"),
+        (Join-Path $archiveDir "index.html"),
+        (Join-Path $archiveDir "daily_report.md"),
+        (Join-Path $archiveDir "daily_records.json")
+    )) {
+        if (-not (Test-Path -LiteralPath $required)) {
+            return $false
+        }
+    }
+
+    return $true
+}
+
+function Test-WeeklyPublishedState([string]$DestDir, [object]$ExpectedRange) {
+    if (-not $ExpectedRange) {
+        return $true
+    }
+
+    $manifest = Read-JsonFile (Join-Path $DestDir "available_weeks.json")
+    $archiveDir = Join-Path $DestDir ("by-range\{0}" -f $ExpectedRange.Id)
+    if (-not $manifest) {
+        return $false
+    }
+    if ($manifest.latest -ne $ExpectedRange.Id) {
+        return $false
+    }
+    $hasRange = @($manifest.ranges | Where-Object { $_.id -eq $ExpectedRange.Id }).Count -gt 0
+    if (-not $hasRange) {
+        return $false
+    }
+
+    foreach ($required in @(
+        (Join-Path $DestDir "index.html"),
+        (Join-Path $DestDir "weekly_report.md"),
+        (Join-Path $DestDir "weekly_records.json"),
+        (Join-Path $archiveDir "index.html"),
+        (Join-Path $archiveDir "weekly_report.md"),
+        (Join-Path $archiveDir "weekly_records.json")
+    )) {
+        if (-not (Test-Path -LiteralPath $required)) {
+            return $false
+        }
+    }
+
+    return $true
+}
+
+function Test-GitWorkingTreeDirty() {
+    return @(Invoke-GitCapture @("status", "--porcelain")).Count -gt 0
+}
+
+function Get-GitAheadCount() {
+    try {
+        $countText = @(Invoke-GitCapture @("rev-list", "--count", "@{u}..HEAD"))[0]
+        if ([string]::IsNullOrWhiteSpace($countText)) {
+            return 0
+        }
+        return [int]$countText
+    } catch {
+        Write-Info "未检测到上游分支，无法判断 push 是否已完成。"
+        return -1
+    }
+}
+
+Ensure-Dir (Join-Path $WorkspaceRoot "运行日志\发布")
+$PublishLog = Join-Path (Join-Path $WorkspaceRoot "运行日志\发布") ("publish-{0}.log" -f (Get-Date -Format "yyyyMMdd-HHmmss"))
+$TranscriptStarted = $false
+
+try {
+    Start-Transcript -LiteralPath $PublishLog -Force | Out-Null
+    $TranscriptStarted = $true
+    Write-Info "日志：$PublishLog"
+
+    Require-Path $RepoRoot "发布仓库"
+    Require-Path $WeeklyProject "周报项目"
+    Require-Path $DailyProject "日报项目"
+    Ensure-Dir $WeeklyDest
+    Ensure-Dir $DailyDest
+
+    if (-not (Test-Path -LiteralPath (Join-Path $RepoRoot ".nojekyll"))) {
+        Write-Utf8File (Join-Path $RepoRoot ".nojekyll") ""
+    }
+
+    $localNow = Get-LocalNow $TimezoneId
+    $isScheduledMode = $ScheduledPublish -or $PublishPhase -ne "Manual"
+    $resolvedPhase = Resolve-PublishPhase -Now $localNow -RequestedPhase $PublishPhase -IsScheduledMode $isScheduledMode
+    $expectedDailyDate = $localNow.Date.AddDays($DailyOffset).ToString("yyyy-MM-dd")
+    $expectedWeeklyRange = if ($isScheduledMode -and $localNow.DayOfWeek -eq [System.DayOfWeek]::Monday) {
+        Get-ExpectedWeeklyRange $localNow
+    } else {
+        $null
+    }
+
+    Write-Info ("发布模式：{0}" -f $(if ($isScheduledMode) { "计划发布/$resolvedPhase" } else { "手动发布" }))
+    Write-Info ("目标日报日期：{0}" -f $expectedDailyDate)
+    if ($expectedWeeklyRange) {
+        Write-Info ("目标周报区间：{0}" -f $expectedWeeklyRange.Label)
+    }
+
+    if ($resolvedPhase -eq "VerifyRetry") {
+        $publishedDailyOk = Test-DailyPublishedState -DestDir $DailyDest -ExpectedDate $expectedDailyDate
+        $publishedWeeklyOk = Test-WeeklyPublishedState -DestDir $WeeklyDest -ExpectedRange $expectedWeeklyRange
+        $gitDirtyBeforePublish = Test-GitWorkingTreeDirty
+        $aheadCountBeforePublish = Get-GitAheadCount
+        Write-Info ("二次发布校验：日报已发布={0}，周报已发布={1}，工作区有变更={2}，待推送提交数={3}" -f $publishedDailyOk, $publishedWeeklyOk, $gitDirtyBeforePublish, $aheadCountBeforePublish)
+        if ($publishedDailyOk -and $publishedWeeklyOk -and (-not $gitDirtyBeforePublish) -and $aheadCountBeforePublish -eq 0) {
+            Write-Success "目标日报/周报均已发布，且无待推送提交，本次跳过重复发布。"
+            return
+        }
+        Write-Info "校验未通过，进入补偿发布流程。"
+    }
+
     $weeklyBat = Join-Path $WeeklyProject "run_weekly_report.bat"
-    Require-Path $weeklyBat "周报生成脚本"
-    Invoke-Native "cmd.exe" @("/c", "`"$weeklyBat`"") $WeeklyProject
-}
-
-if (-not $SkipDailyGeneration) {
     $dailyScript = Join-Path $DailyProject "scripts\run_daily_report.ps1"
+    Require-Path $weeklyBat "周报生成脚本"
     Require-Path $dailyScript "日报生成脚本"
-    Invoke-Native "powershell.exe" @(
-        "-NoProfile",
-        "-ExecutionPolicy", "Bypass",
-        "-File", $dailyScript,
-        "-DayOffset", $DailyOffset.ToString()
-    ) $DailyProject
-}
 
-$weeklyEntries = @(Get-WeeklyReportEntries $WeeklyReportsRoot)
-$dailyEntries = @(Get-DailyReportEntries $DailyOutputRoot)
-
-if ($weeklyEntries.Count -eq 0) {
-    throw "未找到可用的周报目录：$WeeklyReportsRoot"
-}
-
-if ($dailyEntries.Count -eq 0) {
-    throw "未找到可用的单日日报目录：$DailyOutputRoot"
-}
-
-$weeklyDir = Get-Item -LiteralPath $weeklyEntries[0].FullName
-$dailyDir = Get-Item -LiteralPath $dailyEntries[0].FullName
-
-$weeklyHtml = Get-LatestFileByExtension $weeklyDir.FullName ".html"
-$weeklyMd = Get-LatestFileByExtension $weeklyDir.FullName ".md"
-$weeklyJson = Get-LatestFileByExtension $weeklyDir.FullName ".json"
-
-$dailyHtml = Get-LatestFileByExtension $dailyDir.FullName ".html"
-$dailyMd = Get-LatestFileByExtension $dailyDir.FullName ".md"
-$dailyJson = Get-LatestFileByExtension $dailyDir.FullName ".json"
-
-Copy-ReportFile $weeklyHtml.FullName (Join-Path $WeeklyDest "index.html")
-Copy-ReportFile $weeklyMd.FullName (Join-Path $WeeklyDest "weekly_report.md")
-Copy-ReportFile $weeklyJson.FullName (Join-Path $WeeklyDest "weekly_records.json")
-
-$weeklyArchiveRoot = Join-Path $WeeklyDest "by-range"
-Reset-Dir $weeklyArchiveRoot
-
-foreach ($entry in $weeklyEntries) {
-    $entryDir = $entry.FullName
-    $destDir = Join-Path $weeklyArchiveRoot $entry.Id
-    Ensure-Dir $destDir
-
-    Copy-ReportFile (Get-LatestFileByExtension $entryDir ".html").FullName (Join-Path $destDir "index.html")
-    Copy-ReportFile (Get-LatestFileByExtension $entryDir ".md").FullName (Join-Path $destDir "weekly_report.md")
-    Copy-ReportFile (Get-LatestFileByExtension $entryDir ".json").FullName (Join-Path $destDir "weekly_records.json")
-}
-
-$weeklyManifest = [ordered]@{
-    generated_at = (Get-Date).ToString("s")
-    latest = $weeklyEntries[0].Id
-    latest_label = $weeklyEntries[0].Label
-    latest_markdown = "./weekly_report.md"
-    ranges = @(
-        $weeklyEntries | ForEach-Object {
-            [ordered]@{
-                id = $_.Id
-                start = $_.StartDate
-                end = $_.EndDate
-                label = $_.Label
+    if ($isScheduledMode) {
+        $dailyEntries = @(Get-DailyReportEntries $DailyOutputRoot)
+        $targetDailyEntry = if ($dailyEntries.Count -gt 0) {
+            Get-DailyEntryByDate -Entries $dailyEntries -DateText $expectedDailyDate
+        }
+        if (-not $targetDailyEntry) {
+            if ($SkipDailyGeneration) {
+                throw "目标日报缺失，但已指定跳过日报生成：$expectedDailyDate"
+            }
+            Write-Info "目标日报缺失，触发日报补生成。"
+            Invoke-Native "powershell.exe" @(
+                "-NoProfile",
+                "-ExecutionPolicy", "Bypass",
+                "-File", $dailyScript,
+                "-DayOffset", $DailyOffset.ToString()
+            ) $DailyProject
+            $dailyEntries = @(Get-DailyReportEntries $DailyOutputRoot)
+            $targetDailyEntry = if ($dailyEntries.Count -gt 0) {
+                Get-DailyEntryByDate -Entries $dailyEntries -DateText $expectedDailyDate
             }
         }
-    )
-}
-Write-Utf8File (Join-Path $WeeklyDest "available_weeks.json") (($weeklyManifest | ConvertTo-Json -Depth 5) -replace "`n", "`r`n")
-Write-Utf8File (Join-Path $WeeklyDest "index.html") ((Get-WeeklyLandingHtml -DefaultRangeId $weeklyEntries[0].Id) -replace "`n", "`r`n")
 
-Copy-ReportFile $dailyMd.FullName (Join-Path $DailyDest "daily_report.md")
-Copy-ReportFile $dailyJson.FullName (Join-Path $DailyDest "daily_records.json")
-
-$dailyArchiveRoot = Join-Path $DailyDest "by-date"
-Reset-Dir $dailyArchiveRoot
-
-foreach ($entry in $dailyEntries) {
-    $entryDir = $entry.FullName
-    $destDir = Join-Path $dailyArchiveRoot $entry.Date
-    Ensure-Dir $destDir
-
-    Copy-ReportFile (Join-Path $entryDir "weekly_report.html") (Join-Path $destDir "index.html")
-    Copy-ReportFile (Join-Path $entryDir "weekly_report.md") (Join-Path $destDir "daily_report.md")
-    Copy-ReportFile (Join-Path $entryDir "weekly_records.json") (Join-Path $destDir "daily_records.json")
-}
-
-$dailyManifest = [ordered]@{
-    generated_at = (Get-Date).ToString("s")
-    latest = $dailyEntries[0].Date
-    latest_version = $dailyEntries[0].Version
-    latest_label = ("{0} (v{1})" -f $dailyEntries[0].Date, $dailyEntries[0].Version)
-    latest_markdown = "./daily_report.md"
-    dates = @($dailyEntries | ForEach-Object { $_.Date })
-    entries = @(
-        $dailyEntries | ForEach-Object {
-            [ordered]@{
-                date = $_.Date
-                version = $_.Version
-                label = ("{0} (v{1})" -f $_.Date, $_.Version)
-                source_name = $_.Name
+        if ($expectedWeeklyRange) {
+            $weeklyEntries = @(Get-WeeklyReportEntries $WeeklyReportsRoot)
+            $targetWeeklyEntry = if ($weeklyEntries.Count -gt 0) {
+                Get-WeeklyEntryByRange -Entries $weeklyEntries -StartDate $expectedWeeklyRange.StartDate -EndDate $expectedWeeklyRange.EndDate
+            }
+            if (-not $targetWeeklyEntry) {
+                if ($SkipWeeklyGeneration) {
+                    throw "目标周报缺失，但已指定跳过周报生成：$($expectedWeeklyRange.Label)"
+                }
+                Write-Info "目标周报缺失，触发周报补生成。"
+                Invoke-Native "cmd.exe" @("/c", "`"$weeklyBat`"") $WeeklyProject
+                $weeklyEntries = @(Get-WeeklyReportEntries $WeeklyReportsRoot)
+                $targetWeeklyEntry = if ($weeklyEntries.Count -gt 0) {
+                    Get-WeeklyEntryByRange -Entries $weeklyEntries -StartDate $expectedWeeklyRange.StartDate -EndDate $expectedWeeklyRange.EndDate
+                }
             }
         }
+    } else {
+        if (-not $SkipWeeklyGeneration) {
+            Invoke-Native "cmd.exe" @("/c", "`"$weeklyBat`"") $WeeklyProject
+        }
+
+        if (-not $SkipDailyGeneration) {
+            Invoke-Native "powershell.exe" @(
+                "-NoProfile",
+                "-ExecutionPolicy", "Bypass",
+                "-File", $dailyScript,
+                "-DayOffset", $DailyOffset.ToString()
+            ) $DailyProject
+        }
+    }
+
+    $weeklyEntries = @(Get-WeeklyReportEntries $WeeklyReportsRoot)
+    $dailyEntries = @(Get-DailyReportEntries $DailyOutputRoot)
+
+    if ($weeklyEntries.Count -eq 0) {
+        throw "未找到可用的周报目录：$WeeklyReportsRoot"
+    }
+
+    if ($dailyEntries.Count -eq 0) {
+        throw "未找到可用的单日日报目录：$DailyOutputRoot"
+    }
+
+    if ($isScheduledMode) {
+        $targetDailyEntry = Get-DailyEntryByDate -Entries $dailyEntries -DateText $expectedDailyDate
+        if (-not $targetDailyEntry) {
+            throw "补生成后仍未找到目标日报：$expectedDailyDate"
+        }
+        $dailyEntries = @($targetDailyEntry) + @($dailyEntries | Where-Object { $_.Date -ne $expectedDailyDate })
+
+        if ($expectedWeeklyRange) {
+            $targetWeeklyEntry = Get-WeeklyEntryByRange -Entries $weeklyEntries -StartDate $expectedWeeklyRange.StartDate -EndDate $expectedWeeklyRange.EndDate
+            if (-not $targetWeeklyEntry) {
+                throw "补生成后仍未找到目标周报：$($expectedWeeklyRange.Label)"
+            }
+            $weeklyEntries = @($targetWeeklyEntry) + @($weeklyEntries | Where-Object { $_.Id -ne $expectedWeeklyRange.Id })
+        }
+    }
+
+    $weeklyDir = Get-Item -LiteralPath $weeklyEntries[0].FullName
+    $dailyDir = Get-Item -LiteralPath $dailyEntries[0].FullName
+
+    $weeklyHtml = Get-LatestFileByExtension $weeklyDir.FullName ".html"
+    $weeklyMd = Get-LatestFileByExtension $weeklyDir.FullName ".md"
+    $weeklyJson = Get-LatestFileByExtension $weeklyDir.FullName ".json"
+
+    $dailyHtml = Get-LatestFileByExtension $dailyDir.FullName ".html"
+    $dailyMd = Get-LatestFileByExtension $dailyDir.FullName ".md"
+    $dailyJson = Get-LatestFileByExtension $dailyDir.FullName ".json"
+
+    Copy-ReportFile $weeklyHtml.FullName (Join-Path $WeeklyDest "index.html")
+    Copy-ReportFile $weeklyMd.FullName (Join-Path $WeeklyDest "weekly_report.md")
+    Copy-ReportFile $weeklyJson.FullName (Join-Path $WeeklyDest "weekly_records.json")
+
+    $weeklyArchiveRoot = Join-Path $WeeklyDest "by-range"
+    Reset-Dir $weeklyArchiveRoot
+
+    foreach ($entry in $weeklyEntries) {
+        $entryDir = $entry.FullName
+        $destDir = Join-Path $weeklyArchiveRoot $entry.Id
+        Ensure-Dir $destDir
+
+        Copy-ReportFile (Get-LatestFileByExtension $entryDir ".html").FullName (Join-Path $destDir "index.html")
+        Copy-ReportFile (Get-LatestFileByExtension $entryDir ".md").FullName (Join-Path $destDir "weekly_report.md")
+        Copy-ReportFile (Get-LatestFileByExtension $entryDir ".json").FullName (Join-Path $destDir "weekly_records.json")
+    }
+
+    $weeklyManifest = [ordered]@{
+        generated_at = (Get-Date).ToString("s")
+        latest = $weeklyEntries[0].Id
+        latest_label = $weeklyEntries[0].Label
+        latest_markdown = "./weekly_report.md"
+        ranges = @(
+            $weeklyEntries | ForEach-Object {
+                [ordered]@{
+                    id = $_.Id
+                    start = $_.StartDate
+                    end = $_.EndDate
+                    label = $_.Label
+                }
+            }
+        )
+    }
+    Write-Utf8File (Join-Path $WeeklyDest "available_weeks.json") (($weeklyManifest | ConvertTo-Json -Depth 5) -replace "`n", "`r`n")
+    Write-Utf8File (Join-Path $WeeklyDest "index.html") ((Get-WeeklyLandingHtml -DefaultRangeId $weeklyEntries[0].Id) -replace "`n", "`r`n")
+
+    Copy-ReportFile $dailyMd.FullName (Join-Path $DailyDest "daily_report.md")
+    Copy-ReportFile $dailyJson.FullName (Join-Path $DailyDest "daily_records.json")
+
+    $dailyArchiveRoot = Join-Path $DailyDest "by-date"
+    Reset-Dir $dailyArchiveRoot
+
+    foreach ($entry in $dailyEntries) {
+        $entryDir = $entry.FullName
+        $destDir = Join-Path $dailyArchiveRoot $entry.Date
+        Ensure-Dir $destDir
+
+        Copy-ReportFile (Join-Path $entryDir "weekly_report.html") (Join-Path $destDir "index.html")
+        Copy-ReportFile (Join-Path $entryDir "weekly_report.md") (Join-Path $destDir "daily_report.md")
+        Copy-ReportFile (Join-Path $entryDir "weekly_records.json") (Join-Path $destDir "daily_records.json")
+    }
+
+    $dailyManifest = [ordered]@{
+        generated_at = (Get-Date).ToString("s")
+        latest = $dailyEntries[0].Date
+        latest_version = $dailyEntries[0].Version
+        latest_label = ("{0} (v{1})" -f $dailyEntries[0].Date, $dailyEntries[0].Version)
+        latest_markdown = "./daily_report.md"
+        dates = @($dailyEntries | ForEach-Object { $_.Date })
+        entries = @(
+            $dailyEntries | ForEach-Object {
+                [ordered]@{
+                    date = $_.Date
+                    version = $_.Version
+                    label = ("{0} (v{1})" -f $_.Date, $_.Version)
+                    source_name = $_.Name
+                }
+            }
+        )
+    }
+    Write-Utf8File (Join-Path $DailyDest "available_dates.json") (($dailyManifest | ConvertTo-Json -Depth 4) -replace "`n", "`r`n")
+    Write-Utf8File (Join-Path $DailyDest "index.html") ((Get-DailyLandingHtml -DefaultDate $dailyEntries[0].Date) -replace "`n", "`r`n")
+
+    if ($isScheduledMode) {
+        if (-not (Test-DailyPublishedState -DestDir $DailyDest -ExpectedDate $expectedDailyDate)) {
+            throw "发布前自检失败：日报目标内容未正确写入发布目录：$expectedDailyDate"
+        }
+        if (-not (Test-WeeklyPublishedState -DestDir $WeeklyDest -ExpectedRange $expectedWeeklyRange)) {
+            throw "发布前自检失败：周报目标内容未正确写入发布目录。"
+        }
+    }
+
+    $weeklySourceRelative = "CNS周报/reports/{0}" -f $weeklyDir.Name
+    $dailySourceRelative = "paper-overview-extractor-RSS/output/{0}" -f $dailyDir.Name
+
+    Update-SubReadme $WeeklyDest "周报" $weeklySourceRelative @(
+        "- 入口页面：``index.html``（默认最新，支持切换历史周报）",
+        "- 历史归档：``by-range/YYYY-MM-DD_YYYY-MM-DD/``",
+        "- Markdown：``weekly_report.md``",
+        "- 结构化数据：``weekly_records.json``",
+        "- 区间清单：``available_weeks.json``"
     )
-}
-Write-Utf8File (Join-Path $DailyDest "available_dates.json") (($dailyManifest | ConvertTo-Json -Depth 4) -replace "`n", "`r`n")
-Write-Utf8File (Join-Path $DailyDest "index.html") ((Get-DailyLandingHtml -DefaultDate $dailyEntries[0].Date) -replace "`n", "`r`n")
 
-$weeklySourceRelative = "CNS周报/reports/{0}" -f $weeklyDir.Name
-$dailySourceRelative = "paper-overview-extractor-RSS/output/{0}" -f $dailyDir.Name
+    Update-SubReadme $DailyDest "日报" $dailySourceRelative @(
+        "- 入口页面：``index.html``（默认昨日，支持切换日期）",
+        "- 历史归档：``by-date/YYYY-MM-DD/``",
+        "- 最新 Markdown：``daily_report.md``",
+        "- 结构化数据：``daily_records.json``",
+        "- 日期清单：``available_dates.json``"
+    )
 
-Update-SubReadme $WeeklyDest "周报" $weeklySourceRelative @(
-    "- 入口页面：``index.html``（默认最新，支持切换历史周报）",
-    "- 历史归档：``by-range/YYYY-MM-DD_YYYY-MM-DD/``",
-    "- Markdown：``weekly_report.md``",
-    "- 结构化数据：``weekly_records.json``",
-    "- 区间清单：``available_weeks.json``"
-)
-
-Update-SubReadme $DailyDest "日报" $dailySourceRelative @(
-    "- 入口页面：``index.html``（默认昨日，支持切换日期）",
-    "- 历史归档：``by-date/YYYY-MM-DD/``",
-    "- 最新 Markdown：``daily_report.md``",
-    "- 结构化数据：``daily_records.json``",
-    "- 日期清单：``available_dates.json``"
-)
-
-$rootReadme = @'
+    $rootReadme = @'
 # 文献追踪
 
 用于静态发布文献追踪报告。
@@ -834,41 +1107,54 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\publish_literature
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\publish_literature_tracking.ps1 -SkipWeeklyGeneration -SkipDailyGeneration
 ```
 '@
-Write-Utf8File (Join-Path $RepoRoot "README.md") ($rootReadme -replace "`n", "`r`n")
+    Write-Utf8File (Join-Path $RepoRoot "README.md") ($rootReadme -replace "`n", "`r`n")
 
-Write-Info "检查 Git 变更"
-Invoke-Git @("add", "-A")
-$statusLines = @(git -c "safe.directory=$RepoRoot" -C $RepoRoot status --porcelain)
-if ($LASTEXITCODE -ne 0) {
-    throw "git status 执行失败"
-}
+    Write-Info "检查 Git 变更"
+    Invoke-Git @("add", "-A")
+    $statusLines = @(Invoke-GitCapture @("status", "--porcelain"))
 
-if ($statusLines.Count -eq 0) {
-    Write-Success "没有新的文件变化。"
+    if ($statusLines.Count -eq 0) {
+        Write-Success "没有新的文件变化。"
+        if ($SkipPush) {
+            return
+        }
+        $aheadCount = Get-GitAheadCount
+        if ($aheadCount -gt 0) {
+            Write-Info ("检测到已有 {0} 个本地提交尚未推送，继续补推。" -f $aheadCount)
+        } else {
+            Write-Info "无需推送，仓库内容未变化。"
+            return
+        }
+    }
+
+    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    if ($statusLines.Count -gt 0) {
+        $commitMessage = "Publish literature tracking site $timestamp"
+        if ($AllowEmptyCommit) {
+            Invoke-Git @("commit", "--allow-empty", "-m", $commitMessage)
+        } else {
+            Invoke-Git @("commit", "-m", $commitMessage)
+        }
+    }
+
     if ($SkipPush) {
+        Write-Success "已完成本地提交，未执行推送。"
         return
     }
-    Write-Info "无需推送，仓库内容未变化。"
-    return
-}
 
-$timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-$commitMessage = "Publish literature tracking site $timestamp"
-if ($AllowEmptyCommit) {
-    Invoke-Git @("commit", "--allow-empty", "-m", $commitMessage)
-} else {
-    Invoke-Git @("commit", "-m", $commitMessage)
-}
+    $branchName = @(Invoke-GitCapture @("rev-parse", "--abbrev-ref", "HEAD"))[0]
+    if ([string]::IsNullOrWhiteSpace($branchName)) {
+        $branchName = "main"
+    }
 
-if ($SkipPush) {
-    Write-Success "已完成本地提交，未执行推送。"
-    return
+    Write-Info ("推送分支：{0}" -f $branchName)
+    Invoke-Git @("push", "origin", $branchName)
+    $aheadCountAfterPush = Get-GitAheadCount
+    Write-Info ("推送后待推送提交数：{0}" -f $aheadCountAfterPush)
+    Write-Success "一键发布完成。"
 }
-
-$branchName = @(git -c "safe.directory=$RepoRoot" -C $RepoRoot rev-parse --abbrev-ref HEAD)[0]
-if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($branchName)) {
-    $branchName = "main"
+finally {
+    if ($TranscriptStarted) {
+        Stop-Transcript | Out-Null
+    }
 }
-
-Invoke-Git @("push", "origin", $branchName)
-Write-Success "一键发布完成。"
