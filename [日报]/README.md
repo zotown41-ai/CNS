@@ -1,6 +1,6 @@
 # 日报
 
-来源目录：`paper-overview-extractor-RSS/output/文献追踪报告-2026-04-15-2026-04-15-多期刊`
+来源目录：`paper-overview-extractor-RSS/output/文献追踪报告-2026-04-16-2026-04-16-多期刊`
 
 - 入口页面：`index.html`（默认昨日，支持切换日期）
 - 历史归档：`by-date/YYYY-MM-DD/`
