@@ -64,62 +64,66 @@
           <h3>Bioinformatics</h3>
           
     <article class="paper">
-      <h4>Learning Protein Representations with Conformational Dynamics</h4>
+      <h4>利用构象动力学学习蛋白质的结构表征方法</h4>
       <ul>
         <li><strong>日期：</strong>2026-05-05</li>
         <li><strong>作者：</strong>未提供</li>
         <li><strong>文章类型：</strong>未提供</li>
         
-        <li><strong>研究问题：</strong>Abstract Motivation Proteins change shape as they work, and these changing states control whether binding sites are exposed, signals are relayed, and catalysis proceeds.</li>
+        <li><strong>研究问题：</strong>蛋白质在执行功能时会发生形态变化，而这些形态变化决定了结合位点是否会被暴露出来、信号是否能够被传递以及催化反应是否能够顺利进行。</li>
       </ul>
-      <p><strong>发现/highlights：</strong></p>
-      <ol><li>Most protein language models pair a sequence with a single structural snapshot, which can miss state-dependent features central to interaction, localization, and enzyme activity.</li><li>Studies also indicate that many proteins assume multiple, functionally relevant shapes, motivating approaches that learn from this variability.</li><li>Results We present DynamicsPLM, a protein language model conditioned on ensembles of computationally generated conformations to derive state-aware representations.</li></ol>
-      <p><strong>摘要：</strong>Abstract Motivation Proteins change shape as they work, and these changing states control whether binding sites are exposed, signals are relayed, and catalysis proceeds. Most protein language models pair a sequence with a single structural snapshot, which can miss state-dependent features central to interaction, localization, and enzyme activity. Studies also indicate that many proteins assume multiple, functionally relevant shapes, motivating approaches that learn from this variability. Results We present DynamicsPLM, a protein language model conditioned on ensembles of computationally generated conformations to derive state-aware representations. DynamicsPLM improves predictive performance across protein–protein interaction, subcellular localization, enzyme classification, and metal-ion binding. On a widely used protein–protein interaction benchmark, it achieves a four-point accuracy gain over the strongest baseline. On a curated test set enriched for proteins with multiple conformational states, the margin increases to eleven points. These findings argue for a shift from static to dynamics-aware modeling, in which conformational variability is treated as informative. By elevating conformational state to a central element of machine learning in protein biology, this work advances modeling toward mechanisms that better reflect how proteins operate in cells and provides a route to actionable hypotheses about when and how binding, signaling, and catalysis occur. Availability and implementation Code, model weights, and inference scripts are available at https://github.com/kalifadan/DynamicsPLM (DOI: https://doi.org/10.5281/zenodo.17668302 )</p>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>大多数蛋白质语言模型都将一个序列与单一的结构快照相对应起来，但这种处理方式会忽略那些对相互作用、定位以及酶活性至关重要的状态依赖性特征。</li><li>研究还表明，许多蛋白质能够呈现出多种具有功能意义的构象形态，因此人们提出了那些能够利用这种多样性来进行学习的分析方法。</li><li>我们提出了 DynamicsPLM——这一基于计算生成的蛋白质构象集合构建的蛋白质语言模型，该模型能够生成具有状态感知能力的表示形式。</li></ol>
+      <p><strong>摘要：</strong>蛋白质在执行功能时会改变其构象，而这些构象变化直接影响结合位点的暴露、信号传递以及催化反应的进行。现有的大多数蛋白质语言模型都将一个氨基酸序列对应于单一的结构状态，这种做法往往会忽略那些对蛋白质相互作用、定位及酶活性至关重要的动态特征。研究表明，许多蛋白质会呈现出多种具有功能意义的构象形态，因此开发能够利用这些构象变异性的建模方法显得十分必要。
+我们提出了DynamicsPLM这一基于计算生成的蛋白质构象集合进行训练的蛋白质语言模型，该模型能够生成具备状态感知能力的蛋白质表征。实验结果表明，DynamicsPLM在预测蛋白质-蛋白质相互作用、亚细胞定位、酶分类以及金属离子结合等任务中均表现出显著的性能提升。在常用的蛋白质-蛋白质相互作用评估基准测试中，其准确率比最优秀的基线模型高出4个百分点；而在那些包含多种构象状态的蛋白质样本的测试集中，这一优势更是增加到了11个百分点。这些结果充分证明了从静态建模转向考虑动态变化的建模方法的重要性——将蛋白质构象的多样性视为有价值的信息来源，有助于更准确地模拟蛋白质在细胞中的真实行为，并为研究结合、信号传导及催化反应的具体机制提供有力支持。</p>
       <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag254/8669790?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag254/8669790?rss=1</a></p>
     </article>
     
     <article class="paper">
-      <h4>Learning Drug Synergy through Environment-Conditioned Feature Modulation</h4>
+      <h4>通过环境条件调节特征来学习药物协同作用机制</h4>
       <ul>
         <li><strong>日期：</strong>2026-05-05</li>
         <li><strong>作者：</strong>未提供</li>
         <li><strong>文章类型：</strong>未提供</li>
         
-        <li><strong>研究问题：</strong>Abstract Motivation Drug combinations are crucial for overcoming resistance in cancer therapy.</li>
+        <li><strong>研究问题：</strong>在癌症治疗中，药物组合的使用对于克服耐药性至关重要。</li>
       </ul>
-      <p><strong>发现/highlights：</strong></p>
-      <ol><li>Although deep learning has achieved strong performance in synergy prediction, existing models often treat cell-specific features and paired drugs as a static background and fail to capture how the specific cell-drug environment dynamically modulates drug representations, thereby hindering the modeling of environment-specific synergistic effects.</li><li>Results We propose Env-Syn, a framework for modeling drug-drug-cell interactions through Environment-Conditioned Feature Modulation, which incorporates a Residual Feature-wise Linear Modulation (R-FiLM) module to perform precise affine transformations on drug representations conditioned on paired drugs and cellular environments.</li><li>Benchmark evaluations show that Env-Syn consistently outperforms state-of-the-art methods.</li></ol>
-      <p><strong>摘要：</strong>Abstract Motivation Drug combinations are crucial for overcoming resistance in cancer therapy. Although deep learning has achieved strong performance in synergy prediction, existing models often treat cell-specific features and paired drugs as a static background and fail to capture how the specific cell-drug environment dynamically modulates drug representations, thereby hindering the modeling of environment-specific synergistic effects. Results We propose Env-Syn, a framework for modeling drug-drug-cell interactions through Environment-Conditioned Feature Modulation, which incorporates a Residual Feature-wise Linear Modulation (R-FiLM) module to perform precise affine transformations on drug representations conditioned on paired drugs and cellular environments. Benchmark evaluations show that Env-Syn consistently outperforms state-of-the-art methods. Notably, the model exhibits exceptional generalization performance in rigorous inductive scenarios. It maintains high predictive accuracy for unseen drugs with AUROC and AUPRC exceeding 0.81 in the Leave-drug-out setting, and further demonstrates strong cross-dataset reliability by surpassing a recall of 0.7 on independent test set. Furthermore, among 15 novel predicted drug combinations, eight are directly supported by literature evidence. These results demonstrate that Env-Syn is an effective computational tool for drug synergy discovery. Availability The source code is available at https://github.com/AnQi-87/Env-Syn</p>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>尽管深度学习在协同作用预测方面取得了显著成效，但现有模型通常将细胞特异性特征与配对药物视为静态背景，未能捕捉到特定细胞-药物环境如何动态调节药物的活性表现，这一缺陷阻碍了针对特定环境条件下的协同效应进行建模。</li><li>我们提出了Env-Syn这一框架，该框架通过“环境条件驱动的特征调制”机制来模拟药物与细胞之间的相互作用。该框架中包含了“残差特征线性调制”模块，该模块能够在考虑药物配对关系以及细胞环境因素的前提下，对药物表征数据进行精确的仿射变换处理。</li><li>基准测试结果显示，Env-Syn在性能上始终优于现有的最先进方法。</li></ol>
+      <p><strong>摘要：</strong>在癌症治疗中，药物组合对于克服耐药性至关重要。尽管深度学习在预测药物协同作用方面取得了显著成果，但现有模型通常将细胞特异性特征及配对使用的药物视为静态背景，未能捕捉到特定细胞-药物环境如何动态调节药物的作用机制，从而阻碍了对环境依赖性协同效应的建模。
+我们提出了Env-Syn这一框架，该框架通过“环境条件驱动的特征调制”机制来模拟药物-药物-细胞之间的相互作用。其中，Residual Feature-wise Linear Modulation（R-FiLM）模块能够根据配对使用的药物及细胞环境，对药物表征进行精确的仿射变换。基准测试表明，Env-Syn在性能上显著优于现有方法；尤其在复杂的归纳性场景中，该模型展现出出色的泛化能力——在“排除目标药物”的评估条件下，其对未知药物的预测准确率高达0.81以上，其召回率也超过了0.7，进一步证明了其在不同数据集上的可靠性。此外，在我们预测的15种新型药物组合中，有8种得到了文献证据的直接支持。这些结果充分证明，Env-Syn是发现药物协同作用的有效工具。</p>
       <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag256/8669792?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag256/8669792?rss=1</a></p>
     </article>
     
     <article class="paper">
-      <h4>FuFiHLA: A tool for Full-Field HLA typing from long-read data</h4>
+      <h4>FuFiHLA：一种基于长读长数据的全面HLA分型工具</h4>
       <ul>
         <li><strong>日期：</strong>2026-05-05</li>
         <li><strong>作者：</strong>未提供</li>
         <li><strong>文章类型：</strong>未提供</li>
         
-        <li><strong>研究问题：</strong>Abstract Motivation Allele typing for Human Leukocyte Antigen (HLA) genes has many important clinical applications.</li>
+        <li><strong>研究问题：</strong>人类白细胞抗原基因的等位基因分型在临床领域具有诸多重要应用价值。</li>
       </ul>
-      <p><strong>发现/highlights：</strong></p>
-      <ol><li>Popular short-read typing can only accurately distinguish alleles at the coding sequence level, which potentially limit our understanding of the effect of variants in non-coding region.</li><li>Long read data has been proved to be useful in typing HLA alleles in full resolution, but only a few tools are publicly available and with significant limitations in practical application.</li><li>Results We developed FuFiHLA, a lightweight open-source software, to type HLA alleles.</li></ol>
-      <p><strong>摘要：</strong>Abstract Motivation Allele typing for Human Leukocyte Antigen (HLA) genes has many important clinical applications. Popular short-read typing can only accurately distinguish alleles at the coding sequence level, which potentially limit our understanding of the effect of variants in non-coding region. Long read data has been proved to be useful in typing HLA alleles in full resolution, but only a few tools are publicly available and with significant limitations in practical application. Results We developed FuFiHLA, a lightweight open-source software, to type HLA alleles. Currently it supports typing alleles of six HLA genes (HLA-A, HLA-B, HLA-C, HLA-DRB1, HLA-DQA1, and HLA-DQB1) from long reads. Evaluation using 233 PacBio HiFi WGS samples from HPRC shows that FuFiHLA achieves 99.6% accuracy in the full field allele typing and QV as 51.8 for consensus allele sequence construction. Additional testing on four Nanopore R10 reads demonstrates slightly reduced accuracy in the fourth field. Availability FuFiHLA is available at https://github.com/jingqing-hu/FuFiHLA under MIT License</p>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>目前常用的短读长测序技术仅能在编码序列层面准确区分等位基因，这可能会限制我们对非编码区域变异效应的理解。</li><li>长读长序列数据已被证明有助于以高分辨率确定HLA等位基因的类型，但目前仅有少数工具可供公开使用，而这些工具在实际应用中仍存在诸多局限性。</li><li>我们开发了FuFiHLA这一轻量级的开源软件，用于检测HLA等位基因。</li></ol>
+      <p><strong>摘要：</strong>人类白细胞抗原（HLA）基因的等位基因分型在临床领域具有诸多重要应用。现有的短读长序列分析方法仅能准确识别编码区内的等位基因，这可能限制了我们对非编码区变异影响的理解。而长读长序列数据已被证明能够实现高分辨率的HLA等位基因分型，但目前仅有少数工具可供公开使用，且在实际应用中仍存在诸多局限性。
+我们开发了轻量级的开源软件FuFiHLA，用于基于长读长序列数据进行HLA等位基因的分型。该工具目前支持对六种HLA基因（HLA-A、HLA-B、HLA-C、HLA-DRB1、HLA-DQA1和HLA-DQB1）的等位基因进行高精度分析。通过对HPRC数据库中233个PacBio HiFi WGS样本进行的测试，FuFiHLA在全部等位基因分型任务中的准确率达到了99.6%，而在构建共识等位基因序列时的一致性评估得分为51.8。进一步使用Nanopore R10测序数据进行的测试显示，该工具在处理第四种HLA基因时准确率略有下降。</p>
       <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag231/8669788?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag231/8669788?rss=1</a></p>
     </article>
     
     <article class="paper">
-      <h4>FourierDrug: a domain generalization framework for robust drug response prediction via frequency-space asymmetric attention</h4>
+      <h4>FourierDrug：一种基于频域非对称注意力机制的通用框架，用于实现稳健的药物效应预测</h4>
       <ul>
         <li><strong>日期：</strong>2026-05-05</li>
         <li><strong>作者：</strong>未提供</li>
         <li><strong>文章类型：</strong>未提供</li>
         
-        <li><strong>研究问题：</strong>Abstract Motivation Accurate prediction of drug response remains a major challenge in precision oncology, particularly at the single-cell level and in clinical settings, due to significant distribution shifts between preclinical models and real-world patient data.</li>
+        <li><strong>研究问题：</strong>在精准肿瘤学领域，尤其是单细胞层面及临床环境中，准确预测药物反应仍然是一个重大挑战。这是因为临床前模型与真实患者数据之间存在显著的差异。</li>
       </ul>
-      <p><strong>发现/highlights：</strong></p>
-      <ol><li>Existing approaches often rely on transfer learning from cell lines to target domains, but typically require access to target-domain data during training, which is frequently unavailable in practice.</li><li>Results We propose FourierDrug, a novel domain generalization framework for robust drug response prediction.</li><li>Given gene expression profiles, the model performs Fourier transformation to project features into the frequency domain and introduces an asymmetric attention mechanism that encourages drug-sensitive samples to form compact clusters while driving resistant samples to be more dispersed.</li></ol>
-      <p><strong>摘要：</strong>Abstract Motivation Accurate prediction of drug response remains a major challenge in precision oncology, particularly at the single-cell level and in clinical settings, due to significant distribution shifts between preclinical models and real-world patient data. Existing approaches often rely on transfer learning from cell lines to target domains, but typically require access to target-domain data during training, which is frequently unavailable in practice. Results We propose FourierDrug, a novel domain generalization framework for robust drug response prediction. Given gene expression profiles, the model performs Fourier transformation to project features into the frequency domain and introduces an asymmetric attention mechanism that encourages drug-sensitive samples to form compact clusters while driving resistant samples to be more dispersed. This design facilitates the learning of domain-invariant yet task-relevant representations. Extensive experiments demonstrate that FourierDrug effectively leverages diverse source domains and generalizes well to unseen cancer types. Notably, when evaluated on single-cell and patient-level prediction tasks, our method—trained solely on in vitro cell line data without access to target-domain data—consistently outperforms or matches state-of-the-art approaches. Availability and Implementation The source code and processed datasets are available at: https://github.com/hliulab/FourierDrug</p>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>现有的方法通常依赖于从细胞系到目标领域的迁移学习，但在训练过程中往往需要使用目标领域的数据，而这类数据在实践中往往难以获取。</li><li>我们提出了 FourierDrug这一新型的领域泛化框架，用于实现稳健的药物效应预测。</li><li>基于给定的基因表达谱数据，该模型首先对这些特征进行傅里叶变换，将其转换到频率域；随后引入了一种非对称注意力机制——这种机制能够促使对药物敏感的样本聚集在一起，而使那些对药物具有抗性的样本分布得更加分散。</li></ol>
+      <p><strong>摘要：</strong>在精准肿瘤学领域，尤其是单细胞层面及临床环境中，准确预测药物反应仍然是一个重大挑战。这是因为临床患者数据与体外实验模型之间存在显著的差异。现有的方法通常依赖于从细胞系到目标领域的迁移学习，但这类方法在训练过程中往往需要依赖目标领域的数据，而实际中这些数据往往难以获取。
+我们提出了 FourierDrug——一种新型的领域泛化框架，用于实现稳健的药物反应预测。该模型首先对基因表达谱进行傅里叶变换，将特征映射到频率域；随后引入了一种非对称注意力机制，这种机制能够使对药物敏感的样本聚集在一起，而使耐药样本分散开来。这样的设计有助于学习出既具有领域普适性又与具体任务相关的特征表示。大量实验表明，FourierDrug能够有效利用多种不同的数据源，并且能够很好地泛化到未知的癌症类型上。值得注意的是，在仅使用体外细胞系数据进行训练、且不依赖目标领域数据的情况下，我们的方法在单细胞及患者层面的预测任务中，其性能始终优于或至少与现有的最先进方法相当。</p>
       <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag276/8669789?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag276/8669789?rss=1</a></p>
     </article>
     
@@ -134,17 +138,17 @@
           <h3>Nature methods</h3>
           
     <article class="paper">
-      <h4>$${\bf{Micro}}{{\mathbb{S}}}{\bf{plit}}$$ Micro S plit：荧光显微镜数据的语义分离 / $${\bf{Micro}}{{\mathbb{S}}}{\bf{plit}}$$ Micro S plit : semantic unmixing of fluorescent microscopy data</h4>
+      <h4>Micro Split：荧光显微镜数据的语义分离技术</h4>
       <ul>
         <li><strong>日期：</strong>2026-05-05</li>
-        <li><strong>作者：</strong>Ashesh Ashesh, Federico Carrara, Igor Zubarev, Vera Galinova, Melisande Croft, Melissa Pezzotti, Daozheng Gong, Francesca Casagrande, Elisa Colombo, Stefania Giussani, Elena Restelli, Eugenia Cammarota, Juan Manuel Battagliotti, Nikolai Klena, Moises Di Sante, Raghabendra Adhikari, Daniel Feliciano, Gaia Pigino, Elena Taverna, Oliver Harschnitz, Nicola Maghelli, Norbert Scherer, Damian Edward Dalle Nogare, Joran Deschamps, Francesco Pasqualini, Florian Jug</li>
+        <li><strong>作者：</strong>未提供</li>
         <li><strong>文章类型：</strong>未提供</li>
         
-        <li><strong>研究问题：</strong>$${\rm{Micro}}{\mathbb{S}}{\rm{plit}}$$ M i c o Split 是一种计算分离方法，用于每个成像通道最多四个结构的多重荧光成像</li>
+        <li><strong>研究问题：</strong>Micro Split是一种用于多重荧光成像的计算解混方法，每个成像通道最多可检测四种不同的结构。</li>
       </ul>
-      <p><strong>发现/highlights：</strong></p>
-      <ol><li>$${\bf{Micro}}{{\mathbb{S}}}{\bf{plit}}$$ Micro S plit：荧光显微镜数据的语义分离</li><li>$${\rm{Micro}}{\mathbb{S}}{\rm{plit}}$$ M i c o Split 是一种计算分离方法，用于每个成像通道最多四个结构的多重荧光成像</li></ol>
-      <p><strong>摘要：</strong>$${\rm{Micro}}{\mathbb{S}}{\rm{plit}}$$ M i c o Split 是一种计算分离方法，用于每个成像通道最多四个结构的多重荧光成像</p>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>Micro Split：荧光显微镜数据的语义分离技术</li><li>Micro Split是一种用于多重荧光成像的计算解混方法，每个成像通道最多可检测四种不同的结构。</li></ol>
+      <p><strong>摘要：</strong>Micro Split是一种用于多重荧光成像的计算解混方法，每个成像通道最多可检测四种不同的结构。</p>
       <p><strong>链接：</strong><a href="https://www.nature.com/articles/s41592-026-03082-1">https://www.nature.com/articles/s41592-026-03082-1</a></p>
     </article>
     
