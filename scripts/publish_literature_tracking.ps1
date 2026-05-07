@@ -7,7 +7,7 @@
     [switch]$ScheduledPublish,
     [ValidateSet("Manual", "Auto", "Primary", "VerifyRetry")]
     [string]$PublishPhase = "Manual",
-    [string]$TimezoneId = "China Standard Time"
+    [string]$TimezoneId = ""
 )
 
 $ErrorActionPreference = "Stop"
@@ -18,6 +18,11 @@ $env:PYTHONIOENCODING = "utf-8"
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $RepoRoot = Split-Path -Parent $ScriptDir
 $WorkspaceRoot = Split-Path -Parent $RepoRoot
+. (Join-Path $WorkspaceRoot "scripts\workflow_settings.ps1")
+$workflowSettings = Get-WorkflowSettings -WorkspaceRoot $WorkspaceRoot
+if (-not $TimezoneId) {
+    $TimezoneId = Get-WorkflowWindowsTimeZoneId -Settings $workflowSettings
+}
 $WeeklyProject = Join-Path $WorkspaceRoot "CNS周报"
 $DailyProject = Join-Path $WorkspaceRoot "paper-overview-extractor-RSS"
 $WeeklyReportsRoot = Join-Path $WeeklyProject "reports"
@@ -25,6 +30,7 @@ $DailyOutputRoot = Join-Path $DailyProject "output"
 $WeeklyDest = Join-Path $RepoRoot "[周报]"
 $DailyDest = Join-Path $RepoRoot "[日报]"
 $NoBomUtf8 = [System.Text.UTF8Encoding]::new($false)
+$DefaultGitProxyUrl = Get-WorkflowProxyUrl -Settings $workflowSettings -DefaultValue "http://127.0.0.1:7890"
 
 function Write-Info([string]$Message) {
     Write-Host "[INFO] $Message" -ForegroundColor Cyan
@@ -701,8 +707,65 @@ function Update-SubReadme([string]$DestDir, [string]$Title, [string]$SourceRelat
     Write-Utf8File (Join-Path $DestDir "README.md") (($body -join "`r`n"))
 }
 
-function Invoke-Git([string[]]$GitArguments) {
-    $gitArgs = @("-c", "safe.directory=$RepoRoot", "-C", $RepoRoot) + $GitArguments
+function Get-PublishManagedPathspecs() {
+    return @(
+        ":(literal).nojekyll",
+        ":(literal)README.md",
+        ":(literal)[日报]",
+        ":(literal)[周报]"
+    )
+}
+
+function Test-TcpEndpoint([string]$HostName, [int]$Port, [int]$TimeoutMs = 1500) {
+    $client = New-Object System.Net.Sockets.TcpClient
+    try {
+        $async = $client.BeginConnect($HostName, $Port, $null, $null)
+        if (-not $async.AsyncWaitHandle.WaitOne($TimeoutMs, $false)) {
+            return $false
+        }
+        $client.EndConnect($async)
+        return $true
+    } catch {
+        return $false
+    } finally {
+        $client.Dispose()
+    }
+}
+
+function Get-AvailableGitProxyUrl() {
+    $candidates = @(
+        $env:HTTPS_PROXY,
+        $env:https_proxy,
+        $env:HTTP_PROXY,
+        $env:http_proxy,
+        $DefaultGitProxyUrl
+    ) | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | Select-Object -Unique
+
+    foreach ($candidate in $candidates) {
+        try {
+            $uri = [System.Uri]$candidate
+            if ($uri.Host -and $uri.Port -gt 0 -and (Test-TcpEndpoint -HostName $uri.Host -Port $uri.Port)) {
+                return $candidate
+            }
+        } catch {
+            continue
+        }
+    }
+    return $null
+}
+
+function Get-GitInvocationArgs([string[]]$GitArguments, [string]$ProxyUrl = "") {
+    $gitArgs = @("-c", "safe.directory=$RepoRoot")
+    if ($ProxyUrl) {
+        $gitArgs += @("-c", "http.proxy=$ProxyUrl", "-c", "https.proxy=$ProxyUrl")
+    }
+    $gitArgs += @("-C", $RepoRoot)
+    $gitArgs += $GitArguments
+    return $gitArgs
+}
+
+function Invoke-Git([string[]]$GitArguments, [string]$ProxyUrl = "") {
+    $gitArgs = Get-GitInvocationArgs -GitArguments $GitArguments -ProxyUrl $ProxyUrl
     & git @gitArgs
     $exitCode = $LASTEXITCODE
     if ($exitCode -ne 0) {
@@ -710,14 +773,28 @@ function Invoke-Git([string[]]$GitArguments) {
     }
 }
 
-function Invoke-GitCapture([string[]]$GitArguments) {
-    $gitArgs = @("-c", "safe.directory=$RepoRoot", "-C", $RepoRoot) + $GitArguments
+function Invoke-GitCapture([string[]]$GitArguments, [string]$ProxyUrl = "") {
+    $gitArgs = Get-GitInvocationArgs -GitArguments $GitArguments -ProxyUrl $ProxyUrl
     $output = & git @gitArgs 2>&1
     $exitCode = $LASTEXITCODE
     if ($exitCode -ne 0) {
         throw "git 命令失败（exit=$exitCode）：git $($GitArguments -join ' ')`n$($output -join [Environment]::NewLine)"
     }
     return @($output)
+}
+
+function Invoke-GitPush([string]$BranchName) {
+    try {
+        Invoke-Git @("push", "origin", $BranchName)
+        return
+    } catch {
+        $proxyUrl = Get-AvailableGitProxyUrl
+        if (-not $proxyUrl) {
+            throw
+        }
+        Write-Info ("直连推送失败，尝试代理推送：{0}" -f $proxyUrl)
+        Invoke-Git @("push", "origin", $BranchName) -ProxyUrl $proxyUrl
+    }
 }
 
 function Read-JsonFile([string]$Path) {
@@ -797,7 +874,8 @@ function Test-WeeklyPublishedState([string]$DestDir, [object]$ExpectedRange) {
 }
 
 function Test-GitWorkingTreeDirty() {
-    return @(Invoke-GitCapture @("status", "--porcelain")).Count -gt 0
+    $pathspecs = Get-PublishManagedPathspecs
+    return @(Invoke-GitCapture (@("status", "--porcelain", "--") + $pathspecs)).Count -gt 0
 }
 
 function Get-GitAheadCount() {
@@ -1110,8 +1188,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\publish_literature
     Write-Utf8File (Join-Path $RepoRoot "README.md") ($rootReadme -replace "`n", "`r`n")
 
     Write-Info "检查 Git 变更"
-    Invoke-Git @("add", "-A")
-    $statusLines = @(Invoke-GitCapture @("status", "--porcelain"))
+    $managedPathspecs = Get-PublishManagedPathspecs
+    Invoke-Git (@("add", "-A", "--") + $managedPathspecs)
+    $statusLines = @(Invoke-GitCapture (@("status", "--porcelain", "--") + $managedPathspecs))
 
     if ($statusLines.Count -eq 0) {
         Write-Success "没有新的文件变化。"
@@ -1148,7 +1227,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\publish_literature
     }
 
     Write-Info ("推送分支：{0}" -f $branchName)
-    Invoke-Git @("push", "origin", $branchName)
+    Invoke-GitPush -BranchName $branchName
     $aheadCountAfterPush = Get-GitAheadCount
     Write-Info ("推送后待推送提交数：{0}" -f $aheadCountAfterPush)
     Write-Success "一键发布完成。"
