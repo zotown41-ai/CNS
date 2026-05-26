@@ -1,0 +1,846 @@
+﻿{
+  "schema_version": "1.0",
+  "task": "paper-overview-extractor-rss",
+  "status": "partial_success",
+  "generated_at": "2026-05-18T20:00:29.997718+00:00",
+  "date_range": {
+    "start": "2026-05-18",
+    "end": "2026-05-18"
+  },
+  "inputs": {
+    "journals_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\目标期刊.txt",
+    "keywords_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\关键词.txt",
+    "keyword_aliases_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\keyword_aliases.json",
+    "rss_sources_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\rss_sources.json",
+    "keywords": [
+      "免疫代谢",
+      "代谢表观调控",
+      "单细胞算法",
+      "单细胞图谱",
+      "流感",
+      "HSV",
+      "H1N1",
+      "肺损伤",
+      "肺组织修复",
+      "皮肤免疫"
+    ],
+    "llm_model": "hy-mt1.5-7b",
+    "llm_base_url": "http://127.0.0.1:1234",
+    "llm_translation_only": true,
+    "llm_proxy_url": "http://127.0.0.1:7890",
+    "google_fallback": true
+  },
+  "summary": {
+    "journal_count": 10,
+    "paper_count": 5,
+    "pubmed_enriched_count": 0,
+    "llm_enhanced_count": 5,
+    "llm_google_fallback_count": 0
+  },
+  "journals": [
+    {
+      "journal": "Nature",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nature/",
+      "feed_urls": [
+        "https://www.nature.com/nature/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nature/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nature.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 75
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 49",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Science",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/science",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+        "https://www.science.org/rss/express.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "status_code": 200,
+          "error": "",
+          "item_count": 41
+        },
+        {
+          "url": "https://www.science.org/rss/express.xml",
+          "ok": true,
+          "final_url": "https://feeds.science.org/rss/science-aop.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 14
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/00928674"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "status_code": 200,
+          "error": "",
+          "item_count": 72
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell metabolism",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell-metabolism/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/15504131"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "status_code": 200,
+          "error": "",
+          "item_count": 53
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Immunity",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/immunity/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/10747613"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "status_code": 200,
+          "error": "",
+          "item_count": 53
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature Immunology",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/ni/",
+      "feed_urls": [
+        "https://www.nature.com/ni/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/ni/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/ni.rss?error=cookies_not_supported&code=5b77f246-6b7d-4486-b91b-123a32f6a06e",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 1"
+      ],
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The host immune response to Mycobacterium tuberculosis determining protection or disease progression",
+          "link": "https://www.nature.com/articles/s41590-026-02529-z",
+          "published_at": "2026-05-18T08:00:00+08:00",
+          "published_date": "2026-05-18",
+          "summary": "O’Garra and colleagues discuss the evolving spectrum of M. tuberculosis infection outcomes and TB disease, how the host immune response determines and unfolds across this spectrum and how the natural diversity of M. tuberculosis contributes to this complexity",
+          "authors": [
+            "Margarida Saraiva",
+            "William J. Branchett",
+            "Jyothi Rengarajan",
+            "Anne O’Garra"
+          ],
+          "doi": "10.1038/s41590-026-02529-z",
+          "journal": "Nature Immunology",
+          "source_feed": "https://www.nature.com/ni.rss?error=cookies_not_supported&code=5b77f246-6b7d-4486-b91b-123a32f6a06e",
+          "entry_id": "doi:10.1038/s41590-026-02529-z",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "宿主对结核分枝杆菌的免疫反应决定了是会引发保护作用还是导致疾病进展。",
+          "llm_title_bilingual": "宿主对结核分枝杆菌的免疫反应决定了是会引发保护作用还是导致疾病进展。 / The host immune response to Mycobacterium tuberculosis determining protection or disease progression",
+          "llm_research_question_zh": "奥加拉及其同事探讨了M.这一病原体的致病谱系的变化趋势。",
+          "llm_highlights_zh": [
+            "结核杆菌感染的结果与结核病的发展过程：宿主的免疫反应是如何在这一过程中起决定性作用的，又是如何影响这些结果的；同时，结核分枝杆菌自身的自然多样性又对这些过程产生了怎样的影响。",
+            "结核病正是导致这种复杂性的原因之一。",
+            "宿主对结核分枝杆菌的免疫反应决定了是会引发保护作用还是导致疾病进展。"
+          ],
+          "llm_rss_summary_zh": "奥加拉及其同事探讨了结核分枝杆菌感染结局及结核病发病机制的演变过程，分析了宿主免疫反应如何影响这些结局的发展，并研究了结核分枝杆菌自身的遗传多样性如何加剧这种复杂性。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "奥加拉及其同事探讨了结核分枝杆菌感染结局及结核病发病机制的演变过程，分析了宿主免疫反应如何影响这些结局的发展，并研究了结核分枝杆菌自身的遗传多样性如何加剧这种复杂性。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "O’Garra and colleagues discuss the evolving spectrum of M. tuberculosis infection outcomes and TB disease, how the host immune response determines and unfolds across this spectrum and how the natural diversity of M. tuberculosis contributes to this complexity",
+          "primary_summary_zh": "奥加拉及其同事探讨了结核分枝杆菌感染结局及结核病发病机制的演变过程，分析了宿主免疫反应如何影响这些结局的发展，并研究了结核分枝杆菌自身的遗传多样性如何加剧这种复杂性。"
+        },
+        {
+          "title": "Monocyte infiltration induces CNS arginine catabolism to fuel neuroinflammation",
+          "link": "https://www.nature.com/articles/s41590-026-02516-4",
+          "published_at": "2026-05-18T08:00:00+08:00",
+          "published_date": "2026-05-18",
+          "summary": "Kerndl and colleagues identify that arginase 1-expressing monocyte-derived cells mediate arginine catabolism and detrimental effects during experimental autoimmune encephalitis-triggered neuroinflammation",
+          "authors": [
+            "Martina Kerndl",
+            "Laszlo Musiejovsky",
+            "Andrea Komljenovic",
+            "Hon Shing Lam",
+            "Andrea Vogel",
+            "Tobias Bausbacher",
+            "Christian J. Riedl",
+            "Roko Sango",
+            "Lenka Matejovicova",
+            "Anja Dobrijevic",
+            "Laura Oberbichler",
+            "Melanie Hofmann",
+            "Markus Kieler",
+            "Lucia Quemada Garrido",
+            "Lara Veronika Perko Budja",
+            "Julia Stefanie Brunner",
+            "James Lucas Cairns",
+            "Paul Cheng",
+            "Kerstin Kitt",
+            "Christine Isaguirre",
+            "Thomas Köcher",
+            "Kristaps Klavins",
+            "Thomas Rattei",
+            "Simon Hametner",
+            "Stephan Blüml",
+            "Carsten Hopf",
+            "Ryan D. Sheldon",
+            "Omar Sharif",
+            "Gernot Schabbauer"
+          ],
+          "doi": "10.1038/s41590-026-02516-4",
+          "journal": "Nature Immunology",
+          "source_feed": "https://www.nature.com/ni.rss?error=cookies_not_supported&code=5b77f246-6b7d-4486-b91b-123a32f6a06e",
+          "entry_id": "doi:10.1038/s41590-026-02516-4",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "单核细胞的浸润会促进中枢神经系统中精氨酸的分解代谢，从而为神经炎症反应提供能量支持。",
+          "llm_title_bilingual": "单核细胞的浸润会促进中枢神经系统中精氨酸的分解代谢，从而为神经炎症反应提供能量支持。 / Monocyte infiltration induces CNS arginine catabolism to fuel neuroinflammation",
+          "llm_research_question_zh": "Kerndl及其同事发现，在实验性自身免疫性脑炎引发的神经炎症过程中，表达精氨酸酶1的单核细胞衍生物会参与精氨酸的分解代谢，并产生有害作用。",
+          "llm_highlights_zh": [
+            "单核细胞的浸润会促进中枢神经系统中精氨酸的分解代谢，从而为神经炎症反应提供能量支持。",
+            "Kerndl及其同事发现，在实验性自身免疫性脑炎引发的神经炎症过程中，表达精氨酸酶1的单核细胞衍生物会参与精氨酸的分解代谢，并产生有害作用。"
+          ],
+          "llm_rss_summary_zh": "Kerndl及其同事发现，在实验性自身免疫性脑炎引发的神经炎症过程中，表达精氨酸酶1的单核细胞衍生物会参与精氨酸的分解代谢，并产生有害作用。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "Kerndl及其同事发现，在实验性自身免疫性脑炎引发的神经炎症过程中，表达精氨酸酶1的单核细胞衍生物会参与精氨酸的分解代谢，并产生有害作用。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Kerndl and colleagues identify that arginase 1-expressing monocyte-derived cells mediate arginine catabolism and detrimental effects during experimental autoimmune encephalitis-triggered neuroinflammation",
+          "primary_summary_zh": "Kerndl及其同事发现，在实验性自身免疫性脑炎引发的神经炎症过程中，表达精氨酸酶1的单核细胞衍生物会参与精氨酸的分解代谢，并产生有害作用。"
+        }
+      ]
+    },
+    {
+      "journal": "Science Immunology",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/sciimmunol",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "status_code": 200,
+          "error": "",
+          "item_count": 10
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Bioinformatics",
+      "configured": true,
+      "publisher": "Oxford Academic",
+      "homepage": "https://academic.oup.com/bioinformatics",
+      "feed_urls": [
+        "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+        "https://academic.oup.com/rss/site_5139/3001.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 3
+        },
+        {
+          "url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 32
+        }
+      ],
+      "warnings": [],
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "intmap: Fast and Flexible Mapping of Mobile DNA Integration for Basic and Translational Research",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag310/8686384?rss=1",
+          "published_at": "2026-05-18T08:00:00+08:00",
+          "published_date": "2026-05-18",
+          "summary": "Abstract Summary Integration of exogenous DNA into host cell chromatin is a hallmark of many virus and transposon lifecycles and the foundational basis for many modern cellular and genetic therapies. Defining integration sites (ISs) in a population of cells can accordingly inform fundamental aspects of mobile DNA biology and therapeutic treatment outcomes. Here, we describe intmap, a software that generalizes IS analysis to diverse data-types and experimental systems. intmap functions independently of strict library design assumptions and is highly tunable with respect to analysis parameters. Using both simulated and experimental data, we show that IS mapping with intmap is fast, accurate, and highly flexible. Availability and implementation intmap, related documentation, and a convenient installation script are available at https://github.com/gbedwell/intmap . Additional information is provided in the online Supplement. Analysis commands, outputs, and other information related to this manuscript are available at https://doi.org/10.5281/zenodo.19475929",
+          "authors": [],
+          "doi": "10.1093/bioinformatics/btag310",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag310",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "intmap：一种快速且灵活的移动DNA整合技术，适用于基础研究及转化医学应用。",
+          "llm_title_bilingual": "intmap：一种快速且灵活的移动DNA整合技术，适用于基础研究及转化医学应用。 / intmap: Fast and Flexible Mapping of Mobile DNA Integration for Basic and Translational Research",
+          "llm_research_question_zh": "摘要：外源DNA整合到宿主细胞的染色质中，是许多病毒及转座子生命周期中的关键步骤，同时也是现代细胞治疗与基因治疗技术的基础所在。",
+          "llm_highlights_zh": [
+            "确定细胞群体中整合位点的位置，有助于深入理解移动DNA的生物学机制及其对治疗效果的影响。",
+            "在这里，我们介绍了 intmap——这款能够将 IS 分析方法应用于多种数据类型及实验系统的软件。",
+            "intmap函数的设计并不依赖于严格的库设计规范，且其分析参数具有很高的可调性。"
+          ],
+          "llm_rss_summary_zh": "摘要：外源DNA整合到宿主细胞染色质中，是许多病毒及转座子生命周期的核心机制，同时也是现代细胞生物学与基因治疗技术的基础。确定细胞群体中的整合位点，有助于深入理解移动性DNA的生物学特性及其在治疗效果中的作用。本文介绍了一种名为intmap的软件工具，该工具能够将整合位点的分析方法应用于多种类型的数据和实验体系。intmap无需依赖特定的数据库结构进行工作，并且其分析参数具有高度可调性。通过模拟数据与真实实验数据的验证，我们证明intmap在整合位点检测方面具备快速、准确且灵活的特点。intmap软件及其相关文档、安装脚本均可从https://github.com/gbedwell/intmap获取；更多详细信息请参阅在线补充材料。与本研究相关的分析命令、结果数据等资料也可通过链接https://doi.org/10.5281/zenodo.19475929查阅。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "外源DNA整合到宿主细胞染色质中，是许多病毒及转座子生命周期的核心机制，同时也是现代细胞生物学与基因治疗技术的基础。确定细胞群体中的整合位点，有助于深入理解移动性DNA的生物学特性及其在治疗效果中的作用。本文介绍了一种名为intmap的软件工具，该工具能够将整合位点的分析方法应用于多种类型的数据和实验体系。intmap无需依赖特定的数据库结构进行工作，并且其分析参数具有高度可调性。通过模拟数据与真实实验数据的验证，我们证明intmap在整合位点检测方面具备快速、准确且灵活的特点。intmap软件及其相关文档、安装脚本均可从https://github.com/gbedwell/intmap获取；更多详细信息请参阅在线补充材料。与本研究相关的分析命令、结果数据等资料也可通过链接https://doi.org/10.5281/zenodo.19475929查阅。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Summary Integration of exogenous DNA into host cell chromatin is a hallmark of many virus and transposon lifecycles and the foundational basis for many modern cellular and genetic therapies. Defining integration sites (ISs) in a population of cells can accordingly inform fundamental aspects of mobile DNA biology and therapeutic treatment outcomes. Here, we describe intmap, a software that generalizes IS analysis to diverse data-types and experimental systems. intmap functions independently of strict library design assumptions and is highly tunable with respect to analysis parameters. Using both simulated and experimental data, we show that IS mapping with intmap is fast, accurate, and highly flexible.",
+          "primary_summary_zh": "摘要：外源DNA整合到宿主细胞染色质中，是许多病毒及转座子生命周期的核心机制，同时也是现代细胞生物学与基因治疗技术的基础。确定细胞群体中的整合位点，有助于深入理解移动性DNA的生物学特性及其在治疗效果中的作用。本文介绍了一种名为intmap的软件工具，该工具能够将整合位点的分析方法应用于多种类型的数据和实验体系。intmap无需依赖特定的数据库结构进行工作，并且其分析参数具有高度可调性。通过模拟数据与真实实验数据的验证，我们证明intmap在整合位点检测方面具备快速、准确且灵活的特点。intmap软件及其相关文档、安装脚本均可从https://github.com/gbedwell/intmap获取；更多详细信息请参阅在线补充材料。与本研究相关的分析命令、结果数据等资料也可通过链接https://doi.org/10.5281/zenodo.19475929查阅。"
+        },
+        {
+          "title": "MetaCCI: Meta Cell Cell Interaction inference and its application to CCIs characteristics of MDS",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag313/8686383?rss=1",
+          "published_at": "2026-05-18T08:00:00+08:00",
+          "published_date": "2026-05-18",
+          "summary": "Abstract Motivation Cell–cell interactions (CCIs) are fundamental to multicellular organisms and play crucial roles in diverse biological processes and disease mechanisms. Understanding CCIs is vital for deciphering disease pathogenesis and developing therapeutic strategies. Although numerous computational methods have been developed to infer CCIs from complex biological data, most existing approaches rely primarily on single-gene expression levels and ligand-receptor databases, often failing to capture the nuanced network-wide changes characteristic of disease states. Result We propose MetaCCI, a novel computational strategy that integrates meta-information into CCI inference by extending the traditional gene expression-based analysis to a gene regulatory network framework. MetaCCI meticulously combines established ligand-receptor pairs with quantitative insights into gene behavior within complex gene networks, enabling the precise extraction of relevant targets for CCI inference. Subsequently, CCI inference was performed using an eigen cell co-expression network, providing a more holistic view of cell-cell communication. Monte Carlo simulations demonstrated that MetaCCI consistently outperforms existing methods in CCI inference. We applied MetaCCI to characterize cell-cell communication in Myelodysplastic Syndromes (MDS). Our results identified distinct interaction patterns in MDS compared with normal cell populations, specifically highlighting the loss of CCIs between “Dendritic cells and Hematopoietic precursor cells” and between “Dendritic cells and Hematopoietic multipotent progenitor cells” as characteristic features of MDS. Furthermore, FABP5, CD63, and HMGB1 were identified as MDS-specific markers. These findings suggest that diminished CCIs involving dendritic cells, hematopoietic precursor cells, and multipotent progenitor cells are pivotal to MDS pathogenesis. Availability and implementation The MetaCCI software is freely available at https://github.com/HeewonGitHub/MetaCCI . An archived version of the software and example datasets used in this study is available at Zenodo: https://doi.org/10.5281/zenodo.20101527",
+          "authors": [],
+          "doi": "10.1093/bioinformatics/btag313",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag313",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "MetaCCI：元细胞-细胞相互作用推理技术及其在评估骨髓增生异常综合征患者细胞间相互作用特征中的应用",
+          "llm_title_bilingual": "MetaCCI：元细胞-细胞相互作用推理技术及其在评估骨髓增生异常综合征患者细胞间相互作用特征中的应用 / MetaCCI: Meta Cell Cell Interaction inference and its application to CCIs characteristics of MDS",
+          "llm_research_question_zh": "摘要动机：细胞间相互作用是多细胞生物体存在的基础，在多种生物学过程及疾病机制中发挥着至关重要的作用。",
+          "llm_highlights_zh": [
+            "理解细胞死亡机制对于揭示疾病的发生机理及制定治疗策略而言至关重要。",
+            "尽管已经开发出了许多计算方法，用于从复杂的生物数据中推断出细胞信号通路的变化，但现有的大多数方法主要依赖于单基因的表达水平以及配体-受体数据库，这些方法往往无法捕捉到疾病状态下所出现的、涉及整个网络层面的复杂变化。",
+            "我们提出了一种名为MetaCCI的新计算策略，该策略通过将传统的基于基因表达的分析方法扩展到基因调控网络框架中，从而将元信息融入到基因表达相关性分析的过程中。"
+          ],
+          "llm_rss_summary_zh": "**摘要与动机**  \n细胞间相互作用是多细胞生物体赖以生存的基础，其在多种生物学过程及疾病机制中发挥着至关重要的作用。深入理解这些相互作用对于揭示疾病的发生机制并制定治疗策略而言至关重要。尽管目前已开发出多种计算方法来从复杂的生物数据中推断细胞间相互作用，但现有方法大多仅依赖单基因表达水平及配体-受体数据库，往往无法捕捉到疾病状态下所出现的整体性网络变化。  \n\n**研究方法与结果**  \n我们提出了一种名为MetaCCI的新型计算策略，该策略通过将传统的基于基因表达的分析方法扩展到基因调控网络框架中，从而整合了元信息来辅助细胞间相互作用的推断。MetaCCI巧妙地结合了已知的配体-受体对与对复杂基因网络中基因行为的定量分析结果，使得相关靶标的精准识别成为可能。随后，我们利用特征化的细胞共表达网络进行了细胞间相互作用的进一步分析，这一方法为全面理解细胞间的通讯机制提供了有力支持。蒙特卡洛模拟结果表明，MetaCCI在细胞间相互作用推断方面的性能明显优于现有方法。我们将MetaCCI应用于骨髓增生异常综合征的研究中，发现该疾病状态下“树突状细胞与造血前体细胞”以及“树突状细胞与造血多能祖细胞”之间的相互作用模式发生了显著改变，这些变化被认为是骨髓增生异常综合征的重要特征。此外，FABP5、CD63和HMGB1等基因也被确认为与该疾病相关的特异性标志物。这些研究结果表明，涉及树突状细胞、造血前体细胞及多能祖细胞的细胞间相互作用减弱，是导致骨髓增生异常综合征发生的关键因素。  \n\n**软件与数据资源**  \nMetaCCI软件可免费获取，地址为：https://github.com/HeewonGitHub/MetaCCI。本研究使用的软件存档版本及示例数据集也可在Zenodo平台上找到，链接为：https://doi.org/10.5281/zenodo.20101527。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "细胞间相互作用是多细胞生物体赖以生存的基础，其在多种生物学过程及疾病机制中发挥着至关重要的作用。深入理解这些相互作用对于揭示疾病的发生机制并制定治疗策略而言至关重要。尽管目前已开发出多种计算方法来从复杂的生物数据中推断细胞间相互作用，但现有方法大多仅依赖单基因表达水平及配体-受体数据库，往往无法捕捉到疾病状态下所出现的整体性网络变化。\n\n研究方法与结果\n我们提出了一种名为MetaCCI的新型计算策略，该策略通过将传统的基于基因表达的分析方法扩展到基因调控网络框架中，从而整合了元信息来辅助细胞间相互作用的推断。MetaCCI巧妙地结合了已知的配体-受体对与对复杂基因网络中基因行为的定量分析结果，使得相关靶标的精准识别成为可能。随后，我们利用特征化的细胞共表达网络进行了细胞间相互作用的进一步分析，这一方法为全面理解细胞间的通讯机制提供了有力支持。蒙特卡洛模拟结果表明，MetaCCI在细胞间相互作用推断方面的性能明显优于现有方法。我们将MetaCCI应用于骨髓增生异常综合征的研究中，发现该疾病状态下“树突状细胞与造血前体细胞”以及“树突状细胞与造血多能祖细胞”之间的相互作用模式发生了显著改变，这些变化被认为是骨髓增生异常综合征的重要特征。此外，FABP5、CD63和HMGB1等基因也被确认为与该疾病相关的特异性标志物。这些研究结果表明，涉及树突状细胞、造血前体细胞及多能祖细胞的细胞间相互作用减弱，是导致骨髓增生异常综合征发生的关键因素。\n\n软件与数据资源\nMetaCCI软件可免费获取，地址为：https://github.com/HeewonGitHub/MetaCCI。本研究使用的软件存档版本及示例数据集也可在Zenodo平台上找到，链接为：https://doi.org/10.5281/zenodo.20101527。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Cell–cell interactions (CCIs) are fundamental to multicellular organisms and play crucial roles in diverse biological processes and disease mechanisms. Understanding CCIs is vital for deciphering disease pathogenesis and developing therapeutic strategies. Although numerous computational methods have been developed to infer CCIs from complex biological data, most existing approaches rely primarily on single-gene expression levels and ligand-receptor databases, often failing to capture the nuanced network-wide changes characteristic of disease states. Result We propose MetaCCI, a novel computational strategy that integrates meta-information into CCI inference by extending the traditional gene expression-based analysis to a gene regulatory network framework. MetaCCI meticulously combines established ligand-receptor pairs with quantitative insights into gene behavior within complex gene networks, enabling the precise extraction of relevant targets for CCI inference. Subsequently, CCI inference was performed using an eigen cell co-expression network, providing a more holistic view of cell-cell communication. Monte Carlo simulations demonstrated that MetaCCI consistently outperforms existing methods in CCI inference. We applied MetaCCI to characterize cell-cell communication in Myelodysplastic Syndromes (MDS). Our results identified distinct interaction patterns in MDS compared with normal cell populations, specifically highlighting the loss of CCIs between “Dendritic cells and Hematopoietic precursor cells” and between “Dendritic cells and Hematopoietic multipotent progenitor cells” as characteristic features of MDS. Furthermore, FABP5, CD63, and HMGB1 were identified as MDS-specific markers. These findings suggest that diminished CCIs involving dendritic cells, hematopoietic precursor cells, and multipotent progenitor cells are pivotal to MDS pathogenesis.",
+          "primary_summary_zh": "**摘要与动机**  \n细胞间相互作用是多细胞生物体赖以生存的基础，其在多种生物学过程及疾病机制中发挥着至关重要的作用。深入理解这些相互作用对于揭示疾病的发生机制并制定治疗策略而言至关重要。尽管目前已开发出多种计算方法来从复杂的生物数据中推断细胞间相互作用，但现有方法大多仅依赖单基因表达水平及配体-受体数据库，往往无法捕捉到疾病状态下所出现的整体性网络变化。  \n\n**研究方法与结果**  \n我们提出了一种名为MetaCCI的新型计算策略，该策略通过将传统的基于基因表达的分析方法扩展到基因调控网络框架中，从而整合了元信息来辅助细胞间相互作用的推断。MetaCCI巧妙地结合了已知的配体-受体对与对复杂基因网络中基因行为的定量分析结果，使得相关靶标的精准识别成为可能。随后，我们利用特征化的细胞共表达网络进行了细胞间相互作用的进一步分析，这一方法为全面理解细胞间的通讯机制提供了有力支持。蒙特卡洛模拟结果表明，MetaCCI在细胞间相互作用推断方面的性能明显优于现有方法。我们将MetaCCI应用于骨髓增生异常综合征的研究中，发现该疾病状态下“树突状细胞与造血前体细胞”以及“树突状细胞与造血多能祖细胞”之间的相互作用模式发生了显著改变，这些变化被认为是骨髓增生异常综合征的重要特征。此外，FABP5、CD63和HMGB1等基因也被确认为与该疾病相关的特异性标志物。这些研究结果表明，涉及树突状细胞、造血前体细胞及多能祖细胞的细胞间相互作用减弱，是导致骨髓增生异常综合征发生的关键因素。  \n\n**软件与数据资源**  \nMetaCCI软件可免费获取，地址为：https://github.com/HeewonGitHub/MetaCCI。本研究使用的软件存档版本及示例数据集也可在Zenodo平台上找到，链接为：https://doi.org/10.5281/zenodo.20101527。"
+        }
+      ]
+    },
+    {
+      "journal": "Nature Protocols",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nprot/",
+      "feed_urls": [
+        "https://www.nature.com/nprot/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nprot/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nprot.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature methods",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nmeth/",
+      "feed_urls": [
+        "https://www.nature.com/nmeth/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nmeth/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nmeth.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [],
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "From possibility to precision in macromolecular ensemble prediction",
+          "link": "https://www.nature.com/articles/s41592-026-03084-z",
+          "published_at": "2026-05-18T08:00:00+08:00",
+          "published_date": "2026-05-18",
+          "summary": "This Perspective discusses current challenges in macromolecular ensemble prediction and the infrastructure and methodological advances needed to overcome these barriers",
+          "authors": [
+            "Stephanie A. Wankowicz",
+            "Massimiliano Bonomi"
+          ],
+          "doi": "10.1038/s41592-026-03084-z",
+          "journal": "Nature methods",
+          "source_feed": "https://www.nature.com/nmeth.rss",
+          "entry_id": "doi:10.1038/s41592-026-03084-z",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "从可能性到精确性：宏观分子集合预测技术的发展路径",
+          "llm_title_bilingual": "从可能性到精确性：宏观分子集合预测技术的发展路径 / From possibility to precision in macromolecular ensemble prediction",
+          "llm_research_question_zh": "本文探讨了当前在宏观分子集合预测领域所面临的挑战，以及为克服这些障碍所需在基础设施与方法学方面取得的进展。",
+          "llm_highlights_zh": [
+            "从可能性到精确性：宏观分子集合预测技术的发展路径",
+            "本文探讨了当前在宏观分子集合预测领域所面临的挑战，以及为克服这些障碍所需在基础设施与方法学方面取得的进展。"
+          ],
+          "llm_rss_summary_zh": "本文探讨了当前在宏观分子集合预测领域所面临的挑战，以及为克服这些障碍所需在基础设施与方法学方面取得的进展。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "本文探讨了当前在宏观分子集合预测领域所面临的挑战，以及为克服这些障碍所需在基础设施与方法学方面取得的进展。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "This Perspective discusses current challenges in macromolecular ensemble prediction and the infrastructure and methodological advances needed to overcome these barriers",
+          "primary_summary_zh": "本文探讨了当前在宏观分子集合预测领域所面临的挑战，以及为克服这些障碍所需在基础设施与方法学方面取得的进展。"
+        }
+      ]
+    }
+  ],
+  "all_papers": [
+    {
+      "title": "intmap: Fast and Flexible Mapping of Mobile DNA Integration for Basic and Translational Research",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag310/8686384?rss=1",
+      "published_at": "2026-05-18T08:00:00+08:00",
+      "published_date": "2026-05-18",
+      "summary": "Abstract Summary Integration of exogenous DNA into host cell chromatin is a hallmark of many virus and transposon lifecycles and the foundational basis for many modern cellular and genetic therapies. Defining integration sites (ISs) in a population of cells can accordingly inform fundamental aspects of mobile DNA biology and therapeutic treatment outcomes. Here, we describe intmap, a software that generalizes IS analysis to diverse data-types and experimental systems. intmap functions independently of strict library design assumptions and is highly tunable with respect to analysis parameters. Using both simulated and experimental data, we show that IS mapping with intmap is fast, accurate, and highly flexible. Availability and implementation intmap, related documentation, and a convenient installation script are available at https://github.com/gbedwell/intmap . Additional information is provided in the online Supplement. Analysis commands, outputs, and other information related to this manuscript are available at https://doi.org/10.5281/zenodo.19475929",
+      "authors": [],
+      "doi": "10.1093/bioinformatics/btag310",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag310",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "intmap：一种快速且灵活的移动DNA整合技术，适用于基础研究及转化医学应用。",
+      "llm_title_bilingual": "intmap：一种快速且灵活的移动DNA整合技术，适用于基础研究及转化医学应用。 / intmap: Fast and Flexible Mapping of Mobile DNA Integration for Basic and Translational Research",
+      "llm_research_question_zh": "摘要：外源DNA整合到宿主细胞的染色质中，是许多病毒及转座子生命周期中的关键步骤，同时也是现代细胞治疗与基因治疗技术的基础所在。",
+      "llm_highlights_zh": [
+        "确定细胞群体中整合位点的位置，有助于深入理解移动DNA的生物学机制及其对治疗效果的影响。",
+        "在这里，我们介绍了 intmap——这款能够将 IS 分析方法应用于多种数据类型及实验系统的软件。",
+        "intmap函数的设计并不依赖于严格的库设计规范，且其分析参数具有很高的可调性。"
+      ],
+      "llm_rss_summary_zh": "摘要：外源DNA整合到宿主细胞染色质中，是许多病毒及转座子生命周期的核心机制，同时也是现代细胞生物学与基因治疗技术的基础。确定细胞群体中的整合位点，有助于深入理解移动性DNA的生物学特性及其在治疗效果中的作用。本文介绍了一种名为intmap的软件工具，该工具能够将整合位点的分析方法应用于多种类型的数据和实验体系。intmap无需依赖特定的数据库结构进行工作，并且其分析参数具有高度可调性。通过模拟数据与真实实验数据的验证，我们证明intmap在整合位点检测方面具备快速、准确且灵活的特点。intmap软件及其相关文档、安装脚本均可从https://github.com/gbedwell/intmap获取；更多详细信息请参阅在线补充材料。与本研究相关的分析命令、结果数据等资料也可通过链接https://doi.org/10.5281/zenodo.19475929查阅。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "外源DNA整合到宿主细胞染色质中，是许多病毒及转座子生命周期的核心机制，同时也是现代细胞生物学与基因治疗技术的基础。确定细胞群体中的整合位点，有助于深入理解移动性DNA的生物学特性及其在治疗效果中的作用。本文介绍了一种名为intmap的软件工具，该工具能够将整合位点的分析方法应用于多种类型的数据和实验体系。intmap无需依赖特定的数据库结构进行工作，并且其分析参数具有高度可调性。通过模拟数据与真实实验数据的验证，我们证明intmap在整合位点检测方面具备快速、准确且灵活的特点。intmap软件及其相关文档、安装脚本均可从https://github.com/gbedwell/intmap获取；更多详细信息请参阅在线补充材料。与本研究相关的分析命令、结果数据等资料也可通过链接https://doi.org/10.5281/zenodo.19475929查阅。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Summary Integration of exogenous DNA into host cell chromatin is a hallmark of many virus and transposon lifecycles and the foundational basis for many modern cellular and genetic therapies. Defining integration sites (ISs) in a population of cells can accordingly inform fundamental aspects of mobile DNA biology and therapeutic treatment outcomes. Here, we describe intmap, a software that generalizes IS analysis to diverse data-types and experimental systems. intmap functions independently of strict library design assumptions and is highly tunable with respect to analysis parameters. Using both simulated and experimental data, we show that IS mapping with intmap is fast, accurate, and highly flexible.",
+      "primary_summary_zh": "摘要：外源DNA整合到宿主细胞染色质中，是许多病毒及转座子生命周期的核心机制，同时也是现代细胞生物学与基因治疗技术的基础。确定细胞群体中的整合位点，有助于深入理解移动性DNA的生物学特性及其在治疗效果中的作用。本文介绍了一种名为intmap的软件工具，该工具能够将整合位点的分析方法应用于多种类型的数据和实验体系。intmap无需依赖特定的数据库结构进行工作，并且其分析参数具有高度可调性。通过模拟数据与真实实验数据的验证，我们证明intmap在整合位点检测方面具备快速、准确且灵活的特点。intmap软件及其相关文档、安装脚本均可从https://github.com/gbedwell/intmap获取；更多详细信息请参阅在线补充材料。与本研究相关的分析命令、结果数据等资料也可通过链接https://doi.org/10.5281/zenodo.19475929查阅。"
+    },
+    {
+      "title": "The host immune response to Mycobacterium tuberculosis determining protection or disease progression",
+      "link": "https://www.nature.com/articles/s41590-026-02529-z",
+      "published_at": "2026-05-18T08:00:00+08:00",
+      "published_date": "2026-05-18",
+      "summary": "O’Garra and colleagues discuss the evolving spectrum of M. tuberculosis infection outcomes and TB disease, how the host immune response determines and unfolds across this spectrum and how the natural diversity of M. tuberculosis contributes to this complexity",
+      "authors": [
+        "Margarida Saraiva",
+        "William J. Branchett",
+        "Jyothi Rengarajan",
+        "Anne O’Garra"
+      ],
+      "doi": "10.1038/s41590-026-02529-z",
+      "journal": "Nature Immunology",
+      "source_feed": "https://www.nature.com/ni.rss?error=cookies_not_supported&code=5b77f246-6b7d-4486-b91b-123a32f6a06e",
+      "entry_id": "doi:10.1038/s41590-026-02529-z",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "宿主对结核分枝杆菌的免疫反应决定了是会引发保护作用还是导致疾病进展。",
+      "llm_title_bilingual": "宿主对结核分枝杆菌的免疫反应决定了是会引发保护作用还是导致疾病进展。 / The host immune response to Mycobacterium tuberculosis determining protection or disease progression",
+      "llm_research_question_zh": "奥加拉及其同事探讨了M.这一病原体的致病谱系的变化趋势。",
+      "llm_highlights_zh": [
+        "结核杆菌感染的结果与结核病的发展过程：宿主的免疫反应是如何在这一过程中起决定性作用的，又是如何影响这些结果的；同时，结核分枝杆菌自身的自然多样性又对这些过程产生了怎样的影响。",
+        "结核病正是导致这种复杂性的原因之一。",
+        "宿主对结核分枝杆菌的免疫反应决定了是会引发保护作用还是导致疾病进展。"
+      ],
+      "llm_rss_summary_zh": "奥加拉及其同事探讨了结核分枝杆菌感染结局及结核病发病机制的演变过程，分析了宿主免疫反应如何影响这些结局的发展，并研究了结核分枝杆菌自身的遗传多样性如何加剧这种复杂性。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "奥加拉及其同事探讨了结核分枝杆菌感染结局及结核病发病机制的演变过程，分析了宿主免疫反应如何影响这些结局的发展，并研究了结核分枝杆菌自身的遗传多样性如何加剧这种复杂性。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "O’Garra and colleagues discuss the evolving spectrum of M. tuberculosis infection outcomes and TB disease, how the host immune response determines and unfolds across this spectrum and how the natural diversity of M. tuberculosis contributes to this complexity",
+      "primary_summary_zh": "奥加拉及其同事探讨了结核分枝杆菌感染结局及结核病发病机制的演变过程，分析了宿主免疫反应如何影响这些结局的发展，并研究了结核分枝杆菌自身的遗传多样性如何加剧这种复杂性。"
+    },
+    {
+      "title": "Monocyte infiltration induces CNS arginine catabolism to fuel neuroinflammation",
+      "link": "https://www.nature.com/articles/s41590-026-02516-4",
+      "published_at": "2026-05-18T08:00:00+08:00",
+      "published_date": "2026-05-18",
+      "summary": "Kerndl and colleagues identify that arginase 1-expressing monocyte-derived cells mediate arginine catabolism and detrimental effects during experimental autoimmune encephalitis-triggered neuroinflammation",
+      "authors": [
+        "Martina Kerndl",
+        "Laszlo Musiejovsky",
+        "Andrea Komljenovic",
+        "Hon Shing Lam",
+        "Andrea Vogel",
+        "Tobias Bausbacher",
+        "Christian J. Riedl",
+        "Roko Sango",
+        "Lenka Matejovicova",
+        "Anja Dobrijevic",
+        "Laura Oberbichler",
+        "Melanie Hofmann",
+        "Markus Kieler",
+        "Lucia Quemada Garrido",
+        "Lara Veronika Perko Budja",
+        "Julia Stefanie Brunner",
+        "James Lucas Cairns",
+        "Paul Cheng",
+        "Kerstin Kitt",
+        "Christine Isaguirre",
+        "Thomas Köcher",
+        "Kristaps Klavins",
+        "Thomas Rattei",
+        "Simon Hametner",
+        "Stephan Blüml",
+        "Carsten Hopf",
+        "Ryan D. Sheldon",
+        "Omar Sharif",
+        "Gernot Schabbauer"
+      ],
+      "doi": "10.1038/s41590-026-02516-4",
+      "journal": "Nature Immunology",
+      "source_feed": "https://www.nature.com/ni.rss?error=cookies_not_supported&code=5b77f246-6b7d-4486-b91b-123a32f6a06e",
+      "entry_id": "doi:10.1038/s41590-026-02516-4",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "单核细胞的浸润会促进中枢神经系统中精氨酸的分解代谢，从而为神经炎症反应提供能量支持。",
+      "llm_title_bilingual": "单核细胞的浸润会促进中枢神经系统中精氨酸的分解代谢，从而为神经炎症反应提供能量支持。 / Monocyte infiltration induces CNS arginine catabolism to fuel neuroinflammation",
+      "llm_research_question_zh": "Kerndl及其同事发现，在实验性自身免疫性脑炎引发的神经炎症过程中，表达精氨酸酶1的单核细胞衍生物会参与精氨酸的分解代谢，并产生有害作用。",
+      "llm_highlights_zh": [
+        "单核细胞的浸润会促进中枢神经系统中精氨酸的分解代谢，从而为神经炎症反应提供能量支持。",
+        "Kerndl及其同事发现，在实验性自身免疫性脑炎引发的神经炎症过程中，表达精氨酸酶1的单核细胞衍生物会参与精氨酸的分解代谢，并产生有害作用。"
+      ],
+      "llm_rss_summary_zh": "Kerndl及其同事发现，在实验性自身免疫性脑炎引发的神经炎症过程中，表达精氨酸酶1的单核细胞衍生物会参与精氨酸的分解代谢，并产生有害作用。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "Kerndl及其同事发现，在实验性自身免疫性脑炎引发的神经炎症过程中，表达精氨酸酶1的单核细胞衍生物会参与精氨酸的分解代谢，并产生有害作用。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Kerndl and colleagues identify that arginase 1-expressing monocyte-derived cells mediate arginine catabolism and detrimental effects during experimental autoimmune encephalitis-triggered neuroinflammation",
+      "primary_summary_zh": "Kerndl及其同事发现，在实验性自身免疫性脑炎引发的神经炎症过程中，表达精氨酸酶1的单核细胞衍生物会参与精氨酸的分解代谢，并产生有害作用。"
+    },
+    {
+      "title": "MetaCCI: Meta Cell Cell Interaction inference and its application to CCIs characteristics of MDS",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag313/8686383?rss=1",
+      "published_at": "2026-05-18T08:00:00+08:00",
+      "published_date": "2026-05-18",
+      "summary": "Abstract Motivation Cell–cell interactions (CCIs) are fundamental to multicellular organisms and play crucial roles in diverse biological processes and disease mechanisms. Understanding CCIs is vital for deciphering disease pathogenesis and developing therapeutic strategies. Although numerous computational methods have been developed to infer CCIs from complex biological data, most existing approaches rely primarily on single-gene expression levels and ligand-receptor databases, often failing to capture the nuanced network-wide changes characteristic of disease states. Result We propose MetaCCI, a novel computational strategy that integrates meta-information into CCI inference by extending the traditional gene expression-based analysis to a gene regulatory network framework. MetaCCI meticulously combines established ligand-receptor pairs with quantitative insights into gene behavior within complex gene networks, enabling the precise extraction of relevant targets for CCI inference. Subsequently, CCI inference was performed using an eigen cell co-expression network, providing a more holistic view of cell-cell communication. Monte Carlo simulations demonstrated that MetaCCI consistently outperforms existing methods in CCI inference. We applied MetaCCI to characterize cell-cell communication in Myelodysplastic Syndromes (MDS). Our results identified distinct interaction patterns in MDS compared with normal cell populations, specifically highlighting the loss of CCIs between “Dendritic cells and Hematopoietic precursor cells” and between “Dendritic cells and Hematopoietic multipotent progenitor cells” as characteristic features of MDS. Furthermore, FABP5, CD63, and HMGB1 were identified as MDS-specific markers. These findings suggest that diminished CCIs involving dendritic cells, hematopoietic precursor cells, and multipotent progenitor cells are pivotal to MDS pathogenesis. Availability and implementation The MetaCCI software is freely available at https://github.com/HeewonGitHub/MetaCCI . An archived version of the software and example datasets used in this study is available at Zenodo: https://doi.org/10.5281/zenodo.20101527",
+      "authors": [],
+      "doi": "10.1093/bioinformatics/btag313",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag313",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "MetaCCI：元细胞-细胞相互作用推理技术及其在评估骨髓增生异常综合征患者细胞间相互作用特征中的应用",
+      "llm_title_bilingual": "MetaCCI：元细胞-细胞相互作用推理技术及其在评估骨髓增生异常综合征患者细胞间相互作用特征中的应用 / MetaCCI: Meta Cell Cell Interaction inference and its application to CCIs characteristics of MDS",
+      "llm_research_question_zh": "摘要动机：细胞间相互作用是多细胞生物体存在的基础，在多种生物学过程及疾病机制中发挥着至关重要的作用。",
+      "llm_highlights_zh": [
+        "理解细胞死亡机制对于揭示疾病的发生机理及制定治疗策略而言至关重要。",
+        "尽管已经开发出了许多计算方法，用于从复杂的生物数据中推断出细胞信号通路的变化，但现有的大多数方法主要依赖于单基因的表达水平以及配体-受体数据库，这些方法往往无法捕捉到疾病状态下所出现的、涉及整个网络层面的复杂变化。",
+        "我们提出了一种名为MetaCCI的新计算策略，该策略通过将传统的基于基因表达的分析方法扩展到基因调控网络框架中，从而将元信息融入到基因表达相关性分析的过程中。"
+      ],
+      "llm_rss_summary_zh": "**摘要与动机**  \n细胞间相互作用是多细胞生物体赖以生存的基础，其在多种生物学过程及疾病机制中发挥着至关重要的作用。深入理解这些相互作用对于揭示疾病的发生机制并制定治疗策略而言至关重要。尽管目前已开发出多种计算方法来从复杂的生物数据中推断细胞间相互作用，但现有方法大多仅依赖单基因表达水平及配体-受体数据库，往往无法捕捉到疾病状态下所出现的整体性网络变化。  \n\n**研究方法与结果**  \n我们提出了一种名为MetaCCI的新型计算策略，该策略通过将传统的基于基因表达的分析方法扩展到基因调控网络框架中，从而整合了元信息来辅助细胞间相互作用的推断。MetaCCI巧妙地结合了已知的配体-受体对与对复杂基因网络中基因行为的定量分析结果，使得相关靶标的精准识别成为可能。随后，我们利用特征化的细胞共表达网络进行了细胞间相互作用的进一步分析，这一方法为全面理解细胞间的通讯机制提供了有力支持。蒙特卡洛模拟结果表明，MetaCCI在细胞间相互作用推断方面的性能明显优于现有方法。我们将MetaCCI应用于骨髓增生异常综合征的研究中，发现该疾病状态下“树突状细胞与造血前体细胞”以及“树突状细胞与造血多能祖细胞”之间的相互作用模式发生了显著改变，这些变化被认为是骨髓增生异常综合征的重要特征。此外，FABP5、CD63和HMGB1等基因也被确认为与该疾病相关的特异性标志物。这些研究结果表明，涉及树突状细胞、造血前体细胞及多能祖细胞的细胞间相互作用减弱，是导致骨髓增生异常综合征发生的关键因素。  \n\n**软件与数据资源**  \nMetaCCI软件可免费获取，地址为：https://github.com/HeewonGitHub/MetaCCI。本研究使用的软件存档版本及示例数据集也可在Zenodo平台上找到，链接为：https://doi.org/10.5281/zenodo.20101527。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "细胞间相互作用是多细胞生物体赖以生存的基础，其在多种生物学过程及疾病机制中发挥着至关重要的作用。深入理解这些相互作用对于揭示疾病的发生机制并制定治疗策略而言至关重要。尽管目前已开发出多种计算方法来从复杂的生物数据中推断细胞间相互作用，但现有方法大多仅依赖单基因表达水平及配体-受体数据库，往往无法捕捉到疾病状态下所出现的整体性网络变化。\n\n研究方法与结果\n我们提出了一种名为MetaCCI的新型计算策略，该策略通过将传统的基于基因表达的分析方法扩展到基因调控网络框架中，从而整合了元信息来辅助细胞间相互作用的推断。MetaCCI巧妙地结合了已知的配体-受体对与对复杂基因网络中基因行为的定量分析结果，使得相关靶标的精准识别成为可能。随后，我们利用特征化的细胞共表达网络进行了细胞间相互作用的进一步分析，这一方法为全面理解细胞间的通讯机制提供了有力支持。蒙特卡洛模拟结果表明，MetaCCI在细胞间相互作用推断方面的性能明显优于现有方法。我们将MetaCCI应用于骨髓增生异常综合征的研究中，发现该疾病状态下“树突状细胞与造血前体细胞”以及“树突状细胞与造血多能祖细胞”之间的相互作用模式发生了显著改变，这些变化被认为是骨髓增生异常综合征的重要特征。此外，FABP5、CD63和HMGB1等基因也被确认为与该疾病相关的特异性标志物。这些研究结果表明，涉及树突状细胞、造血前体细胞及多能祖细胞的细胞间相互作用减弱，是导致骨髓增生异常综合征发生的关键因素。\n\n软件与数据资源\nMetaCCI软件可免费获取，地址为：https://github.com/HeewonGitHub/MetaCCI。本研究使用的软件存档版本及示例数据集也可在Zenodo平台上找到，链接为：https://doi.org/10.5281/zenodo.20101527。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Cell–cell interactions (CCIs) are fundamental to multicellular organisms and play crucial roles in diverse biological processes and disease mechanisms. Understanding CCIs is vital for deciphering disease pathogenesis and developing therapeutic strategies. Although numerous computational methods have been developed to infer CCIs from complex biological data, most existing approaches rely primarily on single-gene expression levels and ligand-receptor databases, often failing to capture the nuanced network-wide changes characteristic of disease states. Result We propose MetaCCI, a novel computational strategy that integrates meta-information into CCI inference by extending the traditional gene expression-based analysis to a gene regulatory network framework. MetaCCI meticulously combines established ligand-receptor pairs with quantitative insights into gene behavior within complex gene networks, enabling the precise extraction of relevant targets for CCI inference. Subsequently, CCI inference was performed using an eigen cell co-expression network, providing a more holistic view of cell-cell communication. Monte Carlo simulations demonstrated that MetaCCI consistently outperforms existing methods in CCI inference. We applied MetaCCI to characterize cell-cell communication in Myelodysplastic Syndromes (MDS). Our results identified distinct interaction patterns in MDS compared with normal cell populations, specifically highlighting the loss of CCIs between “Dendritic cells and Hematopoietic precursor cells” and between “Dendritic cells and Hematopoietic multipotent progenitor cells” as characteristic features of MDS. Furthermore, FABP5, CD63, and HMGB1 were identified as MDS-specific markers. These findings suggest that diminished CCIs involving dendritic cells, hematopoietic precursor cells, and multipotent progenitor cells are pivotal to MDS pathogenesis.",
+      "primary_summary_zh": "**摘要与动机**  \n细胞间相互作用是多细胞生物体赖以生存的基础，其在多种生物学过程及疾病机制中发挥着至关重要的作用。深入理解这些相互作用对于揭示疾病的发生机制并制定治疗策略而言至关重要。尽管目前已开发出多种计算方法来从复杂的生物数据中推断细胞间相互作用，但现有方法大多仅依赖单基因表达水平及配体-受体数据库，往往无法捕捉到疾病状态下所出现的整体性网络变化。  \n\n**研究方法与结果**  \n我们提出了一种名为MetaCCI的新型计算策略，该策略通过将传统的基于基因表达的分析方法扩展到基因调控网络框架中，从而整合了元信息来辅助细胞间相互作用的推断。MetaCCI巧妙地结合了已知的配体-受体对与对复杂基因网络中基因行为的定量分析结果，使得相关靶标的精准识别成为可能。随后，我们利用特征化的细胞共表达网络进行了细胞间相互作用的进一步分析，这一方法为全面理解细胞间的通讯机制提供了有力支持。蒙特卡洛模拟结果表明，MetaCCI在细胞间相互作用推断方面的性能明显优于现有方法。我们将MetaCCI应用于骨髓增生异常综合征的研究中，发现该疾病状态下“树突状细胞与造血前体细胞”以及“树突状细胞与造血多能祖细胞”之间的相互作用模式发生了显著改变，这些变化被认为是骨髓增生异常综合征的重要特征。此外，FABP5、CD63和HMGB1等基因也被确认为与该疾病相关的特异性标志物。这些研究结果表明，涉及树突状细胞、造血前体细胞及多能祖细胞的细胞间相互作用减弱，是导致骨髓增生异常综合征发生的关键因素。  \n\n**软件与数据资源**  \nMetaCCI软件可免费获取，地址为：https://github.com/HeewonGitHub/MetaCCI。本研究使用的软件存档版本及示例数据集也可在Zenodo平台上找到，链接为：https://doi.org/10.5281/zenodo.20101527。"
+    },
+    {
+      "title": "From possibility to precision in macromolecular ensemble prediction",
+      "link": "https://www.nature.com/articles/s41592-026-03084-z",
+      "published_at": "2026-05-18T08:00:00+08:00",
+      "published_date": "2026-05-18",
+      "summary": "This Perspective discusses current challenges in macromolecular ensemble prediction and the infrastructure and methodological advances needed to overcome these barriers",
+      "authors": [
+        "Stephanie A. Wankowicz",
+        "Massimiliano Bonomi"
+      ],
+      "doi": "10.1038/s41592-026-03084-z",
+      "journal": "Nature methods",
+      "source_feed": "https://www.nature.com/nmeth.rss",
+      "entry_id": "doi:10.1038/s41592-026-03084-z",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "从可能性到精确性：宏观分子集合预测技术的发展路径",
+      "llm_title_bilingual": "从可能性到精确性：宏观分子集合预测技术的发展路径 / From possibility to precision in macromolecular ensemble prediction",
+      "llm_research_question_zh": "本文探讨了当前在宏观分子集合预测领域所面临的挑战，以及为克服这些障碍所需在基础设施与方法学方面取得的进展。",
+      "llm_highlights_zh": [
+        "从可能性到精确性：宏观分子集合预测技术的发展路径",
+        "本文探讨了当前在宏观分子集合预测领域所面临的挑战，以及为克服这些障碍所需在基础设施与方法学方面取得的进展。"
+      ],
+      "llm_rss_summary_zh": "本文探讨了当前在宏观分子集合预测领域所面临的挑战，以及为克服这些障碍所需在基础设施与方法学方面取得的进展。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "本文探讨了当前在宏观分子集合预测领域所面临的挑战，以及为克服这些障碍所需在基础设施与方法学方面取得的进展。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "This Perspective discusses current challenges in macromolecular ensemble prediction and the infrastructure and methodological advances needed to overcome these barriers",
+      "primary_summary_zh": "本文探讨了当前在宏观分子集合预测领域所面临的挑战，以及为克服这些障碍所需在基础设施与方法学方面取得的进展。"
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}
