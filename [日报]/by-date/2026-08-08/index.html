@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>文献追踪报告</title>
+  <style>
+    body { font-family: Arial, "Microsoft YaHei", sans-serif; line-height: 1.7; margin: 32px; color: #222; }
+    h1, h2, h3 { color: #0f3d6e; }
+    .paper { border: 1px solid #ddd; border-radius: 8px; padding: 12px 16px; margin: 12px 0; background: #fff; }
+    .journal { margin-top: 28px; }
+    .warnings { color: #9a6700; }
+    a { color: #0b63c9; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <h1>文献追踪报告</h1>
+  <ul>
+    <li><strong>时间范围：</strong>2026-08-08 ~ 2026-08-08</li>
+    <li><strong>目标期刊数：</strong>10</li>
+    <li><strong>本周新论文数：</strong>2</li>
+    <li><strong>本周重点文章数：</strong>0</li>
+    <li><strong>关键词：</strong>免疫代谢, 代谢表观调控, 单细胞算法, 单细胞图谱, 流感, HSV, H1N1, 肺损伤, 肺组织修复, 皮肤免疫</li>
+  </ul>
+  <h2>本周重点文章</h2>
+  <p>本周没有命中关键词的重点文章。</p>
+  <h2>分期刊展示（剩余论文）</h2>
+  
+        <section class="journal">
+          <h3>Nature</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Science</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Cell</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Cell metabolism</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Immunity</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Nature Immunology</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Science Immunology</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Bioinformatics</h3>
+          
+    <article class="paper">
+      <h4>hypeR-GEM：通过基因组规模的代谢模型将代谢特征与编码酶的基因联系起来</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-08-08</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>未提供</li>
+        
+        <li><strong>研究问题：</strong>丰富分析是“组学”数据解读的基石，它使研究人员能够将分析结果与生物学过程联系起来，并提出可验证的假设。</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>在代谢组学中，由于缺乏与经过系统整理的以基因为中心的生物知识库之间明确且一致的关联机制，因此进行富集分析时在数据解读及多组学数据的整合方面会面临诸多挑战。</li><li>为应对这些挑战，我们开发了hypeR-GEM这一方法论及其配套的R语言包，该工具将基因集富集分析技术应用于代谢组学研究领域。</li><li>hypeR-GEM利用基因组规模的代谢模型，推断代谢物与编码酶的基因之间的反应关系，从而将代谢物的特征信息映射到基因的特征上，并通过基因集富集分析对这些基因进行进一步注释。</li></ol>
+      <p><strong>摘要：</strong>富集分析是“组学”数据解读的基石，它使研究人员能够将分析结果与生物学过程联系起来，并提出可验证的假设。然而，在代谢组学领域，由于缺乏与经过系统整理的以基因为中心的生物知识库之间明确且一致的关联机制，富集分析在解释结果及多组学数据的整合方面面临特殊挑战。为应对这些难题，我们开发了hypeR-GEM这一方法论及其配套的R软件包，该工具将基因集合富集分析技术应用于代谢组学研究。hypeR-GEM利用基因组规模的代谢模型，推断代谢物与编码酶的基因之间的关联关系，从而实现代谢物特征与基因特征的对应映射，并通过基因集合富集分析对这些特征进行进一步注释。
+我们通过使用成对的代谢组学-蛋白质组学数据集及代谢组学-转录组学数据集对hypeR-GEM进行了验证。具体而言，我们检测了从代谢物映射得到的基因与差异表达的蛋白质或转录本之间是否存在显著重叠；同时，还分析了通过hypeR-GEM识别的富集途径是否与基于蛋白质组学或转录组学数据得出的途径一致。在所分析的大多数数据集中，预测得到的编码酶基因及其对应的富集途径都与独立获得的组学数据结果高度吻合，这进一步证明了hypeR-GEM的有效性与可靠性。最后，我们将hypeR-GEM应用于新英格兰百岁老人研究中的年龄相关代谢特征分析，结果发现与脂质代谢在衰老过程中的重要作用一致，同时还发现了一些在传统代谢物注释中未被涵盖的额外代谢途径，这说明hypeR-GEM在实际应用中具有显著实用性。
+
+获取方式
+hypeR-GEM R软件包、相关文档及使用示例均可在以下地址免费获取：https://github.com/montilab/hypeR-GEM；其技术档案也存档于https://doi.org/10.5281/zenodo.20586748。</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag588/8756816?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag588/8756816?rss=1</a></p>
+    </article>
+    
+    <article class="paper">
+      <h4>基于物理化学原理对双范围原子相互作用进行建模，以构建分子力场</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-08-08</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>未提供</li>
+        
+        <li><strong>研究问题：</strong>在于，机器学习力场作为一种极具前景的工具，已被证明能够显著加速分子动力学模拟的进程。</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>然而，现有的方法往往难以准确捕捉长程相互作用的几何特征（如距离与方向），且对这些相互作用因构象变化而产生的影响仍然较为敏感；同时，这些方法也缺乏能够平衡短程力与长程力的适应性机制。</li><li>为了解决这些局限性，我们提出了GeoNet这一基于物理化学原理构建的双范围原子相互作用建模框架。</li><li>GeoNet利用几何注意力机制来分析原子与片段之间的二元关系，从而揭示长距离相互作用规律；同时采用双层次增强技术来确保不同分子构象在语义上的一致性；最后通过自适应融合模块，根据局部原子环境动态平衡短程与长程相互作用路径。</li></ol>
+      <p><strong>摘要：</strong>机器学习力场作为一种加速分子动力学模拟的有效工具，已受到广泛关注。然而现有方法往往难以准确捕捉长程相互作用的几何特性（如距离与方向），且对分子构象的变化较为敏感，同时缺乏平衡短程与长程作用力的自适应机制。为克服这些局限，我们提出了基于物理化学原理的GeoNet框架，用于模拟双范围原子相互作用。该框架通过原子-片段二分图上的几何注意力机制来描述长程依赖关系，采用双层增强技术确保不同构象下的语义一致性，并通过自适应融合模块根据局部原子环境动态平衡短程与长程作用力。实验结果表明，GeoNet在所有测试基准中均显著优于现有的十种先进方法，同时具备更小的模型规模和更短的训练时间，从而体现了其卓越的预测性能与计算效率。源代码已公开发布于：https://github.com/XMUDM/GeoNet</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag580/8756818?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag580/8756818?rss=1</a></p>
+    </article>
+    
+        </section>
+        
+        <section class="journal">
+          <h3>Nature Protocols</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Nature methods</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+  
+</body>
+</html>
