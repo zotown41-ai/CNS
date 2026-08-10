@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>文献追踪报告</title>
+  <style>
+    body { font-family: Arial, "Microsoft YaHei", sans-serif; line-height: 1.7; margin: 32px; color: #222; }
+    h1, h2, h3 { color: #0f3d6e; }
+    .paper { border: 1px solid #ddd; border-radius: 8px; padding: 12px 16px; margin: 12px 0; background: #fff; }
+    .journal { margin-top: 28px; }
+    .warnings { color: #9a6700; }
+    a { color: #0b63c9; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <h1>文献追踪报告</h1>
+  <ul>
+    <li><strong>时间范围：</strong>2026-08-10 ~ 2026-08-10</li>
+    <li><strong>目标期刊数：</strong>10</li>
+    <li><strong>本周新论文数：</strong>3</li>
+    <li><strong>本周重点文章数：</strong>0</li>
+    <li><strong>关键词：</strong>免疫代谢, 代谢表观调控, 单细胞算法, 单细胞图谱, 流感, HSV, H1N1, 肺损伤, 肺组织修复, 皮肤免疫</li>
+  </ul>
+  <h2>本周重点文章</h2>
+  <p>本周没有命中关键词的重点文章。</p>
+  <h2>分期刊展示（剩余论文）</h2>
+  
+        <section class="journal">
+          <h3>Nature</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Science</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Cell</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Cell metabolism</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Immunity</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Nature Immunology</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Science Immunology</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Bioinformatics</h3>
+          
+    <article class="paper">
+      <h4>基于分层表示对齐的结构不可知蛋白质-配体结合亲和力预测方法</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-08-10</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>期刊文章</li>
+        <li><strong>关键词：</strong>结合亲和力预测, 深度表示学习, 多模态对齐, 蛋白质与配体的相互作用</li>
+        <li><strong>研究问题：</strong>为了实现现实世界中蛋白质与配体亲和力的预测，模型设计时不仅需要考虑数据分布之外的泛化能力，还需要确保模型对不同结构可用性及质量的变化具有鲁棒性。</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>我们提出了AlignNet这一分层表示对齐框架。该框架能够有效缓解分子内部及分子间的异质性，从而生成稳健的蛋白质-配体嵌入向量，这些嵌入向量可用于泛化的亲和力预测，即使输入数据仅来自序列层面也是如此。</li><li>其分子内部的模块将单模特征与多模特征统一整合到一个共同的空间中，通过将这些增强后的多模视图进行对齐来实现特征融合；同时，利用单模特征与多模嵌入之间的关联关系来提取多模先验信息，从而支持那些不依赖于具体结构的信息推理过程。</li><li>其分子间模块能够将蛋白质与配体的嵌入信息进行对齐，从而实现跨分子层面的整合。</li></ol>
+      <p><strong>摘要：</strong>为了实现现实世界中蛋白质-配体亲和力的预测，模型设计时不仅需要考虑数据分布外的泛化能力，还需要具备对不同结构可用性及质量变化的鲁棒性。
+我们提出了AlignNet这一分层表示对齐框架。该框架通过减轻分子内部及分子间的异质性，能够学习出稳健的蛋白质-配体嵌入特征，从而实现基于序列信息的通用亲和力预测。其分子内部模块将单模态与多模态特征投影到统一的空间中，通过对这些增强后的多模态信息进行融合处理，以及将单模态嵌入与多模态嵌入相结合，能够提取出与具体结构无关的先验信息，用于后续的推理分析；而分子间模块则负责对蛋白质与配体的嵌入特征进行跨分子级别的整合。大量实验结果表明：AlignNet在仅依赖序列信息的条件下，在具有挑战性的LBA 30%数据集上取得了高达20.4%的性能提升，这充分证明了其出色的数据分布外泛化能力；同时，该模型还能有效区分与亲和力相关的不同特征簇，从而为结构无关的预测提供可靠的支持。
+
+可用性与实现方式：AlignNet的源代码可访问以下链接获取：https://github.com/altriavin/AlignNet。补充数据则可在Bioinformatics在线平台上查阅。</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag599/8758343?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag599/8758343?rss=1</a></p>
+    </article>
+    
+    <article class="paper">
+      <h4>空间-光谱融合技术通过捕捉生物网络中那些间接的、远距离存在的关联关系，从而实现了药物作用靶点的重新定位。</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-08-10</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>期刊文章</li>
+        <li><strong>关键词：</strong>生物网络, 对比学习, 药物重新定位, 图神经网络, 光谱分析方法, 波动演化</li>
+        <li><strong>研究问题：</strong>通过为已获批的药物发现新的治疗用途，药物重新定位能够加速其临床应用进程。</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>然而，在生物分子网络中，治疗效应之间的关联往往是通过传递链及远距离作用机制间接实现的，而非以直接可见的连接形式存在。</li><li>浅层方法仅局限于直接相似性分析，因此会忽略这类间接关联；而深度图神经网络则存在过度平滑的问题，在高度连接的网络中会丧失其区分能力。</li><li>我们提出了一种空间-光谱协同框架。</li></ol>
+      <p><strong>摘要：</strong>药物重新定位通过为已获批的药物发现新的治疗用途，从而加速其临床应用进程。然而，在生物分子网络中，治疗作用往往是通过间接的传递链或长距离机制来实现的，而非表现为直接可见的联系。传统的浅层分析方法仅能检测到直接的相似性，因此会忽略这些间接关联；而深度图神经网络在处理高度连接的网络时则容易出现过度平滑现象，从而丧失区分能力。
+我们提出了一种空间-谱协同框架。在空间维度上，通过波动演化过程将局部相似性传播到全局，从而捕捉多跳传递关系，同时保留网络的区分能力；在谱维度上，针对特定网络结构设计的谱变换模型能够模拟长距离依赖关系，无论是对于同质性的相似性分析，还是对于异构的药物-蛋白质-疾病网络，这两种分析方法都能通过对比学习实现有效结合。在三个基准测试中，该方法的各项评估指标均优于现有的最先进技术；针对阿尔茨海默病、帕金森病的案例研究以及分子对接实验也证明了其能够揭示那些非显而易见的治疗关联。
+
+代码与数据获取：源代码及相关数据可访问以下链接：https://github.com/Juniper-cola/BIO_SSF。
+
+补充信息：更多补充数据可在Bioinformatics在线平台获取。</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag553/8758344?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag553/8758344?rss=1</a></p>
+    </article>
+    
+    <article class="paper">
+      <h4>B-MASTER：一种可扩展的贝叶斯多变量回归方法，用于在结直肠癌微生物组与代谢物谱数据中识别关键预测因子。</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-08-10</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>期刊文章</li>
+        <li><strong>关键词：</strong>贝叶斯多元回归分析, 与癌症相关的代谢物, 计算可扩展性, 吉布斯抽样, 高维回归分析, 微生物组与代谢组的整合研究, 后缩肌群</li>
+        <li><strong>研究问题：</strong>肠道微生物群通过影响宿主的代谢过程，从而决定癌症治疗的效果。</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>尽管以往的研究主要探讨了特定微生物属与代谢物之间的二元关联，但目前仍缺乏有效的方法来识别那些能够系统性调节整个代谢组的微生物属。</li><li>在高维的微生物组-代谢组数据中，需要使用可扩展的统计工具来识别这些系统层面的“关键预测因子”。</li><li>我们提出了B-MASTER这一可扩展的贝叶斯多变量回归框架。该框架结合了ℓ1稀疏性约束与ℓ2组间收缩机制，旨在识别那些在代谢过程中起关键调控作用的因素。</li></ol>
+      <p><strong>摘要：</strong>肠道微生物群通过影响宿主的代谢过程来影响癌症治疗的反应。尽管以往的研究主要探讨了特定微生物属与代谢物之间的关联，但目前还缺乏有效的方法来识别那些能够系统性调节整体代谢组的微生物属。因此，需要开发出可扩展的统计工具，以便在高维的微生物组-代谢组数据中找出这些具有系统调控作用的“关键因素”。
+我们提出了B-MASTER这一可扩展的贝叶斯多变量回归框架。该框架结合了ℓ1稀疏性约束与ℓ2群体收缩机制，用于识别那些对多种代谢物具有调节作用的关键微生物属。通过使用Gibbs采样技术，该方法能够实现接近线性的计算效率，从而适用于包含数百万参数的复杂模型。B-MASTER方法还具备理论上的可靠性保障，包括后验概率的收敛性以及变量选择的合理性。通过对结直肠癌患者的微生物组-代谢组数据进行分析，我们发现了那些能够调控整体代谢模式及与癌症发展相关的特定微生物属，这些结果进一步揭示了微生物群在系统层面的调控机制。</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag500/8758345?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag500/8758345?rss=1</a></p>
+    </article>
+    
+        </section>
+        
+        <section class="journal">
+          <h3>Nature Protocols</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Nature methods</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+  
+</body>
+</html>
