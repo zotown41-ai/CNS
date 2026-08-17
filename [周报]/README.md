@@ -1,6 +1,6 @@
 # 周报
 
-来源目录：`CNS周报/reports/文献追踪报告-2026-08-03-2026-08-09-nature-science-cell-cell-metabolism-immunity-nature-immunology-science-immunology-bioinformatics-nature-protocols`
+来源目录：`CNS周报/reports/文献追踪报告-2026-08-10-2026-08-16-nature-science-cell-cell-metabolism-immunity-nature-immunology-science-immunology-bioinformatics-nature-protocols`
 
 - 入口页面：`index.html`（默认最新，支持切换历史周报）
 - 历史归档：`by-range/YYYY-MM-DD_YYYY-MM-DD/`
