@@ -1,0 +1,495 @@
+﻿{
+  "schema_version": "1.0",
+  "task": "paper-overview-extractor-rss",
+  "status": "partial_success",
+  "generated_at": "2026-08-22T20:00:21.268683+00:00",
+  "date_range": {
+    "start": "2026-08-22",
+    "end": "2026-08-22"
+  },
+  "inputs": {
+    "journals_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\目标期刊.txt",
+    "keywords_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\关键词.txt",
+    "keyword_aliases_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\keyword_aliases.json",
+    "rss_sources_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\rss_sources.json",
+    "keywords": [
+      "免疫代谢",
+      "代谢表观调控",
+      "单细胞算法",
+      "单细胞图谱",
+      "流感",
+      "HSV",
+      "H1N1",
+      "肺损伤",
+      "肺组织修复",
+      "皮肤免疫"
+    ],
+    "llm_model": "hy-mt1.5-7b",
+    "llm_base_url": "http://127.0.0.1:1234",
+    "llm_translation_only": true,
+    "llm_proxy_url": "http://127.0.0.1:7890",
+    "google_fallback": true
+  },
+  "summary": {
+    "journal_count": 10,
+    "paper_count": 2,
+    "pubmed_enriched_count": 0,
+    "llm_enhanced_count": 2,
+    "llm_google_fallback_count": 0
+  },
+  "journals": [
+    {
+      "journal": "Nature",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nature/",
+      "feed_urls": [
+        "https://www.nature.com/nature/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nature/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nature.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 75
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 50",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Science",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/science",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+        "https://www.science.org/rss/express.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "status_code": 200,
+          "error": "",
+          "item_count": 39
+        },
+        {
+          "url": "https://www.science.org/rss/express.xml",
+          "ok": true,
+          "final_url": "https://feeds.science.org/rss/science-aop.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 6
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/00928674"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "status_code": 200,
+          "error": "",
+          "item_count": 68
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell metabolism",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell-metabolism/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/15504131"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "status_code": 200,
+          "error": "",
+          "item_count": 58
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Immunity",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/immunity/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/10747613"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "status_code": 200,
+          "error": "",
+          "item_count": 53
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature Immunology",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/ni/",
+      "feed_urls": [
+        "https://www.nature.com/ni/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/ni/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/ni.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Science Immunology",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/sciimmunol",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "status_code": 200,
+          "error": "",
+          "item_count": 11
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Bioinformatics",
+      "configured": true,
+      "publisher": "Oxford Academic",
+      "homepage": "https://academic.oup.com/bioinformatics",
+      "feed_urls": [
+        "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+        "https://academic.oup.com/rss/site_5139/3001.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 3
+        },
+        {
+          "url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 66
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 1"
+      ],
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "ToxiVerse: chemical bioprofiling, toxicity data sharing and customizable predictive modeling",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag617/8768655?rss=1",
+          "published_at": "2026-08-22T08:00:00+08:00",
+          "published_date": "2026-08-22",
+          "summary": "Abstract Motivation Chemical toxicity assessment is critical for drug development and environmental safety. Computational models have emerged as a promising alternative to animal testing and now play a significant role in efficiently evaluating new chemicals. To address the urgent need for user-friendly machine learning tools in computational toxicology, we developed ToxiVerse, a public web-based platform. Results ToxiVerse provides automatic chemical bioprofiling, curated toxicity datasets, and a predictive modeling interface designed for researchers who lack programming expertise. The platform comprises three integrated modules: (i) Bioprofiler, which provides chemical descriptors by combining chemical-bioactivity data from PubChem assays with a machine learning-based data gap-filling procedure; (ii) Database, which hosts ∼50 000 curated chemicals covering diverse toxicity endpoints; and (iii) Cheminformatics, which enables dataset upload, chemical curation, and automatic generation of quantitative structure–activity relationship models for toxicity prediction. Availability The tool is accessible at www.toxiverse.com , and source code is available at https://github.com/zhu-research-group/toxiverse",
+          "authors": [],
+          "doi": "10.1093/bioinformatics/btag617",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag617",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "ToxiVerse：化学生物信息分析平台、毒性数据共享系统及可定制的预测建模工具",
+          "llm_title_bilingual": "ToxiVerse：化学生物信息分析平台、毒性数据共享系统及可定制的预测建模工具 / ToxiVerse: chemical bioprofiling, toxicity data sharing and customizable predictive modeling",
+          "llm_research_question_zh": "摘要：化学毒性的评估对于药物研发与环境安全而言至关重要。",
+          "llm_highlights_zh": [
+            "计算模型已成为替代动物实验的一种有前景的方法，如今在高效评估新化学物质方面发挥着重要作用。",
+            "为满足计算毒理学领域对用户友好型机器学习工具的迫切需求，我们开发了ToxiVerse这一公共在线平台。",
+            "Results：ToxiVerse为缺乏编程能力的研究人员提供了自动化的化学生物特性分析功能、精心整理的毒性数据集，以及专为他们设计的预测建模工具。"
+          ],
+          "llm_rss_summary_zh": "**摘要与动机**  \n化学毒性评估在药物研发与环境安全领域具有重要意义。计算模型作为一种替代动物实验的有效手段，现已在新型化学品的安全性评价中发挥着关键作用。为满足计算毒理学领域对用户友好型机器学习工具的迫切需求，我们开发了ToxiVerse这一公共在线平台。  \n\n**结果**  \nToxiVerse为缺乏编程经验的研究人员提供了自动化化学生物特性分析功能、经过精心整理的毒性数据集以及预测建模工具。该平台由三个集成模块组成：  \n1. **生物特性分析模块**：通过结合PubChem数据库中的化学-生物活性数据与基于机器学习的 数据填补技术，生成相应的化学描述符；  \n2. **数据库模块**：存储了约50,000种涵盖多种毒性评价指标的化学物质信息；  \n3. **化学信息学模块**：支持数据上传、化学物质信息整理，并能自动生成用于毒性预测的定量结构-活性关系模型。  \n\n**使用方式**  \n该工具可通过官网www.toxiverse.com访问，其源代码亦可在https://github.com/zhu-research-group/toxiverse获取。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "化学毒性评估在药物研发与环境安全领域具有重要意义。计算模型作为一种替代动物实验的有效手段，现已在新型化学品的安全性评价中发挥着关键作用。为满足计算毒理学领域对用户友好型机器学习工具的迫切需求，我们开发了ToxiVerse这一公共在线平台。\nToxiVerse为缺乏编程经验的研究人员提供了自动化化学生物特性分析功能、经过精心整理的毒性数据集以及预测建模工具。该平台由三个集成模块组成：\n1. 生物特性分析模块：通过结合PubChem数据库中的化学-生物活性数据与基于机器学习的 数据填补技术，生成相应的化学描述符；\n2. 数据库模块：存储了约50,000种涵盖多种毒性评价指标的化学物质信息；\n3. 化学信息学模块：支持数据上传、化学物质信息整理，并能自动生成用于毒性预测的定量结构-活性关系模型。\n\n使用方式\n该工具可通过官网www.toxiverse.com访问，其源代码亦可在https://github.com/zhu-research-group/toxiverse获取。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Chemical toxicity assessment is critical for drug development and environmental safety. Computational models have emerged as a promising alternative to animal testing and now play a significant role in efficiently evaluating new chemicals. To address the urgent need for user-friendly machine learning tools in computational toxicology, we developed ToxiVerse, a public web-based platform. Results ToxiVerse provides automatic chemical bioprofiling, curated toxicity datasets, and a predictive modeling interface designed for researchers who lack programming expertise. The platform comprises three integrated modules: (i) Bioprofiler, which provides chemical descriptors by combining chemical-bioactivity data from PubChem assays with a machine learning-based data gap-filling procedure; (ii) Database, which hosts ∼50 000 curated chemicals covering diverse toxicity endpoints; and (iii) Cheminformatics, which enables dataset upload, chemical curation, and automatic generation of quantitative structure–activity relationship models for toxicity prediction.",
+          "primary_summary_zh": "**摘要与动机**  \n化学毒性评估在药物研发与环境安全领域具有重要意义。计算模型作为一种替代动物实验的有效手段，现已在新型化学品的安全性评价中发挥着关键作用。为满足计算毒理学领域对用户友好型机器学习工具的迫切需求，我们开发了ToxiVerse这一公共在线平台。  \n\n**结果**  \nToxiVerse为缺乏编程经验的研究人员提供了自动化化学生物特性分析功能、经过精心整理的毒性数据集以及预测建模工具。该平台由三个集成模块组成：  \n1. **生物特性分析模块**：通过结合PubChem数据库中的化学-生物活性数据与基于机器学习的 数据填补技术，生成相应的化学描述符；  \n2. **数据库模块**：存储了约50,000种涵盖多种毒性评价指标的化学物质信息；  \n3. **化学信息学模块**：支持数据上传、化学物质信息整理，并能自动生成用于毒性预测的定量结构-活性关系模型。  \n\n**使用方式**  \n该工具可通过官网www.toxiverse.com访问，其源代码亦可在https://github.com/zhu-research-group/toxiverse获取。"
+        },
+        {
+          "title": "Searching the Druggable Genome using Large Language Models",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag632/8768654?rss=1",
+          "published_at": "2026-08-22T08:00:00+08:00",
+          "published_date": "2026-08-22",
+          "summary": "Abstract Summary The druggable genome encompasses the genes that are known or predicted to interact with drugs. The Drug-Gene Interaction Database (DGIdb) provides an integrated resource for discovering and contextualizing these interactions, supporting a broad range of research and clinical applications. DGIdb is currently accessed through structured web interfaces and API calls, requiring users to translate natural-language questions into database-specific query patterns. To allow for the use of DGIdb through natural language, we developed the DGIdb Model Context Protocol (MCP) server, which allows large language models (LLMs) access to up-to-date information through the DGIdb API. We demonstrate that the MCP server improves an LLM’s ability to answer questions requiring accurate, up-to-date biomedical knowledge drawn from structured external resources. Availability and implementation The DGIdb MCP server is detailed at https://github.com/griffithlab/dgidb-mcp-server and includes instructions for accessing the server through the Claude desktop app",
+          "authors": [],
+          "doi": "10.1093/bioinformatics/btag632",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag632",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "利用大型语言模型搜索可被药物作用的基因组区域",
+          "llm_title_bilingual": "利用大型语言模型搜索可被药物作用的基因组区域 / Searching the Druggable Genome using Large Language Models",
+          "llm_research_question_zh": "摘要：可被药物作用的基因组包括那些已知或被认为能与药物发生相互作用的基因。",
+          "llm_highlights_zh": [
+            "药物-基因相互作用数据库（DGIdb）为探索这些相互作用及其具体背景提供了综合性的资源支持，能够服务于多种研究和临床应用领域。",
+            "目前，DGIdb是通过结构化的网页界面或API调用进行访问的，因此用户需要将自然语言问题转换为该数据库所支持的查询语句格式。",
+            "为了使人们能够通过自然语言来使用 DGIdb，我们开发了 DGIdb 模型上下文协议（MCP）服务器。该服务器使得大型语言模型能够通过 DGIdb API 获取最新的信息。"
+          ],
+          "llm_rss_summary_zh": "摘要：可被药物作用的基因组包括那些已知或被认为能与药物发生相互作用的基因。药物-基因相互作用数据库（DGIdb）为探索这些相互作用及其背景信息提供了集成资源，支持多种研究和临床应用。目前，人们主要通过结构化的网页界面或API调用来访问该数据库，这意味着用户需要将自然语言问题转化为数据库特定的查询语句才能获取所需数据。为了实现通过自然语言直接使用DGIdb，我们开发了DGIdb模型上下文协议（MCP）服务器，使得大型语言模型能够通过DGIdb API获取最新信息。实验结果表明，MCP服务器显著提升了大型语言模型回答那些需要从结构化外部资源中提取准确、最新生物医学知识的问题时的能力。  \n\n关于DGIdb MCP服务器的更多信息及使用说明，请访问：https://github.com/griffithlab/dgidb-mcp-server",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "可被药物作用的基因组包括那些已知或被认为能与药物发生相互作用的基因。药物-基因相互作用数据库（DGIdb）为探索这些相互作用及其背景信息提供了集成资源，支持多种研究和临床应用。目前，人们主要通过结构化的网页界面或API调用来访问该数据库，这意味着用户需要将自然语言问题转化为数据库特定的查询语句才能获取所需数据。为了实现通过自然语言直接使用DGIdb，我们开发了DGIdb模型上下文协议（MCP）服务器，使得大型语言模型能够通过DGIdb API获取最新信息。实验结果表明，MCP服务器显著提升了大型语言模型回答那些需要从结构化外部资源中提取准确、最新生物医学知识的问题时的能力。\n\n关于DGIdb MCP服务器的更多信息及使用说明，请访问：https://github.com/griffithlab/dgidb-mcp-server",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Summary The druggable genome encompasses the genes that are known or predicted to interact with drugs. The Drug-Gene Interaction Database (DGIdb) provides an integrated resource for discovering and contextualizing these interactions, supporting a broad range of research and clinical applications. DGIdb is currently accessed through structured web interfaces and API calls, requiring users to translate natural-language questions into database-specific query patterns. To allow for the use of DGIdb through natural language, we developed the DGIdb Model Context Protocol (MCP) server, which allows large language models (LLMs) access to up-to-date information through the DGIdb API. We demonstrate that the MCP server improves an LLM’s ability to answer questions requiring accurate, up-to-date biomedical knowledge drawn from structured external resources.",
+          "primary_summary_zh": "摘要：可被药物作用的基因组包括那些已知或被认为能与药物发生相互作用的基因。药物-基因相互作用数据库（DGIdb）为探索这些相互作用及其背景信息提供了集成资源，支持多种研究和临床应用。目前，人们主要通过结构化的网页界面或API调用来访问该数据库，这意味着用户需要将自然语言问题转化为数据库特定的查询语句才能获取所需数据。为了实现通过自然语言直接使用DGIdb，我们开发了DGIdb模型上下文协议（MCP）服务器，使得大型语言模型能够通过DGIdb API获取最新信息。实验结果表明，MCP服务器显著提升了大型语言模型回答那些需要从结构化外部资源中提取准确、最新生物医学知识的问题时的能力。  \n\n关于DGIdb MCP服务器的更多信息及使用说明，请访问：https://github.com/griffithlab/dgidb-mcp-server"
+        }
+      ]
+    },
+    {
+      "journal": "Nature Protocols",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nprot/",
+      "feed_urls": [
+        "https://www.nature.com/nprot/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nprot/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nprot.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 1",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature methods",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nmeth/",
+      "feed_urls": [
+        "https://www.nature.com/nmeth/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nmeth/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nmeth.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    }
+  ],
+  "all_papers": [
+    {
+      "title": "ToxiVerse: chemical bioprofiling, toxicity data sharing and customizable predictive modeling",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag617/8768655?rss=1",
+      "published_at": "2026-08-22T08:00:00+08:00",
+      "published_date": "2026-08-22",
+      "summary": "Abstract Motivation Chemical toxicity assessment is critical for drug development and environmental safety. Computational models have emerged as a promising alternative to animal testing and now play a significant role in efficiently evaluating new chemicals. To address the urgent need for user-friendly machine learning tools in computational toxicology, we developed ToxiVerse, a public web-based platform. Results ToxiVerse provides automatic chemical bioprofiling, curated toxicity datasets, and a predictive modeling interface designed for researchers who lack programming expertise. The platform comprises three integrated modules: (i) Bioprofiler, which provides chemical descriptors by combining chemical-bioactivity data from PubChem assays with a machine learning-based data gap-filling procedure; (ii) Database, which hosts ∼50 000 curated chemicals covering diverse toxicity endpoints; and (iii) Cheminformatics, which enables dataset upload, chemical curation, and automatic generation of quantitative structure–activity relationship models for toxicity prediction. Availability The tool is accessible at www.toxiverse.com , and source code is available at https://github.com/zhu-research-group/toxiverse",
+      "authors": [],
+      "doi": "10.1093/bioinformatics/btag617",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag617",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "ToxiVerse：化学生物信息分析平台、毒性数据共享系统及可定制的预测建模工具",
+      "llm_title_bilingual": "ToxiVerse：化学生物信息分析平台、毒性数据共享系统及可定制的预测建模工具 / ToxiVerse: chemical bioprofiling, toxicity data sharing and customizable predictive modeling",
+      "llm_research_question_zh": "摘要：化学毒性的评估对于药物研发与环境安全而言至关重要。",
+      "llm_highlights_zh": [
+        "计算模型已成为替代动物实验的一种有前景的方法，如今在高效评估新化学物质方面发挥着重要作用。",
+        "为满足计算毒理学领域对用户友好型机器学习工具的迫切需求，我们开发了ToxiVerse这一公共在线平台。",
+        "Results：ToxiVerse为缺乏编程能力的研究人员提供了自动化的化学生物特性分析功能、精心整理的毒性数据集，以及专为他们设计的预测建模工具。"
+      ],
+      "llm_rss_summary_zh": "**摘要与动机**  \n化学毒性评估在药物研发与环境安全领域具有重要意义。计算模型作为一种替代动物实验的有效手段，现已在新型化学品的安全性评价中发挥着关键作用。为满足计算毒理学领域对用户友好型机器学习工具的迫切需求，我们开发了ToxiVerse这一公共在线平台。  \n\n**结果**  \nToxiVerse为缺乏编程经验的研究人员提供了自动化化学生物特性分析功能、经过精心整理的毒性数据集以及预测建模工具。该平台由三个集成模块组成：  \n1. **生物特性分析模块**：通过结合PubChem数据库中的化学-生物活性数据与基于机器学习的 数据填补技术，生成相应的化学描述符；  \n2. **数据库模块**：存储了约50,000种涵盖多种毒性评价指标的化学物质信息；  \n3. **化学信息学模块**：支持数据上传、化学物质信息整理，并能自动生成用于毒性预测的定量结构-活性关系模型。  \n\n**使用方式**  \n该工具可通过官网www.toxiverse.com访问，其源代码亦可在https://github.com/zhu-research-group/toxiverse获取。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "化学毒性评估在药物研发与环境安全领域具有重要意义。计算模型作为一种替代动物实验的有效手段，现已在新型化学品的安全性评价中发挥着关键作用。为满足计算毒理学领域对用户友好型机器学习工具的迫切需求，我们开发了ToxiVerse这一公共在线平台。\nToxiVerse为缺乏编程经验的研究人员提供了自动化化学生物特性分析功能、经过精心整理的毒性数据集以及预测建模工具。该平台由三个集成模块组成：\n1. 生物特性分析模块：通过结合PubChem数据库中的化学-生物活性数据与基于机器学习的 数据填补技术，生成相应的化学描述符；\n2. 数据库模块：存储了约50,000种涵盖多种毒性评价指标的化学物质信息；\n3. 化学信息学模块：支持数据上传、化学物质信息整理，并能自动生成用于毒性预测的定量结构-活性关系模型。\n\n使用方式\n该工具可通过官网www.toxiverse.com访问，其源代码亦可在https://github.com/zhu-research-group/toxiverse获取。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Chemical toxicity assessment is critical for drug development and environmental safety. Computational models have emerged as a promising alternative to animal testing and now play a significant role in efficiently evaluating new chemicals. To address the urgent need for user-friendly machine learning tools in computational toxicology, we developed ToxiVerse, a public web-based platform. Results ToxiVerse provides automatic chemical bioprofiling, curated toxicity datasets, and a predictive modeling interface designed for researchers who lack programming expertise. The platform comprises three integrated modules: (i) Bioprofiler, which provides chemical descriptors by combining chemical-bioactivity data from PubChem assays with a machine learning-based data gap-filling procedure; (ii) Database, which hosts ∼50 000 curated chemicals covering diverse toxicity endpoints; and (iii) Cheminformatics, which enables dataset upload, chemical curation, and automatic generation of quantitative structure–activity relationship models for toxicity prediction.",
+      "primary_summary_zh": "**摘要与动机**  \n化学毒性评估在药物研发与环境安全领域具有重要意义。计算模型作为一种替代动物实验的有效手段，现已在新型化学品的安全性评价中发挥着关键作用。为满足计算毒理学领域对用户友好型机器学习工具的迫切需求，我们开发了ToxiVerse这一公共在线平台。  \n\n**结果**  \nToxiVerse为缺乏编程经验的研究人员提供了自动化化学生物特性分析功能、经过精心整理的毒性数据集以及预测建模工具。该平台由三个集成模块组成：  \n1. **生物特性分析模块**：通过结合PubChem数据库中的化学-生物活性数据与基于机器学习的 数据填补技术，生成相应的化学描述符；  \n2. **数据库模块**：存储了约50,000种涵盖多种毒性评价指标的化学物质信息；  \n3. **化学信息学模块**：支持数据上传、化学物质信息整理，并能自动生成用于毒性预测的定量结构-活性关系模型。  \n\n**使用方式**  \n该工具可通过官网www.toxiverse.com访问，其源代码亦可在https://github.com/zhu-research-group/toxiverse获取。"
+    },
+    {
+      "title": "Searching the Druggable Genome using Large Language Models",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag632/8768654?rss=1",
+      "published_at": "2026-08-22T08:00:00+08:00",
+      "published_date": "2026-08-22",
+      "summary": "Abstract Summary The druggable genome encompasses the genes that are known or predicted to interact with drugs. The Drug-Gene Interaction Database (DGIdb) provides an integrated resource for discovering and contextualizing these interactions, supporting a broad range of research and clinical applications. DGIdb is currently accessed through structured web interfaces and API calls, requiring users to translate natural-language questions into database-specific query patterns. To allow for the use of DGIdb through natural language, we developed the DGIdb Model Context Protocol (MCP) server, which allows large language models (LLMs) access to up-to-date information through the DGIdb API. We demonstrate that the MCP server improves an LLM’s ability to answer questions requiring accurate, up-to-date biomedical knowledge drawn from structured external resources. Availability and implementation The DGIdb MCP server is detailed at https://github.com/griffithlab/dgidb-mcp-server and includes instructions for accessing the server through the Claude desktop app",
+      "authors": [],
+      "doi": "10.1093/bioinformatics/btag632",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag632",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "利用大型语言模型搜索可被药物作用的基因组区域",
+      "llm_title_bilingual": "利用大型语言模型搜索可被药物作用的基因组区域 / Searching the Druggable Genome using Large Language Models",
+      "llm_research_question_zh": "摘要：可被药物作用的基因组包括那些已知或被认为能与药物发生相互作用的基因。",
+      "llm_highlights_zh": [
+        "药物-基因相互作用数据库（DGIdb）为探索这些相互作用及其具体背景提供了综合性的资源支持，能够服务于多种研究和临床应用领域。",
+        "目前，DGIdb是通过结构化的网页界面或API调用进行访问的，因此用户需要将自然语言问题转换为该数据库所支持的查询语句格式。",
+        "为了使人们能够通过自然语言来使用 DGIdb，我们开发了 DGIdb 模型上下文协议（MCP）服务器。该服务器使得大型语言模型能够通过 DGIdb API 获取最新的信息。"
+      ],
+      "llm_rss_summary_zh": "摘要：可被药物作用的基因组包括那些已知或被认为能与药物发生相互作用的基因。药物-基因相互作用数据库（DGIdb）为探索这些相互作用及其背景信息提供了集成资源，支持多种研究和临床应用。目前，人们主要通过结构化的网页界面或API调用来访问该数据库，这意味着用户需要将自然语言问题转化为数据库特定的查询语句才能获取所需数据。为了实现通过自然语言直接使用DGIdb，我们开发了DGIdb模型上下文协议（MCP）服务器，使得大型语言模型能够通过DGIdb API获取最新信息。实验结果表明，MCP服务器显著提升了大型语言模型回答那些需要从结构化外部资源中提取准确、最新生物医学知识的问题时的能力。  \n\n关于DGIdb MCP服务器的更多信息及使用说明，请访问：https://github.com/griffithlab/dgidb-mcp-server",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "可被药物作用的基因组包括那些已知或被认为能与药物发生相互作用的基因。药物-基因相互作用数据库（DGIdb）为探索这些相互作用及其背景信息提供了集成资源，支持多种研究和临床应用。目前，人们主要通过结构化的网页界面或API调用来访问该数据库，这意味着用户需要将自然语言问题转化为数据库特定的查询语句才能获取所需数据。为了实现通过自然语言直接使用DGIdb，我们开发了DGIdb模型上下文协议（MCP）服务器，使得大型语言模型能够通过DGIdb API获取最新信息。实验结果表明，MCP服务器显著提升了大型语言模型回答那些需要从结构化外部资源中提取准确、最新生物医学知识的问题时的能力。\n\n关于DGIdb MCP服务器的更多信息及使用说明，请访问：https://github.com/griffithlab/dgidb-mcp-server",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Summary The druggable genome encompasses the genes that are known or predicted to interact with drugs. The Drug-Gene Interaction Database (DGIdb) provides an integrated resource for discovering and contextualizing these interactions, supporting a broad range of research and clinical applications. DGIdb is currently accessed through structured web interfaces and API calls, requiring users to translate natural-language questions into database-specific query patterns. To allow for the use of DGIdb through natural language, we developed the DGIdb Model Context Protocol (MCP) server, which allows large language models (LLMs) access to up-to-date information through the DGIdb API. We demonstrate that the MCP server improves an LLM’s ability to answer questions requiring accurate, up-to-date biomedical knowledge drawn from structured external resources.",
+      "primary_summary_zh": "摘要：可被药物作用的基因组包括那些已知或被认为能与药物发生相互作用的基因。药物-基因相互作用数据库（DGIdb）为探索这些相互作用及其背景信息提供了集成资源，支持多种研究和临床应用。目前，人们主要通过结构化的网页界面或API调用来访问该数据库，这意味着用户需要将自然语言问题转化为数据库特定的查询语句才能获取所需数据。为了实现通过自然语言直接使用DGIdb，我们开发了DGIdb模型上下文协议（MCP）服务器，使得大型语言模型能够通过DGIdb API获取最新信息。实验结果表明，MCP服务器显著提升了大型语言模型回答那些需要从结构化外部资源中提取准确、最新生物医学知识的问题时的能力。  \n\n关于DGIdb MCP服务器的更多信息及使用说明，请访问：https://github.com/griffithlab/dgidb-mcp-server"
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}
