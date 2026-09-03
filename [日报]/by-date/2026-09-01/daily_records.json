@@ -1,0 +1,1095 @@
+﻿{
+  "schema_version": "1.0",
+  "task": "paper-overview-extractor-rss",
+  "status": "partial_success",
+  "generated_at": "2026-09-01T20:00:36.572887+00:00",
+  "date_range": {
+    "start": "2026-09-01",
+    "end": "2026-09-01"
+  },
+  "inputs": {
+    "journals_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\目标期刊.txt",
+    "keywords_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\关键词.txt",
+    "keyword_aliases_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\keyword_aliases.json",
+    "rss_sources_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\rss_sources.json",
+    "keywords": [
+      "免疫代谢",
+      "代谢表观调控",
+      "单细胞算法",
+      "单细胞图谱",
+      "流感",
+      "HSV",
+      "H1N1",
+      "肺损伤",
+      "肺组织修复",
+      "皮肤免疫"
+    ],
+    "llm_model": "hy-mt1.5-7b",
+    "llm_base_url": "http://127.0.0.1:1234",
+    "llm_translation_only": true,
+    "llm_proxy_url": "http://127.0.0.1:7890",
+    "google_fallback": true
+  },
+  "summary": {
+    "journal_count": 10,
+    "paper_count": 6,
+    "pubmed_enriched_count": 2,
+    "llm_enhanced_count": 6,
+    "llm_google_fallback_count": 0
+  },
+  "journals": [
+    {
+      "journal": "Nature",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nature/",
+      "feed_urls": [
+        "https://www.nature.com/nature/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nature/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nature.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 75
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 56",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Science",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/science",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+        "https://www.science.org/rss/express.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "status_code": 200,
+          "error": "",
+          "item_count": 39
+        },
+        {
+          "url": "https://www.science.org/rss/express.xml",
+          "ok": true,
+          "final_url": "https://feeds.science.org/rss/science-aop.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 5
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/00928674"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "status_code": 200,
+          "error": "",
+          "item_count": 68
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell metabolism",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell-metabolism/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/15504131"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "status_code": 200,
+          "error": "",
+          "item_count": 62
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Immunity",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/immunity/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/10747613"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "status_code": 200,
+          "error": "",
+          "item_count": 58
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature Immunology",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/ni/",
+      "feed_urls": [
+        "https://www.nature.com/ni/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/ni/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/ni.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 2"
+      ],
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Natural killers blast HIV reservoir landscape",
+          "link": "https://www.nature.com/articles/s41590-026-02635-y",
+          "published_at": "2026-09-01T08:00:00+08:00",
+          "published_date": "2026-09-01",
+          "summary": "Natural killer (NK) cells leave distinct footprints on the HIV reservoir, leading to a smaller HIV reservoir size in individuals carrying the HLA-C2 allele. HIV escapes NK cell-mediated immunity through mutations in the viral proteins Vpu, Gag and Env",
+          "authors": [
+            "Daniel A. Armendariz",
+            "Valter Silva Monteiro",
+            "Ya-Chi Ho"
+          ],
+          "doi": "10.1038/s41590-026-02635-y",
+          "journal": "Nature Immunology",
+          "source_feed": "https://www.nature.com/ni.rss",
+          "entry_id": "doi:10.1038/s41590-026-02635-y",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "自然杀伤细胞会清除HIV潜伏感染的宿主细胞。",
+          "llm_title_bilingual": "自然杀伤细胞会清除HIV潜伏感染的宿主细胞。 / Natural killers blast HIV reservoir landscape",
+          "llm_research_question_zh": "自然杀伤细胞会在HIV病毒库中留下明显的痕迹，因此携带HLA-C2等位基因的个体的HIV病毒库规模会较小。",
+          "llm_highlights_zh": [
+            "HIV通过其病毒蛋白Vpu、Gag和Env中的突变，从而逃避了由NK细胞介导的免疫反应。",
+            "自然杀伤细胞会清除HIV潜伏感染的宿主细胞。",
+            "自然杀伤细胞会在HIV病毒库中留下明显的痕迹，因此携带HLA-C2等位基因的个体的HIV病毒库规模会较小。"
+          ],
+          "llm_rss_summary_zh": "自然杀伤细胞会在HIV病毒库中留下明显的“痕迹”，因此携带HLA-C2等位基因的个体的HIV病毒库规模会较小。HIV病毒通过其Vpu、Gag和Env蛋白中的突变，能够逃避自然杀伤细胞所介导的免疫反应。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "自然杀伤细胞会在HIV病毒库中留下明显的“痕迹”，因此携带HLA-C2等位基因的个体的HIV病毒库规模会较小。HIV病毒通过其Vpu、Gag和Env蛋白中的突变，能够逃避自然杀伤细胞所介导的免疫反应。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Natural killer (NK) cells leave distinct footprints on the HIV reservoir, leading to a smaller HIV reservoir size in individuals carrying the HLA-C2 allele. HIV escapes NK cell-mediated immunity through mutations in the viral proteins Vpu, Gag and Env",
+          "primary_summary_zh": "自然杀伤细胞会在HIV病毒库中留下明显的“痕迹”，因此携带HLA-C2等位基因的个体的HIV病毒库规模会较小。HIV病毒通过其Vpu、Gag和Env蛋白中的突变，能够逃避自然杀伤细胞所介导的免疫反应。"
+        },
+        {
+          "title": "Innate immune imprints shape HIV-1 reservoir cell persistence during long-term antiretroviral therapy",
+          "link": "https://www.nature.com/articles/s41590-026-02637-w",
+          "published_at": "2026-09-01T08:00:00+08:00",
+          "published_date": "2026-09-01",
+          "summary": "HIV reservoir cells are traditionally considered invisible to host immune responses due to viral latency. This work challenges this view by demonstrating that HIV persistence during long-term antiretroviral therapy is strongly influenced by KIR2DL1-educated NK cells",
+          "authors": [
+            "Toong Seng Tan",
+            "WeiWei Sun",
+            "Ce Gao",
+            "Mathias Viard",
+            "Lucy C. Walters",
+            "Melanie Lancien",
+            "Yuko Yuki",
+            "Tram N. Van",
+            "Carlos Casquero",
+            "Xuan Guo",
+            "Rebecca Hoh",
+            "David W. Haas",
+            "Nelson Michael",
+            "Gregory D. Kirk",
+            "George Yendewa",
+            "Rajesh T. Gandhi",
+            "Seble G. Kassaye",
+            "Phyllis C. Tien",
+            "Bruce D. Walker",
+            "Michael J. Peluso",
+            "Jeffrey M. Jacobson",
+            "Steven G. Deeks",
+            "Mary Carrington",
+            "Xu G. Yu",
+            "Mathias Lichterfeld"
+          ],
+          "doi": "10.1038/s41590-026-02637-w",
+          "journal": "Nature Immunology",
+          "source_feed": "https://www.nature.com/ni.rss",
+          "entry_id": "doi:10.1038/s41590-026-02637-w",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "先天免疫机制在长期抗逆转录病毒治疗过程中决定了HIV-1潜伏细胞的持续存在。",
+          "llm_title_bilingual": "先天免疫机制在长期抗逆转录病毒治疗过程中决定了HIV-1潜伏细胞的持续存在。 / Innate immune imprints shape HIV-1 reservoir cell persistence during long-term antiretroviral therapy",
+          "llm_research_question_zh": "传统上认为，由于病毒的潜伏状态，HIV潜伏细胞能够逃避宿主免疫系统的攻击。",
+          "llm_highlights_zh": [
+            "这项研究通过实验证明，在长期接受抗逆转录病毒治疗的情况下，HIV的持续存在在很大程度上受到KIR2DL1所激活的自然杀伤细胞的影响，从而对这一观点提出了挑战。",
+            "先天免疫机制在长期抗逆转录病毒治疗过程中决定了HIV-1潜伏细胞的持续存在。",
+            "传统上认为，由于病毒的潜伏状态，HIV潜伏细胞能够逃避宿主免疫系统的攻击。"
+          ],
+          "llm_rss_summary_zh": "传统上认为，由于病毒的潜伏状态，HIV储库细胞能够逃避宿主免疫系统的攻击。然而本研究通过实验证明，在长期接受抗逆转录病毒治疗的情况下，HIV的持续存在在很大程度上受到KIR2DL1受体所激活的自然杀伤细胞的影响。这一发现挑战了原有的观点。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "传统上认为，由于病毒的潜伏状态，HIV储库细胞能够逃避宿主免疫系统的攻击。然而本研究通过实验证明，在长期接受抗逆转录病毒治疗的情况下，HIV的持续存在在很大程度上受到KIR2DL1受体所激活的自然杀伤细胞的影响。这一发现挑战了原有的观点。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "HIV reservoir cells are traditionally considered invisible to host immune responses due to viral latency. This work challenges this view by demonstrating that HIV persistence during long-term antiretroviral therapy is strongly influenced by KIR2DL1-educated NK cells",
+          "primary_summary_zh": "传统上认为，由于病毒的潜伏状态，HIV储库细胞能够逃避宿主免疫系统的攻击。然而本研究通过实验证明，在长期接受抗逆转录病毒治疗的情况下，HIV的持续存在在很大程度上受到KIR2DL1受体所激活的自然杀伤细胞的影响。这一发现挑战了原有的观点。"
+        }
+      ]
+    },
+    {
+      "journal": "Science Immunology",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/sciimmunol",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "status_code": 200,
+          "error": "",
+          "item_count": 13
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Bioinformatics",
+      "configured": true,
+      "publisher": "Oxford Academic",
+      "homepage": "https://academic.oup.com/bioinformatics",
+      "feed_urls": [
+        "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+        "https://academic.oup.com/rss/site_5139/3001.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        },
+        {
+          "url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 89
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 2"
+      ],
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "ECHO: a nanopore sequencing-based workflow for (epi)genetic profiling of the human repeatome",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag648/8778545?rss=1",
+          "published_at": "2026-09-01T08:00:00+08:00",
+          "published_date": "2026-09-01",
+          "summary": "Abstract Summary The human genome is dominated by repetitive DNA, whose genetic and epigenetic variation plays a key role in gene regulation, genome stability, and disease. Recent advances in long-read sequencing now enable large-scale, haplotype-resolved, and DNA methylation-informative analysis of the human genome, including on previously inaccessible complex and repetitive regions. However, the comprehensive, simultaneous characterisation of the “human repeatome” remains challenging, largely due to the lack of comprehensive tools integrated in a single pipeline that can capture the full spectrum of variation across diverse types of DNA repeats. Here, we present ECHO, a user-friendly, Snakemake-based pipeline for the “(Epi)genomic Characterisation of Human Repetitive Elements using Oxford Nanopore Sequencing”. ECHO provides a reproducible and scalable framework for end-to-end analysis of whole-genome nanopore sequencing data, enabling integrative but also tailored (epi)genetic analyses of the human repeatome. Availability and Implementation ECHO is freely available at Github: https://github.com/leenput/ECHO-pipeline , with the archived version at Zenodo: https://zenodo.org/records/19068468",
+          "authors": [
+            "Brando Poggiali",
+            "Leena Putzeys",
+            "Jeppe Dyrberg Andersen",
+            "Athina Vidaki"
+          ],
+          "doi": "10.1093/bioinformatics/btag648",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag648",
+          "pmid": "42678358",
+          "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42678358/",
+          "abstract": "SUMMARY: The human genome is dominated by repetitive DNA, whose genetic and epigenetic variation plays a key role in gene regulation, genome stability, and disease. Recent advances in long-read sequencing now enable large-scale, haplotype-resolved, and DNA methylation-informative analysis of the human genome, including on previously inaccessible complex and repetitive regions. However, the comprehensive, simultaneous characterisation of the \"human repeatome\" remains challenging, largely due to the lack of comprehensive tools integrated in a single pipeline that can capture the full spectrum of variation across diverse types of DNA repeats. Here, we present ECHO, a user-friendly, Snakemake-based pipeline for the \"(Epi)genomic Characterisation of Human Repetitive Elements using Oxford Nanopore Sequencing\". ECHO provides a reproducible and scalable framework for end-to-end analysis of whole-genome nanopore sequencing data, enabling integrative but also tailored (epi)genetic analyses of the human repeatome.\n\nAVAILABILITY AND IMPLEMENTATION: ECHO is freely available at Github: https://github.com/leenput/ECHO-pipeline, with the archived version at Zenodo: https://zenodo.org/records/19068468.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "affiliations": [
+            "Department of Clinical Genetics, Maastricht University Medical Centre, 6229 HX Maastricht, The Netherlands.",
+            "Section of Forensic Genetics, Department of Forensic Medicine, Faculty of Health and Medical Sciences, University of Copenhagen, 2100 Copenhagen, Denmark.",
+            "Department of Genetics and Cell Biology, GROW Research Institute, Maastricht University, 6229 HX Maastricht, The Netherlands."
+          ],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [
+            "Journal Article"
+          ],
+          "pubmed_journal": "Bioinformatics (Oxford, England)",
+          "pubmed_publication_date": "2026-09-01",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "success",
+          "pubmed_warning": "",
+          "llm_title_zh": "ECHO：一种基于纳米孔测序技术的人类重复序列组（表观）遗传学分析工作流程",
+          "llm_title_bilingual": "ECHO：一种基于纳米孔测序技术的人类重复序列组（表观）遗传学分析工作流程 / ECHO: a nanopore sequencing-based workflow for (epi)genetic profiling of the human repeatome",
+          "llm_research_question_zh": "摘要：人类基因组中重复DNA所占比例较高，其遗传变异与表观遗传变异在基因调控、基因组稳定性以及疾病发生过程中起着关键作用。",
+          "llm_highlights_zh": [
+            "近期，长读长测序技术取得了显著进展，这使得人们能够对人类基因组进行大规模分析，并准确识别单倍型信息以及DNA甲基化状态，甚至包括那些此前无法被研究的复杂重复区域。",
+            "然而，对“人类重复序列组”进行全面、同步的分析仍然面临诸多挑战，主要原因是目前还缺乏能够整合在单一分析流程中的综合性工具，这些工具才能有效捕捉各种类型DNA重复序列所表现出的全部变异特征。",
+            "在这里，我们介绍了ECHO这一用户友好的工具。它基于Snakemake构建，专门用于利用Oxford Nanopore测序技术对人类重复序列进行“(表)基因组特征分析”。"
+          ],
+          "llm_rss_summary_zh": "摘要：人类基因组中重复DNA占主导地位，其遗传变异与表观遗传变异在基因调控、基因组稳定性及疾病发生中起着关键作用。近年来，长读长测序技术的进步使得人们能够对人类基因组进行大规模分析，包括那些此前难以研究的复杂重复区域。然而，要全面、系统地研究“人类重复序列组”，目前仍面临诸多挑战——主要原因是缺乏能够同时捕捉多种类型重复DNA变异信息的综合性工具。为此，我们开发了ECHO这一基于Snakemake的工具管道，它利用牛津纳米孔测序技术对人类重复序列进行（表）基因组学分析。该工具提供了可复现且可扩展的分析框架，能够实现针对全基因组纳米孔测序数据的全流程分析，从而促进对人类重复序列组的综合研究与个性化分析。ECHO已免费在Github上发布：https://github.com/leenput/ECHO-pipeline，其存档版本也可在Zenodo平台上获取：https://zenodo.org/records/19068468。",
+          "llm_pubmed_abstract_zh": "摘要：人类基因组中重复DNA占主导地位，其遗传变异与表观遗传变异在基因调控、基因组稳定性以及疾病发生机制中起着关键作用。近年来，长读长测序技术的进步使得人们能够对人类基因组进行大规模分析，包括那些此前难以研究的复杂重复区域。然而，要全面系统地研究“人类重复序列组”，目前仍面临诸多挑战，主要原因是缺乏能够同时捕捉多种类型重复DNA变异信息的综合性工具。为此，我们开发了ECHO这一基于Snakemake的工具流程，它采用牛津纳米孔测序技术，为用户提供了便捷、可扩展的解决方案，有助于实现对人类重复序列组的全面而精准的（表观）基因组分析。\n\n获取与使用：ECHO可在Github上免费下载：https://github.com/leenput/ECHO-pipeline，其存档版本也可在Zenodo平台上获取：https://zenodo.org/records/19068468。\n\n补充信息：相关补充数据可在线查阅Bioinformatics数据库。",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [
+            "期刊文章"
+          ],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "人类基因组中重复DNA占主导地位，其遗传变异与表观遗传变异在基因调控、基因组稳定性以及疾病发生机制中起着关键作用。近年来，长读长测序技术的进步使得人们能够对人类基因组进行大规模分析，包括那些此前难以研究的复杂重复区域。然而，要全面系统地研究“人类重复序列组”，目前仍面临诸多挑战，主要原因是缺乏能够同时捕捉多种类型重复DNA变异信息的综合性工具。为此，我们开发了ECHO这一基于Snakemake的工具流程，它采用牛津纳米孔测序技术，为用户提供了便捷、可扩展的解决方案，有助于实现对人类重复序列组的全面而精准的（表观）基因组分析。\n\n获取与使用：ECHO可在Github上免费下载：https://github.com/leenput/ECHO-pipeline，其存档版本也可在Zenodo平台上获取：https://zenodo.org/records/19068468。\n\n补充信息：相关补充数据可在线查阅Bioinformatics数据库。",
+          "primary_summary_source": "pubmed",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "pubmed",
+          "primary_summary_raw": "SUMMARY: The human genome is dominated by repetitive DNA, whose genetic and epigenetic variation plays a key role in gene regulation, genome stability, and disease. Recent advances in long-read sequencing now enable large-scale, haplotype-resolved, and DNA methylation-informative analysis of the human genome, including on previously inaccessible complex and repetitive regions. However, the comprehensive, simultaneous characterisation of the \"human repeatome\" remains challenging, largely due to the lack of comprehensive tools integrated in a single pipeline that can capture the full spectrum of variation across diverse types of DNA repeats. Here, we present ECHO, a user-friendly, Snakemake-based pipeline for the \"(Epi)genomic Characterisation of Human Repetitive Elements using Oxford Nanopore Sequencing\". ECHO provides a reproducible and scalable framework for end-to-end analysis of whole-genome nanopore sequencing data, enabling integrative but also tailored (epi)genetic analyses of the human repeatome.\n\nAVAILABILITY AND IMPLEMENTATION: ECHO is freely available at Github: https://github.com/leenput/ECHO-pipeline, with the archived version at Zenodo: https://zenodo.org/records/19068468.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "primary_summary_zh": "摘要：人类基因组中重复DNA占主导地位，其遗传变异与表观遗传变异在基因调控、基因组稳定性以及疾病发生机制中起着关键作用。近年来，长读长测序技术的进步使得人们能够对人类基因组进行大规模分析，包括那些此前难以研究的复杂重复区域。然而，要全面系统地研究“人类重复序列组”，目前仍面临诸多挑战，主要原因是缺乏能够同时捕捉多种类型重复DNA变异信息的综合性工具。为此，我们开发了ECHO这一基于Snakemake的工具流程，它采用牛津纳米孔测序技术，为用户提供了便捷、可扩展的解决方案，有助于实现对人类重复序列组的全面而精准的（表观）基因组分析。\n\n获取与使用：ECHO可在Github上免费下载：https://github.com/leenput/ECHO-pipeline，其存档版本也可在Zenodo平台上获取：https://zenodo.org/records/19068468。\n\n补充信息：相关补充数据可在线查阅Bioinformatics数据库。"
+        },
+        {
+          "title": "A Token-Pruning Framework Enables Efficient Representation of the Human Genome for RNA Modification Analysis",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag621/8778546?rss=1",
+          "published_at": "2026-09-01T08:00:00+08:00",
+          "published_date": "2026-09-01",
+          "summary": "Abstract Motivation Modelling long genomic sequences remains challenging due to extreme sequence length, high redundancy, and the need for biological interpretability. Although Transformer-based architectures have achieved strong performance across genomic tasks, their high computational cost and reliance on fixed tokenization strategies limit their scalability and ability to focus on biologically informative regions. Results We propose ATSFormer, a token-pruning Transformer framework for efficient and biologically informed genomic sequence modelling. ATSFormer incorporates an attention-guided and parameter-free Adaptive Token Sampling (ATS) module into Transformer layers. Guided by attention-derived importance scores, ATS dynamically retains informative tokens while probabilistically discarding redundant ones, thereby reducing sequence length, FLOPs, and memory usage without introducing additional learnable parameters or extra training procedures. Importantly, the retained tokens correspond to key contributors to model predictions, enabling ATSFormer to highlight biologically meaningful sites and sequence motifs. We evaluated ATSFormer on four benchmark RNA modification datasets derived from RMVar 2.0, covering A-to-I, m1A, m5C, and m7G. Experimental results show that ATSFormer consistently outperforms existing state-of-the-art methods while achieving substantial computational savings. Furthermore, structural analysis using AlphaFold3 supports the biological relevance of the motifs identified by ATSFormer. Availability and implementation The source data and code are freely available at GitHub ( https://github.com/1gao2/ATSFormer ) and Zenodo ( https://doi.org/10.5281/zenodo.21813541 )",
+          "authors": [
+            "Wenjia Gao",
+            "Junlei Yu",
+            "Junru Jin",
+            "Jiajie Cai",
+            "Ke Qiu",
+            "Shun Zhang",
+            "Jianbo Qiao",
+            "Leyi Wei"
+          ],
+          "doi": "10.1093/bioinformatics/btag621",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag621",
+          "pmid": "42678364",
+          "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42678364/",
+          "abstract": "MOTIVATION: Modelling long genomic sequences remains challenging due to extreme sequence length, high redundancy, and the need for biological interpretability. Although Transformer-based architectures have achieved strong performance across genomic tasks, their high computational cost and reliance on fixed tokenization strategies limit their scalability and ability to focus on biologically informative regions.\n\nRESULTS: We propose ATSFormer, a token-pruning Transformer framework for efficient and biologically informed genomic sequence modelling. ATSFormer incorporates an attention-guided and parameter-free Adaptive Token Sampling (ATS) module into Transformer layers. Guided by attention-derived importance scores, ATS dynamically retains informative tokens while probabilistically discarding redundant ones, thereby reducing sequence length, FLOPs, and memory usage without introducing additional learnable parameters or extra training procedures. Importantly, the retained tokens correspond to key contributors to model predictions, enabling ATSFormer to highlight biologically meaningful sites and sequence motifs. We evaluated ATSFormer on four benchmark RNA modification datasets derived from RMVar 2.0, covering A-to-I, m1A, m5C, and m7G. Experimental results show that ATSFormer consistently outperforms existing state-of-the-art methods while achieving substantial computational savings. Furthermore, structural analysis using AlphaFold3 supports the biological relevance of the motifs identified by ATSFormer.\n\nAVAILABILITY AND IMPLEMENTATION: The source data and code are freely available at GitHub (https://github.com/1gao2/ATSFormer) and Zenodo (https://doi.org/10.5281/zenodo.21813541).",
+          "affiliations": [
+            "School of Software, Shandong University, Jinan, China.",
+            "Engineering Research Centre of Applied Technology on Machine Translation and Artificial Intelligence, Macao Polytechnic University, Macao SAR, China.",
+            "Joint SDU-NTU Centre for Artificial Intelligence Research (C-FAIR), Shandong University, Jinan, China."
+          ],
+          "mesh_terms": [],
+          "paper_keywords": [
+            "Adaptive token sampling",
+            "Deep learning",
+            "Genomic sequence modeling",
+            "RNA modification prediction",
+            "Token pruning"
+          ],
+          "publication_types": [
+            "Journal Article"
+          ],
+          "pubmed_journal": "Bioinformatics (Oxford, England)",
+          "pubmed_publication_date": "2026-09-01",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "success",
+          "pubmed_warning": "",
+          "llm_title_zh": "一种基于标记剪枝的框架能够高效地表示人类基因组，从而便于进行RNA修饰分析。",
+          "llm_title_bilingual": "一种基于标记剪枝的框架能够高效地表示人类基因组，从而便于进行RNA修饰分析。 / A Token-Pruning Framework Enables Efficient Representation of the Human Genome for RNA Modification Analysis",
+          "llm_research_question_zh": "动机：由于基因组序列长度极长、冗余度极高，且需要具备生物学意义上的解释性，因此对这类序列进行建模仍然是一项具有挑战性的任务。",
+          "llm_highlights_zh": [
+            "尽管基于Transformer的架构在基因组相关任务中表现优异，但其高昂的计算成本以及对固定分词策略的依赖限制了其可扩展性，也使其难以有效聚焦于那些具有生物学意义的区域。",
+            "结果：我们提出了ATSFormer这一基于令牌剪裁的Transformer框架，该框架能够高效地进行基因组序列建模，并且其设计理念充分考虑了生物学规律。",
+            "ATSFormer将一种基于注意力机制、无需任何参数的自适应令牌采样技术整合到了Transformer层中。"
+          ],
+          "llm_rss_summary_zh": "**摘要**  \n由于基因组序列的长度极长、冗余度极高，且需要具备生物学意义，因此对这类序列进行建模仍然是一项具有挑战性的任务。尽管基于Transformer的架构在基因组分析领域取得了优异的性能，但其高昂的计算成本以及对固定分词策略的依赖限制了其可扩展性，也使其难以有效聚焦于那些具有生物学意义的区域。  \n\n**研究结果**  \n我们提出了ATSFormer这一基于Transformer的框架，该框架通过采用一种自适应的分词机制来高效地对基因组序列进行建模，并确保这些模型具备生物学意义。ATSFormer在Transformer层中融入了“注意力引导下的自适应分词”模块：该模块会根据注意力计算得出的重要性得分，动态地保留那些包含关键信息的序列片段，同时随机丢弃冗余部分。这样一来，既能有效缩短序列长度、降低计算资源消耗及内存占用，又无需添加额外的可学习参数或复杂的训练流程。更重要的是，被保留下来的序列片段恰恰是影响模型预测结果的关键因素，这使得ATSFormer能够准确识别出具有生物学意义的位点及序列模式。  \n\n我们在四个基于RMVar 2.0建立的RNA修饰数据集上对ATSFormer进行了测试，这些数据集涵盖了A-to-I、m1A、m5C和m7G等类型的RNA修饰类型。实验结果表明，ATSFormer在性能上明显优于现有的最先进方法，同时还能显著降低计算成本。此外，使用AlphaFold3进行的结构分析进一步证实了ATSFormer所识别出的序列模式确实具有生物学意义。  \n\n**开源与实现**  \n相关源代码及数据已免费发布在GitHub（https://github.com/1gao2/ATSFormer）和Zenodo（https://doi.org/10.5281/zenodo.21813541）平台上，欢迎大家查阅和使用。",
+          "llm_pubmed_abstract_zh": "**动机**：由于基因组序列的长度极长、冗余度极高，且需要具备生物学意义，因此对这类序列进行建模仍然面临诸多挑战。尽管基于Transformer的架构在基因组分析任务中取得了优异的性能，但其高昂的计算成本以及对固定分词策略的依赖限制了其可扩展性，也使其难以有效聚焦于具有生物学意义的区域。  \n\n**结果**：我们提出了ATSFormer这一基于Transformer的框架，该框架通过采用自适应分词机制来高效地对基因组序列进行建模，并确保这些模型具备生物学意义。ATSFormer在Transformer层中融入了一个基于注意力机制的无参数自适应分词模块——该模块会根据各字符的重要性得分动态保留有信息量的字符，同时随机丢弃冗余字符，从而有效缩短序列长度、降低计算资源消耗及内存占用，且无需添加额外的可学习参数或训练流程。值得注意的是，被保留下来的字符正是影响模型预测结果的关键因素，这使得ATSFormer能够准确识别出具有生物学意义的序列区域与结构模式。我们在来自RMVar 2.0的四个RNA修饰数据集上对ATSFormer进行了测试，这些数据集涵盖了A-to-I、m1A、m5C和m7G四种修饰类型。实验结果表明，ATSFormer在性能上显著优于现有的先进方法，同时还能大幅降低计算成本；此外，使用AlphaFold3进行的结构分析进一步验证了ATSFormer所识别出的序列模式的生物学相关性。  \n\n**开源与实现**：相关源代码及数据已免费发布在GitHub（https://github.com/1gao2/ATSFormer）和Zenodo（https://doi.org/10.5281/zenodo.21813541）平台上。",
+          "llm_paper_keywords_zh": [
+            "自适应令牌采样",
+            "深度学习",
+            "基因组序列建模",
+            "RNA修饰预测",
+            "令牌剪枝"
+          ],
+          "llm_publication_types_zh": [
+            "期刊文章"
+          ],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 5,
+          "is_new_to_state": true,
+          "primary_summary": "由于基因组序列的长度极长、冗余度极高，且需要具备生物学意义，因此对这类序列进行建模仍然是一项具有挑战性的任务。尽管基于Transformer的架构在基因组分析领域取得了优异的性能，但其高昂的计算成本以及对固定分词策略的依赖限制了其可扩展性，也使其难以有效聚焦于那些具有生物学意义的区域。\n我们提出了ATSFormer这一基于Transformer的框架，该框架通过采用一种自适应的分词机制来高效地对基因组序列进行建模，并确保这些模型具备生物学意义。ATSFormer在Transformer层中融入了“注意力引导下的自适应分词”模块：该模块会根据注意力计算得出的重要性得分，动态地保留那些包含关键信息的序列片段，同时随机丢弃冗余部分。这样一来，既能有效缩短序列长度、降低计算资源消耗及内存占用，又无需添加额外的可学习参数或复杂的训练流程。更重要的是，被保留下来的序列片段恰恰是影响模型预测结果的关键因素，这使得ATSFormer能够准确识别出具有生物学意义的位点及序列模式。\n\n我们在四个基于RMVar 2.0建立的RNA修饰数据集上对ATSFormer进行了测试，这些数据集涵盖了A-to-I、m1A、m5C和m7G等类型的RNA修饰类型。实验结果表明，ATSFormer在性能上明显优于现有的最先进方法，同时还能显著降低计算成本。此外，使用AlphaFold3进行的结构分析进一步证实了ATSFormer所识别出的序列模式确实具有生物学意义。\n\n开源与实现\n相关源代码及数据已免费发布在GitHub（https://github.com/1gao2/ATSFormer）和Zenodo（https://doi.org/10.5281/zenodo.21813541）平台上，欢迎大家查阅和使用。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Modelling long genomic sequences remains challenging due to extreme sequence length, high redundancy, and the need for biological interpretability. Although Transformer-based architectures have achieved strong performance across genomic tasks, their high computational cost and reliance on fixed tokenization strategies limit their scalability and ability to focus on biologically informative regions. Results We propose ATSFormer, a token-pruning Transformer framework for efficient and biologically informed genomic sequence modelling. ATSFormer incorporates an attention-guided and parameter-free Adaptive Token Sampling (ATS) module into Transformer layers. Guided by attention-derived importance scores, ATS dynamically retains informative tokens while probabilistically discarding redundant ones, thereby reducing sequence length, FLOPs, and memory usage without introducing additional learnable parameters or extra training procedures. Importantly, the retained tokens correspond to key contributors to model predictions, enabling ATSFormer to highlight biologically meaningful sites and sequence motifs. We evaluated ATSFormer on four benchmark RNA modification datasets derived from RMVar 2.0, covering A-to-I, m1A, m5C, and m7G. Experimental results show that ATSFormer consistently outperforms existing state-of-the-art methods while achieving substantial computational savings. Furthermore, structural analysis using AlphaFold3 supports the biological relevance of the motifs identified by ATSFormer.",
+          "primary_summary_zh": "**摘要**  \n由于基因组序列的长度极长、冗余度极高，且需要具备生物学意义，因此对这类序列进行建模仍然是一项具有挑战性的任务。尽管基于Transformer的架构在基因组分析领域取得了优异的性能，但其高昂的计算成本以及对固定分词策略的依赖限制了其可扩展性，也使其难以有效聚焦于那些具有生物学意义的区域。  \n\n**研究结果**  \n我们提出了ATSFormer这一基于Transformer的框架，该框架通过采用一种自适应的分词机制来高效地对基因组序列进行建模，并确保这些模型具备生物学意义。ATSFormer在Transformer层中融入了“注意力引导下的自适应分词”模块：该模块会根据注意力计算得出的重要性得分，动态地保留那些包含关键信息的序列片段，同时随机丢弃冗余部分。这样一来，既能有效缩短序列长度、降低计算资源消耗及内存占用，又无需添加额外的可学习参数或复杂的训练流程。更重要的是，被保留下来的序列片段恰恰是影响模型预测结果的关键因素，这使得ATSFormer能够准确识别出具有生物学意义的位点及序列模式。  \n\n我们在四个基于RMVar 2.0建立的RNA修饰数据集上对ATSFormer进行了测试，这些数据集涵盖了A-to-I、m1A、m5C和m7G等类型的RNA修饰类型。实验结果表明，ATSFormer在性能上明显优于现有的最先进方法，同时还能显著降低计算成本。此外，使用AlphaFold3进行的结构分析进一步证实了ATSFormer所识别出的序列模式确实具有生物学意义。  \n\n**开源与实现**  \n相关源代码及数据已免费发布在GitHub（https://github.com/1gao2/ATSFormer）和Zenodo（https://doi.org/10.5281/zenodo.21813541）平台上，欢迎大家查阅和使用。"
+        }
+      ]
+    },
+    {
+      "journal": "Nature Protocols",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nprot/",
+      "feed_urls": [
+        "https://www.nature.com/nprot/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nprot/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nprot.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 1"
+      ],
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Salt-assisted synthesis of high phase-purity metastable 1T′-phase group VIB transition metal dichalcogenides",
+          "link": "https://www.nature.com/articles/s41596-026-01429-8",
+          "published_at": "2026-09-01T08:00:00+08:00",
+          "published_date": "2026-09-01",
+          "summary": "The physicochemical properties of transition metal dichalcogenides strongly depend on their crystal phases. This Protocol describes a salt-assisted synthesis of metastable 1T′-transition metal dichalcogenide crystals with high crystalline quality and high phase purity",
+          "authors": [
+            "Wei Zhai",
+            "Zhenyu Shi",
+            "Rui Tao",
+            "Zijian Li",
+            "Dan Dong",
+            "Jiabei Tang",
+            "Wenbin Wang",
+            "Lixin Wang",
+            "Hua Yang",
+            "Li Zhai",
+            "Xinyang Ruan",
+            "Yuxuan Wu",
+            "Jie Wang",
+            "Yao Yao",
+            "Chen Zhao",
+            "Qiyuan He",
+            "Zhuangchai Lai",
+            "Hua Zhang"
+          ],
+          "doi": "10.1038/s41596-026-01429-8",
+          "journal": "Nature Protocols",
+          "source_feed": "https://www.nature.com/nprot.rss",
+          "entry_id": "doi:10.1038/s41596-026-01429-8",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "利用盐辅助技术合成高相纯度、亚稳态的1T′相VIB族过渡金属二硫属化合物",
+          "llm_title_bilingual": "利用盐辅助技术合成高相纯度、亚稳态的1T′相VIB族过渡金属二硫属化合物 / Salt-assisted synthesis of high phase-purity metastable 1T′-phase group VIB transition metal dichalcogenides",
+          "llm_research_question_zh": "过渡金属二硫属化物的物理化学性质在很大程度上取决于其晶体结构。",
+          "llm_highlights_zh": [
+            "本方案描述了一种利用盐类辅助剂来合成具有高晶体质量与高相纯度的亚稳态1T′型过渡金属二硫属化合物晶体的方法。",
+            "利用盐辅助技术合成高相纯度的亚稳态1T′相VIB族过渡金属二硫属化合物",
+            "过渡金属二硫属化物的物理化学性质在很大程度上取决于其晶体结构。"
+          ],
+          "llm_rss_summary_zh": "过渡金属二硫属化物的物理化学性质在很大程度上取决于其晶体形态。本实验方案描述了一种利用盐类辅助剂来合成具有高结晶质量与高相纯度的亚稳态1T′型过渡金属二硫属化物晶体的方法。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "过渡金属二硫属化物的物理化学性质在很大程度上取决于其晶体形态。本实验方案描述了一种利用盐类辅助剂来合成具有高结晶质量与高相纯度的亚稳态1T′型过渡金属二硫属化物晶体的方法。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "The physicochemical properties of transition metal dichalcogenides strongly depend on their crystal phases. This Protocol describes a salt-assisted synthesis of metastable 1T′-transition metal dichalcogenide crystals with high crystalline quality and high phase purity",
+          "primary_summary_zh": "过渡金属二硫属化物的物理化学性质在很大程度上取决于其晶体形态。本实验方案描述了一种利用盐类辅助剂来合成具有高结晶质量与高相纯度的亚稳态1T′型过渡金属二硫属化物晶体的方法。"
+        }
+      ]
+    },
+    {
+      "journal": "Nature methods",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nmeth/",
+      "feed_urls": [
+        "https://www.nature.com/nmeth/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nmeth/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nmeth.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [],
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Spatial chromatin architecture and accessibility co-profiling of mammalian tissues",
+          "link": "https://www.nature.com/articles/s41592-026-03217-4",
+          "published_at": "2026-09-01T08:00:00+08:00",
+          "published_date": "2026-09-01",
+          "summary": "Spatial-ATAC-Hi-C enables the profiling of both chromatin accessibility and organization in a spatially resolved manner, as demonstrated on mouse brain and human glioblastoma and astrocytoma samples",
+          "authors": [
+            "Ping Wang",
+            "Juan Wang",
+            "Qixuan Wang",
+            "Mark W. Youngblood",
+            "Yang Cheng",
+            "Bo Tao",
+            "Josiah Hiu-Yuen Wong",
+            "Yu Luan",
+            "Shaojun Yu",
+            "Alok Swaroop",
+            "Khizar R. Nandoliya",
+            "Hinda Najem",
+            "Yihao Fu",
+            "Kathleen McCortney",
+            "Di Zhang",
+            "Yarui Diao",
+            "Amy B. Heimberger",
+            "Adam M. Sonabend",
+            "Craig M. Horbinski",
+            "Rong Fan",
+            "Feng Yue"
+          ],
+          "doi": "10.1038/s41592-026-03217-4",
+          "journal": "Nature methods",
+          "source_feed": "https://www.nature.com/nmeth.rss",
+          "entry_id": "doi:10.1038/s41592-026-03217-4",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "哺乳动物组织中的空间染色质结构与可及性联合分析",
+          "llm_title_bilingual": "哺乳动物组织中的空间染色质结构与可及性联合分析 / Spatial chromatin architecture and accessibility co-profiling of mammalian tissues",
+          "llm_research_question_zh": "Spatial-ATAC-Hi-C技术能够以空间分辨的方式分析染色质的可及性及其组织结构，这一能力已在小鼠大脑以及人类胶质母细胞瘤和星形胶质细胞瘤样本中得到了验证。",
+          "llm_highlights_zh": [
+            "哺乳动物组织中的空间染色质结构与可及性联合分析",
+            "Spatial-ATAC-Hi-C技术能够以空间分辨的方式分析染色质的可及性及其组织结构，这一能力已在小鼠大脑以及人类胶质母细胞瘤和星形胶质细胞瘤样本中得到了验证。"
+          ],
+          "llm_rss_summary_zh": "Spatial-ATAC-Hi-C技术能够以空间分辨的方式分析染色质的可及性及其组织结构，这一能力已在小鼠大脑以及人类胶质母细胞瘤和星形胶质细胞瘤样本中得到了验证。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "Spatial-ATAC-Hi-C技术能够以空间分辨的方式分析染色质的可及性及其组织结构，这一能力已在小鼠大脑以及人类胶质母细胞瘤和星形胶质细胞瘤样本中得到了验证。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Spatial-ATAC-Hi-C enables the profiling of both chromatin accessibility and organization in a spatially resolved manner, as demonstrated on mouse brain and human glioblastoma and astrocytoma samples",
+          "primary_summary_zh": "Spatial-ATAC-Hi-C技术能够以空间分辨的方式分析染色质的可及性及其组织结构，这一能力已在小鼠大脑以及人类胶质母细胞瘤和星形胶质细胞瘤样本中得到了验证。"
+        }
+      ]
+    }
+  ],
+  "all_papers": [
+    {
+      "title": "A Token-Pruning Framework Enables Efficient Representation of the Human Genome for RNA Modification Analysis",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag621/8778546?rss=1",
+      "published_at": "2026-09-01T08:00:00+08:00",
+      "published_date": "2026-09-01",
+      "summary": "Abstract Motivation Modelling long genomic sequences remains challenging due to extreme sequence length, high redundancy, and the need for biological interpretability. Although Transformer-based architectures have achieved strong performance across genomic tasks, their high computational cost and reliance on fixed tokenization strategies limit their scalability and ability to focus on biologically informative regions. Results We propose ATSFormer, a token-pruning Transformer framework for efficient and biologically informed genomic sequence modelling. ATSFormer incorporates an attention-guided and parameter-free Adaptive Token Sampling (ATS) module into Transformer layers. Guided by attention-derived importance scores, ATS dynamically retains informative tokens while probabilistically discarding redundant ones, thereby reducing sequence length, FLOPs, and memory usage without introducing additional learnable parameters or extra training procedures. Importantly, the retained tokens correspond to key contributors to model predictions, enabling ATSFormer to highlight biologically meaningful sites and sequence motifs. We evaluated ATSFormer on four benchmark RNA modification datasets derived from RMVar 2.0, covering A-to-I, m1A, m5C, and m7G. Experimental results show that ATSFormer consistently outperforms existing state-of-the-art methods while achieving substantial computational savings. Furthermore, structural analysis using AlphaFold3 supports the biological relevance of the motifs identified by ATSFormer. Availability and implementation The source data and code are freely available at GitHub ( https://github.com/1gao2/ATSFormer ) and Zenodo ( https://doi.org/10.5281/zenodo.21813541 )",
+      "authors": [
+        "Wenjia Gao",
+        "Junlei Yu",
+        "Junru Jin",
+        "Jiajie Cai",
+        "Ke Qiu",
+        "Shun Zhang",
+        "Jianbo Qiao",
+        "Leyi Wei"
+      ],
+      "doi": "10.1093/bioinformatics/btag621",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag621",
+      "pmid": "42678364",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42678364/",
+      "abstract": "MOTIVATION: Modelling long genomic sequences remains challenging due to extreme sequence length, high redundancy, and the need for biological interpretability. Although Transformer-based architectures have achieved strong performance across genomic tasks, their high computational cost and reliance on fixed tokenization strategies limit their scalability and ability to focus on biologically informative regions.\n\nRESULTS: We propose ATSFormer, a token-pruning Transformer framework for efficient and biologically informed genomic sequence modelling. ATSFormer incorporates an attention-guided and parameter-free Adaptive Token Sampling (ATS) module into Transformer layers. Guided by attention-derived importance scores, ATS dynamically retains informative tokens while probabilistically discarding redundant ones, thereby reducing sequence length, FLOPs, and memory usage without introducing additional learnable parameters or extra training procedures. Importantly, the retained tokens correspond to key contributors to model predictions, enabling ATSFormer to highlight biologically meaningful sites and sequence motifs. We evaluated ATSFormer on four benchmark RNA modification datasets derived from RMVar 2.0, covering A-to-I, m1A, m5C, and m7G. Experimental results show that ATSFormer consistently outperforms existing state-of-the-art methods while achieving substantial computational savings. Furthermore, structural analysis using AlphaFold3 supports the biological relevance of the motifs identified by ATSFormer.\n\nAVAILABILITY AND IMPLEMENTATION: The source data and code are freely available at GitHub (https://github.com/1gao2/ATSFormer) and Zenodo (https://doi.org/10.5281/zenodo.21813541).",
+      "affiliations": [
+        "School of Software, Shandong University, Jinan, China.",
+        "Engineering Research Centre of Applied Technology on Machine Translation and Artificial Intelligence, Macao Polytechnic University, Macao SAR, China.",
+        "Joint SDU-NTU Centre for Artificial Intelligence Research (C-FAIR), Shandong University, Jinan, China."
+      ],
+      "mesh_terms": [],
+      "paper_keywords": [
+        "Adaptive token sampling",
+        "Deep learning",
+        "Genomic sequence modeling",
+        "RNA modification prediction",
+        "Token pruning"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_journal": "Bioinformatics (Oxford, England)",
+      "pubmed_publication_date": "2026-09-01",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "success",
+      "pubmed_warning": "",
+      "llm_title_zh": "一种基于标记剪枝的框架能够高效地表示人类基因组，从而便于进行RNA修饰分析。",
+      "llm_title_bilingual": "一种基于标记剪枝的框架能够高效地表示人类基因组，从而便于进行RNA修饰分析。 / A Token-Pruning Framework Enables Efficient Representation of the Human Genome for RNA Modification Analysis",
+      "llm_research_question_zh": "动机：由于基因组序列长度极长、冗余度极高，且需要具备生物学意义上的解释性，因此对这类序列进行建模仍然是一项具有挑战性的任务。",
+      "llm_highlights_zh": [
+        "尽管基于Transformer的架构在基因组相关任务中表现优异，但其高昂的计算成本以及对固定分词策略的依赖限制了其可扩展性，也使其难以有效聚焦于那些具有生物学意义的区域。",
+        "结果：我们提出了ATSFormer这一基于令牌剪裁的Transformer框架，该框架能够高效地进行基因组序列建模，并且其设计理念充分考虑了生物学规律。",
+        "ATSFormer将一种基于注意力机制、无需任何参数的自适应令牌采样技术整合到了Transformer层中。"
+      ],
+      "llm_rss_summary_zh": "**摘要**  \n由于基因组序列的长度极长、冗余度极高，且需要具备生物学意义，因此对这类序列进行建模仍然是一项具有挑战性的任务。尽管基于Transformer的架构在基因组分析领域取得了优异的性能，但其高昂的计算成本以及对固定分词策略的依赖限制了其可扩展性，也使其难以有效聚焦于那些具有生物学意义的区域。  \n\n**研究结果**  \n我们提出了ATSFormer这一基于Transformer的框架，该框架通过采用一种自适应的分词机制来高效地对基因组序列进行建模，并确保这些模型具备生物学意义。ATSFormer在Transformer层中融入了“注意力引导下的自适应分词”模块：该模块会根据注意力计算得出的重要性得分，动态地保留那些包含关键信息的序列片段，同时随机丢弃冗余部分。这样一来，既能有效缩短序列长度、降低计算资源消耗及内存占用，又无需添加额外的可学习参数或复杂的训练流程。更重要的是，被保留下来的序列片段恰恰是影响模型预测结果的关键因素，这使得ATSFormer能够准确识别出具有生物学意义的位点及序列模式。  \n\n我们在四个基于RMVar 2.0建立的RNA修饰数据集上对ATSFormer进行了测试，这些数据集涵盖了A-to-I、m1A、m5C和m7G等类型的RNA修饰类型。实验结果表明，ATSFormer在性能上明显优于现有的最先进方法，同时还能显著降低计算成本。此外，使用AlphaFold3进行的结构分析进一步证实了ATSFormer所识别出的序列模式确实具有生物学意义。  \n\n**开源与实现**  \n相关源代码及数据已免费发布在GitHub（https://github.com/1gao2/ATSFormer）和Zenodo（https://doi.org/10.5281/zenodo.21813541）平台上，欢迎大家查阅和使用。",
+      "llm_pubmed_abstract_zh": "**动机**：由于基因组序列的长度极长、冗余度极高，且需要具备生物学意义，因此对这类序列进行建模仍然面临诸多挑战。尽管基于Transformer的架构在基因组分析任务中取得了优异的性能，但其高昂的计算成本以及对固定分词策略的依赖限制了其可扩展性，也使其难以有效聚焦于具有生物学意义的区域。  \n\n**结果**：我们提出了ATSFormer这一基于Transformer的框架，该框架通过采用自适应分词机制来高效地对基因组序列进行建模，并确保这些模型具备生物学意义。ATSFormer在Transformer层中融入了一个基于注意力机制的无参数自适应分词模块——该模块会根据各字符的重要性得分动态保留有信息量的字符，同时随机丢弃冗余字符，从而有效缩短序列长度、降低计算资源消耗及内存占用，且无需添加额外的可学习参数或训练流程。值得注意的是，被保留下来的字符正是影响模型预测结果的关键因素，这使得ATSFormer能够准确识别出具有生物学意义的序列区域与结构模式。我们在来自RMVar 2.0的四个RNA修饰数据集上对ATSFormer进行了测试，这些数据集涵盖了A-to-I、m1A、m5C和m7G四种修饰类型。实验结果表明，ATSFormer在性能上显著优于现有的先进方法，同时还能大幅降低计算成本；此外，使用AlphaFold3进行的结构分析进一步验证了ATSFormer所识别出的序列模式的生物学相关性。  \n\n**开源与实现**：相关源代码及数据已免费发布在GitHub（https://github.com/1gao2/ATSFormer）和Zenodo（https://doi.org/10.5281/zenodo.21813541）平台上。",
+      "llm_paper_keywords_zh": [
+        "自适应令牌采样",
+        "深度学习",
+        "基因组序列建模",
+        "RNA修饰预测",
+        "令牌剪枝"
+      ],
+      "llm_publication_types_zh": [
+        "期刊文章"
+      ],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 5,
+      "is_new_to_state": true,
+      "primary_summary": "由于基因组序列的长度极长、冗余度极高，且需要具备生物学意义，因此对这类序列进行建模仍然是一项具有挑战性的任务。尽管基于Transformer的架构在基因组分析领域取得了优异的性能，但其高昂的计算成本以及对固定分词策略的依赖限制了其可扩展性，也使其难以有效聚焦于那些具有生物学意义的区域。\n我们提出了ATSFormer这一基于Transformer的框架，该框架通过采用一种自适应的分词机制来高效地对基因组序列进行建模，并确保这些模型具备生物学意义。ATSFormer在Transformer层中融入了“注意力引导下的自适应分词”模块：该模块会根据注意力计算得出的重要性得分，动态地保留那些包含关键信息的序列片段，同时随机丢弃冗余部分。这样一来，既能有效缩短序列长度、降低计算资源消耗及内存占用，又无需添加额外的可学习参数或复杂的训练流程。更重要的是，被保留下来的序列片段恰恰是影响模型预测结果的关键因素，这使得ATSFormer能够准确识别出具有生物学意义的位点及序列模式。\n\n我们在四个基于RMVar 2.0建立的RNA修饰数据集上对ATSFormer进行了测试，这些数据集涵盖了A-to-I、m1A、m5C和m7G等类型的RNA修饰类型。实验结果表明，ATSFormer在性能上明显优于现有的最先进方法，同时还能显著降低计算成本。此外，使用AlphaFold3进行的结构分析进一步证实了ATSFormer所识别出的序列模式确实具有生物学意义。\n\n开源与实现\n相关源代码及数据已免费发布在GitHub（https://github.com/1gao2/ATSFormer）和Zenodo（https://doi.org/10.5281/zenodo.21813541）平台上，欢迎大家查阅和使用。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Modelling long genomic sequences remains challenging due to extreme sequence length, high redundancy, and the need for biological interpretability. Although Transformer-based architectures have achieved strong performance across genomic tasks, their high computational cost and reliance on fixed tokenization strategies limit their scalability and ability to focus on biologically informative regions. Results We propose ATSFormer, a token-pruning Transformer framework for efficient and biologically informed genomic sequence modelling. ATSFormer incorporates an attention-guided and parameter-free Adaptive Token Sampling (ATS) module into Transformer layers. Guided by attention-derived importance scores, ATS dynamically retains informative tokens while probabilistically discarding redundant ones, thereby reducing sequence length, FLOPs, and memory usage without introducing additional learnable parameters or extra training procedures. Importantly, the retained tokens correspond to key contributors to model predictions, enabling ATSFormer to highlight biologically meaningful sites and sequence motifs. We evaluated ATSFormer on four benchmark RNA modification datasets derived from RMVar 2.0, covering A-to-I, m1A, m5C, and m7G. Experimental results show that ATSFormer consistently outperforms existing state-of-the-art methods while achieving substantial computational savings. Furthermore, structural analysis using AlphaFold3 supports the biological relevance of the motifs identified by ATSFormer.",
+      "primary_summary_zh": "**摘要**  \n由于基因组序列的长度极长、冗余度极高，且需要具备生物学意义，因此对这类序列进行建模仍然是一项具有挑战性的任务。尽管基于Transformer的架构在基因组分析领域取得了优异的性能，但其高昂的计算成本以及对固定分词策略的依赖限制了其可扩展性，也使其难以有效聚焦于那些具有生物学意义的区域。  \n\n**研究结果**  \n我们提出了ATSFormer这一基于Transformer的框架，该框架通过采用一种自适应的分词机制来高效地对基因组序列进行建模，并确保这些模型具备生物学意义。ATSFormer在Transformer层中融入了“注意力引导下的自适应分词”模块：该模块会根据注意力计算得出的重要性得分，动态地保留那些包含关键信息的序列片段，同时随机丢弃冗余部分。这样一来，既能有效缩短序列长度、降低计算资源消耗及内存占用，又无需添加额外的可学习参数或复杂的训练流程。更重要的是，被保留下来的序列片段恰恰是影响模型预测结果的关键因素，这使得ATSFormer能够准确识别出具有生物学意义的位点及序列模式。  \n\n我们在四个基于RMVar 2.0建立的RNA修饰数据集上对ATSFormer进行了测试，这些数据集涵盖了A-to-I、m1A、m5C和m7G等类型的RNA修饰类型。实验结果表明，ATSFormer在性能上明显优于现有的最先进方法，同时还能显著降低计算成本。此外，使用AlphaFold3进行的结构分析进一步证实了ATSFormer所识别出的序列模式确实具有生物学意义。  \n\n**开源与实现**  \n相关源代码及数据已免费发布在GitHub（https://github.com/1gao2/ATSFormer）和Zenodo（https://doi.org/10.5281/zenodo.21813541）平台上，欢迎大家查阅和使用。"
+    },
+    {
+      "title": "Spatial chromatin architecture and accessibility co-profiling of mammalian tissues",
+      "link": "https://www.nature.com/articles/s41592-026-03217-4",
+      "published_at": "2026-09-01T08:00:00+08:00",
+      "published_date": "2026-09-01",
+      "summary": "Spatial-ATAC-Hi-C enables the profiling of both chromatin accessibility and organization in a spatially resolved manner, as demonstrated on mouse brain and human glioblastoma and astrocytoma samples",
+      "authors": [
+        "Ping Wang",
+        "Juan Wang",
+        "Qixuan Wang",
+        "Mark W. Youngblood",
+        "Yang Cheng",
+        "Bo Tao",
+        "Josiah Hiu-Yuen Wong",
+        "Yu Luan",
+        "Shaojun Yu",
+        "Alok Swaroop",
+        "Khizar R. Nandoliya",
+        "Hinda Najem",
+        "Yihao Fu",
+        "Kathleen McCortney",
+        "Di Zhang",
+        "Yarui Diao",
+        "Amy B. Heimberger",
+        "Adam M. Sonabend",
+        "Craig M. Horbinski",
+        "Rong Fan",
+        "Feng Yue"
+      ],
+      "doi": "10.1038/s41592-026-03217-4",
+      "journal": "Nature methods",
+      "source_feed": "https://www.nature.com/nmeth.rss",
+      "entry_id": "doi:10.1038/s41592-026-03217-4",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "哺乳动物组织中的空间染色质结构与可及性联合分析",
+      "llm_title_bilingual": "哺乳动物组织中的空间染色质结构与可及性联合分析 / Spatial chromatin architecture and accessibility co-profiling of mammalian tissues",
+      "llm_research_question_zh": "Spatial-ATAC-Hi-C技术能够以空间分辨的方式分析染色质的可及性及其组织结构，这一能力已在小鼠大脑以及人类胶质母细胞瘤和星形胶质细胞瘤样本中得到了验证。",
+      "llm_highlights_zh": [
+        "哺乳动物组织中的空间染色质结构与可及性联合分析",
+        "Spatial-ATAC-Hi-C技术能够以空间分辨的方式分析染色质的可及性及其组织结构，这一能力已在小鼠大脑以及人类胶质母细胞瘤和星形胶质细胞瘤样本中得到了验证。"
+      ],
+      "llm_rss_summary_zh": "Spatial-ATAC-Hi-C技术能够以空间分辨的方式分析染色质的可及性及其组织结构，这一能力已在小鼠大脑以及人类胶质母细胞瘤和星形胶质细胞瘤样本中得到了验证。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "Spatial-ATAC-Hi-C技术能够以空间分辨的方式分析染色质的可及性及其组织结构，这一能力已在小鼠大脑以及人类胶质母细胞瘤和星形胶质细胞瘤样本中得到了验证。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Spatial-ATAC-Hi-C enables the profiling of both chromatin accessibility and organization in a spatially resolved manner, as demonstrated on mouse brain and human glioblastoma and astrocytoma samples",
+      "primary_summary_zh": "Spatial-ATAC-Hi-C技术能够以空间分辨的方式分析染色质的可及性及其组织结构，这一能力已在小鼠大脑以及人类胶质母细胞瘤和星形胶质细胞瘤样本中得到了验证。"
+    },
+    {
+      "title": "Salt-assisted synthesis of high phase-purity metastable 1T′-phase group VIB transition metal dichalcogenides",
+      "link": "https://www.nature.com/articles/s41596-026-01429-8",
+      "published_at": "2026-09-01T08:00:00+08:00",
+      "published_date": "2026-09-01",
+      "summary": "The physicochemical properties of transition metal dichalcogenides strongly depend on their crystal phases. This Protocol describes a salt-assisted synthesis of metastable 1T′-transition metal dichalcogenide crystals with high crystalline quality and high phase purity",
+      "authors": [
+        "Wei Zhai",
+        "Zhenyu Shi",
+        "Rui Tao",
+        "Zijian Li",
+        "Dan Dong",
+        "Jiabei Tang",
+        "Wenbin Wang",
+        "Lixin Wang",
+        "Hua Yang",
+        "Li Zhai",
+        "Xinyang Ruan",
+        "Yuxuan Wu",
+        "Jie Wang",
+        "Yao Yao",
+        "Chen Zhao",
+        "Qiyuan He",
+        "Zhuangchai Lai",
+        "Hua Zhang"
+      ],
+      "doi": "10.1038/s41596-026-01429-8",
+      "journal": "Nature Protocols",
+      "source_feed": "https://www.nature.com/nprot.rss",
+      "entry_id": "doi:10.1038/s41596-026-01429-8",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "利用盐辅助技术合成高相纯度、亚稳态的1T′相VIB族过渡金属二硫属化合物",
+      "llm_title_bilingual": "利用盐辅助技术合成高相纯度、亚稳态的1T′相VIB族过渡金属二硫属化合物 / Salt-assisted synthesis of high phase-purity metastable 1T′-phase group VIB transition metal dichalcogenides",
+      "llm_research_question_zh": "过渡金属二硫属化物的物理化学性质在很大程度上取决于其晶体结构。",
+      "llm_highlights_zh": [
+        "本方案描述了一种利用盐类辅助剂来合成具有高晶体质量与高相纯度的亚稳态1T′型过渡金属二硫属化合物晶体的方法。",
+        "利用盐辅助技术合成高相纯度的亚稳态1T′相VIB族过渡金属二硫属化合物",
+        "过渡金属二硫属化物的物理化学性质在很大程度上取决于其晶体结构。"
+      ],
+      "llm_rss_summary_zh": "过渡金属二硫属化物的物理化学性质在很大程度上取决于其晶体形态。本实验方案描述了一种利用盐类辅助剂来合成具有高结晶质量与高相纯度的亚稳态1T′型过渡金属二硫属化物晶体的方法。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "过渡金属二硫属化物的物理化学性质在很大程度上取决于其晶体形态。本实验方案描述了一种利用盐类辅助剂来合成具有高结晶质量与高相纯度的亚稳态1T′型过渡金属二硫属化物晶体的方法。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "The physicochemical properties of transition metal dichalcogenides strongly depend on their crystal phases. This Protocol describes a salt-assisted synthesis of metastable 1T′-transition metal dichalcogenide crystals with high crystalline quality and high phase purity",
+      "primary_summary_zh": "过渡金属二硫属化物的物理化学性质在很大程度上取决于其晶体形态。本实验方案描述了一种利用盐类辅助剂来合成具有高结晶质量与高相纯度的亚稳态1T′型过渡金属二硫属化物晶体的方法。"
+    },
+    {
+      "title": "Natural killers blast HIV reservoir landscape",
+      "link": "https://www.nature.com/articles/s41590-026-02635-y",
+      "published_at": "2026-09-01T08:00:00+08:00",
+      "published_date": "2026-09-01",
+      "summary": "Natural killer (NK) cells leave distinct footprints on the HIV reservoir, leading to a smaller HIV reservoir size in individuals carrying the HLA-C2 allele. HIV escapes NK cell-mediated immunity through mutations in the viral proteins Vpu, Gag and Env",
+      "authors": [
+        "Daniel A. Armendariz",
+        "Valter Silva Monteiro",
+        "Ya-Chi Ho"
+      ],
+      "doi": "10.1038/s41590-026-02635-y",
+      "journal": "Nature Immunology",
+      "source_feed": "https://www.nature.com/ni.rss",
+      "entry_id": "doi:10.1038/s41590-026-02635-y",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "自然杀伤细胞会清除HIV潜伏感染的宿主细胞。",
+      "llm_title_bilingual": "自然杀伤细胞会清除HIV潜伏感染的宿主细胞。 / Natural killers blast HIV reservoir landscape",
+      "llm_research_question_zh": "自然杀伤细胞会在HIV病毒库中留下明显的痕迹，因此携带HLA-C2等位基因的个体的HIV病毒库规模会较小。",
+      "llm_highlights_zh": [
+        "HIV通过其病毒蛋白Vpu、Gag和Env中的突变，从而逃避了由NK细胞介导的免疫反应。",
+        "自然杀伤细胞会清除HIV潜伏感染的宿主细胞。",
+        "自然杀伤细胞会在HIV病毒库中留下明显的痕迹，因此携带HLA-C2等位基因的个体的HIV病毒库规模会较小。"
+      ],
+      "llm_rss_summary_zh": "自然杀伤细胞会在HIV病毒库中留下明显的“痕迹”，因此携带HLA-C2等位基因的个体的HIV病毒库规模会较小。HIV病毒通过其Vpu、Gag和Env蛋白中的突变，能够逃避自然杀伤细胞所介导的免疫反应。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "自然杀伤细胞会在HIV病毒库中留下明显的“痕迹”，因此携带HLA-C2等位基因的个体的HIV病毒库规模会较小。HIV病毒通过其Vpu、Gag和Env蛋白中的突变，能够逃避自然杀伤细胞所介导的免疫反应。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Natural killer (NK) cells leave distinct footprints on the HIV reservoir, leading to a smaller HIV reservoir size in individuals carrying the HLA-C2 allele. HIV escapes NK cell-mediated immunity through mutations in the viral proteins Vpu, Gag and Env",
+      "primary_summary_zh": "自然杀伤细胞会在HIV病毒库中留下明显的“痕迹”，因此携带HLA-C2等位基因的个体的HIV病毒库规模会较小。HIV病毒通过其Vpu、Gag和Env蛋白中的突变，能够逃避自然杀伤细胞所介导的免疫反应。"
+    },
+    {
+      "title": "Innate immune imprints shape HIV-1 reservoir cell persistence during long-term antiretroviral therapy",
+      "link": "https://www.nature.com/articles/s41590-026-02637-w",
+      "published_at": "2026-09-01T08:00:00+08:00",
+      "published_date": "2026-09-01",
+      "summary": "HIV reservoir cells are traditionally considered invisible to host immune responses due to viral latency. This work challenges this view by demonstrating that HIV persistence during long-term antiretroviral therapy is strongly influenced by KIR2DL1-educated NK cells",
+      "authors": [
+        "Toong Seng Tan",
+        "WeiWei Sun",
+        "Ce Gao",
+        "Mathias Viard",
+        "Lucy C. Walters",
+        "Melanie Lancien",
+        "Yuko Yuki",
+        "Tram N. Van",
+        "Carlos Casquero",
+        "Xuan Guo",
+        "Rebecca Hoh",
+        "David W. Haas",
+        "Nelson Michael",
+        "Gregory D. Kirk",
+        "George Yendewa",
+        "Rajesh T. Gandhi",
+        "Seble G. Kassaye",
+        "Phyllis C. Tien",
+        "Bruce D. Walker",
+        "Michael J. Peluso",
+        "Jeffrey M. Jacobson",
+        "Steven G. Deeks",
+        "Mary Carrington",
+        "Xu G. Yu",
+        "Mathias Lichterfeld"
+      ],
+      "doi": "10.1038/s41590-026-02637-w",
+      "journal": "Nature Immunology",
+      "source_feed": "https://www.nature.com/ni.rss",
+      "entry_id": "doi:10.1038/s41590-026-02637-w",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "先天免疫机制在长期抗逆转录病毒治疗过程中决定了HIV-1潜伏细胞的持续存在。",
+      "llm_title_bilingual": "先天免疫机制在长期抗逆转录病毒治疗过程中决定了HIV-1潜伏细胞的持续存在。 / Innate immune imprints shape HIV-1 reservoir cell persistence during long-term antiretroviral therapy",
+      "llm_research_question_zh": "传统上认为，由于病毒的潜伏状态，HIV潜伏细胞能够逃避宿主免疫系统的攻击。",
+      "llm_highlights_zh": [
+        "这项研究通过实验证明，在长期接受抗逆转录病毒治疗的情况下，HIV的持续存在在很大程度上受到KIR2DL1所激活的自然杀伤细胞的影响，从而对这一观点提出了挑战。",
+        "先天免疫机制在长期抗逆转录病毒治疗过程中决定了HIV-1潜伏细胞的持续存在。",
+        "传统上认为，由于病毒的潜伏状态，HIV潜伏细胞能够逃避宿主免疫系统的攻击。"
+      ],
+      "llm_rss_summary_zh": "传统上认为，由于病毒的潜伏状态，HIV储库细胞能够逃避宿主免疫系统的攻击。然而本研究通过实验证明，在长期接受抗逆转录病毒治疗的情况下，HIV的持续存在在很大程度上受到KIR2DL1受体所激活的自然杀伤细胞的影响。这一发现挑战了原有的观点。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "传统上认为，由于病毒的潜伏状态，HIV储库细胞能够逃避宿主免疫系统的攻击。然而本研究通过实验证明，在长期接受抗逆转录病毒治疗的情况下，HIV的持续存在在很大程度上受到KIR2DL1受体所激活的自然杀伤细胞的影响。这一发现挑战了原有的观点。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "HIV reservoir cells are traditionally considered invisible to host immune responses due to viral latency. This work challenges this view by demonstrating that HIV persistence during long-term antiretroviral therapy is strongly influenced by KIR2DL1-educated NK cells",
+      "primary_summary_zh": "传统上认为，由于病毒的潜伏状态，HIV储库细胞能够逃避宿主免疫系统的攻击。然而本研究通过实验证明，在长期接受抗逆转录病毒治疗的情况下，HIV的持续存在在很大程度上受到KIR2DL1受体所激活的自然杀伤细胞的影响。这一发现挑战了原有的观点。"
+    },
+    {
+      "title": "ECHO: a nanopore sequencing-based workflow for (epi)genetic profiling of the human repeatome",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag648/8778545?rss=1",
+      "published_at": "2026-09-01T08:00:00+08:00",
+      "published_date": "2026-09-01",
+      "summary": "Abstract Summary The human genome is dominated by repetitive DNA, whose genetic and epigenetic variation plays a key role in gene regulation, genome stability, and disease. Recent advances in long-read sequencing now enable large-scale, haplotype-resolved, and DNA methylation-informative analysis of the human genome, including on previously inaccessible complex and repetitive regions. However, the comprehensive, simultaneous characterisation of the “human repeatome” remains challenging, largely due to the lack of comprehensive tools integrated in a single pipeline that can capture the full spectrum of variation across diverse types of DNA repeats. Here, we present ECHO, a user-friendly, Snakemake-based pipeline for the “(Epi)genomic Characterisation of Human Repetitive Elements using Oxford Nanopore Sequencing”. ECHO provides a reproducible and scalable framework for end-to-end analysis of whole-genome nanopore sequencing data, enabling integrative but also tailored (epi)genetic analyses of the human repeatome. Availability and Implementation ECHO is freely available at Github: https://github.com/leenput/ECHO-pipeline , with the archived version at Zenodo: https://zenodo.org/records/19068468",
+      "authors": [
+        "Brando Poggiali",
+        "Leena Putzeys",
+        "Jeppe Dyrberg Andersen",
+        "Athina Vidaki"
+      ],
+      "doi": "10.1093/bioinformatics/btag648",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag648",
+      "pmid": "42678358",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42678358/",
+      "abstract": "SUMMARY: The human genome is dominated by repetitive DNA, whose genetic and epigenetic variation plays a key role in gene regulation, genome stability, and disease. Recent advances in long-read sequencing now enable large-scale, haplotype-resolved, and DNA methylation-informative analysis of the human genome, including on previously inaccessible complex and repetitive regions. However, the comprehensive, simultaneous characterisation of the \"human repeatome\" remains challenging, largely due to the lack of comprehensive tools integrated in a single pipeline that can capture the full spectrum of variation across diverse types of DNA repeats. Here, we present ECHO, a user-friendly, Snakemake-based pipeline for the \"(Epi)genomic Characterisation of Human Repetitive Elements using Oxford Nanopore Sequencing\". ECHO provides a reproducible and scalable framework for end-to-end analysis of whole-genome nanopore sequencing data, enabling integrative but also tailored (epi)genetic analyses of the human repeatome.\n\nAVAILABILITY AND IMPLEMENTATION: ECHO is freely available at Github: https://github.com/leenput/ECHO-pipeline, with the archived version at Zenodo: https://zenodo.org/records/19068468.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "affiliations": [
+        "Department of Clinical Genetics, Maastricht University Medical Centre, 6229 HX Maastricht, The Netherlands.",
+        "Section of Forensic Genetics, Department of Forensic Medicine, Faculty of Health and Medical Sciences, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Department of Genetics and Cell Biology, GROW Research Institute, Maastricht University, 6229 HX Maastricht, The Netherlands."
+      ],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_journal": "Bioinformatics (Oxford, England)",
+      "pubmed_publication_date": "2026-09-01",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "success",
+      "pubmed_warning": "",
+      "llm_title_zh": "ECHO：一种基于纳米孔测序技术的人类重复序列组（表观）遗传学分析工作流程",
+      "llm_title_bilingual": "ECHO：一种基于纳米孔测序技术的人类重复序列组（表观）遗传学分析工作流程 / ECHO: a nanopore sequencing-based workflow for (epi)genetic profiling of the human repeatome",
+      "llm_research_question_zh": "摘要：人类基因组中重复DNA所占比例较高，其遗传变异与表观遗传变异在基因调控、基因组稳定性以及疾病发生过程中起着关键作用。",
+      "llm_highlights_zh": [
+        "近期，长读长测序技术取得了显著进展，这使得人们能够对人类基因组进行大规模分析，并准确识别单倍型信息以及DNA甲基化状态，甚至包括那些此前无法被研究的复杂重复区域。",
+        "然而，对“人类重复序列组”进行全面、同步的分析仍然面临诸多挑战，主要原因是目前还缺乏能够整合在单一分析流程中的综合性工具，这些工具才能有效捕捉各种类型DNA重复序列所表现出的全部变异特征。",
+        "在这里，我们介绍了ECHO这一用户友好的工具。它基于Snakemake构建，专门用于利用Oxford Nanopore测序技术对人类重复序列进行“(表)基因组特征分析”。"
+      ],
+      "llm_rss_summary_zh": "摘要：人类基因组中重复DNA占主导地位，其遗传变异与表观遗传变异在基因调控、基因组稳定性及疾病发生中起着关键作用。近年来，长读长测序技术的进步使得人们能够对人类基因组进行大规模分析，包括那些此前难以研究的复杂重复区域。然而，要全面、系统地研究“人类重复序列组”，目前仍面临诸多挑战——主要原因是缺乏能够同时捕捉多种类型重复DNA变异信息的综合性工具。为此，我们开发了ECHO这一基于Snakemake的工具管道，它利用牛津纳米孔测序技术对人类重复序列进行（表）基因组学分析。该工具提供了可复现且可扩展的分析框架，能够实现针对全基因组纳米孔测序数据的全流程分析，从而促进对人类重复序列组的综合研究与个性化分析。ECHO已免费在Github上发布：https://github.com/leenput/ECHO-pipeline，其存档版本也可在Zenodo平台上获取：https://zenodo.org/records/19068468。",
+      "llm_pubmed_abstract_zh": "摘要：人类基因组中重复DNA占主导地位，其遗传变异与表观遗传变异在基因调控、基因组稳定性以及疾病发生机制中起着关键作用。近年来，长读长测序技术的进步使得人们能够对人类基因组进行大规模分析，包括那些此前难以研究的复杂重复区域。然而，要全面系统地研究“人类重复序列组”，目前仍面临诸多挑战，主要原因是缺乏能够同时捕捉多种类型重复DNA变异信息的综合性工具。为此，我们开发了ECHO这一基于Snakemake的工具流程，它采用牛津纳米孔测序技术，为用户提供了便捷、可扩展的解决方案，有助于实现对人类重复序列组的全面而精准的（表观）基因组分析。\n\n获取与使用：ECHO可在Github上免费下载：https://github.com/leenput/ECHO-pipeline，其存档版本也可在Zenodo平台上获取：https://zenodo.org/records/19068468。\n\n补充信息：相关补充数据可在线查阅Bioinformatics数据库。",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [
+        "期刊文章"
+      ],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "人类基因组中重复DNA占主导地位，其遗传变异与表观遗传变异在基因调控、基因组稳定性以及疾病发生机制中起着关键作用。近年来，长读长测序技术的进步使得人们能够对人类基因组进行大规模分析，包括那些此前难以研究的复杂重复区域。然而，要全面系统地研究“人类重复序列组”，目前仍面临诸多挑战，主要原因是缺乏能够同时捕捉多种类型重复DNA变异信息的综合性工具。为此，我们开发了ECHO这一基于Snakemake的工具流程，它采用牛津纳米孔测序技术，为用户提供了便捷、可扩展的解决方案，有助于实现对人类重复序列组的全面而精准的（表观）基因组分析。\n\n获取与使用：ECHO可在Github上免费下载：https://github.com/leenput/ECHO-pipeline，其存档版本也可在Zenodo平台上获取：https://zenodo.org/records/19068468。\n\n补充信息：相关补充数据可在线查阅Bioinformatics数据库。",
+      "primary_summary_source": "pubmed",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "pubmed",
+      "primary_summary_raw": "SUMMARY: The human genome is dominated by repetitive DNA, whose genetic and epigenetic variation plays a key role in gene regulation, genome stability, and disease. Recent advances in long-read sequencing now enable large-scale, haplotype-resolved, and DNA methylation-informative analysis of the human genome, including on previously inaccessible complex and repetitive regions. However, the comprehensive, simultaneous characterisation of the \"human repeatome\" remains challenging, largely due to the lack of comprehensive tools integrated in a single pipeline that can capture the full spectrum of variation across diverse types of DNA repeats. Here, we present ECHO, a user-friendly, Snakemake-based pipeline for the \"(Epi)genomic Characterisation of Human Repetitive Elements using Oxford Nanopore Sequencing\". ECHO provides a reproducible and scalable framework for end-to-end analysis of whole-genome nanopore sequencing data, enabling integrative but also tailored (epi)genetic analyses of the human repeatome.\n\nAVAILABILITY AND IMPLEMENTATION: ECHO is freely available at Github: https://github.com/leenput/ECHO-pipeline, with the archived version at Zenodo: https://zenodo.org/records/19068468.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "primary_summary_zh": "摘要：人类基因组中重复DNA占主导地位，其遗传变异与表观遗传变异在基因调控、基因组稳定性以及疾病发生机制中起着关键作用。近年来，长读长测序技术的进步使得人们能够对人类基因组进行大规模分析，包括那些此前难以研究的复杂重复区域。然而，要全面系统地研究“人类重复序列组”，目前仍面临诸多挑战，主要原因是缺乏能够同时捕捉多种类型重复DNA变异信息的综合性工具。为此，我们开发了ECHO这一基于Snakemake的工具流程，它采用牛津纳米孔测序技术，为用户提供了便捷、可扩展的解决方案，有助于实现对人类重复序列组的全面而精准的（表观）基因组分析。\n\n获取与使用：ECHO可在Github上免费下载：https://github.com/leenput/ECHO-pipeline，其存档版本也可在Zenodo平台上获取：https://zenodo.org/records/19068468。\n\n补充信息：相关补充数据可在线查阅Bioinformatics数据库。"
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}
