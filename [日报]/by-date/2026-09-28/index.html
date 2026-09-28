@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>文献追踪报告</title>
+  <style>
+    body { font-family: Arial, "Microsoft YaHei", sans-serif; line-height: 1.7; margin: 32px; color: #222; }
+    h1, h2, h3 { color: #0f3d6e; }
+    .paper { border: 1px solid #ddd; border-radius: 8px; padding: 12px 16px; margin: 12px 0; background: #fff; }
+    .journal { margin-top: 28px; }
+    .warnings { color: #9a6700; }
+    a { color: #0b63c9; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <h1>文献追踪报告</h1>
+  <ul>
+    <li><strong>时间范围：</strong>2026-09-28 ~ 2026-09-28</li>
+    <li><strong>目标期刊数：</strong>10</li>
+    <li><strong>本周新论文数：</strong>3</li>
+    <li><strong>本周重点文章数：</strong>0</li>
+    <li><strong>关键词：</strong>免疫代谢, 代谢表观调控, 单细胞算法, 单细胞图谱, 流感, HSV, H1N1, 肺损伤, 肺组织修复, 皮肤免疫</li>
+  </ul>
+  <h2>本周重点文章</h2>
+  <p>本周没有命中关键词的重点文章。</p>
+  <h2>分期刊展示（剩余论文）</h2>
+  
+        <section class="journal">
+          <h3>Nature</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Science</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Cell</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Cell metabolism</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Immunity</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Nature Immunology</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Science Immunology</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Bioinformatics</h3>
+          
+    <article class="paper">
+      <h4>ShadoNet：一种用于Ki-67病理图像的细胞检测与分类框架</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-09-28</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>期刊文章</li>
+        <li><strong>关键词：</strong>豪斯多夫距离变换损失函数, Ki-67免疫组化染色, 基于并集的加权交叉损失, 任意分割模型, 细胞分类, 细胞检测</li>
+        <li><strong>研究问题：</strong>对单个细胞进行精确检测与分类，是定量组织病理学研究的基础。</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>在基于Ki-67的肿瘤分级系统中，该具有临床意义的指标是通过计算免疫阳性肿瘤细胞与免疫阴性肿瘤细胞的数量来确定的，同时必须排除非肿瘤细胞的影响。</li><li>这一任务颇具挑战性，因为经过 Ki-67 染色的肿瘤组织中通常包含免疫阳性肿瘤细胞、免疫阴性肿瘤细胞以及非肿瘤细胞等多种类型的细胞。</li><li>在这里，我们研究了如何在经过Ki-67染色的组织病理学图像中检测并分类细胞，以辅助胰腺神经内分泌肿瘤的分级。对于这类肿瘤而言，可靠地识别特定的肿瘤细胞对于分级及决策过程至关重要。</li></ol>
+      <p><strong>摘要：</strong>在定量组织病理学中，对单个细胞进行准确检测与分类至关重要。在基于Ki-67的肿瘤分级系统中，临床相关的评估指标是通过计算免疫阳性及免疫阴性的肿瘤细胞来得出的，同时必须排除非肿瘤细胞。然而这一过程颇具挑战性，因为经过Ki-67染色的肿瘤组织区域通常由免疫阳性肿瘤细胞、免疫阴性肿瘤细胞以及非肿瘤细胞共同构成。因此，我们致力于研究如何在Ki-67染色的组织病理学图像中实现细胞的检测与分类，以便为胰腺神经内分泌肿瘤的分级提供有力支持——在这一领域，可靠地识别肿瘤细胞对于分级判断与治疗决策而言至关重要。
+我们提出了ShadoNet这一基于U-Net结构的编码器-解码器框架，该框架将形状信息与结构化回归技术相结合，用于细胞的检测与分类。ShadoNet能够生成突出显示细胞中心的类别特异性邻近图谱，并通过细胞中心处逐渐减弱的亮度信号，同时编码细胞的空间位置、形态特征及其所属类别。在多个经过Ki-67染色的组织病理学数据集上进行测试后发现，加入形状信息显著提升了检测与分类的准确率，这说明基于形状特征的先验知识能够为分类任务提供有用的线索，而无需依赖详尽的细胞边界标注信息。
+
+可用性与实现方式：ShadoNet利用Segment Anything Model（SAM）生成初始的细胞形状掩膜，随后通过人工标注的核点标签对这些掩膜进行精细化处理，从而构建出真实的邻近图谱。在训练过程中，通过两个辅助目标来强化对细胞形状的引导：(i) 采用扩展了旋转信息的Scaled IoU损失函数来评估方向与形状的对齐程度；(ii) 使用Hausdorff距离变换损失函数来惩罚预测结果与真实数据之间的边界差异。相关代码已公开发布在https://github.com/GhasemiGOF/ShadoNet地址上；本文实验中使用的固定版本代码也已存档于Zenodo数据库，其DOI编号为https://doi.org/10.5281/zenodo.21050210。BCData与SHIDC-B-Ki-77这两个数据集也均可通过原始研究论文获取。
+
+补充信息：本文的补充材料可供进一步查阅。</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag704/8841217?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag704/8841217?rss=1</a></p>
+    </article>
+    
+    <article class="paper">
+      <h4>基于化合物与蛋白质的三维结构，利用基础模型与语言模型进行全基因组范围内的化合物-蛋白质相互作用预测</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-09-28</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>期刊文章</li>
+        
+        <li><strong>研究问题：</strong>在药物发现的早期阶段，识别化合物与蛋白质之间的相互作用至关重要。</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>然而，那些基于一维或二维表示的机器学习方法无法捕捉CPI结合位点上重要的几何结构信息，这一缺陷严重限制了这些方法的预测准确性。</li><li>我们提出了DESTIN这一机器学习框架。该框架基于化合物与蛋白质的三维结构，能够在全基因组范围内预测它们之间的相互作用关系。</li><li>我们通过微调基于三维结构的基础模型，构建了能够从量子化学角度准确反映稳定三维构象的复合特征向量。</li></ol>
+      <p><strong>摘要：</strong>在药物发现的早期阶段，识别化合物与蛋白质之间的相互作用至关重要。然而，基于一维或二维表示的机器学习方法无法捕捉这些相互作用位点上的关键几何信息，从而导致其预测精度受限。
+我们提出了DESTIN这一机器学习框架，该框架能够利用化合物和蛋白质的三维结构，在全基因组范围内预测它们之间的相互作用。通过微调基于三维结构的基模型，我们构建了能够从量子化学角度反映化合物稳定三维构象的特征向量；对于那些尚未通过实验确定其三维结构的蛋白质，我们也利用基于序列的结构信息及蛋白质语言模型来生成其特征向量。最终，我们采用集成机器学习模型，对这些特征向量进行处理以进行相互作用预测。实际测试表明，DESTIN在预测结构复杂且具有药理意义的膜蛋白相互作用方面表现优异，这一结果进一步证明了该模型的实用价值。
+
+数据与代码公开情况：本研究的所有源代码及相关数据均已公开发布在GitHub上，并存档于Zenodo平台（链接：https://doi.org/10.5281/zenodo.21759701）。
+
+补充信息：更多补充数据可在线查阅Bioinformatics数据库。</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag710/8841216?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag710/8841216?rss=1</a></p>
+    </article>
+    
+    <article class="paper">
+      <h4>CircadiOmics：用于研究生物节律的生物信息学平台</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-09-28</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>期刊文章</li>
+        
+        <li><strong>研究问题：</strong>生物节律是生物学中的基本现象——它们在所有物种的分子层面都存在，对于维持体内平衡与各种生物功能的正常运作至关重要。</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>它们对健康与医学也至关重要，因为昼夜节律调节的紊乱已被证实会引发多种健康问题，而许多药物的作用靶点也会表现出昼夜节律性的变化。这一事实进一步凸显了在分子层面对昼夜节律机制进行深入研究对于精准医疗而言的重要性。</li><li>尽管与生物节律相关的组学时间序列数据集正在迅速增长，但用于处理和分析这些海量数据的生物信息学工具仍然十分有限。</li><li>据我们所知，CircadiOmics是目前规模最大、功能最完善的生物节律组学数据存储与分析平台。该平台主要收录转录组学数据，同时也包含代谢组学、蛋白质组学及乙酰化组学相关的数据集。</li></ol>
+      <p><strong>摘要：</strong>生物节律是生物学的基础现象：它们在所有物种的分子层面普遍存在，对维持机体稳态与执行各种生物功能至关重要。这些节律也与健康与医学密切相关——节律紊乱会引发诸多健康问题，而许多药物的作用靶点也表现出节律性变化，这进一步凸显了从分子层面理解生物节律对于精准医疗的重要性。尽管与生物节律相关的数据序列资源正在迅速增加，但用于处理和分析这些数据的生物信息学工具仍然较为有限。
+据我们所知，CircadiOmics是目前规模最大的生物节律组学数据存储与分析平台。该平台主要收录转录组数据，同时还包含代谢组、蛋白质组及乙酰化组学数据。目前，CircadiOmics涵盖了18种物种、30种组织/器官类型以及21种实验类型（包括基因操作、饮食干预及疾病相关研究），共收集了704个组学数据集。用户可以利用这一平台对比并可视化分子层面的节律变化；通过BIO_cycle工具计算得出的周期性参数（如周期长度、振幅、相位、p值和q值）会以交互式图表或可下载表格的形式呈现。此次更新后的CircadiOmics新增了大量功能，数据覆盖范围也得到了显著扩展，使其成为探索与分析生物节律组学数据的理想资源。
+
+获取方式与技术支持
+CircadiOmics可免费访问：https://circadiomics.igb.uci.edu；BIO_cycle工具的源代码可在GitHub上获取：https://github.com/BaldiLab/BIO_CYCLE，同时也在Zenodo平台上进行了存档：https://doi.org/10.5281/zenodo.22108329。</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag716/8841215?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag716/8841215?rss=1</a></p>
+    </article>
+    
+        </section>
+        
+        <section class="journal">
+          <h3>Nature Protocols</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Nature methods</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+  
+</body>
+</html>
