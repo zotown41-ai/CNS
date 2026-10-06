@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>文献追踪报告</title>
+  <style>
+    body { font-family: Arial, "Microsoft YaHei", sans-serif; line-height: 1.7; margin: 32px; color: #222; }
+    h1, h2, h3 { color: #0f3d6e; }
+    .paper { border: 1px solid #ddd; border-radius: 8px; padding: 12px 16px; margin: 12px 0; background: #fff; }
+    .journal { margin-top: 28px; }
+    .warnings { color: #9a6700; }
+    a { color: #0b63c9; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <h1>文献追踪报告</h1>
+  <ul>
+    <li><strong>时间范围：</strong>2026-10-06 ~ 2026-10-06</li>
+    <li><strong>目标期刊数：</strong>10</li>
+    <li><strong>本周新论文数：</strong>6</li>
+    <li><strong>本周重点文章数：</strong>0</li>
+    <li><strong>关键词：</strong>免疫代谢, 代谢表观调控, 单细胞算法, 单细胞图谱, 流感, HSV, H1N1, 肺损伤, 肺组织修复, 皮肤免疫</li>
+  </ul>
+  <h2>本周重点文章</h2>
+  <p>本周没有命中关键词的重点文章。</p>
+  <h2>分期刊展示（剩余论文）</h2>
+  
+        <section class="journal">
+          <h3>Nature</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Science</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Cell</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Cell metabolism</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Immunity</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Nature Immunology</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Science Immunology</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Bioinformatics</h3>
+          
+    <article class="paper">
+      <h4>STiLE: Automated Tissue Microarray Dearraying for Spatial Transcriptomics</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-10-06</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>Journal Article</li>
+        <li><strong>关键词：</strong>clustering, dearraying, spatial transcriptomics, tissue microarray</li>
+        <li><strong>研究问题：</strong>Tissue microarrays (TMAs) enable high-throughput spatial transcriptomic profiling of dozens of tissue cores on a single slide.</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>However, existing dearraying methods operate on histological images and do not support the coordinate-based outputs of spatial transcriptomics platforms.</li><li>Therefore, task of assigning cells to their respective cores (dearraying) remains a manual bottleneck.</li><li>We present STiLE, a tool for automated TMA dearraying that operates solely on cell centroid coordinates.</li></ol>
+      <p><strong>摘要：</strong>Tissue microarrays (TMAs) enable high-throughput spatial transcriptomic profiling of dozens of tissue cores on a single slide. However, existing dearraying methods operate on histological images and do not support the coordinate-based outputs of spatial transcriptomics platforms. Therefore, task of assigning cells to their respective cores (dearraying) remains a manual bottleneck. We present STiLE, a tool for automated TMA dearraying that operates solely on cell centroid coordinates. By eliminating dependence on image data, STiLE is robust to artefacts such as variable staining quality and uneven illumination. The algorithm combines connectivity-based component detection, density-based clustering (HDBSCAN), component-guided cluster merging, and optional grid-based peak detection. Validation on seven public TMA samples (50-150 cores, three platforms) achieved ARI &gt; 0.99, while systematic benchmarking on 396 synthetic datasets with realistic artefacts demonstrated consistently robust performance (mean ARI = 0.992). STiLE accepts standard formats (AnnData, CSV) and is platform-agnostic, supporting diverse platforms including Vizgen MERSCOPE, 10x Xenium, and NanoString CosMx. An interactive Streamlit interface enables parameter tuning, visual inspection, and region-based processing for large slides. Availability and Implementation: https://pypi.org/project/stile; source at https://github.com/Huang-AI4Medicine-Lab/stile Supplementary Information: Supplementary data are available at Bioinformatics online.</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag572/8868947?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag572/8868947?rss=1</a></p>
+    </article>
+    
+    <article class="paper">
+      <h4>RAFA: RNA all-atom structure reconstruction from sparse anchor coordinates</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-10-06</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>Journal Article</li>
+        <li><strong>关键词：</strong>RNA structure reconstruction, all-atom modelling, coarse-grained RNA, fragment assembly, structural bioinformatics</li>
+        <li><strong>研究问题：</strong>SUMMARY: We present RAFA, a C ++ command-line tool for RNA all-atom structure reconstruction from sparse or partial coordinates.</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>RAFA targets settings in which coarse-grained modelling, low-resolution fitting, or partial experimental interpretation provides RNA anchor atoms but not a complete atomic model.</li><li>The method retrieves experimentally observed 3-5 nt all-atom RNA fragments, fits them to local anchors, combines overlapping fragment-derived coordinate estimates by weighted consensus, and routes sparse and rich inputs through distinct reconstruction paths.</li><li>In an independent RNA3DB train/test evaluation, no library-test pair exceeded 80% global sequence identity.</li></ol>
+      <p><strong>摘要：</strong>SUMMARY: We present RAFA, a C ++ command-line tool for RNA all-atom structure reconstruction from sparse or partial coordinates. RAFA targets settings in which coarse-grained modelling, low-resolution fitting, or partial experimental interpretation provides RNA anchor atoms but not a complete atomic model. The method retrieves experimentally observed 3-5 nt all-atom RNA fragments, fits them to local anchors, combines overlapping fragment-derived coordinate estimates by weighted consensus, and routes sparse and rich inputs through distinct reconstruction paths. In an independent RNA3DB train/test evaluation, no library-test pair exceeded 80% global sequence identity. RAFA achieved lower all-atom root-mean-square deviation (RMSD) values than Arena in 73.3% of target-mode comparisons, with the largest gains in input modes with the fewest structural constraints.
+
+AVAILABILITY AND IMPLEMENTATION: RAFA is available at https://github.com/wangleiofficial/RAFA and archived at https://doi.org/10.5281/zenodo.20951205.
+
+SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag746/8869022?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag746/8869022?rss=1</a></p>
+    </article>
+    
+    <article class="paper">
+      <h4>MediNet: Simplifying Federated and Privacy-Preserving AI Deployment in Healthcare</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-10-06</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>Journal Article</li>
+        
+        <li><strong>研究问题：</strong>The application of Artificial Intelligence and Deep Learning (DL) in healthcare is increasingly feasible in principle, yet remains inaccessible in practice for most clinical institutions.</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>Beyond the well-known challenge of data privacy regulations that prevent centralization of patient records, two further barriers limit adoption.</li><li>First, deploying a federated learning infrastructure requires substantial technical expertise: configuring distributed training environments, implementing privacy-preserving mechanisms such as Differential Privacy (DP), and managing secure inter-institutional communication demands specialized knowledge that most healthcare organizations do not possess.</li><li>Second, designing and configuring DL models (selecting architectures, tuning hyperparameters, interpreting results) currently requires machine learning expertise that clinical professionals, including researchers and physicians, typically lack.</li></ol>
+      <p><strong>摘要：</strong>Abstract Motivation The application of Artificial Intelligence and Deep Learning (DL) in healthcare is increasingly feasible in principle, yet remains inaccessible in practice for most clinical institutions. Beyond the well-known challenge of data privacy regulations that prevent centralization of patient records, two further barriers limit adoption. First, deploying a federated learning infrastructure requires substantial technical expertise: configuring distributed training environments, implementing privacy-preserving mechanisms such as Differential Privacy (DP), and managing secure inter-institutional communication demands specialized knowledge that most healthcare organizations do not possess. Second, designing and configuring DL models (selecting architectures, tuning hyperparameters, interpreting results) currently requires machine learning expertise that clinical professionals, including researchers and physicians, typically lack. Existing federated learning frameworks address the infrastructure problem but impose a steep learning curve that effectively excludes non-specialized users. A solution that abstracts this complexity, enabling clinicians and biomedical researchers to design, launch, and monitor federated training processes without programming or machine learning expertise, remains absent from the field. Results To address existing limitations, we introduce MediNet, a comprehensive server–client Federated learning (FL) platform that allows hospitals and research centers to train Machine Learning (ML) and DL models without moving or exposing sensitive data. It offers an intuitive web-based environment that simplifies FL, enabling users to easily select the model and define training criteria while administrators manage permissions and datasets, ensuring granular and autonomous data control. The system automatically constructs and generates the underlying technical configuration (e.g., Python/FL scripts) according to the parameters specified in the GUI. It then orchestrates the secure federated rounds and provides real-time monitoring, fully encapsulating the complexity of deployment and security. MediNet is built upon PyTorch as its primary framework, chosen for its robustness in DL model development along with its Differential Privacy (DP) libraries. Flower (Beutel et al., 2020) is used as the federated orchestration system. These underlying technologies are internal pillars of MediNet, essential for ensuring robustness, functionality, and strict adherence to privacy principles. Availability and implementations The general information page for the MediNet software is available at https://isglobal-brge.github.io/MediNet . The MediNet software and its complementary tools are fully available under the MIT license on GitHub. The MediNetHub and MediNetNode code can be found on https://github.com/isglobal-brge/MediNetHub and https://github.com/isglobal-brge/MediNetNode</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag742/8868964?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag742/8868964?rss=1</a></p>
+    </article>
+    
+        </section>
+        
+        <section class="journal">
+          <h3>Nature Protocols</h3>
+          
+    <article class="paper">
+      <h4>T cell immunomonitoring: a comparative analysis of traditional and novel methods to quantify and characterize human antigen-specific T cells</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-10-06</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>未提供</li>
+        
+        <li><strong>研究问题：</strong>We present a comparative analysis review of traditional and cutting-edge technologies for clinical profiling of antigen-specific T cells, highlighting their principles, applications, benefits and limitations and the need for assay harmonization and standardization</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>T cell immunomonitoring: a comparative analysis of traditional and novel methods to quantify and characterize human antigen-specific T cells</li><li>We present a comparative analysis review of traditional and cutting-edge technologies for clinical profiling of antigen-specific T cells, highlighting their principles, applications, benefits and limitations and the need for assay harmonization and standardization</li></ol>
+      <p><strong>摘要：</strong>We present a comparative analysis review of traditional and cutting-edge technologies for clinical profiling of antigen-specific T cells, highlighting their principles, applications, benefits and limitations and the need for assay harmonization and standardization</p>
+      <p><strong>链接：</strong><a href="https://www.nature.com/articles/s41596-026-01453-8">https://www.nature.com/articles/s41596-026-01453-8</a></p>
+    </article>
+    
+        </section>
+        
+        <section class="journal">
+          <h3>Nature methods</h3>
+          
+    <article class="paper">
+      <h4>Flexible discovery of disease-associated tissue structures</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-10-06</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>未提供</li>
+        
+        <li><strong>研究问题：</strong>Identification of disease-associated patterns in spatial molecular data is challenging.</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>We introduce variational inference-based microniche analysis (VIMA), a deep learning-based statistical method that can identify such patterns without requiring annotation of the data into cell types or niches.</li><li>VIMA has high power and fidelity across a range of spatial molecular technologies and diseases</li><li>Flexible discovery of disease-associated tissue structures</li></ol>
+      <p><strong>摘要：</strong>Identification of disease-associated patterns in spatial molecular data is challenging. We introduce variational inference-based microniche analysis (VIMA), a deep learning-based statistical method that can identify such patterns without requiring annotation of the data into cell types or niches. VIMA has high power and fidelity across a range of spatial molecular technologies and diseases</p>
+      <p><strong>链接：</strong><a href="https://www.nature.com/articles/s41592-026-03242-3">https://www.nature.com/articles/s41592-026-03242-3</a></p>
+    </article>
+    
+    <article class="paper">
+      <h4>Accurate and well-powered case–control analysis of spatial molecular data</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-10-06</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>未提供</li>
+        
+        <li><strong>研究问题：</strong>VIMA uses deep-learning architecture to identify differentially enriched features within spatial datasets</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>Accurate and well-powered case–control analysis of spatial molecular data</li><li>VIMA uses deep-learning architecture to identify differentially enriched features within spatial datasets</li></ol>
+      <p><strong>摘要：</strong>VIMA uses deep-learning architecture to identify differentially enriched features within spatial datasets</p>
+      <p><strong>链接：</strong><a href="https://www.nature.com/articles/s41592-026-03236-1">https://www.nature.com/articles/s41592-026-03236-1</a></p>
+    </article>
+    
+        </section>
+        
+  
+</body>
+</html>
