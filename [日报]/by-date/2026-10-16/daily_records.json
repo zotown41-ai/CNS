@@ -1,0 +1,866 @@
+﻿{
+  "schema_version": "1.0",
+  "task": "paper-overview-extractor-rss",
+  "status": "partial_success",
+  "generated_at": "2026-10-16T20:01:18.188796+00:00",
+  "date_range": {
+    "start": "2026-10-16",
+    "end": "2026-10-16"
+  },
+  "inputs": {
+    "journals_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\目标期刊.txt",
+    "keywords_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\关键词.txt",
+    "keyword_aliases_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\keyword_aliases.json",
+    "rss_sources_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\rss_sources.json",
+    "keywords": [
+      "免疫代谢",
+      "代谢表观调控",
+      "单细胞算法",
+      "单细胞图谱",
+      "流感",
+      "HSV",
+      "H1N1",
+      "肺损伤",
+      "肺组织修复",
+      "皮肤免疫"
+    ],
+    "llm_model": "hy-mt1.5-7b",
+    "llm_base_url": "http://127.0.0.1:1234",
+    "llm_translation_only": true,
+    "llm_proxy_url": "http://127.0.0.1:7890",
+    "google_fallback": true
+  },
+  "summary": {
+    "journal_count": 10,
+    "paper_count": 5,
+    "pubmed_enriched_count": 1,
+    "llm_enhanced_count": 5,
+    "llm_google_fallback_count": 0
+  },
+  "journals": [
+    {
+      "journal": "Nature",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nature/",
+      "feed_urls": [
+        "https://www.nature.com/nature/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nature/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nature.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 75
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 44",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Science",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/science",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+        "https://www.science.org/rss/express.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "status_code": 200,
+          "error": "",
+          "item_count": 39
+        },
+        {
+          "url": "https://www.science.org/rss/express.xml",
+          "ok": true,
+          "final_url": "https://feeds.science.org/rss/science-aop.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 13
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/00928674"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "status_code": 200,
+          "error": "",
+          "item_count": 68
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell metabolism",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell-metabolism/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/15504131"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "status_code": 200,
+          "error": "",
+          "item_count": 51
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Immunity",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/immunity/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/10747613"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "status_code": 200,
+          "error": "",
+          "item_count": 45
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature Immunology",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/ni/",
+      "feed_urls": [
+        "https://www.nature.com/ni/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/ni/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/ni.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 3",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Science Immunology",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/sciimmunol",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "status_code": 200,
+          "error": "",
+          "item_count": 9
+        }
+      ],
+      "warnings": [],
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "STAT3 operates as an inflammation-dependent transcriptional switch in antiviral NK cells",
+          "link": "https://www.science.org/doi/abs/10.1126/sciimmunol.aed4832?af=R",
+          "published_at": "2026-10-16T15:00:00+08:00",
+          "published_date": "2026-10-16",
+          "summary": "Science Immunology, Volume 11, Issue 124 , October 2026",
+          "authors": [
+            "Simon Grassmann, Hyunu Kim, Timo Rückert, Christin Friedrich, Marine Pujol, Sherry X. Fan, Mark Owyong, Jennifer M. Zhang, Giorgi Beroshvili, Veit R. Buchholz, Georg Gasteiger, Joseph C. Sun"
+          ],
+          "doi": "10.1126/sciimmunol.aed4832",
+          "journal": "Science Immunology",
+          "source_feed": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "entry_id": "doi:10.1126/sciimmunol.aed4832",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "在抗病毒NK细胞中，STAT3作为一种依赖于炎症反应的转录调控因子发挥作用。",
+          "llm_title_bilingual": "在抗病毒NK细胞中，STAT3作为一种依赖于炎症反应的转录调控因子发挥作用。 / STAT3 operates as an inflammation-dependent transcriptional switch in antiviral NK cells",
+          "llm_research_question_zh": "《科学免疫学》，第11卷，第124期，2026年10月",
+          "llm_highlights_zh": [
+            "在抗病毒NK细胞中，STAT3作为一种依赖于炎症反应的转录调控因子发挥作用。",
+            "《科学免疫学》，第11卷，第124期，2026年10月"
+          ],
+          "llm_rss_summary_zh": "《科学免疫学》，第11卷，第124期，2026年10月",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "《科学免疫学》，第11卷，第124期，2026年10月",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Science Immunology, Volume 11, Issue 124 , October 2026",
+          "primary_summary_zh": "《科学免疫学》，第11卷，第124期，2026年10月"
+        },
+        {
+          "title": "Glycome remodeling programs pathogenic γδ T17 cell responses in autoimmunity",
+          "link": "https://www.science.org/doi/abs/10.1126/sciimmunol.aec9553?af=R",
+          "published_at": "2026-10-16T15:00:00+08:00",
+          "published_date": "2026-10-16",
+          "summary": "Science Immunology, Volume 11, Issue 124 , October 2026",
+          "authors": [
+            "Beatriz Santos-Pereira, Rafaela Nogueira, Yohannes Tafesse, Ariana Correia-Silva, Eduarda Leite-Gomes, Guillem Sanchez Sanchez, Xavier Luppens, Lyndsay E.A. Young, Bruno Cavadas, Carlos Vasconcelos, Daniela Oliveira, Ana Lé, Joana Torres, Ana Campar, João F. Serodio, António Marinho, José D. Alves, Tiago Torres, Richard R. Drake, David Vermijlen, Inês Alves, Salomé S. Pinho"
+          ],
+          "doi": "10.1126/sciimmunol.aec9553",
+          "journal": "Science Immunology",
+          "source_feed": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "entry_id": "doi:10.1126/sciimmunol.aec9553",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "糖组重塑机制在自身免疫性疾病中调控病理性γδ T17细胞的反应过程",
+          "llm_title_bilingual": "糖组重塑机制在自身免疫性疾病中调控病理性γδ T17细胞的反应过程 / Glycome remodeling programs pathogenic γδ T17 cell responses in autoimmunity",
+          "llm_research_question_zh": "《科学免疫学》，第11卷，第124期，2026年10月",
+          "llm_highlights_zh": [
+            "糖组重塑机制在自身免疫性疾病中调控γδ T17细胞的病理反应",
+            "《科学免疫学》，第11卷，第124期，2026年10月"
+          ],
+          "llm_rss_summary_zh": "《科学免疫学》，第11卷，第124期，2026年10月",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "《科学免疫学》，第11卷，第124期，2026年10月",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Science Immunology, Volume 11, Issue 124 , October 2026",
+          "primary_summary_zh": "《科学免疫学》，第11卷，第124期，2026年10月"
+        }
+      ]
+    },
+    {
+      "journal": "Bioinformatics",
+      "configured": true,
+      "publisher": "Oxford Academic",
+      "homepage": "https://academic.oup.com/bioinformatics",
+      "feed_urls": [
+        "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+        "https://academic.oup.com/rss/site_5139/3001.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 5
+        },
+        {
+          "url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 41
+        }
+      ],
+      "warnings": [],
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Motion-corrected Noise2Noise denoising for structural analysis of cells and tissues with (cryo-)FIB/SEM",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag765/8930796?rss=1",
+          "published_at": "2026-10-16T08:00:00+08:00",
+          "published_date": "2026-10-16",
+          "summary": "Abstract Motivation (Cryo-)FIB/SEM enables three-dimensional (3D) ultrastructural analysis of cells and tissues at nanoscale resolution. However, its characteristically low signal-to-noise ratio severely hinders interpretation of the volume data. Noise2Noise has emerged as a state-of-the-art denoising paradigm with outstanding performance in 3D electron microscopy -particularly cryo-ET- but its direct application to (cryo-)FIB/SEM remains unfeasible due to the inherent acquisition workflows. Results A method to enable Noise2Noise denoising in (cryo-)FIB/SEM is introduced. The input volume is split into even and odd slices followed by the application of motion correction methods to estimate and compensate for the structural differences between the two subvolumes. The resulting motion-corrected subvolumes are then used to train the Noise2Noise model, which is ultimately applied to denoise the original volume. Representative (cryo-)FIB/SEM volumes have been used to validate the method and to demonstrate the critical importance of the motion correction stage for volumes with a slice thickness greater than 10 nm. Availability and Implementation Code is available at https://github.com/microscopy-processing/N2N-REO and https://doi.org/10.5281/zenodo.22303478",
+          "authors": [
+            "Vicente González-Ruiz",
+            "José-Jesús Fernández"
+          ],
+          "doi": "10.1093/bioinformatics/btag765",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag765",
+          "pmid": "42885571",
+          "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42885571/",
+          "abstract": "MOTIVATION: (Cryo-)FIB/SEM enables three-dimensional (3D) ultrastructural analysis of cells and tissues at nanoscale resolution. However, its characteristically low signal-to-noise ratio severely hinders interpretation of the volume data. Noise2Noise has emerged as a state-of-the-art denoising paradigm with outstanding performance in 3D electron microscopy -particularly cryo-ET- but its direct application to (cryo-)FIB/SEM remains unfeasible due to the inherent acquisition workflows.\n\nRESULTS: A method to enable Noise2Noise denoising in (cryo-)FIB/SEM is introduced. The input volume is split into even and odd slices followed by the application of motion correction methods to estimate and compensate for the structural differences between the two subvolumes. The resulting motion-corrected subvolumes are then used to train the Noise2Noise model, which is ultimately applied to denoise the original volume. Representative (cryo-)FIB/SEM volumes have been used to validate the method and to demonstrate the critical importance of the motion correction stage for volumes with a slice thickness greater than 10 nm.\n\nAVAILABILITY AND IMPLEMENTATION: Code is available at https://github.com/microscopy-processing/N2N-REO and https://doi.org/10.5281/zenodo.22303478.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "affiliations": [
+            "Informatics Dept., CeinsaUAL, CINN-CSIC Associated Unit, Almería University, 04120 Almería, Spain.",
+            "Spanish National Research Council (CINN-CSIC). Asturias Health Research Institute (ISPA), 33011 Oviedo, Spain."
+          ],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [
+            "Journal Article"
+          ],
+          "pubmed_journal": "Bioinformatics (Oxford, England)",
+          "pubmed_publication_date": "2026-10-16",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "success",
+          "pubmed_warning": "",
+          "llm_title_zh": "经过运动校正的噪声去除技术：适用于利用（冷冻）FIB/SEM对细胞及组织进行结构分析时的噪声处理方法。",
+          "llm_title_bilingual": "经过运动校正的噪声去除技术：适用于利用（冷冻）FIB/SEM对细胞及组织进行结构分析时的噪声处理方法。 / Motion-corrected Noise2Noise denoising for structural analysis of cells and tissues with (cryo-)FIB/SEM",
+          "llm_research_question_zh": "动机：(冷冻)纤维显微镜与扫描电子显微镜相结合的技术能够以纳米级分辨率对细胞及组织进行三维超微结构分析。",
+          "llm_highlights_zh": [
+            "然而，其特有的低信噪比严重阻碍了对这些体积数据的解读。",
+            "噪声去除技术已成为一种先进的去噪方法，在三维电子显微镜领域，尤其是在冷冻电镜技术中，表现极为出色。然而，由于其固有的数据采集流程，这种技术直接应用于冷冻场发射扫描电镜仍存在实际操作上的困难。",
+            "结果：本文介绍了一种可在（冷冻）场发射扫描电子显微镜中实现Noise2Noise去噪的方法。"
+          ],
+          "llm_rss_summary_zh": "摘要：  \n(cryo-)FIB/SEM技术能够以纳米级分辨率对细胞和组织进行三维超微结构分析，但其较低的信噪比严重影响了体积数据的解析效果。Noise2Noise作为一种先进的去噪方法，在三维电子显微镜领域尤其是cryo-ET中表现出色，但由于(cryo-)FIB/SEM的采集流程限制，直接将其应用于该技术目前仍存在可行性障碍。  \n本研究提出了一种在(cryo-)FIB/SEM中应用Noise2Noise去噪的方法：首先将原始体积数据分割为偶数层和奇数层，然后通过运动校正技术消除这两部分数据之间的结构差异；随后利用这些经过校正的数据训练Noise2Noise模型，并最终用该模型对原始体积数据进行去噪处理。实验结果表明，该方法对于切片厚度超过10纳米的样本而言尤为有效，且运动校正步骤在去噪过程中起着至关重要的作用。  \n相关代码及资源可访问以下链接：  \nhttps://github.com/microscopy-processing/N2N-REO  \nhttps://doi.org/10.5281/zenodo.22303478",
+          "llm_pubmed_abstract_zh": "**动机**：(冷冻)FIB/SEM技术能够以纳米级分辨率对细胞和组织进行三维超微结构分析。然而，其固有的低信噪比严重影响了体积数据的解析效果。Noise2Noise作为一种先进的去噪方法，在三维电子显微镜领域尤其是冷冻电镜中表现出色，但由于现有的数据采集流程，将其直接应用于(cryo-)FIB/SEM技术目前仍存在可行性障碍。  \n\n**结果**：本文提出了一种在(cryo-)FIB/SEM中应用Noise2Noise去噪的方法。首先将原始体积数据分割为偶数层和奇数层，然后通过运动校正技术消除这两组数据之间的结构差异；随后利用这些经过运动校正的数据来训练Noise2Noise模型，并最终用该模型对原始体积数据进行去噪处理。实验结果表明，该方法对于切片厚度大于10纳米的样本而言效果尤为显著，同时也进一步证明了运动校正步骤在去噪过程中的关键作用。  \n\n**代码与资源**：相关代码可访问以下链接获取：https://github.com/microscopy-processing/N2N-REO；论文全文发表于《Zenodo》数据库，链接为：https://doi.org/10.5281/zenodo.22303478。  \n\n**补充信息**：更多实验数据可在线查阅Bioinformatics数据库。",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [
+            "期刊文章"
+          ],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "(冷冻)FIB/SEM技术能够以纳米级分辨率对细胞和组织进行三维超微结构分析。然而，其固有的低信噪比严重影响了体积数据的解析效果。Noise2Noise作为一种先进的去噪方法，在三维电子显微镜领域尤其是冷冻电镜中表现出色，但由于现有的数据采集流程，将其直接应用于(cryo-)FIB/SEM技术目前仍存在可行性障碍。\n本文提出了一种在(cryo-)FIB/SEM中应用Noise2Noise去噪的方法。首先将原始体积数据分割为偶数层和奇数层，然后通过运动校正技术消除这两组数据之间的结构差异；随后利用这些经过运动校正的数据来训练Noise2Noise模型，并最终用该模型对原始体积数据进行去噪处理。实验结果表明，该方法对于切片厚度大于10纳米的样本而言效果尤为显著，同时也进一步证明了运动校正步骤在去噪过程中的关键作用。",
+          "primary_summary_source": "pubmed",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "pubmed",
+          "primary_summary_raw": "MOTIVATION: (Cryo-)FIB/SEM enables three-dimensional (3D) ultrastructural analysis of cells and tissues at nanoscale resolution. However, its characteristically low signal-to-noise ratio severely hinders interpretation of the volume data. Noise2Noise has emerged as a state-of-the-art denoising paradigm with outstanding performance in 3D electron microscopy -particularly cryo-ET- but its direct application to (cryo-)FIB/SEM remains unfeasible due to the inherent acquisition workflows.\n\nRESULTS: A method to enable Noise2Noise denoising in (cryo-)FIB/SEM is introduced. The input volume is split into even and odd slices followed by the application of motion correction methods to estimate and compensate for the structural differences between the two subvolumes. The resulting motion-corrected subvolumes are then used to train the Noise2Noise model, which is ultimately applied to denoise the original volume. Representative (cryo-)FIB/SEM volumes have been used to validate the method and to demonstrate the critical importance of the motion correction stage for volumes with a slice thickness greater than 10 nm.\n\nAVAILABILITY AND IMPLEMENTATION: Code is available at https://github.com/microscopy-processing/N2N-REO and https://doi.org/10.5281/zenodo.22303478.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "primary_summary_zh": "**动机**：(冷冻)FIB/SEM技术能够以纳米级分辨率对细胞和组织进行三维超微结构分析。然而，其固有的低信噪比严重影响了体积数据的解析效果。Noise2Noise作为一种先进的去噪方法，在三维电子显微镜领域尤其是冷冻电镜中表现出色，但由于现有的数据采集流程，将其直接应用于(cryo-)FIB/SEM技术目前仍存在可行性障碍。  \n\n**结果**：本文提出了一种在(cryo-)FIB/SEM中应用Noise2Noise去噪的方法。首先将原始体积数据分割为偶数层和奇数层，然后通过运动校正技术消除这两组数据之间的结构差异；随后利用这些经过运动校正的数据来训练Noise2Noise模型，并最终用该模型对原始体积数据进行去噪处理。实验结果表明，该方法对于切片厚度大于10纳米的样本而言效果尤为显著，同时也进一步证明了运动校正步骤在去噪过程中的关键作用。  \n\n**代码与资源**：相关代码可访问以下链接获取：https://github.com/microscopy-processing/N2N-REO；论文全文发表于《Zenodo》数据库，链接为：https://doi.org/10.5281/zenodo.22303478。  \n\n**补充信息**：更多实验数据可在线查阅Bioinformatics数据库。"
+        }
+      ]
+    },
+    {
+      "journal": "Nature Protocols",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nprot/",
+      "feed_urls": [
+        "https://www.nature.com/nprot/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nprot/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nprot.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 1",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature methods",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nmeth/",
+      "feed_urls": [
+        "https://www.nature.com/nmeth/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nmeth/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nmeth.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [],
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "Recent developments of fluorescent proteins and biosensors driven by cross-disciplinary insights",
+          "link": "https://www.nature.com/articles/s41592-026-03268-7",
+          "published_at": "2026-10-16T08:00:00+08:00",
+          "published_date": "2026-10-16",
+          "summary": "This Review summarizes recent developments in fluorescent protein technology, including the engineering of fluorescent biosensors",
+          "authors": [
+            "Anneliese M. M. Gest",
+            "Sohum Mehta",
+            "Jin Zhang"
+          ],
+          "doi": "10.1038/s41592-026-03268-7",
+          "journal": "Nature methods",
+          "source_feed": "https://www.nature.com/nmeth.rss",
+          "entry_id": "doi:10.1038/s41592-026-03268-7",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "近年来，得益于跨学科研究的推动，荧光蛋白与生物传感器技术取得了显著进展。",
+          "llm_title_bilingual": "近年来，得益于跨学科研究的推动，荧光蛋白与生物传感器技术取得了显著进展。 / Recent developments of fluorescent proteins and biosensors driven by cross-disciplinary insights",
+          "llm_research_question_zh": "这篇综述总结了荧光蛋白技术近期的发展进展，包括荧光生物传感器的设计与构建。",
+          "llm_highlights_zh": [
+            "近年来，得益于跨学科研究的推动，荧光蛋白与生物传感器技术取得了显著进展。",
+            "这篇综述总结了荧光蛋白技术近期的发展进展，包括荧光生物传感器的设计与构建。"
+          ],
+          "llm_rss_summary_zh": "这篇综述总结了荧光蛋白技术近期的发展进展，包括荧光生物传感器的设计与构建。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "这篇综述总结了荧光蛋白技术近期的发展进展，包括荧光生物传感器的设计与构建。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "This Review summarizes recent developments in fluorescent protein technology, including the engineering of fluorescent biosensors",
+          "primary_summary_zh": "这篇综述总结了荧光蛋白技术近期的发展进展，包括荧光生物传感器的设计与构建。"
+        },
+        {
+          "title": "AmpliconSuite: an end-to-end workflow for analyzing focal amplifications in cancer genomes",
+          "link": "https://www.nature.com/articles/s41592-026-03264-x",
+          "published_at": "2026-10-16T08:00:00+08:00",
+          "published_date": "2026-10-16",
+          "summary": "AmpliconSuite is a toolkit that enables the analysis of focal amplifications from cancer whole-genome sequencing data",
+          "authors": [
+            "Jens Luebeck",
+            "Ted Liefeld",
+            "Ivy Tsz-Lo Wong",
+            "Edwin Huang",
+            "Forrest Kim",
+            "Bhargavi Dameracharla",
+            "Michael Chan",
+            "Rohil Ahuja",
+            "Kyra Fetter",
+            "Dhruv Khatri",
+            "Kaiyuan Zhu",
+            "Thorin Tabor",
+            "Daniel Schreyer",
+            "Gino Prasad",
+            "Aditi Gnanasekar",
+            "Siavash Raeisi Dehkordi",
+            "Simone Spandau",
+            "Michał Adamaszek",
+            "Rishaan Kenkre",
+            "Tushar Agashe",
+            "Devika Torvi",
+            "Mădălina Giurgiu-Kraljič",
+            "Soyeon Kim",
+            "Hoon Kim",
+            "Peter Bailey",
+            "Roel G. W. Verhaak",
+            "Viraj Deshpande",
+            "Michael Reich",
+            "Paul S. Mischel",
+            "Jill P. Mesirov",
+            "Vineet Bafna"
+          ],
+          "doi": "10.1038/s41592-026-03264-x",
+          "journal": "Nature methods",
+          "source_feed": "https://www.nature.com/nmeth.rss",
+          "entry_id": "doi:10.1038/s41592-026-03264-x",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "AmpliconSuite：一种用于分析癌症基因组中特异性扩增片段的端到端工作流程",
+          "llm_title_bilingual": "AmpliconSuite：一种用于分析癌症基因组中特异性扩增片段的端到端工作流程 / AmpliconSuite: an end-to-end workflow for analyzing focal amplifications in cancer genomes",
+          "llm_research_question_zh": "AmpliconSuite是一种工具包，能够用于分析从癌症全基因组测序数据中获得的特异性扩增片段。",
+          "llm_highlights_zh": [
+            "AmpliconSuite：一种用于分析癌症基因组中特异性扩增片段的全流程分析工具。",
+            "AmpliconSuite是一种工具包，能够用于分析从癌症全基因组测序数据中获得的特异性扩增片段。"
+          ],
+          "llm_rss_summary_zh": "AmpliconSuite是一种工具包，能够用于分析从癌症全基因组测序数据中获得的特异性扩增片段。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "AmpliconSuite是一种工具包，能够用于分析从癌症全基因组测序数据中获得的特异性扩增片段。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "AmpliconSuite is a toolkit that enables the analysis of focal amplifications from cancer whole-genome sequencing data",
+          "primary_summary_zh": "AmpliconSuite是一种工具包，能够用于分析从癌症全基因组测序数据中获得的特异性扩增片段。"
+        }
+      ]
+    }
+  ],
+  "all_papers": [
+    {
+      "title": "STAT3 operates as an inflammation-dependent transcriptional switch in antiviral NK cells",
+      "link": "https://www.science.org/doi/abs/10.1126/sciimmunol.aed4832?af=R",
+      "published_at": "2026-10-16T15:00:00+08:00",
+      "published_date": "2026-10-16",
+      "summary": "Science Immunology, Volume 11, Issue 124 , October 2026",
+      "authors": [
+        "Simon Grassmann, Hyunu Kim, Timo Rückert, Christin Friedrich, Marine Pujol, Sherry X. Fan, Mark Owyong, Jennifer M. Zhang, Giorgi Beroshvili, Veit R. Buchholz, Georg Gasteiger, Joseph C. Sun"
+      ],
+      "doi": "10.1126/sciimmunol.aed4832",
+      "journal": "Science Immunology",
+      "source_feed": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+      "entry_id": "doi:10.1126/sciimmunol.aed4832",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "在抗病毒NK细胞中，STAT3作为一种依赖于炎症反应的转录调控因子发挥作用。",
+      "llm_title_bilingual": "在抗病毒NK细胞中，STAT3作为一种依赖于炎症反应的转录调控因子发挥作用。 / STAT3 operates as an inflammation-dependent transcriptional switch in antiviral NK cells",
+      "llm_research_question_zh": "《科学免疫学》，第11卷，第124期，2026年10月",
+      "llm_highlights_zh": [
+        "在抗病毒NK细胞中，STAT3作为一种依赖于炎症反应的转录调控因子发挥作用。",
+        "《科学免疫学》，第11卷，第124期，2026年10月"
+      ],
+      "llm_rss_summary_zh": "《科学免疫学》，第11卷，第124期，2026年10月",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "《科学免疫学》，第11卷，第124期，2026年10月",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Science Immunology, Volume 11, Issue 124 , October 2026",
+      "primary_summary_zh": "《科学免疫学》，第11卷，第124期，2026年10月"
+    },
+    {
+      "title": "Glycome remodeling programs pathogenic γδ T17 cell responses in autoimmunity",
+      "link": "https://www.science.org/doi/abs/10.1126/sciimmunol.aec9553?af=R",
+      "published_at": "2026-10-16T15:00:00+08:00",
+      "published_date": "2026-10-16",
+      "summary": "Science Immunology, Volume 11, Issue 124 , October 2026",
+      "authors": [
+        "Beatriz Santos-Pereira, Rafaela Nogueira, Yohannes Tafesse, Ariana Correia-Silva, Eduarda Leite-Gomes, Guillem Sanchez Sanchez, Xavier Luppens, Lyndsay E.A. Young, Bruno Cavadas, Carlos Vasconcelos, Daniela Oliveira, Ana Lé, Joana Torres, Ana Campar, João F. Serodio, António Marinho, José D. Alves, Tiago Torres, Richard R. Drake, David Vermijlen, Inês Alves, Salomé S. Pinho"
+      ],
+      "doi": "10.1126/sciimmunol.aec9553",
+      "journal": "Science Immunology",
+      "source_feed": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+      "entry_id": "doi:10.1126/sciimmunol.aec9553",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "糖组重塑机制在自身免疫性疾病中调控病理性γδ T17细胞的反应过程",
+      "llm_title_bilingual": "糖组重塑机制在自身免疫性疾病中调控病理性γδ T17细胞的反应过程 / Glycome remodeling programs pathogenic γδ T17 cell responses in autoimmunity",
+      "llm_research_question_zh": "《科学免疫学》，第11卷，第124期，2026年10月",
+      "llm_highlights_zh": [
+        "糖组重塑机制在自身免疫性疾病中调控γδ T17细胞的病理反应",
+        "《科学免疫学》，第11卷，第124期，2026年10月"
+      ],
+      "llm_rss_summary_zh": "《科学免疫学》，第11卷，第124期，2026年10月",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "《科学免疫学》，第11卷，第124期，2026年10月",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Science Immunology, Volume 11, Issue 124 , October 2026",
+      "primary_summary_zh": "《科学免疫学》，第11卷，第124期，2026年10月"
+    },
+    {
+      "title": "Recent developments of fluorescent proteins and biosensors driven by cross-disciplinary insights",
+      "link": "https://www.nature.com/articles/s41592-026-03268-7",
+      "published_at": "2026-10-16T08:00:00+08:00",
+      "published_date": "2026-10-16",
+      "summary": "This Review summarizes recent developments in fluorescent protein technology, including the engineering of fluorescent biosensors",
+      "authors": [
+        "Anneliese M. M. Gest",
+        "Sohum Mehta",
+        "Jin Zhang"
+      ],
+      "doi": "10.1038/s41592-026-03268-7",
+      "journal": "Nature methods",
+      "source_feed": "https://www.nature.com/nmeth.rss",
+      "entry_id": "doi:10.1038/s41592-026-03268-7",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "近年来，得益于跨学科研究的推动，荧光蛋白与生物传感器技术取得了显著进展。",
+      "llm_title_bilingual": "近年来，得益于跨学科研究的推动，荧光蛋白与生物传感器技术取得了显著进展。 / Recent developments of fluorescent proteins and biosensors driven by cross-disciplinary insights",
+      "llm_research_question_zh": "这篇综述总结了荧光蛋白技术近期的发展进展，包括荧光生物传感器的设计与构建。",
+      "llm_highlights_zh": [
+        "近年来，得益于跨学科研究的推动，荧光蛋白与生物传感器技术取得了显著进展。",
+        "这篇综述总结了荧光蛋白技术近期的发展进展，包括荧光生物传感器的设计与构建。"
+      ],
+      "llm_rss_summary_zh": "这篇综述总结了荧光蛋白技术近期的发展进展，包括荧光生物传感器的设计与构建。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "这篇综述总结了荧光蛋白技术近期的发展进展，包括荧光生物传感器的设计与构建。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "This Review summarizes recent developments in fluorescent protein technology, including the engineering of fluorescent biosensors",
+      "primary_summary_zh": "这篇综述总结了荧光蛋白技术近期的发展进展，包括荧光生物传感器的设计与构建。"
+    },
+    {
+      "title": "Motion-corrected Noise2Noise denoising for structural analysis of cells and tissues with (cryo-)FIB/SEM",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag765/8930796?rss=1",
+      "published_at": "2026-10-16T08:00:00+08:00",
+      "published_date": "2026-10-16",
+      "summary": "Abstract Motivation (Cryo-)FIB/SEM enables three-dimensional (3D) ultrastructural analysis of cells and tissues at nanoscale resolution. However, its characteristically low signal-to-noise ratio severely hinders interpretation of the volume data. Noise2Noise has emerged as a state-of-the-art denoising paradigm with outstanding performance in 3D electron microscopy -particularly cryo-ET- but its direct application to (cryo-)FIB/SEM remains unfeasible due to the inherent acquisition workflows. Results A method to enable Noise2Noise denoising in (cryo-)FIB/SEM is introduced. The input volume is split into even and odd slices followed by the application of motion correction methods to estimate and compensate for the structural differences between the two subvolumes. The resulting motion-corrected subvolumes are then used to train the Noise2Noise model, which is ultimately applied to denoise the original volume. Representative (cryo-)FIB/SEM volumes have been used to validate the method and to demonstrate the critical importance of the motion correction stage for volumes with a slice thickness greater than 10 nm. Availability and Implementation Code is available at https://github.com/microscopy-processing/N2N-REO and https://doi.org/10.5281/zenodo.22303478",
+      "authors": [
+        "Vicente González-Ruiz",
+        "José-Jesús Fernández"
+      ],
+      "doi": "10.1093/bioinformatics/btag765",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag765",
+      "pmid": "42885571",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42885571/",
+      "abstract": "MOTIVATION: (Cryo-)FIB/SEM enables three-dimensional (3D) ultrastructural analysis of cells and tissues at nanoscale resolution. However, its characteristically low signal-to-noise ratio severely hinders interpretation of the volume data. Noise2Noise has emerged as a state-of-the-art denoising paradigm with outstanding performance in 3D electron microscopy -particularly cryo-ET- but its direct application to (cryo-)FIB/SEM remains unfeasible due to the inherent acquisition workflows.\n\nRESULTS: A method to enable Noise2Noise denoising in (cryo-)FIB/SEM is introduced. The input volume is split into even and odd slices followed by the application of motion correction methods to estimate and compensate for the structural differences between the two subvolumes. The resulting motion-corrected subvolumes are then used to train the Noise2Noise model, which is ultimately applied to denoise the original volume. Representative (cryo-)FIB/SEM volumes have been used to validate the method and to demonstrate the critical importance of the motion correction stage for volumes with a slice thickness greater than 10 nm.\n\nAVAILABILITY AND IMPLEMENTATION: Code is available at https://github.com/microscopy-processing/N2N-REO and https://doi.org/10.5281/zenodo.22303478.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "affiliations": [
+        "Informatics Dept., CeinsaUAL, CINN-CSIC Associated Unit, Almería University, 04120 Almería, Spain.",
+        "Spanish National Research Council (CINN-CSIC). Asturias Health Research Institute (ISPA), 33011 Oviedo, Spain."
+      ],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_journal": "Bioinformatics (Oxford, England)",
+      "pubmed_publication_date": "2026-10-16",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "success",
+      "pubmed_warning": "",
+      "llm_title_zh": "经过运动校正的噪声去除技术：适用于利用（冷冻）FIB/SEM对细胞及组织进行结构分析时的噪声处理方法。",
+      "llm_title_bilingual": "经过运动校正的噪声去除技术：适用于利用（冷冻）FIB/SEM对细胞及组织进行结构分析时的噪声处理方法。 / Motion-corrected Noise2Noise denoising for structural analysis of cells and tissues with (cryo-)FIB/SEM",
+      "llm_research_question_zh": "动机：(冷冻)纤维显微镜与扫描电子显微镜相结合的技术能够以纳米级分辨率对细胞及组织进行三维超微结构分析。",
+      "llm_highlights_zh": [
+        "然而，其特有的低信噪比严重阻碍了对这些体积数据的解读。",
+        "噪声去除技术已成为一种先进的去噪方法，在三维电子显微镜领域，尤其是在冷冻电镜技术中，表现极为出色。然而，由于其固有的数据采集流程，这种技术直接应用于冷冻场发射扫描电镜仍存在实际操作上的困难。",
+        "结果：本文介绍了一种可在（冷冻）场发射扫描电子显微镜中实现Noise2Noise去噪的方法。"
+      ],
+      "llm_rss_summary_zh": "摘要：  \n(cryo-)FIB/SEM技术能够以纳米级分辨率对细胞和组织进行三维超微结构分析，但其较低的信噪比严重影响了体积数据的解析效果。Noise2Noise作为一种先进的去噪方法，在三维电子显微镜领域尤其是cryo-ET中表现出色，但由于(cryo-)FIB/SEM的采集流程限制，直接将其应用于该技术目前仍存在可行性障碍。  \n本研究提出了一种在(cryo-)FIB/SEM中应用Noise2Noise去噪的方法：首先将原始体积数据分割为偶数层和奇数层，然后通过运动校正技术消除这两部分数据之间的结构差异；随后利用这些经过校正的数据训练Noise2Noise模型，并最终用该模型对原始体积数据进行去噪处理。实验结果表明，该方法对于切片厚度超过10纳米的样本而言尤为有效，且运动校正步骤在去噪过程中起着至关重要的作用。  \n相关代码及资源可访问以下链接：  \nhttps://github.com/microscopy-processing/N2N-REO  \nhttps://doi.org/10.5281/zenodo.22303478",
+      "llm_pubmed_abstract_zh": "**动机**：(冷冻)FIB/SEM技术能够以纳米级分辨率对细胞和组织进行三维超微结构分析。然而，其固有的低信噪比严重影响了体积数据的解析效果。Noise2Noise作为一种先进的去噪方法，在三维电子显微镜领域尤其是冷冻电镜中表现出色，但由于现有的数据采集流程，将其直接应用于(cryo-)FIB/SEM技术目前仍存在可行性障碍。  \n\n**结果**：本文提出了一种在(cryo-)FIB/SEM中应用Noise2Noise去噪的方法。首先将原始体积数据分割为偶数层和奇数层，然后通过运动校正技术消除这两组数据之间的结构差异；随后利用这些经过运动校正的数据来训练Noise2Noise模型，并最终用该模型对原始体积数据进行去噪处理。实验结果表明，该方法对于切片厚度大于10纳米的样本而言效果尤为显著，同时也进一步证明了运动校正步骤在去噪过程中的关键作用。  \n\n**代码与资源**：相关代码可访问以下链接获取：https://github.com/microscopy-processing/N2N-REO；论文全文发表于《Zenodo》数据库，链接为：https://doi.org/10.5281/zenodo.22303478。  \n\n**补充信息**：更多实验数据可在线查阅Bioinformatics数据库。",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [
+        "期刊文章"
+      ],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "(冷冻)FIB/SEM技术能够以纳米级分辨率对细胞和组织进行三维超微结构分析。然而，其固有的低信噪比严重影响了体积数据的解析效果。Noise2Noise作为一种先进的去噪方法，在三维电子显微镜领域尤其是冷冻电镜中表现出色，但由于现有的数据采集流程，将其直接应用于(cryo-)FIB/SEM技术目前仍存在可行性障碍。\n本文提出了一种在(cryo-)FIB/SEM中应用Noise2Noise去噪的方法。首先将原始体积数据分割为偶数层和奇数层，然后通过运动校正技术消除这两组数据之间的结构差异；随后利用这些经过运动校正的数据来训练Noise2Noise模型，并最终用该模型对原始体积数据进行去噪处理。实验结果表明，该方法对于切片厚度大于10纳米的样本而言效果尤为显著，同时也进一步证明了运动校正步骤在去噪过程中的关键作用。",
+      "primary_summary_source": "pubmed",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "pubmed",
+      "primary_summary_raw": "MOTIVATION: (Cryo-)FIB/SEM enables three-dimensional (3D) ultrastructural analysis of cells and tissues at nanoscale resolution. However, its characteristically low signal-to-noise ratio severely hinders interpretation of the volume data. Noise2Noise has emerged as a state-of-the-art denoising paradigm with outstanding performance in 3D electron microscopy -particularly cryo-ET- but its direct application to (cryo-)FIB/SEM remains unfeasible due to the inherent acquisition workflows.\n\nRESULTS: A method to enable Noise2Noise denoising in (cryo-)FIB/SEM is introduced. The input volume is split into even and odd slices followed by the application of motion correction methods to estimate and compensate for the structural differences between the two subvolumes. The resulting motion-corrected subvolumes are then used to train the Noise2Noise model, which is ultimately applied to denoise the original volume. Representative (cryo-)FIB/SEM volumes have been used to validate the method and to demonstrate the critical importance of the motion correction stage for volumes with a slice thickness greater than 10 nm.\n\nAVAILABILITY AND IMPLEMENTATION: Code is available at https://github.com/microscopy-processing/N2N-REO and https://doi.org/10.5281/zenodo.22303478.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "primary_summary_zh": "**动机**：(冷冻)FIB/SEM技术能够以纳米级分辨率对细胞和组织进行三维超微结构分析。然而，其固有的低信噪比严重影响了体积数据的解析效果。Noise2Noise作为一种先进的去噪方法，在三维电子显微镜领域尤其是冷冻电镜中表现出色，但由于现有的数据采集流程，将其直接应用于(cryo-)FIB/SEM技术目前仍存在可行性障碍。  \n\n**结果**：本文提出了一种在(cryo-)FIB/SEM中应用Noise2Noise去噪的方法。首先将原始体积数据分割为偶数层和奇数层，然后通过运动校正技术消除这两组数据之间的结构差异；随后利用这些经过运动校正的数据来训练Noise2Noise模型，并最终用该模型对原始体积数据进行去噪处理。实验结果表明，该方法对于切片厚度大于10纳米的样本而言效果尤为显著，同时也进一步证明了运动校正步骤在去噪过程中的关键作用。  \n\n**代码与资源**：相关代码可访问以下链接获取：https://github.com/microscopy-processing/N2N-REO；论文全文发表于《Zenodo》数据库，链接为：https://doi.org/10.5281/zenodo.22303478。  \n\n**补充信息**：更多实验数据可在线查阅Bioinformatics数据库。"
+    },
+    {
+      "title": "AmpliconSuite: an end-to-end workflow for analyzing focal amplifications in cancer genomes",
+      "link": "https://www.nature.com/articles/s41592-026-03264-x",
+      "published_at": "2026-10-16T08:00:00+08:00",
+      "published_date": "2026-10-16",
+      "summary": "AmpliconSuite is a toolkit that enables the analysis of focal amplifications from cancer whole-genome sequencing data",
+      "authors": [
+        "Jens Luebeck",
+        "Ted Liefeld",
+        "Ivy Tsz-Lo Wong",
+        "Edwin Huang",
+        "Forrest Kim",
+        "Bhargavi Dameracharla",
+        "Michael Chan",
+        "Rohil Ahuja",
+        "Kyra Fetter",
+        "Dhruv Khatri",
+        "Kaiyuan Zhu",
+        "Thorin Tabor",
+        "Daniel Schreyer",
+        "Gino Prasad",
+        "Aditi Gnanasekar",
+        "Siavash Raeisi Dehkordi",
+        "Simone Spandau",
+        "Michał Adamaszek",
+        "Rishaan Kenkre",
+        "Tushar Agashe",
+        "Devika Torvi",
+        "Mădălina Giurgiu-Kraljič",
+        "Soyeon Kim",
+        "Hoon Kim",
+        "Peter Bailey",
+        "Roel G. W. Verhaak",
+        "Viraj Deshpande",
+        "Michael Reich",
+        "Paul S. Mischel",
+        "Jill P. Mesirov",
+        "Vineet Bafna"
+      ],
+      "doi": "10.1038/s41592-026-03264-x",
+      "journal": "Nature methods",
+      "source_feed": "https://www.nature.com/nmeth.rss",
+      "entry_id": "doi:10.1038/s41592-026-03264-x",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "AmpliconSuite：一种用于分析癌症基因组中特异性扩增片段的端到端工作流程",
+      "llm_title_bilingual": "AmpliconSuite：一种用于分析癌症基因组中特异性扩增片段的端到端工作流程 / AmpliconSuite: an end-to-end workflow for analyzing focal amplifications in cancer genomes",
+      "llm_research_question_zh": "AmpliconSuite是一种工具包，能够用于分析从癌症全基因组测序数据中获得的特异性扩增片段。",
+      "llm_highlights_zh": [
+        "AmpliconSuite：一种用于分析癌症基因组中特异性扩增片段的全流程分析工具。",
+        "AmpliconSuite是一种工具包，能够用于分析从癌症全基因组测序数据中获得的特异性扩增片段。"
+      ],
+      "llm_rss_summary_zh": "AmpliconSuite是一种工具包，能够用于分析从癌症全基因组测序数据中获得的特异性扩增片段。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "AmpliconSuite是一种工具包，能够用于分析从癌症全基因组测序数据中获得的特异性扩增片段。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "AmpliconSuite is a toolkit that enables the analysis of focal amplifications from cancer whole-genome sequencing data",
+      "primary_summary_zh": "AmpliconSuite是一种工具包，能够用于分析从癌症全基因组测序数据中获得的特异性扩增片段。"
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}
