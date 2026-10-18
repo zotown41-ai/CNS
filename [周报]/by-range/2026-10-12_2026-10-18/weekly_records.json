@@ -1,0 +1,3048 @@
+{
+  "generated_at": "2026-10-19T03:02:57",
+  "start": "2026-10-12",
+  "end": "2026-10-18",
+  "journals": [
+    "Nature",
+    "Science",
+    "Cell",
+    "Cell metabolism",
+    "immunity",
+    "Nature Immunology",
+    "Science Immunology",
+    "Bioinformatics",
+    "Nature Protocols"
+  ],
+  "keywords": [
+    "免疫代谢",
+    "代谢表观调控",
+    "单细胞算法",
+    "单细胞图谱",
+    "流感",
+    "HSV",
+    "H1N1",
+    "肺损伤",
+    "肺组织修复",
+    "皮肤免疫"
+  ],
+  "top10": [
+    {
+      "pmid": "42822444",
+      "title": "Distant lymph nodes compensate for resected tumor-draining lymph nodes during cancer immunotherapy.",
+      "journal": "Immunity",
+      "pub_date": "2026-10-13",
+      "abstract": "Surgical removal of tumor-draining lymph nodes (tdLNs) is commonly performed in cancer patients. Here, we investigated whether immune checkpoint blockade (ICB) responses persist after resection of tdLNs, important sites for the initiation and maintenance of anti-cancer immunity. Melanoma patients remained responsive to programmed death 1 (PD-1) blockade after regional LN dissection. Similarly, ICB efficacy persisted after tdLN resection in orthotopic murine melanoma and mammary carcinoma models. Following tdLN removal, interstitial fluid containing soluble antigen was diverted through interstitial spaces across lymphosome boundaries to distant LNs, wherein cancer-derived antigen was acquired and presented to T cells by LN-resident type I conventional dendritic cells. These responses persisted after primary tumor resection and supported ICB-induced systemic immunity. Locoregional delivery of ICB to compensatory LNs enhanced anti-cancer responses after tdLN resection. Consistently, ICB responses in head and neck cancer patients were associated with reactive LNs at distant sites. Thus, antigen rerouting enables distant LNs to compensate for resected tdLNs and sustain anti-cancer immunity, including responses enhanced by immunotherapy.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.09.009",
+      "pmcid": null,
+      "authors": [
+        "Lutz Menzel",
+        "Hengbo Zhou",
+        "James W Baish",
+        "Meghan J O'Melia",
+        "Laurel B Darragh",
+        "Derek N Effiom",
+        "Emma Specht",
+        "Juliane Czapla"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "antigen transport",
+        "completion lymph node dissection",
+        "immune checkpoint blockade",
+        "immune therapy",
+        "lymph flow",
+        "lymph node surgery",
+        "sentinel lymph node biopsy",
+        "tumor-draining lymph node"
+      ],
+      "weekly_match": true,
+      "score": 44.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.009",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42875546",
+      "title": "Compartment-specific PPARδ activity controls the outcome of cancer-immune cell competition and immunotherapy efficacy.",
+      "journal": "Nature immunology",
+      "pub_date": "2026-10-14",
+      "abstract": "Most patients with solid tumors fail to sustain antitumor immunity, in part because immune cells cannot outcompete cancer cells inside the immunosuppressive tumor microenvironment. Here, we show the lipid-sensing transcription factor PPARδ is a compartment-specific determinant of cancer-immune fitness balance and immunotherapy efficacy. Activating PPARδ in cancer cells promotes their growth and impairs antitumor immunity, whereas activating it in immune cells drives tumor suppression and overrides tumor-promoting effects of cancer-intrinsic activation. Mechanistically, PPARδ enhances CD8+ T cell fitness against cancer through effector-associated chromatin remodeling and Cpt1a-mediated fatty acid oxidation. Therapeutically, PPARδ-activated CD8+ T cells sensitize immunotherapy-resistant microsatellite stable metastatic colorectal cancer to checkpoint blockade in mice, and pharmacological or genetic PPARδ activation enhances human chimeric antigen receptor T cell function. These findings identify compartment-specific PPARδ activity as a targetable driver of immune cell fitness that can be harnessed to improve outcomes in immunotherapy-resistant tumors.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1038/s41590-026-02685-2",
+      "pmcid": null,
+      "authors": [
+        "Paul Bunk",
+        "Ilgin Ergin",
+        "Timothy Maher",
+        "Vyom Shah",
+        "Julia R Bonney",
+        "Lokesh B S S Kumar",
+        "Charlie Chung",
+        "Nils Wellhausen"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 43.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1038/s41590-026-02685-2",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42880285",
+      "title": "Mitochondria-targeted tetraoxanes initiate lipid peroxidation to drive ferroptosis and tumor suppression.",
+      "journal": "Cell",
+      "pub_date": "2026-10-15",
+      "abstract": "Ferroptosis is implicated as a vulnerability in multiple cancers, yet approaches for effectively inducing ferroptosis in vivo are limited. Bypassing conventional strategies targeting the antiferroptotic glutathione peroxidase 4 (GPX4) and ferroptosis suppressor protein 1 (FSP1) proteins, we designed metabolic initiators of lipid peroxidation (MILPOs) and developed the compounds WMK-1/2, which contain tetraoxane radical-generating and mitochondria-targeting groups, as de novo ferroptosis inducers. WMK-1 localizes primarily to mitochondria, induces local lipid peroxidation, and impairs oxidative phosphorylation. WMK-1 induces a \"mito-ferroptosis\" sub-pathway that skips GPX4 inhibition as a prerequisite, can be rescued by lipophilic radical-trapping antioxidants, yet is minimally sensitive to acyl-coenzyme A synthetase long-chain family member 4 (ACSL4) perturbation and long-chain polyunsaturated fatty acid (PUFA) supplementation, and evades retinol-mediated protection. Instead, WMK-1-induced cell death requires labile Fe2+ and can be selectively suppressed by ɑ-lipoic acid, an endogenous, mitochondria-resident antioxidant. WMK-1/2 are bioavailable and exhibit significant efficacy in tumor suppression by eliciting ferroptosis in multiple cancer models and augmenting the antitumor effects of immune-checkpoint blockers. Our work provides a protein-targeting-independent metabolic ferroptosis induction strategy for potential cancer therapy.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cell.2026.09.040",
+      "pmcid": null,
+      "authors": [
+        "Zijian Pan",
+        "Ming-Kwan Wong",
+        "Yang Lu",
+        "Jingxuan Mao",
+        "Fengxiang Wang",
+        "Xin Gu",
+        "Kaiyin Huang",
+        "Taotao Shi"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "cancer and metastasis",
+        "ferroptosis induction",
+        "iron metabolism",
+        "metabolic initiator of lipid peroxidation",
+        "mito-ferroptosis",
+        "mitochondria",
+        "tetraoxanes"
+      ],
+      "weekly_match": true,
+      "score": 36.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.040",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42526438",
+      "title": "CRISPR screens identify targets to rescue age-related T cell dysfunction in cancer.",
+      "journal": "Cell",
+      "pub_date": "2026-10-15",
+      "abstract": "Immune aging impairs T cell-mediated tumor control as well as cancer immunotherapy outcomes. The most important drivers of T cell dysfunction in aged tumors remain unknown. We performed single-cell CRISPR screens to identify Dusp5 and Zfp219 as key regulators of CD8+ T cell persistence and effector differentiation within aged tumors. Loss of Dusp5 increased extracellular signal-regulated kinase (ERK) phosphorylation and globally enhanced T cell proliferation. Conversely, Zfp219 deletion induced epigenetic reprogramming and increased expression of cytotoxic molecules, enhancing antitumor immunity specifically in aging. Levels of the human ortholog ZNF219 were higher within intratumoral CD8+ T cells from older cancer patients, which correlates with worse survival following immunotherapy. Zfp219 ablation synergized with immune checkpoint inhibitors to expand effector-like CD8+ T cells, leading to tumor clearance in aged mice. Our findings highlight Dusp5 and Zfp219 as critical drivers of age-related T cell dysfunction that can be targeted to rejuvenate antitumor immunity in older cancer patients.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cell.2026.07.016",
+      "pmcid": null,
+      "authors": [
+        "Alex C Y Chen",
+        "Keely Y Ji",
+        "Cansu Yerinde",
+        "Nelson H Knudsen",
+        "Kevin Bi",
+        "Shumeng Hao",
+        "Vasyl Zhabotynsky",
+        "Daniela Martinez"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "T cells",
+        "antitumor immunity",
+        "cancer immunology and immunotherapy",
+        "immune aging",
+        "in vivo single-cell CRISPR screen"
+      ],
+      "weekly_match": true,
+      "score": 35.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cell.2026.07.016",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42753739",
+      "title": "Cancers modulate processing and presentation of p53 neoantigens to evade T cell detection.",
+      "journal": "Immunity",
+      "pub_date": "2026-10-13",
+      "abstract": "TP53 mutations occur early in malignant transformation as truncal events in tumor evolution and are therefore generally present in all descendant tumor cells, creating an immunological vulnerability. Here, we examined the immunogenicity and antigenicity of p53 neoantigens emerging from these truncal mutations. Comprehensive immunopeptidomics revealed that hotspot mutations in human tumors preferentially localize to p53 regions resistant to antigen processing, thereby avoiding display altogether. Moreover, for neoantigens presentable by HLA-A∗02:01 or HLA-B∗07:02 and structurally divergent from corresponding wild-type p53 peptide-HLA complexes, clinical tumors commonly lacked the relevant presenting HLA allele. Tumor cells further resisted T cell killing through increased activity of the aminopeptidase ERAP1, preventing display of high-affinity HLA-A∗02:01 complexes containing an immunogenic p53I195F-derived 11-mer, or by expressing low-affinity HLA-A∗02:01 complexes containing a p53R175H-derived 9-mer with poor antigenicity despite high-quality human TCRs. These findings define mechanisms by which tumors restrict targetable truncal neoantigen display and suggest immunopeptidome shift strategies to circumvent immune escape.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.08.011",
+      "pmcid": "PMC13643599",
+      "authors": [
+        "Koji Haratani",
+        "Bruce Reinhold",
+        "Jonathan S Duke-Cohan",
+        "Caroline G Fahey",
+        "Kemin Tan",
+        "Robert J Mallis",
+        "Alexander Gusev",
+        "Kenneth L Kehl"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "CTL",
+        "ERAP",
+        "HLA",
+        "T cell receptor",
+        "TCR",
+        "TCR performance;",
+        "antigenicity",
+        "immune editing",
+        "immunogenicity",
+        "immunopeptidome",
+        "p53",
+        "truncal neoantigens",
+        "tumor immunity"
+      ],
+      "weekly_match": true,
+      "score": 29.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.08.011",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42838057",
+      "title": "Induced regulatory B cells stably expressing interleukin-10 reverse central nervous system autoimmunity by targeting myeloid cells.",
+      "journal": "Immunity",
+      "pub_date": "2026-10-13",
+      "abstract": "The lack of approaches to produce interleukin (IL)-10-producing B cells at high frequency has hampered mechanistic investigation into the generation, fate, and activity of these regulatory cells. We screened pharmacological compounds for their ability to induce IL-10 expression in B cells. One compound, N6, promoted stable IL-10 expression in >95% of B cells. Transfer of IL-10+ B cells induced remission of experimental autoimmune encephalomyelitis. N6-induced B cells accumulated in the central nervous system (CNS) and differentiated into IL-10+ plasma cells, promoting transcriptional and phenotypic changes in myeloid cells within the CNS. The therapeutic effect of IL-10+ B cell transfer was abrogated in mice lacking IL-10 receptor expression in long-lived myeloid cells, pointing to microglia as targets of B cell-derived IL-10. Importantly, an N6 analog corrected defective IL-10 expression in B cells from multiple sclerosis patients. Our findings establish a pharmacological strategy to generate IL-10+ B cells with therapeutic potential and identify microglia as critical targets for intercepting neuroinflammatory disease progression.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.09.006",
+      "pmcid": null,
+      "authors": [
+        "Benoît Manfroi",
+        "Van Duc Dang",
+        "Bui Thi Cuc",
+        "Annemarie Jungmann",
+        "Sibyline Borzakian",
+        "Yanli Tong",
+        "Claire Beauvineau",
+        "Louise Dupuis"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "cell therapy",
+        "experimental autoimmune encephalomyelitis",
+        "immune-mediated diseases",
+        "induced regulatory B cells",
+        "interleukin-10",
+        "microglia",
+        "multiple sclerosis",
+        "neuroinflammation"
+      ],
+      "weekly_match": true,
+      "score": 28.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.006",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42561936",
+      "title": "Group 2 innate lymphoid cells activate myelin-reactive T cells to augment neuroinflammation.",
+      "journal": "Immunity",
+      "pub_date": "2026-10-13",
+      "abstract": "The meninges are a gateway for pathogenic T cells to enter the central nervous system (CNS). They possess a diverse repertoire of immune cells that orchestrate CNS inflammation and autoimmunity, yet the underlying mechanisms are poorly understood. Here, we report that group 2 innate lymphoid cells (ILC2s) accumulated in the dura as experimental autoimmune encephalomyelitis (EAE) progressed. Single-cell RNA sequencing and flow cytometry analyses revealed distinct features of ILC2s, including expression of MHC class II. ILC2s acted as antigen-presenting cells to activate and expand myelin-reactive T cells in an MHC class II-dependent manner. ILC2-mediated expansion of myelin-reactive T cells increased expression of cytokines IFN-γ and IL-17A. Genetic ablation of ILC2s or of H2-Ab1 in ILC2s alleviated neuroinflammation and CNS demyelination during EAE. These findings revealed a role of ILC2s in neuroinflammation via instructing myelin-reactive T cells, implying targeting ILC2s may be an avenue to restrict CNS inflammation and autoimmunity.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.07.011",
+      "pmcid": null,
+      "authors": [
+        "Huachen Huang",
+        "Gaoyu Liu",
+        "Yali Han",
+        "Yuyang Miao",
+        "Zhibao Zhu",
+        "Ying Wang",
+        "Jianye Wang",
+        "Mengxuan Shi"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "antigen presentation",
+        "group 2 innate lymphoid cells",
+        "multiple sclerosis",
+        "neuroinflammation",
+        "sex difference"
+      ],
+      "weekly_match": true,
+      "score": 27.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.07.011",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42886820",
+      "title": "Glycome remodeling programs pathogenic γδ T17 cell responses in autoimmunity.",
+      "journal": "Science immunology",
+      "pub_date": "2026-10-16",
+      "abstract": "Glycans play fundamental roles in T cell biology; however, the glycome landscape of γδ T cells remains to be unlocked. Despite the growing importance of γδ T cells in host defense, tissue homeostasis, and diseases, the glycosylation mechanisms guiding their activation, commitment, and function remain poorly defined. By performing single-cell RNA sequencing, we revealed that type 3/γδ T17/interleukin-17A (IL-17A)-committed γδ T cells rely on (N-acetylglucosaminyltransferase 1) MGAT1-MGAT5-mediated branched N-glycosylation. We further demonstrated that the absence of branched N-glycans on γδ T cells acts as a peripheral signal, driving an IL-17A-pro-inflammatory phenotype, alongside a shift to a Vγ4+ subset and the imprinting of innate-like properties. This altered glycoform of type 3 γδ T cells was shown to induce severe psoriasis. γδ T cells from patients with autoimmune and inflammatory diseases exhibited a deficiency in branched N-glycans. Glycan supplementation can reprogram γδ T cells toward a less-pathogenic state, highlighting N-glycans as a previously unrecognized immune checkpoint for γδ T cells.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1126/sciimmunol.aec9553",
+      "pmcid": null,
+      "authors": [
+        "Beatriz Santos-Pereira",
+        "Rafaela Nogueira",
+        "Yohannes Tafesse",
+        "Ariana Correia-Silva",
+        "Eduarda Leite-Gomes",
+        "Guillem Sanchez Sanchez",
+        "Xavier Luppens",
+        "Lyndsay E A Young"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 26.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1126/sciimmunol.aec9553",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42580342",
+      "title": "The genesis of cutaneous neurogenic inflammation is a multi-step process requiring dendritic cell aggregation.",
+      "journal": "Immunity",
+      "pub_date": "2026-10-13",
+      "abstract": "Cutaneous inflammation involving neuroimmune interactions can be initiated by both neurons and immune cells, making it complicated to parse the mechanisms of neurogenic inflammation. Optogenetic activation of Trpv1-expressing nociceptors drives type-17 inflammation in the absence of other inflammatory triggers. We found that two rounds of nociceptor activation were required for Il23a expression and maximal expression of Il1b and Il6, key drivers of type-17 inflammation. The first round of nociceptor activation triggered transient type 2 dendritic cell (DC2) aggregation that required substance P-Mrgprb2-dependent mast cell activation and mast cell-derived chemokine CCL2. Spatial transcriptomic analysis revealed that DC aggregation allowed the second nociceptor stimulation to efficiently activate DCs via the neuropeptide calcitonin gene-related peptide α (CGRPα). Thus, early neurogenic inflammation is a two-step process: substance P induces Mrgprb2-dependent mast cell activation and formation of DC aggregates that allow for efficient subsequent CGRPα-mediated DC activation. These data reveal a multi-cell, dynamic mechanism underlying neurogenic inflammation.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.07.010",
+      "pmcid": "PMC13580354",
+      "authors": [
+        "Chien-Sin Chen",
+        "Jacob E Gillis",
+        "Jonathan A Cohen",
+        "Alexandra R Glathar",
+        "Yijia Chen",
+        "Eric S Weiss",
+        "Lindsay M McKendrick",
+        "Caitlin O Bacon"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "CCL2",
+        "CGRPα",
+        "MrgprB2",
+        "Trpv1 neurons",
+        "dendritic cells",
+        "mast cells",
+        "neurogenic inflammation",
+        "nociceptors",
+        "substance P"
+      ],
+      "weekly_match": true,
+      "score": 26.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.07.010",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42838045",
+      "title": "STING reprogramming by estrogen promotes neutrophil extracellular trap formation and sex-biased resistance to ADC therapy.",
+      "journal": "Cell",
+      "pub_date": "2026-10-15",
+      "abstract": "Sex differences in cancer therapy response remain poorly understood. Using a \"phase II-like preclinical trial\" across 55 CLDN18.2+ pancreatic cancer patient-derived xenografts, we identify marked female-biased resistance to CLDN18.2-targeted antibody-drug conjugate (ADC) therapy despite equivalent antigen expression. Mechanistically, estrogen signals through GPER1 to upregulate TRAF6, redirecting tumor-intrinsic STING signaling from IRF3-mediated interferon production toward nuclear factor κB (NF-κB) activation. This drives CXCL1 secretion, neutrophil recruitment, and neutrophil extracellular trap (NET) formation. NETs form a charged extracellular network that restricts antibody access to tumor-cell-surface antigens-a mechanism we term functional antigen shielding-reducing ADC cytotoxicity independently of antigen expression. The NET burden also correlated with poorer responses to trastuzumab, cetuximab, and enfortumab vedotin across three clinical cohorts. Pharmacologic NET disruption with sivelestat restored ADC efficacy in female mice. These findings reveal an estrogen-driven resistance mechanism with broad implications for antibody-based cancer therapy.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cell.2026.09.031",
+      "pmcid": null,
+      "authors": [
+        "Jingrui Yan",
+        "Tianxing Zhou",
+        "Shangheng Shi",
+        "Guohua Mao",
+        "Jingbo Xu",
+        "Yu Zhang",
+        "Yaqi Zhang",
+        "Huizhi Sun"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "CLDN18.2-targeted ADC",
+        "PDAC",
+        "STING reprogramming",
+        "neutrophil extracellular traps",
+        "sex dimorphism"
+      ],
+      "weekly_match": true,
+      "score": 25.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.031",
+      "supplement_reason": null
+    }
+  ],
+  "weekly_papers": {
+    "Nature": [
+      {
+        "pmid": "42875502",
+        "title": "A microexon regulatory code reveals autism-linked genetic variation.",
+        "journal": "Nature",
+        "pub_date": "2026-10-14",
+        "abstract": "Neuronal microexons are a highly conserved class of alternative splicing events enriched in genes with critical functions in nervous system biology1,2. Microexon splicing is often disrupted in the brains of autistic individuals, and mice with microexon deficiencies display autism-like phenotypes1,3,4. However, the full landscape of microexons is not known, and the impact of genetic variation on these exons has not been systematically investigated. Here, through extensive transcriptome profiling, we detect hundreds of new microexons, including many with neuronal subtype-specific splicing patterns, and others that activate nonsense-mediated mRNA decay. Using machine learning, we define a sequence code predictive of neuronally spliced microexons and use this to identify critical regulatory elements surrounding the expanded microexon repertoire. This code further reveals genomic variants predicted to alter microexon splicing in individuals affected by autism, with rare variants having the strongest estimated impact. These variants are mostly detected in idiopathic individuals and are associated with autism status. They also converge on synaptic and other autism-linked genes, as well as genes not previously linked to autism. Our results collectively define an expanded repertoire of microexons, delineate their regulatory code, and pinpoint variants predicted to affect their splicing, with implications for the disruption of functions central to neuronal biology and brain disorders.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11119-w",
+        "pmcid": null,
+        "authors": [
+          "Guillermo E Parada",
+          "Hannes Bretschneider",
+          "Jack Daiyang Li",
+          "Jacob L Fine",
+          "Steven J Dupas",
+          "Jonathan D Ellis",
+          "Ulrich Braunschweig",
+          "Sophie Bonnal"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 8.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11119-w",
+        "supplement_reason": null
+      }
+    ],
+    "Science": [
+      {
+        "pmid": "42879563",
+        "title": "A pair of chitosan receptors confer broad-spectrum fungal resistance.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-10-15",
+        "abstract": "Chitosan, a major fungal cell wall component, activates plant immunity, yet the underlying perception mechanism remains unknown. In this study, we identified OsFID1, an apoplast-localized DUF26 domain protein, as a chitosan-binding receptor essential for chitosan-triggered immunity. OsFID1 forms a receptor complex with OsFID2, a plasma membrane-localized DUF26 receptor-like kinase, to mediate chitosan sensing and immune activation, requiring OsFID2 phosphorylation for function. The OsFID1-OsFID2 complex confers broad-spectrum resistance to fungal pathogens. OsFID1 homologs are conserved in land plants, which show chitosan-binding activity in both monocots and dicots. Ectopic expression of OsFID1 in wheat and maize enhanced fungal resistance without growth penalty. These findings uncover a conserved receptor complex for direct chitosan sensing, advancing our understanding of plant-fungus interactions and providing a potential strategy for engineering durable fungal resistance crops.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.ady7647",
+        "pmcid": null,
+        "authors": [
+          "Keyi Huang",
+          "Jingni Wu",
+          "Yu Cao",
+          "Yingying Cao",
+          "Zhongji Pu",
+          "Aoshen Xu",
+          "Wenzhao Wang",
+          "Xue Zhou"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.ady7647",
+        "supplement_reason": null
+      }
+    ],
+    "Cell": [
+      {
+        "pmid": "42880286",
+        "title": "A phenome-wide structural variant map from 467,152 UK Biobank genomes.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Structural variants (SVs) are large (>50 base pairs) genomic rearrangements that can significantly influence human phenotypes, yet their contribution to health and disease remains undercharacterized. We conducted a phenome-wide association study (PheWAS) of 1.6 million SVs identified in whole-genome sequencing data from 467,152 UK Biobank participants, across 13,322 binary, 2,018 quantitative, and 2,923 plasma protein traits. Of these, 82.25% of SVs were outside the detectable range of prior copy-number variant studies. Protein quantitative trait loci analysis linked 3,467 SVs to 1,690 proteins, with effects dependent on SV type and location. In SV-PheWAS, we detected 28,184 associations with human health outcomes. Notably, we uncovered rare SVs with strong phenotypic effects. Furthermore, we show that at known genome-wide association study loci, 32.21% of associated SVs overlapped functional genomic regions. This study underscores the underestimated role of SVs in human genetics and their potential to advance understanding of human biology and drug discovery.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.035",
+        "pmcid": null,
+        "authors": [
+          "Santosh S Atanur",
+          "Fengyuan Hu",
+          "Haiyi Lou",
+          "Xiaoyin Li",
+          "Xueqing Zoe Zou",
+          "Sean O'Dell",
+          "Sri V V Deevi",
+          "Paula Sawczuk"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "biomarkers",
+          "drug discovery",
+          "genomics",
+          "human genetics",
+          "multi-ancestry meta analysis",
+          "non-coding variants",
+          "phenome-wide association study",
+          "protein quantitative trait loci",
+          "structural variants",
+          "whole genome sequencing"
+        ],
+        "weekly_match": true,
+        "score": 3.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.035",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42880285",
+        "title": "Mitochondria-targeted tetraoxanes initiate lipid peroxidation to drive ferroptosis and tumor suppression.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Ferroptosis is implicated as a vulnerability in multiple cancers, yet approaches for effectively inducing ferroptosis in vivo are limited. Bypassing conventional strategies targeting the antiferroptotic glutathione peroxidase 4 (GPX4) and ferroptosis suppressor protein 1 (FSP1) proteins, we designed metabolic initiators of lipid peroxidation (MILPOs) and developed the compounds WMK-1/2, which contain tetraoxane radical-generating and mitochondria-targeting groups, as de novo ferroptosis inducers. WMK-1 localizes primarily to mitochondria, induces local lipid peroxidation, and impairs oxidative phosphorylation. WMK-1 induces a \"mito-ferroptosis\" sub-pathway that skips GPX4 inhibition as a prerequisite, can be rescued by lipophilic radical-trapping antioxidants, yet is minimally sensitive to acyl-coenzyme A synthetase long-chain family member 4 (ACSL4) perturbation and long-chain polyunsaturated fatty acid (PUFA) supplementation, and evades retinol-mediated protection. Instead, WMK-1-induced cell death requires labile Fe2+ and can be selectively suppressed by ɑ-lipoic acid, an endogenous, mitochondria-resident antioxidant. WMK-1/2 are bioavailable and exhibit significant efficacy in tumor suppression by eliciting ferroptosis in multiple cancer models and augmenting the antitumor effects of immune-checkpoint blockers. Our work provides a protein-targeting-independent metabolic ferroptosis induction strategy for potential cancer therapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.040",
+        "pmcid": null,
+        "authors": [
+          "Zijian Pan",
+          "Ming-Kwan Wong",
+          "Yang Lu",
+          "Jingxuan Mao",
+          "Fengxiang Wang",
+          "Xin Gu",
+          "Kaiyin Huang",
+          "Taotao Shi"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cancer and metastasis",
+          "ferroptosis induction",
+          "iron metabolism",
+          "metabolic initiator of lipid peroxidation",
+          "mito-ferroptosis",
+          "mitochondria",
+          "tetraoxanes"
+        ],
+        "weekly_match": true,
+        "score": 36.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.040",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42880284",
+        "title": "Multi-omics atlas of chronic exercise.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Exercise reduces all-cause mortality, yet its molecular effects across organs, sexes, and circadian phases remain incompletely understood. We subjected mice to 8 weeks of voluntary wheel running and collected 22 tissues and plasma during active and inactive phases for bulk RNA sequencing, metabolomics, proteomics, and single-nucleus RNA and methylation sequencing. Exercise induced canonical fiber-type switching and widespread, tissue-specific remodeling, with the largest transcriptomic changes in skeletal muscle. Except for the hypothalamus, kidney, and lung, most tissues changed more during the active phase. Females showed broader transcriptional responses, with distinct downregulation. Pairing single-nucleus methylomes with transcriptomes resolved the cell types driving exercise-induced epigenetic remodeling-changes undetectable by bulk studies. These included coordinated gene-body demethylation and transcription that tracked with fiber-type switching in specific myonuclei. Cell-type-resolved methylation, including partially methylated domains characterized in muscle, revealed a strong, sex-biased epigenetic response to training. Machine learning identified conserved exercise signatures across mammalian species.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.044",
+        "pmcid": null,
+        "authors": [
+          "Geraldine Maier",
+          "Manoj Hariharan",
+          "Ramesh K Ramasamy",
+          "Aidan Glina",
+          "Laura van Rosmalen",
+          "Suraj J Pathak",
+          "Shaunak Deota",
+          "Sahil Patel"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "metabolomics",
+          "multi-omics",
+          "muscle",
+          "proteomics",
+          "sex difference",
+          "single-nucleus DNA methylation",
+          "single-nucleus RNA seqencing",
+          "tendon",
+          "transcriptomics",
+          "voluntary exercise"
+        ],
+        "weekly_match": true,
+        "score": 8.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.044",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42880283",
+        "title": "An opioid efficacy switch for reversible optical control of analgesia.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "The mu-opioid receptor (MOR) is a major target for pain treatment, but its effectiveness is limited by dangerous side effects. However, the systemic administration of opioids makes it difficult both to decipher their underlying mechanisms of action and to limit drug action to specific receptor subpopulations to isolate therapeutic effects from adverse effects. Here, we develop a reversibly photoswitchable morphinan agonist termed \"azo-morphine-3\" (AM-3) that interconverts from low to high efficacy in response to light to enable optical control of MOR signaling. Structural analysis of the low (\"trans\") and high (\"cis\") efficacy states of AM-3 bound to the MOR reveals distinct binding modes, with each state driving unique ligand, receptor, and G protein dynamics. In mice, AM-3 drives reversible and repeatable optical control of antinociception across pain models with a reduced side effect profile owing to its limited brain accumulation and its ability to be locally activated.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.042",
+        "pmcid": null,
+        "authors": [
+          "Luca Posa",
+          "Giovanna R Romano",
+          "Xiang Ji",
+          "Saif Khan",
+          "Antonina L Nazarova",
+          "Sheida Sharghi Moshtaghin",
+          "Bruno Paz",
+          "Gye Won Han"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "G protein",
+          "GPCR",
+          "analgesic",
+          "conformational dynamics",
+          "cryo-EM",
+          "efficacy",
+          "morphine",
+          "opioid",
+          "pain",
+          "periaqueductal gray",
+          "photopharmacology"
+        ],
+        "weekly_match": true,
+        "score": 5.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.042",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42880282",
+        "title": "Functional diversification of the cephalopod proteome by RNA editing.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Coleoid cephalopods exhibit the highest levels of adenosine deaminases acting on RNA (ADAR)-mediated RNA editing of any known taxon, yet the functional consequences of most recoding events remain unclear. Here, we integrated proteomics with biochemical and cellular assays to characterize recoding across the Doryteuthis pealeii proteome. This confirmed the translation of 7,997 recoded sites at the protein level and revealed how recoding reshapes the proteome by altering protein stability, subcellular localization, post-translational modifications, and enzymatic activity. We find that recoding also creates or ablates post-translational modification sites, with direct effects on protein function and protein-protein interactions. Recoding the E3 ligase MARCHF5 drives widespread changes in substrate ubiquitylation and perturbs mitochondrial homeostasis, illustrating how RNA editing can influence organelle function. Together, these data give a proteome-scale view of how extensive RNA recoding diversifies protein function in coleoid cephalopods and offer a framework for understanding how RNA-level plasticity shapes protein function and cellular physiology.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.043",
+        "pmcid": null,
+        "authors": [
+          "Jack M Moen",
+          "Alicia L Richards",
+          "Einar K Krogsaeter",
+          "Benjamin J Polacco",
+          "Martin Gordon",
+          "Erica Stevenson",
+          "Rhiana Boyles",
+          "Maximilien Burq"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ADAR",
+          "MARCHF5",
+          "RNA editing",
+          "cephalopods",
+          "coleoids",
+          "post-translational modifications",
+          "protein recoding",
+          "proteomics",
+          "solvent shift",
+          "subcellular localization"
+        ],
+        "weekly_match": true,
+        "score": 3.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.043",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42880281",
+        "title": "Cellular self-organization orchestrates ferroptosis propagation.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Self-organization generates cellular patterns that guide morphogenesis, but how it regulates collective cell fate remains underexplored. We show that cellular self-organization constrains the propagation of ferroptosis, an iron-dependent form of oxidative cell death that can otherwise spread as unbounded trigger waves. The spatial patterning of cell density and alignment encodes transcriptional programs, priming cells toward ferroptosis-sensitive or -resistant fates. Low-density, misaligned regions with elevated YAP/TEAD1 activity are sensitive, whereas high-density, aligned regions with increased NRF2 expression form propagation-resistant boundaries. Cell elongation establishes a polarized distribution of oxidizable lipids, creating peroxidation hotspots at the cell poles that promote propagation along cell alignment. In silico and pharmacological perturbations reveal that pattern-dependent susceptibility and polarized lipid organization act together to constrain isotropic waves into spatially confined, anisotropic propagation. These findings identify self-organization as a systems-level mechanism governing collective homeostasis, providing a paradigm to explore how tissue-scale organization regulates cell death in development and disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.039",
+        "pmcid": null,
+        "authors": [
+          "Jen-Hao Cheng",
+          "Hannah K C Co",
+          "Hao-Kuen Lin",
+          "Chia-Chou Wu",
+          "Sheng-Hong Chen"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "active nematics",
+          "cellular patterns",
+          "ferroptosis",
+          "self-organization",
+          "topological defects",
+          "trigger waves"
+        ],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.039",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42880234",
+        "title": "Spatiotemporal co-transcriptomics uncovers coordinated rhizobia-legume stress programs supporting nitrogen fixation in Medicago.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Rhizobial nitrogen fixation in legume nodules requires precise spatial and temporal coordination between host and bacterial gene expression. Here, we applied spatial enhanced resolution omics sequencing (Stereo-seq) to profile Medicago nodules across five developmental stages, generating a co-transcriptomic atlas of nodule development. Using a mixed-probe capture strategy, we simultaneously detected host and rhizobial transcripts within the same tissue sections, enabling analysis of host-microbe transcriptional coordination during symbiosis. We identified dynamic changes in host cell composition and developmental trajectories and uncovered two transcription factors, MtERF82 and MtDOF53, required for maintenance of the indeterminate nodule meristem. Rhizobial and host genes exhibited stage- and zone-specific expression patterns along the nodule apex-to-base axis. Notably, reactive oxygen species (ROS)-associated stress responses in both host cells and rhizobia were linked to symbiotic nitrogen fixation. Functional analyses further showed that MtERF71 and MtCBF1 promote nitrogen fixation by regulating ROS homeostasis and activating key symbiotic genes, highlighting stress signaling as an integral component of mutualistic symbiosis.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.07.033",
+        "pmcid": null,
+        "authors": [
+          "Wenwen Shao",
+          "Xiaobao Shi",
+          "Xing Guo",
+          "Sunhuan Xiang",
+          "Yubin Xiao",
+          "Xuanmin Guang",
+          "Dongming Fang",
+          "Xinghua Lian"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "meristem maintenance",
+          "nitrogen fixation",
+          "root nodule symbiosis",
+          "spatiotemporal transcriptomics",
+          "stress response",
+          "transcriptional regulator"
+        ],
+        "weekly_match": true,
+        "score": 3.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.07.033",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42880233",
+        "title": "A telomere-to-telomere map of somatic mutation burden and functional impact in a cancer.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Cancer genomes harbor extensive somatic genetic and epigenetic variation, yet large portions of the genome remain inaccessible to conventional reference-based analyses. Here, we demonstrate that pairing a near-telomere-to-telomere (near-T2T) diploid assembly of a donor with deep short- and long-read sequencing of their melanoma reveals that 16% of somatic variants localize to sequences absent from GRCh38, with satellite repeats acting as hotspots for UV-associated mutagenesis. Centromere kinetochore binding domains emerge as focal sites of chromosome arm aneuploidy breakpoints and somatic genetic variation, features we further demonstrate are also present in non-cancerous tissues. By contrast, extensive epigenetic remodeling of kinetochore binding domains appears specific to oncogenesis. Single-molecule telomere analyses reconstruct the cycle of telomere erosion and telomerase-mediated extension during tumor evolution, while haplotype-resolved chromatin maps reveal widespread somatic epimutations impacting regulatory elements. Together, these findings define previously inaccessible dimensions of somatic variation and establish a framework for telomere-to-telomere studies of human mosaicism.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.033",
+        "pmcid": null,
+        "authors": [
+          "Min-Hwan Sohn",
+          "Danilo Dubocanin",
+          "Mitchell R Vollger",
+          "Youngjun Kwon",
+          "Anna Minkina",
+          "Katherine M Munson",
+          "Samuel F M Hart",
+          "Jane E Ranchalis"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "aneuploidy",
+          "cancer",
+          "centromere",
+          "diploid",
+          "genome assembly",
+          "single-molecule sequencing",
+          "somatic epimutation",
+          "somatic mutation",
+          "telomere",
+          "telomere-to-telomere"
+        ],
+        "weekly_match": true,
+        "score": 10.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.033",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42880232",
+        "title": "Somatic epimutations cap genetic determinism in the human diploid chromatin epigenome.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Diploid human cells contain two non-identical genomes, and differences in their regulation underlie human development and disease. We present Fiber-seq inferred regulatory elements (FIRE) and show that FIRE provides a more comprehensive and quantitative snapshot of the accessible chromatin landscape across the 6 Gbp diploid human genome, overcoming previously unrecognized biases in existing regulatory element catalogs. FIRE enables comprehensive detection of haplotype-selective chromatin accessibility (HSCA), exposing imprinted elements lacking underlying parent-of-origin differences in DNA methylation and gene regulatory modules that permit genes to escape X chromosome inactivation. We uncover that the human leukocyte antigen (HLA) locus harbors the most HSCA in immune cells, where we resolve specific transcription factor (TF) binding events disrupted by disease-associated variants. Finally, we demonstrate that the regulatory landscape of a cell is littered with autosomal somatic chromatin epimutations that are propagated by clonal expansions to create mitotically stable and non-genetically deterministic chromatin alterations.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.034",
+        "pmcid": null,
+        "authors": [
+          "Mitchell R Vollger",
+          "Elliott G Swanson",
+          "Shane J Neph",
+          "Benjamin J Mallory",
+          "Danilo Dubocanin",
+          "Ching-Huang Ho",
+          "Yong-Han Hank Cheng",
+          "Jane Ranchalis"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "FIRE",
+          "Fiber-seq",
+          "SMaHT",
+          "chromatin",
+          "diploid",
+          "epimutation",
+          "haplotype-selective",
+          "long-read"
+        ],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.034",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42880231",
+        "title": "Comprehensive benchmarking of somatic mutation detection by the SMaHT Network.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Somatic mosaicism is increasingly recognized as a fundamental feature of human biology, yet the detection of somatic mutations remains challenging. The Somatic Mosaicism across Human Tissues (SMaHT) Network conducted large-scale benchmarking experiments involving cell lines and donor tissues to evaluate sequencing technologies, experimental approaches, and computational methods for detecting different types of somatic mutations, generating community resources with >1,000× short-read and 100-400× long-read data for nine analyzed samples. We determined effective strategies for utilizing short- and long-read sequencing for mutation detection and demonstrated that using donor-specific and pangenome-inferred diploid assemblies improved calling, extending mutation catalogs to challenging genomic regions. We benchmarked six duplex technologies and showed that single-cell sequencing resolves cell-type-specific mutational patterns and heterogeneity. Our results indicate that bulk, single-cell, and duplex analyses are complementary and that leveraging all three provides comprehensive characterization of mosaicism within tissues. Together, these findings provide the scientific and clinical communities with a roadmap for accurate genome-wide somatic mutation analysis.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.037",
+        "pmcid": null,
+        "authors": [
+          "Somatic Mosaicism across Human Tissues Network. Electronic address: abyzov.alexej@mayo.edu",
+          "Somatic Mosaicism across Human Tissues Network"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "PTA",
+          "assembly",
+          "cell",
+          "duplex",
+          "human",
+          "lineage",
+          "mosaicism",
+          "mutation",
+          "post-zygotic",
+          "somatic"
+        ],
+        "weekly_match": true,
+        "score": 3.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.037",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42880230",
+        "title": "Charting the silent variation within us.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Every cell in the human body carries its own genome, shaped by mutations acquired over a lifetime, yet this vast somatic variation has been nearly impossible to measure. The SMaHT Network now delivers benchmarked tools and the first body-wide map of somatic mosaicism, establishing a baseline of \"normal\" against which its roles in development, aging, and disease can finally be tested.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.046",
+        "pmcid": null,
+        "authors": [
+          "Jacey R Pridgen",
+          "Margaret A Goodell"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 3.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.046",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42880229",
+        "title": "Cellular scaling laws in the mammalian brain.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Recent whole-brain cell atlases have uncovered a consistent cytoarchitectural feature: the greatest diversity of discrete neuronal cell types resides not in the regions with the most neurons (e.g., the cortex and cerebellum) but rather in deep subcortical structures like the hypothalamus and brain stem. We propose that this discrepancy reflects a fundamental algorithmic division in the vertebrate brain between a \"learning subsystem\" and a \"steering subsystem.\" The learning subsystem (cortex, striatum, and cerebellum) scales via the replication of repetitive modules to maximize computational capacity, analogous to scaling up parameters in machine learning models. By contrast, the steering subsystem (hypothalamus, pallidum, and brainstem) scales via diversification of bespoke cell types to encode innate drives and reflexes, functioning as a high-dimensional biological \"reward function.\" This framework explains the divergence in how evolution has influenced these subsystems and offers a unified lens for understanding brain architecture and the etiology of brain disease; furthermore, it may inform model designs for artificial intelligence.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1016/j.cell.2026.08.044",
+        "pmcid": null,
+        "authors": [
+          "Fei Chen",
+          "Evan Z Macosko"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "artificial intelligence",
+          "cellular neuroscience",
+          "single-cell genomics",
+          "spatial genomics"
+        ],
+        "weekly_match": true,
+        "score": 5.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.08.044",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42849439",
+        "title": "Immunoregulatory gene GIMAP6 suppresses lethal atherosclerotic vasculopathy and ischemic heart failure.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Controlling hyperlipidemia has reduced but not eliminated atherosclerotic cardiovascular disease (ASCVD) as a major cause of human mortality. Here, we report that loss of the immunoregulatory gene GTPase of immunity-associated protein 6 (Gimap6) in mice causes an inflammatory vasculopathy and accelerated atherosclerosis in the absence of hyperlipidemia. These vascular abnormalities cause progressive cardiac ischemia, myocardial infarction, and heart failure, culminating in early death. GIMAP6 loss precipitates early endothelial barrier failure and a mitochondrial reactive oxygen species (ROS)-PPARγ-CD36 lipid-influx cascade that lowers the threshold for foam-cell formation and induces IL-6/MCP-1/TNF-mediated inflammation. Human hypomorphic GIMAP6 variants, including the African-ancestry-enriched V65I allele, are associated with altered monocyte redox balance, increased CD36-mediated lipid uptake, and early ASCVD. Thus, GIMAP6 is a crucial safeguard for vascular integrity that restrains endothelial dysfunction, macrophage foam cell generation, and inflammation that can cause lethal ASCVD independently of systemic hyperlipidemia.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.032",
+        "pmcid": null,
+        "authors": [
+          "Chen Xiang",
+          "Kaja Arusha",
+          "Danielle Springer",
+          "Sachiko Nakamori",
+          "Jing Cui",
+          "Ping Du Jiang",
+          "Zhi-Hong Yang",
+          "Yu Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CD36",
+          "cardiovascular",
+          "endothelium",
+          "lipid",
+          "macrophage",
+          "mitochondria",
+          "myocardial infarction",
+          "redox"
+        ],
+        "weekly_match": true,
+        "score": 18.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.032",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42849437",
+        "title": "Arabidopsis uses distinct coumarins and bacterial pathways for pH-adaptive iron acquisition.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Iron (Fe) limitation restricts plant growth in diverse soils, and root-associated microbes can alleviate plant Fe starvation. Whether plants integrate the edaphic environment and microbial activities into their Fe uptake strategies remains unclear. We show that bacterium-mediated alleviation of Fe deficiency in Arabidopsis functions at varying environmental pH and is taxonomically widespread among root microbiota isolates from soils with different edaphic profiles. This process is regulated by host-controlled and pH-adapted root exudation of different coumarin chemotypes. These exometabolites interact with root-associated bacteria to mobilize Fe either via bacterial siderophore-mediated chelation at circumneutral pH or redox-sensing-controlled, reduction-based pathways at acidic pH. The corresponding bacterial genes are prevalent in the root microbiota, and they likely evolved before the emergence of land plants. Our findings suggest that Fe malnutrition-induced exudation of redox-active metabolites by non-graminaceous plant species is a widespread adaptation for Fe mobilization from soil, mediated by the co-option of ancient microbial processes.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.030",
+        "pmcid": null,
+        "authors": [
+          "Milena Malisic",
+          "Charles Copeland",
+          "Anton Amrhein",
+          "Pengfan Zhang",
+          "Masayoshi Hashimoto",
+          "Christopher J Harbort",
+          "Tak Lee",
+          "Yudelsy A Tandron Moya"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "PGPR",
+          "coumarins",
+          "plant growth-promoting rhizobacteria",
+          "plant iron nutrition",
+          "redox sensing",
+          "redox-active metabolites",
+          "root microbiota",
+          "siderophore",
+          "soil pH",
+          "specialized metabolites"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.030",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42838045",
+        "title": "STING reprogramming by estrogen promotes neutrophil extracellular trap formation and sex-biased resistance to ADC therapy.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Sex differences in cancer therapy response remain poorly understood. Using a \"phase II-like preclinical trial\" across 55 CLDN18.2+ pancreatic cancer patient-derived xenografts, we identify marked female-biased resistance to CLDN18.2-targeted antibody-drug conjugate (ADC) therapy despite equivalent antigen expression. Mechanistically, estrogen signals through GPER1 to upregulate TRAF6, redirecting tumor-intrinsic STING signaling from IRF3-mediated interferon production toward nuclear factor κB (NF-κB) activation. This drives CXCL1 secretion, neutrophil recruitment, and neutrophil extracellular trap (NET) formation. NETs form a charged extracellular network that restricts antibody access to tumor-cell-surface antigens-a mechanism we term functional antigen shielding-reducing ADC cytotoxicity independently of antigen expression. The NET burden also correlated with poorer responses to trastuzumab, cetuximab, and enfortumab vedotin across three clinical cohorts. Pharmacologic NET disruption with sivelestat restored ADC efficacy in female mice. These findings reveal an estrogen-driven resistance mechanism with broad implications for antibody-based cancer therapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.031",
+        "pmcid": null,
+        "authors": [
+          "Jingrui Yan",
+          "Tianxing Zhou",
+          "Shangheng Shi",
+          "Guohua Mao",
+          "Jingbo Xu",
+          "Yu Zhang",
+          "Yaqi Zhang",
+          "Huizhi Sun"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CLDN18.2-targeted ADC",
+          "PDAC",
+          "STING reprogramming",
+          "neutrophil extracellular traps",
+          "sex dimorphism"
+        ],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.031",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42785301",
+        "title": "Resident tissue macrophages transfer selenium transporter protein to protect pancreatic cancer from ferroptosis.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Pancreatic ductal adenocarcinoma (PDAC), an aggressive cancer with a poor prognosis, contains resident tissue macrophages (RTMs) present before tumor onset and monocyte-derived macrophages recruited during tumor development, but their distinct roles in supporting tumor progression remain unclear. Combining single-cell profiling, spatial analysis, lineage tracing, RTM depletion, and selenium tracing, we found that RTMs preferentially localize at the tumor border, where they promote epithelial-mesenchymal transition (EMT), tumor growth, and metastasis. Mechanistically, RTMs transfer the selenium transporter Selenop to EMThi tumor cells through LRP8-dependent uptake, increasing tumor-cell selenium availability, limiting lipid peroxidation, and shielding EMThi tumor cells from ferroptosis. RTM-specific Selenop deletion or tumor-cell Lrp8 disruption reduced EMT and tumor progression, whereas ferroptosis inhibition reversed the effect of RTM depletion. Human PDAC showed border-enriched SEPP1+ RTMs near EMThi tumor cells, suggesting a conserved macrophage-derived selenium niche that supports invasive tumor states and highlighting the potential for targeting RTMs or their secretory factors in PDAC.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.001",
+        "pmcid": null,
+        "authors": [
+          "Wei Guo",
+          "Ziyi Li",
+          "Qihan Chen",
+          "Garett Dunsmore",
+          "Li Jiang",
+          "Zhijie An",
+          "Ziwen Fu",
+          "Yibo Liu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "EMT",
+          "LRP8",
+          "PDAC",
+          "RTM",
+          "Selenop",
+          "ferroptosis",
+          "macrophages",
+          "resident tissue macrophages",
+          "selenium"
+        ],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.001",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42772280",
+        "title": "Switching of transcriptional control from interferon regulatory factor 2 to interferon regulatory factor 1 drives innate immune cell activation.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Interferon regulatory factor 2 (IRF2) is a transcription factor that prevents skin inflammation in mice and humans but, paradoxically, promotes pyroptosis by upregulating gasdermin D. How IRF2 activates some proinflammatory genes but suppresses inflammation is unclear. We show that skin inflammation in Irf2-deficient mice is driven by IRF1 activation of interferon-stimulated genes (ISGs). Chromatin profiling reveals that IRF1 and IRF2 occupy the same ISG regulatory sites, but as a weaker transcriptional activator, IRF2 limits ISG transcription by IRF1. Toll-like receptor (TLR) signaling favors IRF1-driven transcription by inducing Irf1. In addition, IRF1 recruits the ubiquitin ligase SPOP to ISG sites, resulting in proteasomal degradation of IRF2. This shift from IRF2 to IRF1 occupancy enhances ISG transcription. Collectively, these findings define a hierarchical transcriptional circuit in which IRF2 limits IRF1 activity under homeostatic conditions but is displaced during an immune response, allowing IRF1-dependent gene programs central to innate immunity and autoinflammation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.08.049",
+        "pmcid": null,
+        "authors": [
+          "Cristhian Cadena",
+          "Rohit Reja",
+          "Emma Bolech",
+          "Joshua D Webster",
+          "Vasumathi Kameswaran",
+          "Marco de Simone",
+          "Cynthia Chen",
+          "Jian Jiang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "IRF1",
+          "IRF2",
+          "ISGs",
+          "SPOP",
+          "Toll-like receptor"
+        ],
+        "weekly_match": true,
+        "score": 19.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.08.049",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42753735",
+        "title": "Toward autonomous science with agentic artificial intelligence.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Artificial intelligence (AI) in biomedicine has evolved from pattern-recognition for medical image analysis to generative models like AlphaFold that predict protein structures. Tools such as Elicit, GPT-Rosalind, and Claude Science now bridge prediction and reasoning through literature synthesis, domain-tuned models, and agentic workbenches. Three recent systems (Co-Scientist, Robin, and Biomni) demonstrated agentic AI capable of generating hypotheses, designing experiments, computational analysis, and refining reasoning through experimental feedback. This perspective traces the emergence of agentic scientific reasoning, discusses scaling laws and autonomous laboratories, and argues that AI's transformative potential is inseparable from challenges in hallucination, bias, irreproducibility, and dual use. Scientific progress will depend on responsible human-AI collaboration.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1016/j.cell.2026.08.052",
+        "pmcid": null,
+        "authors": [
+          "Lucie Y Guo",
+          "Darren S J Ting",
+          "Xinyi Su",
+          "Alex Aliper",
+          "Alex Zhavoronkov",
+          "Daniel S W Ting"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Biomni",
+          "Co-Scientist",
+          "Robin",
+          "agentic artificial intelligence",
+          "autonomous science",
+          "drug repurposing",
+          "hypothesis generation",
+          "large language models",
+          "multi-agent systems",
+          "self-driving laboratories"
+        ],
+        "weekly_match": true,
+        "score": -8.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.08.052",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42679820",
+        "title": "Ratiometric transcriptional activation by protein degradation.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Cells can respond to alterations in the abundances of specific proteins through transcriptional outputs. Synthetic approaches inspired by native post-transcriptional circuits that convert protein abundance changes into programmable gene expression would be transformative. Here, we discover and describe design principles that effectively convert protein degradation into transcriptional outputs in live cells. We define ratiometric transcriptional activation, where control over the ratio between a transcription factor and a protein of interest fused to its inhibitor enables detection of abundance changes with high sensitivity at scale. We show that ratiometric transcriptional activation can be implemented in single cells using triply orthogonal circuits or in multicellular pools, operating independently of the mechanism of protein downregulation and enabling simultaneous detection of multiple protein downregulation events through outputs such as cell survival, fluorescent protein expression, or barcode sequencing. These circuits can be applied to oncogenic targets and enable discovery of new molecular glue degraders.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.08.009",
+        "pmcid": null,
+        "authors": [
+          "Melissa A Gray",
+          "Katelyn L Randal",
+          "Jennifer A Co",
+          "Michelle T Tang",
+          "Athena Z Xue",
+          "Sophia W Chen",
+          "Hlib Razumkov",
+          "Qusay Q Omran"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CRISPR",
+          "PROTAC",
+          "amplification",
+          "anti-CRISPR",
+          "gene circuits",
+          "high-throughput",
+          "molecular glue",
+          "multiplexed circuits",
+          "proteostasis detection",
+          "synthetic biology",
+          "synthetic circuits",
+          "targeted protein degradation"
+        ],
+        "weekly_match": true,
+        "score": 0.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.08.009",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42664971",
+        "title": "Human nuclear ribomes reveal DNA-embedded ribonucleotides as epigenetic modulators of transcription-associated DNA supercoiling.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Ribonucleoside monophosphates (rNMPs) are the most abundant non-canonical nucleotides in DNA, yet their distribution and function in the human nuclear genome remain unclear. We present high-resolution maps of ∼1 million rNMPs per genome across diverse human cells, revealing a non-random nuclear \"ribome,\" the genome-wide landscape of embedded rNMPs, enriched in GC-rich regions, regulatory elements, and telomeres. Ribonucleotide-enriched zones (REZs) cluster near transcription start sites (TSSs), coincide with C-phosphate-G (CpG) islands, R-loops, and G4 structures, and scale with gene expression. Ribonuclease (RNase) H2 deficiency increases rGMP levels and is associated with topoisomerase 1 (Top1)-dependent, strand-biased rNMP enrichment near TSSs, while Top1 depletion further enhances rGMP accumulation. RNase H2-mediated nicking at rNMPs alters DNA supercoiling in vitro, and RNH2A-deficient cells show altered supercoiling at rNMP-enriched TSSs. Our findings identify embedded rNMPs as epigenetic modulators of DNA supercoiling linked to DNA sequence and transcription, revealing a connection between ribonucleotide processing and transcription-associated DNA topology in human cells.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.07.053",
+        "pmcid": "PMC13629392",
+        "authors": [
+          "Deepali L Kundnani",
+          "Yeunsoo Lee",
+          "Taehwan Yang",
+          "Tyler P Warner",
+          "Francisco Martinez-Figueroa",
+          "Tejasvi Channagiri",
+          "Penghao Xu",
+          "Ryan A Eckerty"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CpG islands",
+          "DNA supercoiling",
+          "G4 structures",
+          "R-loops",
+          "RNase H2",
+          "Ribonucleotides in DNA",
+          "Top1",
+          "ribome",
+          "telomeres",
+          "transcription"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.07.053",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42600611",
+        "title": "Ancient genomes reveal distinct human dispersals and social stratification in the settlement history of western Remote Oceania.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "The settlement of western Remote Oceania involved interactions among deeply divergent populations. Initial settlement ∼3,000 years ago by Lapita-associated, Southeast Asian-related groups was followed by Papuan-related expansions and later sea voyages from Polynesia. We present genome-wide data spanning the past three millennia from the eastern Solomon Islands, Vanuatu, Fiji, and Tonga. We find that the Papuan-related expansion proceeded at a slower pace than the earlier Lapita-associated expansion and reached Fiji through at least two distinct human dispersals, centuries earlier than previously suggested. We provide direct evidence of Polynesian-related gene flow at around 1,000 years ago, giving rise to Polynesian Outlier communities in southern Vanuatu. Finally, we examine an early Fijian community, revealing social practices that preserved wealth/status within a biological kin group with elevated Southeast Asian-related ancestry. Our findings refine the settlement model of western Remote Oceania and highlight the complex interplay of past migrations and community structure.",
+        "publication_types": [
+          "Journal Article",
+          "Historical Article"
+        ],
+        "doi": "10.1016/j.cell.2026.07.044",
+        "pmcid": null,
+        "authors": [
+          "Michal Feldman",
+          "Lara R Arauna",
+          "Selina Carlhoff",
+          "Kathrin Nägele",
+          "Rita Radzeviciute",
+          "Dorothée G Drucker",
+          "Claudine Stirling",
+          "David Barr"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Austronesian language",
+          "Fiji",
+          "Lapita",
+          "Oceania",
+          "Pacific archaeology",
+          "Pacific history",
+          "Polynesia",
+          "Polynesian outliers",
+          "Solomon Islands",
+          "Vanuatu",
+          "ancient DNA",
+          "population genetics",
+          "post-Lapita",
+          "social stratification",
+          "social structure"
+        ],
+        "weekly_match": true,
+        "score": 0.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.07.044",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42551423",
+        "title": "Metabolic atlas of early human cortex reveals glycolytic remodeling and pentose phosphate pathway control of cell fate transitions.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Cortical development involves rapid progenitor expansion and cell diversification supported by tightly regulated metabolic programs, yet these programs remain largely uncharacterized in human development. Here, we generated a metabolic atlas of the early human cortex using primary tissue and stem cell-derived cortical organoids. We observed dynamic changes in core metabolic functions, including an unexpected increase in glycolysis and pentose phosphate pathway (PPP) activity during late neurogenesis. Manipulation of glucose availability in cortical organoids altered cell-type composition, increasing outer radial glia (oRG) and inhibitory neuron populations. Pharmacological and genetic inhibition of PPP enzymes recapitulated these cell fate changes. Ribose was sufficient to rescue radial glia (RG) gene expression changes, revert organoid cell-type composition, and restore levels of ATP and hypotaurine. These data identify a critical role for the PPP in modulating RG cell fate specification and generate a resource for future exploration of additional metabolic pathways in human cortical development.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.07.023",
+        "pmcid": "PMC13537306",
+        "authors": [
+          "Jessenya Mil",
+          "Jose A Soto",
+          "Abigail S Krall",
+          "Julia Peloggia",
+          "Sara Frigui",
+          "Olivia S Fong",
+          "Laila Sathe",
+          "Nedas Matulionis"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cell fate",
+          "cortical development",
+          "cortical organoids",
+          "glycolysis",
+          "metabolism",
+          "metabolomics",
+          "neurodevelopment",
+          "pentose phosphate pathway",
+          "radial glia"
+        ],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.07.023",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42546688",
+        "title": "Co-option of retrotransposons promotes antibody diversification.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Activation-induced cytidine deaminase (AID) accomplishes somatic hypermutation (SHM) of VH(D)JH genes in germinal center B cells for antibody diversification and affinity maturation. How AID specifically targets VH(D)JH remains unclear. We report the discovery of LINE-1 (L1) retrotransposons upstream to many VH genes in the immunoglobulin locus. These L1s are evolutionarily old, truncated, and retrotransposition dead. Recombined VH promoters generate long, strong antisense RNAs encoding upstream L1s, triggering the human silencing hub (HUSH) complex and AID recruitment, which we term L1-driven SHM. We show that L1-driven SHM occurs in vivo using HUSH conditional knockout mice and engineered mice with VH genes devoid of upstream L1s. Insertion of transcriptionally active L1s at non-immunoglobulin loci endogenously lacking upstream L1s promotes off-target SHM. We demonstrate that old retrotransposons serve physiological roles, and our findings reveal how B cells co-opted an anti-retrotransposon silencing mechanism to promote antibody diversity. In doing so, we established a new link between cell-intrinsic innate and adaptive immunity.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.07.021",
+        "pmcid": "PMC13656868",
+        "authors": [
+          "Max C Lauring",
+          "Ming Yang",
+          "Aditya Sarode",
+          "Jianhua Wang",
+          "Zixin Ni",
+          "Kristen A Froehlich",
+          "Wanwei Zhang",
+          "Shudipto Wahed"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "AID",
+          "HUSH complex",
+          "L1",
+          "LINE-1",
+          "V(H)(D)J(H) recombination",
+          "antisense transcription",
+          "germinal center",
+          "retrotransposons",
+          "somatic hypermutation"
+        ],
+        "weekly_match": true,
+        "score": 8.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.07.021",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42546687",
+        "title": "Milk osteopontin alters the infant microbiome to drive DC hematopoiesis and disease tolerance.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Breastfeeding reduces the risk of severe lower respiratory infections (sLRIs), a leading cause of infant mortality; however, the protective mechanisms remain elusive. Here, we demonstrated that the absence of milk-derived osteopontin (OPN), highly expressed in colostrum, predisposes neonatal mice to viral and bacterial sLRI, consequent to disrupted dendritic cell (DC) hematopoiesis in the developing liver and lung. Amelioration of disease severity by oral OPN supplementation was associated with increased enteric abundance of Lactobacillaceae and elevated levels of serum 3-phenyllactic acid (PLA), a peroxisome proliferator-activated receptor gamma (PPARγ) agonist. Supplementation with PLA or the PPARγ agonist rosiglitazone restored lung DC hematopoiesis via airway epithelium-derived chemokine ligand 25 (CCL25)-mediated recruitment of lymphoid-myeloid primed progenitors and induction of a supportive lung niche. PLA-induced DC hematopoiesis and disease tolerance were attenuated by plasmacytoid DC depletion, immunoneutralization of stem cell factor, or genetic deletion of airway epithelial Flt3L. Our findings elucidate a microbiome-host interaction by which milk OPN confers protection against sLRI.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.07.022",
+        "pmcid": null,
+        "authors": [
+          "Daniel R Howard",
+          "Ridwan B Rashid",
+          "Tufael Ahmed",
+          "Patricia Namubiru",
+          "Md Sohel Rana",
+          "Tyler Wilkins",
+          "Joshua Morrow",
+          "Darren J Creek"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ALRI",
+          "DC",
+          "RSV",
+          "breastfeeding",
+          "bronchiolitis",
+          "hematopoiesis",
+          "lactic acid bacteria",
+          "milk",
+          "osteopontin",
+          "phenyllactic acid"
+        ],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.07.022",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42526438",
+        "title": "CRISPR screens identify targets to rescue age-related T cell dysfunction in cancer.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Immune aging impairs T cell-mediated tumor control as well as cancer immunotherapy outcomes. The most important drivers of T cell dysfunction in aged tumors remain unknown. We performed single-cell CRISPR screens to identify Dusp5 and Zfp219 as key regulators of CD8+ T cell persistence and effector differentiation within aged tumors. Loss of Dusp5 increased extracellular signal-regulated kinase (ERK) phosphorylation and globally enhanced T cell proliferation. Conversely, Zfp219 deletion induced epigenetic reprogramming and increased expression of cytotoxic molecules, enhancing antitumor immunity specifically in aging. Levels of the human ortholog ZNF219 were higher within intratumoral CD8+ T cells from older cancer patients, which correlates with worse survival following immunotherapy. Zfp219 ablation synergized with immune checkpoint inhibitors to expand effector-like CD8+ T cells, leading to tumor clearance in aged mice. Our findings highlight Dusp5 and Zfp219 as critical drivers of age-related T cell dysfunction that can be targeted to rejuvenate antitumor immunity in older cancer patients.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.07.016",
+        "pmcid": null,
+        "authors": [
+          "Alex C Y Chen",
+          "Keely Y Ji",
+          "Cansu Yerinde",
+          "Nelson H Knudsen",
+          "Kevin Bi",
+          "Shumeng Hao",
+          "Vasyl Zhabotynsky",
+          "Daniela Martinez"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "T cells",
+          "antitumor immunity",
+          "cancer immunology and immunotherapy",
+          "immune aging",
+          "in vivo single-cell CRISPR screen"
+        ],
+        "weekly_match": true,
+        "score": 35.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.07.016",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42492508",
+        "title": "An Oryza orphan gene confers trans-species drought tolerance.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Drought threatens crop productivity, yet enhancing tolerance often compromises yield. Abscisic acid (ABA) signaling is central to drought response, but its deep conservation can constrain adaptive flexibility. Here, we identify ROAD1 (rice orphan gene adapted for drought 1), an Oryza-specific orphan gene that confers robust drought tolerance without obvious growth defects under normal conditions. ROAD1 originated from Oryza meridionalis, and its functional allele, ROAD1C, was selected during japonica domestication. In field trials, elite rice lines carrying ROAD1C exhibited up to 34.75% higher grain yield than corresponding controls under drought. Mechanistically, ROAD1 bypasses the canonical ABA receptor-ligand complex by binding the phosphatase OsPP2C68, preventing sucrose non-fermenting 1-related protein kinases 2 (SnRK2) dephosphorylation and activating downstream responses. ROAD1 also interacts with protein phosphatase 2C (PP2C) orthologs from maize, wheat, and Arabidopsis, and heterologous expression of ROAD1C enhances drought tolerance in Arabidopsis, rapeseed, maize, wheat, and poplar. These findings reveal that an Oryza-specific orphan gene can co-opt conserved signaling for potential trans-species drought tolerance.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.07.005",
+        "pmcid": null,
+        "authors": [
+          "Haifu Tu",
+          "Qian Liu",
+          "Tiantian Ye",
+          "Ying Ye",
+          "Xinhua Feng",
+          "Lishi Shen",
+          "Shuang Li",
+          "Siqi Bai"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ABA signaling",
+          "Oryza",
+          "crop improvement",
+          "drought resilience",
+          "orphan gene",
+          "trans-species application"
+        ],
+        "weekly_match": true,
+        "score": 0.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.07.005",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42874590",
+        "title": "A pseudoenzyme sensor of trehalose-6-phosphate directly represses the metabolic integrator SnRK1 in plants.",
+        "journal": "Cell",
+        "pub_date": "2026-10-14",
+        "abstract": "Trehalose-6-phosphate (T6P) is a central metabolic signal linking sugar availability to plant growth, carbon utilization, and productivity, yet its sensing and signaling mechanisms remain elusive. Using chemical biology and functional approaches, we identify the noncatalytic pseudoenzyme Class-II T6P synthase (TPS-II) as a T6P sensor in Arabidopsis. In the apo state, TPS-II dimerizes to form an autoinhibitory inter-subunit interaction. T6P binding to the N-terminal TPS-like domain triggers a conformational change that releases the C-terminal domain, enabling interaction with the central metabolic integrator SNF1-related protein kinase 1 (SnRK1) to repress its kinase activity. Loss of TPS-II genes activates catabolic and stress-responsive programs while suppressing anabolic gene expression, consistent with constitutive SnRK1 activity. Conservation of this T6P-TPS-II-SnRK1 signaling axis throughout the plant kingdom highlights its fundamental role in coupling carbon availability to metabolic homeostasis. These findings resolve a long-standing question in sugar signaling and provide a framework for improving crop carbon-use efficiency.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.016",
+        "pmcid": null,
+        "authors": [
+          "Tong Sun",
+          "Wenjuan Li",
+          "Xinyuan Liu",
+          "Kairui Li",
+          "Xiaojie Zhang",
+          "Shuanglu Xiang",
+          "Mingyang Chen",
+          "Siyu Liu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "AMPK",
+          "Class-II TPS",
+          "SnRK1",
+          "autoinhibition",
+          "carbon utilization",
+          "metabolic homeostasis",
+          "pseudoenzyme",
+          "sensor",
+          "sugar signaling",
+          "trehalose-6-phosphate"
+        ],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.016",
+        "supplement_reason": null
+      }
+    ],
+    "Cell metabolism": [
+      {
+        "pmid": "42880252",
+        "title": "A context-dependent framework for targeting NAD metabolism in cancer.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-10-15",
+        "abstract": "Nicotinamide adenine dinucleotide (NAD) occupies a privileged position at the intersection of cellular bioenergetics, redox homeostasis, and signal transduction. Beyond its canonical role in ATP synthesis, NAD serves as an obligate cofactor for enzymes including poly(ADP-ribose) polymerases (PARPs), sirtuins, and CD38, thereby regulating DNA repair, epigenetic remodeling, and inflammatory signaling. Thus, NAD metabolism supports the preservation of cellular homeostasis against oncogenic insults. Malignant transformation, however, imposes substantial biosynthetic and genotoxic stress, often driving metabolic adaptations that amplify NAD production via nicotinamide phosphoribosyltransferase (NAMPT). This endows cancer cells with enhanced proliferative capacity, stress tolerance, and immunoevasive features. Importantly, the dependence of malignant cells on sustained NAD availability constitutes a therapeutically exploitable vulnerability. Accordingly, NAMPT inhibitors, PARP inhibitors, and strategies targeting NAD-consuming ectoenzymes have shown preclinical and, in select settings, clinical efficacy. Here, we critically review the rewiring of NAD metabolism in cancer, associated therapeutic opportunities, and barriers to their clinical exploitation.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.015",
+        "pmcid": null,
+        "authors": [
+          "Leire Arrizabalaga",
+          "Laura Santambrogio",
+          "Guido Kroemer",
+          "Lorenzo Galluzzi",
+          "Aitziber Buqué"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "IDO1",
+          "OXPHOS",
+          "clinical trials",
+          "immune checkpoint inhibitors",
+          "tumor microenvironment",
+          "tumor-infiltrating lymphocytes"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.015",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42874585",
+        "title": "An NAD+-responsive adipose signal coordinates inter-organ defense against muscle atrophy.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-10-14",
+        "abstract": "Loss of skeletal muscle mass is a major driver of frailty and disability, yet how systemic metabolic cues protect muscle integrity remains unclear. We identify Serpina3n, an adipose-derived adipokine, as a key mediator of the protective effects of nicotinamide adenine dinucleotide (NAD+) supplementation against muscle atrophy. Elevation of NAD+ in adipose tissue activates signal transducer and activator of transcription (STAT)1-dependent transcription of Serpina3n, leading to its systemic release and muscle protection across models of aging, disuse, and cancer cachexia. In muscle, Serpina3n preserves pyruvate carboxylase protein level, promoting anaplerosis, oxidative metabolism, and protein synthesis. These findings define an NAD+-responsive adipose-to-muscle signaling axis that links metabolic status to tissue preservation, defining a systemic mechanism by which inter-organ communication maintains muscle integrity and suggesting potential strategies to counteract muscle degeneration.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.016",
+        "pmcid": null,
+        "authors": [
+          "Na Liang",
+          "Jia He",
+          "Xiangji Guo",
+          "Jiaqi Yan",
+          "Xiaoqian Zhang",
+          "Xiaozhong Peng",
+          "Jun Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "NAD(+)",
+          "adipokine",
+          "aging",
+          "inter-organ communication",
+          "muscle atrophy"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.016",
+        "supplement_reason": null
+      }
+    ],
+    "immunity": [
+      {
+        "pmid": "42887498",
+        "title": "Embracing macrophage complexity for research and translation.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-16",
+        "abstract": "Macrophages are among the most versatile differentiated cell types in the body, serving as key regulators of tissue development, homeostasis, inflammation, repair, and immunity. Their functional diversity cannot be captured by fixed subsets, binary activation states, or single-marker definitions. Macrophage identity emerges instead from the integration of developmental origin, tissue niche, epigenetic history, local environmental cues, and disease-associated signals. Advances in single-cell genomics, spatial profiling, epigenomics, in vivo perturbation, and computational modeling now show that this behavior is organized through modular gene programs, so that any given macrophage state is best described as a weighted combination of program activities rather than a discrete label. We argue that embracing this modular architecture matters not only for annotation but for therapy: macrophage-directed interventions will require defining disease-associated states, identifying surface-accessible entry points into them, and rewiring the underlying programs with spatial and temporal precision.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.015",
+        "pmcid": null,
+        "authors": [
+          "Florent Ginhoux",
+          "Kevin Mulder",
+          "Sebastian Arcila-Barrera",
+          "Ido Amit"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "immune plasticity",
+          "immunotherapy",
+          "macrophage",
+          "macrophage reprogramming",
+          "macrophage-targeted therapies",
+          "modular gene programs",
+          "single-cell genomics",
+          "synthetic immunology",
+          "tissue microenvironment",
+          "translational immunology"
+        ],
+        "weekly_match": true,
+        "score": 4.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.015",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42880261",
+        "title": "Lactate dehydrogenase A-dependent redox control of selective mRNA translation directs monocyte fate commitment.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-15",
+        "abstract": "Monocyte-to-macrophage differentiation is a central process that shapes immune responses across diverse contexts, yet how inflammatory cues engage metabolism to instruct monocyte fate commitment remains unclear. Here, using a CRISPR-based metabolic screen combined with monocyte-specific perturbations in bacterial lung infection, we identified lactate dehydrogenase A (LDHA) as a key metabolic regulator of monocyte commitment to the nitric oxide synthase 2 (NOS2)+ macrophage fate in vivo. LDHA-dependent cytosolic nicotinamide adenine dinucleotide (NAD+) regeneration enabled selective hypoxia-inducible factor 1-alpha (HIF1α) translation through its 5' untranslated region (UTR) and is associated with structural remodeling of this region. HIF1α then functioned as a downstream effector that promoted the NOS2+ macrophage fate. Granulocyte-macrophage colony-stimulating factor (GM-CSF) further acted as an upstream metabolic priming signal that enhanced LDHA-dependent HIF1α regulation and supported this differentiation process. Together, these findings suggest that metabolic redox state regulates monocyte fate commitment through selective mRNA translation coupled to RNA structural remodeling.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.022",
+        "pmcid": null,
+        "authors": [
+          "Ning Yang",
+          "Huixia He",
+          "Xin Liu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "GM-CSF",
+          "HIF1α",
+          "LDHA",
+          "RNA structural remodeling",
+          "cytosolic NAD(+) regeneration",
+          "monocyte fate commitment",
+          "redox metabolism",
+          "selective mRNA translation"
+        ],
+        "weekly_match": true,
+        "score": 18.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.022",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42868990",
+        "title": "Multidimensional view of immunotherapy.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "The introduction of immune checkpoint blockade revolutionized cancer treatments. Since then, the field of immunotherapy has expanded exponentially, both in therapeutic innovations and applicable disease contexts. Investigators across disciplines discuss how they are reimagining strategies to drive the immune system in contexts of cancer, autoimmunity, and beyond.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.016",
+        "pmcid": null,
+        "authors": [
+          "Jun Yu",
+          "Carlos-Filipe Pereira",
+          "Liangtao Zheng",
+          "Zemin Zhang",
+          "Georg Schett",
+          "Johann E Gudjonsson",
+          "Kathryn Monroe",
+          "Teresa Lambe"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 23.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.016",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42838057",
+        "title": "Induced regulatory B cells stably expressing interleukin-10 reverse central nervous system autoimmunity by targeting myeloid cells.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "The lack of approaches to produce interleukin (IL)-10-producing B cells at high frequency has hampered mechanistic investigation into the generation, fate, and activity of these regulatory cells. We screened pharmacological compounds for their ability to induce IL-10 expression in B cells. One compound, N6, promoted stable IL-10 expression in >95% of B cells. Transfer of IL-10+ B cells induced remission of experimental autoimmune encephalomyelitis. N6-induced B cells accumulated in the central nervous system (CNS) and differentiated into IL-10+ plasma cells, promoting transcriptional and phenotypic changes in myeloid cells within the CNS. The therapeutic effect of IL-10+ B cell transfer was abrogated in mice lacking IL-10 receptor expression in long-lived myeloid cells, pointing to microglia as targets of B cell-derived IL-10. Importantly, an N6 analog corrected defective IL-10 expression in B cells from multiple sclerosis patients. Our findings establish a pharmacological strategy to generate IL-10+ B cells with therapeutic potential and identify microglia as critical targets for intercepting neuroinflammatory disease progression.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.006",
+        "pmcid": null,
+        "authors": [
+          "Benoît Manfroi",
+          "Van Duc Dang",
+          "Bui Thi Cuc",
+          "Annemarie Jungmann",
+          "Sibyline Borzakian",
+          "Yanli Tong",
+          "Claire Beauvineau",
+          "Louise Dupuis"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cell therapy",
+          "experimental autoimmune encephalomyelitis",
+          "immune-mediated diseases",
+          "induced regulatory B cells",
+          "interleukin-10",
+          "microglia",
+          "multiple sclerosis",
+          "neuroinflammation"
+        ],
+        "weekly_match": true,
+        "score": 28.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.006",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42822444",
+        "title": "Distant lymph nodes compensate for resected tumor-draining lymph nodes during cancer immunotherapy.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "Surgical removal of tumor-draining lymph nodes (tdLNs) is commonly performed in cancer patients. Here, we investigated whether immune checkpoint blockade (ICB) responses persist after resection of tdLNs, important sites for the initiation and maintenance of anti-cancer immunity. Melanoma patients remained responsive to programmed death 1 (PD-1) blockade after regional LN dissection. Similarly, ICB efficacy persisted after tdLN resection in orthotopic murine melanoma and mammary carcinoma models. Following tdLN removal, interstitial fluid containing soluble antigen was diverted through interstitial spaces across lymphosome boundaries to distant LNs, wherein cancer-derived antigen was acquired and presented to T cells by LN-resident type I conventional dendritic cells. These responses persisted after primary tumor resection and supported ICB-induced systemic immunity. Locoregional delivery of ICB to compensatory LNs enhanced anti-cancer responses after tdLN resection. Consistently, ICB responses in head and neck cancer patients were associated with reactive LNs at distant sites. Thus, antigen rerouting enables distant LNs to compensate for resected tdLNs and sustain anti-cancer immunity, including responses enhanced by immunotherapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.009",
+        "pmcid": null,
+        "authors": [
+          "Lutz Menzel",
+          "Hengbo Zhou",
+          "James W Baish",
+          "Meghan J O'Melia",
+          "Laurel B Darragh",
+          "Derek N Effiom",
+          "Emma Specht",
+          "Juliane Czapla"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "antigen transport",
+          "completion lymph node dissection",
+          "immune checkpoint blockade",
+          "immune therapy",
+          "lymph flow",
+          "lymph node surgery",
+          "sentinel lymph node biopsy",
+          "tumor-draining lymph node"
+        ],
+        "weekly_match": true,
+        "score": 44.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.009",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42822443",
+        "title": "Functional evaluation of TCR-pMHC pairs at scale allows in silico TCR reactivity prediction.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "Accurate prediction of T cell receptor (TCR) reactivity is a long-standing goal in immunology. Here, we asked whether functional validation of TCR-peptide-major histocompatibility complex (MHC) (TCR-pMHC) pairs at scale alters performance estimates of TCR-pMHC reactivity prediction models. We developed a TCR rapid assembly platform (T-RAP) that allowed the generation of large and uniform TCR libraries. T-RAP enabled evaluation of TCR signaling or MHC multimer binding of thousands of previously reported TCR-pMHC pairs under standardized conditions. In this setting of systematic standardized evaluation, only ∼50% of these TCRs showed the previously reported TCR reactivity. Notably, AlphaFold3 structural predictions showed good performance in identifying reactive TCR-pMHC pairs within the set of TCRs that experimentally validated without any task-specific training. AlphaFold3 structural predictions could likewise be used to shortlist TCRs reactive to patient-specific cancer neoantigens. In silico prediction of TCR-pMHC reactivity thus has greater feasibility than previously assumed, with implications for basic research and clinical application.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.007",
+        "pmcid": null,
+        "authors": [
+          "Marius Messemaker",
+          "Bjørn P Y Kwee",
+          "Živa Moravec",
+          "Sam de Paauw",
+          "Jos Urbanus",
+          "Daniel Álvarez-Salmoral",
+          "Jeroen Geerligs",
+          "Ren Xie"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "T cell receptor",
+          "TCR assembly",
+          "TCR specificity models",
+          "TCR-pMHC reactivity models",
+          "epitope",
+          "high-throughput functional screening",
+          "major histocompatibility antigen",
+          "peptide MHC",
+          "pooled genetic screening",
+          "validation"
+        ],
+        "weekly_match": true,
+        "score": 19.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.007",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42753739",
+        "title": "Cancers modulate processing and presentation of p53 neoantigens to evade T cell detection.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "TP53 mutations occur early in malignant transformation as truncal events in tumor evolution and are therefore generally present in all descendant tumor cells, creating an immunological vulnerability. Here, we examined the immunogenicity and antigenicity of p53 neoantigens emerging from these truncal mutations. Comprehensive immunopeptidomics revealed that hotspot mutations in human tumors preferentially localize to p53 regions resistant to antigen processing, thereby avoiding display altogether. Moreover, for neoantigens presentable by HLA-A∗02:01 or HLA-B∗07:02 and structurally divergent from corresponding wild-type p53 peptide-HLA complexes, clinical tumors commonly lacked the relevant presenting HLA allele. Tumor cells further resisted T cell killing through increased activity of the aminopeptidase ERAP1, preventing display of high-affinity HLA-A∗02:01 complexes containing an immunogenic p53I195F-derived 11-mer, or by expressing low-affinity HLA-A∗02:01 complexes containing a p53R175H-derived 9-mer with poor antigenicity despite high-quality human TCRs. These findings define mechanisms by which tumors restrict targetable truncal neoantigen display and suggest immunopeptidome shift strategies to circumvent immune escape.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.08.011",
+        "pmcid": "PMC13643599",
+        "authors": [
+          "Koji Haratani",
+          "Bruce Reinhold",
+          "Jonathan S Duke-Cohan",
+          "Caroline G Fahey",
+          "Kemin Tan",
+          "Robert J Mallis",
+          "Alexander Gusev",
+          "Kenneth L Kehl"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CTL",
+          "ERAP",
+          "HLA",
+          "T cell receptor",
+          "TCR",
+          "TCR performance;",
+          "antigenicity",
+          "immune editing",
+          "immunogenicity",
+          "immunopeptidome",
+          "p53",
+          "truncal neoantigens",
+          "tumor immunity"
+        ],
+        "weekly_match": true,
+        "score": 29.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.08.011",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42664960",
+        "title": "A distinct effector B cell population drives autoantibody production in SARS-CoV-2 infection.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "Autoantibodies (autoAbs) are linked to mortality and Long COVID, yet their cellular origins remain unclear. We analyzed the INCOV cohort and identified 12 age- and sex-matched participants with varying autoAb abundance and integrated single-cell RNA-seq and ATAC-seq data from B cells, plasma proteomics, proteome-wide autoAb profiling, clinical data, and in vitro assays. AutoAb abundance inversely correlated with neutralizing IgG and declined as infection resolved, paralleling the contraction of atypical memory B cells (AtMs). In vitro, AtMs preferentially differentiated into autoAb-producing antibody-secreting cells upon TLR7/8 stimulation. CD11c+ AtMs (double-negative 2, DN2s) in autoAb-high individuals exhibited increased TLR7 signaling, oxidative stress, and isotype switching, regulated by transcription factors T-bet and XBP1. Integrated genetic and genomic analyses showed that DN2s had the strongest enrichment for autoimmune trait heritability and inferred regulatory effects of autoimmune risk variants among B cell subsets. These findings identify DN2s as key precursors of autoAb-producing cells during SARS-CoV-2 infection.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.08.002",
+        "pmcid": "PMC13577201",
+        "authors": [
+          "Dan Yuan",
+          "Sarah Li",
+          "Rongyu Zhang",
+          "Rachel H Ng",
+          "Yapeng Su",
+          "Linda Lan",
+          "Mahasish Shome",
+          "Brett Smith"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "B cell",
+          "Long COVID",
+          "autoantibodies",
+          "multi-omics"
+        ],
+        "weekly_match": true,
+        "score": 19.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.08.002",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42648285",
+        "title": "Long-lasting extracellular matrix modifications reshape intestinal stem cell fate and promote chronic inflammation.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "Tissue regeneration is viewed as a return to homeostasis, but whether the extracellular matrix (ECM) reverts during recovery from gut inflammation is unclear. Using temporal multi-omics, biomechanical profiling, and spatial fate mapping in colitis models, we showed that colonic ECM underwent lasting pathological reprogramming following inflammation, which we termed modified (mod)ECM. Characterized by collagen XVIII accumulation and immune-driven proteolysis, modECM redirected intestinal stem cells (ISCs) toward a wound-associated epithelial state with a pro-inflammatory transcriptional program. Ex vivo, modECM alone reshaped ISC fate by suppressing Wnt signaling and activating immune recruitment pathways. In vivo, modECM-rich zones sustained T cell infiltration and KRT14+ epithelial cell emergence from Lgr5+ progenitors. This aberrant epithelial program was mirrored in inflamed rectal biopsies from individuals with ulcerative colitis. Our findings redefine the ECM as a long-lived instructive compartment that encodes injury memory and promotes maladaptive regeneration, positioning it as a therapeutic target in chronic inflammatory diseases.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.07.022",
+        "pmcid": null,
+        "authors": [
+          "Idan Adir",
+          "Carmel Sochen",
+          "Sivan Gelb",
+          "Aviya Habshush Menachem",
+          "Sacha Lebon",
+          "Barak Toval",
+          "Vladyslav Holiar",
+          "Natalia Davidzohn"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ECM",
+          "ECM remodeling",
+          "ISC",
+          "T cell recruitment",
+          "collagen XVIII",
+          "colon",
+          "extracellular matrix",
+          "intestinal stem cell",
+          "pathological reprogramming",
+          "tissue regeneration",
+          "wound-associated epithelia"
+        ],
+        "weekly_match": true,
+        "score": 19.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.07.022",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42648284",
+        "title": "T cell fate is dictated by different antigen-presenting cells in response to dietary versus gut epithelial self-antigen.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "Mechanisms governing T cell responses to food or microbes have been characterized, but whether they also regulate gut autoimmunity is unknown. We compared ovalbumin (OVA)-specific T cell fates using mice fed OVA, or expressing secreted (s), cytosolic (c), or transmembrane (tm) epithelial OVA. At baseline and after reovirus infection, T cell responses were comparable. However, helminth infection induced T helper 2 (Th2) cell polarization in sOVA and tmOVA but not cOVA or OVA-fed mice. BATF3+ antigen-presenting cells (APCs) were indispensable for CD4+ T cell proliferation only in cOVA mice, yet they drove regulatory T (Treg) cell differentiation across all epithelial OVA models. In contrast, antigen presentation by RORγt+MHC class II+ APCs was exclusively required for Treg cell induction by dietary OVA. These distinct APC dependencies correlated with susceptibility to pathology elicited by dietary versus epithelial self-antigens. Thus, antigen origin and presentation context together shape T cell fate, aiding predictions of gut immune outcomes.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.07.023",
+        "pmcid": "PMC13519990",
+        "authors": [
+          "Yixuan D Zhou",
+          "Hailey Brown",
+          "Emily Schaffer",
+          "Gwen M Taylor",
+          "Kay L Fiske",
+          "Macy R Komnick",
+          "Sebastian Lopez",
+          "Terence S Dermody"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "APCs",
+          "T cell fate",
+          "antigen-presenting cells",
+          "gLNs",
+          "gut-draining lymph nodes",
+          "oral antigen",
+          "self-antigen"
+        ],
+        "weekly_match": true,
+        "score": 21.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.07.023",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42580342",
+        "title": "The genesis of cutaneous neurogenic inflammation is a multi-step process requiring dendritic cell aggregation.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "Cutaneous inflammation involving neuroimmune interactions can be initiated by both neurons and immune cells, making it complicated to parse the mechanisms of neurogenic inflammation. Optogenetic activation of Trpv1-expressing nociceptors drives type-17 inflammation in the absence of other inflammatory triggers. We found that two rounds of nociceptor activation were required for Il23a expression and maximal expression of Il1b and Il6, key drivers of type-17 inflammation. The first round of nociceptor activation triggered transient type 2 dendritic cell (DC2) aggregation that required substance P-Mrgprb2-dependent mast cell activation and mast cell-derived chemokine CCL2. Spatial transcriptomic analysis revealed that DC aggregation allowed the second nociceptor stimulation to efficiently activate DCs via the neuropeptide calcitonin gene-related peptide α (CGRPα). Thus, early neurogenic inflammation is a two-step process: substance P induces Mrgprb2-dependent mast cell activation and formation of DC aggregates that allow for efficient subsequent CGRPα-mediated DC activation. These data reveal a multi-cell, dynamic mechanism underlying neurogenic inflammation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.07.010",
+        "pmcid": "PMC13580354",
+        "authors": [
+          "Chien-Sin Chen",
+          "Jacob E Gillis",
+          "Jonathan A Cohen",
+          "Alexandra R Glathar",
+          "Yijia Chen",
+          "Eric S Weiss",
+          "Lindsay M McKendrick",
+          "Caitlin O Bacon"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CCL2",
+          "CGRPα",
+          "MrgprB2",
+          "Trpv1 neurons",
+          "dendritic cells",
+          "mast cells",
+          "neurogenic inflammation",
+          "nociceptors",
+          "substance P"
+        ],
+        "weekly_match": true,
+        "score": 26.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.07.010",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42561937",
+        "title": "Virus-induced deconjugation of ISG15 dysregulates innate immunity and cellular metabolism.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "Interferon-stimulated gene 15 (ISG15) encodes a ubiquitin-like protein that regulates diverse cellular responses, including antiviral immunity, through its conjugation to proteins in a process known as ISGylation. Several pathogens, including SARS-CoV-2, subvert ISGylation by encoding deISGylating enzymes. However, the direct targets and physiological consequences of coronaviral deISGylation remain poorly defined. Here, we genetically ablated the deISGylating activity of the SARS-CoV-2-encoded papain-like protease (PLpro) and found that loss of deISGylation boosted innate immune activation, attenuated viral replication, and promoted viral clearance in human cells and mice. Metabolomics, ISGylome proteomics, and functional analyses revealed that PLpro deISGylation relieved metabolic restriction of virus infection by directly regulating the activity of key enzymes controlling glycolysis, the pentose phosphate pathway, and redox homeostasis. These findings provide fundamental insight into how reversible ISGylation regulates immunity and metabolic processes at the molecular level and highlight viral deISGylation as a major strategy to overcome host immunometabolic defenses.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.07.007",
+        "pmcid": null,
+        "authors": [
+          "Junji Zhu",
+          "GuanQun Liu",
+          "Jielin Xu",
+          "Zuberwasim Sayyad",
+          "Kun Li",
+          "Surajit Chakraborty",
+          "Christopher M Goins",
+          "Huaxu Yu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ISG15",
+          "ISGylation",
+          "PLpro",
+          "SARS-CoV-2",
+          "innate immunity",
+          "interferon",
+          "metabolism"
+        ],
+        "weekly_match": true,
+        "score": 22.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.07.007",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42561936",
+        "title": "Group 2 innate lymphoid cells activate myelin-reactive T cells to augment neuroinflammation.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "The meninges are a gateway for pathogenic T cells to enter the central nervous system (CNS). They possess a diverse repertoire of immune cells that orchestrate CNS inflammation and autoimmunity, yet the underlying mechanisms are poorly understood. Here, we report that group 2 innate lymphoid cells (ILC2s) accumulated in the dura as experimental autoimmune encephalomyelitis (EAE) progressed. Single-cell RNA sequencing and flow cytometry analyses revealed distinct features of ILC2s, including expression of MHC class II. ILC2s acted as antigen-presenting cells to activate and expand myelin-reactive T cells in an MHC class II-dependent manner. ILC2-mediated expansion of myelin-reactive T cells increased expression of cytokines IFN-γ and IL-17A. Genetic ablation of ILC2s or of H2-Ab1 in ILC2s alleviated neuroinflammation and CNS demyelination during EAE. These findings revealed a role of ILC2s in neuroinflammation via instructing myelin-reactive T cells, implying targeting ILC2s may be an avenue to restrict CNS inflammation and autoimmunity.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.07.011",
+        "pmcid": null,
+        "authors": [
+          "Huachen Huang",
+          "Gaoyu Liu",
+          "Yali Han",
+          "Yuyang Miao",
+          "Zhibao Zhu",
+          "Ying Wang",
+          "Jianye Wang",
+          "Mengxuan Shi"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "antigen presentation",
+          "group 2 innate lymphoid cells",
+          "multiple sclerosis",
+          "neuroinflammation",
+          "sex difference"
+        ],
+        "weekly_match": true,
+        "score": 27.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.07.011",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42551426",
+        "title": "CD163+ red pulp macrophages interact with marginal metallophilic macrophages during blood-stage malaria to maintain splenic architecture.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "The spleen harbors distinct macrophage subsets that support circulatory homeostasis and initiate immune responses, but the ontogeny and long-term dynamics of these populations remain incompletely understood. Here, we identified a transcriptionally and developmentally distinct CD163-expressing red pulp macrophage (CD163high RPM) population that arose from yolk sac progenitors and occupied a vascular-associated niche. Using fate-mapping models, we showed that CD163- RPMs were progressively replenished by monocytes during aging, whereas CD163high RPMs were mainly self-maintaining. During blood-stage malaria, CD163high RPMs were rapidly depleted, failed to recover despite parasite clearance, and were replaced by CD163- monocyte-derived RPMs. Single-cell RNA sequencing and genetic mouse models revealed that CD163 deficiency exacerbated structural disintegration of the marginal zone and selectively impaired marginal metallophilic macrophage (MMM) recovery, underscoring a CD163-dependent RPM-MMM crosstalk. This study reveals that the sustained loss of a specialized, yolk sac-derived CD163high RPM subset rewires splenic architecture and inter-macrophage crosstalk long after malaria resolution.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.07.006",
+        "pmcid": null,
+        "authors": [
+          "Katharina Mauel",
+          "Daria Hirschmann",
+          "Nelli Blank-Stein",
+          "Marie-Louise Diefenbach-Wilke",
+          "Theresa Eulgem",
+          "Shirley Le",
+          "Samuel N Breit",
+          "Miguel P Soares"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CD163",
+          "GDF15",
+          "fate mapping",
+          "macrophages",
+          "malaria",
+          "marginal zone",
+          "ontogeny",
+          "spleen"
+        ],
+        "weekly_match": true,
+        "score": 8.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.07.006",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42546693",
+        "title": "Butyrophilin-like 3 and 8 tetramers clamp Vγ4Vδ1 T cell receptors for antigen-independent activation.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "BTNL3 and BTNL8, butyrophilin-like (BTNL) family receptors, are predominantly expressed on intestinal epithelial cells. The BTNL3-BTNL8 complex selectively activates human Vγ4⁺ T cells, which play critical roles in intestinal immune homeostasis and tissue damage repair. Here, we report the structure of the BTNL3-BTNL8-Vγ4Vδ1 T cell receptor (TCR) complex. The structure reveals that BTNL3-BTNL8 forms an antigen-independent tetramer, in contrast to the phosphoantigen-driven association of BTN2A1-BTN3A1. Two BTNL3-BTNL8 heterodimers clamp a head-to-head TCR homodimer to form a 2:2:2 BTNL3:BTNL8:Vγ4Vδ1 TCR complex, with the Vγ4 HV4 and CDR2 loops jointly engaging BTNL3. Structural alignment indicates that the CD1d binding site on TCR overlaps spatially with one monomer within a TCR dimer, suggesting that TCR dimerization sterically precludes simultaneous engagement of CD1d molecules. Together, our results elucidate the structural mechanism of BTNL3-BTNL8-mediated engagement and activation of Vγ4Vδ1 TCR, offering insights into γδ TCR signaling initiation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.07.004",
+        "pmcid": null,
+        "authors": [
+          "De Dong",
+          "Huiling Li",
+          "Yuwei Zhu",
+          "Zebin Lu",
+          "Junliang Zhu",
+          "Xinyu Tian",
+          "Zhiwei Huang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "BTNL3",
+          "BTNL8",
+          "TCR dimerization",
+          "antigen-independent",
+          "cryo-EM",
+          "γδ TCR"
+        ],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.07.004",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42442360",
+        "title": "Nasal immunity in respiratory viral infection, transmission, and protection.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "The nasal mucosa plays key roles in protecting against airborne pathogens as the major barrier to the airway. Catalyzed by the COVID-19 pandemic, recent studies focusing on nasal immunity have begun to elucidate how epithelial and immune cells work in concert to fight viral infection, reduce spread to the lower airways, and limit onward transmission. Technologies such as single-cell RNA sequencing and air-liquid interface models are enabling high-resolution views of the cell states and responses that dictate infection resolution and memory formation. Here, we review our current understanding of the cells of the nasal mucosa at homeostasis and their responses during and following viral infection in mice and humans. We discuss emerging correlates of protection before and after exposure, noting the differences between infection and intramuscular vaccination. Finally, we examine novel intranasal vaccination strategies and propose approaches to program tissue-scale memory into the nose to prevent disease and viral spread.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1016/j.immuni.2026.06.011",
+        "pmcid": "PMC13372208",
+        "authors": [
+          "Samuel W Kazer",
+          "Jaclyn M L Walsh",
+          "Lillian J Juttukonda",
+          "Jose Ordovas-Montanes"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cell networks",
+          "epithelial biology",
+          "immunity",
+          "nose",
+          "tissue memory",
+          "vaccine"
+        ],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.06.011",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42863468",
+        "title": "Skin-resident CXCR6+ memory CD4+ T cells and dendritic cells form dermal perivascular hubs that drive relapse in allergic dermatitis.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-12",
+        "abstract": "CD4+ tissue-resident memory T (TRM) cells are crucial for relapse in allergic skin conditions. However, the mechanisms underlying their maintenance and pathogenic potential remain poorly defined. Here, across multiple models of allergic dermatitis, we identified a C-X-C chemokine receptor 6 (CXCR6+) subpopulation within CD4+ TRM cells as a distinct pathogenic subset that rapidly induces relapse. This subset is supported by C-X-C chemokine ligand 16 (CXCL16)-dependent interactions with CD301b+ conventional type 2 dendritic cells (cDC2s) for in situ maintenance. Functional blockade of the CXCL16-CXCR6 signaling pathway impaired proliferation and maintenance of CXCR6+ CD4+ TRM cells. In human atopic dermatitis (AD), CXCR6+ CD4+ TRM cells co-localized with CD301+ cDC2s in perivascular clusters even after successful anti-IL-13 therapy. These findings point to CXCR6+ CD4+ TRM cells as a pathogenic reservoir sustaining chronic and recurrent inflammation and suggest the CXCL16-CXCR6 axis as a therapeutic target to prevent relapse in allergic skin diseases.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.010",
+        "pmcid": null,
+        "authors": [
+          "Ryota Asahina",
+          "Fuuka Minami",
+          "Satoshi Nakamizo",
+          "Toshiya Miyake",
+          "Satoru Yonekura",
+          "Toshiaki Kogame",
+          "Shuto Kanameishi",
+          "Kosuke Katsuo"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CD4(+) tissue-resident memory T cells",
+          "CXCL16",
+          "CXCR6",
+          "T cell-dendritic cell interactions",
+          "allergic skin disease relapse",
+          "atopic dermatitis",
+          "conventional type 2 dendritic cells",
+          "pathogenic TRM subset",
+          "perivascular clusters"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.010",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Immunology": [
+      {
+        "pmid": "42881215",
+        "title": "Tuning T cells to give cancer the blues.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-15",
+        "abstract": "",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02697-y",
+        "pmcid": null,
+        "authors": [
+          "Anna M Schulz",
+          "Caitlin C Zebley",
+          "Dietmar Zehn",
+          "Ben Youngblood"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02697-y",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42875547",
+        "title": "Evidence for maternal autoantibodies in the pathogenesis of preterm birth.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-14",
+        "abstract": "Preterm birth is associated with breakdown of maternal-fetal tolerance and remains the leading cause of global mortality in young children. However, the role of self-reactive antibodies has been limited to a handful of pathogenic allo- and autoantibodies linked to pregnancy complications. Here we identify a shared autoreactive signature of pregnancy in pregnant sera (n = 2,719) relative to never-pregnant controls (n = 130), using proteome-wide autoantibody profiling. Across eight human pregnancy cohorts, we define autoreactivities associated with preterm birth by comparing preterm (n = 688) and term (n = 1,505) pregnancies. Within the signature, antibodies to IL1 receptor antagonist (IL1RA) induce resorption, inflammation and vascular malperfusion in pregnant mice. IL1RA localizes to placental endothelial adherens junctions, suggesting a role in vascular integrity. These findings identify a term pregnancy humoral immune program and shared changes preceding preterm delivery, including anti-IL1RA, which may have direct pathogenic consequences.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02689-y",
+        "pmcid": null,
+        "authors": [
+          "Elze Rackaityte",
+          "Beltran Borges",
+          "Hannah M Kortbawi",
+          "Haleigh S Miller",
+          "Shirley J Shao",
+          "Kelsey C Zorn",
+          "Colette Caspar",
+          "Rebecca Wong"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02689-y",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42875546",
+        "title": "Compartment-specific PPARδ activity controls the outcome of cancer-immune cell competition and immunotherapy efficacy.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-14",
+        "abstract": "Most patients with solid tumors fail to sustain antitumor immunity, in part because immune cells cannot outcompete cancer cells inside the immunosuppressive tumor microenvironment. Here, we show the lipid-sensing transcription factor PPARδ is a compartment-specific determinant of cancer-immune fitness balance and immunotherapy efficacy. Activating PPARδ in cancer cells promotes their growth and impairs antitumor immunity, whereas activating it in immune cells drives tumor suppression and overrides tumor-promoting effects of cancer-intrinsic activation. Mechanistically, PPARδ enhances CD8+ T cell fitness against cancer through effector-associated chromatin remodeling and Cpt1a-mediated fatty acid oxidation. Therapeutically, PPARδ-activated CD8+ T cells sensitize immunotherapy-resistant microsatellite stable metastatic colorectal cancer to checkpoint blockade in mice, and pharmacological or genetic PPARδ activation enhances human chimeric antigen receptor T cell function. These findings identify compartment-specific PPARδ activity as a targetable driver of immune cell fitness that can be harnessed to improve outcomes in immunotherapy-resistant tumors.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02685-2",
+        "pmcid": null,
+        "authors": [
+          "Paul Bunk",
+          "Ilgin Ergin",
+          "Timothy Maher",
+          "Vyom Shah",
+          "Julia R Bonney",
+          "Lokesh B S S Kumar",
+          "Charlie Chung",
+          "Nils Wellhausen"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 43.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02685-2",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42864399",
+        "title": "Zbtb44-mediated transcriptional repression critically regulates colonic inflammation.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-12",
+        "abstract": "The regulatory mechanisms that maintain colonic immune homeostasis remain incompletely understood. Here we show that genetic deletion of Zbtb44, a previously uncharacterized member of the ZBTB transcription factor family, leads to spontaneous colitis and rectal prolapse. Zbtb44-/- T cells expressed increased IFN-γ, a pro-inflammatory cytokine strongly associated with human inflammatory bowel disease. Mechanistically, Zbtb44 undergoes SUMOylation, which facilitates its interaction with a conserved SUMO-interacting motif in T-bet, enabling binding to the IFN-γ promoter and enhancer to restrain chronic IFN-γ production. Together, these findings demonstrate that Zbtb44 is a key regulator of colonic inflammation, a role that could be exploited therapeutically.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02675-4",
+        "pmcid": null,
+        "authors": [
+          "Mahesh Kathania",
+          "Desh Raj",
+          "Thirupugal Govindarajan",
+          "Dinesh Ravindra Raju",
+          "Amit K Verma",
+          "Anirban Roy",
+          "Risha Mathur",
+          "Jenna Woody"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 19.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02675-4",
+        "supplement_reason": null
+      }
+    ],
+    "Science Immunology": [
+      {
+        "pmid": "42886820",
+        "title": "Glycome remodeling programs pathogenic γδ T17 cell responses in autoimmunity.",
+        "journal": "Science immunology",
+        "pub_date": "2026-10-16",
+        "abstract": "Glycans play fundamental roles in T cell biology; however, the glycome landscape of γδ T cells remains to be unlocked. Despite the growing importance of γδ T cells in host defense, tissue homeostasis, and diseases, the glycosylation mechanisms guiding their activation, commitment, and function remain poorly defined. By performing single-cell RNA sequencing, we revealed that type 3/γδ T17/interleukin-17A (IL-17A)-committed γδ T cells rely on (N-acetylglucosaminyltransferase 1) MGAT1-MGAT5-mediated branched N-glycosylation. We further demonstrated that the absence of branched N-glycans on γδ T cells acts as a peripheral signal, driving an IL-17A-pro-inflammatory phenotype, alongside a shift to a Vγ4+ subset and the imprinting of innate-like properties. This altered glycoform of type 3 γδ T cells was shown to induce severe psoriasis. γδ T cells from patients with autoimmune and inflammatory diseases exhibited a deficiency in branched N-glycans. Glycan supplementation can reprogram γδ T cells toward a less-pathogenic state, highlighting N-glycans as a previously unrecognized immune checkpoint for γδ T cells.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aec9553",
+        "pmcid": null,
+        "authors": [
+          "Beatriz Santos-Pereira",
+          "Rafaela Nogueira",
+          "Yohannes Tafesse",
+          "Ariana Correia-Silva",
+          "Eduarda Leite-Gomes",
+          "Guillem Sanchez Sanchez",
+          "Xavier Luppens",
+          "Lyndsay E A Young"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 26.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aec9553",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42886819",
+        "title": "STAT3 operates as an inflammation-dependent transcriptional switch in antiviral NK cells.",
+        "journal": "Science immunology",
+        "pub_date": "2026-10-16",
+        "abstract": "The immune system integrates signals to regulate immune responses, forming complex context-dependent networks where identical cues produce distinct outcomes. Signal transducer and activator of transcription (STAT) transcription factors convert cytokine receptor engagement into transcriptional responses, serving as central regulatory hubs. How concurrent STAT activation across different environments shapes immune cell function remains unclear. Here, we show that STAT3 plays a context-dependent role in antiviral natural killer (NK) cells, either promoting or impairing adaptive responses depending on the inflammatory milieu during mouse cytomegalovirus (MCMV) infection. STAT3 is recruited to distinct genomic loci depending on IL-15 or type I interferon availability, thus driving alternative transcriptional programs. Mechanistically, STAT3 differentially regulates downstream transcription factors MYB and B lymphocyte-induced maturation protein-1 (BLIMP-1) to shape NK cell differentiation during homeostasis and infection. STAT3 relocation is governed by epigenetic mechanisms and preferred relocation toward distinct STAT motifs. Thus, STAT3 functions as a cytokine-sensing transcriptional switch integrating IL-15 and type I interferon signals to control lymphocyte adaptation during viral infection.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aed4832",
+        "pmcid": null,
+        "authors": [
+          "Simon Grassmann",
+          "Hyunu Kim",
+          "Timo Rückert",
+          "Christin Friedrich",
+          "Marine Pujol",
+          "Sherry X Fan",
+          "Mark Owyong",
+          "Jennifer M Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 18.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aed4832",
+        "supplement_reason": null
+      }
+    ],
+    "Bioinformatics": [
+      {
+        "pmid": "42867154",
+        "title": "Inverse probability weighting-based mediation analysis for microbiome data.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-10-13",
+        "abstract": "MOTIVATION: Mediation analysis is an important tool for elucidating causal mechanisms in biomedical research and has recently gained increasing attention in microbiome studies. Motivated by a microbiome study of acute myeloid leukemia (AML) patients, we investigate whether the effect of induction chemotherapy intensity on infection status is mediated through gut microbial taxa. This problem poses substantial methodological challenges due to the high dimensionality, zero inflation, and dependence of microbial mediators, as well as the presence of an exposure-induced mediator-outcome confounder, antibiotic use.\nRESULTS: To address these challenges, we propose a novel nonparametric identification formula for the interventional indirect effect, a causal mediation estimand that remains identifiable in the presence of exposure-induced mediator-outcome confounding. Building on this identification result, we develop an inverse probability weighting estimator and construct standard normal bootstrap confidence intervals for inference. Simulation studies demonstrate that the proposed method achieves accurate effect estimation and maintains appropriate type I error rates and power in finite samples. Application to the AML microbiome study provides evidence of a statistically significant interventional indirect effect of induction chemotherapy intensity on infection risk through alterations in the gut microbiome.\nAVAILABILITY AND IMPLEMENTATION: The R code for the simulation studies is available at https://github.com/YX-ZHANG-1/CausalMediationMicrobiome and archived on Zenodo at https://doi.org/10.5281/zenodo.21960802.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag750",
+        "pmcid": null,
+        "authors": [
+          "Yuexia Zhang",
+          "Jian Wang",
+          "Jiayi Shen",
+          "Jessica Galloway-Peña",
+          "Samuel Shelburne",
+          "Linbo Wang",
+          "Jianhua Hu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 20.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag750",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42865030",
+        "title": "Polypharmacological Target-Aware Molecule Generation.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-10-12",
+        "abstract": "MOTIVATION: Designing compounds capable of modulating multiple target proteins simultaneously (i.e., polypharmacology) is critical for treating complex diseases like cancer and neurodegenerative disorders. However, AI-driven multi-target drug design remains severely hindered by the scarcity of multi-target 3D structural data and the inefficiency of traditional \"generate-then-filter\" pipelines. There is a pressing need for scalable methods that can satisfy diverse binding constraints across multiple proteins without relying on scarce structural priors.\nRESULTS: To overcome these bottlenecks, we reformulate multi-target drug design as a sequence-based generation task and introduce PolyTamGen, an end-to-end autoregressive framework. We first curate a large-scale ligand-centric bioactivity dataset from ChEMBL and BindingDB, comprising 1.6 million unique ligands and 4.9 million bioactivity entries. PolyTamGen encodes target protein sets using ESM3, compresses these high-dimensional features into compact tokens via an attention module, and feeds them into a sequence-based compound generator to produce the final multi-target ligands. We further apply Direct Preference Optimization (DPO) to improve docking-based affinity proxies and drug-likeness. Extensive experiments on dual- and triple-target benchmarks demonstrate that PolyTamGen improves joint success rates over representative baselines while maintaining high chemical validity and diversity.\nAVAILABILITY AND IMPLEMENTATION: The code is available at https://github.com/bjzgcai/PolyTamGen. The processed data, model checkpoints, and benchmark results are available at Zenodo: https://doi.org/10.5281/zenodo.20594128.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag766",
+        "pmcid": null,
+        "authors": [
+          "Kehan Wu",
+          "Wei Zhang",
+          "Han Guo",
+          "Renhe Liu",
+          "Yu Shi",
+          "Peiran Jin",
+          "Haiguang Liu",
+          "Enhong Chen"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "molecule generation",
+          "multi-target drug design",
+          "polypharmacology"
+        ],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag766",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42865021",
+        "title": "CMGL: Confidence-guided Multi-omics Graph Learning for Cancer Subtype Classification.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-10-12",
+        "abstract": "Multi-omics integration can improve cancer subtyping, but modality informativeness and noise vary across cancer types and patients. Most graph methods for multi-omics data learn modality contributions within the downstream classification objective, leaving predictive reliability for each patient implicit. As a result, uninformative modalities can weaken the fused representation, while unreliable omics can introduce noisy patient relationships into graph propagation. To address these two problems, we propose CMGL, which produces a separate reliability estimate before fusion and uses consensus patient neighborhoods for graph classification.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag763",
+        "pmcid": null,
+        "authors": [
+          "Boyang Fan",
+          "Hengchuang Yin",
+          "Siyu Yi",
+          "Yifan Wang",
+          "Zhicheng Li",
+          "Leijiyu Zhou",
+          "Jiancheng Lv",
+          "Wei Ju"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cancer subtype classification",
+          "evidential deep learning",
+          "graph neural networks",
+          "multi-omics integration",
+          "uncertainty-aware learning"
+        ],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag763",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Protocols": []
+  },
+  "selected_papers": {
+    "Nature": [
+      {
+        "pmid": "42875502",
+        "title": "A microexon regulatory code reveals autism-linked genetic variation.",
+        "journal": "Nature",
+        "pub_date": "2026-10-14",
+        "abstract": "Neuronal microexons are a highly conserved class of alternative splicing events enriched in genes with critical functions in nervous system biology1,2. Microexon splicing is often disrupted in the brains of autistic individuals, and mice with microexon deficiencies display autism-like phenotypes1,3,4. However, the full landscape of microexons is not known, and the impact of genetic variation on these exons has not been systematically investigated. Here, through extensive transcriptome profiling, we detect hundreds of new microexons, including many with neuronal subtype-specific splicing patterns, and others that activate nonsense-mediated mRNA decay. Using machine learning, we define a sequence code predictive of neuronally spliced microexons and use this to identify critical regulatory elements surrounding the expanded microexon repertoire. This code further reveals genomic variants predicted to alter microexon splicing in individuals affected by autism, with rare variants having the strongest estimated impact. These variants are mostly detected in idiopathic individuals and are associated with autism status. They also converge on synaptic and other autism-linked genes, as well as genes not previously linked to autism. Our results collectively define an expanded repertoire of microexons, delineate their regulatory code, and pinpoint variants predicted to affect their splicing, with implications for the disruption of functions central to neuronal biology and brain disorders.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11119-w",
+        "pmcid": null,
+        "authors": [
+          "Guillermo E Parada",
+          "Hannes Bretschneider",
+          "Jack Daiyang Li",
+          "Jacob L Fine",
+          "Steven J Dupas",
+          "Jonathan D Ellis",
+          "Ulrich Braunschweig",
+          "Sophie Bonnal"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 8.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11119-w",
+        "supplement_reason": null
+      }
+    ],
+    "Science": [
+      {
+        "pmid": "42879563",
+        "title": "A pair of chitosan receptors confer broad-spectrum fungal resistance.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-10-15",
+        "abstract": "Chitosan, a major fungal cell wall component, activates plant immunity, yet the underlying perception mechanism remains unknown. In this study, we identified OsFID1, an apoplast-localized DUF26 domain protein, as a chitosan-binding receptor essential for chitosan-triggered immunity. OsFID1 forms a receptor complex with OsFID2, a plasma membrane-localized DUF26 receptor-like kinase, to mediate chitosan sensing and immune activation, requiring OsFID2 phosphorylation for function. The OsFID1-OsFID2 complex confers broad-spectrum resistance to fungal pathogens. OsFID1 homologs are conserved in land plants, which show chitosan-binding activity in both monocots and dicots. Ectopic expression of OsFID1 in wheat and maize enhanced fungal resistance without growth penalty. These findings uncover a conserved receptor complex for direct chitosan sensing, advancing our understanding of plant-fungus interactions and providing a potential strategy for engineering durable fungal resistance crops.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.ady7647",
+        "pmcid": null,
+        "authors": [
+          "Keyi Huang",
+          "Jingni Wu",
+          "Yu Cao",
+          "Yingying Cao",
+          "Zhongji Pu",
+          "Aoshen Xu",
+          "Wenzhao Wang",
+          "Xue Zhou"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.ady7647",
+        "supplement_reason": null
+      }
+    ],
+    "Cell": [
+      {
+        "pmid": "42880285",
+        "title": "Mitochondria-targeted tetraoxanes initiate lipid peroxidation to drive ferroptosis and tumor suppression.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Ferroptosis is implicated as a vulnerability in multiple cancers, yet approaches for effectively inducing ferroptosis in vivo are limited. Bypassing conventional strategies targeting the antiferroptotic glutathione peroxidase 4 (GPX4) and ferroptosis suppressor protein 1 (FSP1) proteins, we designed metabolic initiators of lipid peroxidation (MILPOs) and developed the compounds WMK-1/2, which contain tetraoxane radical-generating and mitochondria-targeting groups, as de novo ferroptosis inducers. WMK-1 localizes primarily to mitochondria, induces local lipid peroxidation, and impairs oxidative phosphorylation. WMK-1 induces a \"mito-ferroptosis\" sub-pathway that skips GPX4 inhibition as a prerequisite, can be rescued by lipophilic radical-trapping antioxidants, yet is minimally sensitive to acyl-coenzyme A synthetase long-chain family member 4 (ACSL4) perturbation and long-chain polyunsaturated fatty acid (PUFA) supplementation, and evades retinol-mediated protection. Instead, WMK-1-induced cell death requires labile Fe2+ and can be selectively suppressed by ɑ-lipoic acid, an endogenous, mitochondria-resident antioxidant. WMK-1/2 are bioavailable and exhibit significant efficacy in tumor suppression by eliciting ferroptosis in multiple cancer models and augmenting the antitumor effects of immune-checkpoint blockers. Our work provides a protein-targeting-independent metabolic ferroptosis induction strategy for potential cancer therapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.040",
+        "pmcid": null,
+        "authors": [
+          "Zijian Pan",
+          "Ming-Kwan Wong",
+          "Yang Lu",
+          "Jingxuan Mao",
+          "Fengxiang Wang",
+          "Xin Gu",
+          "Kaiyin Huang",
+          "Taotao Shi"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cancer and metastasis",
+          "ferroptosis induction",
+          "iron metabolism",
+          "metabolic initiator of lipid peroxidation",
+          "mito-ferroptosis",
+          "mitochondria",
+          "tetraoxanes"
+        ],
+        "weekly_match": true,
+        "score": 36.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.040",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42526438",
+        "title": "CRISPR screens identify targets to rescue age-related T cell dysfunction in cancer.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Immune aging impairs T cell-mediated tumor control as well as cancer immunotherapy outcomes. The most important drivers of T cell dysfunction in aged tumors remain unknown. We performed single-cell CRISPR screens to identify Dusp5 and Zfp219 as key regulators of CD8+ T cell persistence and effector differentiation within aged tumors. Loss of Dusp5 increased extracellular signal-regulated kinase (ERK) phosphorylation and globally enhanced T cell proliferation. Conversely, Zfp219 deletion induced epigenetic reprogramming and increased expression of cytotoxic molecules, enhancing antitumor immunity specifically in aging. Levels of the human ortholog ZNF219 were higher within intratumoral CD8+ T cells from older cancer patients, which correlates with worse survival following immunotherapy. Zfp219 ablation synergized with immune checkpoint inhibitors to expand effector-like CD8+ T cells, leading to tumor clearance in aged mice. Our findings highlight Dusp5 and Zfp219 as critical drivers of age-related T cell dysfunction that can be targeted to rejuvenate antitumor immunity in older cancer patients.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.07.016",
+        "pmcid": null,
+        "authors": [
+          "Alex C Y Chen",
+          "Keely Y Ji",
+          "Cansu Yerinde",
+          "Nelson H Knudsen",
+          "Kevin Bi",
+          "Shumeng Hao",
+          "Vasyl Zhabotynsky",
+          "Daniela Martinez"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "T cells",
+          "antitumor immunity",
+          "cancer immunology and immunotherapy",
+          "immune aging",
+          "in vivo single-cell CRISPR screen"
+        ],
+        "weekly_match": true,
+        "score": 35.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.07.016",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42838045",
+        "title": "STING reprogramming by estrogen promotes neutrophil extracellular trap formation and sex-biased resistance to ADC therapy.",
+        "journal": "Cell",
+        "pub_date": "2026-10-15",
+        "abstract": "Sex differences in cancer therapy response remain poorly understood. Using a \"phase II-like preclinical trial\" across 55 CLDN18.2+ pancreatic cancer patient-derived xenografts, we identify marked female-biased resistance to CLDN18.2-targeted antibody-drug conjugate (ADC) therapy despite equivalent antigen expression. Mechanistically, estrogen signals through GPER1 to upregulate TRAF6, redirecting tumor-intrinsic STING signaling from IRF3-mediated interferon production toward nuclear factor κB (NF-κB) activation. This drives CXCL1 secretion, neutrophil recruitment, and neutrophil extracellular trap (NET) formation. NETs form a charged extracellular network that restricts antibody access to tumor-cell-surface antigens-a mechanism we term functional antigen shielding-reducing ADC cytotoxicity independently of antigen expression. The NET burden also correlated with poorer responses to trastuzumab, cetuximab, and enfortumab vedotin across three clinical cohorts. Pharmacologic NET disruption with sivelestat restored ADC efficacy in female mice. These findings reveal an estrogen-driven resistance mechanism with broad implications for antibody-based cancer therapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.031",
+        "pmcid": null,
+        "authors": [
+          "Jingrui Yan",
+          "Tianxing Zhou",
+          "Shangheng Shi",
+          "Guohua Mao",
+          "Jingbo Xu",
+          "Yu Zhang",
+          "Yaqi Zhang",
+          "Huizhi Sun"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CLDN18.2-targeted ADC",
+          "PDAC",
+          "STING reprogramming",
+          "neutrophil extracellular traps",
+          "sex dimorphism"
+        ],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.031",
+        "supplement_reason": null
+      }
+    ],
+    "Cell metabolism": [
+      {
+        "pmid": "42880252",
+        "title": "A context-dependent framework for targeting NAD metabolism in cancer.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-10-15",
+        "abstract": "Nicotinamide adenine dinucleotide (NAD) occupies a privileged position at the intersection of cellular bioenergetics, redox homeostasis, and signal transduction. Beyond its canonical role in ATP synthesis, NAD serves as an obligate cofactor for enzymes including poly(ADP-ribose) polymerases (PARPs), sirtuins, and CD38, thereby regulating DNA repair, epigenetic remodeling, and inflammatory signaling. Thus, NAD metabolism supports the preservation of cellular homeostasis against oncogenic insults. Malignant transformation, however, imposes substantial biosynthetic and genotoxic stress, often driving metabolic adaptations that amplify NAD production via nicotinamide phosphoribosyltransferase (NAMPT). This endows cancer cells with enhanced proliferative capacity, stress tolerance, and immunoevasive features. Importantly, the dependence of malignant cells on sustained NAD availability constitutes a therapeutically exploitable vulnerability. Accordingly, NAMPT inhibitors, PARP inhibitors, and strategies targeting NAD-consuming ectoenzymes have shown preclinical and, in select settings, clinical efficacy. Here, we critically review the rewiring of NAD metabolism in cancer, associated therapeutic opportunities, and barriers to their clinical exploitation.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.015",
+        "pmcid": null,
+        "authors": [
+          "Leire Arrizabalaga",
+          "Laura Santambrogio",
+          "Guido Kroemer",
+          "Lorenzo Galluzzi",
+          "Aitziber Buqué"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "IDO1",
+          "OXPHOS",
+          "clinical trials",
+          "immune checkpoint inhibitors",
+          "tumor microenvironment",
+          "tumor-infiltrating lymphocytes"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.015",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42874585",
+        "title": "An NAD+-responsive adipose signal coordinates inter-organ defense against muscle atrophy.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-10-14",
+        "abstract": "Loss of skeletal muscle mass is a major driver of frailty and disability, yet how systemic metabolic cues protect muscle integrity remains unclear. We identify Serpina3n, an adipose-derived adipokine, as a key mediator of the protective effects of nicotinamide adenine dinucleotide (NAD+) supplementation against muscle atrophy. Elevation of NAD+ in adipose tissue activates signal transducer and activator of transcription (STAT)1-dependent transcription of Serpina3n, leading to its systemic release and muscle protection across models of aging, disuse, and cancer cachexia. In muscle, Serpina3n preserves pyruvate carboxylase protein level, promoting anaplerosis, oxidative metabolism, and protein synthesis. These findings define an NAD+-responsive adipose-to-muscle signaling axis that links metabolic status to tissue preservation, defining a systemic mechanism by which inter-organ communication maintains muscle integrity and suggesting potential strategies to counteract muscle degeneration.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.016",
+        "pmcid": null,
+        "authors": [
+          "Na Liang",
+          "Jia He",
+          "Xiangji Guo",
+          "Jiaqi Yan",
+          "Xiaoqian Zhang",
+          "Xiaozhong Peng",
+          "Jun Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "NAD(+)",
+          "adipokine",
+          "aging",
+          "inter-organ communication",
+          "muscle atrophy"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.016",
+        "supplement_reason": null
+      }
+    ],
+    "immunity": [
+      {
+        "pmid": "42822444",
+        "title": "Distant lymph nodes compensate for resected tumor-draining lymph nodes during cancer immunotherapy.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "Surgical removal of tumor-draining lymph nodes (tdLNs) is commonly performed in cancer patients. Here, we investigated whether immune checkpoint blockade (ICB) responses persist after resection of tdLNs, important sites for the initiation and maintenance of anti-cancer immunity. Melanoma patients remained responsive to programmed death 1 (PD-1) blockade after regional LN dissection. Similarly, ICB efficacy persisted after tdLN resection in orthotopic murine melanoma and mammary carcinoma models. Following tdLN removal, interstitial fluid containing soluble antigen was diverted through interstitial spaces across lymphosome boundaries to distant LNs, wherein cancer-derived antigen was acquired and presented to T cells by LN-resident type I conventional dendritic cells. These responses persisted after primary tumor resection and supported ICB-induced systemic immunity. Locoregional delivery of ICB to compensatory LNs enhanced anti-cancer responses after tdLN resection. Consistently, ICB responses in head and neck cancer patients were associated with reactive LNs at distant sites. Thus, antigen rerouting enables distant LNs to compensate for resected tdLNs and sustain anti-cancer immunity, including responses enhanced by immunotherapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.009",
+        "pmcid": null,
+        "authors": [
+          "Lutz Menzel",
+          "Hengbo Zhou",
+          "James W Baish",
+          "Meghan J O'Melia",
+          "Laurel B Darragh",
+          "Derek N Effiom",
+          "Emma Specht",
+          "Juliane Czapla"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "antigen transport",
+          "completion lymph node dissection",
+          "immune checkpoint blockade",
+          "immune therapy",
+          "lymph flow",
+          "lymph node surgery",
+          "sentinel lymph node biopsy",
+          "tumor-draining lymph node"
+        ],
+        "weekly_match": true,
+        "score": 44.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.009",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42753739",
+        "title": "Cancers modulate processing and presentation of p53 neoantigens to evade T cell detection.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "TP53 mutations occur early in malignant transformation as truncal events in tumor evolution and are therefore generally present in all descendant tumor cells, creating an immunological vulnerability. Here, we examined the immunogenicity and antigenicity of p53 neoantigens emerging from these truncal mutations. Comprehensive immunopeptidomics revealed that hotspot mutations in human tumors preferentially localize to p53 regions resistant to antigen processing, thereby avoiding display altogether. Moreover, for neoantigens presentable by HLA-A∗02:01 or HLA-B∗07:02 and structurally divergent from corresponding wild-type p53 peptide-HLA complexes, clinical tumors commonly lacked the relevant presenting HLA allele. Tumor cells further resisted T cell killing through increased activity of the aminopeptidase ERAP1, preventing display of high-affinity HLA-A∗02:01 complexes containing an immunogenic p53I195F-derived 11-mer, or by expressing low-affinity HLA-A∗02:01 complexes containing a p53R175H-derived 9-mer with poor antigenicity despite high-quality human TCRs. These findings define mechanisms by which tumors restrict targetable truncal neoantigen display and suggest immunopeptidome shift strategies to circumvent immune escape.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.08.011",
+        "pmcid": "PMC13643599",
+        "authors": [
+          "Koji Haratani",
+          "Bruce Reinhold",
+          "Jonathan S Duke-Cohan",
+          "Caroline G Fahey",
+          "Kemin Tan",
+          "Robert J Mallis",
+          "Alexander Gusev",
+          "Kenneth L Kehl"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CTL",
+          "ERAP",
+          "HLA",
+          "T cell receptor",
+          "TCR",
+          "TCR performance;",
+          "antigenicity",
+          "immune editing",
+          "immunogenicity",
+          "immunopeptidome",
+          "p53",
+          "truncal neoantigens",
+          "tumor immunity"
+        ],
+        "weekly_match": true,
+        "score": 29.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.08.011",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42838057",
+        "title": "Induced regulatory B cells stably expressing interleukin-10 reverse central nervous system autoimmunity by targeting myeloid cells.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-13",
+        "abstract": "The lack of approaches to produce interleukin (IL)-10-producing B cells at high frequency has hampered mechanistic investigation into the generation, fate, and activity of these regulatory cells. We screened pharmacological compounds for their ability to induce IL-10 expression in B cells. One compound, N6, promoted stable IL-10 expression in >95% of B cells. Transfer of IL-10+ B cells induced remission of experimental autoimmune encephalomyelitis. N6-induced B cells accumulated in the central nervous system (CNS) and differentiated into IL-10+ plasma cells, promoting transcriptional and phenotypic changes in myeloid cells within the CNS. The therapeutic effect of IL-10+ B cell transfer was abrogated in mice lacking IL-10 receptor expression in long-lived myeloid cells, pointing to microglia as targets of B cell-derived IL-10. Importantly, an N6 analog corrected defective IL-10 expression in B cells from multiple sclerosis patients. Our findings establish a pharmacological strategy to generate IL-10+ B cells with therapeutic potential and identify microglia as critical targets for intercepting neuroinflammatory disease progression.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.006",
+        "pmcid": null,
+        "authors": [
+          "Benoît Manfroi",
+          "Van Duc Dang",
+          "Bui Thi Cuc",
+          "Annemarie Jungmann",
+          "Sibyline Borzakian",
+          "Yanli Tong",
+          "Claire Beauvineau",
+          "Louise Dupuis"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cell therapy",
+          "experimental autoimmune encephalomyelitis",
+          "immune-mediated diseases",
+          "induced regulatory B cells",
+          "interleukin-10",
+          "microglia",
+          "multiple sclerosis",
+          "neuroinflammation"
+        ],
+        "weekly_match": true,
+        "score": 28.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.006",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Immunology": [
+      {
+        "pmid": "42875546",
+        "title": "Compartment-specific PPARδ activity controls the outcome of cancer-immune cell competition and immunotherapy efficacy.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-14",
+        "abstract": "Most patients with solid tumors fail to sustain antitumor immunity, in part because immune cells cannot outcompete cancer cells inside the immunosuppressive tumor microenvironment. Here, we show the lipid-sensing transcription factor PPARδ is a compartment-specific determinant of cancer-immune fitness balance and immunotherapy efficacy. Activating PPARδ in cancer cells promotes their growth and impairs antitumor immunity, whereas activating it in immune cells drives tumor suppression and overrides tumor-promoting effects of cancer-intrinsic activation. Mechanistically, PPARδ enhances CD8+ T cell fitness against cancer through effector-associated chromatin remodeling and Cpt1a-mediated fatty acid oxidation. Therapeutically, PPARδ-activated CD8+ T cells sensitize immunotherapy-resistant microsatellite stable metastatic colorectal cancer to checkpoint blockade in mice, and pharmacological or genetic PPARδ activation enhances human chimeric antigen receptor T cell function. These findings identify compartment-specific PPARδ activity as a targetable driver of immune cell fitness that can be harnessed to improve outcomes in immunotherapy-resistant tumors.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02685-2",
+        "pmcid": null,
+        "authors": [
+          "Paul Bunk",
+          "Ilgin Ergin",
+          "Timothy Maher",
+          "Vyom Shah",
+          "Julia R Bonney",
+          "Lokesh B S S Kumar",
+          "Charlie Chung",
+          "Nils Wellhausen"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 43.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02685-2",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42864399",
+        "title": "Zbtb44-mediated transcriptional repression critically regulates colonic inflammation.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-12",
+        "abstract": "The regulatory mechanisms that maintain colonic immune homeostasis remain incompletely understood. Here we show that genetic deletion of Zbtb44, a previously uncharacterized member of the ZBTB transcription factor family, leads to spontaneous colitis and rectal prolapse. Zbtb44-/- T cells expressed increased IFN-γ, a pro-inflammatory cytokine strongly associated with human inflammatory bowel disease. Mechanistically, Zbtb44 undergoes SUMOylation, which facilitates its interaction with a conserved SUMO-interacting motif in T-bet, enabling binding to the IFN-γ promoter and enhancer to restrain chronic IFN-γ production. Together, these findings demonstrate that Zbtb44 is a key regulator of colonic inflammation, a role that could be exploited therapeutically.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02675-4",
+        "pmcid": null,
+        "authors": [
+          "Mahesh Kathania",
+          "Desh Raj",
+          "Thirupugal Govindarajan",
+          "Dinesh Ravindra Raju",
+          "Amit K Verma",
+          "Anirban Roy",
+          "Risha Mathur",
+          "Jenna Woody"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 19.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02675-4",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42881215",
+        "title": "Tuning T cells to give cancer the blues.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-15",
+        "abstract": "",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02697-y",
+        "pmcid": null,
+        "authors": [
+          "Anna M Schulz",
+          "Caitlin C Zebley",
+          "Dietmar Zehn",
+          "Ben Youngblood"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02697-y",
+        "supplement_reason": null
+      }
+    ],
+    "Science Immunology": [
+      {
+        "pmid": "42886820",
+        "title": "Glycome remodeling programs pathogenic γδ T17 cell responses in autoimmunity.",
+        "journal": "Science immunology",
+        "pub_date": "2026-10-16",
+        "abstract": "Glycans play fundamental roles in T cell biology; however, the glycome landscape of γδ T cells remains to be unlocked. Despite the growing importance of γδ T cells in host defense, tissue homeostasis, and diseases, the glycosylation mechanisms guiding their activation, commitment, and function remain poorly defined. By performing single-cell RNA sequencing, we revealed that type 3/γδ T17/interleukin-17A (IL-17A)-committed γδ T cells rely on (N-acetylglucosaminyltransferase 1) MGAT1-MGAT5-mediated branched N-glycosylation. We further demonstrated that the absence of branched N-glycans on γδ T cells acts as a peripheral signal, driving an IL-17A-pro-inflammatory phenotype, alongside a shift to a Vγ4+ subset and the imprinting of innate-like properties. This altered glycoform of type 3 γδ T cells was shown to induce severe psoriasis. γδ T cells from patients with autoimmune and inflammatory diseases exhibited a deficiency in branched N-glycans. Glycan supplementation can reprogram γδ T cells toward a less-pathogenic state, highlighting N-glycans as a previously unrecognized immune checkpoint for γδ T cells.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aec9553",
+        "pmcid": null,
+        "authors": [
+          "Beatriz Santos-Pereira",
+          "Rafaela Nogueira",
+          "Yohannes Tafesse",
+          "Ariana Correia-Silva",
+          "Eduarda Leite-Gomes",
+          "Guillem Sanchez Sanchez",
+          "Xavier Luppens",
+          "Lyndsay E A Young"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 26.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aec9553",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42886819",
+        "title": "STAT3 operates as an inflammation-dependent transcriptional switch in antiviral NK cells.",
+        "journal": "Science immunology",
+        "pub_date": "2026-10-16",
+        "abstract": "The immune system integrates signals to regulate immune responses, forming complex context-dependent networks where identical cues produce distinct outcomes. Signal transducer and activator of transcription (STAT) transcription factors convert cytokine receptor engagement into transcriptional responses, serving as central regulatory hubs. How concurrent STAT activation across different environments shapes immune cell function remains unclear. Here, we show that STAT3 plays a context-dependent role in antiviral natural killer (NK) cells, either promoting or impairing adaptive responses depending on the inflammatory milieu during mouse cytomegalovirus (MCMV) infection. STAT3 is recruited to distinct genomic loci depending on IL-15 or type I interferon availability, thus driving alternative transcriptional programs. Mechanistically, STAT3 differentially regulates downstream transcription factors MYB and B lymphocyte-induced maturation protein-1 (BLIMP-1) to shape NK cell differentiation during homeostasis and infection. STAT3 relocation is governed by epigenetic mechanisms and preferred relocation toward distinct STAT motifs. Thus, STAT3 functions as a cytokine-sensing transcriptional switch integrating IL-15 and type I interferon signals to control lymphocyte adaptation during viral infection.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aed4832",
+        "pmcid": null,
+        "authors": [
+          "Simon Grassmann",
+          "Hyunu Kim",
+          "Timo Rückert",
+          "Christin Friedrich",
+          "Marine Pujol",
+          "Sherry X Fan",
+          "Mark Owyong",
+          "Jennifer M Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 18.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aed4832",
+        "supplement_reason": null
+      }
+    ],
+    "Bioinformatics": [
+      {
+        "pmid": "42867154",
+        "title": "Inverse probability weighting-based mediation analysis for microbiome data.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-10-13",
+        "abstract": "MOTIVATION: Mediation analysis is an important tool for elucidating causal mechanisms in biomedical research and has recently gained increasing attention in microbiome studies. Motivated by a microbiome study of acute myeloid leukemia (AML) patients, we investigate whether the effect of induction chemotherapy intensity on infection status is mediated through gut microbial taxa. This problem poses substantial methodological challenges due to the high dimensionality, zero inflation, and dependence of microbial mediators, as well as the presence of an exposure-induced mediator-outcome confounder, antibiotic use.\nRESULTS: To address these challenges, we propose a novel nonparametric identification formula for the interventional indirect effect, a causal mediation estimand that remains identifiable in the presence of exposure-induced mediator-outcome confounding. Building on this identification result, we develop an inverse probability weighting estimator and construct standard normal bootstrap confidence intervals for inference. Simulation studies demonstrate that the proposed method achieves accurate effect estimation and maintains appropriate type I error rates and power in finite samples. Application to the AML microbiome study provides evidence of a statistically significant interventional indirect effect of induction chemotherapy intensity on infection risk through alterations in the gut microbiome.\nAVAILABILITY AND IMPLEMENTATION: The R code for the simulation studies is available at https://github.com/YX-ZHANG-1/CausalMediationMicrobiome and archived on Zenodo at https://doi.org/10.5281/zenodo.21960802.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag750",
+        "pmcid": null,
+        "authors": [
+          "Yuexia Zhang",
+          "Jian Wang",
+          "Jiayi Shen",
+          "Jessica Galloway-Peña",
+          "Samuel Shelburne",
+          "Linbo Wang",
+          "Jianhua Hu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 20.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag750",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42865021",
+        "title": "CMGL: Confidence-guided Multi-omics Graph Learning for Cancer Subtype Classification.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-10-12",
+        "abstract": "Multi-omics integration can improve cancer subtyping, but modality informativeness and noise vary across cancer types and patients. Most graph methods for multi-omics data learn modality contributions within the downstream classification objective, leaving predictive reliability for each patient implicit. As a result, uninformative modalities can weaken the fused representation, while unreliable omics can introduce noisy patient relationships into graph propagation. To address these two problems, we propose CMGL, which produces a separate reliability estimate before fusion and uses consensus patient neighborhoods for graph classification.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag763",
+        "pmcid": null,
+        "authors": [
+          "Boyang Fan",
+          "Hengchuang Yin",
+          "Siyu Yi",
+          "Yifan Wang",
+          "Zhicheng Li",
+          "Leijiyu Zhou",
+          "Jiancheng Lv",
+          "Wei Ju"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cancer subtype classification",
+          "evidential deep learning",
+          "graph neural networks",
+          "multi-omics integration",
+          "uncertainty-aware learning"
+        ],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag763",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42865030",
+        "title": "Polypharmacological Target-Aware Molecule Generation.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-10-12",
+        "abstract": "MOTIVATION: Designing compounds capable of modulating multiple target proteins simultaneously (i.e., polypharmacology) is critical for treating complex diseases like cancer and neurodegenerative disorders. However, AI-driven multi-target drug design remains severely hindered by the scarcity of multi-target 3D structural data and the inefficiency of traditional \"generate-then-filter\" pipelines. There is a pressing need for scalable methods that can satisfy diverse binding constraints across multiple proteins without relying on scarce structural priors.\nRESULTS: To overcome these bottlenecks, we reformulate multi-target drug design as a sequence-based generation task and introduce PolyTamGen, an end-to-end autoregressive framework. We first curate a large-scale ligand-centric bioactivity dataset from ChEMBL and BindingDB, comprising 1.6 million unique ligands and 4.9 million bioactivity entries. PolyTamGen encodes target protein sets using ESM3, compresses these high-dimensional features into compact tokens via an attention module, and feeds them into a sequence-based compound generator to produce the final multi-target ligands. We further apply Direct Preference Optimization (DPO) to improve docking-based affinity proxies and drug-likeness. Extensive experiments on dual- and triple-target benchmarks demonstrate that PolyTamGen improves joint success rates over representative baselines while maintaining high chemical validity and diversity.\nAVAILABILITY AND IMPLEMENTATION: The code is available at https://github.com/bjzgcai/PolyTamGen. The processed data, model checkpoints, and benchmark results are available at Zenodo: https://doi.org/10.5281/zenodo.20594128.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag766",
+        "pmcid": null,
+        "authors": [
+          "Kehan Wu",
+          "Wei Zhang",
+          "Han Guo",
+          "Renhe Liu",
+          "Yu Shi",
+          "Peiran Jin",
+          "Haiguang Liu",
+          "Enhong Chen"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "molecule generation",
+          "multi-target drug design",
+          "polypharmacology"
+        ],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag766",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Protocols": []
+  },
+  "fulltext_cache": {}
+}
