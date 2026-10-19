@@ -1,0 +1,1035 @@
+﻿{
+  "schema_version": "1.0",
+  "task": "paper-overview-extractor-rss",
+  "status": "partial_success",
+  "generated_at": "2026-10-19T20:00:39.523109+00:00",
+  "date_range": {
+    "start": "2026-10-19",
+    "end": "2026-10-19"
+  },
+  "inputs": {
+    "journals_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\目标期刊.txt",
+    "keywords_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\关键词.txt",
+    "keyword_aliases_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\keyword_aliases.json",
+    "rss_sources_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\rss_sources.json",
+    "keywords": [
+      "免疫代谢",
+      "代谢表观调控",
+      "单细胞算法",
+      "单细胞图谱",
+      "流感",
+      "HSV",
+      "H1N1",
+      "肺损伤",
+      "肺组织修复",
+      "皮肤免疫"
+    ],
+    "llm_model": "hy-mt1.5-7b",
+    "llm_base_url": "http://127.0.0.1:1234",
+    "llm_translation_only": true,
+    "llm_proxy_url": "http://127.0.0.1:7890",
+    "google_fallback": true
+  },
+  "summary": {
+    "journal_count": 10,
+    "paper_count": 6,
+    "pubmed_enriched_count": 1,
+    "llm_enhanced_count": 6,
+    "llm_google_fallback_count": 0
+  },
+  "journals": [
+    {
+      "journal": "Nature",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nature/",
+      "feed_urls": [
+        "https://www.nature.com/nature/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nature/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nature.rss?error=cookies_not_supported&code=c2ed3ab3-5146-4b55-8ca8-7e203f6dbd88",
+          "status_code": 200,
+          "error": "",
+          "item_count": 75
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 50"
+      ],
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Cortex-wide imaging in naturally behaving mice with 1-gram wireless mesoscopes",
+          "link": "https://www.nature.com/articles/s41586-026-11293-x",
+          "published_at": "2026-10-19T08:00:00+08:00",
+          "published_date": "2026-10-19",
+          "summary": "Cortex-wide imaging in naturally behaving mice with 1-gram wireless mesoscopes",
+          "authors": [
+            "Yuanlong Zhang",
+            "Angran Li",
+            "Lekang Yuan",
+            "Mingrui Wang",
+            "Weihao Zhao",
+            "Zhenbo Wang",
+            "Boyang Zang",
+            "Yangxuan Zhou",
+            "Tao Yu",
+            "Lin Gao",
+            "Yu Wu",
+            "Rongkang Zhu",
+            "Mengyi Tian",
+            "Kun Li",
+            "Jiamin Wu",
+            "Pu Dai",
+            "Qionghai Dai"
+          ],
+          "doi": "10.1038/s41586-026-11293-x",
+          "journal": "Nature",
+          "source_feed": "https://www.nature.com/nature.rss?error=cookies_not_supported&code=c2ed3ab3-5146-4b55-8ca8-7e203f6dbd88",
+          "entry_id": "doi:10.1038/s41586-026-11293-x",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究",
+          "llm_title_bilingual": "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究 / Cortex-wide imaging in naturally behaving mice with 1-gram wireless mesoscopes",
+          "llm_research_question_zh": "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究",
+          "llm_highlights_zh": [
+            "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究"
+          ],
+          "llm_rss_summary_zh": "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Cortex-wide imaging in naturally behaving mice with 1-gram wireless mesoscopes",
+          "primary_summary_zh": "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究"
+        }
+      ]
+    },
+    {
+      "journal": "Science",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/science",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+        "https://www.science.org/rss/express.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "status_code": 200,
+          "error": "",
+          "item_count": 39
+        },
+        {
+          "url": "https://www.science.org/rss/express.xml",
+          "ok": true,
+          "final_url": "https://feeds.science.org/rss/science-aop.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 13
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/00928674"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "status_code": 200,
+          "error": "",
+          "item_count": 68
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell metabolism",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell-metabolism/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/15504131"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "status_code": 200,
+          "error": "",
+          "item_count": 51
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Immunity",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/immunity/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/10747613"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "status_code": 200,
+          "error": "",
+          "item_count": 46
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature Immunology",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/ni/",
+      "feed_urls": [
+        "https://www.nature.com/ni/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/ni/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/ni.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 3"
+      ],
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "The bidirectional double burden of non-communicable diseases and infections",
+          "link": "https://www.nature.com/articles/s41590-026-02696-z",
+          "published_at": "2026-10-19T08:00:00+08:00",
+          "published_date": "2026-10-19",
+          "summary": "The alarming rise in NCDs, particularly in low- and middle-income countries, is closely linked to infectious diseases. Despite growing evidence of a bidirectional, mutually reinforcing relationship, these links have received insufficient attention from researchers and healthcare stakeholders",
+          "authors": [
+            "Paschal Ruggajo",
+            "Davis Amani",
+            "Jackline Ngowi",
+            "George Msengi",
+            "Harrieth Ndumwa",
+            "Mariam Noorani",
+            "Blandina T. Mmbaga",
+            "Chrysanthi Skevaki",
+            "Harald Renz"
+          ],
+          "doi": "10.1038/s41590-026-02696-z",
+          "journal": "Nature Immunology",
+          "source_feed": "https://www.nature.com/ni.rss",
+          "entry_id": "doi:10.1038/s41590-026-02696-z",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "非传染性疾病与感染性疾病所共同带来的双重负担",
+          "llm_title_bilingual": "非传染性疾病与感染性疾病所共同带来的双重负担 / The bidirectional double burden of non-communicable diseases and infections",
+          "llm_research_question_zh": "非传染性疾病的急剧增加，尤其是在低收入和中等收入国家，与传染病密切相关。",
+          "llm_highlights_zh": [
+            "尽管越来越多的证据表明这两种关系具有双向性且会相互强化，但研究人员以及医疗领域的相关利益方仍然没有给予这些联系足够的重视。",
+            "非传染性疾病与感染性疾病所共同带来的双重负担",
+            "非传染性疾病的急剧增加，尤其是在低收入和中等收入国家，与传染病密切相关。"
+          ],
+          "llm_rss_summary_zh": "非传染性疾病的急剧增加，尤其是在低收入和中等收入国家，与传染病之间存在密切关联。尽管越来越多的证据表明这两种疾病之间存在双向的、相互促进的关系，但研究人员及医疗领域的相关人士对此尚未给予足够的重视。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "非传染性疾病的急剧增加，尤其是在低收入和中等收入国家，与传染病之间存在密切关联。尽管越来越多的证据表明这两种疾病之间存在双向的、相互促进的关系，但研究人员及医疗领域的相关人士对此尚未给予足够的重视。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "The alarming rise in NCDs, particularly in low- and middle-income countries, is closely linked to infectious diseases. Despite growing evidence of a bidirectional, mutually reinforcing relationship, these links have received insufficient attention from researchers and healthcare stakeholders",
+          "primary_summary_zh": "非传染性疾病的急剧增加，尤其是在低收入和中等收入国家，与传染病之间存在密切关联。尽管越来越多的证据表明这两种疾病之间存在双向的、相互促进的关系，但研究人员及医疗领域的相关人士对此尚未给予足够的重视。"
+        },
+        {
+          "title": "A distinct serological signature of preterm birth",
+          "link": "https://www.nature.com/articles/s41590-026-02691-4",
+          "published_at": "2026-10-19T08:00:00+08:00",
+          "published_date": "2026-10-19",
+          "summary": "Preterm birth is the leading cause of death in children globally. We determined proteome-wide autoantibody profiles for 2,195 pregnant individuals, revealing a shared humoral program of normal pregnancy and a distinct, expanded autoreactive signature that precedes preterm birth",
+          "authors": [],
+          "doi": "10.1038/s41590-026-02691-4",
+          "journal": "Nature Immunology",
+          "source_feed": "https://www.nature.com/ni.rss",
+          "entry_id": "doi:10.1038/s41590-026-02691-4",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "早产特有的血清学特征",
+          "llm_title_bilingual": "早产特有的血清学特征 / A distinct serological signature of preterm birth",
+          "llm_research_question_zh": "早产是全球儿童死亡的主要原因。",
+          "llm_highlights_zh": [
+            "我们对2,195名孕妇进行了全蛋白质组水平的自身抗体检测，结果发现：正常妊娠过程中存在一种共同的体液免疫反应模式，而那些在早产前出现症状的孕妇则表现出一种明显增强的自身免疫反应特征。",
+            "早产特有的血清学特征",
+            "早产是全球儿童死亡的主要原因。"
+          ],
+          "llm_rss_summary_zh": "早产是全球儿童死亡的主要原因。我们对2,195名孕妇进行了全蛋白质组水平的自身抗体检测，结果发现：正常妊娠过程中存在某些共同的体液免疫反应特征，而而在早产发生之前，这些特征会发生变化，出现一种独特且扩增的自身免疫反应模式。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "早产是全球儿童死亡的主要原因。我们对2,195名孕妇进行了全蛋白质组水平的自身抗体检测，结果发现：正常妊娠过程中存在某些共同的体液免疫反应特征，而而在早产发生之前，这些特征会发生变化，出现一种独特且扩增的自身免疫反应模式。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Preterm birth is the leading cause of death in children globally. We determined proteome-wide autoantibody profiles for 2,195 pregnant individuals, revealing a shared humoral program of normal pregnancy and a distinct, expanded autoreactive signature that precedes preterm birth",
+          "primary_summary_zh": "早产是全球儿童死亡的主要原因。我们对2,195名孕妇进行了全蛋白质组水平的自身抗体检测，结果发现：正常妊娠过程中存在某些共同的体液免疫反应特征，而而在早产发生之前，这些特征会发生变化，出现一种独特且扩增的自身免疫反应模式。"
+        }
+      ]
+    },
+    {
+      "journal": "Science Immunology",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/sciimmunol",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "status_code": 200,
+          "error": "",
+          "item_count": 9
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Bioinformatics",
+      "configured": true,
+      "publisher": "Oxford Academic",
+      "homepage": "https://academic.oup.com/bioinformatics",
+      "feed_urls": [
+        "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+        "https://academic.oup.com/rss/site_5139/3001.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 5
+        },
+        {
+          "url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 50
+        }
+      ],
+      "warnings": [],
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "MR-MAS: An End-to-End Multi-Agent System for Autonomous Mendelian Randomization Analysis",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag722/8937278?rss=1",
+          "published_at": "2026-10-19T08:00:00+08:00",
+          "published_date": "2026-10-19",
+          "summary": "Abstract Motivation Understanding disease-related causal mechanisms is essential for biomedical research, yet the practical use of Mendelian Randomization (MR) remains constrained by fragmented analytical workflows and a strong dependence on specialized expertise. These challenges limit the efficient, standardized, and reproducible execution of end-to-end MR analyses. Results We propose MR-MAS, an end-to-end automated MR analysis system built on a multi-agent architecture. MR-MAS leverages the reasoning and coordination capabilities of large language models (LLMs) and integrates external tools to unify data acquisition, causal effect estimation, results interpretation, and manuscript preparation into a single workflow, thereby reducing manual effort. MR-MAS further incorporates a structured Mendelian Randomization Knowledge Base (MRKB) to support MR method implementation and targeted repair of MR analysis code. Across diverse test scenarios, MR-MAS demonstrated stable workflow execution, reproduced several literature-supported causal signals, and maintained consistent causal estimates across repeated runs and different model backends. Additional evaluations showed robust trait retrieval and improved code-repair performance with MRKB guidance. These results suggest that MR-MAS may provide practical support for scalable, standardized, and reproducible MR analyses in biomedical research. Availability and Implementation The source code, MRKB, and benchmark data are freely available at https://github.com/Zaiwen/MR-MAS , with the version used in this study archived at https://doi.org/10.5281/zenodo.20342636",
+          "authors": [
+            "Wendi Wei",
+            "Yuling Fan",
+            "Lin Li",
+            "Thuc Duy Le",
+            "Xiaomei Li",
+            "Debo Cheng",
+            "Zaiwen Feng"
+          ],
+          "doi": "10.1093/bioinformatics/btag722",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag722",
+          "pmid": "42895113",
+          "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42895113/",
+          "abstract": "MOTIVATION: Understanding disease-related causal mechanisms is essential for biomedical research, yet the practical use of Mendelian Randomization (MR) remains constrained by fragmented analytical workflows and a strong dependence on specialized expertise. These challenges limit the efficient, standardized, and reproducible execution of end-to-end MR analyses.\n\nRESULTS: We propose MR-MAS, an end-to-end automated MR analysis system built on a multi-agent architecture. MR-MAS leverages the reasoning and coordination capabilities of large language models (LLMs) and integrates external tools to unify data acquisition, causal effect estimation, results interpretation, and manuscript preparation into a single workflow, thereby reducing manual effort. MR-MAS further incorporates a structured Mendelian Randomization Knowledge Base (MRKB) to support MR method implementation and targeted repair of MR analysis code. Across diverse test scenarios, MR-MAS demonstrated stable workflow execution, reproduced several literature-supported causal signals, and maintained consistent causal estimates across repeated runs and different model backends. Additional evaluations showed robust trait retrieval and improved code-repair performance with MRKB guidance. These results suggest that MR-MAS may provide practical support for scalable, standardized, and reproducible MR analyses in biomedical research.\n\nAVAILABILITY AND IMPLEMENTATION: The source code, MRKB, and benchmark data are freely available at https://github.com/Zaiwen/MR-MAS, with the version used in this study archived at https://doi.org/10.5281/zenodo.20342636.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "affiliations": [
+            "College of Informatics, Huazhong Agricultural University, 430070, Wuhan, China.",
+            "College of Plant Science & Technology, Huazhong Agricultural University, 430070, Wuhan, China.",
+            "College of Engineering and Information Technology, Adelaide University, 5095, South Australia, Australia.",
+            "Business Banking, Commonwealth Bank, 2000, NSW, Australia.",
+            "School of Computer Science and Technology, Hainan University, 570228, Haikou, China.",
+            "Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, 430070, Wuhan, China."
+          ],
+          "mesh_terms": [],
+          "paper_keywords": [
+            "Automated analysis",
+            "Causal inference",
+            "LLMs",
+            "Mendelian randomization",
+            "Multi-agent system"
+          ],
+          "publication_types": [
+            "Journal Article"
+          ],
+          "pubmed_journal": "Bioinformatics (Oxford, England)",
+          "pubmed_publication_date": "2026-10-19",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "success",
+          "pubmed_warning": "",
+          "llm_title_zh": "MR-MAS：一种用于自主进行孟德尔随机化分析的端到端多智能体系统",
+          "llm_title_bilingual": "MR-MAS：一种用于自主进行孟德尔随机化分析的端到端多智能体系统 / MR-MAS: An End-to-End Multi-Agent System for Autonomous Mendelian Randomization Analysis",
+          "llm_research_question_zh": "动机：理解与疾病相关的因果机制对于生物医学研究而言至关重要，然而，孟德尔随机化方法的实际应用仍受到分析流程碎片化以及对该方法高度专业性要求的限制。",
+          "llm_highlights_zh": [
+            "这些挑战限制了端到端磁共振分析的高效、标准化及可重复性执行。",
+            "结果：我们提出了MR-MAS这一基于多智能体架构构建的端到端自动化磁共振分析系统。",
+            "MR-MAS利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应分析、结果解读以及论文撰写等流程统一到一个工作体系中，从而显著减少人工操作的工作量。"
+          ],
+          "llm_rss_summary_zh": "**摘要**  \n理解与疾病相关的因果机制是生物医学研究的核心任务，然而孟德尔随机化分析的实际应用仍受到分散的分析流程及对专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端分析过程的实施。  \n\n**研究结果**  \n我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统充分利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读及论文撰写等环节纳入统一的处理流程，从而显著降低人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为方法的应用与分析代码的优化提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并能在重复实验或使用不同模型时保持结果的一致性。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到提升，代码修复效果也更为显著。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的分析工作提供有力支持。  \n\n**开源与实施信息**  \n源代码、孟德尔随机化知识库以及相关基准数据均可在以下链接免费获取：https://github.com/Zaiwen/MR-MAS。本研究所使用的版本存档地址为：https://doi.org/10.5281/zenodo.20342636",
+          "llm_pubmed_abstract_zh": "**动机**：理解与疾病相关的因果机制对生物医学研究而言至关重要，然而孟德尔随机化分析的实际应用仍受到分散的分析工作流程以及对该领域专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端孟德尔随机化分析的实施。  \n\n**结果**：我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读以及论文撰写等流程统一到一个工作流程中，从而显著减少人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为该方法的具体应用及分析代码的修复提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并且在多次重复实验或使用不同模型时仍能保持一致的因果估计结果。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到了提升，代码修复效果也更为理想。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的孟德尔随机化分析提供有力支持。  \n\n**可用性与实施方式**：源代码、孟德尔随机化知识库以及相关基准数据均可在https://github.com/Zaiwen/MR-MAS免费获取；本研究所使用的版本已存档于https://doi.org/10.5281/zenodo.20342636。  \n\n**补充信息**：更多补充数据可在线查阅Bioinformatics数据库。",
+          "llm_paper_keywords_zh": [
+            "自动化分析",
+            "因果推断",
+            "大型语言模型",
+            "孟德尔随机化",
+            "多智能体系统"
+          ],
+          "llm_publication_types_zh": [
+            "期刊文章"
+          ],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 5,
+          "is_new_to_state": true,
+          "primary_summary": "理解与疾病相关的因果机制对生物医学研究而言至关重要，然而孟德尔随机化分析的实际应用仍受到分散的分析工作流程以及对该领域专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端孟德尔随机化分析的实施。\n我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读以及论文撰写等流程统一到一个工作流程中，从而显著减少人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为该方法的具体应用及分析代码的修复提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并且在多次重复实验或使用不同模型时仍能保持一致的因果估计结果。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到了提升，代码修复效果也更为理想。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的孟德尔随机化分析提供有力支持。\n\n可用性与实施方式：源代码、孟德尔随机化知识库以及相关基准数据均可在https://github.com/Zaiwen/MR-MAS免费获取；本研究所使用的版本已存档于https://doi.org/10.5281/zenodo.20342636。\n\n补充信息：更多补充数据可在线查阅Bioinformatics数据库。",
+          "primary_summary_source": "pubmed",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "pubmed",
+          "primary_summary_raw": "MOTIVATION: Understanding disease-related causal mechanisms is essential for biomedical research, yet the practical use of Mendelian Randomization (MR) remains constrained by fragmented analytical workflows and a strong dependence on specialized expertise. These challenges limit the efficient, standardized, and reproducible execution of end-to-end MR analyses.\n\nRESULTS: We propose MR-MAS, an end-to-end automated MR analysis system built on a multi-agent architecture. MR-MAS leverages the reasoning and coordination capabilities of large language models (LLMs) and integrates external tools to unify data acquisition, causal effect estimation, results interpretation, and manuscript preparation into a single workflow, thereby reducing manual effort. MR-MAS further incorporates a structured Mendelian Randomization Knowledge Base (MRKB) to support MR method implementation and targeted repair of MR analysis code. Across diverse test scenarios, MR-MAS demonstrated stable workflow execution, reproduced several literature-supported causal signals, and maintained consistent causal estimates across repeated runs and different model backends. Additional evaluations showed robust trait retrieval and improved code-repair performance with MRKB guidance. These results suggest that MR-MAS may provide practical support for scalable, standardized, and reproducible MR analyses in biomedical research.\n\nAVAILABILITY AND IMPLEMENTATION: The source code, MRKB, and benchmark data are freely available at https://github.com/Zaiwen/MR-MAS, with the version used in this study archived at https://doi.org/10.5281/zenodo.20342636.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "primary_summary_zh": "**动机**：理解与疾病相关的因果机制对生物医学研究而言至关重要，然而孟德尔随机化分析的实际应用仍受到分散的分析工作流程以及对该领域专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端孟德尔随机化分析的实施。  \n\n**结果**：我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读以及论文撰写等流程统一到一个工作流程中，从而显著减少人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为该方法的具体应用及分析代码的修复提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并且在多次重复实验或使用不同模型时仍能保持一致的因果估计结果。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到了提升，代码修复效果也更为理想。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的孟德尔随机化分析提供有力支持。  \n\n**可用性与实施方式**：源代码、孟德尔随机化知识库以及相关基准数据均可在https://github.com/Zaiwen/MR-MAS免费获取；本研究所使用的版本已存档于https://doi.org/10.5281/zenodo.20342636。  \n\n**补充信息**：更多补充数据可在线查阅Bioinformatics数据库。"
+        },
+        {
+          "title": "Correction: massMatchR: a Shiny application for glycomics mass spectrometry data analysis",
+          "link": "https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btag770/8943483?rss=1",
+          "published_at": "2026-10-19T08:00:00+08:00",
+          "published_date": "2026-10-19",
+          "summary": "This is a correction to: Gábor Beke, Lubos Klucar, Zuzana Pakanová, Rebeka Kodríkova, Peter Baráth, Marek Nemčovič, massMatchR : a Shiny application for glycomics mass spectrometry data analysis, Bioinformatics , Volume 42, Issue 10, October 2026, btag700, https://doi.org/10.1093/bioinformatics/btag700",
+          "authors": [],
+          "doi": "10.1093/bioinformatics/btag770",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag770",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "更正：massMatchR：一款用于糖组学质谱数据分析的实用工具",
+          "llm_title_bilingual": "更正：massMatchR：一款用于糖组学质谱数据分析的实用工具 / Correction: massMatchR: a Shiny application for glycomics mass spectrometry data analysis",
+          "llm_research_question_zh": "这是对以下文献的修正：Gábor Beke、Lubos Klucar、Zuzana Pakanová、Rebeka Kodríkova、Peter Baráth、Marek Nemčovič，《massMatchR：一种用于糖组学质谱数据分析的工具》，《生物信息学》，第42卷，第10期，2026年10月，文章编号btag700，链接：https://doi.org/10.1093/bioinformatics/btag700",
+          "llm_highlights_zh": [
+            "更正：massMatchR：一款用于糖组学质谱数据分析的实用工具",
+            "这是对以下文章的修正：Gábor Beke、Lubos Klucar、Zuzana Pakanová、Rebeka Kodríkova、Peter Baráth、Marek Nemčovič，《massMatchR：一种用于糖组学质谱数据分析的工具》，《生物信息学》，第42卷，第10期，2026年10月，文章编号btag700，链接：https://doi.org/10.1093/bioinformatics/btag700"
+          ],
+          "llm_rss_summary_zh": "这是对以下文章的修正：Gábor Beke、Lubos Klucar、Zuzana Pakanová、Rebeka Kodríkova、Peter Baráth、Marek Nemčovič，《massMatchR：一种用于糖组学质谱数据分析的工具》，《生物信息学》，第42卷，第10期，2026年10月，btag700，https://doi.org/10.1093/bioinformatics/btag700",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "这是对以下文章的修正：Gábor Beke、Lubos Klucar、Zuzana Pakanová、Rebeka Kodríkova、Peter Baráth、Marek Nemčovič，《massMatchR：一种用于糖组学质谱数据分析的工具》，《生物信息学》，第42卷，第10期，2026年10月，btag700，https://doi.org/10.1093/bioinformatics/btag700",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "This is a correction to: Gábor Beke, Lubos Klucar, Zuzana Pakanová, Rebeka Kodríkova, Peter Baráth, Marek Nemčovič, massMatchR : a Shiny application for glycomics mass spectrometry data analysis, Bioinformatics , Volume 42, Issue 10, October 2026, btag700, https://doi.org/10.1093/bioinformatics/btag700",
+          "primary_summary_zh": "这是对以下文章的修正：Gábor Beke、Lubos Klucar、Zuzana Pakanová、Rebeka Kodríkova、Peter Baráth、Marek Nemčovič，《massMatchR：一种用于糖组学质谱数据分析的工具》，《生物信息学》，第42卷，第10期，2026年10月，btag700，https://doi.org/10.1093/bioinformatics/btag700"
+        }
+      ]
+    },
+    {
+      "journal": "Nature Protocols",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nprot/",
+      "feed_urls": [
+        "https://www.nature.com/nprot/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nprot/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nprot.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 1",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature methods",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nmeth/",
+      "feed_urls": [
+        "https://www.nature.com/nmeth/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nmeth/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nmeth.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [],
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Multi-immersion oblique plane microscope (miOPM): a reconfigurable platform for high-resolution light-sheet fluorescence microscopy",
+          "link": "https://www.nature.com/articles/s41592-026-03245-0",
+          "published_at": "2026-10-19T08:00:00+08:00",
+          "published_date": "2026-10-19",
+          "summary": "The multi-immersion oblique plane microscope is a flexible and versatile light-sheet microscope that allows imaging of samples ranging from cells in culture to whole organisms or cleared tissue samples",
+          "authors": [
+            "Bingying Chen",
+            "Alfred Millett-Sikking",
+            "Bo-Jui Chang",
+            "Seweryn Gałecki",
+            "Stephan Daetwyler",
+            "Jenny Jiou",
+            "Jim Monistrol",
+            "Qionghua Shen",
+            "Felix Zhou",
+            "Hsin-Yu Lin",
+            "Edward Jenkins",
+            "Miriam C. Stein",
+            "Madeleine Marlar-Pavey",
+            "Gabriel Sturm",
+            "Alexander L. Li",
+            "Qiaosi Tang",
+            "Brian Y. Feng",
+            "Ulises Diaz",
+            "Yannan Chen",
+            "Aryaman Shalizi",
+            "Astrid Gillich",
+            "Jonathan R. Friedman",
+            "Raju Tomer",
+            "Wallace F. Marshall",
+            "Sarah Shahmoradian",
+            "Kevin M. Dean",
+            "Reto Fiolka"
+          ],
+          "doi": "10.1038/s41592-026-03245-0",
+          "journal": "Nature methods",
+          "source_feed": "https://www.nature.com/nmeth.rss",
+          "entry_id": "doi:10.1038/s41592-026-03245-0",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "多浸入式斜面显微镜：一种可重新配置的高分辨率光片荧光显微镜平台",
+          "llm_title_bilingual": "多浸入式斜面显微镜：一种可重新配置的高分辨率光片荧光显微镜平台 / Multi-immersion oblique plane microscope (miOPM): a reconfigurable platform for high-resolution light-sheet fluorescence microscopy",
+          "llm_research_question_zh": "多浸入式斜面显微镜是一种灵活且用途广泛的光片显微镜，能够用于观察从培养中的细胞到整个生物体或经过透明化处理的组织样本等各种对象。",
+          "llm_highlights_zh": [
+            "多浸入式斜面显微镜：一种可重新配置的高分辨率光片荧光显微镜平台",
+            "多浸入式斜面显微镜是一种灵活且用途广泛的光片显微镜，能够用于观察从培养中的细胞到整个生物体或经过透明化处理的组织样本等各种对象。"
+          ],
+          "llm_rss_summary_zh": "多浸入式斜面显微镜是一种灵活且用途广泛的光片显微镜，能够用于观察从培养中的细胞到整个生物体或经过透明化处理的组织样本等各种对象。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "多浸入式斜面显微镜是一种灵活且用途广泛的光片显微镜，能够用于观察从培养中的细胞到整个生物体或经过透明化处理的组织样本等各种对象。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "The multi-immersion oblique plane microscope is a flexible and versatile light-sheet microscope that allows imaging of samples ranging from cells in culture to whole organisms or cleared tissue samples",
+          "primary_summary_zh": "多浸入式斜面显微镜是一种灵活且用途广泛的光片显微镜，能够用于观察从培养中的细胞到整个生物体或经过透明化处理的组织样本等各种对象。"
+        }
+      ]
+    }
+  ],
+  "all_papers": [
+    {
+      "title": "MR-MAS: An End-to-End Multi-Agent System for Autonomous Mendelian Randomization Analysis",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag722/8937278?rss=1",
+      "published_at": "2026-10-19T08:00:00+08:00",
+      "published_date": "2026-10-19",
+      "summary": "Abstract Motivation Understanding disease-related causal mechanisms is essential for biomedical research, yet the practical use of Mendelian Randomization (MR) remains constrained by fragmented analytical workflows and a strong dependence on specialized expertise. These challenges limit the efficient, standardized, and reproducible execution of end-to-end MR analyses. Results We propose MR-MAS, an end-to-end automated MR analysis system built on a multi-agent architecture. MR-MAS leverages the reasoning and coordination capabilities of large language models (LLMs) and integrates external tools to unify data acquisition, causal effect estimation, results interpretation, and manuscript preparation into a single workflow, thereby reducing manual effort. MR-MAS further incorporates a structured Mendelian Randomization Knowledge Base (MRKB) to support MR method implementation and targeted repair of MR analysis code. Across diverse test scenarios, MR-MAS demonstrated stable workflow execution, reproduced several literature-supported causal signals, and maintained consistent causal estimates across repeated runs and different model backends. Additional evaluations showed robust trait retrieval and improved code-repair performance with MRKB guidance. These results suggest that MR-MAS may provide practical support for scalable, standardized, and reproducible MR analyses in biomedical research. Availability and Implementation The source code, MRKB, and benchmark data are freely available at https://github.com/Zaiwen/MR-MAS , with the version used in this study archived at https://doi.org/10.5281/zenodo.20342636",
+      "authors": [
+        "Wendi Wei",
+        "Yuling Fan",
+        "Lin Li",
+        "Thuc Duy Le",
+        "Xiaomei Li",
+        "Debo Cheng",
+        "Zaiwen Feng"
+      ],
+      "doi": "10.1093/bioinformatics/btag722",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag722",
+      "pmid": "42895113",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42895113/",
+      "abstract": "MOTIVATION: Understanding disease-related causal mechanisms is essential for biomedical research, yet the practical use of Mendelian Randomization (MR) remains constrained by fragmented analytical workflows and a strong dependence on specialized expertise. These challenges limit the efficient, standardized, and reproducible execution of end-to-end MR analyses.\n\nRESULTS: We propose MR-MAS, an end-to-end automated MR analysis system built on a multi-agent architecture. MR-MAS leverages the reasoning and coordination capabilities of large language models (LLMs) and integrates external tools to unify data acquisition, causal effect estimation, results interpretation, and manuscript preparation into a single workflow, thereby reducing manual effort. MR-MAS further incorporates a structured Mendelian Randomization Knowledge Base (MRKB) to support MR method implementation and targeted repair of MR analysis code. Across diverse test scenarios, MR-MAS demonstrated stable workflow execution, reproduced several literature-supported causal signals, and maintained consistent causal estimates across repeated runs and different model backends. Additional evaluations showed robust trait retrieval and improved code-repair performance with MRKB guidance. These results suggest that MR-MAS may provide practical support for scalable, standardized, and reproducible MR analyses in biomedical research.\n\nAVAILABILITY AND IMPLEMENTATION: The source code, MRKB, and benchmark data are freely available at https://github.com/Zaiwen/MR-MAS, with the version used in this study archived at https://doi.org/10.5281/zenodo.20342636.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "affiliations": [
+        "College of Informatics, Huazhong Agricultural University, 430070, Wuhan, China.",
+        "College of Plant Science & Technology, Huazhong Agricultural University, 430070, Wuhan, China.",
+        "College of Engineering and Information Technology, Adelaide University, 5095, South Australia, Australia.",
+        "Business Banking, Commonwealth Bank, 2000, NSW, Australia.",
+        "School of Computer Science and Technology, Hainan University, 570228, Haikou, China.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, 430070, Wuhan, China."
+      ],
+      "mesh_terms": [],
+      "paper_keywords": [
+        "Automated analysis",
+        "Causal inference",
+        "LLMs",
+        "Mendelian randomization",
+        "Multi-agent system"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_journal": "Bioinformatics (Oxford, England)",
+      "pubmed_publication_date": "2026-10-19",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "success",
+      "pubmed_warning": "",
+      "llm_title_zh": "MR-MAS：一种用于自主进行孟德尔随机化分析的端到端多智能体系统",
+      "llm_title_bilingual": "MR-MAS：一种用于自主进行孟德尔随机化分析的端到端多智能体系统 / MR-MAS: An End-to-End Multi-Agent System for Autonomous Mendelian Randomization Analysis",
+      "llm_research_question_zh": "动机：理解与疾病相关的因果机制对于生物医学研究而言至关重要，然而，孟德尔随机化方法的实际应用仍受到分析流程碎片化以及对该方法高度专业性要求的限制。",
+      "llm_highlights_zh": [
+        "这些挑战限制了端到端磁共振分析的高效、标准化及可重复性执行。",
+        "结果：我们提出了MR-MAS这一基于多智能体架构构建的端到端自动化磁共振分析系统。",
+        "MR-MAS利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应分析、结果解读以及论文撰写等流程统一到一个工作体系中，从而显著减少人工操作的工作量。"
+      ],
+      "llm_rss_summary_zh": "**摘要**  \n理解与疾病相关的因果机制是生物医学研究的核心任务，然而孟德尔随机化分析的实际应用仍受到分散的分析流程及对专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端分析过程的实施。  \n\n**研究结果**  \n我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统充分利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读及论文撰写等环节纳入统一的处理流程，从而显著降低人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为方法的应用与分析代码的优化提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并能在重复实验或使用不同模型时保持结果的一致性。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到提升，代码修复效果也更为显著。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的分析工作提供有力支持。  \n\n**开源与实施信息**  \n源代码、孟德尔随机化知识库以及相关基准数据均可在以下链接免费获取：https://github.com/Zaiwen/MR-MAS。本研究所使用的版本存档地址为：https://doi.org/10.5281/zenodo.20342636",
+      "llm_pubmed_abstract_zh": "**动机**：理解与疾病相关的因果机制对生物医学研究而言至关重要，然而孟德尔随机化分析的实际应用仍受到分散的分析工作流程以及对该领域专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端孟德尔随机化分析的实施。  \n\n**结果**：我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读以及论文撰写等流程统一到一个工作流程中，从而显著减少人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为该方法的具体应用及分析代码的修复提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并且在多次重复实验或使用不同模型时仍能保持一致的因果估计结果。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到了提升，代码修复效果也更为理想。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的孟德尔随机化分析提供有力支持。  \n\n**可用性与实施方式**：源代码、孟德尔随机化知识库以及相关基准数据均可在https://github.com/Zaiwen/MR-MAS免费获取；本研究所使用的版本已存档于https://doi.org/10.5281/zenodo.20342636。  \n\n**补充信息**：更多补充数据可在线查阅Bioinformatics数据库。",
+      "llm_paper_keywords_zh": [
+        "自动化分析",
+        "因果推断",
+        "大型语言模型",
+        "孟德尔随机化",
+        "多智能体系统"
+      ],
+      "llm_publication_types_zh": [
+        "期刊文章"
+      ],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 5,
+      "is_new_to_state": true,
+      "primary_summary": "理解与疾病相关的因果机制对生物医学研究而言至关重要，然而孟德尔随机化分析的实际应用仍受到分散的分析工作流程以及对该领域专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端孟德尔随机化分析的实施。\n我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读以及论文撰写等流程统一到一个工作流程中，从而显著减少人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为该方法的具体应用及分析代码的修复提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并且在多次重复实验或使用不同模型时仍能保持一致的因果估计结果。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到了提升，代码修复效果也更为理想。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的孟德尔随机化分析提供有力支持。\n\n可用性与实施方式：源代码、孟德尔随机化知识库以及相关基准数据均可在https://github.com/Zaiwen/MR-MAS免费获取；本研究所使用的版本已存档于https://doi.org/10.5281/zenodo.20342636。\n\n补充信息：更多补充数据可在线查阅Bioinformatics数据库。",
+      "primary_summary_source": "pubmed",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "pubmed",
+      "primary_summary_raw": "MOTIVATION: Understanding disease-related causal mechanisms is essential for biomedical research, yet the practical use of Mendelian Randomization (MR) remains constrained by fragmented analytical workflows and a strong dependence on specialized expertise. These challenges limit the efficient, standardized, and reproducible execution of end-to-end MR analyses.\n\nRESULTS: We propose MR-MAS, an end-to-end automated MR analysis system built on a multi-agent architecture. MR-MAS leverages the reasoning and coordination capabilities of large language models (LLMs) and integrates external tools to unify data acquisition, causal effect estimation, results interpretation, and manuscript preparation into a single workflow, thereby reducing manual effort. MR-MAS further incorporates a structured Mendelian Randomization Knowledge Base (MRKB) to support MR method implementation and targeted repair of MR analysis code. Across diverse test scenarios, MR-MAS demonstrated stable workflow execution, reproduced several literature-supported causal signals, and maintained consistent causal estimates across repeated runs and different model backends. Additional evaluations showed robust trait retrieval and improved code-repair performance with MRKB guidance. These results suggest that MR-MAS may provide practical support for scalable, standardized, and reproducible MR analyses in biomedical research.\n\nAVAILABILITY AND IMPLEMENTATION: The source code, MRKB, and benchmark data are freely available at https://github.com/Zaiwen/MR-MAS, with the version used in this study archived at https://doi.org/10.5281/zenodo.20342636.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "primary_summary_zh": "**动机**：理解与疾病相关的因果机制对生物医学研究而言至关重要，然而孟德尔随机化分析的实际应用仍受到分散的分析工作流程以及对该领域专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端孟德尔随机化分析的实施。  \n\n**结果**：我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读以及论文撰写等流程统一到一个工作流程中，从而显著减少人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为该方法的具体应用及分析代码的修复提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并且在多次重复实验或使用不同模型时仍能保持一致的因果估计结果。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到了提升，代码修复效果也更为理想。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的孟德尔随机化分析提供有力支持。  \n\n**可用性与实施方式**：源代码、孟德尔随机化知识库以及相关基准数据均可在https://github.com/Zaiwen/MR-MAS免费获取；本研究所使用的版本已存档于https://doi.org/10.5281/zenodo.20342636。  \n\n**补充信息**：更多补充数据可在线查阅Bioinformatics数据库。"
+    },
+    {
+      "title": "The bidirectional double burden of non-communicable diseases and infections",
+      "link": "https://www.nature.com/articles/s41590-026-02696-z",
+      "published_at": "2026-10-19T08:00:00+08:00",
+      "published_date": "2026-10-19",
+      "summary": "The alarming rise in NCDs, particularly in low- and middle-income countries, is closely linked to infectious diseases. Despite growing evidence of a bidirectional, mutually reinforcing relationship, these links have received insufficient attention from researchers and healthcare stakeholders",
+      "authors": [
+        "Paschal Ruggajo",
+        "Davis Amani",
+        "Jackline Ngowi",
+        "George Msengi",
+        "Harrieth Ndumwa",
+        "Mariam Noorani",
+        "Blandina T. Mmbaga",
+        "Chrysanthi Skevaki",
+        "Harald Renz"
+      ],
+      "doi": "10.1038/s41590-026-02696-z",
+      "journal": "Nature Immunology",
+      "source_feed": "https://www.nature.com/ni.rss",
+      "entry_id": "doi:10.1038/s41590-026-02696-z",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "非传染性疾病与感染性疾病所共同带来的双重负担",
+      "llm_title_bilingual": "非传染性疾病与感染性疾病所共同带来的双重负担 / The bidirectional double burden of non-communicable diseases and infections",
+      "llm_research_question_zh": "非传染性疾病的急剧增加，尤其是在低收入和中等收入国家，与传染病密切相关。",
+      "llm_highlights_zh": [
+        "尽管越来越多的证据表明这两种关系具有双向性且会相互强化，但研究人员以及医疗领域的相关利益方仍然没有给予这些联系足够的重视。",
+        "非传染性疾病与感染性疾病所共同带来的双重负担",
+        "非传染性疾病的急剧增加，尤其是在低收入和中等收入国家，与传染病密切相关。"
+      ],
+      "llm_rss_summary_zh": "非传染性疾病的急剧增加，尤其是在低收入和中等收入国家，与传染病之间存在密切关联。尽管越来越多的证据表明这两种疾病之间存在双向的、相互促进的关系，但研究人员及医疗领域的相关人士对此尚未给予足够的重视。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "非传染性疾病的急剧增加，尤其是在低收入和中等收入国家，与传染病之间存在密切关联。尽管越来越多的证据表明这两种疾病之间存在双向的、相互促进的关系，但研究人员及医疗领域的相关人士对此尚未给予足够的重视。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "The alarming rise in NCDs, particularly in low- and middle-income countries, is closely linked to infectious diseases. Despite growing evidence of a bidirectional, mutually reinforcing relationship, these links have received insufficient attention from researchers and healthcare stakeholders",
+      "primary_summary_zh": "非传染性疾病的急剧增加，尤其是在低收入和中等收入国家，与传染病之间存在密切关联。尽管越来越多的证据表明这两种疾病之间存在双向的、相互促进的关系，但研究人员及医疗领域的相关人士对此尚未给予足够的重视。"
+    },
+    {
+      "title": "Multi-immersion oblique plane microscope (miOPM): a reconfigurable platform for high-resolution light-sheet fluorescence microscopy",
+      "link": "https://www.nature.com/articles/s41592-026-03245-0",
+      "published_at": "2026-10-19T08:00:00+08:00",
+      "published_date": "2026-10-19",
+      "summary": "The multi-immersion oblique plane microscope is a flexible and versatile light-sheet microscope that allows imaging of samples ranging from cells in culture to whole organisms or cleared tissue samples",
+      "authors": [
+        "Bingying Chen",
+        "Alfred Millett-Sikking",
+        "Bo-Jui Chang",
+        "Seweryn Gałecki",
+        "Stephan Daetwyler",
+        "Jenny Jiou",
+        "Jim Monistrol",
+        "Qionghua Shen",
+        "Felix Zhou",
+        "Hsin-Yu Lin",
+        "Edward Jenkins",
+        "Miriam C. Stein",
+        "Madeleine Marlar-Pavey",
+        "Gabriel Sturm",
+        "Alexander L. Li",
+        "Qiaosi Tang",
+        "Brian Y. Feng",
+        "Ulises Diaz",
+        "Yannan Chen",
+        "Aryaman Shalizi",
+        "Astrid Gillich",
+        "Jonathan R. Friedman",
+        "Raju Tomer",
+        "Wallace F. Marshall",
+        "Sarah Shahmoradian",
+        "Kevin M. Dean",
+        "Reto Fiolka"
+      ],
+      "doi": "10.1038/s41592-026-03245-0",
+      "journal": "Nature methods",
+      "source_feed": "https://www.nature.com/nmeth.rss",
+      "entry_id": "doi:10.1038/s41592-026-03245-0",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "多浸入式斜面显微镜：一种可重新配置的高分辨率光片荧光显微镜平台",
+      "llm_title_bilingual": "多浸入式斜面显微镜：一种可重新配置的高分辨率光片荧光显微镜平台 / Multi-immersion oblique plane microscope (miOPM): a reconfigurable platform for high-resolution light-sheet fluorescence microscopy",
+      "llm_research_question_zh": "多浸入式斜面显微镜是一种灵活且用途广泛的光片显微镜，能够用于观察从培养中的细胞到整个生物体或经过透明化处理的组织样本等各种对象。",
+      "llm_highlights_zh": [
+        "多浸入式斜面显微镜：一种可重新配置的高分辨率光片荧光显微镜平台",
+        "多浸入式斜面显微镜是一种灵活且用途广泛的光片显微镜，能够用于观察从培养中的细胞到整个生物体或经过透明化处理的组织样本等各种对象。"
+      ],
+      "llm_rss_summary_zh": "多浸入式斜面显微镜是一种灵活且用途广泛的光片显微镜，能够用于观察从培养中的细胞到整个生物体或经过透明化处理的组织样本等各种对象。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "多浸入式斜面显微镜是一种灵活且用途广泛的光片显微镜，能够用于观察从培养中的细胞到整个生物体或经过透明化处理的组织样本等各种对象。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "The multi-immersion oblique plane microscope is a flexible and versatile light-sheet microscope that allows imaging of samples ranging from cells in culture to whole organisms or cleared tissue samples",
+      "primary_summary_zh": "多浸入式斜面显微镜是一种灵活且用途广泛的光片显微镜，能够用于观察从培养中的细胞到整个生物体或经过透明化处理的组织样本等各种对象。"
+    },
+    {
+      "title": "Cortex-wide imaging in naturally behaving mice with 1-gram wireless mesoscopes",
+      "link": "https://www.nature.com/articles/s41586-026-11293-x",
+      "published_at": "2026-10-19T08:00:00+08:00",
+      "published_date": "2026-10-19",
+      "summary": "Cortex-wide imaging in naturally behaving mice with 1-gram wireless mesoscopes",
+      "authors": [
+        "Yuanlong Zhang",
+        "Angran Li",
+        "Lekang Yuan",
+        "Mingrui Wang",
+        "Weihao Zhao",
+        "Zhenbo Wang",
+        "Boyang Zang",
+        "Yangxuan Zhou",
+        "Tao Yu",
+        "Lin Gao",
+        "Yu Wu",
+        "Rongkang Zhu",
+        "Mengyi Tian",
+        "Kun Li",
+        "Jiamin Wu",
+        "Pu Dai",
+        "Qionghai Dai"
+      ],
+      "doi": "10.1038/s41586-026-11293-x",
+      "journal": "Nature",
+      "source_feed": "https://www.nature.com/nature.rss?error=cookies_not_supported&code=c2ed3ab3-5146-4b55-8ca8-7e203f6dbd88",
+      "entry_id": "doi:10.1038/s41586-026-11293-x",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究",
+      "llm_title_bilingual": "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究 / Cortex-wide imaging in naturally behaving mice with 1-gram wireless mesoscopes",
+      "llm_research_question_zh": "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究",
+      "llm_highlights_zh": [
+        "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究"
+      ],
+      "llm_rss_summary_zh": "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Cortex-wide imaging in naturally behaving mice with 1-gram wireless mesoscopes",
+      "primary_summary_zh": "使用1克重的无线中观显微镜对处于自然活动状态的小鼠进行全脑成像研究"
+    },
+    {
+      "title": "Correction: massMatchR: a Shiny application for glycomics mass spectrometry data analysis",
+      "link": "https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btag770/8943483?rss=1",
+      "published_at": "2026-10-19T08:00:00+08:00",
+      "published_date": "2026-10-19",
+      "summary": "This is a correction to: Gábor Beke, Lubos Klucar, Zuzana Pakanová, Rebeka Kodríkova, Peter Baráth, Marek Nemčovič, massMatchR : a Shiny application for glycomics mass spectrometry data analysis, Bioinformatics , Volume 42, Issue 10, October 2026, btag700, https://doi.org/10.1093/bioinformatics/btag700",
+      "authors": [],
+      "doi": "10.1093/bioinformatics/btag770",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag770",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "更正：massMatchR：一款用于糖组学质谱数据分析的实用工具",
+      "llm_title_bilingual": "更正：massMatchR：一款用于糖组学质谱数据分析的实用工具 / Correction: massMatchR: a Shiny application for glycomics mass spectrometry data analysis",
+      "llm_research_question_zh": "这是对以下文献的修正：Gábor Beke、Lubos Klucar、Zuzana Pakanová、Rebeka Kodríkova、Peter Baráth、Marek Nemčovič，《massMatchR：一种用于糖组学质谱数据分析的工具》，《生物信息学》，第42卷，第10期，2026年10月，文章编号btag700，链接：https://doi.org/10.1093/bioinformatics/btag700",
+      "llm_highlights_zh": [
+        "更正：massMatchR：一款用于糖组学质谱数据分析的实用工具",
+        "这是对以下文章的修正：Gábor Beke、Lubos Klucar、Zuzana Pakanová、Rebeka Kodríkova、Peter Baráth、Marek Nemčovič，《massMatchR：一种用于糖组学质谱数据分析的工具》，《生物信息学》，第42卷，第10期，2026年10月，文章编号btag700，链接：https://doi.org/10.1093/bioinformatics/btag700"
+      ],
+      "llm_rss_summary_zh": "这是对以下文章的修正：Gábor Beke、Lubos Klucar、Zuzana Pakanová、Rebeka Kodríkova、Peter Baráth、Marek Nemčovič，《massMatchR：一种用于糖组学质谱数据分析的工具》，《生物信息学》，第42卷，第10期，2026年10月，btag700，https://doi.org/10.1093/bioinformatics/btag700",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "这是对以下文章的修正：Gábor Beke、Lubos Klucar、Zuzana Pakanová、Rebeka Kodríkova、Peter Baráth、Marek Nemčovič，《massMatchR：一种用于糖组学质谱数据分析的工具》，《生物信息学》，第42卷，第10期，2026年10月，btag700，https://doi.org/10.1093/bioinformatics/btag700",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "This is a correction to: Gábor Beke, Lubos Klucar, Zuzana Pakanová, Rebeka Kodríkova, Peter Baráth, Marek Nemčovič, massMatchR : a Shiny application for glycomics mass spectrometry data analysis, Bioinformatics , Volume 42, Issue 10, October 2026, btag700, https://doi.org/10.1093/bioinformatics/btag700",
+      "primary_summary_zh": "这是对以下文章的修正：Gábor Beke、Lubos Klucar、Zuzana Pakanová、Rebeka Kodríkova、Peter Baráth、Marek Nemčovič，《massMatchR：一种用于糖组学质谱数据分析的工具》，《生物信息学》，第42卷，第10期，2026年10月，btag700，https://doi.org/10.1093/bioinformatics/btag700"
+    },
+    {
+      "title": "A distinct serological signature of preterm birth",
+      "link": "https://www.nature.com/articles/s41590-026-02691-4",
+      "published_at": "2026-10-19T08:00:00+08:00",
+      "published_date": "2026-10-19",
+      "summary": "Preterm birth is the leading cause of death in children globally. We determined proteome-wide autoantibody profiles for 2,195 pregnant individuals, revealing a shared humoral program of normal pregnancy and a distinct, expanded autoreactive signature that precedes preterm birth",
+      "authors": [],
+      "doi": "10.1038/s41590-026-02691-4",
+      "journal": "Nature Immunology",
+      "source_feed": "https://www.nature.com/ni.rss",
+      "entry_id": "doi:10.1038/s41590-026-02691-4",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "早产特有的血清学特征",
+      "llm_title_bilingual": "早产特有的血清学特征 / A distinct serological signature of preterm birth",
+      "llm_research_question_zh": "早产是全球儿童死亡的主要原因。",
+      "llm_highlights_zh": [
+        "我们对2,195名孕妇进行了全蛋白质组水平的自身抗体检测，结果发现：正常妊娠过程中存在一种共同的体液免疫反应模式，而那些在早产前出现症状的孕妇则表现出一种明显增强的自身免疫反应特征。",
+        "早产特有的血清学特征",
+        "早产是全球儿童死亡的主要原因。"
+      ],
+      "llm_rss_summary_zh": "早产是全球儿童死亡的主要原因。我们对2,195名孕妇进行了全蛋白质组水平的自身抗体检测，结果发现：正常妊娠过程中存在某些共同的体液免疫反应特征，而而在早产发生之前，这些特征会发生变化，出现一种独特且扩增的自身免疫反应模式。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "早产是全球儿童死亡的主要原因。我们对2,195名孕妇进行了全蛋白质组水平的自身抗体检测，结果发现：正常妊娠过程中存在某些共同的体液免疫反应特征，而而在早产发生之前，这些特征会发生变化，出现一种独特且扩增的自身免疫反应模式。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Preterm birth is the leading cause of death in children globally. We determined proteome-wide autoantibody profiles for 2,195 pregnant individuals, revealing a shared humoral program of normal pregnancy and a distinct, expanded autoreactive signature that precedes preterm birth",
+      "primary_summary_zh": "早产是全球儿童死亡的主要原因。我们对2,195名孕妇进行了全蛋白质组水平的自身抗体检测，结果发现：正常妊娠过程中存在某些共同的体液免疫反应特征，而而在早产发生之前，这些特征会发生变化，出现一种独特且扩增的自身免疫反应模式。"
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}
