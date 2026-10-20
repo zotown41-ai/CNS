@@ -1,0 +1,556 @@
+﻿{
+  "schema_version": "1.0",
+  "task": "paper-overview-extractor-rss",
+  "status": "partial_success",
+  "generated_at": "2026-10-20T20:00:22.868855+00:00",
+  "date_range": {
+    "start": "2026-10-20",
+    "end": "2026-10-20"
+  },
+  "inputs": {
+    "journals_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\目标期刊.txt",
+    "keywords_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\关键词.txt",
+    "keyword_aliases_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\keyword_aliases.json",
+    "rss_sources_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\rss_sources.json",
+    "keywords": [
+      "免疫代谢",
+      "代谢表观调控",
+      "单细胞算法",
+      "单细胞图谱",
+      "流感",
+      "HSV",
+      "H1N1",
+      "肺损伤",
+      "肺组织修复",
+      "皮肤免疫"
+    ],
+    "llm_model": "hy-mt1.5-7b",
+    "llm_base_url": "http://127.0.0.1:1234",
+    "llm_translation_only": true,
+    "llm_proxy_url": "http://127.0.0.1:7890",
+    "google_fallback": true
+  },
+  "summary": {
+    "journal_count": 10,
+    "paper_count": 2,
+    "pubmed_enriched_count": 1,
+    "llm_enhanced_count": 2,
+    "llm_google_fallback_count": 0
+  },
+  "journals": [
+    {
+      "journal": "Nature",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nature/",
+      "feed_urls": [
+        "https://www.nature.com/nature/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nature/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nature.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 75
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 64",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Science",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/science",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+        "https://www.science.org/rss/express.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "status_code": 200,
+          "error": "",
+          "item_count": 39
+        },
+        {
+          "url": "https://www.science.org/rss/express.xml",
+          "ok": true,
+          "final_url": "https://feeds.science.org/rss/science-aop.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 13
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/00928674"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "status_code": 200,
+          "error": "",
+          "item_count": 68
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell metabolism",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell-metabolism/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/15504131"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "status_code": 200,
+          "error": "",
+          "item_count": 51
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Immunity",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/immunity/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/10747613"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "status_code": 200,
+          "error": "",
+          "item_count": 46
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature Immunology",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/ni/",
+      "feed_urls": [
+        "https://www.nature.com/ni/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/ni/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/ni.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 3",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Science Immunology",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/sciimmunol",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "status_code": 200,
+          "error": "",
+          "item_count": 9
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Bioinformatics",
+      "configured": true,
+      "publisher": "Oxford Academic",
+      "homepage": "https://academic.oup.com/bioinformatics",
+      "feed_urls": [
+        "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+        "https://academic.oup.com/rss/site_5139/3001.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 5
+        },
+        {
+          "url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 53
+        }
+      ],
+      "warnings": [],
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "MR-MAS: an end-to-end multi-agent system for autonomous Mendelian randomization analysis",
+          "link": "https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btag722/8937278?rss=1",
+          "published_at": "2026-10-20T08:00:00+08:00",
+          "published_date": "2026-10-20",
+          "summary": "Abstract Motivation Understanding disease-related causal mechanisms is essential for biomedical research, yet the practical use of Mendelian Randomization (MR) remains constrained by fragmented analytical workflows and a strong dependence on specialized expertise. These challenges limit the efficient, standardized, and reproducible execution of end-to-end MR analyses. Results We propose MR-MAS, an end-to-end automated MR analysis system built on a multi-agent architecture. MR-MAS leverages the reasoning and coordination capabilities of large language models (LLMs) and integrates external tools to unify data acquisition, causal effect estimation, results interpretation, and manuscript preparation into a single workflow, thereby reducing manual effort. MR-MAS further incorporates a structured Mendelian Randomization Knowledge Base (MRKB) to support MR method implementation and targeted repair of MR analysis code. Across diverse test scenarios, MR-MAS demonstrated stable workflow execution, reproduced several literature-supported causal signals, and maintained consistent causal estimates across repeated runs and different model backends. Additional evaluations showed robust trait retrieval and improved code-repair performance with MRKB guidance. These results suggest that MR-MAS may provide practical support for scalable, standardized, and reproducible MR analyses in biomedical research. Availability and Implementation The source code, MRKB, and benchmark data are freely available at https://github.com/Zaiwen/MR-MAS , with the version used in this study archived at https://doi.org/10.5281/zenodo.20342636",
+          "authors": [
+            "Wendi Wei",
+            "Yuling Fan",
+            "Lin Li",
+            "Thuc Duy Le",
+            "Xiaomei Li",
+            "Debo Cheng",
+            "Zaiwen Feng"
+          ],
+          "doi": "10.1093/bioinformatics/btag722",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag722",
+          "pmid": "42895113",
+          "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42895113/",
+          "abstract": "MOTIVATION: Understanding disease-related causal mechanisms is essential for biomedical research, yet the practical use of Mendelian Randomization (MR) remains constrained by fragmented analytical workflows and a strong dependence on specialized expertise. These challenges limit the efficient, standardized, and reproducible execution of end-to-end MR analyses.\n\nRESULTS: We propose MR-MAS, an end-to-end automated MR analysis system built on a multi-agent architecture. MR-MAS leverages the reasoning and coordination capabilities of large language models (LLMs) and integrates external tools to unify data acquisition, causal effect estimation, results interpretation, and manuscript preparation into a single workflow, thereby reducing manual effort. MR-MAS further incorporates a structured Mendelian Randomization Knowledge Base (MRKB) to support MR method implementation and targeted repair of MR analysis code. Across diverse test scenarios, MR-MAS demonstrated stable workflow execution, reproduced several literature-supported causal signals, and maintained consistent causal estimates across repeated runs and different model backends. Additional evaluations showed robust trait retrieval and improved code-repair performance with MRKB guidance. These results suggest that MR-MAS may provide practical support for scalable, standardized, and reproducible MR analyses in biomedical research.\n\nAVAILABILITY AND IMPLEMENTATION: The source code, MRKB, and benchmark data are freely available at https://github.com/Zaiwen/MR-MAS, with the version used in this study archived at https://doi.org/10.5281/zenodo.20342636.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "affiliations": [
+            "College of Informatics, Huazhong Agricultural University, 430070, Wuhan, China.",
+            "College of Plant Science & Technology, Huazhong Agricultural University, 430070, Wuhan, China.",
+            "College of Engineering and Information Technology, Adelaide University, 5095, South Australia, Australia.",
+            "Business Banking, Commonwealth Bank, 2000, NSW, Australia.",
+            "School of Computer Science and Technology, Hainan University, 570228, Haikou, China.",
+            "Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, 430070, Wuhan, China."
+          ],
+          "mesh_terms": [],
+          "paper_keywords": [
+            "Automated analysis",
+            "Causal inference",
+            "LLMs",
+            "Mendelian randomization",
+            "Multi-agent system"
+          ],
+          "publication_types": [
+            "Journal Article"
+          ],
+          "pubmed_journal": "Bioinformatics (Oxford, England)",
+          "pubmed_publication_date": "2026-10-19",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "success",
+          "pubmed_warning": "",
+          "llm_title_zh": "MR-MAS：一种用于自主进行孟德尔随机化分析的端到端多智能体系统",
+          "llm_title_bilingual": "MR-MAS：一种用于自主进行孟德尔随机化分析的端到端多智能体系统 / MR-MAS: An End-to-End Multi-Agent System for Autonomous Mendelian Randomization Analysis",
+          "llm_research_question_zh": "动机：理解与疾病相关的因果机制对于生物医学研究而言至关重要，然而，孟德尔随机化方法的实际应用仍受到分析流程碎片化以及对该方法高度专业性要求的限制。",
+          "llm_highlights_zh": [
+            "这些挑战限制了端到端磁共振分析的高效、标准化及可重复性执行。",
+            "结果：我们提出了MR-MAS这一基于多智能体架构构建的端到端自动化磁共振分析系统。",
+            "MR-MAS利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应分析、结果解读以及论文撰写等流程统一到一个工作体系中，从而显著减少人工操作的工作量。"
+          ],
+          "llm_rss_summary_zh": "**摘要**  \n理解与疾病相关的因果机制是生物医学研究的核心任务，然而孟德尔随机化分析的实际应用仍受到分散的分析流程及对专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端分析过程的实施。  \n\n**研究结果**  \n我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统充分利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读及论文撰写等环节纳入统一的处理流程，从而显著降低人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为方法的应用与分析代码的优化提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并能在重复实验或使用不同模型时保持结果的一致性。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到提升，代码修复效果也更为显著。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的分析工作提供有力支持。  \n\n**开源与实施信息**  \n源代码、孟德尔随机化知识库以及相关基准数据均可在以下链接免费获取：https://github.com/Zaiwen/MR-MAS。本研究所使用的版本存档地址为：https://doi.org/10.5281/zenodo.20342636",
+          "llm_pubmed_abstract_zh": "**动机**：理解与疾病相关的因果机制对生物医学研究而言至关重要，然而孟德尔随机化分析的实际应用仍受到分散的分析工作流程以及对该领域专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端孟德尔随机化分析的实施。  \n\n**结果**：我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读以及论文撰写等流程统一到一个工作流程中，从而显著减少人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为该方法的具体应用及分析代码的修复提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并且在多次重复实验或使用不同模型时仍能保持一致的因果估计结果。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到了提升，代码修复效果也更为理想。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的孟德尔随机化分析提供有力支持。  \n\n**可用性与实施方式**：源代码、孟德尔随机化知识库以及相关基准数据均可在https://github.com/Zaiwen/MR-MAS免费获取；本研究所使用的版本已存档于https://doi.org/10.5281/zenodo.20342636。  \n\n**补充信息**：更多补充数据可在线查阅Bioinformatics数据库。",
+          "llm_paper_keywords_zh": [
+            "自动化分析",
+            "因果推断",
+            "大型语言模型",
+            "孟德尔随机化",
+            "多智能体系统"
+          ],
+          "llm_publication_types_zh": [
+            "期刊文章"
+          ],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 5,
+          "is_new_to_state": false,
+          "primary_summary": "理解与疾病相关的因果机制对生物医学研究而言至关重要，然而孟德尔随机化分析的实际应用仍受到分散的分析工作流程以及对该领域专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端孟德尔随机化分析的实施。\n我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读以及论文撰写等流程统一到一个工作流程中，从而显著减少人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为该方法的具体应用及分析代码的修复提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并且在多次重复实验或使用不同模型时仍能保持一致的因果估计结果。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到了提升，代码修复效果也更为理想。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的孟德尔随机化分析提供有力支持。\n\n可用性与实施方式：源代码、孟德尔随机化知识库以及相关基准数据均可在https://github.com/Zaiwen/MR-MAS免费获取；本研究所使用的版本已存档于https://doi.org/10.5281/zenodo.20342636。\n\n补充信息：更多补充数据可在线查阅Bioinformatics数据库。",
+          "primary_summary_source": "pubmed",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "pubmed",
+          "primary_summary_raw": "MOTIVATION: Understanding disease-related causal mechanisms is essential for biomedical research, yet the practical use of Mendelian Randomization (MR) remains constrained by fragmented analytical workflows and a strong dependence on specialized expertise. These challenges limit the efficient, standardized, and reproducible execution of end-to-end MR analyses.\n\nRESULTS: We propose MR-MAS, an end-to-end automated MR analysis system built on a multi-agent architecture. MR-MAS leverages the reasoning and coordination capabilities of large language models (LLMs) and integrates external tools to unify data acquisition, causal effect estimation, results interpretation, and manuscript preparation into a single workflow, thereby reducing manual effort. MR-MAS further incorporates a structured Mendelian Randomization Knowledge Base (MRKB) to support MR method implementation and targeted repair of MR analysis code. Across diverse test scenarios, MR-MAS demonstrated stable workflow execution, reproduced several literature-supported causal signals, and maintained consistent causal estimates across repeated runs and different model backends. Additional evaluations showed robust trait retrieval and improved code-repair performance with MRKB guidance. These results suggest that MR-MAS may provide practical support for scalable, standardized, and reproducible MR analyses in biomedical research.\n\nAVAILABILITY AND IMPLEMENTATION: The source code, MRKB, and benchmark data are freely available at https://github.com/Zaiwen/MR-MAS, with the version used in this study archived at https://doi.org/10.5281/zenodo.20342636.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "primary_summary_zh": "**动机**：理解与疾病相关的因果机制对生物医学研究而言至关重要，然而孟德尔随机化分析的实际应用仍受到分散的分析工作流程以及对该领域专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端孟德尔随机化分析的实施。  \n\n**结果**：我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读以及论文撰写等流程统一到一个工作流程中，从而显著减少人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为该方法的具体应用及分析代码的修复提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并且在多次重复实验或使用不同模型时仍能保持一致的因果估计结果。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到了提升，代码修复效果也更为理想。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的孟德尔随机化分析提供有力支持。  \n\n**可用性与实施方式**：源代码、孟德尔随机化知识库以及相关基准数据均可在https://github.com/Zaiwen/MR-MAS免费获取；本研究所使用的版本已存档于https://doi.org/10.5281/zenodo.20342636。  \n\n**补充信息**：更多补充数据可在线查阅Bioinformatics数据库。"
+        },
+        {
+          "title": "Integration of polygenic risk with single cell methylation data using met-scDRS",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag751/8943979?rss=1",
+          "published_at": "2026-10-20T08:00:00+08:00",
+          "published_date": "2026-10-20",
+          "summary": "Abstract Motivation Although large scale genome-wide association studies (GWAS) have identified many risk variants for psychiatric traits their functional implication remain largely unknown. One potential mechanism for their risk is through cellular context-dependent epigenetics such as methylation. Previous methodologies have focused on integrating GWAS with single cell transcriptomics, which allowed identification of within-cell-type heterogeneity in disease risk association. We extended this framework to provide a method called met-scDRS that integrates GWAS with single cell epigenomics and investigates how psychiatric disease risk can manifest through methylomics at single cell resolution. Results We propose an approach that integrates single cell methylomes with disease associated genes identified from GWAS at single-cell resolution. We found our method to be well calibrated and powered in different scenarios. We then analyzed a publicly available single cell methylome dataset of the human brain for 75 different traits and generated disease relevance scores for each cell for each trait. We find high brain specificity with major cell type enrichments congruent with known findings. We identify within-cell-type heterogeneity for psychiatric disease risk along the brain spatial axis as well as subpopulations that are differentially associated with diseases. Finally, we showed that genes with high correlation between methylation levels and disease relevance scores to be highly enriched in specific functional pathways such as synaptic formation and transmission. Availability met-scDRS is freely available in GitHub as a python package under MIT license: https://github.com/bogdanlab/met-scDRS . Source code is also available from Zenodo with All dataset used in this work are publicly available",
+          "authors": [],
+          "doi": "10.1093/bioinformatics/btag751",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag751",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "利用 met-scDRS 将多基因风险模型与单细胞甲基化数据相结合进行分析",
+          "llm_title_bilingual": "利用 met-scDRS 将多基因风险模型与单细胞甲基化数据相结合进行分析 / Integration of polygenic risk with single cell methylation data using met-scDRS",
+          "llm_research_question_zh": "摘要动机：尽管大规模的全基因组关联研究已经发现了许多与精神疾病相关的风险变异，但这些变异的实际功能机制仍大多不为人所知。",
+          "llm_highlights_zh": [
+            "它们产生这种风险的一个潜在机制，是通过细胞环境依赖性的表观遗传学过程，例如甲基化作用。",
+            "以往的研究方法主要集中在将全基因组关联分析与单细胞转录组学相结合，从而能够识别不同细胞类型在疾病风险关联中的差异性。",
+            "我们扩展了这一框架，开发出一种名为“met-scDRS”的方法。该方法将全基因组关联分析与单细胞表观遗传学相结合，从而探究精神疾病风险是如何在单细胞层面通过甲基化谱的变化表现出来的。"
+          ],
+          "llm_rss_summary_zh": "**摘要**  \n尽管大规模全基因组关联研究已经发现了许多与精神疾病相关的风险变异，但这些变异的功能机制仍大多不为人知。其中一种可能的机制是通过细胞特异性表观遗传学过程（如甲基化）来影响疾病风险。以往的研究方法主要侧重于将全基因组关联研究与单细胞转录组学相结合，从而揭示不同细胞类型在疾病风险关联中的差异性。我们进一步发展了这一框架，提出了一种名为 **met-scDRS** 的方法，该方法将全基因组关联研究的结果与单细胞表观遗传学数据整合起来，进而探究精神疾病风险是如何在单细胞层面上通过甲基化机制体现出来的。  \n\n**结果**  \n我们提出了一种将单细胞甲基化数据与全基因组关联研究中鉴定出的疾病相关基因相结合的方法，并验证了该方法在不同应用场景下的有效性与可靠性。随后，我们利用一个公开的人类大脑单细胞甲基化数据集，针对75种不同的精神疾病相关特征，为每个细胞生成了相应的疾病相关性评分。研究结果显示，该方法具有很高的脑组织特异性，且检测结果与已有的研究发现高度一致；同时，我们也发现了不同细胞类型在精神疾病风险方面的差异性，以及某些亚群与特定疾病的关联关系。最后，我们发现那些甲基化水平与疾病相关性评分之间呈高相关性的基因，在突触形成与传递等关键功能通路中具有高度富集现象。  \n\n**开源信息**  \nmet-scDRS作为Python软件包，已根据MIT许可证在GitHub上免费发布：https://github.com/bogdanlab/met-scDRS。相关源代码也可在Zenodo平台上获取。本研究中使用的所有数据均为公开可用的资源。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "尽管大规模全基因组关联研究已经发现了许多与精神疾病相关的风险变异，但这些变异的功能机制仍大多不为人知。其中一种可能的机制是通过细胞特异性表观遗传学过程（如甲基化）来影响疾病风险。以往的研究方法主要侧重于将全基因组关联研究与单细胞转录组学相结合，从而揭示不同细胞类型在疾病风险关联中的差异性。我们进一步发展了这一框架，提出了一种名为 met-scDRS 的方法，该方法将全基因组关联研究的结果与单细胞表观遗传学数据整合起来，进而探究精神疾病风险是如何在单细胞层面上通过甲基化机制体现出来的。\n我们提出了一种将单细胞甲基化数据与全基因组关联研究中鉴定出的疾病相关基因相结合的方法，并验证了该方法在不同应用场景下的有效性与可靠性。随后，我们利用一个公开的人类大脑单细胞甲基化数据集，针对75种不同的精神疾病相关特征，为每个细胞生成了相应的疾病相关性评分。研究结果显示，该方法具有很高的脑组织特异性，且检测结果与已有的研究发现高度一致；同时，我们也发现了不同细胞类型在精神疾病风险方面的差异性，以及某些亚群与特定疾病的关联关系。最后，我们发现那些甲基化水平与疾病相关性评分之间呈高相关性的基因，在突触形成与传递等关键功能通路中具有高度富集现象。\n\n开源信息\nmet-scDRS作为Python软件包，已根据MIT许可证在GitHub上免费发布：https://github.com/bogdanlab/met-scDRS。相关源代码也可在Zenodo平台上获取。本研究中使用的所有数据均为公开可用的资源。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Although large scale genome-wide association studies (GWAS) have identified many risk variants for psychiatric traits their functional implication remain largely unknown. One potential mechanism for their risk is through cellular context-dependent epigenetics such as methylation. Previous methodologies have focused on integrating GWAS with single cell transcriptomics, which allowed identification of within-cell-type heterogeneity in disease risk association. We extended this framework to provide a method called met-scDRS that integrates GWAS with single cell epigenomics and investigates how psychiatric disease risk can manifest through methylomics at single cell resolution. Results We propose an approach that integrates single cell methylomes with disease associated genes identified from GWAS at single-cell resolution. We found our method to be well calibrated and powered in different scenarios. We then analyzed a publicly available single cell methylome dataset of the human brain for 75 different traits and generated disease relevance scores for each cell for each trait. We find high brain specificity with major cell type enrichments congruent with known findings. We identify within-cell-type heterogeneity for psychiatric disease risk along the brain spatial axis as well as subpopulations that are differentially associated with diseases. Finally, we showed that genes with high correlation between methylation levels and disease relevance scores to be highly enriched in specific functional pathways such as synaptic formation and transmission.",
+          "primary_summary_zh": "**摘要**  \n尽管大规模全基因组关联研究已经发现了许多与精神疾病相关的风险变异，但这些变异的功能机制仍大多不为人知。其中一种可能的机制是通过细胞特异性表观遗传学过程（如甲基化）来影响疾病风险。以往的研究方法主要侧重于将全基因组关联研究与单细胞转录组学相结合，从而揭示不同细胞类型在疾病风险关联中的差异性。我们进一步发展了这一框架，提出了一种名为 **met-scDRS** 的方法，该方法将全基因组关联研究的结果与单细胞表观遗传学数据整合起来，进而探究精神疾病风险是如何在单细胞层面上通过甲基化机制体现出来的。  \n\n**结果**  \n我们提出了一种将单细胞甲基化数据与全基因组关联研究中鉴定出的疾病相关基因相结合的方法，并验证了该方法在不同应用场景下的有效性与可靠性。随后，我们利用一个公开的人类大脑单细胞甲基化数据集，针对75种不同的精神疾病相关特征，为每个细胞生成了相应的疾病相关性评分。研究结果显示，该方法具有很高的脑组织特异性，且检测结果与已有的研究发现高度一致；同时，我们也发现了不同细胞类型在精神疾病风险方面的差异性，以及某些亚群与特定疾病的关联关系。最后，我们发现那些甲基化水平与疾病相关性评分之间呈高相关性的基因，在突触形成与传递等关键功能通路中具有高度富集现象。  \n\n**开源信息**  \nmet-scDRS作为Python软件包，已根据MIT许可证在GitHub上免费发布：https://github.com/bogdanlab/met-scDRS。相关源代码也可在Zenodo平台上获取。本研究中使用的所有数据均为公开可用的资源。"
+        }
+      ]
+    },
+    {
+      "journal": "Nature Protocols",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nprot/",
+      "feed_urls": [
+        "https://www.nature.com/nprot/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nprot/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nprot.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 1",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature methods",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nmeth/",
+      "feed_urls": [
+        "https://www.nature.com/nmeth/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nmeth/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nmeth.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    }
+  ],
+  "all_papers": [
+    {
+      "title": "MR-MAS: an end-to-end multi-agent system for autonomous Mendelian randomization analysis",
+      "link": "https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btag722/8937278?rss=1",
+      "published_at": "2026-10-20T08:00:00+08:00",
+      "published_date": "2026-10-20",
+      "summary": "Abstract Motivation Understanding disease-related causal mechanisms is essential for biomedical research, yet the practical use of Mendelian Randomization (MR) remains constrained by fragmented analytical workflows and a strong dependence on specialized expertise. These challenges limit the efficient, standardized, and reproducible execution of end-to-end MR analyses. Results We propose MR-MAS, an end-to-end automated MR analysis system built on a multi-agent architecture. MR-MAS leverages the reasoning and coordination capabilities of large language models (LLMs) and integrates external tools to unify data acquisition, causal effect estimation, results interpretation, and manuscript preparation into a single workflow, thereby reducing manual effort. MR-MAS further incorporates a structured Mendelian Randomization Knowledge Base (MRKB) to support MR method implementation and targeted repair of MR analysis code. Across diverse test scenarios, MR-MAS demonstrated stable workflow execution, reproduced several literature-supported causal signals, and maintained consistent causal estimates across repeated runs and different model backends. Additional evaluations showed robust trait retrieval and improved code-repair performance with MRKB guidance. These results suggest that MR-MAS may provide practical support for scalable, standardized, and reproducible MR analyses in biomedical research. Availability and Implementation The source code, MRKB, and benchmark data are freely available at https://github.com/Zaiwen/MR-MAS , with the version used in this study archived at https://doi.org/10.5281/zenodo.20342636",
+      "authors": [
+        "Wendi Wei",
+        "Yuling Fan",
+        "Lin Li",
+        "Thuc Duy Le",
+        "Xiaomei Li",
+        "Debo Cheng",
+        "Zaiwen Feng"
+      ],
+      "doi": "10.1093/bioinformatics/btag722",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag722",
+      "pmid": "42895113",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42895113/",
+      "abstract": "MOTIVATION: Understanding disease-related causal mechanisms is essential for biomedical research, yet the practical use of Mendelian Randomization (MR) remains constrained by fragmented analytical workflows and a strong dependence on specialized expertise. These challenges limit the efficient, standardized, and reproducible execution of end-to-end MR analyses.\n\nRESULTS: We propose MR-MAS, an end-to-end automated MR analysis system built on a multi-agent architecture. MR-MAS leverages the reasoning and coordination capabilities of large language models (LLMs) and integrates external tools to unify data acquisition, causal effect estimation, results interpretation, and manuscript preparation into a single workflow, thereby reducing manual effort. MR-MAS further incorporates a structured Mendelian Randomization Knowledge Base (MRKB) to support MR method implementation and targeted repair of MR analysis code. Across diverse test scenarios, MR-MAS demonstrated stable workflow execution, reproduced several literature-supported causal signals, and maintained consistent causal estimates across repeated runs and different model backends. Additional evaluations showed robust trait retrieval and improved code-repair performance with MRKB guidance. These results suggest that MR-MAS may provide practical support for scalable, standardized, and reproducible MR analyses in biomedical research.\n\nAVAILABILITY AND IMPLEMENTATION: The source code, MRKB, and benchmark data are freely available at https://github.com/Zaiwen/MR-MAS, with the version used in this study archived at https://doi.org/10.5281/zenodo.20342636.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "affiliations": [
+        "College of Informatics, Huazhong Agricultural University, 430070, Wuhan, China.",
+        "College of Plant Science & Technology, Huazhong Agricultural University, 430070, Wuhan, China.",
+        "College of Engineering and Information Technology, Adelaide University, 5095, South Australia, Australia.",
+        "Business Banking, Commonwealth Bank, 2000, NSW, Australia.",
+        "School of Computer Science and Technology, Hainan University, 570228, Haikou, China.",
+        "Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agricultural University, 430070, Wuhan, China."
+      ],
+      "mesh_terms": [],
+      "paper_keywords": [
+        "Automated analysis",
+        "Causal inference",
+        "LLMs",
+        "Mendelian randomization",
+        "Multi-agent system"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_journal": "Bioinformatics (Oxford, England)",
+      "pubmed_publication_date": "2026-10-19",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "success",
+      "pubmed_warning": "",
+      "llm_title_zh": "MR-MAS：一种用于自主进行孟德尔随机化分析的端到端多智能体系统",
+      "llm_title_bilingual": "MR-MAS：一种用于自主进行孟德尔随机化分析的端到端多智能体系统 / MR-MAS: An End-to-End Multi-Agent System for Autonomous Mendelian Randomization Analysis",
+      "llm_research_question_zh": "动机：理解与疾病相关的因果机制对于生物医学研究而言至关重要，然而，孟德尔随机化方法的实际应用仍受到分析流程碎片化以及对该方法高度专业性要求的限制。",
+      "llm_highlights_zh": [
+        "这些挑战限制了端到端磁共振分析的高效、标准化及可重复性执行。",
+        "结果：我们提出了MR-MAS这一基于多智能体架构构建的端到端自动化磁共振分析系统。",
+        "MR-MAS利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应分析、结果解读以及论文撰写等流程统一到一个工作体系中，从而显著减少人工操作的工作量。"
+      ],
+      "llm_rss_summary_zh": "**摘要**  \n理解与疾病相关的因果机制是生物医学研究的核心任务，然而孟德尔随机化分析的实际应用仍受到分散的分析流程及对专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端分析过程的实施。  \n\n**研究结果**  \n我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统充分利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读及论文撰写等环节纳入统一的处理流程，从而显著降低人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为方法的应用与分析代码的优化提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并能在重复实验或使用不同模型时保持结果的一致性。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到提升，代码修复效果也更为显著。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的分析工作提供有力支持。  \n\n**开源与实施信息**  \n源代码、孟德尔随机化知识库以及相关基准数据均可在以下链接免费获取：https://github.com/Zaiwen/MR-MAS。本研究所使用的版本存档地址为：https://doi.org/10.5281/zenodo.20342636",
+      "llm_pubmed_abstract_zh": "**动机**：理解与疾病相关的因果机制对生物医学研究而言至关重要，然而孟德尔随机化分析的实际应用仍受到分散的分析工作流程以及对该领域专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端孟德尔随机化分析的实施。  \n\n**结果**：我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读以及论文撰写等流程统一到一个工作流程中，从而显著减少人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为该方法的具体应用及分析代码的修复提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并且在多次重复实验或使用不同模型时仍能保持一致的因果估计结果。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到了提升，代码修复效果也更为理想。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的孟德尔随机化分析提供有力支持。  \n\n**可用性与实施方式**：源代码、孟德尔随机化知识库以及相关基准数据均可在https://github.com/Zaiwen/MR-MAS免费获取；本研究所使用的版本已存档于https://doi.org/10.5281/zenodo.20342636。  \n\n**补充信息**：更多补充数据可在线查阅Bioinformatics数据库。",
+      "llm_paper_keywords_zh": [
+        "自动化分析",
+        "因果推断",
+        "大型语言模型",
+        "孟德尔随机化",
+        "多智能体系统"
+      ],
+      "llm_publication_types_zh": [
+        "期刊文章"
+      ],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 5,
+      "is_new_to_state": false,
+      "primary_summary": "理解与疾病相关的因果机制对生物医学研究而言至关重要，然而孟德尔随机化分析的实际应用仍受到分散的分析工作流程以及对该领域专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端孟德尔随机化分析的实施。\n我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读以及论文撰写等流程统一到一个工作流程中，从而显著减少人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为该方法的具体应用及分析代码的修复提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并且在多次重复实验或使用不同模型时仍能保持一致的因果估计结果。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到了提升，代码修复效果也更为理想。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的孟德尔随机化分析提供有力支持。\n\n可用性与实施方式：源代码、孟德尔随机化知识库以及相关基准数据均可在https://github.com/Zaiwen/MR-MAS免费获取；本研究所使用的版本已存档于https://doi.org/10.5281/zenodo.20342636。\n\n补充信息：更多补充数据可在线查阅Bioinformatics数据库。",
+      "primary_summary_source": "pubmed",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "pubmed",
+      "primary_summary_raw": "MOTIVATION: Understanding disease-related causal mechanisms is essential for biomedical research, yet the practical use of Mendelian Randomization (MR) remains constrained by fragmented analytical workflows and a strong dependence on specialized expertise. These challenges limit the efficient, standardized, and reproducible execution of end-to-end MR analyses.\n\nRESULTS: We propose MR-MAS, an end-to-end automated MR analysis system built on a multi-agent architecture. MR-MAS leverages the reasoning and coordination capabilities of large language models (LLMs) and integrates external tools to unify data acquisition, causal effect estimation, results interpretation, and manuscript preparation into a single workflow, thereby reducing manual effort. MR-MAS further incorporates a structured Mendelian Randomization Knowledge Base (MRKB) to support MR method implementation and targeted repair of MR analysis code. Across diverse test scenarios, MR-MAS demonstrated stable workflow execution, reproduced several literature-supported causal signals, and maintained consistent causal estimates across repeated runs and different model backends. Additional evaluations showed robust trait retrieval and improved code-repair performance with MRKB guidance. These results suggest that MR-MAS may provide practical support for scalable, standardized, and reproducible MR analyses in biomedical research.\n\nAVAILABILITY AND IMPLEMENTATION: The source code, MRKB, and benchmark data are freely available at https://github.com/Zaiwen/MR-MAS, with the version used in this study archived at https://doi.org/10.5281/zenodo.20342636.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "primary_summary_zh": "**动机**：理解与疾病相关的因果机制对生物医学研究而言至关重要，然而孟德尔随机化分析的实际应用仍受到分散的分析工作流程以及对该领域专业知识的高度依赖的限制。这些因素阻碍了高效、标准化且可重复的端到端孟德尔随机化分析的实施。  \n\n**结果**：我们提出了MR-MAS这一基于多智能体架构的自动化孟德尔随机化分析系统。该系统利用大型语言模型的推理与协调能力，并整合外部工具，将数据采集、因果效应估计、结果解读以及论文撰写等流程统一到一个工作流程中，从而显著减少人工干预的需求。此外，MR-MAS还配备了结构化的孟德尔随机化知识库，为该方法的具体应用及分析代码的修复提供了有力支持。在多种测试场景中，MR-MAS均展现了稳定的运行效率，成功再现了多项文献中验证过的因果关系，并且在多次重复实验或使用不同模型时仍能保持一致的因果估计结果。进一步评估表明，在该知识库的辅助下，系统的特征提取能力得到了提升，代码修复效果也更为理想。这些结果表明，MR-MAS确实能为生物医学研究中的大规模、标准化及可重复的孟德尔随机化分析提供有力支持。  \n\n**可用性与实施方式**：源代码、孟德尔随机化知识库以及相关基准数据均可在https://github.com/Zaiwen/MR-MAS免费获取；本研究所使用的版本已存档于https://doi.org/10.5281/zenodo.20342636。  \n\n**补充信息**：更多补充数据可在线查阅Bioinformatics数据库。"
+    },
+    {
+      "title": "Integration of polygenic risk with single cell methylation data using met-scDRS",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag751/8943979?rss=1",
+      "published_at": "2026-10-20T08:00:00+08:00",
+      "published_date": "2026-10-20",
+      "summary": "Abstract Motivation Although large scale genome-wide association studies (GWAS) have identified many risk variants for psychiatric traits their functional implication remain largely unknown. One potential mechanism for their risk is through cellular context-dependent epigenetics such as methylation. Previous methodologies have focused on integrating GWAS with single cell transcriptomics, which allowed identification of within-cell-type heterogeneity in disease risk association. We extended this framework to provide a method called met-scDRS that integrates GWAS with single cell epigenomics and investigates how psychiatric disease risk can manifest through methylomics at single cell resolution. Results We propose an approach that integrates single cell methylomes with disease associated genes identified from GWAS at single-cell resolution. We found our method to be well calibrated and powered in different scenarios. We then analyzed a publicly available single cell methylome dataset of the human brain for 75 different traits and generated disease relevance scores for each cell for each trait. We find high brain specificity with major cell type enrichments congruent with known findings. We identify within-cell-type heterogeneity for psychiatric disease risk along the brain spatial axis as well as subpopulations that are differentially associated with diseases. Finally, we showed that genes with high correlation between methylation levels and disease relevance scores to be highly enriched in specific functional pathways such as synaptic formation and transmission. Availability met-scDRS is freely available in GitHub as a python package under MIT license: https://github.com/bogdanlab/met-scDRS . Source code is also available from Zenodo with All dataset used in this work are publicly available",
+      "authors": [],
+      "doi": "10.1093/bioinformatics/btag751",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag751",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "利用 met-scDRS 将多基因风险模型与单细胞甲基化数据相结合进行分析",
+      "llm_title_bilingual": "利用 met-scDRS 将多基因风险模型与单细胞甲基化数据相结合进行分析 / Integration of polygenic risk with single cell methylation data using met-scDRS",
+      "llm_research_question_zh": "摘要动机：尽管大规模的全基因组关联研究已经发现了许多与精神疾病相关的风险变异，但这些变异的实际功能机制仍大多不为人所知。",
+      "llm_highlights_zh": [
+        "它们产生这种风险的一个潜在机制，是通过细胞环境依赖性的表观遗传学过程，例如甲基化作用。",
+        "以往的研究方法主要集中在将全基因组关联分析与单细胞转录组学相结合，从而能够识别不同细胞类型在疾病风险关联中的差异性。",
+        "我们扩展了这一框架，开发出一种名为“met-scDRS”的方法。该方法将全基因组关联分析与单细胞表观遗传学相结合，从而探究精神疾病风险是如何在单细胞层面通过甲基化谱的变化表现出来的。"
+      ],
+      "llm_rss_summary_zh": "**摘要**  \n尽管大规模全基因组关联研究已经发现了许多与精神疾病相关的风险变异，但这些变异的功能机制仍大多不为人知。其中一种可能的机制是通过细胞特异性表观遗传学过程（如甲基化）来影响疾病风险。以往的研究方法主要侧重于将全基因组关联研究与单细胞转录组学相结合，从而揭示不同细胞类型在疾病风险关联中的差异性。我们进一步发展了这一框架，提出了一种名为 **met-scDRS** 的方法，该方法将全基因组关联研究的结果与单细胞表观遗传学数据整合起来，进而探究精神疾病风险是如何在单细胞层面上通过甲基化机制体现出来的。  \n\n**结果**  \n我们提出了一种将单细胞甲基化数据与全基因组关联研究中鉴定出的疾病相关基因相结合的方法，并验证了该方法在不同应用场景下的有效性与可靠性。随后，我们利用一个公开的人类大脑单细胞甲基化数据集，针对75种不同的精神疾病相关特征，为每个细胞生成了相应的疾病相关性评分。研究结果显示，该方法具有很高的脑组织特异性，且检测结果与已有的研究发现高度一致；同时，我们也发现了不同细胞类型在精神疾病风险方面的差异性，以及某些亚群与特定疾病的关联关系。最后，我们发现那些甲基化水平与疾病相关性评分之间呈高相关性的基因，在突触形成与传递等关键功能通路中具有高度富集现象。  \n\n**开源信息**  \nmet-scDRS作为Python软件包，已根据MIT许可证在GitHub上免费发布：https://github.com/bogdanlab/met-scDRS。相关源代码也可在Zenodo平台上获取。本研究中使用的所有数据均为公开可用的资源。",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "success",
+      "llm_warning": "",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "尽管大规模全基因组关联研究已经发现了许多与精神疾病相关的风险变异，但这些变异的功能机制仍大多不为人知。其中一种可能的机制是通过细胞特异性表观遗传学过程（如甲基化）来影响疾病风险。以往的研究方法主要侧重于将全基因组关联研究与单细胞转录组学相结合，从而揭示不同细胞类型在疾病风险关联中的差异性。我们进一步发展了这一框架，提出了一种名为 met-scDRS 的方法，该方法将全基因组关联研究的结果与单细胞表观遗传学数据整合起来，进而探究精神疾病风险是如何在单细胞层面上通过甲基化机制体现出来的。\n我们提出了一种将单细胞甲基化数据与全基因组关联研究中鉴定出的疾病相关基因相结合的方法，并验证了该方法在不同应用场景下的有效性与可靠性。随后，我们利用一个公开的人类大脑单细胞甲基化数据集，针对75种不同的精神疾病相关特征，为每个细胞生成了相应的疾病相关性评分。研究结果显示，该方法具有很高的脑组织特异性，且检测结果与已有的研究发现高度一致；同时，我们也发现了不同细胞类型在精神疾病风险方面的差异性，以及某些亚群与特定疾病的关联关系。最后，我们发现那些甲基化水平与疾病相关性评分之间呈高相关性的基因，在突触形成与传递等关键功能通路中具有高度富集现象。\n\n开源信息\nmet-scDRS作为Python软件包，已根据MIT许可证在GitHub上免费发布：https://github.com/bogdanlab/met-scDRS。相关源代码也可在Zenodo平台上获取。本研究中使用的所有数据均为公开可用的资源。",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Although large scale genome-wide association studies (GWAS) have identified many risk variants for psychiatric traits their functional implication remain largely unknown. One potential mechanism for their risk is through cellular context-dependent epigenetics such as methylation. Previous methodologies have focused on integrating GWAS with single cell transcriptomics, which allowed identification of within-cell-type heterogeneity in disease risk association. We extended this framework to provide a method called met-scDRS that integrates GWAS with single cell epigenomics and investigates how psychiatric disease risk can manifest through methylomics at single cell resolution. Results We propose an approach that integrates single cell methylomes with disease associated genes identified from GWAS at single-cell resolution. We found our method to be well calibrated and powered in different scenarios. We then analyzed a publicly available single cell methylome dataset of the human brain for 75 different traits and generated disease relevance scores for each cell for each trait. We find high brain specificity with major cell type enrichments congruent with known findings. We identify within-cell-type heterogeneity for psychiatric disease risk along the brain spatial axis as well as subpopulations that are differentially associated with diseases. Finally, we showed that genes with high correlation between methylation levels and disease relevance scores to be highly enriched in specific functional pathways such as synaptic formation and transmission.",
+      "primary_summary_zh": "**摘要**  \n尽管大规模全基因组关联研究已经发现了许多与精神疾病相关的风险变异，但这些变异的功能机制仍大多不为人知。其中一种可能的机制是通过细胞特异性表观遗传学过程（如甲基化）来影响疾病风险。以往的研究方法主要侧重于将全基因组关联研究与单细胞转录组学相结合，从而揭示不同细胞类型在疾病风险关联中的差异性。我们进一步发展了这一框架，提出了一种名为 **met-scDRS** 的方法，该方法将全基因组关联研究的结果与单细胞表观遗传学数据整合起来，进而探究精神疾病风险是如何在单细胞层面上通过甲基化机制体现出来的。  \n\n**结果**  \n我们提出了一种将单细胞甲基化数据与全基因组关联研究中鉴定出的疾病相关基因相结合的方法，并验证了该方法在不同应用场景下的有效性与可靠性。随后，我们利用一个公开的人类大脑单细胞甲基化数据集，针对75种不同的精神疾病相关特征，为每个细胞生成了相应的疾病相关性评分。研究结果显示，该方法具有很高的脑组织特异性，且检测结果与已有的研究发现高度一致；同时，我们也发现了不同细胞类型在精神疾病风险方面的差异性，以及某些亚群与特定疾病的关联关系。最后，我们发现那些甲基化水平与疾病相关性评分之间呈高相关性的基因，在突触形成与传递等关键功能通路中具有高度富集现象。  \n\n**开源信息**  \nmet-scDRS作为Python软件包，已根据MIT许可证在GitHub上免费发布：https://github.com/bogdanlab/met-scDRS。相关源代码也可在Zenodo平台上获取。本研究中使用的所有数据均为公开可用的资源。"
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}
