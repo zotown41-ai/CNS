@@ -1,0 +1,894 @@
+﻿{
+  "schema_version": "1.0",
+  "task": "paper-overview-extractor-rss",
+  "status": "partial_success",
+  "generated_at": "2026-10-23T20:02:16.446945+00:00",
+  "date_range": {
+    "start": "2026-10-23",
+    "end": "2026-10-23"
+  },
+  "inputs": {
+    "journals_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\目标期刊.txt",
+    "keywords_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\关键词.txt",
+    "keyword_aliases_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\keyword_aliases.json",
+    "rss_sources_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\rss_sources.json",
+    "keywords": [
+      "免疫代谢",
+      "代谢表观调控",
+      "单细胞算法",
+      "单细胞图谱",
+      "流感",
+      "HSV",
+      "H1N1",
+      "肺损伤",
+      "肺组织修复",
+      "皮肤免疫"
+    ],
+    "llm_model": "hy-mt1.5-7b",
+    "llm_base_url": "http://127.0.0.1:1234",
+    "llm_translation_only": true,
+    "llm_proxy_url": "http://127.0.0.1:7890",
+    "google_fallback": true
+  },
+  "summary": {
+    "journal_count": 10,
+    "paper_count": 6,
+    "pubmed_enriched_count": 0,
+    "llm_enhanced_count": 6,
+    "llm_google_fallback_count": 6
+  },
+  "journals": [
+    {
+      "journal": "Nature",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nature/",
+      "feed_urls": [
+        "https://www.nature.com/nature/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nature/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nature.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 75
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 52",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Science",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/science",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+        "https://www.science.org/rss/express.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "status_code": 200,
+          "error": "",
+          "item_count": 41
+        },
+        {
+          "url": "https://www.science.org/rss/express.xml",
+          "ok": true,
+          "final_url": "https://feeds.science.org/rss/science-aop.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 10
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/00928674"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "status_code": 200,
+          "error": "",
+          "item_count": 68
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell metabolism",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell-metabolism/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/15504131"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "status_code": 200,
+          "error": "",
+          "item_count": 56
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Immunity",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/immunity/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/10747613"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "status_code": 200,
+          "error": "",
+          "item_count": 46
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature Immunology",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/ni/",
+      "feed_urls": [
+        "https://www.nature.com/ni/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/ni/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/ni.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 1"
+      ],
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "GutPath links immune archetypes and single-cell landscapes in the infected gut",
+          "link": "https://www.nature.com/articles/s41590-026-02719-9",
+          "published_at": "2026-10-23T08:00:00+08:00",
+          "published_date": "2026-10-23",
+          "summary": "A single-cell gene expression atlas, spanning six phylogenetically diverse infections, reveals pathogen-specific reprogramming of the intestinal epithelium and a novel Yersinia-induced enterocyte state that is spatially linked to tissue pathology",
+          "authors": [],
+          "doi": "10.1038/s41590-026-02719-9",
+          "journal": "Nature Immunology",
+          "source_feed": "https://www.nature.com/ni.rss",
+          "entry_id": "doi:10.1038/s41590-026-02719-9",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "GutPath 将免疫原型和受感染肠道中的单细胞景观联系起来",
+          "llm_title_bilingual": "GutPath 将免疫原型和受感染肠道中的单细胞景观联系起来 / GutPath links immune archetypes and single-cell landscapes in the infected gut",
+          "llm_research_question_zh": "涵盖六种系统发育不同感染的单细胞基因表达图谱，揭示了肠上皮的病原体特异性重编程以及耶尔森菌诱导的新型肠上皮细胞状态，该状态在空间上与组织病理学相关",
+          "llm_highlights_zh": [
+            "GutPath 将免疫原型和受感染肠道中的单细胞景观联系起来",
+            "涵盖六种系统发育不同感染的单细胞基因表达图谱，揭示了肠上皮的病原体特异性重编程以及耶尔森菌诱导的新型肠上皮细胞状态，该状态在空间上与组织病理学相关"
+          ],
+          "llm_rss_summary_zh": "涵盖六种系统发育不同感染的单细胞基因表达图谱，揭示了肠上皮的病原体特异性重编程以及耶尔森菌诱导的新型肠上皮细胞状态，该状态在空间上与组织病理学相关",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "fallback_google",
+          "llm_warning": "Relay failed; used Google Translate fallback.",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "涵盖六种系统发育不同感染的单细胞基因表达图谱，揭示了肠上皮的病原体特异性重编程以及耶尔森菌诱导的新型肠上皮细胞状态，该状态在空间上与组织病理学相关",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "A single-cell gene expression atlas, spanning six phylogenetically diverse infections, reveals pathogen-specific reprogramming of the intestinal epithelium and a novel Yersinia-induced enterocyte state that is spatially linked to tissue pathology",
+          "primary_summary_zh": "涵盖六种系统发育不同感染的单细胞基因表达图谱，揭示了肠上皮的病原体特异性重编程以及耶尔森菌诱导的新型肠上皮细胞状态，该状态在空间上与组织病理学相关"
+        },
+        {
+          "title": "Cytokine circuits in CNS homeostasis and disease",
+          "link": "https://www.nature.com/articles/s41590-026-02684-3",
+          "published_at": "2026-10-23T08:00:00+08:00",
+          "published_date": "2026-10-23",
+          "summary": "In their Review, Becher et al. discuss how selected cytokine networks preserve, destabilize and restore central nervous system integrity",
+          "authors": [
+            "Burkhard Becher",
+            "Donatella De Feo",
+            "Melanie Greter"
+          ],
+          "doi": "10.1038/s41590-026-02684-3",
+          "journal": "Nature Immunology",
+          "source_feed": "https://www.nature.com/ni.rss",
+          "entry_id": "doi:10.1038/s41590-026-02684-3",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "中枢神经系统稳态和疾病中的细胞因子回路",
+          "llm_title_bilingual": "中枢神经系统稳态和疾病中的细胞因子回路 / Cytokine circuits in CNS homeostasis and disease",
+          "llm_research_question_zh": "在他们的评论中，Becher 等人。",
+          "llm_highlights_zh": [
+            "讨论选定的细胞因子网络如何保持、不稳定和恢复中枢神经系统的完整性",
+            "中枢神经系统稳态和疾病中的细胞因子回路",
+            "在他们的评论中，Becher 等人。"
+          ],
+          "llm_rss_summary_zh": "在他们的评论中，Becher 等人。讨论选定的细胞因子网络如何保持、不稳定和恢复中枢神经系统的完整性",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "fallback_google",
+          "llm_warning": "Relay failed; used Google Translate fallback.",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "在他们的评论中，Becher 等人。讨论选定的细胞因子网络如何保持、不稳定和恢复中枢神经系统的完整性",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "In their Review, Becher et al. discuss how selected cytokine networks preserve, destabilize and restore central nervous system integrity",
+          "primary_summary_zh": "在他们的评论中，Becher 等人。讨论选定的细胞因子网络如何保持、不稳定和恢复中枢神经系统的完整性"
+        }
+      ]
+    },
+    {
+      "journal": "Science Immunology",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/sciimmunol",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "status_code": 200,
+          "error": "",
+          "item_count": 11
+        }
+      ],
+      "warnings": [],
+      "paper_count": 2,
+      "papers": [
+        {
+          "title": "ILC2-derived IL-9 promotes eosinophil-mediated antitumor activity",
+          "link": "https://www.science.org/doi/abs/10.1126/sciimmunol.adz0989?af=R",
+          "published_at": "2026-10-23T15:00:00+08:00",
+          "published_date": "2026-10-23",
+          "summary": "Science Immunology, Volume 11, Issue 124 , October 2026",
+          "authors": [
+            "Young Gyun Ko, Jongho Ham, Jaemoon Koh, Jihyun Kim, Han Byeol Kim, Doo Hyun Chung, Chul-Hwan Lee, Sung Ho Park, TaeSoo Kim, Hye Young Kim"
+          ],
+          "doi": "10.1126/sciimmunol.adz0989",
+          "journal": "Science Immunology",
+          "source_feed": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "entry_id": "doi:10.1126/sciimmunol.adz0989",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "ILC2 衍生的 IL-9 促进嗜酸性粒细胞介导的抗肿瘤活性",
+          "llm_title_bilingual": "ILC2 衍生的 IL-9 促进嗜酸性粒细胞介导的抗肿瘤活性 / ILC2-derived IL-9 promotes eosinophil-mediated antitumor activity",
+          "llm_research_question_zh": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月",
+          "llm_highlights_zh": [
+            "ILC2 衍生的 IL-9 促进嗜酸性粒细胞介导的抗肿瘤活性",
+            "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月"
+          ],
+          "llm_rss_summary_zh": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "fallback_google",
+          "llm_warning": "Relay failed; used Google Translate fallback.",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Science Immunology, Volume 11, Issue 124 , October 2026",
+          "primary_summary_zh": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月"
+        },
+        {
+          "title": "An autonomous macrophage-nociceptor mechanosensory relay drives chronic visceral pain",
+          "link": "https://www.science.org/doi/abs/10.1126/sciimmunol.aeb3809?af=R",
+          "published_at": "2026-10-23T15:00:00+08:00",
+          "published_date": "2026-10-23",
+          "summary": "Science Immunology, Volume 11, Issue 124 , October 2026",
+          "authors": [
+            "Liyan Wu, Tianyi Shen, Zihan Wang, Ting Wang, Ximin Hu, Meng Sun, Lei Zhang, Yanyong Cheng, Yanping Hao, Liqin Zhou, Moubin Lin, Jinjun Bian, Jing Feng, Heng Xu"
+          ],
+          "doi": "10.1126/sciimmunol.aeb3809",
+          "journal": "Science Immunology",
+          "source_feed": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "entry_id": "doi:10.1126/sciimmunol.aeb3809",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "自主巨噬细胞-伤害感受器机械感觉中继驱动慢性内脏疼痛",
+          "llm_title_bilingual": "自主巨噬细胞-伤害感受器机械感觉中继驱动慢性内脏疼痛 / An autonomous macrophage-nociceptor mechanosensory relay drives chronic visceral pain",
+          "llm_research_question_zh": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月",
+          "llm_highlights_zh": [
+            "自主巨噬细胞-伤害感受器机械感觉中继驱动慢性内脏疼痛",
+            "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月"
+          ],
+          "llm_rss_summary_zh": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "fallback_google",
+          "llm_warning": "Relay failed; used Google Translate fallback.",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Science Immunology, Volume 11, Issue 124 , October 2026",
+          "primary_summary_zh": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月"
+        }
+      ]
+    },
+    {
+      "journal": "Bioinformatics",
+      "configured": true,
+      "publisher": "Oxford Academic",
+      "homepage": "https://academic.oup.com/bioinformatics",
+      "feed_urls": [
+        "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+        "https://academic.oup.com/rss/site_5139/3001.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 2
+        },
+        {
+          "url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 53
+        }
+      ],
+      "warnings": [],
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "LRP2: A proteogenomics pipeline for long-read informed protein isoform analysis and discovery",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag790/8985543?rss=1",
+          "published_at": "2026-10-23T08:00:00+08:00",
+          "published_date": "2026-10-23",
+          "summary": "Abstract Summary Most human genes produce multiple RNA isoforms, yet it remains unclear which isoforms are translated into stable, functional proteins. Long-read RNA sequencing resolves full-length transcript structures and, when paired with mass spectrometry, can provide empirical evidence of isoform translation. Despite this opportunity, comprehensive workflows integrating isoform discovery, open reading frame prediction, peptide identification, and protein inference remain limited, leaving users to handle these steps piecemeal. Here, we present LRP2, a modular, end-to-end long-read proteogenomics pipeline built in Nextflow. LRP2 scales transcript discovery to hundreds of samples via PacBio’s latest Isocall tool, removes technical artifacts with SQANTI QC, generates and classifies predicted proteomes via CPAT and SQANTI Protein, performs multi-group differential expression and usage analysis via edgeR, DRIMSeq, and a long-read adaptation of LeafCutter, and integrates protein-level evidence from DDA and DIA MS data through FragPipe. For cross-dataset comparison of novel isoforms, LRP2 employs deterministic splice-junction, coordinate-based isoform identifiers. Used as an integrated pipeline, LRP2 enables the detection of novel peptides and improves protein isoform inference to confirm protein isoform translation. Availability and Implementation LRP2 is freely available as a modular Nextflow pipeline at https://github.com/sheynkman-lab/LRP2 (v2.0.0, archived at https://doi.org/10.5281/zenodo.22795865 ). LRP2 supports Docker, Apptainer/Singularity, and Conda environments with GENCODE references",
+          "authors": [],
+          "doi": "10.1093/bioinformatics/btag790",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag790",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "LRP2：用于长读知情蛋白质亚型分析和发现的蛋白质基因组学管道",
+          "llm_title_bilingual": "LRP2：用于长读知情蛋白质亚型分析和发现的蛋白质基因组学管道 / LRP2: A proteogenomics pipeline for long-read informed protein isoform analysis and discovery",
+          "llm_research_question_zh": "大多数人类基因产生多种 RNA 同工型，但仍不清楚哪些同工型被翻译成稳定的功能性蛋白质。",
+          "llm_highlights_zh": [
+            "长读长 RNA 测序可解析全长转录本结构，与质谱法配合使用时，可以提供异构体翻译的经验证据。",
+            "尽管有这个机会，但集成同种型发现、开放阅读框预测、肽鉴定和蛋白质推断的综合工作流程仍然有限，使用户只能零碎地处理这些步骤。",
+            "在这里，我们介绍 LRP2，这是一种在 Nextflow 中构建的模块化、端到端长读长蛋白质组学管道。"
+          ],
+          "llm_rss_summary_zh": "大多数人类基因产生多种 RNA 同工型，但仍不清楚哪些同工型被翻译成稳定的功能性蛋白质。长读长 RNA 测序可解析全长转录本结构，与质谱法配合使用时，可以提供异构体翻译的经验证据。尽管有这个机会，但集成同种型发现、开放阅读框预测、肽鉴定和蛋白质推断的综合工作流程仍然有限，使用户只能零碎地处理这些步骤。在这里，我们介绍 LRP2，这是一种在 Nextflow 中构建的模块化、端到端长读长蛋白质组学管道。 LRP2 通过 PacBio 最新的 Isocall 工具将转录本发现扩展到数百个样本，使用 SQANTI QC 消除技术伪影，通过 CPAT 和 SQANTI Protein 生成和分类预测的蛋白质组，通过 EdgeR、DRIMSeq 和 LeafCutter 的长读适应进行多组差异表达和使用分析，并通过 FragPipe 整合来自 DDA 和 DIA MS 数据的蛋白质水平证据。为了跨数据集比较新型同种型，LRP2 采用确定性剪接点、基于坐标的同种型标识符。 LRP2 用作集成管道，能够检测新型肽并改进蛋白质同工型推断以确认蛋白质同工型翻译。可用性和实施​​ LRP2 可作为模块化 Nextflow 管道免费提供，网址为 https://github.com/sheynkman-lab/LRP2（v2.0.0，存档于 https://doi.org/10.5281/zenodo.22795865）。 LRP2 支持带有 GENCODE 参考的 Docker、Apptainer/Singularity 和 Conda 环境",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "fallback_google",
+          "llm_warning": "Relay failed; used Google Translate fallback.",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "大多数人类基因产生多种 RNA 同工型，但仍不清楚哪些同工型被翻译成稳定的功能性蛋白质。长读长 RNA 测序可解析全长转录本结构，与质谱法配合使用时，可以提供异构体翻译的经验证据。尽管有这个机会，但集成同种型发现、开放阅读框预测、肽鉴定和蛋白质推断的综合工作流程仍然有限，使用户只能零碎地处理这些步骤。在这里，我们介绍 LRP2，这是一种在 Nextflow 中构建的模块化、端到端长读长蛋白质组学管道。 LRP2 通过 PacBio 最新的 Isocall 工具将转录本发现扩展到数百个样本，使用 SQANTI QC 消除技术伪影，通过 CPAT 和 SQANTI Protein 生成和分类预测的蛋白质组，通过 EdgeR、DRIMSeq 和 LeafCutter 的长读适应进行多组差异表达和使用分析，并通过 FragPipe 整合来自 DDA 和 DIA MS 数据的蛋白质水平证据。为了跨数据集比较新型同种型，LRP2 采用确定性剪接点、基于坐标的同种型标识符。 LRP2 用作集成管道，能够检测新型肽并改进蛋白质同工型推断以确认蛋白质同工型翻译。可用性和实施​​ LRP2 可作为模块化 Nextflow 管道免费提供，网址为 https://github.com/sheynkman-lab/LRP2（v2.0.0，存档于 https://doi.org/10.5281/zenodo.22795865）。 LRP2 支持带有 GENCODE 参考的 Docker、Apptainer/Singularity 和 Conda 环境",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Summary Most human genes produce multiple RNA isoforms, yet it remains unclear which isoforms are translated into stable, functional proteins. Long-read RNA sequencing resolves full-length transcript structures and, when paired with mass spectrometry, can provide empirical evidence of isoform translation. Despite this opportunity, comprehensive workflows integrating isoform discovery, open reading frame prediction, peptide identification, and protein inference remain limited, leaving users to handle these steps piecemeal. Here, we present LRP2, a modular, end-to-end long-read proteogenomics pipeline built in Nextflow. LRP2 scales transcript discovery to hundreds of samples via PacBio’s latest Isocall tool, removes technical artifacts with SQANTI QC, generates and classifies predicted proteomes via CPAT and SQANTI Protein, performs multi-group differential expression and usage analysis via edgeR, DRIMSeq, and a long-read adaptation of LeafCutter, and integrates protein-level evidence from DDA and DIA MS data through FragPipe. For cross-dataset comparison of novel isoforms, LRP2 employs deterministic splice-junction, coordinate-based isoform identifiers. Used as an integrated pipeline, LRP2 enables the detection of novel peptides and improves protein isoform inference to confirm protein isoform translation.",
+          "primary_summary_zh": "大多数人类基因产生多种 RNA 同工型，但仍不清楚哪些同工型被翻译成稳定的功能性蛋白质。长读长 RNA 测序可解析全长转录本结构，与质谱法配合使用时，可以提供异构体翻译的经验证据。尽管有这个机会，但集成同种型发现、开放阅读框预测、肽鉴定和蛋白质推断的综合工作流程仍然有限，使用户只能零碎地处理这些步骤。在这里，我们介绍 LRP2，这是一种在 Nextflow 中构建的模块化、端到端长读长蛋白质组学管道。 LRP2 通过 PacBio 最新的 Isocall 工具将转录本发现扩展到数百个样本，使用 SQANTI QC 消除技术伪影，通过 CPAT 和 SQANTI Protein 生成和分类预测的蛋白质组，通过 EdgeR、DRIMSeq 和 LeafCutter 的长读适应进行多组差异表达和使用分析，并通过 FragPipe 整合来自 DDA 和 DIA MS 数据的蛋白质水平证据。为了跨数据集比较新型同种型，LRP2 采用确定性剪接点、基于坐标的同种型标识符。 LRP2 用作集成管道，能够检测新型肽并改进蛋白质同工型推断以确认蛋白质同工型翻译。可用性和实施​​ LRP2 可作为模块化 Nextflow 管道免费提供，网址为 https://github.com/sheynkman-lab/LRP2（v2.0.0，存档于 https://doi.org/10.5281/zenodo.22795865）。 LRP2 支持带有 GENCODE 参考的 Docker、Apptainer/Singularity 和 Conda 环境"
+        }
+      ]
+    },
+    {
+      "journal": "Nature Protocols",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nprot/",
+      "feed_urls": [
+        "https://www.nature.com/nprot/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nprot/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nprot.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 1",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature methods",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nmeth/",
+      "feed_urls": [
+        "https://www.nature.com/nmeth/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nmeth/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nmeth.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [],
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Benchmarking segmentation methods for spatial transcriptomics",
+          "link": "https://www.nature.com/articles/s41592-026-03272-x",
+          "published_at": "2026-10-23T08:00:00+08:00",
+          "published_date": "2026-10-23",
+          "summary": "This Analysis benchmarks segmentation methods across different datasets and presents Nextflow, a pipeline for standardized method selection for spatial transcriptomics",
+          "authors": [
+            "Xabier Martínez-de-Morentin",
+            "Sumeer A. Khan",
+            "Alberto Maillo",
+            "Robert Lehmann",
+            "Narsis A. Kiani",
+            "Vincenzo Lagani",
+            "David Gomez-Cabrero",
+            "Jesper Tegner"
+          ],
+          "doi": "10.1038/s41592-026-03272-x",
+          "journal": "Nature methods",
+          "source_feed": "https://www.nature.com/nmeth.rss",
+          "entry_id": "doi:10.1038/s41592-026-03272-x",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "空间转录组学的基准分割方法",
+          "llm_title_bilingual": "空间转录组学的基准分割方法 / Benchmarking segmentation methods for spatial transcriptomics",
+          "llm_research_question_zh": "该分析对不同数据集的分割方法进行了基准测试，并提出了 Nextflow，这是一个用于空间转录组学标准化方法选择的管道",
+          "llm_highlights_zh": [
+            "空间转录组学的基准分割方法",
+            "该分析对不同数据集的分割方法进行了基准测试，并提出了 Nextflow，这是一个用于空间转录组学标准化方法选择的管道"
+          ],
+          "llm_rss_summary_zh": "该分析对不同数据集的分割方法进行了基准测试，并提出了 Nextflow，这是一个用于空间转录组学标准化方法选择的管道",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "fallback_google",
+          "llm_warning": "Relay failed; used Google Translate fallback.",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "该分析对不同数据集的分割方法进行了基准测试，并提出了 Nextflow，这是一个用于空间转录组学标准化方法选择的管道",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "This Analysis benchmarks segmentation methods across different datasets and presents Nextflow, a pipeline for standardized method selection for spatial transcriptomics",
+          "primary_summary_zh": "该分析对不同数据集的分割方法进行了基准测试，并提出了 Nextflow，这是一个用于空间转录组学标准化方法选择的管道"
+        }
+      ]
+    }
+  ],
+  "all_papers": [
+    {
+      "title": "ILC2-derived IL-9 promotes eosinophil-mediated antitumor activity",
+      "link": "https://www.science.org/doi/abs/10.1126/sciimmunol.adz0989?af=R",
+      "published_at": "2026-10-23T15:00:00+08:00",
+      "published_date": "2026-10-23",
+      "summary": "Science Immunology, Volume 11, Issue 124 , October 2026",
+      "authors": [
+        "Young Gyun Ko, Jongho Ham, Jaemoon Koh, Jihyun Kim, Han Byeol Kim, Doo Hyun Chung, Chul-Hwan Lee, Sung Ho Park, TaeSoo Kim, Hye Young Kim"
+      ],
+      "doi": "10.1126/sciimmunol.adz0989",
+      "journal": "Science Immunology",
+      "source_feed": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+      "entry_id": "doi:10.1126/sciimmunol.adz0989",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "ILC2 衍生的 IL-9 促进嗜酸性粒细胞介导的抗肿瘤活性",
+      "llm_title_bilingual": "ILC2 衍生的 IL-9 促进嗜酸性粒细胞介导的抗肿瘤活性 / ILC2-derived IL-9 promotes eosinophil-mediated antitumor activity",
+      "llm_research_question_zh": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月",
+      "llm_highlights_zh": [
+        "ILC2 衍生的 IL-9 促进嗜酸性粒细胞介导的抗肿瘤活性",
+        "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月"
+      ],
+      "llm_rss_summary_zh": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "fallback_google",
+      "llm_warning": "Relay failed; used Google Translate fallback.",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Science Immunology, Volume 11, Issue 124 , October 2026",
+      "primary_summary_zh": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月"
+    },
+    {
+      "title": "An autonomous macrophage-nociceptor mechanosensory relay drives chronic visceral pain",
+      "link": "https://www.science.org/doi/abs/10.1126/sciimmunol.aeb3809?af=R",
+      "published_at": "2026-10-23T15:00:00+08:00",
+      "published_date": "2026-10-23",
+      "summary": "Science Immunology, Volume 11, Issue 124 , October 2026",
+      "authors": [
+        "Liyan Wu, Tianyi Shen, Zihan Wang, Ting Wang, Ximin Hu, Meng Sun, Lei Zhang, Yanyong Cheng, Yanping Hao, Liqin Zhou, Moubin Lin, Jinjun Bian, Jing Feng, Heng Xu"
+      ],
+      "doi": "10.1126/sciimmunol.aeb3809",
+      "journal": "Science Immunology",
+      "source_feed": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+      "entry_id": "doi:10.1126/sciimmunol.aeb3809",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "自主巨噬细胞-伤害感受器机械感觉中继驱动慢性内脏疼痛",
+      "llm_title_bilingual": "自主巨噬细胞-伤害感受器机械感觉中继驱动慢性内脏疼痛 / An autonomous macrophage-nociceptor mechanosensory relay drives chronic visceral pain",
+      "llm_research_question_zh": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月",
+      "llm_highlights_zh": [
+        "自主巨噬细胞-伤害感受器机械感觉中继驱动慢性内脏疼痛",
+        "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月"
+      ],
+      "llm_rss_summary_zh": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "fallback_google",
+      "llm_warning": "Relay failed; used Google Translate fallback.",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Science Immunology, Volume 11, Issue 124 , October 2026",
+      "primary_summary_zh": "《科学免疫学》，第 11 卷，第 124 期，2026 年 10 月"
+    },
+    {
+      "title": "LRP2: A proteogenomics pipeline for long-read informed protein isoform analysis and discovery",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag790/8985543?rss=1",
+      "published_at": "2026-10-23T08:00:00+08:00",
+      "published_date": "2026-10-23",
+      "summary": "Abstract Summary Most human genes produce multiple RNA isoforms, yet it remains unclear which isoforms are translated into stable, functional proteins. Long-read RNA sequencing resolves full-length transcript structures and, when paired with mass spectrometry, can provide empirical evidence of isoform translation. Despite this opportunity, comprehensive workflows integrating isoform discovery, open reading frame prediction, peptide identification, and protein inference remain limited, leaving users to handle these steps piecemeal. Here, we present LRP2, a modular, end-to-end long-read proteogenomics pipeline built in Nextflow. LRP2 scales transcript discovery to hundreds of samples via PacBio’s latest Isocall tool, removes technical artifacts with SQANTI QC, generates and classifies predicted proteomes via CPAT and SQANTI Protein, performs multi-group differential expression and usage analysis via edgeR, DRIMSeq, and a long-read adaptation of LeafCutter, and integrates protein-level evidence from DDA and DIA MS data through FragPipe. For cross-dataset comparison of novel isoforms, LRP2 employs deterministic splice-junction, coordinate-based isoform identifiers. Used as an integrated pipeline, LRP2 enables the detection of novel peptides and improves protein isoform inference to confirm protein isoform translation. Availability and Implementation LRP2 is freely available as a modular Nextflow pipeline at https://github.com/sheynkman-lab/LRP2 (v2.0.0, archived at https://doi.org/10.5281/zenodo.22795865 ). LRP2 supports Docker, Apptainer/Singularity, and Conda environments with GENCODE references",
+      "authors": [],
+      "doi": "10.1093/bioinformatics/btag790",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag790",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "LRP2：用于长读知情蛋白质亚型分析和发现的蛋白质基因组学管道",
+      "llm_title_bilingual": "LRP2：用于长读知情蛋白质亚型分析和发现的蛋白质基因组学管道 / LRP2: A proteogenomics pipeline for long-read informed protein isoform analysis and discovery",
+      "llm_research_question_zh": "大多数人类基因产生多种 RNA 同工型，但仍不清楚哪些同工型被翻译成稳定的功能性蛋白质。",
+      "llm_highlights_zh": [
+        "长读长 RNA 测序可解析全长转录本结构，与质谱法配合使用时，可以提供异构体翻译的经验证据。",
+        "尽管有这个机会，但集成同种型发现、开放阅读框预测、肽鉴定和蛋白质推断的综合工作流程仍然有限，使用户只能零碎地处理这些步骤。",
+        "在这里，我们介绍 LRP2，这是一种在 Nextflow 中构建的模块化、端到端长读长蛋白质组学管道。"
+      ],
+      "llm_rss_summary_zh": "大多数人类基因产生多种 RNA 同工型，但仍不清楚哪些同工型被翻译成稳定的功能性蛋白质。长读长 RNA 测序可解析全长转录本结构，与质谱法配合使用时，可以提供异构体翻译的经验证据。尽管有这个机会，但集成同种型发现、开放阅读框预测、肽鉴定和蛋白质推断的综合工作流程仍然有限，使用户只能零碎地处理这些步骤。在这里，我们介绍 LRP2，这是一种在 Nextflow 中构建的模块化、端到端长读长蛋白质组学管道。 LRP2 通过 PacBio 最新的 Isocall 工具将转录本发现扩展到数百个样本，使用 SQANTI QC 消除技术伪影，通过 CPAT 和 SQANTI Protein 生成和分类预测的蛋白质组，通过 EdgeR、DRIMSeq 和 LeafCutter 的长读适应进行多组差异表达和使用分析，并通过 FragPipe 整合来自 DDA 和 DIA MS 数据的蛋白质水平证据。为了跨数据集比较新型同种型，LRP2 采用确定性剪接点、基于坐标的同种型标识符。 LRP2 用作集成管道，能够检测新型肽并改进蛋白质同工型推断以确认蛋白质同工型翻译。可用性和实施​​ LRP2 可作为模块化 Nextflow 管道免费提供，网址为 https://github.com/sheynkman-lab/LRP2（v2.0.0，存档于 https://doi.org/10.5281/zenodo.22795865）。 LRP2 支持带有 GENCODE 参考的 Docker、Apptainer/Singularity 和 Conda 环境",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "fallback_google",
+      "llm_warning": "Relay failed; used Google Translate fallback.",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "大多数人类基因产生多种 RNA 同工型，但仍不清楚哪些同工型被翻译成稳定的功能性蛋白质。长读长 RNA 测序可解析全长转录本结构，与质谱法配合使用时，可以提供异构体翻译的经验证据。尽管有这个机会，但集成同种型发现、开放阅读框预测、肽鉴定和蛋白质推断的综合工作流程仍然有限，使用户只能零碎地处理这些步骤。在这里，我们介绍 LRP2，这是一种在 Nextflow 中构建的模块化、端到端长读长蛋白质组学管道。 LRP2 通过 PacBio 最新的 Isocall 工具将转录本发现扩展到数百个样本，使用 SQANTI QC 消除技术伪影，通过 CPAT 和 SQANTI Protein 生成和分类预测的蛋白质组，通过 EdgeR、DRIMSeq 和 LeafCutter 的长读适应进行多组差异表达和使用分析，并通过 FragPipe 整合来自 DDA 和 DIA MS 数据的蛋白质水平证据。为了跨数据集比较新型同种型，LRP2 采用确定性剪接点、基于坐标的同种型标识符。 LRP2 用作集成管道，能够检测新型肽并改进蛋白质同工型推断以确认蛋白质同工型翻译。可用性和实施​​ LRP2 可作为模块化 Nextflow 管道免费提供，网址为 https://github.com/sheynkman-lab/LRP2（v2.0.0，存档于 https://doi.org/10.5281/zenodo.22795865）。 LRP2 支持带有 GENCODE 参考的 Docker、Apptainer/Singularity 和 Conda 环境",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Summary Most human genes produce multiple RNA isoforms, yet it remains unclear which isoforms are translated into stable, functional proteins. Long-read RNA sequencing resolves full-length transcript structures and, when paired with mass spectrometry, can provide empirical evidence of isoform translation. Despite this opportunity, comprehensive workflows integrating isoform discovery, open reading frame prediction, peptide identification, and protein inference remain limited, leaving users to handle these steps piecemeal. Here, we present LRP2, a modular, end-to-end long-read proteogenomics pipeline built in Nextflow. LRP2 scales transcript discovery to hundreds of samples via PacBio’s latest Isocall tool, removes technical artifacts with SQANTI QC, generates and classifies predicted proteomes via CPAT and SQANTI Protein, performs multi-group differential expression and usage analysis via edgeR, DRIMSeq, and a long-read adaptation of LeafCutter, and integrates protein-level evidence from DDA and DIA MS data through FragPipe. For cross-dataset comparison of novel isoforms, LRP2 employs deterministic splice-junction, coordinate-based isoform identifiers. Used as an integrated pipeline, LRP2 enables the detection of novel peptides and improves protein isoform inference to confirm protein isoform translation.",
+      "primary_summary_zh": "大多数人类基因产生多种 RNA 同工型，但仍不清楚哪些同工型被翻译成稳定的功能性蛋白质。长读长 RNA 测序可解析全长转录本结构，与质谱法配合使用时，可以提供异构体翻译的经验证据。尽管有这个机会，但集成同种型发现、开放阅读框预测、肽鉴定和蛋白质推断的综合工作流程仍然有限，使用户只能零碎地处理这些步骤。在这里，我们介绍 LRP2，这是一种在 Nextflow 中构建的模块化、端到端长读长蛋白质组学管道。 LRP2 通过 PacBio 最新的 Isocall 工具将转录本发现扩展到数百个样本，使用 SQANTI QC 消除技术伪影，通过 CPAT 和 SQANTI Protein 生成和分类预测的蛋白质组，通过 EdgeR、DRIMSeq 和 LeafCutter 的长读适应进行多组差异表达和使用分析，并通过 FragPipe 整合来自 DDA 和 DIA MS 数据的蛋白质水平证据。为了跨数据集比较新型同种型，LRP2 采用确定性剪接点、基于坐标的同种型标识符。 LRP2 用作集成管道，能够检测新型肽并改进蛋白质同工型推断以确认蛋白质同工型翻译。可用性和实施​​ LRP2 可作为模块化 Nextflow 管道免费提供，网址为 https://github.com/sheynkman-lab/LRP2（v2.0.0，存档于 https://doi.org/10.5281/zenodo.22795865）。 LRP2 支持带有 GENCODE 参考的 Docker、Apptainer/Singularity 和 Conda 环境"
+    },
+    {
+      "title": "GutPath links immune archetypes and single-cell landscapes in the infected gut",
+      "link": "https://www.nature.com/articles/s41590-026-02719-9",
+      "published_at": "2026-10-23T08:00:00+08:00",
+      "published_date": "2026-10-23",
+      "summary": "A single-cell gene expression atlas, spanning six phylogenetically diverse infections, reveals pathogen-specific reprogramming of the intestinal epithelium and a novel Yersinia-induced enterocyte state that is spatially linked to tissue pathology",
+      "authors": [],
+      "doi": "10.1038/s41590-026-02719-9",
+      "journal": "Nature Immunology",
+      "source_feed": "https://www.nature.com/ni.rss",
+      "entry_id": "doi:10.1038/s41590-026-02719-9",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "GutPath 将免疫原型和受感染肠道中的单细胞景观联系起来",
+      "llm_title_bilingual": "GutPath 将免疫原型和受感染肠道中的单细胞景观联系起来 / GutPath links immune archetypes and single-cell landscapes in the infected gut",
+      "llm_research_question_zh": "涵盖六种系统发育不同感染的单细胞基因表达图谱，揭示了肠上皮的病原体特异性重编程以及耶尔森菌诱导的新型肠上皮细胞状态，该状态在空间上与组织病理学相关",
+      "llm_highlights_zh": [
+        "GutPath 将免疫原型和受感染肠道中的单细胞景观联系起来",
+        "涵盖六种系统发育不同感染的单细胞基因表达图谱，揭示了肠上皮的病原体特异性重编程以及耶尔森菌诱导的新型肠上皮细胞状态，该状态在空间上与组织病理学相关"
+      ],
+      "llm_rss_summary_zh": "涵盖六种系统发育不同感染的单细胞基因表达图谱，揭示了肠上皮的病原体特异性重编程以及耶尔森菌诱导的新型肠上皮细胞状态，该状态在空间上与组织病理学相关",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "fallback_google",
+      "llm_warning": "Relay failed; used Google Translate fallback.",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "涵盖六种系统发育不同感染的单细胞基因表达图谱，揭示了肠上皮的病原体特异性重编程以及耶尔森菌诱导的新型肠上皮细胞状态，该状态在空间上与组织病理学相关",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "A single-cell gene expression atlas, spanning six phylogenetically diverse infections, reveals pathogen-specific reprogramming of the intestinal epithelium and a novel Yersinia-induced enterocyte state that is spatially linked to tissue pathology",
+      "primary_summary_zh": "涵盖六种系统发育不同感染的单细胞基因表达图谱，揭示了肠上皮的病原体特异性重编程以及耶尔森菌诱导的新型肠上皮细胞状态，该状态在空间上与组织病理学相关"
+    },
+    {
+      "title": "Cytokine circuits in CNS homeostasis and disease",
+      "link": "https://www.nature.com/articles/s41590-026-02684-3",
+      "published_at": "2026-10-23T08:00:00+08:00",
+      "published_date": "2026-10-23",
+      "summary": "In their Review, Becher et al. discuss how selected cytokine networks preserve, destabilize and restore central nervous system integrity",
+      "authors": [
+        "Burkhard Becher",
+        "Donatella De Feo",
+        "Melanie Greter"
+      ],
+      "doi": "10.1038/s41590-026-02684-3",
+      "journal": "Nature Immunology",
+      "source_feed": "https://www.nature.com/ni.rss",
+      "entry_id": "doi:10.1038/s41590-026-02684-3",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "中枢神经系统稳态和疾病中的细胞因子回路",
+      "llm_title_bilingual": "中枢神经系统稳态和疾病中的细胞因子回路 / Cytokine circuits in CNS homeostasis and disease",
+      "llm_research_question_zh": "在他们的评论中，Becher 等人。",
+      "llm_highlights_zh": [
+        "讨论选定的细胞因子网络如何保持、不稳定和恢复中枢神经系统的完整性",
+        "中枢神经系统稳态和疾病中的细胞因子回路",
+        "在他们的评论中，Becher 等人。"
+      ],
+      "llm_rss_summary_zh": "在他们的评论中，Becher 等人。讨论选定的细胞因子网络如何保持、不稳定和恢复中枢神经系统的完整性",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "fallback_google",
+      "llm_warning": "Relay failed; used Google Translate fallback.",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "在他们的评论中，Becher 等人。讨论选定的细胞因子网络如何保持、不稳定和恢复中枢神经系统的完整性",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "In their Review, Becher et al. discuss how selected cytokine networks preserve, destabilize and restore central nervous system integrity",
+      "primary_summary_zh": "在他们的评论中，Becher 等人。讨论选定的细胞因子网络如何保持、不稳定和恢复中枢神经系统的完整性"
+    },
+    {
+      "title": "Benchmarking segmentation methods for spatial transcriptomics",
+      "link": "https://www.nature.com/articles/s41592-026-03272-x",
+      "published_at": "2026-10-23T08:00:00+08:00",
+      "published_date": "2026-10-23",
+      "summary": "This Analysis benchmarks segmentation methods across different datasets and presents Nextflow, a pipeline for standardized method selection for spatial transcriptomics",
+      "authors": [
+        "Xabier Martínez-de-Morentin",
+        "Sumeer A. Khan",
+        "Alberto Maillo",
+        "Robert Lehmann",
+        "Narsis A. Kiani",
+        "Vincenzo Lagani",
+        "David Gomez-Cabrero",
+        "Jesper Tegner"
+      ],
+      "doi": "10.1038/s41592-026-03272-x",
+      "journal": "Nature methods",
+      "source_feed": "https://www.nature.com/nmeth.rss",
+      "entry_id": "doi:10.1038/s41592-026-03272-x",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "空间转录组学的基准分割方法",
+      "llm_title_bilingual": "空间转录组学的基准分割方法 / Benchmarking segmentation methods for spatial transcriptomics",
+      "llm_research_question_zh": "该分析对不同数据集的分割方法进行了基准测试，并提出了 Nextflow，这是一个用于空间转录组学标准化方法选择的管道",
+      "llm_highlights_zh": [
+        "空间转录组学的基准分割方法",
+        "该分析对不同数据集的分割方法进行了基准测试，并提出了 Nextflow，这是一个用于空间转录组学标准化方法选择的管道"
+      ],
+      "llm_rss_summary_zh": "该分析对不同数据集的分割方法进行了基准测试，并提出了 Nextflow，这是一个用于空间转录组学标准化方法选择的管道",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "fallback_google",
+      "llm_warning": "Relay failed; used Google Translate fallback.",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "该分析对不同数据集的分割方法进行了基准测试，并提出了 Nextflow，这是一个用于空间转录组学标准化方法选择的管道",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "This Analysis benchmarks segmentation methods across different datasets and presents Nextflow, a pipeline for standardized method selection for spatial transcriptomics",
+      "primary_summary_zh": "该分析对不同数据集的分割方法进行了基准测试，并提出了 Nextflow，这是一个用于空间转录组学标准化方法选择的管道"
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}
