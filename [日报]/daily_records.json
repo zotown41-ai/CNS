@@ -2,10 +2,10 @@
   "schema_version": "1.0",
   "task": "paper-overview-extractor-rss",
   "status": "partial_success",
-  "generated_at": "2026-10-24T20:00:21.367617+00:00",
+  "generated_at": "2026-10-25T20:01:50.775301+00:00",
   "date_range": {
-    "start": "2026-10-24",
-    "end": "2026-10-24"
+    "start": "2026-10-25",
+    "end": "2026-10-25"
   },
   "inputs": {
     "journals_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\目标期刊.txt",
@@ -32,10 +32,10 @@
   },
   "summary": {
     "journal_count": 10,
-    "paper_count": 0,
+    "paper_count": 1,
     "pubmed_enriched_count": 0,
-    "llm_enhanced_count": 0,
-    "llm_google_fallback_count": 0
+    "llm_enhanced_count": 1,
+    "llm_google_fallback_count": 1
   },
   "journals": [
     {
@@ -57,11 +57,82 @@
         }
       ],
       "warnings": [
-        "Filtered non-paper items by papers-only rule: 52",
-        "成功访问 feed，但在指定时间范围内未筛到论文。"
+        "Filtered non-paper items by papers-only rule: 51"
       ],
-      "paper_count": 0,
-      "papers": []
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2",
+          "link": "https://www.nature.com/articles/s41586-026-11328-3",
+          "published_at": "2026-10-25T08:00:00+08:00",
+          "published_date": "2026-10-25",
+          "summary": "ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2",
+          "authors": [
+            "Lara McGrath",
+            "Gozde Kar",
+            "Laura Bonanno",
+            "Florian Guisier",
+            "Amelia Insa",
+            "Moishe Liberman",
+            "Olivier Bylicki",
+            "Lorenzo Livi",
+            "Thomas Egenod",
+            "Romain Corre",
+            "Dong-Wan Kim",
+            "Maria Rosario Garcia Campelo",
+            "Mariano Provencio Pulla",
+            "Byoung Yong Shim",
+            "Giulio Metro",
+            "Jaafar Bennouna",
+            "Agata A. Bielska",
+            "Alula R. Yohannes",
+            "Joanna Shaju",
+            "Yun He",
+            "Adam Dowson",
+            "Italia Grenga",
+            "Jonathan Spicer",
+            "Patrick M. Forde",
+            "Tina Cascone"
+          ],
+          "doi": "10.1038/s41586-026-11328-3",
+          "journal": "Nature",
+          "source_feed": "https://www.nature.com/nature.rss",
+          "entry_id": "doi:10.1038/s41586-026-11328-3",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果",
+          "llm_title_bilingual": "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果 / ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2",
+          "llm_research_question_zh": "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果",
+          "llm_highlights_zh": [
+            "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果"
+          ],
+          "llm_rss_summary_zh": "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "fallback_google",
+          "llm_warning": "Relay failed; used Google Translate fallback.",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2",
+          "primary_summary_zh": "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果"
+        }
+      ]
     },
     {
       "journal": "Science",
@@ -300,9 +371,79 @@
       "papers": []
     }
   ],
-  "all_papers": [],
-  "warnings": [
-    "本次运行未在指定日期范围内抓到任何论文。"
+  "all_papers": [
+    {
+      "title": "ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2",
+      "link": "https://www.nature.com/articles/s41586-026-11328-3",
+      "published_at": "2026-10-25T08:00:00+08:00",
+      "published_date": "2026-10-25",
+      "summary": "ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2",
+      "authors": [
+        "Lara McGrath",
+        "Gozde Kar",
+        "Laura Bonanno",
+        "Florian Guisier",
+        "Amelia Insa",
+        "Moishe Liberman",
+        "Olivier Bylicki",
+        "Lorenzo Livi",
+        "Thomas Egenod",
+        "Romain Corre",
+        "Dong-Wan Kim",
+        "Maria Rosario Garcia Campelo",
+        "Mariano Provencio Pulla",
+        "Byoung Yong Shim",
+        "Giulio Metro",
+        "Jaafar Bennouna",
+        "Agata A. Bielska",
+        "Alula R. Yohannes",
+        "Joanna Shaju",
+        "Yun He",
+        "Adam Dowson",
+        "Italia Grenga",
+        "Jonathan Spicer",
+        "Patrick M. Forde",
+        "Tina Cascone"
+      ],
+      "doi": "10.1038/s41586-026-11328-3",
+      "journal": "Nature",
+      "source_feed": "https://www.nature.com/nature.rss",
+      "entry_id": "doi:10.1038/s41586-026-11328-3",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果",
+      "llm_title_bilingual": "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果 / ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2",
+      "llm_research_question_zh": "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果",
+      "llm_highlights_zh": [
+        "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果"
+      ],
+      "llm_rss_summary_zh": "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "fallback_google",
+      "llm_warning": "Relay failed; used Google Translate fallback.",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "zh",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2",
+      "primary_summary_zh": "NeoCOAST-2 的 ctDNA 清除率和可切除肺癌的结果"
+    }
   ],
+  "warnings": [],
   "errors": []
 }

@@ -1,477 +1,448 @@
 ﻿# 文献追踪报告
-- 周期：2026-10-12 ~ 2026-10-18
+- 周期：2026-10-19 ~ 2026-10-25
 - 期刊范围：Nature, Science, Cell, Cell metabolism, immunity, Nature Immunology, Science Immunology, Bioinformatics, Nature Protocols
 - 关键词：免疫代谢 / 代谢表观调控 / 单细胞算法 / 单细胞图谱 / 流感 / HSV / H1N1 / 肺损伤 / 肺组织修复 / 皮肤免疫
 
 ## 本周总览
 ### Top 1
-- 中文标题：癌症免疫治疗期间远处淋巴结补偿切除的肿瘤引流淋巴结
-- 英文原题：[Distant lymph nodes compensate for resected tumor-draining lymph nodes during cancer immunotherapy.](https://doi.org/10.1016/j.immuni.2026.09.009)
-- 期刊 / 日期：Immunity / 2026-10-13
-- 核心发现：围绕“癌症免疫治疗期间远处淋巴结补偿切除的肿瘤引流淋巴结”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+- 中文标题：生活方式诱导的调节性 T 细胞脆弱性引发免疫检查点阻断后的不良事件
+- 英文原题：[Lifestyle-induced regulatory T cell fragility primes adverse events after immune checkpoint blockade.](https://doi.org/10.1016/j.cell.2026.09.055)
+- 期刊 / 日期：Cell / 2026-10-22
+- 核心发现：围绕“生活方式诱导的调节性 T 细胞脆弱性引发免疫检查点阻断后的不良事件”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
 
 ### Top 2
-- 中文标题：区室特异性 PPARδ 活性控制癌症免疫细胞竞争的结果和免疫治疗效果
-- 英文原题：[Compartment-specific PPARδ activity controls the outcome of cancer-immune cell competition and immunotherapy efficacy.](https://doi.org/10.1038/s41590-026-02685-2)
-- 期刊 / 日期：Nature immunology / 2026-10-14
-- 核心发现：围绕“区室特异性 PPARδ 活性控制癌症免疫细胞竞争的结果和免疫治疗效果”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+- 中文标题：穿孔素触发铁诱导的线粒体损伤，驱动铁死亡和抗肿瘤免疫
+- 英文原题：[Perforin triggers iron-induced mitochondrial damage to drive ferroptosis and anti-tumor immunity.](https://doi.org/10.1016/j.cell.2026.09.062)
+- 期刊 / 日期：Cell / 2026-10-23
+- 核心发现：围绕“穿孔素触发铁诱导的线粒体损伤，驱动铁死亡和抗肿瘤免疫”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
 
 ### Top 3
-- 中文标题：线粒体靶向四恶烷引发脂质过氧化以驱动铁死亡和肿瘤抑制
-- 英文原题：[Mitochondria-targeted tetraoxanes initiate lipid peroxidation to drive ferroptosis and tumor suppression.](https://doi.org/10.1016/j.cell.2026.09.040)
-- 期刊 / 日期：Cell / 2026-10-15
-- 核心发现：围绕“线粒体靶向四恶烷引发脂质过氧化以驱动铁死亡和肿瘤抑制”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+- 中文标题：细胞状态特异性代谢网络控制小细胞肺癌的铁死亡与细胞凋亡
+- 英文原题：[Cell-state-specific metabolic networks govern ferroptosis versus apoptosis in small cell lung cancer.](https://doi.org/10.1016/j.cell.2026.09.045)
+- 期刊 / 日期：Cell / 2026-10-23
+- 核心发现：围绕“细胞状态特异性代谢网络控制小细胞肺癌的铁死亡与细胞凋亡”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
 
 ### Top 4
-- 中文标题：CRISPR 筛选确定了挽救癌症中与年龄相关的 T 细胞功能障碍的靶点
-- 英文原题：[CRISPR screens identify targets to rescue age-related T cell dysfunction in cancer.](https://doi.org/10.1016/j.cell.2026.07.016)
-- 期刊 / 日期：Cell / 2026-10-15
-- 核心发现：围绕“CRISPR 筛选确定了挽救癌症中与年龄相关的 T 细胞功能障碍的靶点”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+- 中文标题：内含子保留调节 STAT2 功能并与肺癌免疫治疗反应相关
+- 英文原题：[Intron retention regulates STAT2 function and associates with immunotherapy response in lung cancer.](https://doi.org/10.1126/science.aea7156)
+- 期刊 / 日期：Science (New York, N.Y.) / 2026-10-22
+- 核心发现：围绕“内含子保留调节 STAT2 功能并与肺癌免疫治疗反应相关”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
 
 ### Top 5
-- 中文标题：癌症调节 p53 新抗原的加工和呈递以逃避 T 细胞检测
-- 英文原题：[Cancers modulate processing and presentation of p53 neoantigens to evade T cell detection.](https://doi.org/10.1016/j.immuni.2026.08.011)
-- 期刊 / 日期：Immunity / 2026-10-13
-- 核心发现：研究识别了支撑“癌症调节 p53 新抗原的加工和呈递以逃避 T 细胞检测”的关键结构基础，并据此解释功能差异的来源。
+- 中文标题：丝氨酸蛋白酶抑制剂 A3 是一种可溶性 SIRPα 配体，可抑制炎症和抗肿瘤免疫
+- 英文原题：[Serine protease inhibitor A3 is a soluble SIRPα ligand that suppresses inflammation and antitumor immunity.](https://doi.org/10.1038/s41590-026-02682-5)
+- 期刊 / 日期：Nature immunology / 2026-10-22
+- 核心发现：围绕“丝氨酸蛋白酶抑制剂 A3 是一种可溶性 SIRPα 配体，可抑制炎症和抗肿瘤免疫”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
 
 ### Top 6
-- 中文标题：诱导调节性 B 细胞稳定表达白细胞介素 10，通过靶向骨髓细胞逆转中枢神经系统自身免疫
-- 英文原题：[Induced regulatory B cells stably expressing interleukin-10 reverse central nervous system autoimmunity by targeting myeloid cells.](https://doi.org/10.1016/j.immuni.2026.09.006)
-- 期刊 / 日期：Immunity / 2026-10-13
-- 核心发现：研究确认“诱导调节性 B 细胞稳定表达白细胞介素 10，通过靶向骨髓细胞逆转中枢神经系统自身免疫”所涉及的分子或细胞过程是驱动相关表型变化的重要环节。
+- 中文标题：人类中性粒细胞的单细胞图谱揭示了中性粒细胞在健康和疾病中的异质性
+- 英文原题：[A single-cell atlas of human neutrophils reveals neutrophil heterogeneity across health and disease.](https://doi.org/10.1038/s41590-026-02671-8)
+- 期刊 / 日期：Nature immunology / 2026-10-21
+- 核心发现：围绕“人类中性粒细胞的单细胞图谱揭示了中性粒细胞在健康和疾病中的异质性”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
 
 ### Top 7
-- 中文标题：第 2 组先天淋巴细胞激活髓磷脂反应性 T 细胞以增强神经炎症
-- 英文原题：[Group 2 innate lymphoid cells activate myelin-reactive T cells to augment neuroinflammation.](https://doi.org/10.1016/j.immuni.2026.07.011)
-- 期刊 / 日期：Immunity / 2026-10-13
-- 核心发现：围绕“第 2 组先天淋巴细胞激活髓磷脂反应性 T 细胞以增强神经炎症”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+- 中文标题：一种生物可利用的 GPX4 抑制剂，用于体内铁死亡诱导和肿瘤抑制
+- 英文原题：[A bioavailable GPX4 inhibitor for ferroptosis induction in vivo and tumor suppression.](https://doi.org/10.1016/j.cell.2026.09.053)
+- 期刊 / 日期：Cell / 2026-10-21
+- 核心发现：围绕“一种生物可利用的 GPX4 抑制剂，用于体内铁死亡诱导和肿瘤抑制”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
 
 ### Top 8
-- 中文标题：糖组重塑程序自身免疫中致病性 γδ T17 细胞反应
-- 英文原题：[Glycome remodeling programs pathogenic γδ T17 cell responses in autoimmunity.](https://doi.org/10.1126/sciimmunol.aec9553)
-- 期刊 / 日期：Science immunology / 2026-10-16
-- 核心发现：研究确认“糖组重塑程序自身免疫中致病性 γδ T17 细胞反应”所涉及的分子或细胞过程是驱动相关表型变化的重要环节。
+- 中文标题：整合互补数据集以构建微生物组-代谢组-疾病途径
+- 英文原题：[Integrating complementary datasets for constructing microbiome-metabolome-disease pathways.](https://doi.org/10.1093/bioinformatics/btag787)
+- 期刊 / 日期：Bioinformatics (Oxford, England) / 2026-10-20
+- 核心发现：研究识别了支撑“整合互补数据集以构建微生物组-代谢组-疾病途径”的关键结构基础，并据此解释功能差异的来源。
 
 ### Top 9
-- 中文标题：皮肤神经源性炎症的发生是一个需要树突状细胞聚集的多步骤过程
-- 英文原题：[The genesis of cutaneous neurogenic inflammation is a multi-step process requiring dendritic cell aggregation.](https://doi.org/10.1016/j.immuni.2026.07.010)
-- 期刊 / 日期：Immunity / 2026-10-13
-- 核心发现：研究确认“皮肤神经源性炎症的发生是一个需要树突状细胞聚集的多步骤过程”所涉及的分子或细胞过程是驱动相关表型变化的重要环节。
+- 中文标题：丙酸促进 MHC I 类抗原呈递和抗肿瘤免疫
+- 英文原题：[Propionate promotes MHC class I antigen presentation and anti-tumor immunity.](https://doi.org/10.1016/j.cmet.2026.09.018)
+- 期刊 / 日期：Cell metabolism / 2026-10-21
+- 核心发现：围绕“丙酸促进 MHC I 类抗原呈递和抗肿瘤免疫”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
 
 ### Top 10
-- 中文标题：雌激素对 STING 进行重编程可促进中性粒细胞胞外陷阱的形成以及对 ADC 治疗的性别偏见耐药性
-- 英文原题：[STING reprogramming by estrogen promotes neutrophil extracellular trap formation and sex-biased resistance to ADC therapy.](https://doi.org/10.1016/j.cell.2026.09.031)
-- 期刊 / 日期：Cell / 2026-10-15
-- 核心发现：围绕“雌激素对 STING 进行重编程可促进中性粒细胞胞外陷阱的形成以及对 ADC 治疗的性别偏见耐药性”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+- 中文标题：产生 IL-2 的 TFH 细胞维持肠道中 Treg 细胞稳态和免疫耐受
+- 英文原题：[IL-2-producing TFH cells sustain Treg cell homeostasis and immune tolerance in the gut.](https://doi.org/10.1038/s41590-026-02690-5)
+- 期刊 / 日期：Nature immunology / 2026-10-21
+- 核心发现：围绕“产生 IL-2 的 TFH 细胞维持肠道中 Treg 细胞稳态和免疫耐受”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
 
 ## 重点论文详述
 ### Nature
-#### 第 1 篇
-- **中文标题：** 微外显子调控密码揭示了与自闭症相关的遗传变异
-- **英文原题：** A microexon regulatory code reveals autism-linked genetic variation.
-- **日期：** 2026-10-14
-- **作者：** Guillermo E Parada；Hannes Bretschneider；Jack Daiyang Li；Jacob L Fine；Steven J Dupas；Jonathan D Ellis；Ulrich Braunschweig；Sophie Bonnal
-- **文章类型：** Journal Article
-- **研究问题：** 该研究关注“微外显子调控密码揭示了与自闭症相关的遗传变异”所代表的方法学问题，核心在于验证新框架能否更准确地预测、表征或操作目标生物学过程。
-- **发现 / Highlight：**
-1. 该研究关注“微外显子调控密码揭示了与自闭症相关的遗传变异”所代表的方法学问题，核心在于验证新框架能否更准确地预测、表征或操作目标生物学过程。
-2. 研究建立或验证了围绕“微外显子调控密码揭示了与自闭症相关的遗传变异”的方法学框架，使目标现象能够被更稳定地预测或量化。
-3. 该研究为神经系统疾病相关机制阐释及后续干预策略提供了新的切入点。
-- **摘要：**
-神经元微外显子是一类高度保守的选择性剪接事件，富含在神经系统生物学中具有关键功能的基因1,2。自闭症个体大脑中的微外显子剪接经常被破坏，微外显子缺陷的小鼠表现出类似自闭症的表型1,3,4。然而，微外显子的完整情况尚不清楚，并且遗传变异对这些外显子的影响尚未得到系统研究。在这里，通过广泛的转录组分析，我们检测到数百个新的微外显子，包括许多具有神经元亚型特异性剪接模式的微外显子，以及其他激活无义介导的mRNA衰变的微外显子。使用机器学习，我们定义了预测神经元剪接的微外显子的序列代码，并用它来识别扩展的微外显子库周围的关键调控元件
-该代码进一步揭示了预计会改变自闭症个体微外显子剪接的基因组变异，其中罕见变异具有最强的估计影响。这些变异主要在特发性个体中检测到，并且与自闭症状态相关。它们还集中于突触和其他与自闭症相关的基因，以及以前与自闭症无关的基因。我们的结果共同定义了微外显子的扩展库，描述了它们的调控代码，并查明了预计影响其剪接的变异，这对神经元生物学和大脑疾病的核心功能的破坏具有影响
-- **链接：** https://doi.org/10.1038/s41586-026-11119-w
+- 本周期未检索到可用论文。
 
 ### Science
 #### 第 1 篇
-- **中文标题：** 一对壳聚糖受体赋予广谱真菌抗性
-- **英文原题：** A pair of chitosan receptors confer broad-spectrum fungal resistance.
-- **日期：** 2026-10-15
-- **作者：** Keyi Huang；Jingni Wu；Yu Cao；Yingying Cao；Zhongji Pu；Aoshen Xu；Wenzhao Wang；Xue Zhou
+- **中文标题：** 内含子保留调节 STAT2 功能并与肺癌免疫治疗反应相关
+- **英文原题：** Intron retention regulates STAT2 function and associates with immunotherapy response in lung cancer.
+- **日期：** 2026-10-22
+- **作者：** Ryan P Englander；Mattia Brugiolo；Maëva Devoucoux；Te-Chia Wu；Mitch Kostich；Nathan K Leclair；Isha Walawalkar；Hyeon Gu Kang
 - **文章类型：** Journal Article
-- **研究问题：** 该研究围绕“一对壳聚糖受体赋予广谱真菌抗性”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
+- **研究问题：** 该研究聚焦于“内含子保留调节 STAT2 功能并与肺癌免疫治疗反应相关”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
 - **发现 / Highlight：**
-1. 该研究围绕“一对壳聚糖受体赋予广谱真菌抗性”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
-2. 研究识别了支撑“一对壳聚糖受体赋予广谱真菌抗性”的关键结构基础，并据此解释功能差异的来源。
-3. 该研究为“一对壳聚糖受体赋予广谱真菌抗性”相关机制的外推验证与后续应用研究提供了明确方向。
+1. 该研究聚焦于“内含子保留调节 STAT2 功能并与肺癌免疫治疗反应相关”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
+2. 围绕“内含子保留调节 STAT2 功能并与肺癌免疫治疗反应相关”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+3. 该研究提示“内含子保留调节 STAT2 功能并与肺癌免疫治疗反应相关”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
 - **摘要：**
-壳聚糖是一种主要的真菌细胞壁成分，可激活植物免疫，但其潜在的感知机制仍不清楚。在这项研究中，我们确定了OsFID1（一种质外体定位的DUF26结构域蛋白）作为壳聚糖触发免疫所必需的壳聚糖结合受体。 OsFID1与OsFID2（一种质膜定位的DUF26受体样激酶）形成受体复合物，介导壳聚糖传感和免疫激活，需要OsFID2磷酸化才能发挥功能。 OsFID1-OsFID2复合物赋予对真菌病原体的广谱抗性。 OsFID1同源物在陆地植物中保守，在单子叶植物和双子叶植物中均显示出壳聚糖结合活性。 OsFID1在小麦和玉米中的异位表达增强了真菌抗性，且没有生长损失
-这些发现揭示了直接壳聚糖传感的保守受体复合物，增进了我们对植物-真菌相互作用的理解，并为工程持久抗真菌作物提供了潜在的策略
-- **链接：** https://doi.org/10.1126/science.ady7647
+使用检查点抑制剂的免疫疗法彻底改变了癌症治疗，并为治疗包括肺癌在内的各种疾病带来了巨大的治疗进展。然而，不同患者结果的分子决定因素仍不清楚。使用长读长RNA测序，我们绘制了人类原发性肺腺癌中替代RNA剪接的图谱。我们鉴定了超过149,000个全长信使RNA (mRNA) 同工型，其中一半以上未注释，其中许多存在于免疫相关基因中，特别是在I型干扰素反应途径中。我们对STAT2基因中保留的内含子进行了功能性表征，这些内含子产生改变的蛋白质亚型，调节免疫信号传导和干扰素反应，并与抗程序性死亡配体1 (PD-L1) 免疫治疗后患者的生存相关
+这些发现将选择性剪接定位为肿瘤免疫反应的调节因子，并揭示STAT2中的内含子保留作为与PD-L1检查点抑制剂反应相关的干扰素调节轴
+- **链接：** https://doi.org/10.1126/science.aea7156
+
+#### 第 2 篇
+- **中文标题：** 鸟类大脑的超快速决策
+- **英文原题：** Ultrarapid decision-making in an avian brain.
+- **日期：** 2026-10-22
+- **作者：** Philipp Schmidbauer；Andreas Nieder
+- **文章类型：** Journal Article
+- **研究问题：** 该研究围绕“鸟类大脑的超快速决策”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+- **发现 / Highlight：**
+1. 该研究围绕“鸟类大脑的超快速决策”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+2. 研究确认“鸟类大脑的超快速决策”所涉及的分子或细胞过程是驱动相关表型变化的重要环节。
+3. 该研究为神经系统疾病相关机制阐释及后续干预策略提供了新的切入点。
+- **摘要：**
+哺乳动物的知觉决策已得到充分研究，但其在其他脊椎动物中的运作仍不清楚。我们证明，食腐乌鸦 (Corvus corone) 在经典的视觉运动辨别任务中以前所未有的速度做出深思熟虑的决定，平均在大约235毫秒内报告选择，这大约是在猴子或人类中观察到的速度的两倍，并且不牺牲准确性。来自大脑皮层端脑的记录显示，方向选择性神经元早在刺激开始后约70毫秒、反应前约170毫秒就对即将到来的选择进行编码，随着感觉证据的增加，活动逐渐增加，并在反应开始时收敛。这些发现凸显了鸟类决策回路的非凡效率，这可能是由快速视觉运动控制的进化压力决定的
+- **链接：** https://doi.org/10.1126/science.aed6459
+
+#### 第 3 篇
+- **中文标题：** BAK 和 BAX 形成多蛋白复合物，驱动 mtDNA 流出和不依赖 caspase 的细胞死亡
+- **英文原题：** BAK and BAX form a multiprotein complex to drive mtDNA efflux and caspase-independent cell death.
+- **日期：** 2026-10-22
+- **作者：** Shaoyuan Yang；Hyungjin Kim；Guanghong Liao；Na Ta；Ho-Chou Tu；Shriram Ramani；Chih-Yu Chen；Zih-Yu Li
+- **文章类型：** Journal Article
+- **研究问题：** 该研究围绕“BAK 和 BAX 形成多蛋白复合物，驱动 mtDNA 流出和不依赖 caspase 的细胞死亡”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+- **发现 / Highlight：**
+1. 该研究围绕“BAK 和 BAX 形成多蛋白复合物，驱动 mtDNA 流出和不依赖 caspase 的细胞死亡”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+2. 研究确认“BAK 和 BAX 形成多蛋白复合物，驱动 mtDNA 流出和不依赖 caspase 的细胞死亡”所涉及的分子或细胞过程是驱动相关表型变化的重要环节。
+3. 该研究为“BAK 和 BAX 形成多蛋白复合物，驱动 mtDNA 流出和不依赖 caspase 的细胞死亡”相关机制的外推验证与后续应用研究提供了明确方向。
+- **摘要：**
+凋亡调节因子BAX和BAK一旦被激活，就会形成同源寡聚物，触发线粒体外膜透化 (MOMP)，从而激活凋亡体和半胱天冬酶。在没有凋亡体激活的情况下激活BAX-BAK会触发线粒体DNA (mtDNA) 的持续流出和不依赖caspase的细胞死亡。然而，mtDNA流出的分子基础仍不清楚。我们纯化了一种大分子复合物，其中包含BAK、BAX、仅激活剂BH3分子、电压依赖性阴离子通道1和2（VDAC1和VDAC2）以及从线粒体释放mtDNA的抑制素。 BAX-BAK激活导致VDAC关闭、线粒体钙内流和mtDNA外流。 VDAC1、VDAC2或抑制素的缺失可阻止BAX-BAK激活诱导的mtDNA流出和不依赖caspase的细胞死亡，而不影响MOMP或线粒体内膜疝出
+这些发现支持不同的BAX-BAK复合物对细胞色素c和mtDNA流出的差异调节
+- **链接：** https://doi.org/10.1126/science.aea2181
 
 ### Cell
 #### 第 1 篇
-- **中文标题：** 线粒体靶向四恶烷引发脂质过氧化以驱动铁死亡和肿瘤抑制
-- **英文原题：** Mitochondria-targeted tetraoxanes initiate lipid peroxidation to drive ferroptosis and tumor suppression.
-- **日期：** 2026-10-15
-- **作者：** Zijian Pan；Ming-Kwan Wong；Yang Lu；Jingxuan Mao；Fengxiang Wang；Xin Gu；Kaiyin Huang；Taotao Shi
+- **中文标题：** 生活方式诱导的调节性 T 细胞脆弱性引发免疫检查点阻断后的不良事件
+- **英文原题：** Lifestyle-induced regulatory T cell fragility primes adverse events after immune checkpoint blockade.
+- **日期：** 2026-10-22
+- **作者：** Dipyaman Patra；Katelyn Wolfgang；Chenxian Ye；Lora Rigatti；Kelsey Ertwine；Kristin M Morder；Jessica Jana；Ishita Baral
 - **文章类型：** Journal Article
-- **关键词：** cancer and metastasis / ferroptosis induction / iron metabolism / metabolic initiator of lipid peroxidation / mito-ferroptosis / mitochondria / tetraoxanes
-- **研究问题：** 该研究聚焦于“线粒体靶向四恶烷引发脂质过氧化以驱动铁死亡和肿瘤抑制”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
+- **关键词：** Akkermansia muciniphila / CD8(+) Trms / IFN-γ signaling / Treg fragility / Tregs / immune checkpoint blockade / immune-related adverse events / microbiome
+- **研究问题：** 该研究聚焦于“生活方式诱导的调节性 T 细胞脆弱性引发免疫检查点阻断后的不良事件”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
 - **发现 / Highlight：**
-1. 该研究聚焦于“线粒体靶向四恶烷引发脂质过氧化以驱动铁死亡和肿瘤抑制”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
-2. 围绕“线粒体靶向四恶烷引发脂质过氧化以驱动铁死亡和肿瘤抑制”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
-3. 该研究提示“线粒体靶向四恶烷引发脂质过氧化以驱动铁死亡和肿瘤抑制”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
+1. 该研究聚焦于“生活方式诱导的调节性 T 细胞脆弱性引发免疫检查点阻断后的不良事件”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
+2. 围绕“生活方式诱导的调节性 T 细胞脆弱性引发免疫检查点阻断后的不良事件”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+3. 该研究提示“生活方式诱导的调节性 T 细胞脆弱性引发免疫检查点阻断后的不良事件”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
 - **摘要：**
-铁死亡被认为是多种癌症的脆弱性，但在体内有效诱导铁死亡的方法是有限的。绕过针对抗铁死亡谷胱甘肽过氧化物酶4 (GPX4) 和铁死亡抑制蛋白1 (FSP1) 蛋白的传统策略，我们设计了脂质过氧化代谢引发剂 (MILPO)，并开发了化合物WMK-1/2，其中含有四恶烷自由基生成基团和线粒体靶向基团，作为从头铁死亡诱导剂。 WMK-1主要定位于线粒体，诱导局部脂质过氧化，并损害氧化磷酸化
-WMK-1诱导“线粒体铁死亡”子通路，该通路跳过GPX4抑制作为先决条件，可以通过亲脂性自由基捕获抗氧化剂来拯救，但对酰基辅酶A合成酶长链家族成员4 (ACSL4) 扰动和长链多不饱和脂肪酸 (PUFA) 补充极不敏感，并逃避视黄醇介导的保护。相反，WMK-1诱导的细胞死亡需要不稳定的Fe2+，并且可以被 ɑ-硫辛酸（一种内源性线粒体驻留抗氧化剂）选择性抑制。 WMK-1/2具有生物利用度，通过在多种癌症模型中引发铁死亡并增强免疫检查点阻断剂的抗肿瘤作用，在肿瘤抑制方面表现出显着的功效。我们的工作为潜在的癌症治疗提供了一种不依赖蛋白质靶向的代谢性铁死亡诱导策略
-- **链接：** https://doi.org/10.1016/j.cell.2026.09.040
+免疫检查点阻断已经改变了癌症治疗，但免疫相关不良事件 (irAE) 仍然是一个主要的、有时甚至是致命的限制，而且缺乏可靠的临床前模型阻碍了对机制的了解。我们提出了生活方式诱导的irAE易感性 (LISA) 模型，其中饮食驱动的代谢和微生物改变再现了人类对抗PD-1毒性的易感性。 LISA概括了具有免疫浸润和细胞因子产生的多器官irAE，其严重程度取决于性别、年龄、治疗方式和免疫治疗反应。从机制上讲，以Akkermansia muciniphila富集为标志的生态失调伴随着异常的免疫激活，导致调节性T细胞 (Treg) 脆弱性和CD8+ 细胞毒性效应细胞群，这两种现象均在结肠炎患者中观察到
+饮食逆转、补充代谢物以及阻断Treg中干扰素 (IFN)-γ 的产生或信号传导可恢复Treg的稳定性并解决炎症。人到小鼠粪便微生物组转移与受体饮食相互作用以形成易感性。总之，这些发现确定了irAE的饮食、微生物和免疫驱动因素，可用于改善免疫治疗反应，同时最大限度地减少毒性
+- **链接：** https://doi.org/10.1016/j.cell.2026.09.055
 
 #### 第 2 篇
-- **中文标题：** CRISPR 筛选确定了挽救癌症中与年龄相关的 T 细胞功能障碍的靶点
-- **英文原题：** CRISPR screens identify targets to rescue age-related T cell dysfunction in cancer.
-- **日期：** 2026-10-15
-- **作者：** Alex C Y Chen；Keely Y Ji；Cansu Yerinde；Nelson H Knudsen；Kevin Bi；Shumeng Hao；Vasyl Zhabotynsky；Daniela Martinez
+- **中文标题：** 穿孔素触发铁诱导的线粒体损伤，驱动铁死亡和抗肿瘤免疫
+- **英文原题：** Perforin triggers iron-induced mitochondrial damage to drive ferroptosis and anti-tumor immunity.
+- **日期：** 2026-10-23
+- **作者：** Hannah N Bell；Kavya Nair；Kole Tison；Peng Liao；Hongwei Lei；Marwa O El-Derany；Ayijiang Yisimayi；Haiwei Zhang
 - **文章类型：** Journal Article
-- **关键词：** T cells / antitumor immunity / cancer immunology and immunotherapy / immune aging / in vivo single-cell CRISPR screen
-- **研究问题：** 该研究聚焦于“CRISPR 筛选确定了挽救癌症中与年龄相关的 T 细胞功能障碍的靶点”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
+- **关键词：** NK cell / T cell / ferroptosis / granzyme / immune checkpoint blockade / iron / mitochondria / perforin
+- **研究问题：** 该研究围绕“穿孔素触发铁诱导的线粒体损伤，驱动铁死亡和抗肿瘤免疫”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
 - **发现 / Highlight：**
-1. 该研究聚焦于“CRISPR 筛选确定了挽救癌症中与年龄相关的 T 细胞功能障碍的靶点”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
-2. 围绕“CRISPR 筛选确定了挽救癌症中与年龄相关的 T 细胞功能障碍的靶点”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
-3. 该研究提示“CRISPR 筛选确定了挽救癌症中与年龄相关的 T 细胞功能障碍的靶点”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
+1. 该研究围绕“穿孔素触发铁诱导的线粒体损伤，驱动铁死亡和抗肿瘤免疫”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+2. 围绕“穿孔素触发铁诱导的线粒体损伤，驱动铁死亡和抗肿瘤免疫”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+3. 该研究提示“穿孔素触发铁诱导的线粒体损伤，驱动铁死亡和抗肿瘤免疫”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
 - **摘要：**
-免疫衰老会损害T细胞介导的肿瘤控制以及癌症免疫治疗的结果。老年肿瘤中T细胞功能障碍的最重要驱动因素仍然未知。我们进行了单细胞CRISPR筛选，以确定Dusp5和Zfp219作为老化肿瘤内CD8+ T细胞持久性和效应分化的关键调节因子。 Dusp5的缺失会增加细胞外信号调节激酶 (ERK) 磷酸化并全面增强T细胞增殖。相反，Zfp219缺失会诱导表观遗传重编程并增加细胞毒性分子的表达，从而增强衰老过程中的抗肿瘤免疫力。老年癌症患者瘤内CD8+ T细胞中人类直系同源物ZNF219的水平较高，这与免疫治疗后较差的生存率相关
-Zfp219消融与免疫检查点抑制剂协同作用，可扩增效应样CD8+ T细胞，从而清除老年小鼠的肿瘤。我们的研究结果强调Dusp5和Zfp219是年龄相关T细胞功能障碍的关键驱动因素，可用于恢复老年癌症患者的抗肿瘤免疫力
-- **链接：** https://doi.org/10.1016/j.cell.2026.07.016
+细胞毒性CD8+ T细胞和自然杀伤细胞是抗肿瘤免疫的关键效应细胞。细胞毒性淋巴细胞通过释放穿孔素 (Prf1) 消除肿瘤细胞，穿孔素是一种孔形成蛋白，可使颗粒酶 (Gzms) 进入靶细胞并触发半胱天冬酶依赖性和非半胱天冬酶依赖性细胞死亡。在这里，我们发现了一个以前未被识别的、与Gzm无关的Prf1函数。我们发现Prf1直接诱导肿瘤铁死亡，这是一种铁和脂质依赖性细胞死亡形式。从机制上讲，Prf1介导的孔形成驱动转铁蛋白受体的内吞作用，从而增加细胞铁的吸收。 Prf1促进内体-线粒体接触的形成，从而导致线粒体铁积累、线粒体功能障碍和肿瘤细胞铁死亡。膳食铁补充剂以Prf1依赖性方式抑制小鼠肿瘤模型中的肿瘤进展
+较高的Prf1表达与癌症患者的生存率提高和对免疫检查点阻断的反应增强相关。这些发现将Prf1的Gzm独立功能定义为通过铁死亡直接执行癌细胞死亡
+- **链接：** https://doi.org/10.1016/j.cell.2026.09.062
 
 #### 第 3 篇
-- **中文标题：** 雌激素对 STING 进行重编程可促进中性粒细胞胞外陷阱的形成以及对 ADC 治疗的性别偏见耐药性
-- **英文原题：** STING reprogramming by estrogen promotes neutrophil extracellular trap formation and sex-biased resistance to ADC therapy.
-- **日期：** 2026-10-15
-- **作者：** Jingrui Yan；Tianxing Zhou；Shangheng Shi；Guohua Mao；Jingbo Xu；Yu Zhang；Yaqi Zhang；Huizhi Sun
+- **中文标题：** 细胞状态特异性代谢网络控制小细胞肺癌的铁死亡与细胞凋亡
+- **英文原题：** Cell-state-specific metabolic networks govern ferroptosis versus apoptosis in small cell lung cancer.
+- **日期：** 2026-10-23
+- **作者：** Jun W Kim；Christina M Bebber；Yuqin Dai；Sarah Bopp；Anna Edenhofer；Albert M Li；Thomas Rösner；Lena Berning
 - **文章类型：** Journal Article
-- **关键词：** CLDN18.2-targeted ADC / PDAC / STING reprogramming / neutrophil extracellular traps / sex dimorphism
-- **研究问题：** 该研究聚焦于“雌激素对 STING 进行重编程可促进中性粒细胞胞外陷阱的形成以及对 ADC 治疗的性别偏见耐药性”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
+- **关键词：** ASCL1 / GCH1 / SCLC / apoptosis / ferroptosis / heterogeneity / lung cancer / metabolism / neuroendocrine / plasticity
+- **研究问题：** 该研究聚焦于“细胞状态特异性代谢网络控制小细胞肺癌的铁死亡与细胞凋亡”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
 - **发现 / Highlight：**
-1. 该研究聚焦于“雌激素对 STING 进行重编程可促进中性粒细胞胞外陷阱的形成以及对 ADC 治疗的性别偏见耐药性”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
-2. 围绕“雌激素对 STING 进行重编程可促进中性粒细胞胞外陷阱的形成以及对 ADC 治疗的性别偏见耐药性”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
-3. 该研究提示“雌激素对 STING 进行重编程可促进中性粒细胞胞外陷阱的形成以及对 ADC 治疗的性别偏见耐药性”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
+1. 该研究聚焦于“细胞状态特异性代谢网络控制小细胞肺癌的铁死亡与细胞凋亡”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
+2. 围绕“细胞状态特异性代谢网络控制小细胞肺癌的铁死亡与细胞凋亡”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+3. 该研究提示“细胞状态特异性代谢网络控制小细胞肺癌的铁死亡与细胞凋亡”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
 - **摘要：**
-癌症治疗反应中的性别差异仍然知之甚少。通过对55个CLDN18.2+ 胰腺癌患者来源的异种移植物进行“类似II期的临床前试验”，我们发现尽管抗原表达相当，但对CLDN18.2靶向抗体药物偶联物 (ADC) 疗法存在明显的女性偏见耐药性。从机制上讲，雌激素通过GPER1发出信号上调TRAF6，将肿瘤固有的STING信号从IRF3介导的干扰素产生重定向到核因子 κB (NF-κB) 激活。这驱动CXCL1分泌、中性粒细胞募集和中性粒细胞胞外陷阱 (NET) 形成。 NET形成带电的细胞外网络，限制抗体接触肿瘤细胞表面抗原（我们称之为功能性抗原屏蔽的机制），减少ADC细胞毒性，与抗原表达无关
-NET负担还与三个临床队列中曲妥珠单抗、西妥昔单抗和enfortumab vedotin的较差反应相关。使用西维来司他破坏药理NET可恢复雌性小鼠中ADC的功效。这些发现揭示了雌激素驱动的耐药机制，对基于抗体的癌症治疗具有广泛的影响
-- **链接：** https://doi.org/10.1016/j.cell.2026.09.031
+细胞异质性和可塑性是癌症的标志，有助于肿瘤生长和治疗抵抗。在这里，我们研究了小细胞肺癌（SCLC）的代谢异质性，这是一种侵袭性癌症类型，神经内分泌（NE）和非NE细胞状态之间具有相当大的可塑性。通过综合转录组学和代谢组学分析，我们确定了所有NE/非NE SCLC细胞状态对外源半胱氨酸/胱氨酸 (Cys) 的普遍依赖性。值得注意的是，ASCL1转录因子水平低的NE和非NE细胞在Cys耗尽后会发生铁死亡，而ASCL1高细胞会发生细胞凋亡，同时仍对铁死亡具有抵抗力。这种铁死亡抗性是由ASCL1直接转录激活GCH1驱动的，导致抗氧化剂BH4/BH2水平增加
+因此，Cys消耗和BH4/BH2合成抑制相结合可减少患者来源的异种移植物中的肿瘤生长。这些发现表明代谢状态影响SCLC的细胞死亡易感性，并为利用这些代谢差异的治疗策略提供了理论依据
+- **链接：** https://doi.org/10.1016/j.cell.2026.09.045
 
 ### Cell metabolism
 #### 第 1 篇
-- **中文标题：** 针对癌症 NAD 代谢的上下文相关框架
-- **英文原题：** A context-dependent framework for targeting NAD metabolism in cancer.
-- **日期：** 2026-10-15
-- **作者：** Leire Arrizabalaga；Laura Santambrogio；Guido Kroemer；Lorenzo Galluzzi；Aitziber Buqué
-- **文章类型：** Review
-- **关键词：** IDO1 / OXPHOS / clinical trials / immune checkpoint inhibitors / tumor microenvironment / tumor-infiltrating lymphocytes
-- **研究问题：** 该研究关注“针对癌症 NAD 代谢的上下文相关框架”所代表的方法学问题，核心在于验证新框架能否更准确地预测、表征或操作目标生物学过程。
+- **中文标题：** 丙酸促进 MHC I 类抗原呈递和抗肿瘤免疫
+- **英文原题：** Propionate promotes MHC class I antigen presentation and anti-tumor immunity.
+- **日期：** 2026-10-21
+- **作者：** Suyao Li；Dong Guo；Qingqing Yang；Yizhi Cao；Yu Dong；Xiaoming Jiang；Xinyao Tian；Dou Nie
+- **文章类型：** Journal Article
+- **关键词：** MHC class I / SCFA / STUB1 / immune response / immune therapy / propionate / tumor / ubiquitination
+- **研究问题：** 该研究聚焦于“丙酸促进 MHC I 类抗原呈递和抗肿瘤免疫”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
 - **发现 / Highlight：**
-1. 该研究关注“针对癌症 NAD 代谢的上下文相关框架”所代表的方法学问题，核心在于验证新框架能否更准确地预测、表征或操作目标生物学过程。
-2. 研究建立或验证了围绕“针对癌症 NAD 代谢的上下文相关框架”的方法学框架，使目标现象能够被更稳定地预测或量化。
-3. 该研究提示“针对癌症 NAD 代谢的上下文相关框架”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
+1. 该研究聚焦于“丙酸促进 MHC I 类抗原呈递和抗肿瘤免疫”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
+2. 围绕“丙酸促进 MHC I 类抗原呈递和抗肿瘤免疫”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+3. 该研究提示“丙酸促进 MHC I 类抗原呈递和抗肿瘤免疫”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
 - **摘要：**
-烟酰胺腺嘌呤二核苷酸 (NAD) 在细胞生物能学、氧化还原稳态和信号转导的交叉领域占据着特殊的地位。除了在ATP合成中的典型作用外，NAD还作为多聚（ADP-核糖）聚合酶 (PARP)、sirtuins和CD38等酶的专性辅助因子，从而调节DNA修复、表观遗传重塑和炎症信号传导。因此，NAD代谢有助于维持细胞稳态，防止致癌损伤。然而，恶性转化会带来巨大的生物合成和基因毒性应激，通常会驱动代谢适应，通过烟酰胺磷酸核糖转移酶 (NAMPT) 放大NAD的产生。这赋予癌细胞增强的增殖能力、应激耐受性和免疫逃避特征
-重要的是，恶性细胞对NAD持续可用性的依赖构成了治疗上可利用的弱点。因此，NAMPT抑制剂、PARP抑制剂和针对NAD消耗胞外酶的策略已显示出临床前疗效，并在特定情况下显示出临床疗效。在这里，我们批判性地回顾了癌症中NAD代谢的重新布线、相关的治疗机会以及其临床开发的障碍
-- **链接：** https://doi.org/10.1016/j.cmet.2026.09.015
+肿瘤抗原呈递缺陷会促进免疫逃避和对免疫检查点封锁的抵抗。在这里，我们确定短链脂肪酸丙酸酯是主要组织相容性复合物I类（MHC I类）抗原呈递的有效增强剂。丙酸盐可稳定肿瘤细胞上的MHC I类，促进CD8+ T细胞浸润和激活，并抑制肿瘤生长。从机制上讲，E3泛素 (Ub) 连接酶STUB1直接与人类白细胞抗原 (HLA)-A相互作用，介导K168/K170多泛素化和随后的降解。丙酸盐通过涉及K30和N34的氢键直接结合STUB1，这两个残基与MHC I类结合界面重叠
+这种相互作用阻断STUB1介导的MHC I类多聚泛素化，从而稳定MHC I类，增强T细胞受体 (TCR) 结合和T细胞激活，并抑制肿瘤生长。重要的是，丙酸或产生丙酸的益生菌Akkermansia muciniphila显着增强了抗PD-1功效。这些发现揭示了短链脂肪酸在调节肿瘤免疫方面的非代谢兼职功能，并为利用膳食丙酸或产生丙酸的益生菌来增强免疫检查点治疗提供了理论依据
+- **链接：** https://doi.org/10.1016/j.cmet.2026.09.018
 
 #### 第 2 篇
-- **中文标题：** NAD+ 反应性脂肪信号协调器官间防御肌肉萎缩
-- **英文原题：** An NAD+-responsive adipose signal coordinates inter-organ defense against muscle atrophy.
-- **日期：** 2026-10-14
-- **作者：** Na Liang；Jia He；Xiangji Guo；Jiaqi Yan；Xiaoqian Zhang；Xiaozhong Peng；Jun Li
+- **中文标题：** 间歇性禁食期间的体重减轻，而不仅仅是地中海饮食质量，与较低的炎症有关：一项随机对照试验
+- **英文原题：** Weight loss during intermittent fasting, not Mediterranean diet quality alone, is associated with lower inflammation: A randomized controlled trial.
+- **日期：** 2026-10-21
+- **作者：** Moritz V Warmbrunn；Valeria Tosti；Raaj Kishore Biswas；Beatrice Bertozzi；Maria Lastra Cagigas；Nicola Veronese；Francesco Spelta；Laura Piccio
 - **文章类型：** Journal Article
-- **关键词：** NAD(+) / adipokine / aging / inter-organ communication / muscle atrophy
-- **研究问题：** 该研究围绕“NAD+ 反应性脂肪信号协调器官间防御肌肉萎缩”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+- **关键词：** LDL-cholesterol / Mediterranean diet / alternate-day fasting / cardiovascular disease risk / diet quality / hsCRP / inflammation / intermittent fasting / metabolism / weight loss
+- **研究问题：** 该研究围绕“间歇性禁食期间的体重减轻，而不仅仅是地中海饮食质量，与较低的炎症有关：一项随机对照试验”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
 - **发现 / Highlight：**
-1. 该研究围绕“NAD+ 反应性脂肪信号协调器官间防御肌肉萎缩”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
-2. 研究确认“NAD+ 反应性脂肪信号协调器官间防御肌肉萎缩”所涉及的分子或细胞过程是驱动相关表型变化的重要环节。
-3. 该研究提示“NAD+ 反应性脂肪信号协调器官间防御肌肉萎缩”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
+1. 该研究围绕“间歇性禁食期间的体重减轻，而不仅仅是地中海饮食质量，与较低的炎症有关：一项随机对照试验”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+2. 围绕“间歇性禁食期间的体重减轻，而不仅仅是地中海饮食质量，与较低的炎症有关：一项随机对照试验”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+3. 该研究提示相关代谢或微生态环节可能成为疾病风险分层与干预优化的重要抓手。
 - **摘要：**
-骨骼肌质量的损失是导致虚弱和残疾的主要原因，但全身代谢信号如何保护肌肉完整性仍不清楚。我们确定Serpina3n（一种脂肪来源的脂肪因子）是补充烟酰胺腺嘌呤二核苷酸 (NAD+) 对抗肌肉萎缩的保护作用的关键介质。脂肪组织中NAD+ 的升高会激活信号转导器和转录激活子 (STAT)1依赖性的Serpina3n转录，导致其在衰老、废用和癌症恶病质模型中的全身释放和肌肉保护。在肌肉中，Serpina3n保持丙酮酸羧化酶蛋白水平，促进回补、氧化代谢和蛋白质合成
-这些发现定义了NAD+ 反应性脂肪到肌肉信号轴，将代谢状态与组织保存联系起来，定义了器官间通讯维持肌肉完整性的系统机制，并提出了对抗肌肉退化的潜在策略
-- **链接：** https://doi.org/10.1016/j.cmet.2026.09.016
+地中海饮食的抗炎作用是否反映饮食质量本身或伴随的体重减轻尚不清楚。在一项为期16周的随机对照喂养试验中，53名具有代谢危险因素的成年人（77% 为女性；平均年龄54.7岁）接受了完全提供的地中海饮食或习惯性西方饮食8周，然后在接下来的8周内增加了每周两次的禁食日。尽管有明确的饮食分离，但主要结果，即高敏C反应蛋白，在仅饮食阶段并未发生变化。开始禁食后，地中海饮食组的C反应蛋白相对于对照组有所下降，同时体重减轻幅度更大，胰岛素敏感性提高，血压降低；在仅饮食阶段就已经出现了血脂的改善
+多组学分析显示炎症信号传导平行减少，肠道微生物组组成基本稳定。因此，仅靠饮食质量并不能在8周内降低炎症；负能量平衡和禁食期间的体重减轻似乎是更强有力的驱动因素。本研究已在ClinicalTrials.gov上注册 (NCT02148458)
+- **链接：** https://doi.org/10.1016/j.cmet.2026.09.017
+
+#### 第 3 篇
+- **中文标题：** 对 Magkos 和 Silva 的回应：代谢不健康肥胖的饮食常量营养素含量和代谢功能
+- **英文原题：** Response to Magkos and Silva: Diet macronutrient content and metabolic function in metabolically unhealthy obesity.
+- **日期：** 2026-10-22
+- **作者：** Max C Petersen；Gordon I Smith；Samuel Klein
+- **文章类型：** Letter
+- **研究问题：** 该研究围绕“对 Magkos 和 Silva 的回应：代谢不健康肥胖的饮食常量营养素含量和代谢功能”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+- **发现 / Highlight：**
+1. 该研究围绕“对 Magkos 和 Silva 的回应：代谢不健康肥胖的饮食常量营养素含量和代谢功能”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+2. 研究确认“对 Magkos 和 Silva 的回应：代谢不健康肥胖的饮食常量营养素含量和代谢功能”所涉及的分子或细胞过程是驱动相关表型变化的重要环节。
+3. 该研究提示相关代谢或微生态环节可能成为疾病风险分层与干预优化的重要抓手。
+- **摘要：**
+当前未获取到摘要。
+- **链接：** https://doi.org/10.1016/j.cmet.2026.09.011
 
 ### immunity
 #### 第 1 篇
-- **中文标题：** 癌症免疫治疗期间远处淋巴结补偿切除的肿瘤引流淋巴结
-- **英文原题：** Distant lymph nodes compensate for resected tumor-draining lymph nodes during cancer immunotherapy.
-- **日期：** 2026-10-13
-- **作者：** Lutz Menzel；Hengbo Zhou；James W Baish；Meghan J O'Melia；Laurel B Darragh；Derek N Effiom；Emma Specht；Juliane Czapla
+- **中文标题：** NF-κB 磷酸化控制增强子选择以塑造炎症基因程序
+- **英文原题：** NF-κB phosphorylation controls enhancer selection to shape the inflammatory gene program.
+- **日期：** 2026-10-23
+- **作者：** Felipe Batista Leão；Dev Bhatt；Lauren Vaughn；Will Liao；Dillon Maloney；Vincent Guichard；Brea Hampton；Alexander Yang
 - **文章类型：** Journal Article
-- **关键词：** antigen transport / completion lymph node dissection / immune checkpoint blockade / immune therapy / lymph flow / lymph node surgery / sentinel lymph node biopsy / tumor-draining lymph node
-- **研究问题：** 该研究聚焦于“癌症免疫治疗期间远处淋巴结补偿切除的肿瘤引流淋巴结”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
+- **关键词：** CBP/p300 / NF-κB / RelA/p65 Ser276 phosphorylation / chromatin remodeling / epigenetic regulation / gene regulation / inflammatory responses / latent enhancers / macrophage activation / post-translational modifications
+- **研究问题：** 该研究围绕“NF-κB 磷酸化控制增强子选择以塑造炎症基因程序”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
 - **发现 / Highlight：**
-1. 该研究聚焦于“癌症免疫治疗期间远处淋巴结补偿切除的肿瘤引流淋巴结”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
-2. 围绕“癌症免疫治疗期间远处淋巴结补偿切除的肿瘤引流淋巴结”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
-3. 该研究提示“癌症免疫治疗期间远处淋巴结补偿切除的肿瘤引流淋巴结”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
+1. 该研究围绕“NF-κB 磷酸化控制增强子选择以塑造炎症基因程序”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
+2. 研究识别了支撑“NF-κB 磷酸化控制增强子选择以塑造炎症基因程序”的关键结构基础，并据此解释功能差异的来源。
+3. 该研究为“NF-κB 磷酸化控制增强子选择以塑造炎症基因程序”相关机制的外推验证与后续应用研究提供了明确方向。
 - **摘要：**
-肿瘤引流淋巴结（tdLN）的手术切除通常在癌症患者中进行。在这里，我们研究了切除tdLN后免疫检查点阻断 (ICB) 反应是否持续存在，tdLN是启动和维持抗癌免疫的重要部位。黑色素瘤患者在局部淋巴结清扫后仍对程序性死亡1 (PD-1) 阻断有反应。同样，在原位鼠黑色素瘤和乳腺癌模型中，tdLN切除后ICB的疗效仍然存在。去除tdLN后，含有可溶性抗原的间质液通过淋巴体边界的间隙转移到远处的LN，其中癌源性抗原被LN驻留的I型常规树突细胞获取并呈递给T细胞。这些反应在原发肿瘤切除后持续存在，并支持ICB诱导的全身免疫
-ICB局部递送至代偿性淋巴结可增强tdLN切除后的抗癌反应。一致的是，头颈癌患者的ICB反应与远处部位的反应性淋巴结有关。因此，抗原重新路由使远处的LN能够补偿切除的tdLN并维持抗癌免疫力，包括通过免疫疗法增强的反应
-- **链接：** https://doi.org/10.1016/j.immuni.2026.09.009
-
-#### 第 2 篇
-- **中文标题：** 癌症调节 p53 新抗原的加工和呈递以逃避 T 细胞检测
-- **英文原题：** Cancers modulate processing and presentation of p53 neoantigens to evade T cell detection.
-- **日期：** 2026-10-13
-- **作者：** Koji Haratani；Bruce Reinhold；Jonathan S Duke-Cohan；Caroline G Fahey；Kemin Tan；Robert J Mallis；Alexander Gusev；Kenneth L Kehl
-- **文章类型：** Journal Article
-- **关键词：** CTL / ERAP / HLA / T cell receptor / TCR / TCR performance; / antigenicity / immune editing / immunogenicity / immunopeptidome / p53 / truncal neoantigens / tumor immunity
-- **研究问题：** 该研究围绕“癌症调节 p53 新抗原的加工和呈递以逃避 T 细胞检测”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
-- **发现 / Highlight：**
-1. 该研究围绕“癌症调节 p53 新抗原的加工和呈递以逃避 T 细胞检测”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
-2. 研究识别了支撑“癌症调节 p53 新抗原的加工和呈递以逃避 T 细胞检测”的关键结构基础，并据此解释功能差异的来源。
-3. 该研究提示“癌症调节 p53 新抗原的加工和呈递以逃避 T 细胞检测”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
-- **摘要：**
-TP53突变作为肿瘤进化中的躯干事件发生在恶性转化的早期，因此通常存在于所有后代肿瘤细胞中，从而产生免疫学脆弱性。在这里，我们检查了这些树干突变产生的p53新抗原的免疫原性和抗原性。综合免疫肽组学显示，人类肿瘤中的热点突变优先定位于对抗原加工具有抵抗力的p53区域，从而完全避免了展示。此外，对于由HLA-A*02:01或HLA-B*07:02呈现且在结构上与相应的野生型p53肽-HLA复合物不同的新抗原，临床肿瘤通常缺乏相关的HLA等位基因
-肿瘤细胞通过增加氨肽酶ERAP1的活性进一步抵抗T细胞杀伤，防止显示含有免疫原性p53I195F衍生的11聚体的高亲和力HLA-A*02:01复合物，或者通过表达含有p53R175H衍生的9聚体的低亲和力HLA-A*02:01复合物，尽管具有高质量的人类TCR，但抗原性较差。这些发现定义了肿瘤限制靶向树干新抗原展示的机制，并建议免疫肽组转变策略来规避免疫逃逸
-- **结果：**
-p53wt 表面展示表位的鉴定 <en>Identification of surface displayed epitopes from p53wt</en>
-编码展示新表位的 p53 变体在临床肿瘤中并不常见 <en>p53 variants encoding displayed neoepitopes are uncommon in clinical tumors</en>
-HLA-B*07:02 p53 新表位展示可减少突变 p53R249S 驱动的临床肿瘤生长 <en>Clinical tumor growth driven by mutant p53R249S is diminished by the HLA-B*07:02 p53 neoepitope display</en>
-肿瘤塑造免疫原性 HLA-A*02:01 p53 新表位的展示 <en>Tumors sculpt their display of immunogenic HLA-A*02:01 p53 neoepitopes</en>
-ERAP1介导的p53I195F新抗原修剪促进T细胞识别的逃避 <en>ERAP1-mediated trimming of p53I195F neoantigen fosters evasion of T cell recognition</en>
-宿主 T 细胞利用数字 TCR 检测稀疏的树干 p53 新表位 <en>Host T cells leverage digital TCRs to detect sparsely presented truncal p53 neoepitopes</en>
-尽管数字 TCR 识别，但抗原性差仍导致 p53R175H 介导的肿瘤逃逸 <en>Poor antigenicity drives p53R175H-mediated tumor escape despite digital TCR recognition</en>
-- **链接：** https://doi.org/10.1016/j.immuni.2026.08.011
-
-#### 第 3 篇
-- **中文标题：** 诱导调节性 B 细胞稳定表达白细胞介素 10，通过靶向骨髓细胞逆转中枢神经系统自身免疫
-- **英文原题：** Induced regulatory B cells stably expressing interleukin-10 reverse central nervous system autoimmunity by targeting myeloid cells.
-- **日期：** 2026-10-13
-- **作者：** Benoît Manfroi；Van Duc Dang；Bui Thi Cuc；Annemarie Jungmann；Sibyline Borzakian；Yanli Tong；Claire Beauvineau；Louise Dupuis
-- **文章类型：** Journal Article
-- **关键词：** cell therapy / experimental autoimmune encephalomyelitis / immune-mediated diseases / induced regulatory B cells / interleukin-10 / microglia / multiple sclerosis / neuroinflammation
-- **研究问题：** 该研究围绕“诱导调节性 B 细胞稳定表达白细胞介素 10，通过靶向骨髓细胞逆转中枢神经系统自身免疫”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
-- **发现 / Highlight：**
-1. 该研究围绕“诱导调节性 B 细胞稳定表达白细胞介素 10，通过靶向骨髓细胞逆转中枢神经系统自身免疫”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
-2. 研究确认“诱导调节性 B 细胞稳定表达白细胞介素 10，通过靶向骨髓细胞逆转中枢神经系统自身免疫”所涉及的分子或细胞过程是驱动相关表型变化的重要环节。
-3. 该研究为神经系统疾病相关机制阐释及后续干预策略提供了新的切入点。
-- **摘要：**
-由于缺乏高频产生白细胞介素 (IL)-10的B细胞的方法，阻碍了对这些调节细胞的产生、命运和活性的机制研究。我们筛选了药理学化合物诱导B细胞中IL-10表达的能力。一种化合物N6可促进 >95% 的B细胞中稳定的IL-10表达。 IL-10+ B细胞的转移诱导实验性自身免疫性脑脊髓炎的缓解。 N6诱导的B细胞在中枢神经系统 (CNS) 中积累并分化为IL-10+ 浆细胞，促进CNS内骨髓细胞的转录和表型变化。在长寿骨髓细胞中缺乏IL-10受体表达的小鼠中，IL-10+ B细胞移植的治疗效果被消除，表明小胶质细胞是B细胞衍生的IL-10的靶标
-重要的是，N6类似物纠正了多发性硬化症患者B细胞中IL-10表达缺陷。我们的研究结果建立了一种药理学策略来产生具有治疗潜力的IL-10+ B细胞，并将小胶质细胞确定为拦截神经炎症疾病进展的关键靶标
-- **链接：** https://doi.org/10.1016/j.immuni.2026.09.006
+尽管上游激活信号相似，但NF-κB介导的炎症转录反应是多种多样的。由于NF-κB亚基RelA/p65的磷酸化促进与共激活剂CREB ​​结合蛋白/E1A结合蛋白p300 (CBP/p300) 的相互作用，并选择性地影响基因表达，因此我们想知道这种修饰是否能够区分不同免疫功能背后的调节结构。在携带Rela Ser276Ala突变的巨噬细胞中，丝氨酸276 (S276) 处的p65磷酸化对于NF-κB与引发的增强子的结合是可有可无的，但对于招募到缺乏预结合转录因子 (TF) 和激活组蛋白标记的核小体封闭区域至关重要。这种潜在的增强子需要磷酸化的NF-κB来招募CBP/p300、促进组蛋白乙酰化和开放染色质
+与这些增强子相关的基因（包括炎症介质）在S276A巨噬细胞中选择性受损。尽管抗病毒反应保持完整，Rela Ser276Ala小鼠可以抵抗内毒素休克，但容易受到细菌感染。因此，NF-κB反应在功能上由增强子结构划分：磷酸化敏感位点定义了一个具有NF-κB主导的调节结构的潜在增强子区室，而引发位点则嵌入更广泛的谱系决定和诱导型TF网络中，产生不同的生物输出
+- **链接：** https://doi.org/10.1016/j.immuni.2026.09.025
 
 ### Nature Immunology
 #### 第 1 篇
-- **中文标题：** 区室特异性 PPARδ 活性控制癌症免疫细胞竞争的结果和免疫治疗效果
-- **英文原题：** Compartment-specific PPARδ activity controls the outcome of cancer-immune cell competition and immunotherapy efficacy.
-- **日期：** 2026-10-14
-- **作者：** Paul Bunk；Ilgin Ergin；Timothy Maher；Vyom Shah；Julia R Bonney；Lokesh B S S Kumar；Charlie Chung；Nils Wellhausen
+- **中文标题：** 丝氨酸蛋白酶抑制剂 A3 是一种可溶性 SIRPα 配体，可抑制炎症和抗肿瘤免疫
+- **英文原题：** Serine protease inhibitor A3 is a soluble SIRPα ligand that suppresses inflammation and antitumor immunity.
+- **日期：** 2026-10-22
+- **作者：** Yufei Hou；Lei Huang；Chunhui Jin；Xiaolong Li；Yongxing Chen；Liguang Sun；Feng Wang；Yong Zhang
 - **文章类型：** Journal Article
-- **研究问题：** 该研究聚焦于“区室特异性 PPARδ 活性控制癌症免疫细胞竞争的结果和免疫治疗效果”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
+- **研究问题：** 该研究聚焦于“丝氨酸蛋白酶抑制剂 A3 是一种可溶性 SIRPα 配体，可抑制炎症和抗肿瘤免疫”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
 - **发现 / Highlight：**
-1. 该研究聚焦于“区室特异性 PPARδ 活性控制癌症免疫细胞竞争的结果和免疫治疗效果”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
-2. 围绕“区室特异性 PPARδ 活性控制癌症免疫细胞竞争的结果和免疫治疗效果”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
-3. 该研究提示“区室特异性 PPARδ 活性控制癌症免疫细胞竞争的结果和免疫治疗效果”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
+1. 该研究聚焦于“丝氨酸蛋白酶抑制剂 A3 是一种可溶性 SIRPα 配体，可抑制炎症和抗肿瘤免疫”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
+2. 围绕“丝氨酸蛋白酶抑制剂 A3 是一种可溶性 SIRPα 配体，可抑制炎症和抗肿瘤免疫”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+3. 该研究提示“丝氨酸蛋白酶抑制剂 A3 是一种可溶性 SIRPα 配体，可抑制炎症和抗肿瘤免疫”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
 - **摘要：**
-大多数实体瘤患者无法维持抗肿瘤免疫力，部分原因是免疫细胞无法在免疫抑制肿瘤微环境中击败癌细胞。在这里，我们证明脂质敏感转录因子PPARδ 是癌症免疫适应性平衡和免疫治疗功效的区室特异性决定因素。激活癌细胞中的PPARδ 会促进其生长并损害抗肿瘤免疫力，而激活免疫细胞中的PPARδ 则会驱动肿瘤抑制并超越癌症内在激活的肿瘤促进作用。从机制上讲，PPARδ 通过效应器相关的染色质重塑和Cpt1a介导的脂肪酸氧化来增强CD8+ T细胞抗癌的适应性
-在治疗上，PPARδ 激活的CD8+ T细胞使免疫治疗耐药的微卫星稳定转移性结直肠癌对小鼠的检查点阻断敏感，而药理或遗传PPARδ 激活增强了人嵌合抗原受体T细胞功能。这些发现将区室特异性PPARδ 活性确定为免疫细胞适应性的目标驱动因素，可用于改善免疫治疗耐药肿瘤的结果
-- **链接：** https://doi.org/10.1038/s41590-026-02685-2
+SIRPα 是一种具有典型配体CD47的抑制性受体。在这里，我们展示了人丝氨酸蛋白酶抑制剂A3 (SERPINA3) 及其小鼠直系同源物SERPINA3k作为SIRPα 的可溶性结合剂和激活剂，抑制SIRPα+ 巨噬细胞、中性粒细胞、树突状细胞和自然杀伤细胞。 SERPINA3(k) 治疗可减轻脂多糖诱导的肺炎，并改善实验性自身免疫性脑脊髓炎和类风湿性关节炎。尽管野生型SERPINA3会引起心肌细胞和脑血管内皮细胞的炎症，但通过SIRPα 相互作用的功能域图谱鉴定的SERPINA3D2突变体消除了这些不利影响，同时保留了完全的抑制能力。值得注意的是，癌细胞分泌大量SERPINA3(k)，超过CD47水平
+抗SERPINA3(k) 抗体单独使用或与程序性细胞死亡1受体/程序性细胞死亡配体1的阻断联合使用，可抑制多种临床前模型中的肿瘤生长。这项工作确定了一种有效的可溶性SIRPα 配体，为炎症/自身免疫性疾病提供有效的治疗策略，并为癌症免疫治疗提供了一个有前景的靶点
+- **链接：** https://doi.org/10.1038/s41590-026-02682-5
 
 #### 第 2 篇
-- **中文标题：** Zbtb44介导的转录抑制关键调节结肠炎症
-- **英文原题：** Zbtb44-mediated transcriptional repression critically regulates colonic inflammation.
-- **日期：** 2026-10-12
-- **作者：** Mahesh Kathania；Desh Raj；Thirupugal Govindarajan；Dinesh Ravindra Raju；Amit K Verma；Anirban Roy；Risha Mathur；Jenna Woody
+- **中文标题：** 人类中性粒细胞的单细胞图谱揭示了中性粒细胞在健康和疾病中的异质性
+- **英文原题：** A single-cell atlas of human neutrophils reveals neutrophil heterogeneity across health and disease.
+- **日期：** 2026-10-21
+- **作者：** Hong Zheng；Evan Maestri；Andrew R Moore；Ananthakrishnan Ganesan；Jeanna Enriquez；Verónica Durán；Shirit Einav；Tom van der Poll
 - **文章类型：** Journal Article
-- **研究问题：** 该研究围绕“Zbtb44介导的转录抑制关键调节结肠炎症”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
+- **研究问题：** 该研究围绕“人类中性粒细胞的单细胞图谱揭示了中性粒细胞在健康和疾病中的异质性”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
 - **发现 / Highlight：**
-1. 该研究围绕“Zbtb44介导的转录抑制关键调节结肠炎症”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
-2. 研究识别了支撑“Zbtb44介导的转录抑制关键调节结肠炎症”的关键结构基础，并据此解释功能差异的来源。
-3. 该研究为“Zbtb44介导的转录抑制关键调节结肠炎症”相关机制的外推验证与后续应用研究提供了明确方向。
+1. 该研究围绕“人类中性粒细胞的单细胞图谱揭示了中性粒细胞在健康和疾病中的异质性”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+2. 围绕“人类中性粒细胞的单细胞图谱揭示了中性粒细胞在健康和疾病中的异质性”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+3. 该研究提示“人类中性粒细胞的单细胞图谱揭示了中性粒细胞在健康和疾病中的异质性”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
 - **摘要：**
-维持结肠免疫稳态的调节机制仍不完全清楚。在这里，我们发现Zbtb44（ZBTB转录因子家族中以前未表征的成员）的基因缺失会导致自发性结肠炎和直肠脱垂。 Zbtb44-/- T细胞表达增加的IFN-γ，这是一种与人类炎症性肠病密切相关的促炎细胞因子。从机制上讲，Zbtb44会经历SUMO化，这有助于其与T-bet中保守的SUMO相互作用基序相互作用，从而能够与IFN-γ 启动子和增强子结合，从而抑制慢性IFN-γ 的产生。总之，这些发现表明Zbtb44是结肠炎症的关键调节因子，这一作用可以在治疗上利用
-- **链接：** https://doi.org/10.1038/s41590-026-02675-4
+中性粒细胞是人类血液中最丰富的白细胞，在健康和疾病中具有多方面的作用。在这里，我们通过整合来自781个样本和43个独立数据集的100万个人类中性粒细胞的转录组数据，组装了人类中性粒细胞的单细胞图谱 (SCAHN)。使用SCAHN，我们在单细胞分辨率下鉴定了多个在组织中具有不同功能的中性粒细胞亚群，以及基因表达和感染、癌症、免疫抑制和性别差异的亚群比例的剧烈变化。小鼠和非人灵长类中性粒细胞在SCAHN上的跨物种参考图谱揭示了保守特征和物种特异性特征
+使用来自40个数据集的17,023个大量血液转录组图谱，我们发现中性粒细胞特异性特征可预测急症患者就诊时的死亡率，与癌症诊断和生存相关，并与代谢功能障碍和长期全因死亡率相关。我们的研究强调了中性粒细胞生物学如何改善免疫风险分层并制定有效的诊断和治疗策略
+- **链接：** https://doi.org/10.1038/s41590-026-02671-8
 
 #### 第 3 篇
-- **中文标题：** 调整 T 细胞让癌症忧郁起来
-- **英文原题：** Tuning T cells to give cancer the blues.
-- **日期：** 2026-10-15
-- **作者：** Anna M Schulz；Caitlin C Zebley；Dietmar Zehn；Ben Youngblood
+- **中文标题：** 产生 IL-2 的 TFH 细胞维持肠道中 Treg 细胞稳态和免疫耐受
+- **英文原题：** IL-2-producing TFH cells sustain Treg cell homeostasis and immune tolerance in the gut.
+- **日期：** 2026-10-21
+- **作者：** Shivangi Dave；Holly Bachus；Nathan Santiago；Audrey Meloun；Margery Smelkinson；Jeremy B Foote；Thomas Hill；Christopher Fucile
 - **文章类型：** Journal Article
-- **研究问题：** 该研究围绕“调整 T 细胞让癌症忧郁起来”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+- **研究问题：** 该研究聚焦于“产生 IL-2 的 TFH 细胞维持肠道中 Treg 细胞稳态和免疫耐受”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
 - **发现 / Highlight：**
-1. 该研究围绕“调整 T 细胞让癌症忧郁起来”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
-2. 研究确认“调整 T 细胞让癌症忧郁起来”所涉及的分子或细胞过程是驱动相关表型变化的重要环节。
-3. 该研究提示“调整 T 细胞让癌症忧郁起来”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
+1. 该研究聚焦于“产生 IL-2 的 TFH 细胞维持肠道中 Treg 细胞稳态和免疫耐受”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
+2. 围绕“产生 IL-2 的 TFH 细胞维持肠道中 Treg 细胞稳态和免疫耐受”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+3. 该研究为“产生 IL-2 的 TFH 细胞维持肠道中 Treg 细胞稳态和免疫耐受”相关机制的外推验证与后续应用研究提供了明确方向。
 - **摘要：**
-当前未获取到摘要。
-- **链接：** https://doi.org/10.1038/s41590-026-02697-y
+滤泡辅助T (TFH) 细胞以其支持B细胞反应的作用而闻名。在这里，我们确定了TFH细胞在维持肠道相关淋巴组织 (GALT) 内的调节性T (Treg) 细胞方面的关键的独立于B细胞的功能。我们证明，TFH细胞在T细胞-B细胞边界和滤泡间区域内产生白细胞介素2 (IL-2)，并且这种局部化的IL-2是维持GALT Treg细胞稳态和抑制致病性效应T细胞扩张所必需的。选择性缺乏产生IL-2的TFH细胞的小鼠会出现结肠炎和致命的多器官炎症，这是由GALT Treg细胞反应受损和不受控制的效应T细胞激活驱动的。广谱抗生素治疗可减轻肠道和肠外病理，表明对共生抗原的耐受性丧失是疾病的关键驱动因素
+总之，这些发现定义了一个空间受限的TFH细胞衍生的IL-2生态位，对GALT Treg细胞的稳定性至关重要，并揭示了TFH细胞在维持B细胞帮助之外的胃肠道耐受方面的意想不到的免疫调节作用
+- **链接：** https://doi.org/10.1038/s41590-026-02690-5
 
 ### Science Immunology
 #### 第 1 篇
-- **中文标题：** 糖组重塑程序自身免疫中致病性 γδ T17 细胞反应
-- **英文原题：** Glycome remodeling programs pathogenic γδ T17 cell responses in autoimmunity.
-- **日期：** 2026-10-16
-- **作者：** Beatriz Santos-Pereira；Rafaela Nogueira；Yohannes Tafesse；Ariana Correia-Silva；Eduarda Leite-Gomes；Guillem Sanchez Sanchez；Xavier Luppens；Lyndsay E A Young
+- **中文标题：** 自主巨噬细胞-伤害感受器机械感觉中继驱动慢性内脏疼痛
+- **英文原题：** An autonomous macrophage-nociceptor mechanosensory relay drives chronic visceral pain.
+- **日期：** 2026-10-23
+- **作者：** Liyan Wu；Tianyi Shen；Zihan Wang；Ting Wang；Ximin Hu；Meng Sun；Lei Zhang；Yanyong Cheng
 - **文章类型：** Journal Article
-- **研究问题：** 该研究围绕“糖组重塑程序自身免疫中致病性 γδ T17 细胞反应”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+- **研究问题：** 该研究围绕“自主巨噬细胞-伤害感受器机械感觉中继驱动慢性内脏疼痛”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
 - **发现 / Highlight：**
-1. 该研究围绕“糖组重塑程序自身免疫中致病性 γδ T17 细胞反应”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
-2. 研究确认“糖组重塑程序自身免疫中致病性 γδ T17 细胞反应”所涉及的分子或细胞过程是驱动相关表型变化的重要环节。
-3. 该研究为“糖组重塑程序自身免疫中致病性 γδ T17 细胞反应”相关机制的外推验证与后续应用研究提供了明确方向。
+1. 该研究围绕“自主巨噬细胞-伤害感受器机械感觉中继驱动慢性内脏疼痛”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+2. 研究确认“自主巨噬细胞-伤害感受器机械感觉中继驱动慢性内脏疼痛”所涉及的分子或细胞过程是驱动相关表型变化的重要环节。
+3. 该研究为神经系统疾病相关机制阐释及后续干预策略提供了新的切入点。
 - **摘要：**
-聚糖在T细胞生物学中发挥着重要作用；然而，γδ T细胞的糖组图谱仍有待解开。尽管 γδ T细胞在宿主防御、组织稳态和疾病中越来越重要，但指导其激活、承诺和功能的糖基化机制仍然不明确。通过进行单细胞RNA测序，我们发现3/γδ T17/白细胞介素17A (IL-17A) 型 γδ T细胞依赖于 (N-乙酰葡糖胺基转移酶1) MGAT1-MGAT5介导的分支N-糖基化。我们进一步证明，γδ T细胞上支链N-聚糖的缺失可作为外周信号，驱动IL-17A促炎表型，同时向Vγ4+ 亚群转变并留下先天样特性的印记。 3型 γδ T细胞的这种糖型改变被证明可诱发严重的牛皮癣
-来自自身免疫性疾病和炎症性疾病患者的 γδ T细胞表现出支链N-聚糖缺乏。补充聚糖可以将 γδ T细胞重新编程为致病性较低的状态，突显N-聚糖作为 γδ T细胞先前未被识别的免疫检查点
-- **链接：** https://doi.org/10.1126/sciimmunol.aec9553
+溃疡性结肠炎的内脏疼痛通常归因于炎症级联反应，但免疫细胞是否直接将机械信号转变成伤害性信号仍不清楚。在这里，我们发现组织驻留的CX3CR1+ 巨噬细胞中的机械敏感通道Piezo1直接驱动结肠炎相关的内脏超敏反应。 Piezo1触发钙内流和核因子 κB核转位，占据Ngf启动子，诱导神经生长因子 (NGF) 合成。这种源自巨噬细胞的NGF重塑了神经免疫单位中TRPV1+ 伤害性传入神经的外周末梢并使其敏感。使用炎症程度最低的结肠内酵母聚糖模型，我们发现该Piezo1-NGF-TrkA轴作为直接机械感觉中继，很大程度上独立于细胞因子级联
+常驻巨噬细胞中的Piezo1或Ngf或TRPV1+ 神经元中的Ntrk1的基因缺失，消除了炎症和非炎症模型中的内脏痛觉过敏。这些发现揭示了组织驻留巨噬细胞作为自主机械传感器，在疾病期间建立了到感觉神经的直接、平行的疼痛传递途径
+- **链接：** https://doi.org/10.1126/sciimmunol.aeb3809
 
 #### 第 2 篇
-- **中文标题：** STAT3 在抗病毒 NK 细胞中充当炎症依赖性转录开关
-- **英文原题：** STAT3 operates as an inflammation-dependent transcriptional switch in antiviral NK cells.
-- **日期：** 2026-10-16
-- **作者：** Simon Grassmann；Hyunu Kim；Timo Rückert；Christin Friedrich；Marine Pujol；Sherry X Fan；Mark Owyong；Jennifer M Zhang
+- **中文标题：** ILC2 衍生的 IL-9 促进嗜酸性粒细胞介导的抗肿瘤活性
+- **英文原题：** ILC2-derived IL-9 promotes eosinophil-mediated antitumor activity.
+- **日期：** 2026-10-23
+- **作者：** Young Gyun Ko；Jongho Ham；Jaemoon Koh；Jihyun Kim；Han Byeol Kim；Doo Hyun Chung；Chul-Hwan Lee；Sung Ho Park
 - **文章类型：** Journal Article
-- **研究问题：** 该研究围绕“STAT3 在抗病毒 NK 细胞中充当炎症依赖性转录开关”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+- **研究问题：** 该研究围绕“ILC2 衍生的 IL-9 促进嗜酸性粒细胞介导的抗肿瘤活性”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
 - **发现 / Highlight：**
-1. 该研究围绕“STAT3 在抗病毒 NK 细胞中充当炎症依赖性转录开关”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
-2. 研究确认“STAT3 在抗病毒 NK 细胞中充当炎症依赖性转录开关”所涉及的分子或细胞过程是驱动相关表型变化的重要环节。
-3. 该研究为“STAT3 在抗病毒 NK 细胞中充当炎症依赖性转录开关”相关机制的外推验证与后续应用研究提供了明确方向。
+1. 该研究围绕“ILC2 衍生的 IL-9 促进嗜酸性粒细胞介导的抗肿瘤活性”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+2. 研究确认“ILC2 衍生的 IL-9 促进嗜酸性粒细胞介导的抗肿瘤活性”所涉及的分子或细胞过程是驱动相关表型变化的重要环节。
+3. 该研究提示“ILC2 衍生的 IL-9 促进嗜酸性粒细胞介导的抗肿瘤活性”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
 - **摘要：**
-免疫系统整合信号来调节免疫反应，形成复杂的上下文相关网络，其中相同的线索会产生不同的结果。信号转导子和转录激活子 (STAT) 转录因子将细胞因子受体的参与转化为转录反应，充当中央调节中心。不同环境中同时发生的STAT激活如何影响免疫细胞功能仍不清楚。在这里，我们证明STAT3在抗病毒自然杀伤 (NK) 细胞中发挥着环境依赖性作用，根据小鼠巨细胞病毒 (MCMV) 感染期间的炎症环境，促进或损害适应性反应。根据IL-15或I型干扰素的可用性，STAT3被招募到不同的基因组位点，从而驱动替代转录程序
-从机制上讲，STAT3差异性地调节下游转录因子MYB和B淋巴细胞诱导成熟蛋白-1 (BLIMP-1)，以在稳态和感染过程中塑造NK细胞分化。 STAT3重定位受表观遗传机制和朝向不同STAT基序的偏好重定位的控制。因此，STAT3作为细胞因子感应转录开关，整合IL-15和I型干扰素信号来控制病毒感染期间淋巴细胞的适应
-- **链接：** https://doi.org/10.1126/sciimmunol.aed4832
+先天淋巴细胞（ILC）调节组织免疫，但它们在肿瘤控制中的作用仍不完全清楚。在这里，我们将人类测序数据集的分析与基因消融小鼠模型和过继转移实验相结合，以确定糖皮质激素诱导的肿瘤坏死因子受体（GITR）与肿瘤浸润的第2组ILC（ILC2）的结合诱导了激活转录因子3（ATF3）和强大的白细胞介素9（IL-9）的产生，超过了IL-5和IL-13的适度共诱导。 ILC2衍生的IL-9通过肿瘤诱导的IL-9受体表达增强存活、组织保留和细胞毒性，从而促进肿瘤内嗜酸性粒细胞积累。嗜酸性粒细胞消融消除了GITR介导的肿瘤控制，而过继性嗜酸性粒细胞转移则恢复了它。这种IL-9-嗜​​酸性粒细胞通路在缺乏适应性淋巴细胞的情况下抑制肿瘤生长
+在人类数据集中，IL-9和嗜酸性粒细胞特征与黑色素瘤和肺腺癌的良好预后相关。这些发现定义了连接ILC2与嗜酸性粒细胞介导的肿瘤免疫的先天途径，并支持GITR激动作为一种治疗策略
+- **链接：** https://doi.org/10.1126/sciimmunol.adz0989
 
 ### Bioinformatics
 #### 第 1 篇
-- **中文标题：** 基于逆概率加权的微生物组数据中介分析
-- **英文原题：** Inverse probability weighting-based mediation analysis for microbiome data.
-- **日期：** 2026-10-13
-- **作者：** Yuexia Zhang；Jian Wang；Jiayi Shen；Jessica Galloway-Peña；Samuel Shelburne；Linbo Wang；Jianhua Hu
+- **中文标题：** 整合互补数据集以构建微生物组-代谢组-疾病途径
+- **英文原题：** Integrating complementary datasets for constructing microbiome-metabolome-disease pathways.
+- **日期：** 2026-10-20
+- **作者：** Lei Fang；Chenglong Ye；Yue Wang
 - **文章类型：** Journal Article
-- **研究问题：** 该研究聚焦于“基于逆概率加权的微生物组数据中介分析”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
+- **关键词：** high-dimensional regression / robust inference / stability selection / two-stage least squares
+- **研究问题：** 该研究围绕“整合互补数据集以构建微生物组-代谢组-疾病途径”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
 - **发现 / Highlight：**
-1. 该研究聚焦于“基于逆概率加权的微生物组数据中介分析”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
-2. 围绕“基于逆概率加权的微生物组数据中介分析”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+1. 该研究围绕“整合互补数据集以构建微生物组-代谢组-疾病途径”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
+2. 研究识别了支撑“整合互补数据集以构建微生物组-代谢组-疾病途径”的关键结构基础，并据此解释功能差异的来源。
 3. 该研究提示相关代谢或微生态环节可能成为疾病风险分层与干预优化的重要抓手。
 - **摘要：**
-动机：中介分析是阐明生物医学研究中因果机制的重要工具，最近在微生物组研究中受到越来越多的关注。受急性髓系白血病 (AML) 患者微生物组研究的启发，我们研究了诱导化疗强度对感染状态的影响是否是通过肠道微生物分类群介导的。由于微生物介质的高维性、零膨胀和依赖性，以及暴露引起的介质结果混杂因素（抗生素的使用）的存在，这个问题带来了巨大的方法学挑战
-结果：为了应对这些挑战，我们提出了一种新颖的干预间接效应非参数识别公式，这是一种因果中介估计值，在暴露引起的中介结果混杂的情况下仍然可以识别。在此识别结果的基础上，我们开发了逆概率加权估计器并构建了标准正态自举置信区间以进行推理。仿真研究表明，该方法可以实现准确的效果估计，并在有限样本中保持适当的I类错误率和功效。应用于AML微生物组研究提供了证据，证明诱导化疗强度通过肠道微生物组的改变对感染风险具有统计学显着的干预间接影响
-可用性和实施​​：模拟研究的R代码可在https://github.com/YX-ZHANG-1/CausalMediationMicrobiome上获取，并存档在Zenodo上：https://doi.org/10.5281/zenodo.21960802
-- **链接：** https://doi.org/10.1093/bioinformatics/btag750
+动机：微生物组-代谢组-疾病途径在宿主健康中发挥着核心作用，但对它们的研究受到现有数据的限制。大型临床微生物组通常缺乏代谢组学测量，而具有配对特征的多组学研究通常规模较小或表型不完整。组合此类互补数据集具有挑战性：代谢物不是在临床队列中测量的，微生物组数据是高维和组成的，对数比分析取决于任意选择的参考分类单元
+结果：我们提出了一个框架，将具有微生物组和结果数据的大型目标队列与具有配对微生物组-代谢组概况的小型外部研究相结合。高维结构方程模型将微生物组、代谢组和疾病结果联合起来。它允许不可测量的混杂因素并将微生物分为功能类别。我们通过加性对数比 (ALR) 变换解决组合性问题，通过惩罚两阶段最小二乘法估计参数，并通过正则化排列测试测试代谢物与疾病的关联。一种新颖的多重参考程序将每种微生物依次视为ALR参考。它将生成的p值与柯西组合检验相结合，并通过稳定性选择对微生物进行分类，这使得推论对于参考的选择具有稳健性
+在模拟中，该方法控制I类错误率，并且其功效随着目标和外部样本大小的增加而增加。整合FRAN和iHMP队列在炎症性肠病中的应用揭示了生物学上可解释的微生物组-代谢组-疾病之间的联系
+可用性和实现：该方法在R包MMDP中实现，可在https://github.com/lei-fang-stat/MMDP免费获取
+补充信息：补充数据可在生物信息学在线获取
+- **链接：** https://doi.org/10.1093/bioinformatics/btag787
 
 #### 第 2 篇
-- **中文标题：** CMGL：用于癌症亚型分类的置信引导多组学图学习
-- **英文原题：** CMGL: Confidence-guided Multi-omics Graph Learning for Cancer Subtype Classification.
-- **日期：** 2026-10-12
-- **作者：** Boyang Fan；Hengchuang Yin；Siyu Yi；Yifan Wang；Zhicheng Li；Leijiyu Zhou；Jiancheng Lv；Wei Ju
+- **中文标题：** XenoMix：根据患者来源的异种移植模型的 DNA 甲基化数据估算小鼠含量
+- **英文原题：** XenoMix: Estimating mouse content from DNA methylation data of Patient-Derived Xenograft models.
+- **日期：** 2026-10-21
+- **作者：** Nima Esmaeelpour；Oliver Mücke；Gizem Altun；Joseph Cornick；Maria Capone；Rocio Sotillo；Maria Llamazares-Prada；Christoph Plass
 - **文章类型：** Journal Article
-- **关键词：** cancer subtype classification / evidential deep learning / graph neural networks / multi-omics integration / uncertainty-aware learning
-- **研究问题：** 该研究围绕“CMGL：用于癌症亚型分类的置信引导多组学图学习”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
+- **研究问题：** 该研究聚焦于“XenoMix：根据患者来源的异种移植模型的 DNA 甲基化数据估算小鼠含量”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
 - **发现 / Highlight：**
-1. 该研究围绕“CMGL：用于癌症亚型分类的置信引导多组学图学习”所指向的关键机制展开，旨在明确其在相关细胞、组织或疾病背景中的作用方式与后果。
-2. 围绕“CMGL：用于癌症亚型分类的置信引导多组学图学习”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
-3. 该研究提示“CMGL：用于癌症亚型分类的置信引导多组学图学习”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
+1. 该研究聚焦于“XenoMix：根据患者来源的异种移植模型的 DNA 甲基化数据估算小鼠含量”所对应的干预策略或调控环节，旨在判断其是否能够改变疾病过程、治疗应答或递送效率。
+2. 围绕“XenoMix：根据患者来源的异种移植模型的 DNA 甲基化数据估算小鼠含量”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
+3. 该研究提示“XenoMix：根据患者来源的异种移植模型的 DNA 甲基化数据估算小鼠含量”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
 - **摘要：**
-多组学整合可以改善癌症亚型，但模态信息和噪音因癌症类型和患者而异。大多数多组学数据的图形方法都会学习下游分类目标中的模态贡献，从而隐含每个患者的预测可靠性。因此，信息不足的模式可能会削弱融合表示，而不可靠的组学可能会将嘈杂的患者关系引入图传播中。为了解决这两个问题，我们提出了CMGL，它在融合之前产生单独的可靠性估计，并使用共识的患者邻域进行图分类
-- **链接：** https://doi.org/10.1093/bioinformatics/btag763
+摘要：DNA甲基化微阵列能够对人类和小鼠样本进行经济高效、高通量的分析，并广泛用于研究癌症的表观遗传改变。患者来源的异种移植（PDX）模型通过保留原发性肿瘤特征同时实现药物反应和治疗耐药性的体内研究来补充这种方法。然而，量化使用微阵列生成的PDX DNA甲基化数据中的小鼠DNA污染仍然很困难。我们推出了XenoMix，这是一种轻量级计算工具，用于直接根据PDX模型中的DNA甲基化数据量化小鼠DNA污染。 XenoMix利用人类和小鼠基因组之间的高序列同源性来检测和量化源自小鼠DNA的意外信号贡献。使用真实混合数据，XenoMix实现了高于0.99的Pearson相关系数
+当应用于PDX数据时，我们发现了由生物和技术变异性引起的不同程度的小鼠污染。 XenoMix在PDX模型的DNA甲基化分析中建立了关键的质量控制步骤，我们表明估计的污染可以作为下游分析中的混杂变量纳入其中
+可用性和实现：XenoMix可作为独立的R软件包从https://git.dkfz.de/b370/scepigen/XenoMix获取，也可作为RnBeads软件包中的模块获取
+补充信息：补充数据可在生物信息学在线获取
+- **链接：** https://doi.org/10.1093/bioinformatics/btag791
 
 #### 第 3 篇
-- **中文标题：** 多药理学目标感知分子生成
-- **英文原题：** Polypharmacological Target-Aware Molecule Generation.
-- **日期：** 2026-10-12
-- **作者：** Kehan Wu；Wei Zhang；Han Guo；Renhe Liu；Yu Shi；Peiran Jin；Haiguang Liu；Enhong Chen
+- **中文标题：** ct-validation：根据临床试验结果对目标指示证据进行基准测试的开放框架
+- **英文原题：** ct-validation: an open framework for benchmarking target-indication evidence against clinical trial outcomes.
+- **日期：** 2026-10-20
+- **作者：** Klim Kostiuk；Daniel Igumnov；Peter Fedichev；Amir Feizi
 - **文章类型：** Journal Article
-- **关键词：** molecule generation / multi-target drug design / polypharmacology
-- **研究问题：** 该研究围绕“多药理学目标感知分子生成”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
+- **研究问题：** 该研究围绕“ct-validation：根据临床试验结果对目标指示证据进行基准测试的开放框架”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
 - **发现 / Highlight：**
-1. 该研究围绕“多药理学目标感知分子生成”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
-2. 围绕“多药理学目标感知分子生成”的干预或调控能够实质性改变疾病表型、治疗反应或递送效率。
-3. 该研究提示“多药理学目标感知分子生成”可能为肿瘤分层、联合治疗设计或新靶点开发提供依据。
+1. 该研究围绕“ct-validation：根据临床试验结果对目标指示证据进行基准测试的开放框架”所涉及的结构与分子识别问题展开，重点阐明关键相互作用如何决定下游生物学功能。
+2. 研究识别了支撑“ct-validation：根据临床试验结果对目标指示证据进行基准测试的开放框架”的关键结构基础，并据此解释功能差异的来源。
+3. 该研究为“ct-validation：根据临床试验结果对目标指示证据进行基准测试的开放框架”相关机制的外推验证与后续应用研究提供了明确方向。
 - **摘要：**
-动机：设计能够同时调节多个靶蛋白的化合物（即多药理学）对于治疗癌症和神经退行性疾病等复杂疾病至关重要。然而，由于多靶点3D结构数据的缺乏和传统“生成然后过滤”流程的低效，人工智能驱动的多靶点药物设计仍然受到严重阻碍。迫切需要可扩展的方法，可以满足多种蛋白质之间的不同结合约束，而不依赖于稀缺的结构先验
-结果：为了克服这些瓶颈，我们将多靶点药物设计重新表述为基于序列的生成任务，并引入了PolyTamGen（一种端到端自回归框架）。我们首先从ChEMBL和BindingDB中策划了一个以配体为中心的大规模生物活性数据集，其中包含160万个独特的配体和490万个生物活性条目。 PolyTamGen使用ESM3对目标蛋白集进行编码，通过注意力模块将这些高维特征压缩为紧凑的标记，并将它们输入基于序列的化合物生成器以生成最终的多目标配体。我们进一步应用直接偏好优化（DPO）来改善基于对接的亲和力代理和药物相似性
-对双目标和三目标基准的广泛实验表明，PolyTamGen提高了代表性基线的联合成功率，同时保持了高化学有效性和多样性
-可用性和实现：代码可从https://github.com/bjzgcai/PolyTamGen获取。处理后的数据、模型检查点和基准测试结果可在Zenodo上获取：https://doi.org/10.5281/zenodo.20594128
+摘要：人类遗传证据为选择药物靶点提供了坚实的基础。然而，专有数据和定制管道阻碍了针对临床试验结果的目标指示证据的一致基准测试。为了解决这个问题，我们提出了Python包ct-validation，它评估特定证据来源支持的目标指示对是否丰富了临床进展。该包计算相对成功 (RS) 和比值比 (OR) 以及跨临床阶段转变的置信区间。它还支持基于本体的语义疾病匹配，并通过Python、命令行和模型上下文协议 (MCP) 提供接口。通过重新映射Minikel等人的基准
+(2024) 到实验因子本体论 (EFO)，我们重现了它们的每次转换富集，在任何转换中最大差异仅为1.4%。在独立改变遗传证据和临床试验来源的系统3x3基准中，我们发现单个策划的开放临床试验来源再现了专有比较器的信号（RS = 2.92 vs 2.65；2.34 vs 2.55，无肿瘤学）。然而，汇总开放临床试验注册会压缩这一信号（RS = 1.52）；这种损失主要是由适应症数据的广度而非遗传证据造成的
+可用性和实现：ct-validation使用Python（版本3.11或更高版本）实现，通过pip分发，并可在https://github.com/gero-science/ct-validation上免费获取，支持Python、命令行和模型上下文协议 (MCP) 接口。存档代码：https://doi.org/10.5281/zenodo.22901497。基准数据：https://doi.org/10.5281/zenodo.22901451
 补充信息：补充数据可在生物信息学在线获取
-- **链接：** https://doi.org/10.1093/bioinformatics/btag766
+- **链接：** https://doi.org/10.1093/bioinformatics/btag788
 
 ### Nature Protocols
 - 本周期未检索到可用论文。
 
 ## 当期全部文献清单（按期刊）
 ### Nature
-- 重点详述纳入：1 篇。
-- 当期全部文献：
-- [已纳入] 微外显子调控密码揭示了与自闭症相关的遗传变异｜[A microexon regulatory code reveals autism-linked genetic variation.](https://doi.org/10.1038/s41586-026-11119-w) / 2026-10-14
+- 重点详述纳入：0 篇。
+- 当期全部文献：本周期未检索到符合条件的 PubMed 记录。
 
 ### Science
-- 重点详述纳入：1 篇。
+- 重点详述纳入：3 篇。
 - 当期全部文献：
-- [已纳入] 一对壳聚糖受体赋予广谱真菌抗性｜[A pair of chitosan receptors confer broad-spectrum fungal resistance.](https://doi.org/10.1126/science.ady7647) / 2026-10-15
+- [已纳入] 内含子保留调节 STAT2 功能并与肺癌免疫治疗反应相关｜[Intron retention regulates STAT2 function and associates with immunotherapy response in lung cancer.](https://doi.org/10.1126/science.aea7156) / 2026-10-22
+- [已纳入] 鸟类大脑的超快速决策｜[Ultrarapid decision-making in an avian brain.](https://doi.org/10.1126/science.aed6459) / 2026-10-22
+- [已纳入] BAK 和 BAX 形成多蛋白复合物，驱动 mtDNA 流出和不依赖 caspase 的细胞死亡｜[BAK and BAX form a multiprotein complex to drive mtDNA efflux and caspase-independent cell death.](https://doi.org/10.1126/science.aea2181) / 2026-10-22
 
 ### Cell
 - 重点详述纳入：3 篇。
 - 当期全部文献：
-- [已纳入] 线粒体靶向四恶烷引发脂质过氧化以驱动铁死亡和肿瘤抑制｜[Mitochondria-targeted tetraoxanes initiate lipid peroxidation to drive ferroptosis and tumor suppression.](https://doi.org/10.1016/j.cell.2026.09.040) / 2026-10-15
-- [已纳入] CRISPR 筛选确定了挽救癌症中与年龄相关的 T 细胞功能障碍的靶点｜[CRISPR screens identify targets to rescue age-related T cell dysfunction in cancer.](https://doi.org/10.1016/j.cell.2026.07.016) / 2026-10-15
-- [已纳入] 雌激素对 STING 进行重编程可促进中性粒细胞胞外陷阱的形成以及对 ADC 治疗的性别偏见耐药性｜[STING reprogramming by estrogen promotes neutrophil extracellular trap formation and sex-biased resistance to ADC therapy.](https://doi.org/10.1016/j.cell.2026.09.031) / 2026-10-15
-- [未纳入] 牛奶骨桥蛋白改变婴儿微生物组以驱动 DC 造血和疾病耐受性｜[Milk osteopontin alters the infant microbiome to drive DC hematopoiesis and disease tolerance.](https://doi.org/10.1016/j.cell.2026.07.022) / 2026-10-15
-- [未纳入] 转录控制从干扰素调节因子 2 转换为干扰素调节因子 1 驱动先天免疫细胞激活｜[Switching of transcriptional control from interferon regulatory factor 2 to interferon regulatory factor 1 drives innate immune cell activation.](https://doi.org/10.1016/j.cell.2026.08.049) / 2026-10-15
-- [未纳入] 免疫调节基因 GIMAP6 抑制致命性动脉粥样硬化性血管病变和缺血性心力衰竭｜[Immunoregulatory gene GIMAP6 suppresses lethal atherosclerotic vasculopathy and ischemic heart failure.](https://doi.org/10.1016/j.cell.2026.09.032) / 2026-10-15
-- [未纳入] 常驻组织巨噬细胞转移硒转运蛋白以保护胰腺癌免受铁死亡｜[Resident tissue macrophages transfer selenium transporter protein to protect pancreatic cancer from ferroptosis.](https://doi.org/10.1016/j.cell.2026.09.001) / 2026-10-15
-- [未纳入] 细胞自组织协调铁死亡传播｜[Cellular self-organization orchestrates ferroptosis propagation.](https://doi.org/10.1016/j.cell.2026.09.039) / 2026-10-15
-- [未纳入] 早期人类皮质的代谢图谱揭示了细胞命运转变的糖酵解重塑和磷酸戊糖途径控制｜[Metabolic atlas of early human cortex reveals glycolytic remodeling and pentose phosphate pathway control of cell fate transitions.](https://doi.org/10.1016/j.cell.2026.07.023) / 2026-10-15
-- [未纳入] 癌症中体细胞突变负担和功能影响的端粒到端粒图｜[A telomere-to-telomere map of somatic mutation burden and functional impact in a cancer.](https://doi.org/10.1016/j.cell.2026.09.033) / 2026-10-15
-- [未纳入] 体细胞表观突变限制了人类二倍体染色质表观基因组的遗传决定论｜[Somatic epimutations cap genetic determinism in the human diploid chromatin epigenome.](https://doi.org/10.1016/j.cell.2026.09.034) / 2026-10-15
-- [未纳入] 慢性运动的多组学图谱｜[Multi-omics atlas of chronic exercise.](https://doi.org/10.1016/j.cell.2026.09.044) / 2026-10-15
-- [未纳入] 逆转录转座子的共同选择促进抗体多样化｜[Co-option of retrotransposons promotes antibody diversification.](https://doi.org/10.1016/j.cell.2026.07.021) / 2026-10-15
-- [未纳入] 海藻糖-6-磷酸假酶传感器直接抑制植物中的代谢整合子SnRK1｜[A pseudoenzyme sensor of trehalose-6-phosphate directly represses the metabolic integrator SnRK1 in plants.](https://doi.org/10.1016/j.cell.2026.09.016) / 2026-10-14
-- [未纳入] 拟南芥利用不同的香豆素和细菌途径来获取 pH 适应性铁｜[Arabidopsis uses distinct coumarins and bacterial pathways for pH-adaptive iron acquisition.](https://doi.org/10.1016/j.cell.2026.09.030) / 2026-10-15
-- [未纳入] 人类核核糖体揭示 DNA 嵌入的核糖核苷酸作为转录相关 DNA 超螺旋的表观遗传调节剂｜[Human nuclear ribomes reveal DNA-embedded ribonucleotides as epigenetic modulators of transcription-associated DNA supercoiling.](https://doi.org/10.1016/j.cell.2026.07.053) / 2026-10-15
-- [未纳入] 用于镇痛可逆光学控制的阿片类药效开关｜[An opioid efficacy switch for reversible optical control of analgesia.](https://doi.org/10.1016/j.cell.2026.09.042) / 2026-10-15
-- [未纳入] 哺乳动物大脑中的细胞缩放定律｜[Cellular scaling laws in the mammalian brain.](https://doi.org/10.1016/j.cell.2026.08.044) / 2026-10-15
-- [未纳入] 来自 467,152 个英国生物银行基因组的全表组结构变异图｜[A phenome-wide structural variant map from 467,152 UK Biobank genomes.](https://doi.org/10.1016/j.cell.2026.09.035) / 2026-10-15
-- [未纳入] 通过RNA编辑实现头足类蛋白质组的功能多样化｜[Functional diversification of the cephalopod proteome by RNA editing.](https://doi.org/10.1016/j.cell.2026.09.043) / 2026-10-15
-- [未纳入] 时空共转录组学揭示了支持苜蓿固氮的协调根瘤菌-豆科植物胁迫程序｜[Spatiotemporal co-transcriptomics uncovers coordinated rhizobia-legume stress programs supporting nitrogen fixation in Medicago.](https://doi.org/10.1016/j.cell.2026.07.033) / 2026-10-15
-- [未纳入] SMaHT 网络体细胞突变检测的综合基准测试｜[Comprehensive benchmarking of somatic mutation detection by the SMaHT Network.](https://doi.org/10.1016/j.cell.2026.09.037) / 2026-10-15
-- [未纳入] 绘制我们内心无声的变化｜[Charting the silent variation within us.](https://doi.org/10.1016/j.cell.2026.09.046) / 2026-10-15
-- [未纳入] 蛋白质降解导致的比例转录激活｜[Ratiometric transcriptional activation by protein degradation.](https://doi.org/10.1016/j.cell.2026.08.009) / 2026-10-15
-- [未纳入] 古代基因组揭示了偏远大洋洲西部定居历史中独特的人类扩散和社会分层｜[Ancient genomes reveal distinct human dispersals and social stratification in the settlement history of western Remote Oceania.](https://doi.org/10.1016/j.cell.2026.07.044) / 2026-10-15
-- [未纳入] 稻孤儿基因赋予跨物种耐旱性｜[An Oryza orphan gene confers trans-species drought tolerance.](https://doi.org/10.1016/j.cell.2026.07.005) / 2026-10-15
-- [未纳入] 利用代理人工智能迈向自主科学｜[Toward autonomous science with agentic artificial intelligence.](https://doi.org/10.1016/j.cell.2026.08.052) / 2026-10-15
+- [已纳入] 生活方式诱导的调节性 T 细胞脆弱性引发免疫检查点阻断后的不良事件｜[Lifestyle-induced regulatory T cell fragility primes adverse events after immune checkpoint blockade.](https://doi.org/10.1016/j.cell.2026.09.055) / 2026-10-22
+- [已纳入] 穿孔素触发铁诱导的线粒体损伤，驱动铁死亡和抗肿瘤免疫｜[Perforin triggers iron-induced mitochondrial damage to drive ferroptosis and anti-tumor immunity.](https://doi.org/10.1016/j.cell.2026.09.062) / 2026-10-23
+- [已纳入] 细胞状态特异性代谢网络控制小细胞肺癌的铁死亡与细胞凋亡｜[Cell-state-specific metabolic networks govern ferroptosis versus apoptosis in small cell lung cancer.](https://doi.org/10.1016/j.cell.2026.09.045) / 2026-10-23
+- [未纳入] 一种生物可利用的 GPX4 抑制剂，用于体内铁死亡诱导和肿瘤抑制｜[A bioavailable GPX4 inhibitor for ferroptosis induction in vivo and tumor suppression.](https://doi.org/10.1016/j.cell.2026.09.053) / 2026-10-21
+- [未纳入] T 细胞耗竭的蛋白质组图谱定义了蛋白质稳态崩溃｜[Proteomic atlas of T cell exhaustion defines proteostatic collapse.](https://doi.org/10.1016/j.cell.2026.09.051) / 2026-10-21
+- [未纳入] 微生物-胆汁酸轴介导女性免受慢性肝病的保护｜[A microbiome-bile acid axis mediates protection from chronic liver disease in females.](https://doi.org/10.1016/j.cell.2026.09.048) / 2026-10-19
+- [未纳入] 牛磺酸通过调节巨噬细胞中的 NLRP3 炎症小体来降低炎症｜[Taurine lowers inflammaging by regulating the NLRP3 inflammasome in macrophages.](https://doi.org/10.1016/j.cell.2026.09.061) / 2026-10-23
+- [未纳入] 使用工程化逆转录转座子进行体内基因写入｜[In vivo Gene Writing with engineered retrotransposons.](https://doi.org/10.1016/j.cell.2026.09.054) / 2026-10-21
+- [未纳入] Pyrin 炎症小体感知 OCTN2 介导的肌肉损伤或摄入引起的细胞外 ʟ-肉碱的摄取｜[The pyrin inflammasome senses OCTN2-mediated uptake of extracellular ʟ-carnitine from muscle injury or ingestion.](https://doi.org/10.1016/j.cell.2026.09.015) / 2026-10-19
+- [未纳入] MCT6 是二甲双胍相关减肥所需的肠道 Lac-Phe 输出蛋白｜[MCT6 is an intestinal Lac-Phe exporter required for metformin-associated weight loss.](https://doi.org/10.1016/j.cell.2026.09.058) / 2026-10-22
+- [未纳入] 罗马殖民和中世纪早期移民对伊比利亚半岛人口影响的对比｜[Contrasting demographic impacts of Roman colonization and early medieval migrations in the Iberian Peninsula.](https://doi.org/10.1016/j.cell.2026.09.052) / 2026-10-21
 
 ### Cell metabolism
-- 重点详述纳入：2 篇。
-- 当期全部文献：
-- [已纳入] 针对癌症 NAD 代谢的上下文相关框架｜[A context-dependent framework for targeting NAD metabolism in cancer.](https://doi.org/10.1016/j.cmet.2026.09.015) / 2026-10-15
-- [已纳入] NAD+ 反应性脂肪信号协调器官间防御肌肉萎缩｜[An NAD+-responsive adipose signal coordinates inter-organ defense against muscle atrophy.](https://doi.org/10.1016/j.cmet.2026.09.016) / 2026-10-14
-
-### immunity
 - 重点详述纳入：3 篇。
 - 当期全部文献：
-- [已纳入] 癌症免疫治疗期间远处淋巴结补偿切除的肿瘤引流淋巴结｜[Distant lymph nodes compensate for resected tumor-draining lymph nodes during cancer immunotherapy.](https://doi.org/10.1016/j.immuni.2026.09.009) / 2026-10-13
-- [已纳入] 癌症调节 p53 新抗原的加工和呈递以逃避 T 细胞检测｜[Cancers modulate processing and presentation of p53 neoantigens to evade T cell detection.](https://doi.org/10.1016/j.immuni.2026.08.011) / 2026-10-13
-- [已纳入] 诱导调节性 B 细胞稳定表达白细胞介素 10，通过靶向骨髓细胞逆转中枢神经系统自身免疫｜[Induced regulatory B cells stably expressing interleukin-10 reverse central nervous system autoimmunity by targeting myeloid cells.](https://doi.org/10.1016/j.immuni.2026.09.006) / 2026-10-13
-- [未纳入] 第 2 组先天淋巴细胞激活髓磷脂反应性 T 细胞以增强神经炎症｜[Group 2 innate lymphoid cells activate myelin-reactive T cells to augment neuroinflammation.](https://doi.org/10.1016/j.immuni.2026.07.011) / 2026-10-13
-- [未纳入] 皮肤神经源性炎症的发生是一个需要树突状细胞聚集的多步骤过程｜[The genesis of cutaneous neurogenic inflammation is a multi-step process requiring dendritic cell aggregation.](https://doi.org/10.1016/j.immuni.2026.07.010) / 2026-10-13
-- [未纳入] 免疫治疗的多维视角｜[Multidimensional view of immunotherapy.](https://doi.org/10.1016/j.immuni.2026.09.016) / 2026-10-13
-- [未纳入] 病毒诱导的 ISG15 解偶联导致先天免疫和细胞代谢失调｜[Virus-induced deconjugation of ISG15 dysregulates innate immunity and cellular metabolism.](https://doi.org/10.1016/j.immuni.2026.07.007) / 2026-10-13
-- [未纳入] T 细胞的命运由不同的抗原呈递细胞决定，以响应饮食与肠上皮自身抗原｜[T cell fate is dictated by different antigen-presenting cells in response to dietary versus gut epithelial self-antigen.](https://doi.org/10.1016/j.immuni.2026.07.023) / 2026-10-13
-- [未纳入] 大规模 TCR-pMHC 对的功能评估可实现计算机 TCR 反应性预测｜[Functional evaluation of TCR-pMHC pairs at scale allows in silico TCR reactivity prediction.](https://doi.org/10.1016/j.immuni.2026.09.007) / 2026-10-13
-- [未纳入] SARS-CoV-2 感染中独特的效应 B 细胞群驱动自身抗体产生｜[A distinct effector B cell population drives autoantibody production in SARS-CoV-2 infection.](https://doi.org/10.1016/j.immuni.2026.08.002) / 2026-10-13
-- [未纳入] 持久的细胞外基质修饰重塑肠道干细胞命运并促进慢性炎症｜[Long-lasting extracellular matrix modifications reshape intestinal stem cell fate and promote chronic inflammation.](https://doi.org/10.1016/j.immuni.2026.07.022) / 2026-10-13
-- [未纳入] 乳酸脱氢酶 A 依赖性氧化还原控制选择性 mRNA 翻译指导单核细胞命运决定｜[Lactate dehydrogenase A-dependent redox control of selective mRNA translation directs monocyte fate commitment.](https://doi.org/10.1016/j.immuni.2026.09.022) / 2026-10-15
-- [未纳入] 呼吸道病毒感染、传播和保护中的鼻免疫｜[Nasal immunity in respiratory viral infection, transmission, and protection.](https://doi.org/10.1016/j.immuni.2026.06.011) / 2026-10-13
-- [未纳入] 皮肤驻留 CXCR6+ 记忆 CD4+ T 细胞和树突状细胞形成真皮血管周围中枢，导致过敏性皮炎复发｜[Skin-resident CXCR6+ memory CD4+ T cells and dendritic cells form dermal perivascular hubs that drive relapse in allergic dermatitis.](https://doi.org/10.1016/j.immuni.2026.09.010) / 2026-10-12
-- [未纳入] 嗜乳酪蛋白样 3 和 8 四聚体钳制 Vγ4Vδ1 T 细胞受体，实现抗原依赖性激活｜[Butyrophilin-like 3 and 8 tetramers clamp Vγ4Vδ1 T cell receptors for antigen-independent activation.](https://doi.org/10.1016/j.immuni.2026.07.004) / 2026-10-13
-- [未纳入] CD163+红髓巨噬细胞在血期疟疾期间与边缘嗜金属巨噬细胞相互作用以维持脾结构｜[CD163+ red pulp macrophages interact with marginal metallophilic macrophages during blood-stage malaria to maintain splenic architecture.](https://doi.org/10.1016/j.immuni.2026.07.006) / 2026-10-13
-- [未纳入] 拥抱巨噬细胞的复杂性进行研究和翻译｜[Embracing macrophage complexity for research and translation.](https://doi.org/10.1016/j.immuni.2026.09.015) / 2026-10-16
+- [已纳入] 丙酸促进 MHC I 类抗原呈递和抗肿瘤免疫｜[Propionate promotes MHC class I antigen presentation and anti-tumor immunity.](https://doi.org/10.1016/j.cmet.2026.09.018) / 2026-10-21
+- [已纳入] 间歇性禁食期间的体重减轻，而不仅仅是地中海饮食质量，与较低的炎症有关：一项随机对照试验｜[Weight loss during intermittent fasting, not Mediterranean diet quality alone, is associated with lower inflammation: A randomized controlled trial.](https://doi.org/10.1016/j.cmet.2026.09.017) / 2026-10-21
+- [已纳入] 对 Magkos 和 Silva 的回应：代谢不健康肥胖的饮食常量营养素含量和代谢功能｜[Response to Magkos and Silva: Diet macronutrient content and metabolic function in metabolically unhealthy obesity.](https://doi.org/10.1016/j.cmet.2026.09.011) / 2026-10-22
+- [未纳入] 骨骼动态力感应可延缓衰老并延长寿命｜[Dynamic force sensing by bone delays aging and extends lifespan.](https://doi.org/10.1016/j.cmet.2026.09.020) / 2026-10-23
+- [未纳入] 匹配减肥后区分肝脏代谢影响和整体心脏代谢益处｜[Distinguishing hepatic metabolic effects from overall cardiometabolic benefit after matched weight loss.](https://doi.org/10.1016/j.cmet.2026.09.014) / 2026-10-22
+- [未纳入] 关于减肥后饮食特异性代谢影响的解释｜[On the interpretation of diet-specific metabolic effects following weight loss.](https://doi.org/10.1016/j.cmet.2026.09.010) / 2026-10-22
+
+### immunity
+- 重点详述纳入：1 篇。
+- 当期全部文献：
+- [已纳入] NF-κB 磷酸化控制增强子选择以塑造炎症基因程序｜[NF-κB phosphorylation controls enhancer selection to shape the inflammatory gene program.](https://doi.org/10.1016/j.immuni.2026.09.025) / 2026-10-23
 
 ### Nature Immunology
 - 重点详述纳入：3 篇。
 - 当期全部文献：
-- [已纳入] 区室特异性 PPARδ 活性控制癌症免疫细胞竞争的结果和免疫治疗效果｜[Compartment-specific PPARδ activity controls the outcome of cancer-immune cell competition and immunotherapy efficacy.](https://doi.org/10.1038/s41590-026-02685-2) / 2026-10-14
-- [已纳入] Zbtb44介导的转录抑制关键调节结肠炎症｜[Zbtb44-mediated transcriptional repression critically regulates colonic inflammation.](https://doi.org/10.1038/s41590-026-02675-4) / 2026-10-12
-- [已纳入] 调整 T 细胞让癌症忧郁起来｜[Tuning T cells to give cancer the blues.](https://doi.org/10.1038/s41590-026-02697-y) / 2026-10-15
-- [未纳入] 母体自身抗体在早产发病机制中的证据｜[Evidence for maternal autoantibodies in the pathogenesis of preterm birth.](https://doi.org/10.1038/s41590-026-02689-y) / 2026-10-14
+- [已纳入] 丝氨酸蛋白酶抑制剂 A3 是一种可溶性 SIRPα 配体，可抑制炎症和抗肿瘤免疫｜[Serine protease inhibitor A3 is a soluble SIRPα ligand that suppresses inflammation and antitumor immunity.](https://doi.org/10.1038/s41590-026-02682-5) / 2026-10-22
+- [已纳入] 人类中性粒细胞的单细胞图谱揭示了中性粒细胞在健康和疾病中的异质性｜[A single-cell atlas of human neutrophils reveals neutrophil heterogeneity across health and disease.](https://doi.org/10.1038/s41590-026-02671-8) / 2026-10-21
+- [已纳入] 产生 IL-2 的 TFH 细胞维持肠道中 Treg 细胞稳态和免疫耐受｜[IL-2-producing TFH cells sustain Treg cell homeostasis and immune tolerance in the gut.](https://doi.org/10.1038/s41590-026-02690-5) / 2026-10-21
+- [未纳入] GutPath 将免疫原型和受感染肠道中的单细胞景观联系起来｜[GutPath links immune archetypes and single-cell landscapes in the infected gut.](https://doi.org/10.1038/s41590-026-02719-9) / 2026-10-23
+- [未纳入] 非传染性疾病和感染的双向双重负担｜[The bidirectional double burden of non-communicable diseases and infections.](https://doi.org/10.1038/s41590-026-02696-z) / 2026-10-19
+- [未纳入] 中枢神经系统稳态和疾病中的细胞因子回路｜[Cytokine circuits in CNS homeostasis and disease.](https://doi.org/10.1038/s41590-026-02684-3) / 2026-10-23
 
 ### Science Immunology
 - 重点详述纳入：2 篇。
 - 当期全部文献：
-- [已纳入] 糖组重塑程序自身免疫中致病性 γδ T17 细胞反应｜[Glycome remodeling programs pathogenic γδ T17 cell responses in autoimmunity.](https://doi.org/10.1126/sciimmunol.aec9553) / 2026-10-16
-- [已纳入] STAT3 在抗病毒 NK 细胞中充当炎症依赖性转录开关｜[STAT3 operates as an inflammation-dependent transcriptional switch in antiviral NK cells.](https://doi.org/10.1126/sciimmunol.aed4832) / 2026-10-16
+- [已纳入] 自主巨噬细胞-伤害感受器机械感觉中继驱动慢性内脏疼痛｜[An autonomous macrophage-nociceptor mechanosensory relay drives chronic visceral pain.](https://doi.org/10.1126/sciimmunol.aeb3809) / 2026-10-23
+- [已纳入] ILC2 衍生的 IL-9 促进嗜酸性粒细胞介导的抗肿瘤活性｜[ILC2-derived IL-9 promotes eosinophil-mediated antitumor activity.](https://doi.org/10.1126/sciimmunol.adz0989) / 2026-10-23
 
 ### Bioinformatics
 - 重点详述纳入：3 篇。
 - 当期全部文献：
-- [已纳入] 基于逆概率加权的微生物组数据中介分析｜[Inverse probability weighting-based mediation analysis for microbiome data.](https://doi.org/10.1093/bioinformatics/btag750) / 2026-10-13
-- [已纳入] CMGL：用于癌症亚型分类的置信引导多组学图学习｜[CMGL: Confidence-guided Multi-omics Graph Learning for Cancer Subtype Classification.](https://doi.org/10.1093/bioinformatics/btag763) / 2026-10-12
-- [已纳入] 多药理学目标感知分子生成｜[Polypharmacological Target-Aware Molecule Generation.](https://doi.org/10.1093/bioinformatics/btag766) / 2026-10-12
+- [已纳入] 整合互补数据集以构建微生物组-代谢组-疾病途径｜[Integrating complementary datasets for constructing microbiome-metabolome-disease pathways.](https://doi.org/10.1093/bioinformatics/btag787) / 2026-10-20
+- [已纳入] XenoMix：根据患者来源的异种移植模型的 DNA 甲基化数据估算小鼠含量｜[XenoMix: Estimating mouse content from DNA methylation data of Patient-Derived Xenograft models.](https://doi.org/10.1093/bioinformatics/btag791) / 2026-10-21
+- [已纳入] ct-validation：根据临床试验结果对目标指示证据进行基准测试的开放框架｜[ct-validation: an open framework for benchmarking target-indication evidence against clinical trial outcomes.](https://doi.org/10.1093/bioinformatics/btag788) / 2026-10-20
+- [未纳入] MARDy 2.0：探索和分析抗真菌耐药突变的平台｜[MARDy 2.0: a platform for exploring and analysing antifungal resistance mutations.](https://doi.org/10.1093/bioinformatics/btag786) / 2026-10-19
 
 ### Nature Protocols
 - 重点详述纳入：0 篇。

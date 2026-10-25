@@ -1,0 +1,2042 @@
+{
+  "generated_at": "2026-10-26T03:02:35",
+  "start": "2026-10-19",
+  "end": "2026-10-25",
+  "journals": [
+    "Nature",
+    "Science",
+    "Cell",
+    "Cell metabolism",
+    "immunity",
+    "Nature Immunology",
+    "Science Immunology",
+    "Bioinformatics",
+    "Nature Protocols"
+  ],
+  "keywords": [
+    "免疫代谢",
+    "代谢表观调控",
+    "单细胞算法",
+    "单细胞图谱",
+    "流感",
+    "HSV",
+    "H1N1",
+    "肺损伤",
+    "肺组织修复",
+    "皮肤免疫"
+  ],
+  "top10": [
+    {
+      "pmid": "42913630",
+      "title": "Lifestyle-induced regulatory T cell fragility primes adverse events after immune checkpoint blockade.",
+      "journal": "Cell",
+      "pub_date": "2026-10-22",
+      "abstract": "Immune checkpoint blockade has transformed cancer therapy, but immune-related adverse events (irAEs) remain a major, sometimes fatal, limitation, and the lack of robust preclinical models has hindered mechanistic insight. We present the lifestyle-induced susceptibility to irAEs (LISA) model, in which diet-driven metabolic and microbial alterations recreate human-like susceptibility to anti-PD-1 toxicity. LISA recapitulates multi-organ irAEs with immune infiltration and cytokine production, severity depending on sex, age, treatment modality, and immunotherapy response. Mechanistically, dysbiosis marked by Akkermansia muciniphila enrichment accompanies aberrant immune activation, driving regulatory T cell (Treg) fragility and CD8+ cytotoxic effector populations, both observed in patients with irColitis. Dietary reversal, metabolite supplementation, and blocking interferon (IFN)-γ production or signaling in Tregs restored Treg stability and resolved inflammation. Human-to-mouse fecal microbiome transfer interacts with recipient diet to shape susceptibility. Together, these findings identify dietary, microbial, and immune drivers of irAEs, which can be leveraged to improve immunotherapy responses while minimizing toxicity.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cell.2026.09.055",
+      "pmcid": null,
+      "authors": [
+        "Dipyaman Patra",
+        "Katelyn Wolfgang",
+        "Chenxian Ye",
+        "Lora Rigatti",
+        "Kelsey Ertwine",
+        "Kristin M Morder",
+        "Jessica Jana",
+        "Ishita Baral"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "Akkermansia muciniphila",
+        "CD8(+) Trms",
+        "IFN-γ signaling",
+        "Treg fragility",
+        "Tregs",
+        "immune checkpoint blockade",
+        "immune-related adverse events",
+        "microbiome"
+      ],
+      "weekly_match": true,
+      "score": 48.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.055",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42914978",
+      "title": "Perforin triggers iron-induced mitochondrial damage to drive ferroptosis and anti-tumor immunity.",
+      "journal": "Cell",
+      "pub_date": "2026-10-23",
+      "abstract": "Cytotoxic CD8+ T cells and natural killer cells are critical effectors of anti-tumor immunity. Cytotoxic lymphocytes eliminate tumor cells by releasing perforin (Prf1), a pore-forming protein that enables granzymes (Gzms) to enter target cells and trigger both caspase-dependent and -independent cell death. Here, we uncover a previously unrecognized, Gzm-independent function of Prf1. We find that Prf1 directly induces tumoral ferroptosis, an iron- and lipid-dependent form of cell death. Mechanistically, Prf1-mediated pore formation drives endocytosis of the transferrin receptor, which increases cellular iron uptake. Prf1 promotes the formation of endosomal-mitochondrial contacts, which leads to mitochondrial iron accumulation, mitochondrial dysfunction, and tumor cell ferroptosis. Dietary iron supplementation suppresses tumor progression in murine tumor models in a Prf1-dependent manner. Higher Prf1 expression correlates with improved survival and enhanced response to immune checkpoint blockade in patients with cancer. These findings define a Gzm-independent function of Prf1 as a direct executioner of cancer cell death through ferroptosis.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cell.2026.09.062",
+      "pmcid": null,
+      "authors": [
+        "Hannah N Bell",
+        "Kavya Nair",
+        "Kole Tison",
+        "Peng Liao",
+        "Hongwei Lei",
+        "Marwa O El-Derany",
+        "Ayijiang Yisimayi",
+        "Haiwei Zhang"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "NK cell",
+        "T cell",
+        "ferroptosis",
+        "granzyme",
+        "immune checkpoint blockade",
+        "iron",
+        "mitochondria",
+        "perforin"
+      ],
+      "weekly_match": true,
+      "score": 44.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.062",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42914976",
+      "title": "Cell-state-specific metabolic networks govern ferroptosis versus apoptosis in small cell lung cancer.",
+      "journal": "Cell",
+      "pub_date": "2026-10-23",
+      "abstract": "Cellular heterogeneity and plasticity are hallmarks of cancer that contribute to tumor growth and therapy resistance. Here, we investigated metabolic heterogeneity in small cell lung cancer (SCLC), an aggressive cancer type with considerable plasticity between neuroendocrine (NE) and non-NE cellular states. Through integrated transcriptomic and metabolomic analyses, we identified a universal dependency on exogenous cysteine/cystine (Cys) across all NE/non-NE SCLC cell states. Notably, NE and non-NE cells with low ASCL1 transcription factor levels underwent ferroptosis upon Cys depletion, whereas ASCL1high cells underwent apoptosis while remaining resistant to ferroptosis. This ferroptosis resistance was driven by the direct transcriptional activation of GCH1 by ASCL1, resulting in increased levels of the antioxidants BH4/BH2. Accordingly, combined Cys depletion and inhibition of BH4/BH2 synthesis reduced tumor growth in patient-derived xenografts. These findings demonstrate that metabolic state influences cell-death susceptibility in SCLC and provide a rationale for therapeutic strategies that exploit these metabolic differences.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cell.2026.09.045",
+      "pmcid": null,
+      "authors": [
+        "Jun W Kim",
+        "Christina M Bebber",
+        "Yuqin Dai",
+        "Sarah Bopp",
+        "Anna Edenhofer",
+        "Albert M Li",
+        "Thomas Rösner",
+        "Lena Berning"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "ASCL1",
+        "GCH1",
+        "SCLC",
+        "apoptosis",
+        "ferroptosis",
+        "heterogeneity",
+        "lung cancer",
+        "metabolism",
+        "neuroendocrine",
+        "plasticity"
+      ],
+      "weekly_match": true,
+      "score": 44.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.045",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42912151",
+      "title": "Intron retention regulates STAT2 function and associates with immunotherapy response in lung cancer.",
+      "journal": "Science (New York, N.Y.)",
+      "pub_date": "2026-10-22",
+      "abstract": "Immunotherapy with checkpoint inhibitors has revolutionized cancer therapy and enabled considerable therapeutic advances for treating various diseases, including lung cancer. However, the molecular determinants of variable patient outcomes remain unclear. Using long-read RNA sequencing, we mapped the landscape of alternative RNA splicing in human primary lung adenocarcinomas. We identified more than 149,000 full-length messenger RNA (mRNA) isoforms, more than half of which were unannotated and many that occurred in immune-related genes, particularly within the type I interferon response pathway. We functionally characterized retained introns in the STAT2 gene that produced altered protein isoforms that regulated immune signaling and interferon responses and correlated with patient survival after anti-programmed death-ligand 1 (PD-L1) immunotherapy. These findings position alternative splicing as a regulator of tumor immune responses and reveal intron retention in STAT2 as an interferon regulatory axis that correlates with PD-L1 checkpoint inhibitor response.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1126/science.aea7156",
+      "pmcid": null,
+      "authors": [
+        "Ryan P Englander",
+        "Mattia Brugiolo",
+        "Maëva Devoucoux",
+        "Te-Chia Wu",
+        "Mitch Kostich",
+        "Nathan K Leclair",
+        "Isha Walawalkar",
+        "Hyeon Gu Kang"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 44.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1126/science.aea7156",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42918845",
+      "title": "Serine protease inhibitor A3 is a soluble SIRPα ligand that suppresses inflammation and antitumor immunity.",
+      "journal": "Nature immunology",
+      "pub_date": "2026-10-22",
+      "abstract": "SIRPα is an inhibitory receptor with the canonical ligand CD47. Here, we show that human serine protease inhibitor A3 (SERPINA3) and its mouse ortholog SERPINA3k function as soluble binders and activators of SIRPα, suppressing SIRPα+ macrophages, neutrophils, dendritic cells and natural killer cells. SERPINA3(k) treatment alleviates lipopolysaccharide-induced pneumonia and ameliorates experimental autoimmune encephalomyelitis and rheumatoid arthritis. Although wild-type SERPINA3 provokes inflammation in cardiomyocytes and brain vascular endothelial cells, the SERPINA3D2 mutant, identified through functional domain mapping for SIRPα interaction, abolishes these adverse effects while retaining full inhibitory capacity. Notably, cancer cells secrete large amounts of SERPINA3(k), exceeding CD47 levels. Anti-SERPINA3(k) antibodies, used alone or in combination with blockade of programmed cell death 1 receptor/programmed cell death ligand 1, inhibit tumor growth in multiple preclinical models. This work identifies a potent soluble SIRPα ligand, offering effective therapeutic strategies for inflammatory/autoimmune diseases and a promising target for cancer immunotherapy.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1038/s41590-026-02682-5",
+      "pmcid": null,
+      "authors": [
+        "Yufei Hou",
+        "Lei Huang",
+        "Chunhui Jin",
+        "Xiaolong Li",
+        "Yongxing Chen",
+        "Liguang Sun",
+        "Feng Wang",
+        "Yong Zhang"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 41.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1038/s41590-026-02682-5",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42907583",
+      "title": "A single-cell atlas of human neutrophils reveals neutrophil heterogeneity across health and disease.",
+      "journal": "Nature immunology",
+      "pub_date": "2026-10-21",
+      "abstract": "Neutrophils, the most abundant leukocytes in human blood, have multifaceted roles in health and disease. Here we assembled a single-cell atlas of human neutrophils (SCAHN) by integrating transcriptome data from 1 million human neutrophils from 781 samples and 43 independent datasets. Using SCAHN, we identified multiple neutrophil subsets with distinct functions across tissues and robust changes in gene expression and subset proportions in infection, cancer, immune suppression and sex differences at single-cell resolution. Cross-species reference mapping of mouse and nonhuman primate neutrophils onto SCAHN revealed both conserved and species-specific features. Using 17,023 bulk blood transcriptome profiles from 40 datasets, we found that neutrophil-specific signatures predicted mortality in acutely ill patients at presentation, were associated with cancer diagnosis and survival, and correlated with metabolic dysfunction and long-term all-cause mortality. Our study highlights how neutrophil biology can improve immune risk stratification and develop effective diagnostic and therapeutic strategies.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1038/s41590-026-02671-8",
+      "pmcid": null,
+      "authors": [
+        "Hong Zheng",
+        "Evan Maestri",
+        "Andrew R Moore",
+        "Ananthakrishnan Ganesan",
+        "Jeanna Enriquez",
+        "Verónica Durán",
+        "Shirit Einav",
+        "Tom van der Poll"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 31.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1038/s41590-026-02671-8",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42906540",
+      "title": "A bioavailable GPX4 inhibitor for ferroptosis induction in vivo and tumor suppression.",
+      "journal": "Cell",
+      "pub_date": "2026-10-21",
+      "abstract": "Ferroptosis is implicated in multiple human diseases, but the lack of bioavailable inducers has limited its physiological study and therapeutic translation. Here, we report KY0418, a selective covalent inhibitor of glutathione peroxidase 4 (GPX4) featuring an isourea warhead, with high plasma stability and broad tissue distribution after oral dosing in mice. KY0418 specifically targets GPX4SeCys46 to induce ferroptosis hallmarks in human and mouse cancer cell lines, with greater selectivity than existing inhibitors. In a standardizable acute-liver-injury mouse model, KY0418 triggers ferroptotic ultrastructural changes matching those of established inducers, and systemic administration remodels tissue metabolism and generates hydroxyl radicals detectable by a chemiluminescent probe. Subcutaneous tumors from different cancers exhibited variable responses to KY0418 treatment, from no effect to about 70% growth inhibition, but KY0418 consistently eradicated circulating tumor cells and suppressed metastasis across multiple cancer models. These findings position KY0418 as a tool for advancing in vivo ferroptosis research and its clinical translation.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cell.2026.09.053",
+      "pmcid": null,
+      "authors": [
+        "Nathchar Naowarojna",
+        "Xin Gu",
+        "Zijian Pan",
+        "Jun Yu",
+        "Kaiyin Huang",
+        "Yuyang Zeng",
+        "Yuheng Xie",
+        "Yuan Zhang"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "cancer metastasis",
+        "chemical probe",
+        "circulating tumor cells",
+        "computational drug design and discovery",
+        "covalent inhibitors",
+        "drug bioavailability",
+        "ferroptosis inducer",
+        "glutathione peroxidase 4",
+        "hydroxyl radical probe",
+        "lipid peroxidation"
+      ],
+      "weekly_match": true,
+      "score": 28.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.053",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42902790",
+      "title": "Integrating complementary datasets for constructing microbiome-metabolome-disease pathways.",
+      "journal": "Bioinformatics (Oxford, England)",
+      "pub_date": "2026-10-20",
+      "abstract": "MOTIVATION: Microbiome-metabolome-disease pathways play a central role in host health, but studying them is limited by the data available. Large clinical microbiome cohorts often lack metabolomic measurements, while multi-omics studies with paired profiles are typically small or incompletely phenotyped. Combining such complementary datasets is challenging: the metabolite is not measured in the clinical cohort, microbiome data are high-dimensional and compositional, and log-ratio analyses depend on an arbitrarily chosen reference taxon.\nRESULTS: We propose a framework that integrates a large target cohort that has microbiome and outcome data with a smaller external study that has paired microbiome-metabolome profiles. A high-dimensional structural equation model jointly links the microbiome, the metabolome and the disease outcome. It allows for unmeasured confounding and groups microbes into functional categories. We address compositionality with the additive log-ratio (ALR) transformation, estimate parameters by penalized two-stage least squares, and test metabolite-disease associations with a regularized permutation test. A novel multiple-reference procedure treats each microbe in turn as the ALR reference. It combines the resulting p-values with the Cauchy combination test and classifies microbes by stability selection, which makes inference robust to the choice of reference. In simulations, the method controls the type I error rate, and its power increases with both target and external sample sizes. An application to inflammatory bowel disease, integrating the FRAN and iHMP cohorts, reveals biologically interpretable microbiome-metabolome-disease links.\nAVAILABILITY AND IMPLEMENTATION: The method is implemented in the R package MMDP, freely available at https://github.com/lei-fang-stat/MMDP.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1093/bioinformatics/btag787",
+      "pmcid": null,
+      "authors": [
+        "Lei Fang",
+        "Chenglong Ye",
+        "Yue Wang"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "high-dimensional regression",
+        "robust inference",
+        "stability selection",
+        "two-stage least squares"
+      ],
+      "weekly_match": true,
+      "score": 27.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1093/bioinformatics/btag787",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42906554",
+      "title": "Propionate promotes MHC class I antigen presentation and anti-tumor immunity.",
+      "journal": "Cell metabolism",
+      "pub_date": "2026-10-21",
+      "abstract": "Defective tumor antigen presentation promotes immune evasion and resistance to immune checkpoint blockade. Here, we identified the short-chain fatty acid propionate as a potent enhancer of major histocompatibility complex class I (MHC class I) antigen presentation. Propionate stabilizes MHC class I on tumor cells, promotes CD8+ T cell infiltration and activation, and suppresses tumor growth. Mechanistically, the E3 ubiquitin (Ub) ligase STUB1 directly interacts with human leukocyte antigen (HLA)-A to mediate K168/K170 polyubiquitination and subsequent degradation. Propionate directly binds STUB1 through hydrogen bonds involving K30 and N34, residues that overlap with the MHC class I-binding interface. This interaction blocks STUB1-mediated MHC class I polyubiquitination, thereby stabilizing MHC class I, enhancing T cell receptor (TCR) engagement and T cell activation, and restraining tumor growth. Importantly, propionate or the propionate-producing probiotic Akkermansia muciniphila markedly enhanced anti-PD-1 efficacy. These findings uncover a non-metabolic moonlighting function of short-chain fatty acids in regulating tumor immunity and provide a rationale for leveraging dietary propionate or propionate-producing probiotics to enhance immune checkpoint therapy.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cmet.2026.09.018",
+      "pmcid": null,
+      "authors": [
+        "Suyao Li",
+        "Dong Guo",
+        "Qingqing Yang",
+        "Yizhi Cao",
+        "Yu Dong",
+        "Xiaoming Jiang",
+        "Xinyao Tian",
+        "Dou Nie"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "MHC class I",
+        "SCFA",
+        "STUB1",
+        "immune response",
+        "immune therapy",
+        "propionate",
+        "tumor",
+        "ubiquitination"
+      ],
+      "weekly_match": true,
+      "score": 26.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.018",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42907581",
+      "title": "IL-2-producing TFH cells sustain Treg cell homeostasis and immune tolerance in the gut.",
+      "journal": "Nature immunology",
+      "pub_date": "2026-10-21",
+      "abstract": "Follicular helper T (TFH) cells are well known for their role in supporting B cell responses. Here, we identify a critical B cell-independent function for TFH cells in sustaining regulatory T (Treg) cells within gut-associated lymphoid tissues (GALT). We demonstrate that TFH cells produce interleukin-2 (IL-2) at the T cell-B cell border and within interfollicular regions and that this localized IL-2 is required to maintain GALT Treg cell homeostasis and restrain the expansion of pathogenic effector T cells. Mice selectively lacking IL-2-producing TFH cells develop colitis and fatal multiorgan inflammation, driven by impaired GALT Treg cell responses and uncontrolled effector T cell activation. Broad-spectrum antibiotic treatment alleviates both intestinal and extraintestinal pathology, indicating that loss of tolerance to commensal-derived antigens is a key driver of disease. Together, these findings define a spatially restricted TFH cell-derived IL-2 niche critical for GALT Treg cell stability and uncover an unexpected immunoregulatory role for TFH cells in maintaining gastrointestinal tolerance beyond B cell help.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1038/s41590-026-02690-5",
+      "pmcid": null,
+      "authors": [
+        "Shivangi Dave",
+        "Holly Bachus",
+        "Nathan Santiago",
+        "Audrey Meloun",
+        "Margery Smelkinson",
+        "Jeremy B Foote",
+        "Thomas Hill",
+        "Christopher Fucile"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 25.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1038/s41590-026-02690-5",
+      "supplement_reason": null
+    }
+  ],
+  "weekly_papers": {
+    "Nature": [],
+    "Science": [
+      {
+        "pmid": "42912155",
+        "title": "Ultrarapid decision-making in an avian brain.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-10-22",
+        "abstract": "Perceptual decision-making is well studied in mammals, but its operation in other vertebrates remains unclear. We show that carrion crows (Corvus corone) make deliberate decisions in a classic visual motion discrimination task with unprecedented speed, reporting choices in approximately 235 milliseconds on average, which is roughly twice as fast as has been observed in monkeys or humans and without sacrificing accuracy. Recordings from the pallial endbrain reveal that direction-selective neurons encode the upcoming choice as early as about 70 milliseconds after stimulus onset and about 170 milliseconds before the response, with ramping activity scaling with sensory evidence and converging at response onset. These findings highlight the extraordinary efficiency of avian decision-making circuitry, possibly shaped by evolutionary pressures for rapid visuomotor control.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aed6459",
+        "pmcid": null,
+        "authors": [
+          "Philipp Schmidbauer",
+          "Andreas Nieder"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 10.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aed6459",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42912151",
+        "title": "Intron retention regulates STAT2 function and associates with immunotherapy response in lung cancer.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-10-22",
+        "abstract": "Immunotherapy with checkpoint inhibitors has revolutionized cancer therapy and enabled considerable therapeutic advances for treating various diseases, including lung cancer. However, the molecular determinants of variable patient outcomes remain unclear. Using long-read RNA sequencing, we mapped the landscape of alternative RNA splicing in human primary lung adenocarcinomas. We identified more than 149,000 full-length messenger RNA (mRNA) isoforms, more than half of which were unannotated and many that occurred in immune-related genes, particularly within the type I interferon response pathway. We functionally characterized retained introns in the STAT2 gene that produced altered protein isoforms that regulated immune signaling and interferon responses and correlated with patient survival after anti-programmed death-ligand 1 (PD-L1) immunotherapy. These findings position alternative splicing as a regulator of tumor immune responses and reveal intron retention in STAT2 as an interferon regulatory axis that correlates with PD-L1 checkpoint inhibitor response.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aea7156",
+        "pmcid": null,
+        "authors": [
+          "Ryan P Englander",
+          "Mattia Brugiolo",
+          "Maëva Devoucoux",
+          "Te-Chia Wu",
+          "Mitch Kostich",
+          "Nathan K Leclair",
+          "Isha Walawalkar",
+          "Hyeon Gu Kang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 44.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aea7156",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42912149",
+        "title": "BAK and BAX form a multiprotein complex to drive mtDNA efflux and caspase-independent cell death.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-10-22",
+        "abstract": "The apoptotic regulators BAX and BAK, once activated, form homo-oligomers to trigger mitochondrial outer membrane permeabilization (MOMP), activating the apoptosome and caspases. Activation of BAX-BAK without apoptosome activation triggers sustained efflux of mitochondrial DNA (mtDNA) and caspase-independent cell death. However, the molecular basis of mtDNA efflux remains unclear. We purified a macromolecular complex comprising BAK, BAX, activator BH3-only molecules, voltage-dependent anion channels 1 and 2 (VDAC1 and VDAC2), and prohibitins that released mtDNA from mitoplasts. BAX-BAK activation resulted in VDAC closure, mitochondrial calcium influx, and mtDNA efflux. Loss of VDAC1, VDAC2, or prohibitins prevented BAX-BAK activation-induced mtDNA efflux and caspase-independent cell death without affecting MOMP or mitochondrial inner membrane herniation. These findings support differential regulation of cytochrome c and mtDNA efflux by distinct BAX-BAK complexes.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aea2181",
+        "pmcid": null,
+        "authors": [
+          "Shaoyuan Yang",
+          "Hyungjin Kim",
+          "Guanghong Liao",
+          "Na Ta",
+          "Ho-Chou Tu",
+          "Shriram Ramani",
+          "Chih-Yu Chen",
+          "Zih-Yu Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 10.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aea2181",
+        "supplement_reason": null
+      }
+    ],
+    "Cell": [
+      {
+        "pmid": "42914978",
+        "title": "Perforin triggers iron-induced mitochondrial damage to drive ferroptosis and anti-tumor immunity.",
+        "journal": "Cell",
+        "pub_date": "2026-10-23",
+        "abstract": "Cytotoxic CD8+ T cells and natural killer cells are critical effectors of anti-tumor immunity. Cytotoxic lymphocytes eliminate tumor cells by releasing perforin (Prf1), a pore-forming protein that enables granzymes (Gzms) to enter target cells and trigger both caspase-dependent and -independent cell death. Here, we uncover a previously unrecognized, Gzm-independent function of Prf1. We find that Prf1 directly induces tumoral ferroptosis, an iron- and lipid-dependent form of cell death. Mechanistically, Prf1-mediated pore formation drives endocytosis of the transferrin receptor, which increases cellular iron uptake. Prf1 promotes the formation of endosomal-mitochondrial contacts, which leads to mitochondrial iron accumulation, mitochondrial dysfunction, and tumor cell ferroptosis. Dietary iron supplementation suppresses tumor progression in murine tumor models in a Prf1-dependent manner. Higher Prf1 expression correlates with improved survival and enhanced response to immune checkpoint blockade in patients with cancer. These findings define a Gzm-independent function of Prf1 as a direct executioner of cancer cell death through ferroptosis.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.062",
+        "pmcid": null,
+        "authors": [
+          "Hannah N Bell",
+          "Kavya Nair",
+          "Kole Tison",
+          "Peng Liao",
+          "Hongwei Lei",
+          "Marwa O El-Derany",
+          "Ayijiang Yisimayi",
+          "Haiwei Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "NK cell",
+          "T cell",
+          "ferroptosis",
+          "granzyme",
+          "immune checkpoint blockade",
+          "iron",
+          "mitochondria",
+          "perforin"
+        ],
+        "weekly_match": true,
+        "score": 44.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.062",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42914977",
+        "title": "Taurine lowers inflammaging by regulating the NLRP3 inflammasome in macrophages.",
+        "journal": "Cell",
+        "pub_date": "2026-10-23",
+        "abstract": "Whether a decline in taurine drives aging is debated, and despite high millimolar intracellular concentrations, its function as a potential guardian of cytosolic homeostasis is unclear. Here, we show that aging increases circulating taurine concentrations in humans and mice. Further elevating taurine in aged mice enhances health span, engaging anti-inflammatory pathways previously linked to youthfulness, and reduces mortality from sepsis and inflammasome-mediated inflammation, suggesting an enantiostatic response. Mechanistically, diverse NLRP3-specific \"danger signals\" induce taurine efflux from macrophages as a proximal step to activate the inflammasome and the resultant pyroptosis. Taurine restoration in macrophages prevents NLRP3-induced trans-Golgi network disassembly, thereby suppressing NLRP3 inflammasome activation. Conversely, lowering taurine biosynthesis combined with reduced bioavailability in macrophages exacerbated inflammasome activation. In humans, sustained caloric restriction elevates adipose tissue taurine and is accompanied by lower inflammation. Together, we identify taurine as an immunometabolic rheostat that links danger sensing to NLRP3 inflammasome activation, suggesting taurine-based strategies to alleviate inflammaging and inflammasomopathies.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.061",
+        "pmcid": null,
+        "authors": [
+          "Chenyang Guan",
+          "Seungjin Ryu",
+          "Mingze Dong",
+          "Yitao Zhu",
+          "Rae Maeda",
+          "Yun-Hee Youm",
+          "Subhasis Mohanty",
+          "Hee-Hoon Kim"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "NLRP3",
+          "aging",
+          "antiinflammation",
+          "caloric restriction",
+          "immunometabolism",
+          "inflammaging",
+          "inflammasome",
+          "lifespan",
+          "taurine",
+          "taurine efflux"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.061",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42914976",
+        "title": "Cell-state-specific metabolic networks govern ferroptosis versus apoptosis in small cell lung cancer.",
+        "journal": "Cell",
+        "pub_date": "2026-10-23",
+        "abstract": "Cellular heterogeneity and plasticity are hallmarks of cancer that contribute to tumor growth and therapy resistance. Here, we investigated metabolic heterogeneity in small cell lung cancer (SCLC), an aggressive cancer type with considerable plasticity between neuroendocrine (NE) and non-NE cellular states. Through integrated transcriptomic and metabolomic analyses, we identified a universal dependency on exogenous cysteine/cystine (Cys) across all NE/non-NE SCLC cell states. Notably, NE and non-NE cells with low ASCL1 transcription factor levels underwent ferroptosis upon Cys depletion, whereas ASCL1high cells underwent apoptosis while remaining resistant to ferroptosis. This ferroptosis resistance was driven by the direct transcriptional activation of GCH1 by ASCL1, resulting in increased levels of the antioxidants BH4/BH2. Accordingly, combined Cys depletion and inhibition of BH4/BH2 synthesis reduced tumor growth in patient-derived xenografts. These findings demonstrate that metabolic state influences cell-death susceptibility in SCLC and provide a rationale for therapeutic strategies that exploit these metabolic differences.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.045",
+        "pmcid": null,
+        "authors": [
+          "Jun W Kim",
+          "Christina M Bebber",
+          "Yuqin Dai",
+          "Sarah Bopp",
+          "Anna Edenhofer",
+          "Albert M Li",
+          "Thomas Rösner",
+          "Lena Berning"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ASCL1",
+          "GCH1",
+          "SCLC",
+          "apoptosis",
+          "ferroptosis",
+          "heterogeneity",
+          "lung cancer",
+          "metabolism",
+          "neuroendocrine",
+          "plasticity"
+        ],
+        "weekly_match": true,
+        "score": 44.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.045",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42913630",
+        "title": "Lifestyle-induced regulatory T cell fragility primes adverse events after immune checkpoint blockade.",
+        "journal": "Cell",
+        "pub_date": "2026-10-22",
+        "abstract": "Immune checkpoint blockade has transformed cancer therapy, but immune-related adverse events (irAEs) remain a major, sometimes fatal, limitation, and the lack of robust preclinical models has hindered mechanistic insight. We present the lifestyle-induced susceptibility to irAEs (LISA) model, in which diet-driven metabolic and microbial alterations recreate human-like susceptibility to anti-PD-1 toxicity. LISA recapitulates multi-organ irAEs with immune infiltration and cytokine production, severity depending on sex, age, treatment modality, and immunotherapy response. Mechanistically, dysbiosis marked by Akkermansia muciniphila enrichment accompanies aberrant immune activation, driving regulatory T cell (Treg) fragility and CD8+ cytotoxic effector populations, both observed in patients with irColitis. Dietary reversal, metabolite supplementation, and blocking interferon (IFN)-γ production or signaling in Tregs restored Treg stability and resolved inflammation. Human-to-mouse fecal microbiome transfer interacts with recipient diet to shape susceptibility. Together, these findings identify dietary, microbial, and immune drivers of irAEs, which can be leveraged to improve immunotherapy responses while minimizing toxicity.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.055",
+        "pmcid": null,
+        "authors": [
+          "Dipyaman Patra",
+          "Katelyn Wolfgang",
+          "Chenxian Ye",
+          "Lora Rigatti",
+          "Kelsey Ertwine",
+          "Kristin M Morder",
+          "Jessica Jana",
+          "Ishita Baral"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Akkermansia muciniphila",
+          "CD8(+) Trms",
+          "IFN-γ signaling",
+          "Treg fragility",
+          "Tregs",
+          "immune checkpoint blockade",
+          "immune-related adverse events",
+          "microbiome"
+        ],
+        "weekly_match": true,
+        "score": 48.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.055",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42913628",
+        "title": "MCT6 is an intestinal Lac-Phe exporter required for metformin-associated weight loss.",
+        "journal": "Cell",
+        "pub_date": "2026-10-22",
+        "abstract": "Metabolites are increasingly recognized as circulating molecules that regulate physiology, yet the mechanisms that couple local intracellular production to organism-wide action remain poorly defined. Using the anorexigenic metabolite N-lactoyl-phenylalanine (Lac-Phe) as a model system, we identify the orphan transporter MCT6/SLC16A5 as a physiologic intestinal Lac-Phe exporter. This mechanism controls the extent to which intracellularly synthesized Lac-Phe acquires systemic activity. MCT6 transports Lac-Phe in vitro, mediates Lac-Phe efflux in cells, and is required for maintaining normal circulating Lac-Phe levels in vivo, particularly following metformin treatment or high-intensity exercise. High-fat-diet-fed mice with global or intestinal epithelial-specific deletion of MCT6 exhibit resistance to metformin-associated weight loss. Bypassing the transport defect with exogenous Lac-Phe normalizes the body weight phenotype of MCT6-knockout (KO) mice. These data connect MCT6 to Lac-Phe and gut glycolytic flux and underscore the importance of transporter-mediated release in the conversion of an intracellular metabolic state into a circulating metabolite effector.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.058",
+        "pmcid": "PMC13694832",
+        "authors": [
+          "Shuke Xiao",
+          "Alan Sheng-Hwa Tung",
+          "Jan Spaas",
+          "Sipei Fu",
+          "Xudong Chen",
+          "Tuan Kiet Trinh",
+          "Maria Dolores Moya-Garzon",
+          "Veronica L Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Lac-Phe",
+          "MCT6",
+          "SLC16A5",
+          "circulating",
+          "lactate",
+          "metabolites",
+          "metformin",
+          "obesity",
+          "transporter",
+          "weight loss"
+        ],
+        "weekly_match": true,
+        "score": 8.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.058",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42906542",
+        "title": "In vivo Gene Writing with engineered retrotransposons.",
+        "journal": "Cell",
+        "pub_date": "2026-10-21",
+        "abstract": "Efficient integration of gene-length cargos in vivo remains challenging. Non-long terminal repeat (non-LTR) retrotransposons, which naturally mobilize large DNA segments through an RNA intermediate, could potentially address these limitations. Here, we developed a computational pipeline to systematically identify a diverse set of non-LTR retrotransposons. Extensive engineering generated elements capable of the efficient and stable insertion of reporter genes in human cells using RNA templates introduced in trans, which we term Gene Writers. Gene Writers successfully generated CD19 and CD20 chimeric antigen receptor T (CAR-T) cells ex vivo with robust antitumor activity. Lipid nanoparticle-mediated RNA delivery enabled in vivo CAR-T cell generation and stable B cell depletion in a humanized mouse model. Our study delineates a comprehensive framework for the discovery, engineering, and application of non-LTR retrotransposons and demonstrates their utility for gene-sized cargo delivery in vivo, thereby bridging a critical gap in existing gene therapy modalities.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.054",
+        "pmcid": null,
+        "authors": [
+          "Donghui Li",
+          "Alberto De Iaco",
+          "Kevin C Ngan",
+          "Georgy Smyshlyaev",
+          "Ninad Kumbhojkar",
+          "Barrett E Steinberg",
+          "Zohra Kalani",
+          "Lingbo Xia"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "LNP",
+          "cell and gene therapy",
+          "gene-length insertion",
+          "genome engineering",
+          "in vivo CAR-T engineering",
+          "in vivo RNA delivery",
+          "lipid nanoparticles",
+          "non-LTR retrotransposons",
+          "target-primed reverse transcription"
+        ],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.054",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42906540",
+        "title": "A bioavailable GPX4 inhibitor for ferroptosis induction in vivo and tumor suppression.",
+        "journal": "Cell",
+        "pub_date": "2026-10-21",
+        "abstract": "Ferroptosis is implicated in multiple human diseases, but the lack of bioavailable inducers has limited its physiological study and therapeutic translation. Here, we report KY0418, a selective covalent inhibitor of glutathione peroxidase 4 (GPX4) featuring an isourea warhead, with high plasma stability and broad tissue distribution after oral dosing in mice. KY0418 specifically targets GPX4SeCys46 to induce ferroptosis hallmarks in human and mouse cancer cell lines, with greater selectivity than existing inhibitors. In a standardizable acute-liver-injury mouse model, KY0418 triggers ferroptotic ultrastructural changes matching those of established inducers, and systemic administration remodels tissue metabolism and generates hydroxyl radicals detectable by a chemiluminescent probe. Subcutaneous tumors from different cancers exhibited variable responses to KY0418 treatment, from no effect to about 70% growth inhibition, but KY0418 consistently eradicated circulating tumor cells and suppressed metastasis across multiple cancer models. These findings position KY0418 as a tool for advancing in vivo ferroptosis research and its clinical translation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.053",
+        "pmcid": null,
+        "authors": [
+          "Nathchar Naowarojna",
+          "Xin Gu",
+          "Zijian Pan",
+          "Jun Yu",
+          "Kaiyin Huang",
+          "Yuyang Zeng",
+          "Yuheng Xie",
+          "Yuan Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cancer metastasis",
+          "chemical probe",
+          "circulating tumor cells",
+          "computational drug design and discovery",
+          "covalent inhibitors",
+          "drug bioavailability",
+          "ferroptosis inducer",
+          "glutathione peroxidase 4",
+          "hydroxyl radical probe",
+          "lipid peroxidation"
+        ],
+        "weekly_match": true,
+        "score": 28.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.053",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42906538",
+        "title": "Proteomic atlas of T cell exhaustion defines proteostatic collapse.",
+        "journal": "Cell",
+        "pub_date": "2026-10-21",
+        "abstract": "T cell exhaustion limits the success of cancer immunotherapies, yet the proteomic changes underlying this dysfunctional state remain poorly understood. We integrated transcriptomics, quantitative proteomics, turnover proteomics, and ubiquitin proteomics to construct a multi-omic atlas of T cell exhaustion. These studies identified pathways regulated through transcriptional and post-translational mechanisms, including degradative and nondegradative ubiquitin modifications, and uncovered widespread changes in proteostasis, metabolism, and DNA repair. Major shifts were revealed in the ubiquitin-proteasome system, as differential expression of E3 ubiquitin ligases correlates with immunotherapy outcomes. These findings position the collapse of proteostasis as a central, underappreciated feature of T cell exhaustion and reveal opportunities to restore T cell function. We demonstrate that overexpression of the E3 ligase RNF166 enhances T cell persistence in vitro and in vivo. This work defines proteome-turnover dynamics as a critical regulatory layer in progressive T cell dysfunction, with broad implications for advancing cancer immunotherapy through manipulation of E3 ligases.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.051",
+        "pmcid": "PMC13693510",
+        "authors": [
+          "Sydnye L Shuttleworth",
+          "Michael A Bauer",
+          "Dennis W Province",
+          "Jessica L Kelliher",
+          "Nicole E Scharping",
+          "Alexander Monell",
+          "Lora J Rogers",
+          "Thomas A Williams"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CAR-T",
+          "E3 ubiquitin ligase",
+          "T cell",
+          "cancer immunotherapy",
+          "cell therapy",
+          "exhaustion",
+          "half-life",
+          "protein-turnover dynamics",
+          "proteostasis",
+          "ubiquitin"
+        ],
+        "weekly_match": true,
+        "score": 22.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.051",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42906537",
+        "title": "Contrasting demographic impacts of Roman colonization and early medieval migrations in the Iberian Peninsula.",
+        "journal": "Cell",
+        "pub_date": "2026-10-21",
+        "abstract": "It has been unclear how Roman and later Germanic political control shaped the demography of Iberia and how it differed from other parts of Europe. We report genetic data from 243 ancient individuals dating to 100-800 CE, analyzed alongside 58 previously published individuals. In Roman times, we document an influx of people with ancestry from the Eastern Mediterranean and an influx of North Africans, especially in the center and south. Beginning in the 5th century, Germanic and Alan (Sarmatian) groups assumed political control. Although we identify individuals with Central-Northern European-associated ancestry, including siblings buried ∼725 km apart, the Hispano-Roman population remained continuous in Iberia. These demographic patterns contrast sharply with those in Britain, where major demographic change followed Rome's collapse, and with those in the central Mediterranean, where both periods were associated with profound transformations. Together, these findings highlight regional variation in admixture and continuity across post-Roman Europe.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.052",
+        "pmcid": null,
+        "authors": [
+          "Pablo Carrión",
+          "Iñigo Olalde",
+          "Michael McCormick",
+          "Kyle Harper",
+          "Maite I Garcia-Collado",
+          "Vanessa Villalba-Mouco",
+          "Juan Manuel Jiménez-Arenas",
+          "Neus Coromina"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Iberian Peninsula",
+          "Mediterranean Sea",
+          "Roman Empire",
+          "admixture",
+          "ancient DNA",
+          "ancient migration",
+          "human genetics",
+          "human mobility",
+          "migration period",
+          "population genomics"
+        ],
+        "weekly_match": true,
+        "score": 0.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.052",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42896553",
+        "title": "The pyrin inflammasome senses OCTN2-mediated uptake of extracellular ʟ-carnitine from muscle injury or ingestion.",
+        "journal": "Cell",
+        "pub_date": "2026-10-19",
+        "abstract": "Red-meat-containing diets are epidemiologically associated with diseases of chronic inflammation, while diets that restrict red meat improve health. Yet, it is uncertain how red meat incites inflammation. Here, we discover that ʟ-carnitine, an amino acid highly concentrated in skeletal muscle myocytes, drives inflammasome activation in lipopolysaccharide (LPS)-challenged mice and LPS-primed murine and human macrophages. We find that extracellular ʟ-carnitine represses mevalonate synthesis, thereby triggering activation of the pyrin inflammasome, downstream of cellular import by the high-affinity ʟ-carnitine transporter OCTN2. We find that the inflammatory response to skeletal muscle injury also requires pyrin and OCTN2. Thus, in summary, we identify macrophages as sentinels of exogenous and endogenous extracellular ʟ-carnitine that serve as a proxy for skeletal myocyte damage, and we open the field to examine the mechanistic basis for how excess dietary intake of carnitine-rich food drives inflammatory disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.015",
+        "pmcid": null,
+        "authors": [
+          "Eric I Elliott",
+          "Tomomi M Yoshida",
+          "Susana C B R Nakandakari",
+          "Scott Pope",
+          "Cuiling Zhang",
+          "Timothy Nottoli",
+          "Jae Jin Chae",
+          "Daniel L Kastner"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ASC",
+          "MEFV",
+          "OCTN2",
+          "SLC22A5",
+          "caspase-1",
+          "inflammasome",
+          "interleukin-17a",
+          "interleukin-1β",
+          "pyrin",
+          "rhabdomyolysis",
+          "sepsis",
+          "ʟ-carnitine"
+        ],
+        "weekly_match": true,
+        "score": 12.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.015",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42896552",
+        "title": "A microbiome-bile acid axis mediates protection from chronic liver disease in females.",
+        "journal": "Cell",
+        "pub_date": "2026-10-19",
+        "abstract": "Sex-based differences in chronic liver disease (CLD) incidence and progression are well documented, yet the mechanistic basis of this sexual disparity remains elusive. Here, leveraging a large-scale metabolomics database comprising 9,254 individuals, we identify the endogenous bile acid, isoursodeoxycholic acid (isoUDCA), as a candidate mediator of female-associated hepatoprotection. We trace the origin of isoUDCA to a bacterial consortium, which is selectively enriched by estrogen through shaping a specialized intestinal microenvironment. Mechanistically, isoUDCA promotes the nuclear accumulation of SREBP2. This upregulates the intracellular transporter STARD4 and its functionally coupled downstream enzyme CYP7B1, thereby facilitating intracellular cholesterol handling and metabolic conversion. Collectively, our findings support a microbiome-bile acid-liver axis that may contribute to sex differences in CLD susceptibility and support further evaluation of isoUDCA as a potential therapeutic intervention.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.048",
+        "pmcid": null,
+        "authors": [
+          "Mengci Li",
+          "Junliang Kuang",
+          "Tianlu Chen",
+          "Keke Ding",
+          "Yuanyuan Chen",
+          "Fuxin Jiao",
+          "Yang Li",
+          "Peiyang Luo"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CYP7B1",
+          "STARD4",
+          "bile acid",
+          "chronic liver disease",
+          "gut microbiome",
+          "isoursodeoxycholic acid",
+          "sex disparity"
+        ],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.048",
+        "supplement_reason": null
+      }
+    ],
+    "Cell metabolism": [
+      {
+        "pmid": "42914985",
+        "title": "Dynamic force sensing by bone delays aging and extends lifespan.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-10-23",
+        "abstract": "Physical activity promotes health primarily by decelerating the aging process. Bone is one of the tissues capable of sensing mechanical force and can adapt to different physical demands. However, its role in whole-body aging is unknown. We found that reduced mechano-sensing in osteocytes, caused by deletion of the mechanosensory channel, Piezo1, accelerated whole-body aging in mice. Dynamic tibial axial loading (DTAL) in mice at 20-24 months of age extended both healthspan and lifespan (9.4%/79.5 days). Furthermore, DTAL reversed bone marrow immunosenescence and induced anti-aging and protective factors while downregulating pro-aging and pro-inflammatory factors. We also identified pigment epithelium-derived factor (PEDF) as a novel mechano-responsive anti-aging factor that is highly associated with healthy aging in humans. Thus, our findings highlighted an essential role for bone mechano-sensing in whole-body aging. This could potentially be manipulated to prevent aging, extend health, and aid those unable to exercise or with decreased mobility.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.020",
+        "pmcid": null,
+        "authors": [
+          "Zhimin Zhang",
+          "Zhiqing Cai",
+          "Shencai Liu",
+          "Yun Chu",
+          "Zhengtao Jiang",
+          "Wuju Zhang",
+          "Yating Pan",
+          "Ying Lin"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "PEDF",
+          "PIEZO1",
+          "aging",
+          "bone",
+          "bone marrow",
+          "exercise mimetics",
+          "immunosenescence",
+          "lifespan",
+          "mechano-sensing",
+          "osteocytes",
+          "pigment epithelium-derived factor"
+        ],
+        "weekly_match": true,
+        "score": 8.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.020",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42913648",
+        "title": "Distinguishing hepatic metabolic effects from overall cardiometabolic benefit after matched weight loss.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-10-22",
+        "abstract": "",
+        "publication_types": [
+          "Letter"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.014",
+        "pmcid": null,
+        "authors": [
+          "André Marques Fernandes Silva"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.014",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42913647",
+        "title": "On the interpretation of diet-specific metabolic effects following weight loss.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-10-22",
+        "abstract": "",
+        "publication_types": [
+          "Letter"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.010",
+        "pmcid": null,
+        "authors": [
+          "Faidon Magkos"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.010",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42913646",
+        "title": "Response to Magkos and Silva: Diet macronutrient content and metabolic function in metabolically unhealthy obesity.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-10-22",
+        "abstract": "",
+        "publication_types": [
+          "Letter"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.011",
+        "pmcid": null,
+        "authors": [
+          "Max C Petersen",
+          "Gordon I Smith",
+          "Samuel Klein"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.011",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42906554",
+        "title": "Propionate promotes MHC class I antigen presentation and anti-tumor immunity.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-10-21",
+        "abstract": "Defective tumor antigen presentation promotes immune evasion and resistance to immune checkpoint blockade. Here, we identified the short-chain fatty acid propionate as a potent enhancer of major histocompatibility complex class I (MHC class I) antigen presentation. Propionate stabilizes MHC class I on tumor cells, promotes CD8+ T cell infiltration and activation, and suppresses tumor growth. Mechanistically, the E3 ubiquitin (Ub) ligase STUB1 directly interacts with human leukocyte antigen (HLA)-A to mediate K168/K170 polyubiquitination and subsequent degradation. Propionate directly binds STUB1 through hydrogen bonds involving K30 and N34, residues that overlap with the MHC class I-binding interface. This interaction blocks STUB1-mediated MHC class I polyubiquitination, thereby stabilizing MHC class I, enhancing T cell receptor (TCR) engagement and T cell activation, and restraining tumor growth. Importantly, propionate or the propionate-producing probiotic Akkermansia muciniphila markedly enhanced anti-PD-1 efficacy. These findings uncover a non-metabolic moonlighting function of short-chain fatty acids in regulating tumor immunity and provide a rationale for leveraging dietary propionate or propionate-producing probiotics to enhance immune checkpoint therapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.018",
+        "pmcid": null,
+        "authors": [
+          "Suyao Li",
+          "Dong Guo",
+          "Qingqing Yang",
+          "Yizhi Cao",
+          "Yu Dong",
+          "Xiaoming Jiang",
+          "Xinyao Tian",
+          "Dou Nie"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "MHC class I",
+          "SCFA",
+          "STUB1",
+          "immune response",
+          "immune therapy",
+          "propionate",
+          "tumor",
+          "ubiquitination"
+        ],
+        "weekly_match": true,
+        "score": 26.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.018",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42906553",
+        "title": "Weight loss during intermittent fasting, not Mediterranean diet quality alone, is associated with lower inflammation: A randomized controlled trial.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-10-21",
+        "abstract": "Whether the anti-inflammatory effects of a Mediterranean diet reflect diet quality itself or accompanying weight loss is unclear. In a 16-week randomized controlled-feeding trial, 53 adults (77% female; mean age 54.7 years) with metabolic risk factors received a fully provided Mediterranean diet or their habitual western diet for 8 weeks, then added twice-weekly fasting days for a further 8 weeks. The primary outcome, high-sensitivity C-reactive protein, did not change during the diet-only phase despite clear dietary separation. After fasting began, C-reactive protein fell in the Mediterranean-diet group relative to controls, alongside greater weight loss, improved insulin sensitivity, and lower blood pressure; lipid improvements had already emerged during the diet-only phase. Multi-omic analyses showed parallel reductions in inflammatory signaling, with gut microbiome composition largely stable. Thus, diet quality alone does not lower inflammation over 8 weeks; negative energy balance and weight loss during fasting appear to be the stronger drivers. This study was registered at ClinicalTrials.gov (NCT02148458).",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.017",
+        "pmcid": null,
+        "authors": [
+          "Moritz V Warmbrunn",
+          "Valeria Tosti",
+          "Raaj Kishore Biswas",
+          "Beatrice Bertozzi",
+          "Maria Lastra Cagigas",
+          "Nicola Veronese",
+          "Francesco Spelta",
+          "Laura Piccio"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "LDL-cholesterol",
+          "Mediterranean diet",
+          "alternate-day fasting",
+          "cardiovascular disease risk",
+          "diet quality",
+          "hsCRP",
+          "inflammation",
+          "intermittent fasting",
+          "metabolism",
+          "weight loss"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.017",
+        "supplement_reason": null
+      }
+    ],
+    "immunity": [
+      {
+        "pmid": "42914982",
+        "title": "NF-κB phosphorylation controls enhancer selection to shape the inflammatory gene program.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-23",
+        "abstract": "Inflammatory transcriptional responses mediated by NF-κB are diverse despite similar upstream activation signals. Because phosphorylation of the NF-κB subunit RelA/p65 promotes interaction with co-activators CREB-binding protein/E1A binding protein p300 (CBP/p300) and selectively affects gene expression, we asked whether this modification distinguishes regulatory architectures underlying distinct immune functions. In macrophages carrying a Rela Ser276Ala mutation, p65 phosphorylation at serine 276 (S276) was dispensable for NF-κB binding to primed enhancers but essential for recruitment to nucleosome-occluded regions lacking pre-bound transcription factors (TFs) and activating histone marks. Such latent enhancers required phosphorylated NF-κB to recruit CBP/p300, promote histone acetylation, and open chromatin. Genes linked to these enhancers, including inflammatory mediators, were selectively impaired in S276A macrophages. Although antiviral responses remained intact, Rela Ser276Ala mice resisted endotoxin shock but were susceptible to bacterial infection. Thus, NF-κB responses are functionally partitioned by enhancer architecture: phosphorylation-sensitive sites define a latent enhancer compartment with NF-κB-dominated regulatory architecture, whereas primed sites are embedded in broader networks of lineage-determining and inducible TFs, yielding distinct biological outputs.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.025",
+        "pmcid": null,
+        "authors": [
+          "Felipe Batista Leão",
+          "Dev Bhatt",
+          "Lauren Vaughn",
+          "Will Liao",
+          "Dillon Maloney",
+          "Vincent Guichard",
+          "Brea Hampton",
+          "Alexander Yang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CBP/p300",
+          "NF-κB",
+          "RelA/p65 Ser276 phosphorylation",
+          "chromatin remodeling",
+          "epigenetic regulation",
+          "gene regulation",
+          "inflammatory responses",
+          "latent enhancers",
+          "macrophage activation",
+          "post-translational modifications"
+        ],
+        "weekly_match": true,
+        "score": 18.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.025",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Immunology": [
+      {
+        "pmid": "42919973",
+        "title": "GutPath links immune archetypes and single-cell landscapes in the infected gut.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-23",
+        "abstract": "",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02719-9",
+        "pmcid": null,
+        "authors": [],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02719-9",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42919972",
+        "title": "Cytokine circuits in CNS homeostasis and disease.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-23",
+        "abstract": "Cytokines are critical regulators of central nervous system (CNS) integrity, acting not only as immune messengers but also as signals that coordinate interactions among glial and neuronal cells, resident macrophages, such as microglia and border-associated macrophages, and infiltrating leukocytes. These circuits establish basal immune tone, shape responses to perturbation, and promote tissue adaptation and recovery. In this Review, we examine selected cytokine pathways across homeostasis, inflammatory or degenerative tissue damage and repair to develop a framework for how cytokine networks preserve, destabilize and restore CNS integrity. We focus on CSF-1, IL-34, TGFβ and IL-33 in homeostasis; IL-1, TNF, GM-CSF and IFNγ in inflammation; type I and II interferons in antiviral and neurodegenerative states; and IL-12 at the interface of innate sensing, adaptive immunity and tissue-protective adaptation. By focusing on instructive modules, we highlight broader organizing principles and how cytokine miscalibration can lead to neurological disease across diverse contexts.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1038/s41590-026-02684-3",
+        "pmcid": null,
+        "authors": [
+          "Burkhard Becher",
+          "Donatella De Feo",
+          "Melanie Greter"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 11.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02684-3",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42918845",
+        "title": "Serine protease inhibitor A3 is a soluble SIRPα ligand that suppresses inflammation and antitumor immunity.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-22",
+        "abstract": "SIRPα is an inhibitory receptor with the canonical ligand CD47. Here, we show that human serine protease inhibitor A3 (SERPINA3) and its mouse ortholog SERPINA3k function as soluble binders and activators of SIRPα, suppressing SIRPα+ macrophages, neutrophils, dendritic cells and natural killer cells. SERPINA3(k) treatment alleviates lipopolysaccharide-induced pneumonia and ameliorates experimental autoimmune encephalomyelitis and rheumatoid arthritis. Although wild-type SERPINA3 provokes inflammation in cardiomyocytes and brain vascular endothelial cells, the SERPINA3D2 mutant, identified through functional domain mapping for SIRPα interaction, abolishes these adverse effects while retaining full inhibitory capacity. Notably, cancer cells secrete large amounts of SERPINA3(k), exceeding CD47 levels. Anti-SERPINA3(k) antibodies, used alone or in combination with blockade of programmed cell death 1 receptor/programmed cell death ligand 1, inhibit tumor growth in multiple preclinical models. This work identifies a potent soluble SIRPα ligand, offering effective therapeutic strategies for inflammatory/autoimmune diseases and a promising target for cancer immunotherapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02682-5",
+        "pmcid": null,
+        "authors": [
+          "Yufei Hou",
+          "Lei Huang",
+          "Chunhui Jin",
+          "Xiaolong Li",
+          "Yongxing Chen",
+          "Liguang Sun",
+          "Feng Wang",
+          "Yong Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 41.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02682-5",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42907583",
+        "title": "A single-cell atlas of human neutrophils reveals neutrophil heterogeneity across health and disease.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-21",
+        "abstract": "Neutrophils, the most abundant leukocytes in human blood, have multifaceted roles in health and disease. Here we assembled a single-cell atlas of human neutrophils (SCAHN) by integrating transcriptome data from 1 million human neutrophils from 781 samples and 43 independent datasets. Using SCAHN, we identified multiple neutrophil subsets with distinct functions across tissues and robust changes in gene expression and subset proportions in infection, cancer, immune suppression and sex differences at single-cell resolution. Cross-species reference mapping of mouse and nonhuman primate neutrophils onto SCAHN revealed both conserved and species-specific features. Using 17,023 bulk blood transcriptome profiles from 40 datasets, we found that neutrophil-specific signatures predicted mortality in acutely ill patients at presentation, were associated with cancer diagnosis and survival, and correlated with metabolic dysfunction and long-term all-cause mortality. Our study highlights how neutrophil biology can improve immune risk stratification and develop effective diagnostic and therapeutic strategies.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02671-8",
+        "pmcid": null,
+        "authors": [
+          "Hong Zheng",
+          "Evan Maestri",
+          "Andrew R Moore",
+          "Ananthakrishnan Ganesan",
+          "Jeanna Enriquez",
+          "Verónica Durán",
+          "Shirit Einav",
+          "Tom van der Poll"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 31.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02671-8",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42907581",
+        "title": "IL-2-producing TFH cells sustain Treg cell homeostasis and immune tolerance in the gut.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-21",
+        "abstract": "Follicular helper T (TFH) cells are well known for their role in supporting B cell responses. Here, we identify a critical B cell-independent function for TFH cells in sustaining regulatory T (Treg) cells within gut-associated lymphoid tissues (GALT). We demonstrate that TFH cells produce interleukin-2 (IL-2) at the T cell-B cell border and within interfollicular regions and that this localized IL-2 is required to maintain GALT Treg cell homeostasis and restrain the expansion of pathogenic effector T cells. Mice selectively lacking IL-2-producing TFH cells develop colitis and fatal multiorgan inflammation, driven by impaired GALT Treg cell responses and uncontrolled effector T cell activation. Broad-spectrum antibiotic treatment alleviates both intestinal and extraintestinal pathology, indicating that loss of tolerance to commensal-derived antigens is a key driver of disease. Together, these findings define a spatially restricted TFH cell-derived IL-2 niche critical for GALT Treg cell stability and uncover an unexpected immunoregulatory role for TFH cells in maintaining gastrointestinal tolerance beyond B cell help.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02690-5",
+        "pmcid": null,
+        "authors": [
+          "Shivangi Dave",
+          "Holly Bachus",
+          "Nathan Santiago",
+          "Audrey Meloun",
+          "Margery Smelkinson",
+          "Jeremy B Foote",
+          "Thomas Hill",
+          "Christopher Fucile"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02690-5",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42897304",
+        "title": "The bidirectional double burden of non-communicable diseases and infections.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-19",
+        "abstract": "",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02696-z",
+        "pmcid": null,
+        "authors": [
+          "Paschal Ruggajo",
+          "Davis Amani",
+          "Jackline Ngowi",
+          "George Msengi",
+          "Harrieth Ndumwa",
+          "Mariam Noorani",
+          "Blandina T Mmbaga",
+          "Chrysanthi Skevaki"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02696-z",
+        "supplement_reason": null
+      }
+    ],
+    "Science Immunology": [
+      {
+        "pmid": "42913023",
+        "title": "An autonomous macrophage-nociceptor mechanosensory relay drives chronic visceral pain.",
+        "journal": "Science immunology",
+        "pub_date": "2026-10-23",
+        "abstract": "Visceral pain in ulcerative colitis is conventionally attributed to inflammatory cascades, though whether immune cells directly transduce mechanical cues into nociceptive signals remains unclear. Here, we show that the mechanosensitive channel Piezo1 in tissue-resident CX3CR1+ macrophages directly drives colitis-associated visceral hypersensitivity. Piezo1 triggered calcium influx and nuclear factor κB nuclear translocation that occupied the Ngf promoter to induce nerve growth factor (NGF) synthesis. This macrophage-derived NGF remodeled and sensitized the peripheral terminals of TRPV1+ nociceptive afferents in neuroimmune units. Using a minimally inflammatory intracolonic zymosan model, we found that this Piezo1-NGF-TrkA axis functions as a direct mechanosensory relay largely independent of cytokine cascades. Genetic deletion of Piezo1 or Ngf in resident macrophages, or Ntrk1 in TRPV1+ neurons, abolished visceral hyperalgesia in both inflammatory and noninflammatory models. These findings reveal tissue-resident macrophages as autonomous mechanical sensors that establish a direct, parallel pain transmission pathway to sensory nerves during disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aeb3809",
+        "pmcid": null,
+        "authors": [
+          "Liyan Wu",
+          "Tianyi Shen",
+          "Zihan Wang",
+          "Ting Wang",
+          "Ximin Hu",
+          "Meng Sun",
+          "Lei Zhang",
+          "Yanyong Cheng"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aeb3809",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42913022",
+        "title": "ILC2-derived IL-9 promotes eosinophil-mediated antitumor activity.",
+        "journal": "Science immunology",
+        "pub_date": "2026-10-23",
+        "abstract": "Innate lymphoid cells (ILCs) regulate tissue immunity, yet their roles in tumor control remain incompletely understood. Here, we combined analyses of human sequencing datasets with genetic ablation mouse models and adoptive transfer experiments to identify that glucocorticoid-induced tumor necrosis factor receptor (GITR) engagement on tumor-infiltrating group 2 ILCs (ILC2s) induced activating transcription factor 3 (ATF3) and robust interleukin-9 (IL-9) production, exceeding the modest coinduction of IL-5 and IL-13. ILC2-derived IL-9 promoted intratumoral eosinophil accumulation by enhancing survival, tissue retention, and cytotoxicity through tumor-induced IL-9 receptor expression. Eosinophil ablation abolished GITR-mediated tumor control, whereas adoptive eosinophil transfer restored it. This IL-9-eosinophil pathway suppressed tumor growth in the absence of adaptive lymphocytes. In human datasets, IL-9 and eosinophil signatures were associated with favorable prognosis in melanoma and lung adenocarcinoma. These findings define an innate pathway linking ILC2s to eosinophil-mediated tumor immunity and support GITR agonism as a therapeutic strategy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.adz0989",
+        "pmcid": null,
+        "authors": [
+          "Young Gyun Ko",
+          "Jongho Ham",
+          "Jaemoon Koh",
+          "Jihyun Kim",
+          "Han Byeol Kim",
+          "Doo Hyun Chung",
+          "Chul-Hwan Lee",
+          "Sung Ho Park"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.adz0989",
+        "supplement_reason": null
+      }
+    ],
+    "Bioinformatics": [
+      {
+        "pmid": "42905496",
+        "title": "XenoMix: Estimating mouse content from DNA methylation data of Patient-Derived Xenograft models.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-10-21",
+        "abstract": "SUMMARY: DNA methylation microarrays enable cost-effective, high-throughput profiling of human and mouse samples and are widely used to study epigenetic alterations in cancer. Patient-Derived Xenograft (PDX) models complement this approach by preserving primary tumor characteristics while enabling in vivo studies of drug response and therapy resistance. However, it remains difficult to quantify mouse DNA contamination in PDX DNA methylation data generated using microarrays. We present XenoMix, a light-weight computational tool for quantifying mouse DNA contamination directly from DNA methylation data in PDX models. XenoMix leverages the high sequence homology between human and mouse genomes to detect and quantify unexpected signal contributions originating from mouse DNA. Using ground truth mixtures, XenoMix achieved Pearson's correlation coefficients higher than 0.99. When applied to PDX data, we identified varying levels of mouse contamination originating from biological and technological variability. XenoMix establishes a critical quality control step in DNA methylation analysis of PDX models, and we show that the estimated contamination can be incorporated as a confounding variable in downstream analyses.\nAVAILABILITY AND IMPLEMENTATION: XenoMix is available as a standalone R package from https://git.dkfz.de/b370/scepigen/XenoMix and as a module in the RnBeads software package.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag791",
+        "pmcid": null,
+        "authors": [
+          "Nima Esmaeelpour",
+          "Oliver Mücke",
+          "Gizem Altun",
+          "Joseph Cornick",
+          "Maria Capone",
+          "Rocio Sotillo",
+          "Maria Llamazares-Prada",
+          "Christoph Plass"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 22.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag791",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42902790",
+        "title": "Integrating complementary datasets for constructing microbiome-metabolome-disease pathways.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-10-20",
+        "abstract": "MOTIVATION: Microbiome-metabolome-disease pathways play a central role in host health, but studying them is limited by the data available. Large clinical microbiome cohorts often lack metabolomic measurements, while multi-omics studies with paired profiles are typically small or incompletely phenotyped. Combining such complementary datasets is challenging: the metabolite is not measured in the clinical cohort, microbiome data are high-dimensional and compositional, and log-ratio analyses depend on an arbitrarily chosen reference taxon.\nRESULTS: We propose a framework that integrates a large target cohort that has microbiome and outcome data with a smaller external study that has paired microbiome-metabolome profiles. A high-dimensional structural equation model jointly links the microbiome, the metabolome and the disease outcome. It allows for unmeasured confounding and groups microbes into functional categories. We address compositionality with the additive log-ratio (ALR) transformation, estimate parameters by penalized two-stage least squares, and test metabolite-disease associations with a regularized permutation test. A novel multiple-reference procedure treats each microbe in turn as the ALR reference. It combines the resulting p-values with the Cauchy combination test and classifies microbes by stability selection, which makes inference robust to the choice of reference. In simulations, the method controls the type I error rate, and its power increases with both target and external sample sizes. An application to inflammatory bowel disease, integrating the FRAN and iHMP cohorts, reveals biologically interpretable microbiome-metabolome-disease links.\nAVAILABILITY AND IMPLEMENTATION: The method is implemented in the R package MMDP, freely available at https://github.com/lei-fang-stat/MMDP.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag787",
+        "pmcid": null,
+        "authors": [
+          "Lei Fang",
+          "Chenglong Ye",
+          "Yue Wang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "high-dimensional regression",
+          "robust inference",
+          "stability selection",
+          "two-stage least squares"
+        ],
+        "weekly_match": true,
+        "score": 27.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag787",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42900515",
+        "title": "ct-validation: an open framework for benchmarking target-indication evidence against clinical trial outcomes.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-10-20",
+        "abstract": "SUMMARY: Human genetic evidence provides a strong foundation for selecting drug targets. However, consistent benchmarking of target-indication evidence against clinical trial outcomes has been hindered by proprietary data and customised pipelines. To address this, we present the Python package ct-validation, which evaluates whether target-indication pairs supported by specific evidence sources are enriched for clinical progression.This package computes relative success (RS) and odds ratios (OR) with confidence intervals across clinical phase transitions. It also supports ontology-based semantic disease matching and offers interfaces in Python, on the command line, and via the Model Context Protocol (MCP). By remapping the benchmark from Minikel et al. (2024) to the Experimental Factor Ontology (EFO), we reproduced their per-transition enrichment, with a maximum difference of only 1.4% across any transition.In a systematic 3x3 benchmark that independently varies the genetic evidence and clinical trial sources, we found that a single curated open clinical trial source reproduces the signal of the proprietary comparator (RS = 2.92 vs 2.65; 2.34 vs 2.55 without oncology). However, aggregating open clinical trial registries compresses this signal (RS = 1.52); this loss is primarily driven by the breadth of the indication data rather than the genetic evidence.\nAVAILABILITY AND IMPLEMENTATION: ct-validation is implemented in Python (version 3.11 or higher), distributed via pip, and freely available at https://github.com/gero-science/ct-validation, with support for Python, command-line, and Model Context Protocol (MCP) interfaces. Archived code: https://doi.org/10.5281/zenodo.22901497. Benchmark data: https://doi.org/10.5281/zenodo.22901451.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag788",
+        "pmcid": null,
+        "authors": [
+          "Klim Kostiuk",
+          "Daniel Igumnov",
+          "Peter Fedichev",
+          "Amir Feizi"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag788",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42895814",
+        "title": "MARDy 2.0: a platform for exploring and analysing antifungal resistance mutations.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-10-19",
+        "abstract": "MOTIVATION: The rising incidence of antifungal drug resistance represents a major and growing threat to global public health and food security. Therefore, understanding the genetic and molecular mechanisms that underpin antifungal resistance is essential for both clinical management and agricultural disease control.\nRESULTS: We present MARDy 2.0, an updated platform replacing the original Mycology Antifungal Resistance Database. MARDy 2.0 provides an interactive platform for exploring antifungal resistance data from the community resource FungAMR, and protein structures from UniProtKB or predicted structures using AlphaFold. The platform provides enhanced tools for data exploration and analysis and is freely accessible via an interactive web interface that supports search filtering and downloads, BLAST-based sequence similarity searches, an experimental natural-language query interface for exploratory analysis, a mutation plot for visualising mutations in a protein context, and structural predictions showing mutation locations. MARDy 2.0 provides a platform to facilitate research into antifungal resistance evolution, surveillance, and mitigation strategies. MARDy should be used and cited alongside the underlying resources it integrates, FungAMR.\nAVAILABILITY: Accessible at https://mardy.net.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag786",
+        "pmcid": null,
+        "authors": [
+          "Joe Webber",
+          "Hugh Gifford",
+          "Johanna Rhodes",
+          "Rhys A Farrer"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag786",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Protocols": []
+  },
+  "selected_papers": {
+    "Nature": [],
+    "Science": [
+      {
+        "pmid": "42912151",
+        "title": "Intron retention regulates STAT2 function and associates with immunotherapy response in lung cancer.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-10-22",
+        "abstract": "Immunotherapy with checkpoint inhibitors has revolutionized cancer therapy and enabled considerable therapeutic advances for treating various diseases, including lung cancer. However, the molecular determinants of variable patient outcomes remain unclear. Using long-read RNA sequencing, we mapped the landscape of alternative RNA splicing in human primary lung adenocarcinomas. We identified more than 149,000 full-length messenger RNA (mRNA) isoforms, more than half of which were unannotated and many that occurred in immune-related genes, particularly within the type I interferon response pathway. We functionally characterized retained introns in the STAT2 gene that produced altered protein isoforms that regulated immune signaling and interferon responses and correlated with patient survival after anti-programmed death-ligand 1 (PD-L1) immunotherapy. These findings position alternative splicing as a regulator of tumor immune responses and reveal intron retention in STAT2 as an interferon regulatory axis that correlates with PD-L1 checkpoint inhibitor response.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aea7156",
+        "pmcid": null,
+        "authors": [
+          "Ryan P Englander",
+          "Mattia Brugiolo",
+          "Maëva Devoucoux",
+          "Te-Chia Wu",
+          "Mitch Kostich",
+          "Nathan K Leclair",
+          "Isha Walawalkar",
+          "Hyeon Gu Kang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 44.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aea7156",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42912155",
+        "title": "Ultrarapid decision-making in an avian brain.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-10-22",
+        "abstract": "Perceptual decision-making is well studied in mammals, but its operation in other vertebrates remains unclear. We show that carrion crows (Corvus corone) make deliberate decisions in a classic visual motion discrimination task with unprecedented speed, reporting choices in approximately 235 milliseconds on average, which is roughly twice as fast as has been observed in monkeys or humans and without sacrificing accuracy. Recordings from the pallial endbrain reveal that direction-selective neurons encode the upcoming choice as early as about 70 milliseconds after stimulus onset and about 170 milliseconds before the response, with ramping activity scaling with sensory evidence and converging at response onset. These findings highlight the extraordinary efficiency of avian decision-making circuitry, possibly shaped by evolutionary pressures for rapid visuomotor control.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aed6459",
+        "pmcid": null,
+        "authors": [
+          "Philipp Schmidbauer",
+          "Andreas Nieder"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 10.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aed6459",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42912149",
+        "title": "BAK and BAX form a multiprotein complex to drive mtDNA efflux and caspase-independent cell death.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-10-22",
+        "abstract": "The apoptotic regulators BAX and BAK, once activated, form homo-oligomers to trigger mitochondrial outer membrane permeabilization (MOMP), activating the apoptosome and caspases. Activation of BAX-BAK without apoptosome activation triggers sustained efflux of mitochondrial DNA (mtDNA) and caspase-independent cell death. However, the molecular basis of mtDNA efflux remains unclear. We purified a macromolecular complex comprising BAK, BAX, activator BH3-only molecules, voltage-dependent anion channels 1 and 2 (VDAC1 and VDAC2), and prohibitins that released mtDNA from mitoplasts. BAX-BAK activation resulted in VDAC closure, mitochondrial calcium influx, and mtDNA efflux. Loss of VDAC1, VDAC2, or prohibitins prevented BAX-BAK activation-induced mtDNA efflux and caspase-independent cell death without affecting MOMP or mitochondrial inner membrane herniation. These findings support differential regulation of cytochrome c and mtDNA efflux by distinct BAX-BAK complexes.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aea2181",
+        "pmcid": null,
+        "authors": [
+          "Shaoyuan Yang",
+          "Hyungjin Kim",
+          "Guanghong Liao",
+          "Na Ta",
+          "Ho-Chou Tu",
+          "Shriram Ramani",
+          "Chih-Yu Chen",
+          "Zih-Yu Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 10.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aea2181",
+        "supplement_reason": null
+      }
+    ],
+    "Cell": [
+      {
+        "pmid": "42913630",
+        "title": "Lifestyle-induced regulatory T cell fragility primes adverse events after immune checkpoint blockade.",
+        "journal": "Cell",
+        "pub_date": "2026-10-22",
+        "abstract": "Immune checkpoint blockade has transformed cancer therapy, but immune-related adverse events (irAEs) remain a major, sometimes fatal, limitation, and the lack of robust preclinical models has hindered mechanistic insight. We present the lifestyle-induced susceptibility to irAEs (LISA) model, in which diet-driven metabolic and microbial alterations recreate human-like susceptibility to anti-PD-1 toxicity. LISA recapitulates multi-organ irAEs with immune infiltration and cytokine production, severity depending on sex, age, treatment modality, and immunotherapy response. Mechanistically, dysbiosis marked by Akkermansia muciniphila enrichment accompanies aberrant immune activation, driving regulatory T cell (Treg) fragility and CD8+ cytotoxic effector populations, both observed in patients with irColitis. Dietary reversal, metabolite supplementation, and blocking interferon (IFN)-γ production or signaling in Tregs restored Treg stability and resolved inflammation. Human-to-mouse fecal microbiome transfer interacts with recipient diet to shape susceptibility. Together, these findings identify dietary, microbial, and immune drivers of irAEs, which can be leveraged to improve immunotherapy responses while minimizing toxicity.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.055",
+        "pmcid": null,
+        "authors": [
+          "Dipyaman Patra",
+          "Katelyn Wolfgang",
+          "Chenxian Ye",
+          "Lora Rigatti",
+          "Kelsey Ertwine",
+          "Kristin M Morder",
+          "Jessica Jana",
+          "Ishita Baral"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Akkermansia muciniphila",
+          "CD8(+) Trms",
+          "IFN-γ signaling",
+          "Treg fragility",
+          "Tregs",
+          "immune checkpoint blockade",
+          "immune-related adverse events",
+          "microbiome"
+        ],
+        "weekly_match": true,
+        "score": 48.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.055",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42914978",
+        "title": "Perforin triggers iron-induced mitochondrial damage to drive ferroptosis and anti-tumor immunity.",
+        "journal": "Cell",
+        "pub_date": "2026-10-23",
+        "abstract": "Cytotoxic CD8+ T cells and natural killer cells are critical effectors of anti-tumor immunity. Cytotoxic lymphocytes eliminate tumor cells by releasing perforin (Prf1), a pore-forming protein that enables granzymes (Gzms) to enter target cells and trigger both caspase-dependent and -independent cell death. Here, we uncover a previously unrecognized, Gzm-independent function of Prf1. We find that Prf1 directly induces tumoral ferroptosis, an iron- and lipid-dependent form of cell death. Mechanistically, Prf1-mediated pore formation drives endocytosis of the transferrin receptor, which increases cellular iron uptake. Prf1 promotes the formation of endosomal-mitochondrial contacts, which leads to mitochondrial iron accumulation, mitochondrial dysfunction, and tumor cell ferroptosis. Dietary iron supplementation suppresses tumor progression in murine tumor models in a Prf1-dependent manner. Higher Prf1 expression correlates with improved survival and enhanced response to immune checkpoint blockade in patients with cancer. These findings define a Gzm-independent function of Prf1 as a direct executioner of cancer cell death through ferroptosis.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.062",
+        "pmcid": null,
+        "authors": [
+          "Hannah N Bell",
+          "Kavya Nair",
+          "Kole Tison",
+          "Peng Liao",
+          "Hongwei Lei",
+          "Marwa O El-Derany",
+          "Ayijiang Yisimayi",
+          "Haiwei Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "NK cell",
+          "T cell",
+          "ferroptosis",
+          "granzyme",
+          "immune checkpoint blockade",
+          "iron",
+          "mitochondria",
+          "perforin"
+        ],
+        "weekly_match": true,
+        "score": 44.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.062",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42914976",
+        "title": "Cell-state-specific metabolic networks govern ferroptosis versus apoptosis in small cell lung cancer.",
+        "journal": "Cell",
+        "pub_date": "2026-10-23",
+        "abstract": "Cellular heterogeneity and plasticity are hallmarks of cancer that contribute to tumor growth and therapy resistance. Here, we investigated metabolic heterogeneity in small cell lung cancer (SCLC), an aggressive cancer type with considerable plasticity between neuroendocrine (NE) and non-NE cellular states. Through integrated transcriptomic and metabolomic analyses, we identified a universal dependency on exogenous cysteine/cystine (Cys) across all NE/non-NE SCLC cell states. Notably, NE and non-NE cells with low ASCL1 transcription factor levels underwent ferroptosis upon Cys depletion, whereas ASCL1high cells underwent apoptosis while remaining resistant to ferroptosis. This ferroptosis resistance was driven by the direct transcriptional activation of GCH1 by ASCL1, resulting in increased levels of the antioxidants BH4/BH2. Accordingly, combined Cys depletion and inhibition of BH4/BH2 synthesis reduced tumor growth in patient-derived xenografts. These findings demonstrate that metabolic state influences cell-death susceptibility in SCLC and provide a rationale for therapeutic strategies that exploit these metabolic differences.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.045",
+        "pmcid": null,
+        "authors": [
+          "Jun W Kim",
+          "Christina M Bebber",
+          "Yuqin Dai",
+          "Sarah Bopp",
+          "Anna Edenhofer",
+          "Albert M Li",
+          "Thomas Rösner",
+          "Lena Berning"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ASCL1",
+          "GCH1",
+          "SCLC",
+          "apoptosis",
+          "ferroptosis",
+          "heterogeneity",
+          "lung cancer",
+          "metabolism",
+          "neuroendocrine",
+          "plasticity"
+        ],
+        "weekly_match": true,
+        "score": 44.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.045",
+        "supplement_reason": null
+      }
+    ],
+    "Cell metabolism": [
+      {
+        "pmid": "42906554",
+        "title": "Propionate promotes MHC class I antigen presentation and anti-tumor immunity.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-10-21",
+        "abstract": "Defective tumor antigen presentation promotes immune evasion and resistance to immune checkpoint blockade. Here, we identified the short-chain fatty acid propionate as a potent enhancer of major histocompatibility complex class I (MHC class I) antigen presentation. Propionate stabilizes MHC class I on tumor cells, promotes CD8+ T cell infiltration and activation, and suppresses tumor growth. Mechanistically, the E3 ubiquitin (Ub) ligase STUB1 directly interacts with human leukocyte antigen (HLA)-A to mediate K168/K170 polyubiquitination and subsequent degradation. Propionate directly binds STUB1 through hydrogen bonds involving K30 and N34, residues that overlap with the MHC class I-binding interface. This interaction blocks STUB1-mediated MHC class I polyubiquitination, thereby stabilizing MHC class I, enhancing T cell receptor (TCR) engagement and T cell activation, and restraining tumor growth. Importantly, propionate or the propionate-producing probiotic Akkermansia muciniphila markedly enhanced anti-PD-1 efficacy. These findings uncover a non-metabolic moonlighting function of short-chain fatty acids in regulating tumor immunity and provide a rationale for leveraging dietary propionate or propionate-producing probiotics to enhance immune checkpoint therapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.018",
+        "pmcid": null,
+        "authors": [
+          "Suyao Li",
+          "Dong Guo",
+          "Qingqing Yang",
+          "Yizhi Cao",
+          "Yu Dong",
+          "Xiaoming Jiang",
+          "Xinyao Tian",
+          "Dou Nie"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "MHC class I",
+          "SCFA",
+          "STUB1",
+          "immune response",
+          "immune therapy",
+          "propionate",
+          "tumor",
+          "ubiquitination"
+        ],
+        "weekly_match": true,
+        "score": 26.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.018",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42906553",
+        "title": "Weight loss during intermittent fasting, not Mediterranean diet quality alone, is associated with lower inflammation: A randomized controlled trial.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-10-21",
+        "abstract": "Whether the anti-inflammatory effects of a Mediterranean diet reflect diet quality itself or accompanying weight loss is unclear. In a 16-week randomized controlled-feeding trial, 53 adults (77% female; mean age 54.7 years) with metabolic risk factors received a fully provided Mediterranean diet or their habitual western diet for 8 weeks, then added twice-weekly fasting days for a further 8 weeks. The primary outcome, high-sensitivity C-reactive protein, did not change during the diet-only phase despite clear dietary separation. After fasting began, C-reactive protein fell in the Mediterranean-diet group relative to controls, alongside greater weight loss, improved insulin sensitivity, and lower blood pressure; lipid improvements had already emerged during the diet-only phase. Multi-omic analyses showed parallel reductions in inflammatory signaling, with gut microbiome composition largely stable. Thus, diet quality alone does not lower inflammation over 8 weeks; negative energy balance and weight loss during fasting appear to be the stronger drivers. This study was registered at ClinicalTrials.gov (NCT02148458).",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.017",
+        "pmcid": null,
+        "authors": [
+          "Moritz V Warmbrunn",
+          "Valeria Tosti",
+          "Raaj Kishore Biswas",
+          "Beatrice Bertozzi",
+          "Maria Lastra Cagigas",
+          "Nicola Veronese",
+          "Francesco Spelta",
+          "Laura Piccio"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "LDL-cholesterol",
+          "Mediterranean diet",
+          "alternate-day fasting",
+          "cardiovascular disease risk",
+          "diet quality",
+          "hsCRP",
+          "inflammation",
+          "intermittent fasting",
+          "metabolism",
+          "weight loss"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.017",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42913646",
+        "title": "Response to Magkos and Silva: Diet macronutrient content and metabolic function in metabolically unhealthy obesity.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-10-22",
+        "abstract": "",
+        "publication_types": [
+          "Letter"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.011",
+        "pmcid": null,
+        "authors": [
+          "Max C Petersen",
+          "Gordon I Smith",
+          "Samuel Klein"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.011",
+        "supplement_reason": null
+      }
+    ],
+    "immunity": [
+      {
+        "pmid": "42914982",
+        "title": "NF-κB phosphorylation controls enhancer selection to shape the inflammatory gene program.",
+        "journal": "Immunity",
+        "pub_date": "2026-10-23",
+        "abstract": "Inflammatory transcriptional responses mediated by NF-κB are diverse despite similar upstream activation signals. Because phosphorylation of the NF-κB subunit RelA/p65 promotes interaction with co-activators CREB-binding protein/E1A binding protein p300 (CBP/p300) and selectively affects gene expression, we asked whether this modification distinguishes regulatory architectures underlying distinct immune functions. In macrophages carrying a Rela Ser276Ala mutation, p65 phosphorylation at serine 276 (S276) was dispensable for NF-κB binding to primed enhancers but essential for recruitment to nucleosome-occluded regions lacking pre-bound transcription factors (TFs) and activating histone marks. Such latent enhancers required phosphorylated NF-κB to recruit CBP/p300, promote histone acetylation, and open chromatin. Genes linked to these enhancers, including inflammatory mediators, were selectively impaired in S276A macrophages. Although antiviral responses remained intact, Rela Ser276Ala mice resisted endotoxin shock but were susceptible to bacterial infection. Thus, NF-κB responses are functionally partitioned by enhancer architecture: phosphorylation-sensitive sites define a latent enhancer compartment with NF-κB-dominated regulatory architecture, whereas primed sites are embedded in broader networks of lineage-determining and inducible TFs, yielding distinct biological outputs.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.025",
+        "pmcid": null,
+        "authors": [
+          "Felipe Batista Leão",
+          "Dev Bhatt",
+          "Lauren Vaughn",
+          "Will Liao",
+          "Dillon Maloney",
+          "Vincent Guichard",
+          "Brea Hampton",
+          "Alexander Yang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CBP/p300",
+          "NF-κB",
+          "RelA/p65 Ser276 phosphorylation",
+          "chromatin remodeling",
+          "epigenetic regulation",
+          "gene regulation",
+          "inflammatory responses",
+          "latent enhancers",
+          "macrophage activation",
+          "post-translational modifications"
+        ],
+        "weekly_match": true,
+        "score": 18.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.025",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Immunology": [
+      {
+        "pmid": "42918845",
+        "title": "Serine protease inhibitor A3 is a soluble SIRPα ligand that suppresses inflammation and antitumor immunity.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-22",
+        "abstract": "SIRPα is an inhibitory receptor with the canonical ligand CD47. Here, we show that human serine protease inhibitor A3 (SERPINA3) and its mouse ortholog SERPINA3k function as soluble binders and activators of SIRPα, suppressing SIRPα+ macrophages, neutrophils, dendritic cells and natural killer cells. SERPINA3(k) treatment alleviates lipopolysaccharide-induced pneumonia and ameliorates experimental autoimmune encephalomyelitis and rheumatoid arthritis. Although wild-type SERPINA3 provokes inflammation in cardiomyocytes and brain vascular endothelial cells, the SERPINA3D2 mutant, identified through functional domain mapping for SIRPα interaction, abolishes these adverse effects while retaining full inhibitory capacity. Notably, cancer cells secrete large amounts of SERPINA3(k), exceeding CD47 levels. Anti-SERPINA3(k) antibodies, used alone or in combination with blockade of programmed cell death 1 receptor/programmed cell death ligand 1, inhibit tumor growth in multiple preclinical models. This work identifies a potent soluble SIRPα ligand, offering effective therapeutic strategies for inflammatory/autoimmune diseases and a promising target for cancer immunotherapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02682-5",
+        "pmcid": null,
+        "authors": [
+          "Yufei Hou",
+          "Lei Huang",
+          "Chunhui Jin",
+          "Xiaolong Li",
+          "Yongxing Chen",
+          "Liguang Sun",
+          "Feng Wang",
+          "Yong Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 41.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02682-5",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42907583",
+        "title": "A single-cell atlas of human neutrophils reveals neutrophil heterogeneity across health and disease.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-21",
+        "abstract": "Neutrophils, the most abundant leukocytes in human blood, have multifaceted roles in health and disease. Here we assembled a single-cell atlas of human neutrophils (SCAHN) by integrating transcriptome data from 1 million human neutrophils from 781 samples and 43 independent datasets. Using SCAHN, we identified multiple neutrophil subsets with distinct functions across tissues and robust changes in gene expression and subset proportions in infection, cancer, immune suppression and sex differences at single-cell resolution. Cross-species reference mapping of mouse and nonhuman primate neutrophils onto SCAHN revealed both conserved and species-specific features. Using 17,023 bulk blood transcriptome profiles from 40 datasets, we found that neutrophil-specific signatures predicted mortality in acutely ill patients at presentation, were associated with cancer diagnosis and survival, and correlated with metabolic dysfunction and long-term all-cause mortality. Our study highlights how neutrophil biology can improve immune risk stratification and develop effective diagnostic and therapeutic strategies.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02671-8",
+        "pmcid": null,
+        "authors": [
+          "Hong Zheng",
+          "Evan Maestri",
+          "Andrew R Moore",
+          "Ananthakrishnan Ganesan",
+          "Jeanna Enriquez",
+          "Verónica Durán",
+          "Shirit Einav",
+          "Tom van der Poll"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 31.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02671-8",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42907581",
+        "title": "IL-2-producing TFH cells sustain Treg cell homeostasis and immune tolerance in the gut.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-10-21",
+        "abstract": "Follicular helper T (TFH) cells are well known for their role in supporting B cell responses. Here, we identify a critical B cell-independent function for TFH cells in sustaining regulatory T (Treg) cells within gut-associated lymphoid tissues (GALT). We demonstrate that TFH cells produce interleukin-2 (IL-2) at the T cell-B cell border and within interfollicular regions and that this localized IL-2 is required to maintain GALT Treg cell homeostasis and restrain the expansion of pathogenic effector T cells. Mice selectively lacking IL-2-producing TFH cells develop colitis and fatal multiorgan inflammation, driven by impaired GALT Treg cell responses and uncontrolled effector T cell activation. Broad-spectrum antibiotic treatment alleviates both intestinal and extraintestinal pathology, indicating that loss of tolerance to commensal-derived antigens is a key driver of disease. Together, these findings define a spatially restricted TFH cell-derived IL-2 niche critical for GALT Treg cell stability and uncover an unexpected immunoregulatory role for TFH cells in maintaining gastrointestinal tolerance beyond B cell help.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02690-5",
+        "pmcid": null,
+        "authors": [
+          "Shivangi Dave",
+          "Holly Bachus",
+          "Nathan Santiago",
+          "Audrey Meloun",
+          "Margery Smelkinson",
+          "Jeremy B Foote",
+          "Thomas Hill",
+          "Christopher Fucile"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02690-5",
+        "supplement_reason": null
+      }
+    ],
+    "Science Immunology": [
+      {
+        "pmid": "42913023",
+        "title": "An autonomous macrophage-nociceptor mechanosensory relay drives chronic visceral pain.",
+        "journal": "Science immunology",
+        "pub_date": "2026-10-23",
+        "abstract": "Visceral pain in ulcerative colitis is conventionally attributed to inflammatory cascades, though whether immune cells directly transduce mechanical cues into nociceptive signals remains unclear. Here, we show that the mechanosensitive channel Piezo1 in tissue-resident CX3CR1+ macrophages directly drives colitis-associated visceral hypersensitivity. Piezo1 triggered calcium influx and nuclear factor κB nuclear translocation that occupied the Ngf promoter to induce nerve growth factor (NGF) synthesis. This macrophage-derived NGF remodeled and sensitized the peripheral terminals of TRPV1+ nociceptive afferents in neuroimmune units. Using a minimally inflammatory intracolonic zymosan model, we found that this Piezo1-NGF-TrkA axis functions as a direct mechanosensory relay largely independent of cytokine cascades. Genetic deletion of Piezo1 or Ngf in resident macrophages, or Ntrk1 in TRPV1+ neurons, abolished visceral hyperalgesia in both inflammatory and noninflammatory models. These findings reveal tissue-resident macrophages as autonomous mechanical sensors that establish a direct, parallel pain transmission pathway to sensory nerves during disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aeb3809",
+        "pmcid": null,
+        "authors": [
+          "Liyan Wu",
+          "Tianyi Shen",
+          "Zihan Wang",
+          "Ting Wang",
+          "Ximin Hu",
+          "Meng Sun",
+          "Lei Zhang",
+          "Yanyong Cheng"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aeb3809",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42913022",
+        "title": "ILC2-derived IL-9 promotes eosinophil-mediated antitumor activity.",
+        "journal": "Science immunology",
+        "pub_date": "2026-10-23",
+        "abstract": "Innate lymphoid cells (ILCs) regulate tissue immunity, yet their roles in tumor control remain incompletely understood. Here, we combined analyses of human sequencing datasets with genetic ablation mouse models and adoptive transfer experiments to identify that glucocorticoid-induced tumor necrosis factor receptor (GITR) engagement on tumor-infiltrating group 2 ILCs (ILC2s) induced activating transcription factor 3 (ATF3) and robust interleukin-9 (IL-9) production, exceeding the modest coinduction of IL-5 and IL-13. ILC2-derived IL-9 promoted intratumoral eosinophil accumulation by enhancing survival, tissue retention, and cytotoxicity through tumor-induced IL-9 receptor expression. Eosinophil ablation abolished GITR-mediated tumor control, whereas adoptive eosinophil transfer restored it. This IL-9-eosinophil pathway suppressed tumor growth in the absence of adaptive lymphocytes. In human datasets, IL-9 and eosinophil signatures were associated with favorable prognosis in melanoma and lung adenocarcinoma. These findings define an innate pathway linking ILC2s to eosinophil-mediated tumor immunity and support GITR agonism as a therapeutic strategy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.adz0989",
+        "pmcid": null,
+        "authors": [
+          "Young Gyun Ko",
+          "Jongho Ham",
+          "Jaemoon Koh",
+          "Jihyun Kim",
+          "Han Byeol Kim",
+          "Doo Hyun Chung",
+          "Chul-Hwan Lee",
+          "Sung Ho Park"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.adz0989",
+        "supplement_reason": null
+      }
+    ],
+    "Bioinformatics": [
+      {
+        "pmid": "42902790",
+        "title": "Integrating complementary datasets for constructing microbiome-metabolome-disease pathways.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-10-20",
+        "abstract": "MOTIVATION: Microbiome-metabolome-disease pathways play a central role in host health, but studying them is limited by the data available. Large clinical microbiome cohorts often lack metabolomic measurements, while multi-omics studies with paired profiles are typically small or incompletely phenotyped. Combining such complementary datasets is challenging: the metabolite is not measured in the clinical cohort, microbiome data are high-dimensional and compositional, and log-ratio analyses depend on an arbitrarily chosen reference taxon.\nRESULTS: We propose a framework that integrates a large target cohort that has microbiome and outcome data with a smaller external study that has paired microbiome-metabolome profiles. A high-dimensional structural equation model jointly links the microbiome, the metabolome and the disease outcome. It allows for unmeasured confounding and groups microbes into functional categories. We address compositionality with the additive log-ratio (ALR) transformation, estimate parameters by penalized two-stage least squares, and test metabolite-disease associations with a regularized permutation test. A novel multiple-reference procedure treats each microbe in turn as the ALR reference. It combines the resulting p-values with the Cauchy combination test and classifies microbes by stability selection, which makes inference robust to the choice of reference. In simulations, the method controls the type I error rate, and its power increases with both target and external sample sizes. An application to inflammatory bowel disease, integrating the FRAN and iHMP cohorts, reveals biologically interpretable microbiome-metabolome-disease links.\nAVAILABILITY AND IMPLEMENTATION: The method is implemented in the R package MMDP, freely available at https://github.com/lei-fang-stat/MMDP.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag787",
+        "pmcid": null,
+        "authors": [
+          "Lei Fang",
+          "Chenglong Ye",
+          "Yue Wang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "high-dimensional regression",
+          "robust inference",
+          "stability selection",
+          "two-stage least squares"
+        ],
+        "weekly_match": true,
+        "score": 27.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag787",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42905496",
+        "title": "XenoMix: Estimating mouse content from DNA methylation data of Patient-Derived Xenograft models.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-10-21",
+        "abstract": "SUMMARY: DNA methylation microarrays enable cost-effective, high-throughput profiling of human and mouse samples and are widely used to study epigenetic alterations in cancer. Patient-Derived Xenograft (PDX) models complement this approach by preserving primary tumor characteristics while enabling in vivo studies of drug response and therapy resistance. However, it remains difficult to quantify mouse DNA contamination in PDX DNA methylation data generated using microarrays. We present XenoMix, a light-weight computational tool for quantifying mouse DNA contamination directly from DNA methylation data in PDX models. XenoMix leverages the high sequence homology between human and mouse genomes to detect and quantify unexpected signal contributions originating from mouse DNA. Using ground truth mixtures, XenoMix achieved Pearson's correlation coefficients higher than 0.99. When applied to PDX data, we identified varying levels of mouse contamination originating from biological and technological variability. XenoMix establishes a critical quality control step in DNA methylation analysis of PDX models, and we show that the estimated contamination can be incorporated as a confounding variable in downstream analyses.\nAVAILABILITY AND IMPLEMENTATION: XenoMix is available as a standalone R package from https://git.dkfz.de/b370/scepigen/XenoMix and as a module in the RnBeads software package.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag791",
+        "pmcid": null,
+        "authors": [
+          "Nima Esmaeelpour",
+          "Oliver Mücke",
+          "Gizem Altun",
+          "Joseph Cornick",
+          "Maria Capone",
+          "Rocio Sotillo",
+          "Maria Llamazares-Prada",
+          "Christoph Plass"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 22.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag791",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42900515",
+        "title": "ct-validation: an open framework for benchmarking target-indication evidence against clinical trial outcomes.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-10-20",
+        "abstract": "SUMMARY: Human genetic evidence provides a strong foundation for selecting drug targets. However, consistent benchmarking of target-indication evidence against clinical trial outcomes has been hindered by proprietary data and customised pipelines. To address this, we present the Python package ct-validation, which evaluates whether target-indication pairs supported by specific evidence sources are enriched for clinical progression.This package computes relative success (RS) and odds ratios (OR) with confidence intervals across clinical phase transitions. It also supports ontology-based semantic disease matching and offers interfaces in Python, on the command line, and via the Model Context Protocol (MCP). By remapping the benchmark from Minikel et al. (2024) to the Experimental Factor Ontology (EFO), we reproduced their per-transition enrichment, with a maximum difference of only 1.4% across any transition.In a systematic 3x3 benchmark that independently varies the genetic evidence and clinical trial sources, we found that a single curated open clinical trial source reproduces the signal of the proprietary comparator (RS = 2.92 vs 2.65; 2.34 vs 2.55 without oncology). However, aggregating open clinical trial registries compresses this signal (RS = 1.52); this loss is primarily driven by the breadth of the indication data rather than the genetic evidence.\nAVAILABILITY AND IMPLEMENTATION: ct-validation is implemented in Python (version 3.11 or higher), distributed via pip, and freely available at https://github.com/gero-science/ct-validation, with support for Python, command-line, and Model Context Protocol (MCP) interfaces. Archived code: https://doi.org/10.5281/zenodo.22901497. Benchmark data: https://doi.org/10.5281/zenodo.22901451.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag788",
+        "pmcid": null,
+        "authors": [
+          "Klim Kostiuk",
+          "Daniel Igumnov",
+          "Peter Fedichev",
+          "Amir Feizi"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag788",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Protocols": []
+  },
+  "fulltext_cache": {}
+}
