@@ -1,0 +1,2495 @@
+{
+  "generated_at": "2026-11-09T09:18:55",
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "journals": [
+    "Nature",
+    "Science",
+    "Cell",
+    "Cell metabolism",
+    "immunity",
+    "Nature Immunology",
+    "Science Immunology",
+    "Bioinformatics",
+    "Nature Protocols"
+  ],
+  "keywords": [
+    "免疫代谢",
+    "代谢表观调控",
+    "单细胞算法",
+    "单细胞图谱",
+    "流感",
+    "HSV",
+    "H1N1",
+    "肺损伤",
+    "肺组织修复",
+    "皮肤免疫"
+  ],
+  "top10": [
+    {
+      "pmid": "42902790",
+      "title": "Integrating complementary datasets for constructing microbiome-metabolome-disease pathways.",
+      "journal": "Bioinformatics (Oxford, England)",
+      "pub_date": "2026-11-02",
+      "abstract": "MOTIVATION: Microbiome-metabolome-disease pathways play a central role in host health, but studying them is limited by the data available. Large clinical microbiome cohorts often lack metabolomic measurements, while multi-omics studies with paired profiles are typically small or incompletely phenotyped. Combining such complementary datasets is challenging: the metabolite is not measured in the clinical cohort, microbiome data are high-dimensional and compositional, and log-ratio analyses depend on an arbitrarily chosen reference taxon.\nRESULTS: We propose a framework that integrates a large target cohort that has microbiome and outcome data with a smaller external study that has paired microbiome-metabolome profiles. A high-dimensional structural equation model jointly links the microbiome, the metabolome, and the disease outcome. It allows for unmeasured confounding and groups microbes into functional categories. We address compositionality with the additive log-ratio (ALR) transformation, estimate parameters by penalized two-stage least squares, and test metabolite-disease associations with a regularized permutation test. A novel multiple-reference procedure treats each microbe in turn as the ALR reference. It combines the resulting P-values with the Cauchy combination test and classifies microbes by stability selection, which makes inference robust to the choice of reference. In simulations, the method controls the type I error rate, and its power increases with both target and external sample sizes. An application to inflammatory bowel disease, integrating the FRAN and iHMP cohorts, reveals biologically interpretable microbiome-metabolome-disease links.\nAVAILABILITY AND IMPLEMENTATION: The method is implemented in the R package MMDP, freely available at https://github.com/lei-fang-stat/MMDP.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1093/bioinformatics/btag787",
+      "pmcid": "PMC13725751",
+      "authors": [
+        "Lei Fang",
+        "Chenglong Ye",
+        "Yue Wang"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 30.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1093/bioinformatics/btag787",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42983099",
+      "title": "Decoding the regulatory programs governing glioblastoma plasticity.",
+      "journal": "Nature",
+      "pub_date": "2026-11-04",
+      "abstract": "Glioblastoma is incurable and resistant to therapy despite genomic stability under treatment1-8, suggesting that non-genetic cellular plasticity is a central driver of progression. Whether such plasticity reflects stochastic state switching or is governed by predictable gene regulation has remained unclear9-13. Here we introduce scDORI (single-cell deep multi-omic regulatory inference)-a deep-learning framework that infers enhancer-driven gene-regulatory networks at single-cell resolution-and apply it to single-nucleus multiome profiles of more than one million cells from primary glioblastomas. Integrating computational inference with systematic perturbation screens across patient-derived models, we show that a structured regulatory program with an asymmetric interplay of activators and repressors governs cellular plasticity in glioblastoma. The resulting transition landscape is hierarchical and predictable, but permits cross-lineage trajectories that are absent from normal neurodevelopment. Within this landscape, low-plasticity states such as the neuronal-like state are not stable differentiation end points but actively maintained configurations, stabilized by a network of safeguard repressors that silence alternative fates. We identify MYT1L as the dominant member of this network, and show that it binds to and represses master regulators of every alternative state to consolidate neuronal-like identity. MYT1L restricted plasticity even under standard-of-care therapy and suppressed tumour growth and invasion in vivo. Conversely, loss of MYT1L reactivated plasticity and accelerated malignant features, indicating that low-plasticity identity requires continuous repression. These findings reframe malignant cell state stability as a balance between activation and continuous repression, and nominate safeguard repressors as candidate therapeutic targets that are distinct from differentiation-inducing activators, with potential relevance across cancers in which phenotypic switching drives therapy resistance.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1038/s41586-026-11177-0",
+      "pmcid": null,
+      "authors": [
+        "Manu Saraswat",
+        "Laura Rueda-Gensini",
+        "Elisa Heinzelmann",
+        "Tannia Gracia",
+        "Fani Memi",
+        "Grant de Jong",
+        "Jannes Straub",
+        "Cedar Schloo"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 29.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1038/s41586-026-11177-0",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42982037",
+      "title": "Tumor-to-dendritic cell reprogramming induces immunogenic lymphoid structures across cancers.",
+      "journal": "Immunity",
+      "pub_date": "2026-11-04",
+      "abstract": "Tertiary lymphoid structures (TLSs) in tumors are associated with improved responses to immunotherapy. Here, we examined the impact of type 1 conventional dendritic cells (cDC1s) in TLS formation. Reprogrammed tumor cells into cDC1-like cells remodeled the tumor microenvironment and induced immunogenic TLSs (imgTLSs) across melanoma, colon, bladder, breast, and pancreatic cancer models with distinct genetic backgrounds. cDC1-like cells activated lymphotoxin, TNF, and interferon programs and engaged early with T cells through MHC class I and CD40 signaling to induce imgTLSs containing BCL6+ germinal centers, independently of endogenous cDC1s. Intratumoral positioning shaped distinct cDC1-like cell states, with DC-LAMP+ CCR7+ migratory cDC1s nucleating niches enriched in CD4+, CD8+ T cells, and B cells in mouse and human tumors. ImgTLSs sustained B and T cell responses and promoted systemic immunity through expansion of shared clonotypes in distant, untreated tumors. Our findings outline the spatial organization, signaling programs and interactions of cDC1-like cells that initiate intratumoral lymphoid structures and establish cellular reprogramming as a strategy toward overcoming resistance to immunotherapy.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.10.006",
+      "pmcid": null,
+      "authors": [
+        "Ervin Ascic",
+        "Camille Chatelain",
+        "Gaia Fontanari",
+        "César Pérez Bucio",
+        "Linmeng Zhang",
+        "Maria Thrasyvoulou",
+        "Viktoria Karali",
+        "Tommaso Ballocci"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "B cell immunity",
+        "CD40 signaling",
+        "cDC1",
+        "cancer immunotherapy",
+        "dendritic cells",
+        "in vivo cellular reprogramming",
+        "proximity labeling",
+        "spatial transcriptomics",
+        "tertiary lymphoid structures",
+        "tumor microenvironment"
+      ],
+      "weekly_match": true,
+      "score": 29.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.006",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42983086",
+      "title": "A spatiotemporal cancer cell trajectory underlies glioblastoma heterogeneity.",
+      "journal": "Nature",
+      "pub_date": "2026-11-04",
+      "abstract": "Cancer cells show highly heterogeneous and plastic states in glioblastoma, an incurable brain tumour1-5. However, how these malignant states arise and whether they follow defined cellular trajectories across tumours is poorly understood. Here we generated a deep single-cell and spatial multi-omic atlas of human glioblastoma that pairs transcriptomic, epigenomic and genomic profiling of 12 tumours across many regions. We identify that glioblastoma heterogeneity is driven by spatially patterned transitions of cancer cells from developmental-like states towards those defined by a glial injury response and hypoxia. This cellular trajectory regionalizes tumours into distinct tissue microenvironments and manifests in a molecularly conserved manner across tumours as well as genetically distinct tumour subclones. Consistently, using a new deep-learning framework to map cancer cell states jointly with clones in situ, we show that tumour subclones are finely spatially intermixed through glioblastoma tissue microenvironments. We validate this cellular trajectory by using somatic mutation-based hierarchies in vivo and an experimental patient-derived organoid model ex vivo. Finally, we show that this cancer cell trajectory is intimately linked to myeloid heterogeneity and unfolds across regionalized myeloid signalling environments. Our findings define a stereotyped trajectory of cancer cells in glioblastoma and unify glioblastoma tumour heterogeneity into a tractable cellular and tissue framework.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1038/s41586-026-11234-8",
+      "pmcid": null,
+      "authors": [
+        "Grant de Jong",
+        "Fani Memi",
+        "Tannia Gracia",
+        "Olga Lazareva",
+        "Oliver Gould",
+        "Georgios Solomou",
+        "Alexander Aivazidis",
+        "Manas Dave"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 27.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1038/s41586-026-11234-8",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42906554",
+      "title": "Propionate promotes MHC class I antigen presentation and anti-tumor immunity.",
+      "journal": "Cell metabolism",
+      "pub_date": "2026-11-03",
+      "abstract": "Defective tumor antigen presentation promotes immune evasion and resistance to immune checkpoint blockade. Here, we identified the short-chain fatty acid propionate as a potent enhancer of major histocompatibility complex class I (MHC class I) antigen presentation. Propionate stabilizes MHC class I on tumor cells, promotes CD8+ T cell infiltration and activation, and suppresses tumor growth. Mechanistically, the E3 ubiquitin (Ub) ligase STUB1 directly interacts with human leukocyte antigen (HLA)-A to mediate K168/K170 polyubiquitination and subsequent degradation. Propionate directly binds STUB1 through hydrogen bonds involving K30 and N34, residues that overlap with the MHC class I-binding interface. This interaction blocks STUB1-mediated MHC class I polyubiquitination, thereby stabilizing MHC class I, enhancing T cell receptor (TCR) engagement and T cell activation, and restraining tumor growth. Importantly, propionate or the propionate-producing probiotic Akkermansia muciniphila markedly enhanced anti-PD-1 efficacy. These findings uncover a non-metabolic moonlighting function of short-chain fatty acids in regulating tumor immunity and provide a rationale for leveraging dietary propionate or propionate-producing probiotics to enhance immune checkpoint therapy.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cmet.2026.09.018",
+      "pmcid": null,
+      "authors": [
+        "Suyao Li",
+        "Dong Guo",
+        "Qingqing Yang",
+        "Yizhi Cao",
+        "Yu Dong",
+        "Xiaoming Jiang",
+        "Xinyao Tian",
+        "Dou Nie"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "MHC class I",
+        "SCFA",
+        "STUB1",
+        "immune response",
+        "immune therapy",
+        "propionate",
+        "tumor",
+        "ubiquitination"
+      ],
+      "weekly_match": true,
+      "score": 26.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.018",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42983097",
+      "title": "In vivo CAR-T double knockout screen maps synergistic antitumour gene pairs.",
+      "journal": "Nature",
+      "pub_date": "2026-11-04",
+      "abstract": "Chimeric antigen receptor (CAR)-T cell therapy has transformed the treatment of haematological malignancies, but its efficacy remains limited by multiple negative regulatory mechanisms intrinsic to T cells1-4. Here we perform a high-throughput in vivo CAR-T double-knockout (DKO) CRISPR screen, and identify multiple DKO gene pairs that are both effective and synergistic. The top pair, NR4A1-SOCS3 DKO, has multiple favourable immunological features. Whole-transcriptome profiling and in vivo single-cell RNA sequencing reveal that NR4A1-SOCS3 DKO specifically upregulates metabolic pathways in CAR-T cells, which show significantly higher metabolic fitness and mitochondrial activity. NR4A1-SOCS3 DKO CAR-T cells and T cells exhibit exceptionally potent antitumour efficacy and long-term tumour control across different tumour models without compromising safety features. NR4A1-SOCS3 DKO outperforms several benchmark single-gene and dual-gene modifications in T cells and CAR-T cells5-9. These data demonstrate high-throughput in vivo CAR-T DKO screening for rapid discovery of combination targets, and establish NR4A1-SOCS3 as a promising pair of intracellular checkpoints to engineer high-performance CAR-T therapies against cancer.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1038/s41586-026-10956-z",
+      "pmcid": null,
+      "authors": [
+        "Liqun Zhou",
+        "Paul A Renauer",
+        "Kaiyuan Tang",
+        "Shanshan Li",
+        "Zhicheng Luo",
+        "Yanzhi Feng",
+        "Shawn H Lin",
+        "Feifei Zhang"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 25.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1038/s41586-026-10956-z",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42905496",
+      "title": "XenoMix: estimating mouse content from DNA methylation data of Patient-Derived Xenograft models.",
+      "journal": "Bioinformatics (Oxford, England)",
+      "pub_date": "2026-11-02",
+      "abstract": "SUMMARY: DNA methylation microarrays enable cost-effective, high-throughput profiling of human and mouse samples and are widely used to study epigenetic alterations in cancer. Patient-Derived Xenograft (PDX) models complement this approach by preserving primary tumor characteristics while enabling in vivo studies of drug response and therapy resistance. However, it remains difficult to quantify mouse DNA contamination in PDX DNA methylation data generated using microarrays. We present XenoMix, a light-weight computational tool for quantifying mouse DNA contamination directly from DNA methylation data in PDX models. XenoMix leverages the high sequence homology between human and mouse genomes to detect and quantify unexpected signal contributions originating from mouse DNA. Using ground truth mixtures, XenoMix achieved Pearson's correlation coefficients higher than 0.99. When applied to PDX data, we identified varying levels of mouse contamination originating from biological and technological variability. XenoMix establishes a critical quality control step in DNA methylation analysis of PDX models, and we show that the estimated contamination can be incorporated as a confounding variable in downstream analyses.\nAVAILABILITY AND IMPLEMENTATION: XenoMix is available as a standalone R package from https://git.dkfz.de/b370/scepigen/XenoMix and as a module in the RnBeads software package.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1093/bioinformatics/btag791",
+      "pmcid": "PMC13725749",
+      "authors": [
+        "Nima Esmaeelpour",
+        "Oliver Mücke",
+        "Gizem Altun",
+        "Joseph Cornick",
+        "Maria Capone",
+        "Rocio Sotillo",
+        "Maria Llamazares-Prada",
+        "Christoph Plass"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 25.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1093/bioinformatics/btag791",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42993812",
+      "title": "Programming immunity in situ: A new frontier of in vivo cell engineering.",
+      "journal": "Science immunology",
+      "pub_date": "2026-11-06",
+      "abstract": "In vivo cell engineering enables the direct programming of immune cells inside patients. Instead of isolating, modifying, and reinfusing cells, therapeutic instructions are delivered directly to selected immune cells through lipid nanoparticles or viral vectors. This approach could facilitate rapid and scalable deployment of varied immune cell therapies across disease contexts. Early clinical studies in oncology and autoimmunity demonstrate increasing technical and clinical feasibility. The next challenge lies in enhancing precision to ensure that vectors reach the target cell type and tissue, deliver the appropriate payload, and produce desired transient or durable activity. Progress in targeting ligands, vector design, biodistribution control, and genome editing is beginning to address these barriers. Ensuring safety against immunogenicity, inflammatory toxicity, off-target editing, and uncontrolled persistence remains a central priority. By mastering these constraints, in vivo engineering could turn endogenous immune cells into therapeutic agents generated directly in the body, expanding cell therapy to diseases refractory to current modalities.",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "doi": "10.1126/sciimmunol.aed1027",
+      "pmcid": null,
+      "authors": [
+        "Juliane Mietz",
+        "Antonela Merlotti",
+        "Antonin de Fougerolles",
+        "Olivier Demaria",
+        "Eric Vivier"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 24.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1126/sciimmunol.aed1027",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42753730",
+      "title": "Zonated cholesterol sensing by SIRT2 drives MASLD-HCC.",
+      "journal": "Cell metabolism",
+      "pub_date": "2026-11-03",
+      "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) is a leading cause of hepatocellular carcinoma (HCC), but how metabolic zonation drives regional transformation remains unclear. We identify sirtuin 2 (SIRT2) as a zonated cholesterol sensor that initiates reprogramming to drive MASLD-HCC. Lineage tracing establishes zone 1 hepatocytes as the cellular origin of tumors. SIRT2 overexpression in zone 1 triggers HCC, whereas its deletion prevents carcinogenesis by restoring cholesterol and bile acid metabolism and CD8+ T cell recruitment. Mechanistically, cholesterol binds and activates SIRT2, which deacetylates sterol carrier protein 2 (SCP2) at Lys546, thereby blocking peroxisome proliferator-activated receptor α (PPARα) recruitment to the Cyp7b1 promoter, suppressing alternative bile acid synthesis, and permitting 27-hydroxycholesterol accumulation. SIRT2 inhibition reverses this cascade in mice and human hepatic organoids. Patient specimens confirm zonal SIRT2 and cytochrome P450 7B1 (CYP7B1) dysregulation. Our findings establish spatially compartmentalized cholesterol sensing as a new regulatory layer and identify SIRT2 as a druggable target in liver cancer.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cmet.2026.08.015",
+      "pmcid": null,
+      "authors": [
+        "Yingting Zhang",
+        "Xidai Long",
+        "Yinkun Fu",
+        "Xinxin Tang",
+        "Hao Luo",
+        "Zhihui Zou",
+        "Wei He",
+        "Longchuan Han"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "27-hydroxycholesterol",
+        "CYP7B1",
+        "MASLD-HCC",
+        "SIRT2",
+        "bile acid metabolism",
+        "cholesterol sensor",
+        "deacetylase",
+        "hepatocellular carcinoma",
+        "liver zonation",
+        "metabolic zonation"
+      ],
+      "weekly_match": true,
+      "score": 24.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cmet.2026.08.015",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42986964",
+      "title": "Targeting hormone conversion through dietary fiber improves polyendocrine metabolic ovarian syndrome.",
+      "journal": "Science (New York, N.Y.)",
+      "pub_date": "2026-11-05",
+      "abstract": "Excessive androgens serve as a primary driver for many phenotypic features of polyendocrine metabolic ovarian syndrome (PMOS). Although dietary fiber has been shown to alleviate PMOS, its effects on androgen concentrations and the underlying mechanisms remain unclear. In a clinical trial, we demonstrated that a dietary fiber combination consisting of inulin, resistant starch, and β-glucan reduces androgen concentrations in patients' plasma. Mechanistically, dietary fiber increased the abundance of Bacteroides xylanisolvens, which converts androstenedione into a nonandrogenic secondary hormone metabolite we named coproandrosterone, which is further metabolized by gut microbiota into dihydro-coproandrosterone. This metabolic pathway was validated in a mouse model. These findings highlight the potential of dietary fiber to alleviate PMOS by modulating androgen homeostasis through gut microbiota, offering insights for prebiotic and probiotic therapies.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1126/science.aed8952",
+      "pmcid": null,
+      "authors": [
+        "Xinyu Qi",
+        "Hong Chen",
+        "Qixing Nie",
+        "Hongyu Niu",
+        "Yong Ding",
+        "Xi Luo",
+        "Manfei Si",
+        "Shuqi Wu"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 22.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1126/science.aed8952",
+      "supplement_reason": null
+    }
+  ],
+  "weekly_papers": {
+    "Nature": [
+      {
+        "pmid": "42994815",
+        "title": "In Vivo CRISPR Base Editing of ANGPTL3 for Durable Lipid Lowering.",
+        "journal": "Nature",
+        "pub_date": "2026-11-06",
+        "abstract": "Circulating concentrations of low-density lipoprotein cholesterol (LDL-C) and triglyceride-rich lipoproteins are leading risk factors for atherosclerotic cardiovascular disease1. Despite several approved lipid-lowering medications, most patients fail to achieve target lipid levels under the chronic care treatment model2,3. Here, we describe a potential single-course treatment in which an infusion of guide RNA and mRNA encoding a CRISPR adenine base editor-encapsulated within a GalNAc-lipid nanoparticle-leads to durable, liver-selective inactivation of angiopoietin-like 3 (ANGPTL3), a known driver of increased LDL-C and triglyceride concentrations. Analyses in human liver cells in vitro confirmed that the base editor introduces a DNA base-pair change at the target ANGPTL3 locus with no detectable off-target editing at any of approximately 3000 candidate sites or treatment-related structural variants. Targeted ANGPTL3 inactivation in nonhuman primates was well-tolerated and led to a > 90% mean reduction in circulating ANGPTL3 protein, with durability confirmed out to 3 years following a single dose. In mouse and nonhuman primate models of hyperlipidemia, gene inactivation was associated with reductions of approximately 40 to 50% in LDL-C and 50 to 70% in triglycerides. These results provided the scientific foundation for initiation of an ongoing first-in-human clinical trial in patients with refractory hyperlipidemia syndromes.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11233-9",
+        "pmcid": null,
+        "authors": [
+          "Taiji Mizoguchi",
+          "Jamie E DeNizio",
+          "Alexandra C Chadwick",
+          "Anne Marie Mazzola",
+          "Maxwell P Brown",
+          "Shashank Mishra",
+          "Manashree Damle",
+          "Yuri Matsumoto"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11233-9",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42988369",
+        "title": "Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch.",
+        "journal": "Nature",
+        "pub_date": "2026-11-05",
+        "abstract": "Hypertension is a silent killer, with over half of affected adults unaware of their condition1,2. This lack of awareness is a major concern, as early intervention is critical for preventing major adverse cardiovascular events3,4. Here we show that applying artificial intelligence (AI) to multimodal waveforms (photoplethysmography and accelerometry) recorded using a widely available consumer smartwatch (AI-PPG-ACC-HTN), without any cuff calibration, can detect hypertension with accuracy levels comparable to traditional cuffed blood pressure (BP) devices in the existing clinical framework. We validated AI-PPG-ACC-HTN in a prospective, multicenter study of 196 diverse participants free from known cardiovascular disease and antihypertensive medication against gold-standard 24-hour ambulatory BP monitoring. Over seven days of real-world monitoring, AI-PPG-ACC-HTN detected hypertension with a sensitivity of 65.8% (95% CI, 54.0%-76.3%), specificity of 90.0% (95% CI, 83.2%-94.7%), and positive predictive value (PPV) of 80.6% (95% CI, 68.6%-89.6%). In comparison, initial office BP screening achieved a sensitivity of 55.3% (95% CI, 43.4%-66.7%), specificity of 90.0% (95% CI, 83.2%-94.7%) and PPV of 77.8% (95% CI, 64.4%-88.0%). These results highlight an opportunity for consumer smartwatches to facilitate population-level opportunistic hypertension screening by prompting at-risk individuals toward clinical assessment and confirmatory diagnosis using established cuff-based methodologies, offering an accessible tool to address this major public health challenge.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11336-3",
+        "pmcid": null,
+        "authors": [
+          "Paolo Di Achille",
+          "Lawrence Cai",
+          "Jiang Wu",
+          "Mingwu Gao",
+          "Bhavna Daryani",
+          "Jonathan Wang",
+          "Utkarsh Khanna",
+          "Ho Ko"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11336-3",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42983099",
+        "title": "Decoding the regulatory programs governing glioblastoma plasticity.",
+        "journal": "Nature",
+        "pub_date": "2026-11-04",
+        "abstract": "Glioblastoma is incurable and resistant to therapy despite genomic stability under treatment1-8, suggesting that non-genetic cellular plasticity is a central driver of progression. Whether such plasticity reflects stochastic state switching or is governed by predictable gene regulation has remained unclear9-13. Here we introduce scDORI (single-cell deep multi-omic regulatory inference)-a deep-learning framework that infers enhancer-driven gene-regulatory networks at single-cell resolution-and apply it to single-nucleus multiome profiles of more than one million cells from primary glioblastomas. Integrating computational inference with systematic perturbation screens across patient-derived models, we show that a structured regulatory program with an asymmetric interplay of activators and repressors governs cellular plasticity in glioblastoma. The resulting transition landscape is hierarchical and predictable, but permits cross-lineage trajectories that are absent from normal neurodevelopment. Within this landscape, low-plasticity states such as the neuronal-like state are not stable differentiation end points but actively maintained configurations, stabilized by a network of safeguard repressors that silence alternative fates. We identify MYT1L as the dominant member of this network, and show that it binds to and represses master regulators of every alternative state to consolidate neuronal-like identity. MYT1L restricted plasticity even under standard-of-care therapy and suppressed tumour growth and invasion in vivo. Conversely, loss of MYT1L reactivated plasticity and accelerated malignant features, indicating that low-plasticity identity requires continuous repression. These findings reframe malignant cell state stability as a balance between activation and continuous repression, and nominate safeguard repressors as candidate therapeutic targets that are distinct from differentiation-inducing activators, with potential relevance across cancers in which phenotypic switching drives therapy resistance.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11177-0",
+        "pmcid": null,
+        "authors": [
+          "Manu Saraswat",
+          "Laura Rueda-Gensini",
+          "Elisa Heinzelmann",
+          "Tannia Gracia",
+          "Fani Memi",
+          "Grant de Jong",
+          "Jannes Straub",
+          "Cedar Schloo"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 29.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11177-0",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42983097",
+        "title": "In vivo CAR-T double knockout screen maps synergistic antitumour gene pairs.",
+        "journal": "Nature",
+        "pub_date": "2026-11-04",
+        "abstract": "Chimeric antigen receptor (CAR)-T cell therapy has transformed the treatment of haematological malignancies, but its efficacy remains limited by multiple negative regulatory mechanisms intrinsic to T cells1-4. Here we perform a high-throughput in vivo CAR-T double-knockout (DKO) CRISPR screen, and identify multiple DKO gene pairs that are both effective and synergistic. The top pair, NR4A1-SOCS3 DKO, has multiple favourable immunological features. Whole-transcriptome profiling and in vivo single-cell RNA sequencing reveal that NR4A1-SOCS3 DKO specifically upregulates metabolic pathways in CAR-T cells, which show significantly higher metabolic fitness and mitochondrial activity. NR4A1-SOCS3 DKO CAR-T cells and T cells exhibit exceptionally potent antitumour efficacy and long-term tumour control across different tumour models without compromising safety features. NR4A1-SOCS3 DKO outperforms several benchmark single-gene and dual-gene modifications in T cells and CAR-T cells5-9. These data demonstrate high-throughput in vivo CAR-T DKO screening for rapid discovery of combination targets, and establish NR4A1-SOCS3 as a promising pair of intracellular checkpoints to engineer high-performance CAR-T therapies against cancer.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-10956-z",
+        "pmcid": null,
+        "authors": [
+          "Liqun Zhou",
+          "Paul A Renauer",
+          "Kaiyuan Tang",
+          "Shanshan Li",
+          "Zhicheng Luo",
+          "Yanzhi Feng",
+          "Shawn H Lin",
+          "Feifei Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-10956-z",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42983086",
+        "title": "A spatiotemporal cancer cell trajectory underlies glioblastoma heterogeneity.",
+        "journal": "Nature",
+        "pub_date": "2026-11-04",
+        "abstract": "Cancer cells show highly heterogeneous and plastic states in glioblastoma, an incurable brain tumour1-5. However, how these malignant states arise and whether they follow defined cellular trajectories across tumours is poorly understood. Here we generated a deep single-cell and spatial multi-omic atlas of human glioblastoma that pairs transcriptomic, epigenomic and genomic profiling of 12 tumours across many regions. We identify that glioblastoma heterogeneity is driven by spatially patterned transitions of cancer cells from developmental-like states towards those defined by a glial injury response and hypoxia. This cellular trajectory regionalizes tumours into distinct tissue microenvironments and manifests in a molecularly conserved manner across tumours as well as genetically distinct tumour subclones. Consistently, using a new deep-learning framework to map cancer cell states jointly with clones in situ, we show that tumour subclones are finely spatially intermixed through glioblastoma tissue microenvironments. We validate this cellular trajectory by using somatic mutation-based hierarchies in vivo and an experimental patient-derived organoid model ex vivo. Finally, we show that this cancer cell trajectory is intimately linked to myeloid heterogeneity and unfolds across regionalized myeloid signalling environments. Our findings define a stereotyped trajectory of cancer cells in glioblastoma and unify glioblastoma tumour heterogeneity into a tractable cellular and tissue framework.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11234-8",
+        "pmcid": null,
+        "authors": [
+          "Grant de Jong",
+          "Fani Memi",
+          "Tannia Gracia",
+          "Olga Lazareva",
+          "Oliver Gould",
+          "Georgios Solomou",
+          "Alexander Aivazidis",
+          "Manas Dave"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 27.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11234-8",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42983085",
+        "title": "Nectin-4 mediates rubella virus entry in airway and placental cells.",
+        "journal": "Nature",
+        "pub_date": "2026-11-04",
+        "abstract": "Rubella virus (RuV) causes rubella and, when acquired during pregnancy, congenital rubella syndrome1. Despite its clinical significance, the cellular entry mechanism of RuV remains poorly characterized, owing to limited identification of host receptors2, which hinders pathogenesis research and therapeutic development. Here, using proximity biotin labelling-based proteomics coupled with CRISPR-Cas9 validation, we identify nectin-4 as a functional RuV entry receptor. Ectopic expression of nectin-4 conferred susceptibility to RuV in non-permissive cells, whereas blocking or genetic ablation of nectin-4 reduced infection, results that demonstrate that nectin-4 is a major entry factor. Mechanistically, nectin-4 directly interacts with the RuV envelope glycoprotein heterodimer and facilitates receptor-mediated endocytosis following initial calcium-dependent viral attachment to cellular lipids. In polarized airway epithelial models, nectin-4 mediates basolateral entry of RuV and supports apical progeny release, a finding that provides a molecular mechanism for respiratory transmission. In placental models, nectin-4 is highly expressed on syncytiotrophoblasts and facilitates infection at the maternal-fetal interface, although additional nectin-4-independent pathways contribute to infection of other trophoblast populations. Together, these data establish nectin-4 as a key factor for respiratory transmission and early placental infection of RuV and highlight it as a promising therapeutic target for the prevention of rubella and related diseases.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11248-2",
+        "pmcid": null,
+        "authors": [
+          "Yoshio Mori",
+          "Masafumi Sakata",
+          "Yuichiro Nakatsu",
+          "Takeshi Hori",
+          "Yoko Ino",
+          "Satoshi Suzuki",
+          "Mayuko Nishi",
+          "Miyuki Kawase"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11248-2",
+        "supplement_reason": null
+      }
+    ],
+    "Science": [
+      {
+        "pmid": "42986976",
+        "title": "Obesity pharmacotherapies and cognition.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-05",
+        "abstract": "Pharmacotherapies for obesity and type 2 diabetes are increasingly being evaluated for their effects on cognition and brain health. Evidence from preclinical models, observational cohorts, and clinical trials has intensified interest, but findings remain mixed. A central challenge is to determine whether potential cognitive effects arise from direct actions on neural circuits, indirect consequences of improved cardiometabolic health, or both. This Review examines the evidence across cardiometabolic disease, aging, and Alzheimer's disease, focusing on glucagon-like peptide-1 (GLP-1)-based therapies and combination approaches that engage glucose-dependent insulinotropic polypeptide, glucagon, and amylin pathways. We assess how receptor pharmacology, brain exposure, metabolic context, and disease stage shape cognitive outcomes and discuss how mechanistic clarity could guide therapies aimed at preserving or improving cognition.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1126/science.aek9987",
+        "pmcid": null,
+        "authors": [
+          "Stina Börchers",
+          "Giulia Mazzini",
+          "Henrik Zetterberg",
+          "Christoffer Clemmensen"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aek9987",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42986964",
+        "title": "Targeting hormone conversion through dietary fiber improves polyendocrine metabolic ovarian syndrome.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-05",
+        "abstract": "Excessive androgens serve as a primary driver for many phenotypic features of polyendocrine metabolic ovarian syndrome (PMOS). Although dietary fiber has been shown to alleviate PMOS, its effects on androgen concentrations and the underlying mechanisms remain unclear. In a clinical trial, we demonstrated that a dietary fiber combination consisting of inulin, resistant starch, and β-glucan reduces androgen concentrations in patients' plasma. Mechanistically, dietary fiber increased the abundance of Bacteroides xylanisolvens, which converts androstenedione into a nonandrogenic secondary hormone metabolite we named coproandrosterone, which is further metabolized by gut microbiota into dihydro-coproandrosterone. This metabolic pathway was validated in a mouse model. These findings highlight the potential of dietary fiber to alleviate PMOS by modulating androgen homeostasis through gut microbiota, offering insights for prebiotic and probiotic therapies.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aed8952",
+        "pmcid": null,
+        "authors": [
+          "Xinyu Qi",
+          "Hong Chen",
+          "Qixing Nie",
+          "Hongyu Niu",
+          "Yong Ding",
+          "Xi Luo",
+          "Manfei Si",
+          "Shuqi Wu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 22.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aed8952",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42986960",
+        "title": "When fat adapts: From physiological remodeling to disease.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-05",
+        "abstract": "Adipose tissue undergoes extensive remodeling to adapt to changing physiological demands. This plasticity encompasses changes in adipocyte metabolism and number, extracellular matrix organization, vascularization, immune composition, and innervation. When coordinated, these processes preserve energy buffering, thermogenesis, endocrine function, and local tissue support. Pathological adipose tissue remodeling drives obesity-related complications and contributes to many diseases involving organ-associated adipose depots throughout the body. In cancer, tumor-associated fat can develop a metabolic and fibroinflammatory niche that promotes tumor growth and invasion, and remodeling of other depots can directly disrupt neighboring tissues. Recent studies have identified mesenchymal, immune, vascular, and adipocyte states that govern adaptive or pathological outcomes. These findings broaden therapeutic goals beyond reducing fat mass toward restoring adipogenesis, substrate turnover, thermogenic capacity, and tissue-niche function.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1126/science.aee9044",
+        "pmcid": null,
+        "authors": [
+          "Karima Drareni",
+          "Patrick Seale"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 20.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aee9044",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42986959",
+        "title": "Tumor metastasis co-opts liver hematopoiesis to promote immunosuppression.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-05",
+        "abstract": "Cancer-associated hematopoietic abnormalities contribute to systemic immunosuppression. However, whether tumors can initiate localized extramedullary hematopoiesis to suppress antitumor immunity remains unclear. In this study, we identify a distinct form of hepatic hematopoiesis driven by liver metastasis-associated hematopoietic stem cells (LM-HSCs). Liver metastases establish ectopic periportal hematopoietic niches that recruit bone marrow HSCs through Kupffer cell-dependent C-C motif chemokine receptor 1 (CCR1) signaling. Although LM-HSCs retain self-renewal and multipotency, cAMP response element-binding protein (CREB) activation skews their differentiation toward the myeloid lineage, particularly annexin A1-positive (ANXA1+) immature neutrophils. These neutrophils produce glucocorticoids, which activate glucocorticoid receptor signaling in a paracrine manner and induce immune checkpoint receptor expression and functional anergy in CD8+ T and natural killer cells. Collectively, these findings suggest that liver metastases reprograms hepatic hematopoiesis to promote immunosuppression.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aea3046",
+        "pmcid": null,
+        "authors": [
+          "Qiang Pan",
+          "Xuege Wang",
+          "Yaqi Li",
+          "Ni Li",
+          "Ying Han",
+          "Guoying Zhang",
+          "Jiacheng Guo",
+          "Le Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 20.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aea3046",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42986954",
+        "title": "Obesity management medications: The way forward.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-05",
+        "abstract": "Obesity is now widely recognized as a chronic progressive condition. The altered biological mechanisms that cause obesity frequently require long-term treatment, including pharmacotherapies or bariatric surgery. In recent decades, the pathophysiology of obesity has been understood to an extent that obesity management medication (OMM) discovery could be rationally pursued. Advances in defining the regulation of food intake and energy expenditure by molecular communication from peripheral organs to the brain led to the development of OMMs that appear capable of safely achieving scalable and sustained body weight loss. However, side effects, heterogeneous treatment responses, long-term metabolic adaptations, adherence, and other factors may limit the use of existing OMMs and justify the development of additional medications to improve the health of people living with obesity.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1126/science.aej1120",
+        "pmcid": null,
+        "authors": [
+          "Matthias Blüher"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 5.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aej1120",
+        "supplement_reason": null
+      }
+    ],
+    "Cell": [
+      {
+        "pmid": "42982038",
+        "title": "CRISPR mutagenesis of the MYC locus reveals a druggable ultraconserved RNA element.",
+        "journal": "Cell",
+        "pub_date": "2026-11-04",
+        "abstract": "Noncoding sequences comprise most of the human genome; however, their functional significance remains largely elusive. Using CRISPR tiling mutagenesis with near-PAMless, high-fidelity SpRY-Cas9, we mapped the fitness landscape of an entire human gene, the 10-kb MYC locus, at base-pair resolution. This unbiased interrogation revealed that 67% of functionally essential base pairs are noncoding. Essential noncoding base pairs are under strong constraint in the human population but show limited evolutionary conservation across species. Within this landscape, we identified an ultraconserved noncoding RNA element in the 3' untranslated region (UTR) that promotes perinuclear localization of MYC mRNA and nuclear localization of MYC protein through interaction with hnRNP L. Steric-blocking antisense oligonucleotides (ASOs) targeting this element selectively eliminate diverse MYC-dependent cancer cells and inhibit growth of patient-derived tumor organoids. Together, these findings establish noncoding sequences as major carriers of functional genetic information and identify a therapeutically actionable RNA element whose targeting disrupts MYC-driven cancer.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.002",
+        "pmcid": "PMC13739239",
+        "authors": [
+          "Peiguo Shi",
+          "Feiyue Yang",
+          "Tala Fnu",
+          "Wesley Huang",
+          "Linqing Xing",
+          "Shah Alam",
+          "Wangyang Dai",
+          "Alexis O Aparicio"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CRISPR",
+          "MYC",
+          "antisense oligonucleotides",
+          "cancer",
+          "hnRNP L",
+          "mRNA localization",
+          "noncoding",
+          "tiling mutagenesis",
+          "ultraconserved"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.002",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42971205",
+        "title": "Subsistence transition preceded population turnover in the eastern Colombian Andes.",
+        "journal": "Cell",
+        "pub_date": "2026-11-02",
+        "abstract": "The Altiplano Cundiboyacense in the eastern Colombian Andes preserves one of the Americas' most continuous archaeological sequences, recording cultural and demographic change. We generated genome-wide data from 212 individuals spanning over 7,000 years, including early-middle and middle Holocene hunter-gatherers, initial late Holocene groups with mixed economies and the earliest isotopic evidence of maize consumption, and increasingly sedentary Herrera and Muisca populations. Individuals predating the Herrera Period form a lineage that persisted for five millennia, structured by drift in small groups without external gene flow. Two individuals dating ∼2,800 years before present (BP) retain autochthonous ancestry while showing isotopic signatures consistent with maize consumption, decoupling subsistence change from population replacement. The emergence of Herrera culture ∼2,200 BP coincided with a sharp genetic break by ∼2,000 BP, which reflects migration by people descended from admixture ∼4,000 BP between groups with Chibchan- and Amazonian-Andean-related ancestries. Herrera and Muisca Period individuals show north-south genetic substructure paralleling archaeological differentiation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.010",
+        "pmcid": null,
+        "authors": [
+          "Kendra Sirak",
+          "Miguel Delgado",
+          "Angélica Viviana Triana Vega",
+          "Sebastián Rivas",
+          "Pedro Argüello",
+          "Ana María Boada",
+          "Javier Rivera-Sandoval",
+          "Germán Peña"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Colombia",
+          "Herrera Period",
+          "Muisca Period",
+          "Northern Andes",
+          "ancient DNA",
+          "dietary transition",
+          "hunter-gatherers",
+          "maize",
+          "population replacement",
+          "stable isotopes"
+        ],
+        "weekly_match": true,
+        "score": 0.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.010",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42971204",
+        "title": "Convergent genomic evolution of human gut bacteria along an industrialization gradient.",
+        "journal": "Cell",
+        "pub_date": "2026-11-02",
+        "abstract": "Whether human-associated environments drive adaptive genome evolution in gut commensal bacteria remains largely unknown. Here, we investigate how genomic adaptation in gut bacteria differs between industrialized and non-industrialized human populations. We generated a collection of isolate genomes spanning diverse host geographies, lifestyles, species, and strains. We first found that, compared with metagenome-assembled genomes (MAGs), paired isolate genomes recover more functional elements and signals of horizontal gene transfer (HGT). Leveraging isolate genomes from multiple species, we find that strains from industrialized hosts experience an expansion of proteome size and harbor greater pangenome fluidity, driven by recent HGT events. Gene- and variant-level analyses reveal convergent patterns of lifestyle-specific adaptation in functions that are critical for ecological adaptation, such as the stress response, cell-envelope remodeling, and central metabolism. Our results demonstrate that industrialization drives convergent genome evolution in gut bacteria, providing a framework for understanding the mechanisms of microbial adaptation to rapidly changing human environments.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.014",
+        "pmcid": null,
+        "authors": [
+          "Malte Rühlemann",
+          "Yue Ma",
+          "Lénárd L Szánthó",
+          "Silvio Waschina",
+          "Lucas Moitinho-Silva",
+          "Laura C Mews",
+          "Joan Faus-Camarena",
+          "Hannah Jebens"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "adaptation",
+          "bacterial genomics",
+          "evolution",
+          "gut bacterial isolate genomes",
+          "human gut microbiome",
+          "industrialization"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.014",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42971203",
+        "title": "TECR palmitoylation triggers a necrotic cell death program driving acute liver injury.",
+        "journal": "Cell",
+        "pub_date": "2026-11-02",
+        "abstract": "Acute liver injury caused by drug toxicity or immune activation remains a major clinical challenge with limited mechanistic understanding and few effective therapies. Here, we identify a previously unrecognized form of regulated cell death driven by palmitoylation of the endoplasmic reticulum (ER)-resident enzyme trans-2,3-enoyl-coenzyme A (CoA) reductase (TECR). We show that multi-site palmitoylation of TECR, redundantly catalyzed by the palmitoyl acyltransferases ZDHHC5 and ZDHHC2 and dynamically reversed by the depalmitoylase ABHD10, activates PERK-dependent ER stress signaling to trigger cell death. This cell death pathway is a TECR-dependent, palmitoylation-induced, ER stress-mediated necrotic cell death program (TPNCD). TPNCD contributes to liver injury in mouse models of acetaminophen- and concanavalin A-induced hepatotoxicity and is attenuated by hepatocyte-specific TECR ablation or by pharmacological inhibition of palmitoylation or ER stress signaling. Together, these findings establish TPNCD as a distinct, necrotic cell death pathway underlying acute liver injury and highlight new therapeutic entry points for hepatoprotection.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.011",
+        "pmcid": null,
+        "authors": [
+          "Xiaoyan Ru",
+          "Xinran Li",
+          "Zhili Wu",
+          "Xinhua Ren",
+          "Yu Zong",
+          "Yazhong Cui",
+          "Yuhua Li",
+          "Zhangcheng Ding"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ABHD10",
+          "PERK",
+          "TECR",
+          "TPNCD",
+          "ZDHHC2",
+          "ZDHHC5",
+          "liver injury",
+          "palmitoyl acyltransferase",
+          "palmitoylation"
+        ],
+        "weekly_match": true,
+        "score": 11.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.011",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42971202",
+        "title": "Industrialization drives convergent microbiome and host physiological shifts in the human metaorganism.",
+        "journal": "Cell",
+        "pub_date": "2026-11-02",
+        "abstract": "Understanding how industrialization reshapes the human metaorganism requires integrating microbiome ecology with host physiology across globally diverse populations. Here, we generate multivariate data from the Global Microbiome Conservancy cohort, including gut microbiome, immunoglobulin A (IgA) sequencing, host genotyping, diet, lifestyle, and fecal biomarker profiles, to investigate host-microbiome interactions across gradients of industrialization and geography. We show that industrialization is associated with homogenized microbial compositions, reduced microbial diversity, and lower community stability, independent of host confounders. We further show that industrialization is linked to elevated markers of gut stress, increased IgA secretion, and altered patterns of IgA-bacteria interactions. Finally, we show that microbiome-based disease predictors trained on industrialized populations are uninformative in less industrialized cohorts, highlighting limited cross-population transferability. Together, our results reveal coordinated restructuring of the microbial ecosystem and host physiology and emphasize the need for inclusive, globally representative data to improve translational microbiome applications across diverse human populations.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.016",
+        "pmcid": null,
+        "authors": [
+          "Mathilde Poyet",
+          "Malte Rühlemann",
+          "Ana P Schaan",
+          "Yue Ma",
+          "Lucas Moitinho-Silva",
+          "Eike M Wacker",
+          "Hannah Jebens",
+          "Lucas Patel"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "IgA",
+          "IgA-seq",
+          "chromogranin",
+          "gut metagenomes",
+          "gut microbiome",
+          "host-microbiome interactions",
+          "human holobiont",
+          "human metaorganism",
+          "industrialization"
+        ],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.016",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42971201",
+        "title": "Fatty acid desaturation controls cellular fate decisions between senescence and ferroptosis.",
+        "journal": "Cell",
+        "pub_date": "2026-11-02",
+        "abstract": "When subject to damage or stress, cells develop responses in order to maintain tissue homeostasis. Two such responses are ferroptosis and cellular senescence, but how cells decide between these outcomes remains unclear. Here, we show that senescent cells increase import and membrane levels of multiple polyunsaturated fatty acids (PUFAs), but a specific intermediate PUFA, dihomo-gamma-linolenic acid (DGLA, 20:3ω-6), is reduced. Exogenous repletion of DGLA instead results in cell death by ferroptosis. Senescent cells manifest additional features associated with ferroptosis, including labile iron and expression of lipoxygenases as well as low-level membrane peroxidation. Oral DGLA supplementation lowers markers of senescence in aged mice and improves age-related functional outcomes. Finally, obese humans with lowered DGLA desaturation rates have lower markers of adipose tissue senescence. Together, our data implicate shifts in PUFA metabolism as a driver of decisions between senescence and ferroptosis.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.036",
+        "pmcid": null,
+        "authors": [
+          "Chisaka Kuehnemann",
+          "Samantha T Jezak",
+          "Bronwyn A Mogck",
+          "Niharika Kura",
+          "Rushmeen Tariq",
+          "Yuheng Che",
+          "Maija Vaittinen",
+          "Ioannis Siokas"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "DGLA",
+          "PUFA",
+          "aging",
+          "desaturation",
+          "ferroptosis",
+          "lipid peroxidation",
+          "metabolism",
+          "obesity",
+          "senescence",
+          "senolytic"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.036",
+        "supplement_reason": null
+      }
+    ],
+    "Cell metabolism": [
+      {
+        "pmid": "42976845",
+        "title": "Hepatic ALP links intestinal stem-cell fate to dysglycemia in fatty liver.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "",
+        "publication_types": [
+          "Letter"
+        ],
+        "doi": "10.1016/j.cmet.2026.10.008",
+        "pmcid": null,
+        "authors": [
+          "Qianyi Wan",
+          "Jinbao Ye",
+          "Xingzhu Liu",
+          "Yawen Deng",
+          "Zehong Zhang",
+          "Haiou Chen",
+          "Yi Chen",
+          "Haiyang Chen"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 0.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.008",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42976844",
+        "title": "From liver to L-cell: Clinical considerations for translating hepatic ALP signaling.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "",
+        "publication_types": [
+          "Letter"
+        ],
+        "doi": "10.1016/j.cmet.2026.10.009",
+        "pmcid": null,
+        "authors": [
+          "Cong Xie",
+          "Weikun Huang",
+          "Domenico Tricò",
+          "Michael Nauck",
+          "Karen L Jones",
+          "Michael Horowitz",
+          "Christopher Rayner",
+          "Tongzhi Wu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.009",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42976773",
+        "title": "Beyond singular effectors: The futile creatine cycle from molecular mechanism to integrated adipocyte thermogenesis.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "The discovery of uncoupling protein 1 (UCP1) established regulated mitochondrial proton leak as the canonical mechanism of adaptive thermogenesis. Yet, foundational studies showed that thermogenic activation can increase proton leak without fully dissipating the protonmotive force, providing a bioenergetic basis for ATP-dependent heat production through futile cycles involving creatine, lipids, and calcium. We focus on the futile creatine cycle (FCC), whose effectors, activation mechanism, structural regulation, and physiological function have been defined. Selective loss-of-function, reconstitution, and genetic interaction studies have established its contribution to thermogenesis and parallel action with UCP1. Such approaches determine whether disrupting a pathway reduces thermogenesis, whether restoring it recovers function, and how its contribution depends on other pathways. They establish physiological relevance beyond what maximal respiratory rates in reductionist systems alone can reveal. The FCC thus offers a reference point for connecting the biochemical mechanisms of other thermogenic cycles to their physiological contributions.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1016/j.cmet.2026.10.005",
+        "pmcid": null,
+        "authors": [
+          "Mohammed Faiz Hussain",
+          "Mina Ersin",
+          "Maria Delgado-Martin",
+          "Lawrence Kazak"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "UCP1-independent",
+          "adipose tissue",
+          "allosteric regulation",
+          "creatine",
+          "creatine kinase",
+          "futile cycle",
+          "genetics",
+          "oxidative phosphorylation",
+          "thermogenesis",
+          "tissue-nonspecific alkaline phosphatase"
+        ],
+        "weekly_match": true,
+        "score": -5.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.005",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42976772",
+        "title": "Leveraging induced cell states for cancer therapy: The case for dynamic synthetic lethality.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Metabolic differences between cancer and normal cells are accentuated by the selection pressure of therapy. Persisting cells enter a therapy-induced state of heightened, time-limited metabolic dependency. We argue that this interval can be exploited with metabolic modifiers to achieve persister cell death and improve cancer outcomes.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.08.017",
+        "pmcid": null,
+        "authors": [
+          "Christina Mayerhofer",
+          "David T Scadden"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.08.017",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42976771",
+        "title": "Fueling the failing heart: SGLT2i directly activates the hidden PANK1.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Sodium-glucose cotransporter 2 inhibitors (SGLT2i) are rising stars for treating heart failure as first-line drugs, but the mechanism remains elusive. In a recent issue of Science, Forelli and colleagues show that SGLT2i bind directly to cardiac pantothenate kinase 1, boosting coenzyme A biosynthesis to support energy metabolism and functional recovery.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.007",
+        "pmcid": null,
+        "authors": [
+          "Cechuan Deng",
+          "Xiaoqiang Tang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 3.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.007",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42976770",
+        "title": "Lactate charging of tRNAs \"brakes\" the ribosome.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Lactate has been recast from a waste product to a fuel and signaling molecule, yet why aggressive tumors invest so heavily in exporting it has remained unexplained. In a recent study in Molecular Cell, Wang et al. show that upon excess lactate production, AARS1 charges lactate onto tRNAs, generating dead-end lactyl-tRNAs that obstruct translation elongation to re-balance metabolism, a molecular \"brake\" that cancer cells avoid through upregulation of lactate exporters.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.10.002",
+        "pmcid": null,
+        "authors": [
+          "Hyo Min Cho",
+          "Raul Mostoslavsky"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.002",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42976769",
+        "title": "Metformin-supportive nutrition: When gut microbes eat drugs.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Metformin is a first-line treatment for type 2 diabetes in adults and children, but its efficacy varies significantly among patients. Zhao et al. identify microbial AdhE as a metformin-degrading enzyme in metformin low-responders and propose enzyme-based microbiome intervention as a strategy to rescue therapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.019",
+        "pmcid": null,
+        "authors": [
+          "Chenghao Guo",
+          "Changtao Jiang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.019",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42976767",
+        "title": "Lipid organization in health and disease.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Lipids are spatially and dynamically organized-within organelles, across cell types and organs, and in response to microbial and dietary inputs. Disruption of this organization is a shared mechanism underlying pathological states, including neurodegeneration, cardiovascular disease, and inflammation. In this Voices piece, our authors explore these themes through specific examples.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.012",
+        "pmcid": null,
+        "authors": [
+          "Gökhan S Hotamışlıgil",
+          "Douglas G Mashek",
+          "Tara TeSlaa",
+          "Leigh Goedeke",
+          "Li-Huei Tsai",
+          "John P Kennelly",
+          "Peter Tontonoz",
+          "Jennifer M Bomberger"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.012",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42913648",
+        "title": "Distinguishing hepatic metabolic effects from overall cardiometabolic benefit after matched weight loss.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "",
+        "publication_types": [
+          "Letter"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.014",
+        "pmcid": null,
+        "authors": [
+          "André Marques Fernandes Silva"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.014",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42913647",
+        "title": "On the interpretation of diet-specific metabolic effects following weight loss.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "",
+        "publication_types": [
+          "Letter"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.010",
+        "pmcid": null,
+        "authors": [
+          "Faidon Magkos"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.010",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42913646",
+        "title": "Response to Magkos and Silva: Diet macronutrient content and metabolic function in metabolically unhealthy obesity.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "",
+        "publication_types": [
+          "Letter"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.011",
+        "pmcid": null,
+        "authors": [
+          "Max C Petersen",
+          "Gordon I Smith",
+          "Samuel Klein"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.011",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42906554",
+        "title": "Propionate promotes MHC class I antigen presentation and anti-tumor immunity.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Defective tumor antigen presentation promotes immune evasion and resistance to immune checkpoint blockade. Here, we identified the short-chain fatty acid propionate as a potent enhancer of major histocompatibility complex class I (MHC class I) antigen presentation. Propionate stabilizes MHC class I on tumor cells, promotes CD8+ T cell infiltration and activation, and suppresses tumor growth. Mechanistically, the E3 ubiquitin (Ub) ligase STUB1 directly interacts with human leukocyte antigen (HLA)-A to mediate K168/K170 polyubiquitination and subsequent degradation. Propionate directly binds STUB1 through hydrogen bonds involving K30 and N34, residues that overlap with the MHC class I-binding interface. This interaction blocks STUB1-mediated MHC class I polyubiquitination, thereby stabilizing MHC class I, enhancing T cell receptor (TCR) engagement and T cell activation, and restraining tumor growth. Importantly, propionate or the propionate-producing probiotic Akkermansia muciniphila markedly enhanced anti-PD-1 efficacy. These findings uncover a non-metabolic moonlighting function of short-chain fatty acids in regulating tumor immunity and provide a rationale for leveraging dietary propionate or propionate-producing probiotics to enhance immune checkpoint therapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.018",
+        "pmcid": null,
+        "authors": [
+          "Suyao Li",
+          "Dong Guo",
+          "Qingqing Yang",
+          "Yizhi Cao",
+          "Yu Dong",
+          "Xiaoming Jiang",
+          "Xinyao Tian",
+          "Dou Nie"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "MHC class I",
+          "SCFA",
+          "STUB1",
+          "immune response",
+          "immune therapy",
+          "propionate",
+          "tumor",
+          "ubiquitination"
+        ],
+        "weekly_match": true,
+        "score": 26.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.018",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42906553",
+        "title": "Weight loss during intermittent fasting, not Mediterranean diet quality alone, is associated with lower inflammation: A randomized controlled trial.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Whether the anti-inflammatory effects of a Mediterranean diet reflect diet quality itself or accompanying weight loss is unclear. In a 16-week randomized controlled-feeding trial, 53 adults (77% female; mean age 54.7 years) with metabolic risk factors received a fully provided Mediterranean diet or their habitual western diet for 8 weeks, then added twice-weekly fasting days for a further 8 weeks. The primary outcome, high-sensitivity C-reactive protein, did not change during the diet-only phase despite clear dietary separation. After fasting began, C-reactive protein fell in the Mediterranean-diet group relative to controls, alongside greater weight loss, improved insulin sensitivity, and lower blood pressure; lipid improvements had already emerged during the diet-only phase. Multi-omic analyses showed parallel reductions in inflammatory signaling, with gut microbiome composition largely stable. Thus, diet quality alone does not lower inflammation over 8 weeks; negative energy balance and weight loss during fasting appear to be the stronger drivers. This study was registered at ClinicalTrials.gov (NCT02148458).",
+        "publication_types": [
+          "Journal Article",
+          "Randomized Controlled Trial"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.017",
+        "pmcid": null,
+        "authors": [
+          "Moritz V Warmbrunn",
+          "Valeria Tosti",
+          "Raaj Kishore Biswas",
+          "Beatrice Bertozzi",
+          "Maria Lastra Cagigas",
+          "Nicola Veronese",
+          "Francesco Spelta",
+          "Laura Piccio"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "LDL-cholesterol",
+          "Mediterranean diet",
+          "alternate-day fasting",
+          "cardiovascular disease risk",
+          "diet quality",
+          "hsCRP",
+          "inflammation",
+          "intermittent fasting",
+          "metabolism",
+          "weight loss"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.017",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42874585",
+        "title": "An NAD+-responsive adipose signal coordinates inter-organ defense against muscle atrophy.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Loss of skeletal muscle mass is a major driver of frailty and disability, yet how systemic metabolic cues protect muscle integrity remains unclear. We identify Serpina3n, an adipose-derived adipokine, as a key mediator of the protective effects of nicotinamide adenine dinucleotide (NAD+) supplementation against muscle atrophy. Elevation of NAD+ in adipose tissue activates signal transducer and activator of transcription (STAT)1-dependent transcription of Serpina3n, leading to its systemic release and muscle protection across models of aging, disuse, and cancer cachexia. In muscle, Serpina3n preserves pyruvate carboxylase protein level, promoting anaplerosis, oxidative metabolism, and protein synthesis. These findings define an NAD+-responsive adipose-to-muscle signaling axis that links metabolic status to tissue preservation, defining a systemic mechanism by which inter-organ communication maintains muscle integrity and suggesting potential strategies to counteract muscle degeneration.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.016",
+        "pmcid": null,
+        "authors": [
+          "Na Liang",
+          "Jia He",
+          "Xiangji Guo",
+          "Jiaqi Yan",
+          "Xiaoqian Zhang",
+          "Xiaozhong Peng",
+          "Jun Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "NAD(+)",
+          "adipokine",
+          "aging",
+          "inter-organ communication",
+          "muscle atrophy"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.016",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42843338",
+        "title": "Histone lactylation scarring transmits metabolic and epigenetic memory across the gut-liver axis.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Ulcerative colitis (UC) remission does not abolish susceptibility to metabolic dysfunction-associated steatotic liver disease (MASLD), but the mechanism linking prior intestinal inflammation to delayed liver injury remains unclear. We establish gut-liver axis memory transduction as an epigenetic-cellular-organ cascade in which inflammatory history is molecularly encoded and redeployed across organs. LCN2+ colonic macrophages persist after colitis resolution and retain heightened glycolysis together with durable histone H3K9 L-lactylation (H3K9la). These macrophages maintain a permissive memory state during remission and traffic to the liver, where they amplify steatosis under subsequent HFD challenge. Mechanistically, BRG1 cooperates with CEBPB at H3K9la-marked chromatin to sustain Lcn2 and Pkm transcription in a feed-forward circuit. Myeloid-specific Smarca4 deletion or pharmacological interruption of macrophage trafficking attenuates macrophage memory and protects against MASLD. Together, our findings define H3K9la-centered macrophage memory as a mobile pathogenic imprint that links prior colitis to increased susceptibility to metabolic liver disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.008",
+        "pmcid": null,
+        "authors": [
+          "Heng Dong",
+          "Jinyang Li",
+          "Daowei Yang",
+          "Sheng Zhou",
+          "Abhinav Choubey",
+          "Tiantian Wang",
+          "Ruobing Du",
+          "Shiyan Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "BRG1-CEBPB complex",
+          "H3K9 lactylation",
+          "LCN2(+) macrophages",
+          "MASLD",
+          "UC remission",
+          "gut-liver axis",
+          "metabolic memory"
+        ],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.008",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42826714",
+        "title": "Fungus Rhizopus arrhizus promotes MASLD-associated hepatocellular carcinoma through generating kynurenic acid.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Fungi are crucial components of the human gut microbiota. Here, we investigated the role of fungi in metabolic dysfunction-associated steatotic liver disease-associated hepatocellular carcinoma (MASLD-HCC). Rhizopus arrhizus was the top enriched fungus across the progression from MASLD to MASLD-HCC, accelerating tumorigenesis in multiple mouse models. R. arrhizus-conditioned medium increased cell proliferation while reducing cell cycle arrest and apoptosis in human MASLD-HCC cells. Kynurenic acid (KYNA) was identified as the crucial metabolite generated from R. arrhizus, and its upregulation was confirmed in portal vein, liver tissues, and stools of R. arrhizus-treated mice. KYNA promoted the proliferation of MASLD-HCC cells and accelerated tumorigenesis in mice. Mechanistically, KYNA directly bound to IQ motif containing GTPase activating protein 1 (IQGAP1) in tumor cells and activated the oncogenic mitogen-activated protein kinase (MAPK) signaling pathway, thereby facilitating MASLD-HCC development. In summary, R. arrhizus is a pathogenic fungus that promotes MASLD-HCC by producing KYNA. Blocking this host-fungi interaction is a potential therapeutic strategy to suppress MASLD-HCC.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.005",
+        "pmcid": null,
+        "authors": [
+          "Xingyu Zhou",
+          "Chuanfa Liu",
+          "Wenchao Wei",
+          "Xueliang Wang",
+          "Yasi Pan",
+          "Ying Jiao",
+          "Shiyu Li",
+          "Yating Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "IQGAP1",
+          "MAPK",
+          "MASLD-HCC",
+          "Rhizopus arrhizus",
+          "fungal metabolites",
+          "gut mycobiota",
+          "kynurenic acid",
+          "liver cancer",
+          "metabolic dysfunction-associated steatotic liver disease",
+          "mycobiota",
+          "tumorigenesis"
+        ],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.005",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42810351",
+        "title": "Microbial aldehyde-alcohol dehydrogenase degrades metformin to limit therapeutic response in type 2 diabetes.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Metformin is a first-line therapy for type 2 diabetes, yet therapeutic responses vary widely. Whether gut microbes directly inactivate metformin and limit its efficacy remains unclear. Here, we identify a gut microbial aldehyde-alcohol dehydrogenase, AdhE, from Eubacterium species enriched in individuals with a low response to metformin. AdhE converts metformin to pharmacologically inactive products, lowering intestinal and systemic drug exposure. Genetic deletion of AdhE or phage-mediated depletion of AdhE-producing Eubacterium hallii MD1 restores metformin exposure and glycemic control in mice. An artificial intelligence-guided structure-based screen identifies the dietary phytochemical daidzein as a microbial AdhE inhibitor that blocks metformin degradation and improves metformin responsiveness. These findings establish gut microbial drug inactivation as a modifiable determinant of therapeutic response and provide a framework for microbial enzyme-guided strategies to improve established therapies.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.003",
+        "pmcid": null,
+        "authors": [
+          "Yue Zhao",
+          "Chen Peng",
+          "Ying Xia",
+          "Tiejun Dong",
+          "Juan Xu",
+          "Xiaodong Shan",
+          "Xiang Zhong",
+          "Jingchuan Xue"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "gut microbiota",
+          "metformin degradation",
+          "metformin-response heterogeneity",
+          "microbial drug metabolism",
+          "microbial enzyme AdhE",
+          "structural enzymology",
+          "type 2 diabetes"
+        ],
+        "weekly_match": true,
+        "score": 12.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.003",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42777712",
+        "title": "Adipose ILC2s depend on acetyl-CoA carboxylase 1 to maintain metabolic health.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Adipose group 2 innate lymphoid cells (ILC2s) are essential to maintain metabolic homeostasis. Obesity severely impairs the number and function of ILC2s, resulting in the progression of metabolic inflammation. How ILC2s are perturbed in obesity remains unknown. Here, we find that high-fat diet (HFD)-induced obesity in mice increases fatty acid oxidation, leading to suppression of acetyl-coenzyme A (CoA) carboxylase 1 (ACC1) in adipose ILC2s. ACC1 is essential for maintaining the citrate shuttle, NAD+/NADH balance, and cellular metabolism. Mimicking the effects of HFD, ACC1 deletion impairs differentiation, maintenance, and function of ILC2s. This results in adipose tissue hypertrophy and inflammation at steady state, predisposing mice to the development of diabetes. Supplementing with the NAD+ precursor nicotinamide riboside rescues ACC1 deficiency, restoring ILC2 function and adipose tissue homeostasis. These findings establish ACC1 as a critical regulator of adipose ILC2 maintenance and function and provide a rationale for the adverse effects of ACC inhibition in obesity.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.08.019",
+        "pmcid": null,
+        "authors": [
+          "Fotios Karagiannis",
+          "Maria Rafailia Theodorou",
+          "Fabian Nikolka",
+          "Maria Doverman",
+          "Dhruvi Shah",
+          "Chantal Wientjens",
+          "Timothy R McCulloch",
+          "Ronja Kardinal"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ACC1",
+          "ILC2",
+          "NAD+/NADH",
+          "SLC25A1",
+          "adipose tissue",
+          "fatty acids",
+          "innate lymphoid cells",
+          "metabolism",
+          "obesity"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.08.019",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42753730",
+        "title": "Zonated cholesterol sensing by SIRT2 drives MASLD-HCC.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) is a leading cause of hepatocellular carcinoma (HCC), but how metabolic zonation drives regional transformation remains unclear. We identify sirtuin 2 (SIRT2) as a zonated cholesterol sensor that initiates reprogramming to drive MASLD-HCC. Lineage tracing establishes zone 1 hepatocytes as the cellular origin of tumors. SIRT2 overexpression in zone 1 triggers HCC, whereas its deletion prevents carcinogenesis by restoring cholesterol and bile acid metabolism and CD8+ T cell recruitment. Mechanistically, cholesterol binds and activates SIRT2, which deacetylates sterol carrier protein 2 (SCP2) at Lys546, thereby blocking peroxisome proliferator-activated receptor α (PPARα) recruitment to the Cyp7b1 promoter, suppressing alternative bile acid synthesis, and permitting 27-hydroxycholesterol accumulation. SIRT2 inhibition reverses this cascade in mice and human hepatic organoids. Patient specimens confirm zonal SIRT2 and cytochrome P450 7B1 (CYP7B1) dysregulation. Our findings establish spatially compartmentalized cholesterol sensing as a new regulatory layer and identify SIRT2 as a druggable target in liver cancer.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.08.015",
+        "pmcid": null,
+        "authors": [
+          "Yingting Zhang",
+          "Xidai Long",
+          "Yinkun Fu",
+          "Xinxin Tang",
+          "Hao Luo",
+          "Zhihui Zou",
+          "Wei He",
+          "Longchuan Han"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "27-hydroxycholesterol",
+          "CYP7B1",
+          "MASLD-HCC",
+          "SIRT2",
+          "bile acid metabolism",
+          "cholesterol sensor",
+          "deacetylase",
+          "hepatocellular carcinoma",
+          "liver zonation",
+          "metabolic zonation"
+        ],
+        "weekly_match": true,
+        "score": 24.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.08.015",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42580343",
+        "title": "A bedside-to-outside model of human nutrition research.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "One of the fundamental challenges with human nutrition research is the difficulty of knowing what people actually eat. Asking people to live in the laboratory enables precise control and measurement of food intake, but the environment does not reflect real-world conditions. Here, we present a bedside-to-outside model, which aims to address this gap by combining controlled feeding studies (prioritizing efficacy) with free-living intervention studies (incorporating effectiveness) within the same cohort. This approach will enable translation of the efficacy and effectiveness of dietary interventions with causal inference within the same cohort, offering novel insights into the real-world impact of controlled dietary interventions.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1016/j.cmet.2026.07.010",
+        "pmcid": "PMC13463385",
+        "authors": [
+          "Aaron Hengist",
+          "Stephanie T Chung",
+          "Valerie L Darcey",
+          "Kong Chen",
+          "Juen Guo",
+          "Gary Frost",
+          "Javier T Gonzalez",
+          "Kevin D Hall"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "clinical trials",
+          "diet",
+          "effectiveness",
+          "efficacy",
+          "intervention",
+          "nutrition",
+          "randomization"
+        ],
+        "weekly_match": true,
+        "score": -5.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.07.010",
+        "supplement_reason": null
+      }
+    ],
+    "immunity": [
+      {
+        "pmid": "42982037",
+        "title": "Tumor-to-dendritic cell reprogramming induces immunogenic lymphoid structures across cancers.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-04",
+        "abstract": "Tertiary lymphoid structures (TLSs) in tumors are associated with improved responses to immunotherapy. Here, we examined the impact of type 1 conventional dendritic cells (cDC1s) in TLS formation. Reprogrammed tumor cells into cDC1-like cells remodeled the tumor microenvironment and induced immunogenic TLSs (imgTLSs) across melanoma, colon, bladder, breast, and pancreatic cancer models with distinct genetic backgrounds. cDC1-like cells activated lymphotoxin, TNF, and interferon programs and engaged early with T cells through MHC class I and CD40 signaling to induce imgTLSs containing BCL6+ germinal centers, independently of endogenous cDC1s. Intratumoral positioning shaped distinct cDC1-like cell states, with DC-LAMP+ CCR7+ migratory cDC1s nucleating niches enriched in CD4+, CD8+ T cells, and B cells in mouse and human tumors. ImgTLSs sustained B and T cell responses and promoted systemic immunity through expansion of shared clonotypes in distant, untreated tumors. Our findings outline the spatial organization, signaling programs and interactions of cDC1-like cells that initiate intratumoral lymphoid structures and establish cellular reprogramming as a strategy toward overcoming resistance to immunotherapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.006",
+        "pmcid": null,
+        "authors": [
+          "Ervin Ascic",
+          "Camille Chatelain",
+          "Gaia Fontanari",
+          "César Pérez Bucio",
+          "Linmeng Zhang",
+          "Maria Thrasyvoulou",
+          "Viktoria Karali",
+          "Tommaso Ballocci"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "B cell immunity",
+          "CD40 signaling",
+          "cDC1",
+          "cancer immunotherapy",
+          "dendritic cells",
+          "in vivo cellular reprogramming",
+          "proximity labeling",
+          "spatial transcriptomics",
+          "tertiary lymphoid structures",
+          "tumor microenvironment"
+        ],
+        "weekly_match": true,
+        "score": 29.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.006",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Immunology": [],
+    "Science Immunology": [
+      {
+        "pmid": "42993812",
+        "title": "Programming immunity in situ: A new frontier of in vivo cell engineering.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-06",
+        "abstract": "In vivo cell engineering enables the direct programming of immune cells inside patients. Instead of isolating, modifying, and reinfusing cells, therapeutic instructions are delivered directly to selected immune cells through lipid nanoparticles or viral vectors. This approach could facilitate rapid and scalable deployment of varied immune cell therapies across disease contexts. Early clinical studies in oncology and autoimmunity demonstrate increasing technical and clinical feasibility. The next challenge lies in enhancing precision to ensure that vectors reach the target cell type and tissue, deliver the appropriate payload, and produce desired transient or durable activity. Progress in targeting ligands, vector design, biodistribution control, and genome editing is beginning to address these barriers. Ensuring safety against immunogenicity, inflammatory toxicity, off-target editing, and uncontrolled persistence remains a central priority. By mastering these constraints, in vivo engineering could turn endogenous immune cells into therapeutic agents generated directly in the body, expanding cell therapy to diseases refractory to current modalities.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1126/sciimmunol.aed1027",
+        "pmcid": null,
+        "authors": [
+          "Juliane Mietz",
+          "Antonela Merlotti",
+          "Antonin de Fougerolles",
+          "Olivier Demaria",
+          "Eric Vivier"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 24.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aed1027",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42993811",
+        "title": "Myeloid cells run amok in injured brains.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-06",
+        "abstract": "Aberrant, cranial bone marrow-derived myelopoiesis drives neuroinflammation in chronic traumatic brain injury.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aen3917",
+        "pmcid": null,
+        "authors": [
+          "Autumn C Holmes"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aen3917",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42993810",
+        "title": "The structural basis of IL-36R proinflammatory signaling mediated by IL-36γ and IL-37.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-06",
+        "abstract": "The interleukin-36 receptor (IL-36R) drives proinflammatory signaling and is therapeutically targeted by spesolimab in acute skin inflammation. Beyond its three canonical agonists (IL-36α, IL-36β, and IL-36γ), IL-36R was recently proposed to be activated by IL-37. Together with antagonism by IL-36R antagonist (IL-36RA) and IL-38, this creates a complex structure-function landscape that remains poorly understood. Here, we report the cryo-electron microscopy (cryo-EM) structure of human IL-36γ bound to IL-36R and the shared co-receptor IL-1R accessory protein (IL-1RAcP). IL-36γ engages IL-36R with low affinity, enabling high-affinity IL-1RAcP recruitment. IL-37 exhibits the opposite binding signature, binding IL-36R with high affinity but IL-1RAcP weakly. Functional comparison of IL-36R engagement by IL-36γ and IL-37 confirmed their common proinflammatory signature, with IL-36γ exhibiting markedly higher potency, consistent with its more stable signaling complex. Structural comparison of cytokine-bound versus antibody-antagonized IL-36R revealed that spesolimab acts as an allosteric antagonist. This study therefore provides a structural and mechanistic blueprint for IL-36R activation by distinct cytokines.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.adw5770",
+        "pmcid": null,
+        "authors": [
+          "Julie Andries",
+          "Martin Toul",
+          "Lisse Thierens",
+          "Brecht Bekaert",
+          "Jan Felix",
+          "Danielle M Clancy",
+          "Savvas N Savvides"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.adw5770",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42993809",
+        "title": "Collateral damage…or is love really blind?",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-06",
+        "abstract": "Bystander T cells eradicate tumors in the absence of antigen recognition.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aen3921",
+        "pmcid": null,
+        "authors": [
+          "Peter Georgiev",
+          "Shiv Pillai"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aen3921",
+        "supplement_reason": null
+      }
+    ],
+    "Bioinformatics": [
+      {
+        "pmid": "42993079",
+        "title": "DeSCENT: Deconvolutional Single-Cell RNA-seq Enhances Transcriptome-based Cancer Survival Analysis.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-06",
+        "abstract": "MOTIVATION: Single-cell RNA-seq captures tumor heterogeneity, but it is rarely available together with patient survival outcomes. Bulk RNA-seq cohorts provide survival data but lack direct measurements of cellular expression.\nRESULTS: DeSCENT generates reference-informed cellular profiles from bulk RNA-seq and combines both representations for survival prediction. We evaluated DeSCENT with three survival models on eight TCGA cancer cohorts. Compared with Bulk, DeSCENT improved average C-index and generally improved time-dependent AUC, while integrated Brier score results were mixed. External validation showed higher average C-index than all three baselines, although performance was lower than in internal evaluation. These findings support the use of cellular representations in the evaluated transcriptome-only setting.\nAVAILABILITY AND IMPLEMENTATION: Code: https://github.com/YonghaoZhao722/DeSCENT. Archival snapshot: doi:10.5281/zenodo.22073099.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag810",
+        "pmcid": null,
+        "authors": [
+          "Yonghao Zhao",
+          "Zeyu You",
+          "Yu Shen",
+          "Jielei Chu",
+          "Xun Gong",
+          "Tianrui Li",
+          "Ziqiang Wang",
+          "Chuan Xu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag810",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42928626",
+        "title": "SomatiX: accurate and efficient somatic SNV detection from matched tumor-normal long-read DNA sequencing.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-02",
+        "abstract": "MOTIVATION: Accurate somatic single-nucleotide variant (SNV) calling from matched tumor-normal long-read DNA sequencing remains challenging because sequencing errors, variable tumor purity, tumor-in-normal contamination, and low variant allele fractions (VAFs) can obscure tumor-specific signals. Although recent deep-learning methods have improved long-read somatic variant calling, robust low-VAF detection and efficient genome-scale analysis remain important methodological challenges.\nRESULTS: We present SomatiX, a deep-learning method for somatic SNV detection from matched tumor-normal long-read DNA sequencing data, built on an allele-aware pileup representation. In comprehensive cancer benchmark analyses across diverse cell-line datasets, sequencing contexts, VAF bins, and minimum variant-supporting read thresholds, SomatiX outperformed DeepSomatic and ClairS in F1 score across most Oxford Nanopore Technologies (ONT) benchmark conditions and achieved competitive performance on Pacific Biosciences (PacBio) data. Across the held-out chromosome 1 cancer cell-line benchmarks, at the threshold of ≥3 variant-supporting reads and a VAF ≥0.05, SomatiX achieved mean F1 scores of 0.986 for ONT data and 0.988 for PacBio data. SomatiX showed particularly strong performance for low-VAF SNVs in ONT data while using a compact model and achieving the fastest runtime among the evaluated tools.\nAVAILABILITY AND IMPLEMENTATION: SomatiX is available at https://github.com/colinliuzelin/SomatiX and archived at Zenodo under DOI: https://doi.org/10.5281/zenodo.22062438. The repository includes source code, trained models, and benchmarking scripts.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag792",
+        "pmcid": "PMC13725752",
+        "authors": [
+          "Zelin Liu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag792",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42905496",
+        "title": "XenoMix: estimating mouse content from DNA methylation data of Patient-Derived Xenograft models.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-02",
+        "abstract": "SUMMARY: DNA methylation microarrays enable cost-effective, high-throughput profiling of human and mouse samples and are widely used to study epigenetic alterations in cancer. Patient-Derived Xenograft (PDX) models complement this approach by preserving primary tumor characteristics while enabling in vivo studies of drug response and therapy resistance. However, it remains difficult to quantify mouse DNA contamination in PDX DNA methylation data generated using microarrays. We present XenoMix, a light-weight computational tool for quantifying mouse DNA contamination directly from DNA methylation data in PDX models. XenoMix leverages the high sequence homology between human and mouse genomes to detect and quantify unexpected signal contributions originating from mouse DNA. Using ground truth mixtures, XenoMix achieved Pearson's correlation coefficients higher than 0.99. When applied to PDX data, we identified varying levels of mouse contamination originating from biological and technological variability. XenoMix establishes a critical quality control step in DNA methylation analysis of PDX models, and we show that the estimated contamination can be incorporated as a confounding variable in downstream analyses.\nAVAILABILITY AND IMPLEMENTATION: XenoMix is available as a standalone R package from https://git.dkfz.de/b370/scepigen/XenoMix and as a module in the RnBeads software package.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag791",
+        "pmcid": "PMC13725749",
+        "authors": [
+          "Nima Esmaeelpour",
+          "Oliver Mücke",
+          "Gizem Altun",
+          "Joseph Cornick",
+          "Maria Capone",
+          "Rocio Sotillo",
+          "Maria Llamazares-Prada",
+          "Christoph Plass"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag791",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42902790",
+        "title": "Integrating complementary datasets for constructing microbiome-metabolome-disease pathways.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-02",
+        "abstract": "MOTIVATION: Microbiome-metabolome-disease pathways play a central role in host health, but studying them is limited by the data available. Large clinical microbiome cohorts often lack metabolomic measurements, while multi-omics studies with paired profiles are typically small or incompletely phenotyped. Combining such complementary datasets is challenging: the metabolite is not measured in the clinical cohort, microbiome data are high-dimensional and compositional, and log-ratio analyses depend on an arbitrarily chosen reference taxon.\nRESULTS: We propose a framework that integrates a large target cohort that has microbiome and outcome data with a smaller external study that has paired microbiome-metabolome profiles. A high-dimensional structural equation model jointly links the microbiome, the metabolome, and the disease outcome. It allows for unmeasured confounding and groups microbes into functional categories. We address compositionality with the additive log-ratio (ALR) transformation, estimate parameters by penalized two-stage least squares, and test metabolite-disease associations with a regularized permutation test. A novel multiple-reference procedure treats each microbe in turn as the ALR reference. It combines the resulting P-values with the Cauchy combination test and classifies microbes by stability selection, which makes inference robust to the choice of reference. In simulations, the method controls the type I error rate, and its power increases with both target and external sample sizes. An application to inflammatory bowel disease, integrating the FRAN and iHMP cohorts, reveals biologically interpretable microbiome-metabolome-disease links.\nAVAILABILITY AND IMPLEMENTATION: The method is implemented in the R package MMDP, freely available at https://github.com/lei-fang-stat/MMDP.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag787",
+        "pmcid": "PMC13725751",
+        "authors": [
+          "Lei Fang",
+          "Chenglong Ye",
+          "Yue Wang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 30.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag787",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Protocols": [
+      {
+        "pmid": "42988933",
+        "title": "Personalization and evaluation of human whole-body metabolic models and community microbiome models using Persephone.",
+        "journal": "Nature protocols",
+        "pub_date": "2026-11-05",
+        "abstract": "Human metabolism and human gut microbiome co-metabolism can be difficult to investigate in vivo owing to the complexity of the systems involved. Genome-scale metabolic modeling with human whole-body metabolic models (WBMs) offers a computational approach to address this challenge. However, personalization and analysis of WBMs requires comprehensive knowledge of metabolic modeling, which can be daunting for beginners. To reduce the computational expertise required and to standardize the process of working with and analyzing WBMs, we present Persephone: a personalization and evaluation pipeline for human WBMs. Persephone has functionalities to create community microbiome models from raw sequencing data or taxonomy-assigned read tables, use physiological and metabolomic data to create personalized WBMs, combine community microbiome models with WBMs or personalized WBMs to create community microbiome (personalized) WBMs, optimize WBMs according to user-defined metabolic reactions, perform statistical analyses to describe the data, and visualize significant results in various figures. Persephone saves intermediate results as well as a log file with all changes made to the model, data and any warnings encountered during the various steps. Persephone is designed for use by anyone with basic research-computing experience and access to modest computer hardware. Applications include the investigation of human-microbiome co-metabolism and the evaluation of the effects of various physiological parameters, such as weight, on human metabolism. Using a dataset of 100 metagenomic samples, it can take several days to a week to run Persephone on a single computer, depending on the number of reactions optimized and whether taxonomic assignment is performed.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1038/s41596-026-01437-8",
+        "pmcid": null,
+        "authors": [
+          "Bram Nap",
+          "Tim Hensen",
+          "Wiley Barton",
+          "Anna Sheehy",
+          "Jonas Widder",
+          "Sandeep Chenna",
+          "Ines Thiele"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41596-026-01437-8",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42977808",
+        "title": "Isolation and lipidomic profiling of neuronal lipid droplets to unveil the lipid landscape of neurodegenerative disorders.",
+        "journal": "Nature protocols",
+        "pub_date": "2026-11-03",
+        "abstract": "Recent advances have expanded the role of lipid droplets (LDs) beyond passive lipid storage, implicating their involvement in various metabolic processes across mammalian tissues. Neuronal LDs, whose existence has long been debated, have now been identified in several neural structures, raising questions about their contribution to neurodegenerative disorders. Elucidating the specific chemical makeup of these organelles within neurons is critical for understanding their role in neural pathologies. However, the inherent submicron size and low abundance in neurons have posed challenges in their isolation and physical and biochemical characterization. Here, we present our Protocol that overcomes this obstacle: we blocked neuron-specific triglyceride lipase to enlarge LDs, rendering them amenable to flotation in a sucrose gradient. We further used an improved methodology of lipidomic analysis on the LDs purified from cultured primary neurons, offering insights into their unique lipid composition. This Protocol can be implemented by researchers with basic expertise in neuronal culture, imaging, ultracentrifuge handling and liquid chromatography-mass spectrometry analysis. The complete workflow requires 3-4 weeks, from neuronal culture to lipidomics analysis. Future integration of this method with high-throughput techniques holds promise for uncovering disease-specific alterations in lipid metabolism, providing new avenues for potential therapeutic interventions.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1038/s41596-026-01451-w",
+        "pmcid": null,
+        "authors": [
+          "Mukesh Kumar",
+          "Rachel McAllister",
+          "Souvik Roy",
+          "Justin A Knapp",
+          "Kallol Gupta",
+          "Timothy A Ryan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 5.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41596-026-01451-w",
+        "supplement_reason": null
+      }
+    ]
+  },
+  "selected_papers": {
+    "Nature": [
+      {
+        "pmid": "42983099",
+        "title": "Decoding the regulatory programs governing glioblastoma plasticity.",
+        "journal": "Nature",
+        "pub_date": "2026-11-04",
+        "abstract": "Glioblastoma is incurable and resistant to therapy despite genomic stability under treatment1-8, suggesting that non-genetic cellular plasticity is a central driver of progression. Whether such plasticity reflects stochastic state switching or is governed by predictable gene regulation has remained unclear9-13. Here we introduce scDORI (single-cell deep multi-omic regulatory inference)-a deep-learning framework that infers enhancer-driven gene-regulatory networks at single-cell resolution-and apply it to single-nucleus multiome profiles of more than one million cells from primary glioblastomas. Integrating computational inference with systematic perturbation screens across patient-derived models, we show that a structured regulatory program with an asymmetric interplay of activators and repressors governs cellular plasticity in glioblastoma. The resulting transition landscape is hierarchical and predictable, but permits cross-lineage trajectories that are absent from normal neurodevelopment. Within this landscape, low-plasticity states such as the neuronal-like state are not stable differentiation end points but actively maintained configurations, stabilized by a network of safeguard repressors that silence alternative fates. We identify MYT1L as the dominant member of this network, and show that it binds to and represses master regulators of every alternative state to consolidate neuronal-like identity. MYT1L restricted plasticity even under standard-of-care therapy and suppressed tumour growth and invasion in vivo. Conversely, loss of MYT1L reactivated plasticity and accelerated malignant features, indicating that low-plasticity identity requires continuous repression. These findings reframe malignant cell state stability as a balance between activation and continuous repression, and nominate safeguard repressors as candidate therapeutic targets that are distinct from differentiation-inducing activators, with potential relevance across cancers in which phenotypic switching drives therapy resistance.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11177-0",
+        "pmcid": null,
+        "authors": [
+          "Manu Saraswat",
+          "Laura Rueda-Gensini",
+          "Elisa Heinzelmann",
+          "Tannia Gracia",
+          "Fani Memi",
+          "Grant de Jong",
+          "Jannes Straub",
+          "Cedar Schloo"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 29.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11177-0",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42983086",
+        "title": "A spatiotemporal cancer cell trajectory underlies glioblastoma heterogeneity.",
+        "journal": "Nature",
+        "pub_date": "2026-11-04",
+        "abstract": "Cancer cells show highly heterogeneous and plastic states in glioblastoma, an incurable brain tumour1-5. However, how these malignant states arise and whether they follow defined cellular trajectories across tumours is poorly understood. Here we generated a deep single-cell and spatial multi-omic atlas of human glioblastoma that pairs transcriptomic, epigenomic and genomic profiling of 12 tumours across many regions. We identify that glioblastoma heterogeneity is driven by spatially patterned transitions of cancer cells from developmental-like states towards those defined by a glial injury response and hypoxia. This cellular trajectory regionalizes tumours into distinct tissue microenvironments and manifests in a molecularly conserved manner across tumours as well as genetically distinct tumour subclones. Consistently, using a new deep-learning framework to map cancer cell states jointly with clones in situ, we show that tumour subclones are finely spatially intermixed through glioblastoma tissue microenvironments. We validate this cellular trajectory by using somatic mutation-based hierarchies in vivo and an experimental patient-derived organoid model ex vivo. Finally, we show that this cancer cell trajectory is intimately linked to myeloid heterogeneity and unfolds across regionalized myeloid signalling environments. Our findings define a stereotyped trajectory of cancer cells in glioblastoma and unify glioblastoma tumour heterogeneity into a tractable cellular and tissue framework.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11234-8",
+        "pmcid": null,
+        "authors": [
+          "Grant de Jong",
+          "Fani Memi",
+          "Tannia Gracia",
+          "Olga Lazareva",
+          "Oliver Gould",
+          "Georgios Solomou",
+          "Alexander Aivazidis",
+          "Manas Dave"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 27.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11234-8",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42983097",
+        "title": "In vivo CAR-T double knockout screen maps synergistic antitumour gene pairs.",
+        "journal": "Nature",
+        "pub_date": "2026-11-04",
+        "abstract": "Chimeric antigen receptor (CAR)-T cell therapy has transformed the treatment of haematological malignancies, but its efficacy remains limited by multiple negative regulatory mechanisms intrinsic to T cells1-4. Here we perform a high-throughput in vivo CAR-T double-knockout (DKO) CRISPR screen, and identify multiple DKO gene pairs that are both effective and synergistic. The top pair, NR4A1-SOCS3 DKO, has multiple favourable immunological features. Whole-transcriptome profiling and in vivo single-cell RNA sequencing reveal that NR4A1-SOCS3 DKO specifically upregulates metabolic pathways in CAR-T cells, which show significantly higher metabolic fitness and mitochondrial activity. NR4A1-SOCS3 DKO CAR-T cells and T cells exhibit exceptionally potent antitumour efficacy and long-term tumour control across different tumour models without compromising safety features. NR4A1-SOCS3 DKO outperforms several benchmark single-gene and dual-gene modifications in T cells and CAR-T cells5-9. These data demonstrate high-throughput in vivo CAR-T DKO screening for rapid discovery of combination targets, and establish NR4A1-SOCS3 as a promising pair of intracellular checkpoints to engineer high-performance CAR-T therapies against cancer.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-10956-z",
+        "pmcid": null,
+        "authors": [
+          "Liqun Zhou",
+          "Paul A Renauer",
+          "Kaiyuan Tang",
+          "Shanshan Li",
+          "Zhicheng Luo",
+          "Yanzhi Feng",
+          "Shawn H Lin",
+          "Feifei Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-10956-z",
+        "supplement_reason": null
+      }
+    ],
+    "Science": [
+      {
+        "pmid": "42986964",
+        "title": "Targeting hormone conversion through dietary fiber improves polyendocrine metabolic ovarian syndrome.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-05",
+        "abstract": "Excessive androgens serve as a primary driver for many phenotypic features of polyendocrine metabolic ovarian syndrome (PMOS). Although dietary fiber has been shown to alleviate PMOS, its effects on androgen concentrations and the underlying mechanisms remain unclear. In a clinical trial, we demonstrated that a dietary fiber combination consisting of inulin, resistant starch, and β-glucan reduces androgen concentrations in patients' plasma. Mechanistically, dietary fiber increased the abundance of Bacteroides xylanisolvens, which converts androstenedione into a nonandrogenic secondary hormone metabolite we named coproandrosterone, which is further metabolized by gut microbiota into dihydro-coproandrosterone. This metabolic pathway was validated in a mouse model. These findings highlight the potential of dietary fiber to alleviate PMOS by modulating androgen homeostasis through gut microbiota, offering insights for prebiotic and probiotic therapies.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aed8952",
+        "pmcid": null,
+        "authors": [
+          "Xinyu Qi",
+          "Hong Chen",
+          "Qixing Nie",
+          "Hongyu Niu",
+          "Yong Ding",
+          "Xi Luo",
+          "Manfei Si",
+          "Shuqi Wu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 22.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aed8952",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42986960",
+        "title": "When fat adapts: From physiological remodeling to disease.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-05",
+        "abstract": "Adipose tissue undergoes extensive remodeling to adapt to changing physiological demands. This plasticity encompasses changes in adipocyte metabolism and number, extracellular matrix organization, vascularization, immune composition, and innervation. When coordinated, these processes preserve energy buffering, thermogenesis, endocrine function, and local tissue support. Pathological adipose tissue remodeling drives obesity-related complications and contributes to many diseases involving organ-associated adipose depots throughout the body. In cancer, tumor-associated fat can develop a metabolic and fibroinflammatory niche that promotes tumor growth and invasion, and remodeling of other depots can directly disrupt neighboring tissues. Recent studies have identified mesenchymal, immune, vascular, and adipocyte states that govern adaptive or pathological outcomes. These findings broaden therapeutic goals beyond reducing fat mass toward restoring adipogenesis, substrate turnover, thermogenic capacity, and tissue-niche function.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1126/science.aee9044",
+        "pmcid": null,
+        "authors": [
+          "Karima Drareni",
+          "Patrick Seale"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 20.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aee9044",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42986959",
+        "title": "Tumor metastasis co-opts liver hematopoiesis to promote immunosuppression.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-05",
+        "abstract": "Cancer-associated hematopoietic abnormalities contribute to systemic immunosuppression. However, whether tumors can initiate localized extramedullary hematopoiesis to suppress antitumor immunity remains unclear. In this study, we identify a distinct form of hepatic hematopoiesis driven by liver metastasis-associated hematopoietic stem cells (LM-HSCs). Liver metastases establish ectopic periportal hematopoietic niches that recruit bone marrow HSCs through Kupffer cell-dependent C-C motif chemokine receptor 1 (CCR1) signaling. Although LM-HSCs retain self-renewal and multipotency, cAMP response element-binding protein (CREB) activation skews their differentiation toward the myeloid lineage, particularly annexin A1-positive (ANXA1+) immature neutrophils. These neutrophils produce glucocorticoids, which activate glucocorticoid receptor signaling in a paracrine manner and induce immune checkpoint receptor expression and functional anergy in CD8+ T and natural killer cells. Collectively, these findings suggest that liver metastases reprograms hepatic hematopoiesis to promote immunosuppression.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aea3046",
+        "pmcid": null,
+        "authors": [
+          "Qiang Pan",
+          "Xuege Wang",
+          "Yaqi Li",
+          "Ni Li",
+          "Ying Han",
+          "Guoying Zhang",
+          "Jiacheng Guo",
+          "Le Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 20.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aea3046",
+        "supplement_reason": null
+      }
+    ],
+    "Cell": [
+      {
+        "pmid": "42982038",
+        "title": "CRISPR mutagenesis of the MYC locus reveals a druggable ultraconserved RNA element.",
+        "journal": "Cell",
+        "pub_date": "2026-11-04",
+        "abstract": "Noncoding sequences comprise most of the human genome; however, their functional significance remains largely elusive. Using CRISPR tiling mutagenesis with near-PAMless, high-fidelity SpRY-Cas9, we mapped the fitness landscape of an entire human gene, the 10-kb MYC locus, at base-pair resolution. This unbiased interrogation revealed that 67% of functionally essential base pairs are noncoding. Essential noncoding base pairs are under strong constraint in the human population but show limited evolutionary conservation across species. Within this landscape, we identified an ultraconserved noncoding RNA element in the 3' untranslated region (UTR) that promotes perinuclear localization of MYC mRNA and nuclear localization of MYC protein through interaction with hnRNP L. Steric-blocking antisense oligonucleotides (ASOs) targeting this element selectively eliminate diverse MYC-dependent cancer cells and inhibit growth of patient-derived tumor organoids. Together, these findings establish noncoding sequences as major carriers of functional genetic information and identify a therapeutically actionable RNA element whose targeting disrupts MYC-driven cancer.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.002",
+        "pmcid": "PMC13739239",
+        "authors": [
+          "Peiguo Shi",
+          "Feiyue Yang",
+          "Tala Fnu",
+          "Wesley Huang",
+          "Linqing Xing",
+          "Shah Alam",
+          "Wangyang Dai",
+          "Alexis O Aparicio"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CRISPR",
+          "MYC",
+          "antisense oligonucleotides",
+          "cancer",
+          "hnRNP L",
+          "mRNA localization",
+          "noncoding",
+          "tiling mutagenesis",
+          "ultraconserved"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.002",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42971201",
+        "title": "Fatty acid desaturation controls cellular fate decisions between senescence and ferroptosis.",
+        "journal": "Cell",
+        "pub_date": "2026-11-02",
+        "abstract": "When subject to damage or stress, cells develop responses in order to maintain tissue homeostasis. Two such responses are ferroptosis and cellular senescence, but how cells decide between these outcomes remains unclear. Here, we show that senescent cells increase import and membrane levels of multiple polyunsaturated fatty acids (PUFAs), but a specific intermediate PUFA, dihomo-gamma-linolenic acid (DGLA, 20:3ω-6), is reduced. Exogenous repletion of DGLA instead results in cell death by ferroptosis. Senescent cells manifest additional features associated with ferroptosis, including labile iron and expression of lipoxygenases as well as low-level membrane peroxidation. Oral DGLA supplementation lowers markers of senescence in aged mice and improves age-related functional outcomes. Finally, obese humans with lowered DGLA desaturation rates have lower markers of adipose tissue senescence. Together, our data implicate shifts in PUFA metabolism as a driver of decisions between senescence and ferroptosis.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.036",
+        "pmcid": null,
+        "authors": [
+          "Chisaka Kuehnemann",
+          "Samantha T Jezak",
+          "Bronwyn A Mogck",
+          "Niharika Kura",
+          "Rushmeen Tariq",
+          "Yuheng Che",
+          "Maija Vaittinen",
+          "Ioannis Siokas"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "DGLA",
+          "PUFA",
+          "aging",
+          "desaturation",
+          "ferroptosis",
+          "lipid peroxidation",
+          "metabolism",
+          "obesity",
+          "senescence",
+          "senolytic"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.036",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42971202",
+        "title": "Industrialization drives convergent microbiome and host physiological shifts in the human metaorganism.",
+        "journal": "Cell",
+        "pub_date": "2026-11-02",
+        "abstract": "Understanding how industrialization reshapes the human metaorganism requires integrating microbiome ecology with host physiology across globally diverse populations. Here, we generate multivariate data from the Global Microbiome Conservancy cohort, including gut microbiome, immunoglobulin A (IgA) sequencing, host genotyping, diet, lifestyle, and fecal biomarker profiles, to investigate host-microbiome interactions across gradients of industrialization and geography. We show that industrialization is associated with homogenized microbial compositions, reduced microbial diversity, and lower community stability, independent of host confounders. We further show that industrialization is linked to elevated markers of gut stress, increased IgA secretion, and altered patterns of IgA-bacteria interactions. Finally, we show that microbiome-based disease predictors trained on industrialized populations are uninformative in less industrialized cohorts, highlighting limited cross-population transferability. Together, our results reveal coordinated restructuring of the microbial ecosystem and host physiology and emphasize the need for inclusive, globally representative data to improve translational microbiome applications across diverse human populations.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.016",
+        "pmcid": null,
+        "authors": [
+          "Mathilde Poyet",
+          "Malte Rühlemann",
+          "Ana P Schaan",
+          "Yue Ma",
+          "Lucas Moitinho-Silva",
+          "Eike M Wacker",
+          "Hannah Jebens",
+          "Lucas Patel"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "IgA",
+          "IgA-seq",
+          "chromogranin",
+          "gut metagenomes",
+          "gut microbiome",
+          "host-microbiome interactions",
+          "human holobiont",
+          "human metaorganism",
+          "industrialization"
+        ],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.016",
+        "supplement_reason": null
+      }
+    ],
+    "Cell metabolism": [
+      {
+        "pmid": "42906554",
+        "title": "Propionate promotes MHC class I antigen presentation and anti-tumor immunity.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Defective tumor antigen presentation promotes immune evasion and resistance to immune checkpoint blockade. Here, we identified the short-chain fatty acid propionate as a potent enhancer of major histocompatibility complex class I (MHC class I) antigen presentation. Propionate stabilizes MHC class I on tumor cells, promotes CD8+ T cell infiltration and activation, and suppresses tumor growth. Mechanistically, the E3 ubiquitin (Ub) ligase STUB1 directly interacts with human leukocyte antigen (HLA)-A to mediate K168/K170 polyubiquitination and subsequent degradation. Propionate directly binds STUB1 through hydrogen bonds involving K30 and N34, residues that overlap with the MHC class I-binding interface. This interaction blocks STUB1-mediated MHC class I polyubiquitination, thereby stabilizing MHC class I, enhancing T cell receptor (TCR) engagement and T cell activation, and restraining tumor growth. Importantly, propionate or the propionate-producing probiotic Akkermansia muciniphila markedly enhanced anti-PD-1 efficacy. These findings uncover a non-metabolic moonlighting function of short-chain fatty acids in regulating tumor immunity and provide a rationale for leveraging dietary propionate or propionate-producing probiotics to enhance immune checkpoint therapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.09.018",
+        "pmcid": null,
+        "authors": [
+          "Suyao Li",
+          "Dong Guo",
+          "Qingqing Yang",
+          "Yizhi Cao",
+          "Yu Dong",
+          "Xiaoming Jiang",
+          "Xinyao Tian",
+          "Dou Nie"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "MHC class I",
+          "SCFA",
+          "STUB1",
+          "immune response",
+          "immune therapy",
+          "propionate",
+          "tumor",
+          "ubiquitination"
+        ],
+        "weekly_match": true,
+        "score": 26.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.09.018",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42753730",
+        "title": "Zonated cholesterol sensing by SIRT2 drives MASLD-HCC.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) is a leading cause of hepatocellular carcinoma (HCC), but how metabolic zonation drives regional transformation remains unclear. We identify sirtuin 2 (SIRT2) as a zonated cholesterol sensor that initiates reprogramming to drive MASLD-HCC. Lineage tracing establishes zone 1 hepatocytes as the cellular origin of tumors. SIRT2 overexpression in zone 1 triggers HCC, whereas its deletion prevents carcinogenesis by restoring cholesterol and bile acid metabolism and CD8+ T cell recruitment. Mechanistically, cholesterol binds and activates SIRT2, which deacetylates sterol carrier protein 2 (SCP2) at Lys546, thereby blocking peroxisome proliferator-activated receptor α (PPARα) recruitment to the Cyp7b1 promoter, suppressing alternative bile acid synthesis, and permitting 27-hydroxycholesterol accumulation. SIRT2 inhibition reverses this cascade in mice and human hepatic organoids. Patient specimens confirm zonal SIRT2 and cytochrome P450 7B1 (CYP7B1) dysregulation. Our findings establish spatially compartmentalized cholesterol sensing as a new regulatory layer and identify SIRT2 as a druggable target in liver cancer.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.08.015",
+        "pmcid": null,
+        "authors": [
+          "Yingting Zhang",
+          "Xidai Long",
+          "Yinkun Fu",
+          "Xinxin Tang",
+          "Hao Luo",
+          "Zhihui Zou",
+          "Wei He",
+          "Longchuan Han"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "27-hydroxycholesterol",
+          "CYP7B1",
+          "MASLD-HCC",
+          "SIRT2",
+          "bile acid metabolism",
+          "cholesterol sensor",
+          "deacetylase",
+          "hepatocellular carcinoma",
+          "liver zonation",
+          "metabolic zonation"
+        ],
+        "weekly_match": true,
+        "score": 24.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.08.015",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42976772",
+        "title": "Leveraging induced cell states for cancer therapy: The case for dynamic synthetic lethality.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-03",
+        "abstract": "Metabolic differences between cancer and normal cells are accentuated by the selection pressure of therapy. Persisting cells enter a therapy-induced state of heightened, time-limited metabolic dependency. We argue that this interval can be exploited with metabolic modifiers to achieve persister cell death and improve cancer outcomes.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.08.017",
+        "pmcid": null,
+        "authors": [
+          "Christina Mayerhofer",
+          "David T Scadden"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.08.017",
+        "supplement_reason": null
+      }
+    ],
+    "immunity": [
+      {
+        "pmid": "42982037",
+        "title": "Tumor-to-dendritic cell reprogramming induces immunogenic lymphoid structures across cancers.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-04",
+        "abstract": "Tertiary lymphoid structures (TLSs) in tumors are associated with improved responses to immunotherapy. Here, we examined the impact of type 1 conventional dendritic cells (cDC1s) in TLS formation. Reprogrammed tumor cells into cDC1-like cells remodeled the tumor microenvironment and induced immunogenic TLSs (imgTLSs) across melanoma, colon, bladder, breast, and pancreatic cancer models with distinct genetic backgrounds. cDC1-like cells activated lymphotoxin, TNF, and interferon programs and engaged early with T cells through MHC class I and CD40 signaling to induce imgTLSs containing BCL6+ germinal centers, independently of endogenous cDC1s. Intratumoral positioning shaped distinct cDC1-like cell states, with DC-LAMP+ CCR7+ migratory cDC1s nucleating niches enriched in CD4+, CD8+ T cells, and B cells in mouse and human tumors. ImgTLSs sustained B and T cell responses and promoted systemic immunity through expansion of shared clonotypes in distant, untreated tumors. Our findings outline the spatial organization, signaling programs and interactions of cDC1-like cells that initiate intratumoral lymphoid structures and establish cellular reprogramming as a strategy toward overcoming resistance to immunotherapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.006",
+        "pmcid": null,
+        "authors": [
+          "Ervin Ascic",
+          "Camille Chatelain",
+          "Gaia Fontanari",
+          "César Pérez Bucio",
+          "Linmeng Zhang",
+          "Maria Thrasyvoulou",
+          "Viktoria Karali",
+          "Tommaso Ballocci"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "B cell immunity",
+          "CD40 signaling",
+          "cDC1",
+          "cancer immunotherapy",
+          "dendritic cells",
+          "in vivo cellular reprogramming",
+          "proximity labeling",
+          "spatial transcriptomics",
+          "tertiary lymphoid structures",
+          "tumor microenvironment"
+        ],
+        "weekly_match": true,
+        "score": 29.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.006",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Immunology": [],
+    "Science Immunology": [
+      {
+        "pmid": "42993812",
+        "title": "Programming immunity in situ: A new frontier of in vivo cell engineering.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-06",
+        "abstract": "In vivo cell engineering enables the direct programming of immune cells inside patients. Instead of isolating, modifying, and reinfusing cells, therapeutic instructions are delivered directly to selected immune cells through lipid nanoparticles or viral vectors. This approach could facilitate rapid and scalable deployment of varied immune cell therapies across disease contexts. Early clinical studies in oncology and autoimmunity demonstrate increasing technical and clinical feasibility. The next challenge lies in enhancing precision to ensure that vectors reach the target cell type and tissue, deliver the appropriate payload, and produce desired transient or durable activity. Progress in targeting ligands, vector design, biodistribution control, and genome editing is beginning to address these barriers. Ensuring safety against immunogenicity, inflammatory toxicity, off-target editing, and uncontrolled persistence remains a central priority. By mastering these constraints, in vivo engineering could turn endogenous immune cells into therapeutic agents generated directly in the body, expanding cell therapy to diseases refractory to current modalities.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1126/sciimmunol.aed1027",
+        "pmcid": null,
+        "authors": [
+          "Juliane Mietz",
+          "Antonela Merlotti",
+          "Antonin de Fougerolles",
+          "Olivier Demaria",
+          "Eric Vivier"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 24.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aed1027",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42993811",
+        "title": "Myeloid cells run amok in injured brains.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-06",
+        "abstract": "Aberrant, cranial bone marrow-derived myelopoiesis drives neuroinflammation in chronic traumatic brain injury.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aen3917",
+        "pmcid": null,
+        "authors": [
+          "Autumn C Holmes"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aen3917",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42993810",
+        "title": "The structural basis of IL-36R proinflammatory signaling mediated by IL-36γ and IL-37.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-06",
+        "abstract": "The interleukin-36 receptor (IL-36R) drives proinflammatory signaling and is therapeutically targeted by spesolimab in acute skin inflammation. Beyond its three canonical agonists (IL-36α, IL-36β, and IL-36γ), IL-36R was recently proposed to be activated by IL-37. Together with antagonism by IL-36R antagonist (IL-36RA) and IL-38, this creates a complex structure-function landscape that remains poorly understood. Here, we report the cryo-electron microscopy (cryo-EM) structure of human IL-36γ bound to IL-36R and the shared co-receptor IL-1R accessory protein (IL-1RAcP). IL-36γ engages IL-36R with low affinity, enabling high-affinity IL-1RAcP recruitment. IL-37 exhibits the opposite binding signature, binding IL-36R with high affinity but IL-1RAcP weakly. Functional comparison of IL-36R engagement by IL-36γ and IL-37 confirmed their common proinflammatory signature, with IL-36γ exhibiting markedly higher potency, consistent with its more stable signaling complex. Structural comparison of cytokine-bound versus antibody-antagonized IL-36R revealed that spesolimab acts as an allosteric antagonist. This study therefore provides a structural and mechanistic blueprint for IL-36R activation by distinct cytokines.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.adw5770",
+        "pmcid": null,
+        "authors": [
+          "Julie Andries",
+          "Martin Toul",
+          "Lisse Thierens",
+          "Brecht Bekaert",
+          "Jan Felix",
+          "Danielle M Clancy",
+          "Savvas N Savvides"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.adw5770",
+        "supplement_reason": null
+      }
+    ],
+    "Bioinformatics": [
+      {
+        "pmid": "42902790",
+        "title": "Integrating complementary datasets for constructing microbiome-metabolome-disease pathways.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-02",
+        "abstract": "MOTIVATION: Microbiome-metabolome-disease pathways play a central role in host health, but studying them is limited by the data available. Large clinical microbiome cohorts often lack metabolomic measurements, while multi-omics studies with paired profiles are typically small or incompletely phenotyped. Combining such complementary datasets is challenging: the metabolite is not measured in the clinical cohort, microbiome data are high-dimensional and compositional, and log-ratio analyses depend on an arbitrarily chosen reference taxon.\nRESULTS: We propose a framework that integrates a large target cohort that has microbiome and outcome data with a smaller external study that has paired microbiome-metabolome profiles. A high-dimensional structural equation model jointly links the microbiome, the metabolome, and the disease outcome. It allows for unmeasured confounding and groups microbes into functional categories. We address compositionality with the additive log-ratio (ALR) transformation, estimate parameters by penalized two-stage least squares, and test metabolite-disease associations with a regularized permutation test. A novel multiple-reference procedure treats each microbe in turn as the ALR reference. It combines the resulting P-values with the Cauchy combination test and classifies microbes by stability selection, which makes inference robust to the choice of reference. In simulations, the method controls the type I error rate, and its power increases with both target and external sample sizes. An application to inflammatory bowel disease, integrating the FRAN and iHMP cohorts, reveals biologically interpretable microbiome-metabolome-disease links.\nAVAILABILITY AND IMPLEMENTATION: The method is implemented in the R package MMDP, freely available at https://github.com/lei-fang-stat/MMDP.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag787",
+        "pmcid": "PMC13725751",
+        "authors": [
+          "Lei Fang",
+          "Chenglong Ye",
+          "Yue Wang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 30.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag787",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42905496",
+        "title": "XenoMix: estimating mouse content from DNA methylation data of Patient-Derived Xenograft models.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-02",
+        "abstract": "SUMMARY: DNA methylation microarrays enable cost-effective, high-throughput profiling of human and mouse samples and are widely used to study epigenetic alterations in cancer. Patient-Derived Xenograft (PDX) models complement this approach by preserving primary tumor characteristics while enabling in vivo studies of drug response and therapy resistance. However, it remains difficult to quantify mouse DNA contamination in PDX DNA methylation data generated using microarrays. We present XenoMix, a light-weight computational tool for quantifying mouse DNA contamination directly from DNA methylation data in PDX models. XenoMix leverages the high sequence homology between human and mouse genomes to detect and quantify unexpected signal contributions originating from mouse DNA. Using ground truth mixtures, XenoMix achieved Pearson's correlation coefficients higher than 0.99. When applied to PDX data, we identified varying levels of mouse contamination originating from biological and technological variability. XenoMix establishes a critical quality control step in DNA methylation analysis of PDX models, and we show that the estimated contamination can be incorporated as a confounding variable in downstream analyses.\nAVAILABILITY AND IMPLEMENTATION: XenoMix is available as a standalone R package from https://git.dkfz.de/b370/scepigen/XenoMix and as a module in the RnBeads software package.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag791",
+        "pmcid": "PMC13725749",
+        "authors": [
+          "Nima Esmaeelpour",
+          "Oliver Mücke",
+          "Gizem Altun",
+          "Joseph Cornick",
+          "Maria Capone",
+          "Rocio Sotillo",
+          "Maria Llamazares-Prada",
+          "Christoph Plass"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag791",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42993079",
+        "title": "DeSCENT: Deconvolutional Single-Cell RNA-seq Enhances Transcriptome-based Cancer Survival Analysis.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-06",
+        "abstract": "MOTIVATION: Single-cell RNA-seq captures tumor heterogeneity, but it is rarely available together with patient survival outcomes. Bulk RNA-seq cohorts provide survival data but lack direct measurements of cellular expression.\nRESULTS: DeSCENT generates reference-informed cellular profiles from bulk RNA-seq and combines both representations for survival prediction. We evaluated DeSCENT with three survival models on eight TCGA cancer cohorts. Compared with Bulk, DeSCENT improved average C-index and generally improved time-dependent AUC, while integrated Brier score results were mixed. External validation showed higher average C-index than all three baselines, although performance was lower than in internal evaluation. These findings support the use of cellular representations in the evaluated transcriptome-only setting.\nAVAILABILITY AND IMPLEMENTATION: Code: https://github.com/YonghaoZhao722/DeSCENT. Archival snapshot: doi:10.5281/zenodo.22073099.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag810",
+        "pmcid": null,
+        "authors": [
+          "Yonghao Zhao",
+          "Zeyu You",
+          "Yu Shen",
+          "Jielei Chu",
+          "Xun Gong",
+          "Tianrui Li",
+          "Ziqiang Wang",
+          "Chuan Xu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag810",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Protocols": [
+      {
+        "pmid": "42988933",
+        "title": "Personalization and evaluation of human whole-body metabolic models and community microbiome models using Persephone.",
+        "journal": "Nature protocols",
+        "pub_date": "2026-11-05",
+        "abstract": "Human metabolism and human gut microbiome co-metabolism can be difficult to investigate in vivo owing to the complexity of the systems involved. Genome-scale metabolic modeling with human whole-body metabolic models (WBMs) offers a computational approach to address this challenge. However, personalization and analysis of WBMs requires comprehensive knowledge of metabolic modeling, which can be daunting for beginners. To reduce the computational expertise required and to standardize the process of working with and analyzing WBMs, we present Persephone: a personalization and evaluation pipeline for human WBMs. Persephone has functionalities to create community microbiome models from raw sequencing data or taxonomy-assigned read tables, use physiological and metabolomic data to create personalized WBMs, combine community microbiome models with WBMs or personalized WBMs to create community microbiome (personalized) WBMs, optimize WBMs according to user-defined metabolic reactions, perform statistical analyses to describe the data, and visualize significant results in various figures. Persephone saves intermediate results as well as a log file with all changes made to the model, data and any warnings encountered during the various steps. Persephone is designed for use by anyone with basic research-computing experience and access to modest computer hardware. Applications include the investigation of human-microbiome co-metabolism and the evaluation of the effects of various physiological parameters, such as weight, on human metabolism. Using a dataset of 100 metagenomic samples, it can take several days to a week to run Persephone on a single computer, depending on the number of reactions optimized and whether taxonomic assignment is performed.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1038/s41596-026-01437-8",
+        "pmcid": null,
+        "authors": [
+          "Bram Nap",
+          "Tim Hensen",
+          "Wiley Barton",
+          "Anna Sheehy",
+          "Jonas Widder",
+          "Sandeep Chenna",
+          "Ines Thiele"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41596-026-01437-8",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42977808",
+        "title": "Isolation and lipidomic profiling of neuronal lipid droplets to unveil the lipid landscape of neurodegenerative disorders.",
+        "journal": "Nature protocols",
+        "pub_date": "2026-11-03",
+        "abstract": "Recent advances have expanded the role of lipid droplets (LDs) beyond passive lipid storage, implicating their involvement in various metabolic processes across mammalian tissues. Neuronal LDs, whose existence has long been debated, have now been identified in several neural structures, raising questions about their contribution to neurodegenerative disorders. Elucidating the specific chemical makeup of these organelles within neurons is critical for understanding their role in neural pathologies. However, the inherent submicron size and low abundance in neurons have posed challenges in their isolation and physical and biochemical characterization. Here, we present our Protocol that overcomes this obstacle: we blocked neuron-specific triglyceride lipase to enlarge LDs, rendering them amenable to flotation in a sucrose gradient. We further used an improved methodology of lipidomic analysis on the LDs purified from cultured primary neurons, offering insights into their unique lipid composition. This Protocol can be implemented by researchers with basic expertise in neuronal culture, imaging, ultracentrifuge handling and liquid chromatography-mass spectrometry analysis. The complete workflow requires 3-4 weeks, from neuronal culture to lipidomics analysis. Future integration of this method with high-throughput techniques holds promise for uncovering disease-specific alterations in lipid metabolism, providing new avenues for potential therapeutic interventions.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1038/s41596-026-01451-w",
+        "pmcid": null,
+        "authors": [
+          "Mukesh Kumar",
+          "Rachel McAllister",
+          "Souvik Roy",
+          "Justin A Knapp",
+          "Kallol Gupta",
+          "Timothy A Ryan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 5.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41596-026-01451-w",
+        "supplement_reason": null
+      }
+    ]
+  },
+  "fulltext_cache": {}
+}
