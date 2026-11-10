@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>文献追踪报告</title>
+  <style>
+    body { font-family: Arial, "Microsoft YaHei", sans-serif; line-height: 1.7; margin: 32px; color: #222; }
+    h1, h2, h3 { color: #0f3d6e; }
+    .paper { border: 1px solid #ddd; border-radius: 8px; padding: 12px 16px; margin: 12px 0; background: #fff; }
+    .journal { margin-top: 28px; }
+    .warnings { color: #9a6700; }
+    a { color: #0b63c9; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <h1>文献追踪报告</h1>
+  <ul>
+    <li><strong>时间范围：</strong>2026-11-10 ~ 2026-11-10</li>
+    <li><strong>目标期刊数：</strong>10</li>
+    <li><strong>本周新论文数：</strong>5</li>
+    <li><strong>本周重点文章数：</strong>0</li>
+    <li><strong>关键词：</strong>免疫代谢, 代谢表观调控, 单细胞算法, 单细胞图谱, 流感, HSV, H1N1, 肺损伤, 肺组织修复, 皮肤免疫</li>
+  </ul>
+  <h2>本周重点文章</h2>
+  <p>本周没有命中关键词的重点文章。</p>
+  <h2>分期刊展示（剩余论文）</h2>
+  
+        <section class="journal">
+          <h3>Nature</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Science</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Cell</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Cell metabolism</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Immunity</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Nature Immunology</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Science Immunology</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Bioinformatics</h3>
+          
+    <article class="paper">
+      <h4>PFM: perturbed flow matching for structure-based drug design</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-11-10</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>Journal Article</li>
+        
+        <li><strong>研究问题：</strong>Target-specific 3D molecular generation is a promising approach for structure-based drug design.</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>However, existing diffusion-based methods are generally restricted to marginal distributions with closed-form solutions, limiting the flexibility of generative process design, especially for the forward noising process.</li><li>As a result, these methods may be less effective in modeling the complex distributions underlying pocket-conditioned molecular generation.</li><li>RESULTS: We develop Perturbed Flow Matching (PFM), a flow-matching-based framework for protein pocket-conditioned 3D molecular generation.</li></ol>
+      <p><strong>摘要：</strong>Abstract Motivation Target-specific 3D molecular generation is a promising approach for structure-based drug design. However, existing diffusion-based methods are generally restricted to marginal distributions with closed-form solutions, limiting the flexibility of generative process design, especially for the forward noising process. As a result, these methods may be less effective in modeling the complex distributions underlying pocket-conditioned molecular generation. Results We develop Perturbed Flow Matching (PFM), a flow-matching-based framework for protein pocket–conditioned 3D molecular generation. PFM employs a perturbed conditional probability path that incorporates both pocket binding-site information and coupled atom type–coordinate information, enabling more effective generation of molecules in protein binding environments. On CrossDocked2020, PFM achieves competitive structural quality and the best average Vina score among the evaluated unguided methods (-7.12); PFM-G further improves the score to -8.70 with tailored classifier-free guidance. Experiments on additional molecular datasets further confirm the effectiveness and generalizability of the proposed framework. Availability and implementation https://github.com/kurisu92725/PFM</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag811/9027072?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag811/9027072?rss=1</a></p>
+    </article>
+    
+    <article class="paper">
+      <h4>MIRAGE-DTA: conflict-aware multimodal evidence arbitration for drug–target affinity prediction</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-11-10</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>Journal Article</li>
+        <li><strong>关键词：</strong>distribution shift, drug–target affinity prediction, missing modalities, multimodal information fusion, reliability calibration, retrieval-augmented learning</li>
+        <li><strong>研究问题：</strong>Multimodal drug-target affinity (DTA) models can incorporate molecular, protein, assay and textual evidence whose availability and reliability vary under missing modalities, cold-start entities and assay distribution shift.</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>RESULTS: We present MIRAGE-DTA, a reliability-oriented evidence-arbitration layer that complements DTA encoders by keeping current-sample and training-set retrieval evidence as two explicit chains, carrying modality masks into fusion, retrieving training-only neighbors, and resolving disagreement with an interaction gate and validation-selected anchor.</li><li>Across BindingDB_Kd, DAVIS, KIBA and a 2010-2024 CHEMBL_ASSAY benchmark with 35,238 interactions, experiments tested cold-start, missing-modality and assay/temporal shift settings.</li><li>Under 35% sequence/text missingness on CHEMBL_ASSAY, 10-seed paired evaluation showed that MIRAGE-DTA reduced expected calibration error relative to late fusion by 0.0524, 0.0923 and 0.1018 on assay-cold, target-cold and temporal splits.</li></ol>
+      <p><strong>摘要：</strong>Abstract Motivation Multimodal drug–target affinity (DTA) models can incorporate molecular, protein, assay and textual evidence whose availability and reliability vary under missing modalities, cold-start entities and assay distribution shift. Results We present MIRAGE-DTA, a reliability-oriented evidence-arbitration layer that complements DTA encoders by keeping current-sample and training-set retrieval evidence as two explicit chains, carrying modality masks into fusion, retrieving training-only neighbors, and resolving disagreement with an interaction gate and validation-selected anchor. Across BindingDB_Kd, DAVIS, KIBA and a 2010–2024 CHEMBL_ASSAY benchmark with 35,238 interactions, experiments tested cold-start, missing-modality and assay/temporal shift settings. Under 35% sequence/text missingness on CHEMBL_ASSAY, 10-seed paired evaluation showed that MIRAGE-DTA reduced expected calibration error relative to late fusion by 0.0524, 0.0923 and 0.1018 on assay-cold, target-cold and temporal splits. Risk at 80% coverage was significantly lower on target-cold and temporal splits and numerically lower on assay-cold. A complementary complete-evidence direct-pChEMBL regression analysis also showed lower RMSE for the two-branch model than for current-only and retrieval-only regressors across assay-cold, target-cold and temporal splits. Ranking remained broadly competitive, with a modest trade-off on the temporal split, indicating that the principal benefit lies in calibrated and selective prediction under incomplete or shifted evidence. Shortcut audits quantified neighbor-overlap effects and showed that temporal retrieval was not driven by repeated compounds or near-duplicate scaffolds. Availability and implementation Source code is available at https://github.com/wushen1103-collab/mirage_drug_miniprototype and archived on Zenodo at https://doi.org/10.5281/zenodo.22695984 ; data come from public sources</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag812/9027069?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag812/9027069?rss=1</a></p>
+    </article>
+    
+    <article class="paper">
+      <h4>DTBNet: Multimodal 3D Geometric Perception with Hierarchical Attention for Robust Drug–Target Interaction and Binding Affinity Prediction</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-11-10</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>Journal Article</li>
+        <li><strong>关键词：</strong>deep learning, drug discovery, hierarchical attention, multimodal geometric perception</li>
+        <li><strong>研究问题：</strong>Accurate prediction of drug-target interactions (DTIs) and binding affinity (DTA) constitutes a core challenge in accelerating drug discovery.</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>While existing computational methods have made progress, most models struggle to capture critical physicochemical interactions in 3D space due to reliance on 1D sequences or 2D graph structures, and exhibit limited generalization in cold-start scenarios.</li><li>This study proposes DTBNet, a unified prediction framework integrating multimodal geometric perception and hierarchical attention.</li><li>The framework constructs heterogeneous embeddings combining local chemical details with global biological information by incorporating protein 3D geometric features and multilevel drug representations.</li></ol>
+      <p><strong>摘要：</strong>MOTIVATION: Accurate prediction of drug-target interactions (DTIs) and binding affinity (DTA) constitutes a core challenge in accelerating drug discovery. While existing computational methods have made progress, most models struggle to capture critical physicochemical interactions in 3D space due to reliance on 1D sequences or 2D graph structures, and exhibit limited generalization in cold-start scenarios. This study proposes DTBNet, a unified prediction framework integrating multimodal geometric perception and hierarchical attention. The framework constructs heterogeneous embeddings combining local chemical details with global biological information by incorporating protein 3D geometric features and multilevel drug representations. During cross-modal interaction, atom-residue cross-attention first captures pair-specific local associations, followed by group-level multi-head self-attention that integrates complementary chemical-semantic, global structural, and local geometric interaction representations.
+
+RESULTS: Experiments on benchmark datasets (Davis, KIBA, PDBBind) demonstrate that compared with the optimal baseline models, DTBNet achieves up to 19.8% reduction in mean squared error and 8.0% improvement in Pearson correlation coefficient, maintaining optimal performance in drug cold-start, target cold-start, and completely novel pairing scenarios, showcasing robust cross-domain adaptability. Independent validation on GPCR targets achieves RMSE 0.783, confirming real-world applicability. Visualization analyses reveal DTBNet precisely identifies interaction sites between key transmembrane helical domain residues and drug aromatic rings, with attention distribution highly consistent with experimentally resolved binding conformations. These results establish DTBNet as a new performance benchmark through 3D geometric perception and dynamic attention mechanisms, providing interpretable molecular insights for structure-based rational drug design and demonstrating broad potential in virtual screening and target discovery.
+
+AVAILABILITY: The source code and data are available at https://github.com/wyx2012/DTB_Net.
+
+SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag809/9027070?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag809/9027070?rss=1</a></p>
+    </article>
+    
+    <article class="paper">
+      <h4>CellSavior: an open-source framework for improved cell calling in targeted single-cell DNA sequencing</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-11-10</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>Journal Article</li>
+        
+        <li><strong>研究问题：</strong>Single-cell DNA sequencing (scDNA-seq) has emerged as a key approach for studying complex genomic variation, including tumor heterogeneity.</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>Despite its increasing commercial availability, exemplified by the Tapestri platform, analytical reproducibility remains limited due to reliance on proprietary and non-transparent pipelines.</li><li>Among preprocessing steps, cell calling is particularly critical, as it determines which barcodes correspond to true cells rather than background noise and directly shapes all downstream analyses.</li><li>However, existing methods typically rely on empirical thresholding and exhibit inconsistent performance across datasets.</li></ol>
+      <p><strong>摘要：</strong>MOTIVATION: Single-cell DNA sequencing (scDNA-seq) has emerged as a key approach for studying complex genomic variation, including tumor heterogeneity. Despite its increasing commercial availability, exemplified by the Tapestri platform, analytical reproducibility remains limited due to reliance on proprietary and non-transparent pipelines. Among preprocessing steps, cell calling is particularly critical, as it determines which barcodes correspond to true cells rather than background noise and directly shapes all downstream analyses. However, existing methods typically rely on empirical thresholding and exhibit inconsistent performance across datasets. These limitations underscore the need for a robust and generalizable cell calling framework for reliable scDNA-seq analysis.
+
+RESULTS: We developed CellSavior, an open-source cell calling algorithm with an integrated downstream pipeline that produces standardized outputs. CellSavior employs an ensemble clustering strategy across multiple distance metrics, combined with confidence-weighted merging, to generate a consensus classification that reduces bias and improves robustness. Across 33 public and in-house single-cell DNA sequencing datasets, CellSavior recapitulated cell annotations generated by commercial software (CellFinder) in 31 cases (93.9%). In the remaining discordant cases, CellSavior yielded more biologically interpretable annotations, rescuing previously undetected clusters enriched for key hotspot genomic alterations.
+
+AVAILABILITY: The source code for CellSavior is freely available at https://github.com/dauer-tgilab/CellSavior; DOI: https://doi.org/10.5281/zenodo.22744146.
+
+SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.</p>
+      <p><strong>链接：</strong><a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag808/9027071?rss=1">https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag808/9027071?rss=1</a></p>
+    </article>
+    
+        </section>
+        
+        <section class="journal">
+          <h3>Nature Protocols</h3>
+          <p>本期刊剩余论文为空。</p>
+        </section>
+        
+        <section class="journal">
+          <h3>Nature methods</h3>
+          
+    <article class="paper">
+      <h4>In situ profiling of plasma cell clonality with image-based single-cell transcriptomics</h4>
+      <ul>
+        <li><strong>日期：</strong>2026-11-10</li>
+        <li><strong>作者：</strong>未提供</li>
+        <li><strong>文章类型：</strong>未提供</li>
+        
+        <li><strong>研究问题：</strong>BCR-MERFISH enables tracking of plasma cell clones by combining V gene-specific detection with spatial transcriptomics</li>
+      </ul>
+      <p><strong>核心发现：</strong></p>
+      <ol><li>In situ profiling of plasma cell clonality with image-based single-cell transcriptomics</li><li>BCR-MERFISH enables tracking of plasma cell clones by combining V gene-specific detection with spatial transcriptomics</li></ol>
+      <p><strong>摘要：</strong>BCR-MERFISH enables tracking of plasma cell clones by combining V gene-specific detection with spatial transcriptomics</p>
+      <p><strong>链接：</strong><a href="https://www.nature.com/articles/s41592-026-03296-3">https://www.nature.com/articles/s41592-026-03296-3</a></p>
+    </article>
+    
+        </section>
+        
+  
+</body>
+</html>

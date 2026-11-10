@@ -1,0 +1,888 @@
+﻿{
+  "schema_version": "1.0",
+  "task": "paper-overview-extractor-rss",
+  "status": "partial_success",
+  "generated_at": "2026-11-10T20:08:16.928360+00:00",
+  "date_range": {
+    "start": "2026-11-10",
+    "end": "2026-11-10"
+  },
+  "inputs": {
+    "journals_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\目标期刊.txt",
+    "keywords_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\关键词.txt",
+    "keyword_aliases_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\keyword_aliases.json",
+    "rss_sources_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\rss_sources.json",
+    "keywords": [
+      "免疫代谢",
+      "代谢表观调控",
+      "单细胞算法",
+      "单细胞图谱",
+      "流感",
+      "HSV",
+      "H1N1",
+      "肺损伤",
+      "肺组织修复",
+      "皮肤免疫"
+    ],
+    "llm_model": "hy-mt1.5-7b",
+    "llm_base_url": "http://127.0.0.1:1234",
+    "llm_translation_only": true,
+    "llm_proxy_url": "http://127.0.0.1:7890",
+    "google_fallback": true
+  },
+  "summary": {
+    "journal_count": 10,
+    "paper_count": 5,
+    "pubmed_enriched_count": 4,
+    "llm_enhanced_count": 0,
+    "llm_google_fallback_count": 0
+  },
+  "journals": [
+    {
+      "journal": "Nature",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nature/",
+      "feed_urls": [
+        "https://www.nature.com/nature/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nature/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nature.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 75
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 68",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Science",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/science",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+        "https://www.science.org/rss/express.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+          "status_code": 200,
+          "error": "",
+          "item_count": 45
+        },
+        {
+          "url": "https://www.science.org/rss/express.xml",
+          "ok": true,
+          "final_url": "https://feeds.science.org/rss/science-aop.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 13
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/00928674"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/00928674",
+          "status_code": 200,
+          "error": "",
+          "item_count": 72
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Cell metabolism",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/cell-metabolism/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/15504131"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/15504131",
+          "status_code": 200,
+          "error": "",
+          "item_count": 48
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Immunity",
+      "configured": true,
+      "publisher": "Cell Press / ScienceDirect",
+      "homepage": "https://www.cell.com/immunity/home",
+      "feed_urls": [
+        "https://rss.sciencedirect.com/publication/science/10747613"
+      ],
+      "attempts": [
+        {
+          "url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "ok": true,
+          "final_url": "https://rss.sciencedirect.com/publication/science/10747613",
+          "status_code": 200,
+          "error": "",
+          "item_count": 54
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature Immunology",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/ni/",
+      "feed_urls": [
+        "https://www.nature.com/ni/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/ni/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/ni.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 1",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Science Immunology",
+      "configured": true,
+      "publisher": "AAAS",
+      "homepage": "https://www.science.org/journal/sciimmunol",
+      "feed_urls": [
+        "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "ok": true,
+          "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciimmunol",
+          "status_code": 200,
+          "error": "",
+          "item_count": 4
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Bioinformatics",
+      "configured": true,
+      "publisher": "Oxford Academic",
+      "homepage": "https://academic.oup.com/bioinformatics",
+      "feed_urls": [
+        "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+        "https://academic.oup.com/rss/site_5139/3001.xml"
+      ],
+      "attempts": [
+        {
+          "url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 5
+        },
+        {
+          "url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "ok": true,
+          "final_url": "https://academic.oup.com/rss/site_5139/3001.xml",
+          "status_code": 200,
+          "error": "",
+          "item_count": 93
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 1"
+      ],
+      "paper_count": 4,
+      "papers": [
+        {
+          "title": "PFM: perturbed flow matching for structure-based drug design",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag811/9027072?rss=1",
+          "published_at": "2026-11-10T08:00:00+08:00",
+          "published_date": "2026-11-10",
+          "summary": "Abstract Motivation Target-specific 3D molecular generation is a promising approach for structure-based drug design. However, existing diffusion-based methods are generally restricted to marginal distributions with closed-form solutions, limiting the flexibility of generative process design, especially for the forward noising process. As a result, these methods may be less effective in modeling the complex distributions underlying pocket-conditioned molecular generation. Results We develop Perturbed Flow Matching (PFM), a flow-matching-based framework for protein pocket–conditioned 3D molecular generation. PFM employs a perturbed conditional probability path that incorporates both pocket binding-site information and coupled atom type–coordinate information, enabling more effective generation of molecules in protein binding environments. On CrossDocked2020, PFM achieves competitive structural quality and the best average Vina score among the evaluated unguided methods (-7.12); PFM-G further improves the score to -8.70 with tailored classifier-free guidance. Experiments on additional molecular datasets further confirm the effectiveness and generalizability of the proposed framework. Availability and implementation https://github.com/kurisu92725/PFM",
+          "authors": [
+            "Yankai Yu",
+            "Guikun Xu",
+            "Zhuyang Xie",
+            "Yan Yang",
+            "Yongquan Jiang",
+            "Xiaobo Zhou",
+            "Kang Li"
+          ],
+          "doi": "10.1093/bioinformatics/btag811",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag811",
+          "pmid": "43006909",
+          "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43006909/",
+          "abstract": "MOTIVATION: Target-specific 3D molecular generation is a promising approach for structure-based drug design. However, existing diffusion-based methods are generally restricted to marginal distributions with closed-form solutions, limiting the flexibility of generative process design, especially for the forward noising process. As a result, these methods may be less effective in modeling the complex distributions underlying pocket-conditioned molecular generation.\n\nRESULTS: We develop Perturbed Flow Matching (PFM), a flow-matching-based framework for protein pocket-conditioned 3D molecular generation. PFM employs a perturbed conditional probability path that incorporates both pocket binding-site information and coupled atom type-coordinate information, enabling more effective generation of molecules in protein binding environments. On CrossDocked2020, PFM achieves competitive structural quality and the best average Vina score among the evaluated unguided methods (-7.12); PFM-G further improves the score to -8.70 with tailored classifier-free guidance. Experiments on additional molecular datasets further confirm the effectiveness and generalizability of the proposed framework.\n\nAVAILABILITY AND IMPLEMENTATION: https://github.com/kurisu92725/PFM.",
+          "affiliations": [
+            "School of Computing and Artificial Intelligence, Southwest Jiaotong University, Chengdu, Sichuan 611756, China.",
+            "School of Artificial Intelligence, Shanghai Jiao Tong University, Shanghai 200030, China.",
+            "College of Information Engineering, Sichuan Agricultural University, Ya'an, Sichuan 625014, China.",
+            "Center for Computational Systems Medicine, McWilliams School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+            "West China Biomedical Big Data Center, West China Hospital, Sichuan University, Chengdu, Sichuan 610041, China.",
+            "Med-X Center for Informatics, Sichuan University, Chengdu, Sichuan 610041, China."
+          ],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [
+            "Journal Article"
+          ],
+          "pubmed_journal": "Bioinformatics (Oxford, England)",
+          "pubmed_publication_date": "2026-11-10",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "success",
+          "pubmed_warning": "",
+          "llm_title_zh": "",
+          "llm_title_bilingual": "",
+          "llm_research_question_zh": "",
+          "llm_highlights_zh": [],
+          "llm_rss_summary_zh": "",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "error",
+          "llm_warning": "LLM generation failed: direct: RuntimeError: chat@http://127.0.0.1:1234/v1/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/v1/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | chat@http://127.0.0.1:1234/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | native@http://127.0.0.1:1234/api/v1/chat: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | google/direct: RuntimeError: chunk1: RuntimeError: dj: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | classic: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | google/http://127.0.0.1:7890: RuntimeError: chunk1: RuntimeError: dj: HTTPError: HTTP Error 429: Too Many Requests | classic: HTTPError: HTTP Error 429: Too Many Requests",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "Abstract Motivation Target-specific 3D molecular generation is a promising approach for structure-based drug design. However, existing diffusion-based methods are generally restricted to marginal distributions with closed-form solutions, limiting the flexibility of generative process design, especially for the forward noising process. As a result, these methods may be less effective in modeling the complex distributions underlying pocket-conditioned molecular generation. Results We develop Perturbed Flow Matching (PFM), a flow-matching-based framework for protein pocket–conditioned 3D molecular generation. PFM employs a perturbed conditional probability path that incorporates both pocket binding-site information and coupled atom type–coordinate information, enabling more effective generation of molecules in protein binding environments. On CrossDocked2020, PFM achieves competitive structural quality and the best average Vina score among the evaluated unguided methods (-7.12); PFM-G further improves the score to -8.70 with tailored classifier-free guidance. Experiments on additional molecular datasets further confirm the effectiveness and generalizability of the proposed framework. Availability and implementation https://github.com/kurisu92725/PFM",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "en",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Target-specific 3D molecular generation is a promising approach for structure-based drug design. However, existing diffusion-based methods are generally restricted to marginal distributions with closed-form solutions, limiting the flexibility of generative process design, especially for the forward noising process. As a result, these methods may be less effective in modeling the complex distributions underlying pocket-conditioned molecular generation. Results We develop Perturbed Flow Matching (PFM), a flow-matching-based framework for protein pocket–conditioned 3D molecular generation. PFM employs a perturbed conditional probability path that incorporates both pocket binding-site information and coupled atom type–coordinate information, enabling more effective generation of molecules in protein binding environments. On CrossDocked2020, PFM achieves competitive structural quality and the best average Vina score among the evaluated unguided methods (-7.12); PFM-G further improves the score to -8.70 with tailored classifier-free guidance. Experiments on additional molecular datasets further confirm the effectiveness and generalizability of the proposed framework.",
+          "primary_summary_zh": ""
+        },
+        {
+          "title": "MIRAGE-DTA: conflict-aware multimodal evidence arbitration for drug–target affinity prediction",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag812/9027069?rss=1",
+          "published_at": "2026-11-10T08:00:00+08:00",
+          "published_date": "2026-11-10",
+          "summary": "Abstract Motivation Multimodal drug–target affinity (DTA) models can incorporate molecular, protein, assay and textual evidence whose availability and reliability vary under missing modalities, cold-start entities and assay distribution shift. Results We present MIRAGE-DTA, a reliability-oriented evidence-arbitration layer that complements DTA encoders by keeping current-sample and training-set retrieval evidence as two explicit chains, carrying modality masks into fusion, retrieving training-only neighbors, and resolving disagreement with an interaction gate and validation-selected anchor. Across BindingDB_Kd, DAVIS, KIBA and a 2010–2024 CHEMBL_ASSAY benchmark with 35,238 interactions, experiments tested cold-start, missing-modality and assay/temporal shift settings. Under 35% sequence/text missingness on CHEMBL_ASSAY, 10-seed paired evaluation showed that MIRAGE-DTA reduced expected calibration error relative to late fusion by 0.0524, 0.0923 and 0.1018 on assay-cold, target-cold and temporal splits. Risk at 80% coverage was significantly lower on target-cold and temporal splits and numerically lower on assay-cold. A complementary complete-evidence direct-pChEMBL regression analysis also showed lower RMSE for the two-branch model than for current-only and retrieval-only regressors across assay-cold, target-cold and temporal splits. Ranking remained broadly competitive, with a modest trade-off on the temporal split, indicating that the principal benefit lies in calibrated and selective prediction under incomplete or shifted evidence. Shortcut audits quantified neighbor-overlap effects and showed that temporal retrieval was not driven by repeated compounds or near-duplicate scaffolds. Availability and implementation Source code is available at https://github.com/wushen1103-collab/mirage_drug_miniprototype and archived on Zenodo at https://doi.org/10.5281/zenodo.22695984 ; data come from public sources",
+          "authors": [
+            "Shenkuang Wu",
+            "Jing Zhang",
+            "Lianming Zhang",
+            "Pingping Dong"
+          ],
+          "doi": "10.1093/bioinformatics/btag812",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag812",
+          "pmid": "43006892",
+          "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43006892/",
+          "abstract": "MOTIVATION: Multimodal drug-target affinity (DTA) models can incorporate molecular, protein, assay and textual evidence whose availability and reliability vary under missing modalities, cold-start entities and assay distribution shift.\n\nRESULTS: We present MIRAGE-DTA, a reliability-oriented evidence-arbitration layer that complements DTA encoders by keeping current-sample and training-set retrieval evidence as two explicit chains, carrying modality masks into fusion, retrieving training-only neighbors, and resolving disagreement with an interaction gate and validation-selected anchor. Across BindingDB_Kd, DAVIS, KIBA and a 2010-2024 CHEMBL_ASSAY benchmark with 35,238 interactions, experiments tested cold-start, missing-modality and assay/temporal shift settings. Under 35% sequence/text missingness on CHEMBL_ASSAY, 10-seed paired evaluation showed that MIRAGE-DTA reduced expected calibration error relative to late fusion by 0.0524, 0.0923 and 0.1018 on assay-cold, target-cold and temporal splits. Risk at 80% coverage was significantly lower on target-cold and temporal splits and numerically lower on assay-cold. A complementary complete-evidence direct-pChEMBL regression analysis also showed lower RMSE for the two-branch model than for current-only and retrieval-only regressors across assay-cold, target-cold and temporal splits. Ranking remained broadly competitive, with a modest trade-off on the temporal split, indicating that the principal benefit lies in calibrated and selective prediction under incomplete or shifted evidence. Shortcut audits quantified neighbor-overlap effects and showed that temporal retrieval was not driven by repeated compounds or near-duplicate scaffolds.\n\nAVAILABILITY AND IMPLEMENTATION: Source code is available at https://github.com/wushen1103-collab/mirage_drug_miniprototype and archived on Zenodo at https://doi.org/10.5281/zenodo.22695984; data come from public sources.",
+          "affiliations": [
+            "School of Information Science and Engineering, Hunan Normal University, Changsha, China.",
+            "Faculty of Medicine, Hunan Normal University, Changsha, China.",
+            "Xiangjiang Laboratory, Changsha, China."
+          ],
+          "mesh_terms": [],
+          "paper_keywords": [
+            "distribution shift",
+            "drug–target affinity prediction",
+            "missing modalities",
+            "multimodal information fusion",
+            "reliability calibration",
+            "retrieval-augmented learning"
+          ],
+          "publication_types": [
+            "Journal Article"
+          ],
+          "pubmed_journal": "Bioinformatics (Oxford, England)",
+          "pubmed_publication_date": "2026-11-10",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "success",
+          "pubmed_warning": "",
+          "llm_title_zh": "",
+          "llm_title_bilingual": "",
+          "llm_research_question_zh": "",
+          "llm_highlights_zh": [],
+          "llm_rss_summary_zh": "",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "error",
+          "llm_warning": "LLM generation failed: direct: RuntimeError: chat@http://127.0.0.1:1234/v1/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/v1/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | chat@http://127.0.0.1:1234/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | native@http://127.0.0.1:1234/api/v1/chat: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | google/direct: RuntimeError: chunk1: RuntimeError: dj: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | classic: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | google/http://127.0.0.1:7890: RuntimeError: chunk1: RuntimeError: dj: HTTPError: HTTP Error 429: Too Many Requests | classic: HTTPError: HTTP Error 429: Too Many Requests",
+          "matched_keywords": [],
+          "keyword_score": 6,
+          "is_new_to_state": true,
+          "primary_summary": "Abstract Motivation Multimodal drug–target affinity (DTA) models can incorporate molecular, protein, assay and textual evidence whose availability and reliability vary under missing modalities, cold-start entities and assay distribution shift. Results We present MIRAGE-DTA, a reliability-oriented evidence-arbitration layer that complements DTA encoders by keeping current-sample and training-set retrieval evidence as two explicit chains, carrying modality masks into fusion, retrieving training-only neighbors, and resolving disagreement with an interaction gate and validation-selected anchor. Across BindingDB_Kd, DAVIS, KIBA and a 2010–2024 CHEMBL_ASSAY benchmark with 35,238 interactions, experiments tested cold-start, missing-modality and assay/temporal shift settings. Under 35% sequence/text missingness on CHEMBL_ASSAY, 10-seed paired evaluation showed that MIRAGE-DTA reduced expected calibration error relative to late fusion by 0.0524, 0.0923 and 0.1018 on assay-cold, target-cold and temporal splits. Risk at 80% coverage was significantly lower on target-cold and temporal splits and numerically lower on assay-cold. A complementary complete-evidence direct-pChEMBL regression analysis also showed lower RMSE for the two-branch model than for current-only and retrieval-only regressors across assay-cold, target-cold and temporal splits. Ranking remained broadly competitive, with a modest trade-off on the temporal split, indicating that the principal benefit lies in calibrated and selective prediction under incomplete or shifted evidence. Shortcut audits quantified neighbor-overlap effects and showed that temporal retrieval was not driven by repeated compounds or near-duplicate scaffolds. Availability and implementation Source code is available at https://github.com/wushen1103-collab/mirage_drug_miniprototype and archived on Zenodo at https://doi.org/10.5281/zenodo.22695984 ; data come from public sources",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "en",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "Multimodal drug–target affinity (DTA) models can incorporate molecular, protein, assay and textual evidence whose",
+          "primary_summary_zh": ""
+        },
+        {
+          "title": "DTBNet: Multimodal 3D Geometric Perception with Hierarchical Attention for Robust Drug–Target Interaction and Binding Affinity Prediction",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag809/9027070?rss=1",
+          "published_at": "2026-11-10T08:00:00+08:00",
+          "published_date": "2026-11-10",
+          "summary": "Abstract Motivation Accurate prediction of drug-target interactions (DTIs) and binding affinity (DTA) constitutes a core challenge in accelerating drug discovery. While existing computational methods have made progress, most models struggle to capture critical physicochemical interactions in 3D space due to reliance on 1D sequences or 2D graph structures, and exhibit limited generalization in cold-start scenarios. This study proposes DTBNet, a unified prediction framework integrating multimodal geometric perception and hierarchical attention. The framework constructs heterogeneous embeddings combining local chemical details with global biological information by incorporating protein 3D geometric features and multilevel drug representations. During cross-modal interaction, atom–residue cross-attention first captures pair-specific local associations, followed by group-level multi-head self-attention that integrates complementary chemical-semantic, global structural, and local geometric interaction representations. Results Experiments on benchmark datasets (Davis, KIBA, PDBBind) demonstrate that compared with the optimal baseline models, DTBNet achieves up to 19.8% reduction in mean squared error and 8.0% improvement in Pearson correlation coefficient, maintaining optimal performance in drug cold-start, target cold-start, and completely novel pairing scenarios, showcasing robust cross-domain adaptability. Independent validation on GPCR targets achieves RMSE 0.783, confirming real-world applicability. Visualization analyses reveal DTBNet precisely identifies interaction sites between key transmembrane helical domain residues and drug aromatic rings, with attention distribution highly consistent with experimentally resolved binding conformations. These results establish DTBNet as a new performance benchmark through 3D geometric perception and dynamic attention mechanisms, providing interpretable molecular insights for structure-based rational drug design and demonstrating broad potential in virtual screening and target discovery. Availability The source code and data are available at https://github.com/wyx2012/DTB_Net",
+          "authors": [
+            "Yuxiao Wei",
+            "Qi Zhang",
+            "Xuezhong Zhou"
+          ],
+          "doi": "10.1093/bioinformatics/btag809",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag809",
+          "pmid": "43006887",
+          "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43006887/",
+          "abstract": "MOTIVATION: Accurate prediction of drug-target interactions (DTIs) and binding affinity (DTA) constitutes a core challenge in accelerating drug discovery. While existing computational methods have made progress, most models struggle to capture critical physicochemical interactions in 3D space due to reliance on 1D sequences or 2D graph structures, and exhibit limited generalization in cold-start scenarios. This study proposes DTBNet, a unified prediction framework integrating multimodal geometric perception and hierarchical attention. The framework constructs heterogeneous embeddings combining local chemical details with global biological information by incorporating protein 3D geometric features and multilevel drug representations. During cross-modal interaction, atom-residue cross-attention first captures pair-specific local associations, followed by group-level multi-head self-attention that integrates complementary chemical-semantic, global structural, and local geometric interaction representations.\n\nRESULTS: Experiments on benchmark datasets (Davis, KIBA, PDBBind) demonstrate that compared with the optimal baseline models, DTBNet achieves up to 19.8% reduction in mean squared error and 8.0% improvement in Pearson correlation coefficient, maintaining optimal performance in drug cold-start, target cold-start, and completely novel pairing scenarios, showcasing robust cross-domain adaptability. Independent validation on GPCR targets achieves RMSE 0.783, confirming real-world applicability. Visualization analyses reveal DTBNet precisely identifies interaction sites between key transmembrane helical domain residues and drug aromatic rings, with attention distribution highly consistent with experimentally resolved binding conformations. These results establish DTBNet as a new performance benchmark through 3D geometric perception and dynamic attention mechanisms, providing interpretable molecular insights for structure-based rational drug design and demonstrating broad potential in virtual screening and target discovery.\n\nAVAILABILITY: The source code and data are available at https://github.com/wyx2012/DTB_Net.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "affiliations": [
+            "School of Computer Science & Technology, Beijing Jiaotong University, Beijing, 100044, China.",
+            "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China."
+          ],
+          "mesh_terms": [],
+          "paper_keywords": [
+            "deep learning",
+            "drug discovery",
+            "hierarchical attention",
+            "multimodal geometric perception"
+          ],
+          "publication_types": [
+            "Journal Article"
+          ],
+          "pubmed_journal": "Bioinformatics (Oxford, England)",
+          "pubmed_publication_date": "2026-11-10",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "success",
+          "pubmed_warning": "",
+          "llm_title_zh": "",
+          "llm_title_bilingual": "",
+          "llm_research_question_zh": "",
+          "llm_highlights_zh": [],
+          "llm_rss_summary_zh": "",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "error",
+          "llm_warning": "LLM generation failed: direct: RuntimeError: chat@http://127.0.0.1:1234/v1/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/v1/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | chat@http://127.0.0.1:1234/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | native@http://127.0.0.1:1234/api/v1/chat: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | google/direct: RuntimeError: chunk1: RuntimeError: dj: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | classic: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | google/http://127.0.0.1:7890: RuntimeError: chunk1: RuntimeError: dj: HTTPError: HTTP Error 429: Too Many Requests | classic: HTTPError: HTTP Error 429: Too Many Requests",
+          "matched_keywords": [],
+          "keyword_score": 4,
+          "is_new_to_state": true,
+          "primary_summary": "MOTIVATION: Accurate prediction of drug-target interactions (DTIs) and binding affinity (DTA) constitutes a core challenge in accelerating drug discovery. While existing computational methods have made progress, most models struggle to capture critical physicochemical interactions in 3D space due to reliance on 1D sequences or 2D graph structures, and exhibit limited generalization in cold-start scenarios. This study proposes DTBNet, a unified prediction framework integrating multimodal geometric perception and hierarchical attention. The framework constructs heterogeneous embeddings combining local chemical details with global biological information by incorporating protein 3D geometric features and multilevel drug representations. During cross-modal interaction, atom-residue cross-attention first captures pair-specific local associations, followed by group-level multi-head self-attention that integrates complementary chemical-semantic, global structural, and local geometric interaction representations.\n\nRESULTS: Experiments on benchmark datasets (Davis, KIBA, PDBBind) demonstrate that compared with the optimal baseline models, DTBNet achieves up to 19.8% reduction in mean squared error and 8.0% improvement in Pearson correlation coefficient, maintaining optimal performance in drug cold-start, target cold-start, and completely novel pairing scenarios, showcasing robust cross-domain adaptability. Independent validation on GPCR targets achieves RMSE 0.783, confirming real-world applicability. Visualization analyses reveal DTBNet precisely identifies interaction sites between key transmembrane helical domain residues and drug aromatic rings, with attention distribution highly consistent with experimentally resolved binding conformations. These results establish DTBNet as a new performance benchmark through 3D geometric perception and dynamic attention mechanisms, providing interpretable molecular insights for structure-based rational drug design and demonstrating broad potential in virtual screening and target discovery.\n\nAVAILABILITY: The source code and data are available at https://github.com/wyx2012/DTB_Net.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "primary_summary_source": "pubmed",
+          "primary_summary_language": "en",
+          "preferred_summary_source": "pubmed",
+          "primary_summary_raw": "MOTIVATION: Accurate prediction of drug-target interactions (DTIs) and binding affinity (DTA) constitutes a core challenge in accelerating drug discovery. While existing computational methods have made progress, most models struggle to capture critical physicochemical interactions in 3D space due to reliance on 1D sequences or 2D graph structures, and exhibit limited generalization in cold-start scenarios. This study proposes DTBNet, a unified prediction framework integrating multimodal geometric perception and hierarchical attention. The framework constructs heterogeneous embeddings combining local chemical details with global biological information by incorporating protein 3D geometric features and multilevel drug representations. During cross-modal interaction, atom-residue cross-attention first captures pair-specific local associations, followed by group-level multi-head self-attention that integrates complementary chemical-semantic, global structural, and local geometric interaction representations.\n\nRESULTS: Experiments on benchmark datasets (Davis, KIBA, PDBBind) demonstrate that compared with the optimal baseline models, DTBNet achieves up to 19.8% reduction in mean squared error and 8.0% improvement in Pearson correlation coefficient, maintaining optimal performance in drug cold-start, target cold-start, and completely novel pairing scenarios, showcasing robust cross-domain adaptability. Independent validation on GPCR targets achieves RMSE 0.783, confirming real-world applicability. Visualization analyses reveal DTBNet precisely identifies interaction sites between key transmembrane helical domain residues and drug aromatic rings, with attention distribution highly consistent with experimentally resolved binding conformations. These results establish DTBNet as a new performance benchmark through 3D geometric perception and dynamic attention mechanisms, providing interpretable molecular insights for structure-based rational drug design and demonstrating broad potential in virtual screening and target discovery.\n\nAVAILABILITY: The source code and data are available at https://github.com/wyx2012/DTB_Net.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "primary_summary_zh": ""
+        },
+        {
+          "title": "CellSavior: an open-source framework for improved cell calling in targeted single-cell DNA sequencing",
+          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag808/9027071?rss=1",
+          "published_at": "2026-11-10T08:00:00+08:00",
+          "published_date": "2026-11-10",
+          "summary": "Abstract Motivation Single-cell DNA sequencing (scDNA-seq) has emerged as a key approach for studying complex genomic variation, including tumor heterogeneity. Despite its increasing commercial availability, exemplified by the Tapestri platform, analytical reproducibility remains limited due to reliance on proprietary and non-transparent pipelines. Among preprocessing steps, cell calling is particularly critical, as it determines which barcodes correspond to true cells rather than background noise and directly shapes all downstream analyses. However, existing methods typically rely on empirical thresholding and exhibit inconsistent performance across datasets. These limitations underscore the need for a robust and generalizable cell calling framework for reliable scDNA-seq analysis. Results We developed CellSavior, an open-source cell calling algorithm with an integrated downstream pipeline that produces standardized outputs. CellSavior employs an ensemble clustering strategy across multiple distance metrics, combined with confidence-weighted merging, to generate a consensus classification that reduces bias and improves robustness. Across 33 public and in-house single-cell DNA sequencing datasets, CellSavior recapitulated cell annotations generated by commercial software (CellFinder) in 31 cases (93.9%). In the remaining discordant cases, CellSavior yielded more biologically interpretable annotations, rescuing previously undetected clusters enriched for key hotspot genomic alterations. Availability The source code for CellSavior is freely available at https://github.com/dauer-tgilab/CellSavior ; DOI: https://doi.org/10.5281/zenodo.22744146",
+          "authors": [
+            "Taehyeon Kim",
+            "Young-Soo Chung",
+            "Dongwoo Park",
+            "Seungho Oh",
+            "Jin-Kyoung Shim",
+            "Hyejoung Cho",
+            "Seok-Gu Kang",
+            "Sangwoo Kim"
+          ],
+          "doi": "10.1093/bioinformatics/btag808",
+          "journal": "Bioinformatics",
+          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+          "entry_id": "http://doi.org/10.1093/bioinformatics/btag808",
+          "pmid": "43006921",
+          "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43006921/",
+          "abstract": "MOTIVATION: Single-cell DNA sequencing (scDNA-seq) has emerged as a key approach for studying complex genomic variation, including tumor heterogeneity. Despite its increasing commercial availability, exemplified by the Tapestri platform, analytical reproducibility remains limited due to reliance on proprietary and non-transparent pipelines. Among preprocessing steps, cell calling is particularly critical, as it determines which barcodes correspond to true cells rather than background noise and directly shapes all downstream analyses. However, existing methods typically rely on empirical thresholding and exhibit inconsistent performance across datasets. These limitations underscore the need for a robust and generalizable cell calling framework for reliable scDNA-seq analysis.\n\nRESULTS: We developed CellSavior, an open-source cell calling algorithm with an integrated downstream pipeline that produces standardized outputs. CellSavior employs an ensemble clustering strategy across multiple distance metrics, combined with confidence-weighted merging, to generate a consensus classification that reduces bias and improves robustness. Across 33 public and in-house single-cell DNA sequencing datasets, CellSavior recapitulated cell annotations generated by commercial software (CellFinder) in 31 cases (93.9%). In the remaining discordant cases, CellSavior yielded more biologically interpretable annotations, rescuing previously undetected clusters enriched for key hotspot genomic alterations.\n\nAVAILABILITY: The source code for CellSavior is freely available at https://github.com/dauer-tgilab/CellSavior; DOI: https://doi.org/10.5281/zenodo.22744146.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "affiliations": [
+            "Department of Biomedical Systems Informatics, Graduate School of Medical Science, Brain Korea 21 FOUR Project, Yonsei University College of Medicine, Seoul 03722, Republic of Korea.",
+            "Department of Biomedical Systems Informatics, Yonsei University College of Medicine, Seoul 03722, Republic of Korea.",
+            "Department of Neurosurgery, Brain Tumor Center, Severance Hospital, Yonsei University College of Medicine, Seoul 03722, Republic of Korea.",
+            "Brain Tumor Translational Research Laboratory, Department of Biomedical Sciences, Yonsei University College of Medicine, Seoul 03722, Republic of Korea.",
+            "Brain Research Institute, Yonsei University College of Medicine, Seoul 03722, Republic of Korea.",
+            "Department of Neurosurgery, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul 03722, Republic of Korea."
+          ],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [
+            "Journal Article"
+          ],
+          "pubmed_journal": "Bioinformatics (Oxford, England)",
+          "pubmed_publication_date": "2026-11-10",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "success",
+          "pubmed_warning": "",
+          "llm_title_zh": "",
+          "llm_title_bilingual": "",
+          "llm_research_question_zh": "",
+          "llm_highlights_zh": [],
+          "llm_rss_summary_zh": "",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "error",
+          "llm_warning": "LLM generation failed: direct: RuntimeError: chat@http://127.0.0.1:1234/v1/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/v1/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | chat@http://127.0.0.1:1234/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | native@http://127.0.0.1:1234/api/v1/chat: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | google/direct: RuntimeError: chunk1: RuntimeError: dj: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | classic: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | google/http://127.0.0.1:7890: RuntimeError: chunk1: RuntimeError: dj: HTTPError: HTTP Error 429: Too Many Requests | classic: HTTPError: HTTP Error 429: Too Many Requests",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "MOTIVATION: Single-cell DNA sequencing (scDNA-seq) has emerged as a key approach for studying complex genomic variation, including tumor heterogeneity. Despite its increasing commercial availability, exemplified by the Tapestri platform, analytical reproducibility remains limited due to reliance on proprietary and non-transparent pipelines. Among preprocessing steps, cell calling is particularly critical, as it determines which barcodes correspond to true cells rather than background noise and directly shapes all downstream analyses. However, existing methods typically rely on empirical thresholding and exhibit inconsistent performance across datasets. These limitations underscore the need for a robust and generalizable cell calling framework for reliable scDNA-seq analysis.\n\nRESULTS: We developed CellSavior, an open-source cell calling algorithm with an integrated downstream pipeline that produces standardized outputs. CellSavior employs an ensemble clustering strategy across multiple distance metrics, combined with confidence-weighted merging, to generate a consensus classification that reduces bias and improves robustness. Across 33 public and in-house single-cell DNA sequencing datasets, CellSavior recapitulated cell annotations generated by commercial software (CellFinder) in 31 cases (93.9%). In the remaining discordant cases, CellSavior yielded more biologically interpretable annotations, rescuing previously undetected clusters enriched for key hotspot genomic alterations.\n\nAVAILABILITY: The source code for CellSavior is freely available at https://github.com/dauer-tgilab/CellSavior; DOI: https://doi.org/10.5281/zenodo.22744146.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "primary_summary_source": "pubmed",
+          "primary_summary_language": "en",
+          "preferred_summary_source": "pubmed",
+          "primary_summary_raw": "MOTIVATION: Single-cell DNA sequencing (scDNA-seq) has emerged as a key approach for studying complex genomic variation, including tumor heterogeneity. Despite its increasing commercial availability, exemplified by the Tapestri platform, analytical reproducibility remains limited due to reliance on proprietary and non-transparent pipelines. Among preprocessing steps, cell calling is particularly critical, as it determines which barcodes correspond to true cells rather than background noise and directly shapes all downstream analyses. However, existing methods typically rely on empirical thresholding and exhibit inconsistent performance across datasets. These limitations underscore the need for a robust and generalizable cell calling framework for reliable scDNA-seq analysis.\n\nRESULTS: We developed CellSavior, an open-source cell calling algorithm with an integrated downstream pipeline that produces standardized outputs. CellSavior employs an ensemble clustering strategy across multiple distance metrics, combined with confidence-weighted merging, to generate a consensus classification that reduces bias and improves robustness. Across 33 public and in-house single-cell DNA sequencing datasets, CellSavior recapitulated cell annotations generated by commercial software (CellFinder) in 31 cases (93.9%). In the remaining discordant cases, CellSavior yielded more biologically interpretable annotations, rescuing previously undetected clusters enriched for key hotspot genomic alterations.\n\nAVAILABILITY: The source code for CellSavior is freely available at https://github.com/dauer-tgilab/CellSavior; DOI: https://doi.org/10.5281/zenodo.22744146.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+          "primary_summary_zh": ""
+        }
+      ]
+    },
+    {
+      "journal": "Nature Protocols",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nprot/",
+      "feed_urls": [
+        "https://www.nature.com/nprot/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nprot/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nprot.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
+      ],
+      "paper_count": 0,
+      "papers": []
+    },
+    {
+      "journal": "Nature methods",
+      "configured": true,
+      "publisher": "Springer Nature",
+      "homepage": "https://www.nature.com/nmeth/",
+      "feed_urls": [
+        "https://www.nature.com/nmeth/current_issue/rss"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.nature.com/nmeth/current_issue/rss",
+          "ok": true,
+          "final_url": "https://www.nature.com/nmeth.rss",
+          "status_code": 200,
+          "error": "",
+          "item_count": 8
+        }
+      ],
+      "warnings": [
+        "Filtered non-paper items by papers-only rule: 1"
+      ],
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "In situ profiling of plasma cell clonality with image-based single-cell transcriptomics",
+          "link": "https://www.nature.com/articles/s41592-026-03296-3",
+          "published_at": "2026-11-10T08:00:00+08:00",
+          "published_date": "2026-11-10",
+          "summary": "BCR-MERFISH enables tracking of plasma cell clones by combining V gene-specific detection with spatial transcriptomics",
+          "authors": [
+            "Evan Yang",
+            "Jose Aceves-Salvador",
+            "Carlos Castrillon",
+            "Uli S. Herrmann",
+            "Elliot H. Akama-Garren",
+            "Michael C. Carroll",
+            "Jeffrey R. Moffitt"
+          ],
+          "doi": "10.1038/s41592-026-03296-3",
+          "journal": "Nature methods",
+          "source_feed": "https://www.nature.com/nmeth.rss",
+          "entry_id": "doi:10.1038/s41592-026-03296-3",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "",
+          "llm_title_bilingual": "",
+          "llm_research_question_zh": "",
+          "llm_highlights_zh": [],
+          "llm_rss_summary_zh": "",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "error",
+          "llm_warning": "LLM generation failed: direct: RuntimeError: chat@http://127.0.0.1:1234/v1/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/v1/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | chat@http://127.0.0.1:1234/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | native@http://127.0.0.1:1234/api/v1/chat: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | google/direct: RuntimeError: chunk1: RuntimeError: dj: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | classic: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | google/http://127.0.0.1:7890: RuntimeError: chunk1: RuntimeError: dj: HTTPError: HTTP Error 429: Too Many Requests | classic: HTTPError: HTTP Error 429: Too Many Requests",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "primary_summary": "BCR-MERFISH enables tracking of plasma cell clones by combining V gene-specific detection with spatial transcriptomics",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "en",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "BCR-MERFISH enables tracking of plasma cell clones by combining V gene-specific detection with spatial transcriptomics",
+          "primary_summary_zh": ""
+        }
+      ]
+    }
+  ],
+  "all_papers": [
+    {
+      "title": "MIRAGE-DTA: conflict-aware multimodal evidence arbitration for drug–target affinity prediction",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag812/9027069?rss=1",
+      "published_at": "2026-11-10T08:00:00+08:00",
+      "published_date": "2026-11-10",
+      "summary": "Abstract Motivation Multimodal drug–target affinity (DTA) models can incorporate molecular, protein, assay and textual evidence whose availability and reliability vary under missing modalities, cold-start entities and assay distribution shift. Results We present MIRAGE-DTA, a reliability-oriented evidence-arbitration layer that complements DTA encoders by keeping current-sample and training-set retrieval evidence as two explicit chains, carrying modality masks into fusion, retrieving training-only neighbors, and resolving disagreement with an interaction gate and validation-selected anchor. Across BindingDB_Kd, DAVIS, KIBA and a 2010–2024 CHEMBL_ASSAY benchmark with 35,238 interactions, experiments tested cold-start, missing-modality and assay/temporal shift settings. Under 35% sequence/text missingness on CHEMBL_ASSAY, 10-seed paired evaluation showed that MIRAGE-DTA reduced expected calibration error relative to late fusion by 0.0524, 0.0923 and 0.1018 on assay-cold, target-cold and temporal splits. Risk at 80% coverage was significantly lower on target-cold and temporal splits and numerically lower on assay-cold. A complementary complete-evidence direct-pChEMBL regression analysis also showed lower RMSE for the two-branch model than for current-only and retrieval-only regressors across assay-cold, target-cold and temporal splits. Ranking remained broadly competitive, with a modest trade-off on the temporal split, indicating that the principal benefit lies in calibrated and selective prediction under incomplete or shifted evidence. Shortcut audits quantified neighbor-overlap effects and showed that temporal retrieval was not driven by repeated compounds or near-duplicate scaffolds. Availability and implementation Source code is available at https://github.com/wushen1103-collab/mirage_drug_miniprototype and archived on Zenodo at https://doi.org/10.5281/zenodo.22695984 ; data come from public sources",
+      "authors": [
+        "Shenkuang Wu",
+        "Jing Zhang",
+        "Lianming Zhang",
+        "Pingping Dong"
+      ],
+      "doi": "10.1093/bioinformatics/btag812",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag812",
+      "pmid": "43006892",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43006892/",
+      "abstract": "MOTIVATION: Multimodal drug-target affinity (DTA) models can incorporate molecular, protein, assay and textual evidence whose availability and reliability vary under missing modalities, cold-start entities and assay distribution shift.\n\nRESULTS: We present MIRAGE-DTA, a reliability-oriented evidence-arbitration layer that complements DTA encoders by keeping current-sample and training-set retrieval evidence as two explicit chains, carrying modality masks into fusion, retrieving training-only neighbors, and resolving disagreement with an interaction gate and validation-selected anchor. Across BindingDB_Kd, DAVIS, KIBA and a 2010-2024 CHEMBL_ASSAY benchmark with 35,238 interactions, experiments tested cold-start, missing-modality and assay/temporal shift settings. Under 35% sequence/text missingness on CHEMBL_ASSAY, 10-seed paired evaluation showed that MIRAGE-DTA reduced expected calibration error relative to late fusion by 0.0524, 0.0923 and 0.1018 on assay-cold, target-cold and temporal splits. Risk at 80% coverage was significantly lower on target-cold and temporal splits and numerically lower on assay-cold. A complementary complete-evidence direct-pChEMBL regression analysis also showed lower RMSE for the two-branch model than for current-only and retrieval-only regressors across assay-cold, target-cold and temporal splits. Ranking remained broadly competitive, with a modest trade-off on the temporal split, indicating that the principal benefit lies in calibrated and selective prediction under incomplete or shifted evidence. Shortcut audits quantified neighbor-overlap effects and showed that temporal retrieval was not driven by repeated compounds or near-duplicate scaffolds.\n\nAVAILABILITY AND IMPLEMENTATION: Source code is available at https://github.com/wushen1103-collab/mirage_drug_miniprototype and archived on Zenodo at https://doi.org/10.5281/zenodo.22695984; data come from public sources.",
+      "affiliations": [
+        "School of Information Science and Engineering, Hunan Normal University, Changsha, China.",
+        "Faculty of Medicine, Hunan Normal University, Changsha, China.",
+        "Xiangjiang Laboratory, Changsha, China."
+      ],
+      "mesh_terms": [],
+      "paper_keywords": [
+        "distribution shift",
+        "drug–target affinity prediction",
+        "missing modalities",
+        "multimodal information fusion",
+        "reliability calibration",
+        "retrieval-augmented learning"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_journal": "Bioinformatics (Oxford, England)",
+      "pubmed_publication_date": "2026-11-10",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "success",
+      "pubmed_warning": "",
+      "llm_title_zh": "",
+      "llm_title_bilingual": "",
+      "llm_research_question_zh": "",
+      "llm_highlights_zh": [],
+      "llm_rss_summary_zh": "",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "error",
+      "llm_warning": "LLM generation failed: direct: RuntimeError: chat@http://127.0.0.1:1234/v1/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/v1/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | chat@http://127.0.0.1:1234/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | native@http://127.0.0.1:1234/api/v1/chat: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | google/direct: RuntimeError: chunk1: RuntimeError: dj: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | classic: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | google/http://127.0.0.1:7890: RuntimeError: chunk1: RuntimeError: dj: HTTPError: HTTP Error 429: Too Many Requests | classic: HTTPError: HTTP Error 429: Too Many Requests",
+      "matched_keywords": [],
+      "keyword_score": 6,
+      "is_new_to_state": true,
+      "primary_summary": "Abstract Motivation Multimodal drug–target affinity (DTA) models can incorporate molecular, protein, assay and textual evidence whose availability and reliability vary under missing modalities, cold-start entities and assay distribution shift. Results We present MIRAGE-DTA, a reliability-oriented evidence-arbitration layer that complements DTA encoders by keeping current-sample and training-set retrieval evidence as two explicit chains, carrying modality masks into fusion, retrieving training-only neighbors, and resolving disagreement with an interaction gate and validation-selected anchor. Across BindingDB_Kd, DAVIS, KIBA and a 2010–2024 CHEMBL_ASSAY benchmark with 35,238 interactions, experiments tested cold-start, missing-modality and assay/temporal shift settings. Under 35% sequence/text missingness on CHEMBL_ASSAY, 10-seed paired evaluation showed that MIRAGE-DTA reduced expected calibration error relative to late fusion by 0.0524, 0.0923 and 0.1018 on assay-cold, target-cold and temporal splits. Risk at 80% coverage was significantly lower on target-cold and temporal splits and numerically lower on assay-cold. A complementary complete-evidence direct-pChEMBL regression analysis also showed lower RMSE for the two-branch model than for current-only and retrieval-only regressors across assay-cold, target-cold and temporal splits. Ranking remained broadly competitive, with a modest trade-off on the temporal split, indicating that the principal benefit lies in calibrated and selective prediction under incomplete or shifted evidence. Shortcut audits quantified neighbor-overlap effects and showed that temporal retrieval was not driven by repeated compounds or near-duplicate scaffolds. Availability and implementation Source code is available at https://github.com/wushen1103-collab/mirage_drug_miniprototype and archived on Zenodo at https://doi.org/10.5281/zenodo.22695984 ; data come from public sources",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "en",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Multimodal drug–target affinity (DTA) models can incorporate molecular, protein, assay and textual evidence whose",
+      "primary_summary_zh": ""
+    },
+    {
+      "title": "DTBNet: Multimodal 3D Geometric Perception with Hierarchical Attention for Robust Drug–Target Interaction and Binding Affinity Prediction",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag809/9027070?rss=1",
+      "published_at": "2026-11-10T08:00:00+08:00",
+      "published_date": "2026-11-10",
+      "summary": "Abstract Motivation Accurate prediction of drug-target interactions (DTIs) and binding affinity (DTA) constitutes a core challenge in accelerating drug discovery. While existing computational methods have made progress, most models struggle to capture critical physicochemical interactions in 3D space due to reliance on 1D sequences or 2D graph structures, and exhibit limited generalization in cold-start scenarios. This study proposes DTBNet, a unified prediction framework integrating multimodal geometric perception and hierarchical attention. The framework constructs heterogeneous embeddings combining local chemical details with global biological information by incorporating protein 3D geometric features and multilevel drug representations. During cross-modal interaction, atom–residue cross-attention first captures pair-specific local associations, followed by group-level multi-head self-attention that integrates complementary chemical-semantic, global structural, and local geometric interaction representations. Results Experiments on benchmark datasets (Davis, KIBA, PDBBind) demonstrate that compared with the optimal baseline models, DTBNet achieves up to 19.8% reduction in mean squared error and 8.0% improvement in Pearson correlation coefficient, maintaining optimal performance in drug cold-start, target cold-start, and completely novel pairing scenarios, showcasing robust cross-domain adaptability. Independent validation on GPCR targets achieves RMSE 0.783, confirming real-world applicability. Visualization analyses reveal DTBNet precisely identifies interaction sites between key transmembrane helical domain residues and drug aromatic rings, with attention distribution highly consistent with experimentally resolved binding conformations. These results establish DTBNet as a new performance benchmark through 3D geometric perception and dynamic attention mechanisms, providing interpretable molecular insights for structure-based rational drug design and demonstrating broad potential in virtual screening and target discovery. Availability The source code and data are available at https://github.com/wyx2012/DTB_Net",
+      "authors": [
+        "Yuxiao Wei",
+        "Qi Zhang",
+        "Xuezhong Zhou"
+      ],
+      "doi": "10.1093/bioinformatics/btag809",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag809",
+      "pmid": "43006887",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43006887/",
+      "abstract": "MOTIVATION: Accurate prediction of drug-target interactions (DTIs) and binding affinity (DTA) constitutes a core challenge in accelerating drug discovery. While existing computational methods have made progress, most models struggle to capture critical physicochemical interactions in 3D space due to reliance on 1D sequences or 2D graph structures, and exhibit limited generalization in cold-start scenarios. This study proposes DTBNet, a unified prediction framework integrating multimodal geometric perception and hierarchical attention. The framework constructs heterogeneous embeddings combining local chemical details with global biological information by incorporating protein 3D geometric features and multilevel drug representations. During cross-modal interaction, atom-residue cross-attention first captures pair-specific local associations, followed by group-level multi-head self-attention that integrates complementary chemical-semantic, global structural, and local geometric interaction representations.\n\nRESULTS: Experiments on benchmark datasets (Davis, KIBA, PDBBind) demonstrate that compared with the optimal baseline models, DTBNet achieves up to 19.8% reduction in mean squared error and 8.0% improvement in Pearson correlation coefficient, maintaining optimal performance in drug cold-start, target cold-start, and completely novel pairing scenarios, showcasing robust cross-domain adaptability. Independent validation on GPCR targets achieves RMSE 0.783, confirming real-world applicability. Visualization analyses reveal DTBNet precisely identifies interaction sites between key transmembrane helical domain residues and drug aromatic rings, with attention distribution highly consistent with experimentally resolved binding conformations. These results establish DTBNet as a new performance benchmark through 3D geometric perception and dynamic attention mechanisms, providing interpretable molecular insights for structure-based rational drug design and demonstrating broad potential in virtual screening and target discovery.\n\nAVAILABILITY: The source code and data are available at https://github.com/wyx2012/DTB_Net.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "affiliations": [
+        "School of Computer Science & Technology, Beijing Jiaotong University, Beijing, 100044, China.",
+        "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China."
+      ],
+      "mesh_terms": [],
+      "paper_keywords": [
+        "deep learning",
+        "drug discovery",
+        "hierarchical attention",
+        "multimodal geometric perception"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_journal": "Bioinformatics (Oxford, England)",
+      "pubmed_publication_date": "2026-11-10",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "success",
+      "pubmed_warning": "",
+      "llm_title_zh": "",
+      "llm_title_bilingual": "",
+      "llm_research_question_zh": "",
+      "llm_highlights_zh": [],
+      "llm_rss_summary_zh": "",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "error",
+      "llm_warning": "LLM generation failed: direct: RuntimeError: chat@http://127.0.0.1:1234/v1/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/v1/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | chat@http://127.0.0.1:1234/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | native@http://127.0.0.1:1234/api/v1/chat: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | google/direct: RuntimeError: chunk1: RuntimeError: dj: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | classic: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | google/http://127.0.0.1:7890: RuntimeError: chunk1: RuntimeError: dj: HTTPError: HTTP Error 429: Too Many Requests | classic: HTTPError: HTTP Error 429: Too Many Requests",
+      "matched_keywords": [],
+      "keyword_score": 4,
+      "is_new_to_state": true,
+      "primary_summary": "MOTIVATION: Accurate prediction of drug-target interactions (DTIs) and binding affinity (DTA) constitutes a core challenge in accelerating drug discovery. While existing computational methods have made progress, most models struggle to capture critical physicochemical interactions in 3D space due to reliance on 1D sequences or 2D graph structures, and exhibit limited generalization in cold-start scenarios. This study proposes DTBNet, a unified prediction framework integrating multimodal geometric perception and hierarchical attention. The framework constructs heterogeneous embeddings combining local chemical details with global biological information by incorporating protein 3D geometric features and multilevel drug representations. During cross-modal interaction, atom-residue cross-attention first captures pair-specific local associations, followed by group-level multi-head self-attention that integrates complementary chemical-semantic, global structural, and local geometric interaction representations.\n\nRESULTS: Experiments on benchmark datasets (Davis, KIBA, PDBBind) demonstrate that compared with the optimal baseline models, DTBNet achieves up to 19.8% reduction in mean squared error and 8.0% improvement in Pearson correlation coefficient, maintaining optimal performance in drug cold-start, target cold-start, and completely novel pairing scenarios, showcasing robust cross-domain adaptability. Independent validation on GPCR targets achieves RMSE 0.783, confirming real-world applicability. Visualization analyses reveal DTBNet precisely identifies interaction sites between key transmembrane helical domain residues and drug aromatic rings, with attention distribution highly consistent with experimentally resolved binding conformations. These results establish DTBNet as a new performance benchmark through 3D geometric perception and dynamic attention mechanisms, providing interpretable molecular insights for structure-based rational drug design and demonstrating broad potential in virtual screening and target discovery.\n\nAVAILABILITY: The source code and data are available at https://github.com/wyx2012/DTB_Net.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "primary_summary_source": "pubmed",
+      "primary_summary_language": "en",
+      "preferred_summary_source": "pubmed",
+      "primary_summary_raw": "MOTIVATION: Accurate prediction of drug-target interactions (DTIs) and binding affinity (DTA) constitutes a core challenge in accelerating drug discovery. While existing computational methods have made progress, most models struggle to capture critical physicochemical interactions in 3D space due to reliance on 1D sequences or 2D graph structures, and exhibit limited generalization in cold-start scenarios. This study proposes DTBNet, a unified prediction framework integrating multimodal geometric perception and hierarchical attention. The framework constructs heterogeneous embeddings combining local chemical details with global biological information by incorporating protein 3D geometric features and multilevel drug representations. During cross-modal interaction, atom-residue cross-attention first captures pair-specific local associations, followed by group-level multi-head self-attention that integrates complementary chemical-semantic, global structural, and local geometric interaction representations.\n\nRESULTS: Experiments on benchmark datasets (Davis, KIBA, PDBBind) demonstrate that compared with the optimal baseline models, DTBNet achieves up to 19.8% reduction in mean squared error and 8.0% improvement in Pearson correlation coefficient, maintaining optimal performance in drug cold-start, target cold-start, and completely novel pairing scenarios, showcasing robust cross-domain adaptability. Independent validation on GPCR targets achieves RMSE 0.783, confirming real-world applicability. Visualization analyses reveal DTBNet precisely identifies interaction sites between key transmembrane helical domain residues and drug aromatic rings, with attention distribution highly consistent with experimentally resolved binding conformations. These results establish DTBNet as a new performance benchmark through 3D geometric perception and dynamic attention mechanisms, providing interpretable molecular insights for structure-based rational drug design and demonstrating broad potential in virtual screening and target discovery.\n\nAVAILABILITY: The source code and data are available at https://github.com/wyx2012/DTB_Net.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "primary_summary_zh": ""
+    },
+    {
+      "title": "PFM: perturbed flow matching for structure-based drug design",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag811/9027072?rss=1",
+      "published_at": "2026-11-10T08:00:00+08:00",
+      "published_date": "2026-11-10",
+      "summary": "Abstract Motivation Target-specific 3D molecular generation is a promising approach for structure-based drug design. However, existing diffusion-based methods are generally restricted to marginal distributions with closed-form solutions, limiting the flexibility of generative process design, especially for the forward noising process. As a result, these methods may be less effective in modeling the complex distributions underlying pocket-conditioned molecular generation. Results We develop Perturbed Flow Matching (PFM), a flow-matching-based framework for protein pocket–conditioned 3D molecular generation. PFM employs a perturbed conditional probability path that incorporates both pocket binding-site information and coupled atom type–coordinate information, enabling more effective generation of molecules in protein binding environments. On CrossDocked2020, PFM achieves competitive structural quality and the best average Vina score among the evaluated unguided methods (-7.12); PFM-G further improves the score to -8.70 with tailored classifier-free guidance. Experiments on additional molecular datasets further confirm the effectiveness and generalizability of the proposed framework. Availability and implementation https://github.com/kurisu92725/PFM",
+      "authors": [
+        "Yankai Yu",
+        "Guikun Xu",
+        "Zhuyang Xie",
+        "Yan Yang",
+        "Yongquan Jiang",
+        "Xiaobo Zhou",
+        "Kang Li"
+      ],
+      "doi": "10.1093/bioinformatics/btag811",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag811",
+      "pmid": "43006909",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43006909/",
+      "abstract": "MOTIVATION: Target-specific 3D molecular generation is a promising approach for structure-based drug design. However, existing diffusion-based methods are generally restricted to marginal distributions with closed-form solutions, limiting the flexibility of generative process design, especially for the forward noising process. As a result, these methods may be less effective in modeling the complex distributions underlying pocket-conditioned molecular generation.\n\nRESULTS: We develop Perturbed Flow Matching (PFM), a flow-matching-based framework for protein pocket-conditioned 3D molecular generation. PFM employs a perturbed conditional probability path that incorporates both pocket binding-site information and coupled atom type-coordinate information, enabling more effective generation of molecules in protein binding environments. On CrossDocked2020, PFM achieves competitive structural quality and the best average Vina score among the evaluated unguided methods (-7.12); PFM-G further improves the score to -8.70 with tailored classifier-free guidance. Experiments on additional molecular datasets further confirm the effectiveness and generalizability of the proposed framework.\n\nAVAILABILITY AND IMPLEMENTATION: https://github.com/kurisu92725/PFM.",
+      "affiliations": [
+        "School of Computing and Artificial Intelligence, Southwest Jiaotong University, Chengdu, Sichuan 611756, China.",
+        "School of Artificial Intelligence, Shanghai Jiao Tong University, Shanghai 200030, China.",
+        "College of Information Engineering, Sichuan Agricultural University, Ya'an, Sichuan 625014, China.",
+        "Center for Computational Systems Medicine, McWilliams School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX 77030, USA.",
+        "West China Biomedical Big Data Center, West China Hospital, Sichuan University, Chengdu, Sichuan 610041, China.",
+        "Med-X Center for Informatics, Sichuan University, Chengdu, Sichuan 610041, China."
+      ],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_journal": "Bioinformatics (Oxford, England)",
+      "pubmed_publication_date": "2026-11-10",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "success",
+      "pubmed_warning": "",
+      "llm_title_zh": "",
+      "llm_title_bilingual": "",
+      "llm_research_question_zh": "",
+      "llm_highlights_zh": [],
+      "llm_rss_summary_zh": "",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "error",
+      "llm_warning": "LLM generation failed: direct: RuntimeError: chat@http://127.0.0.1:1234/v1/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/v1/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | chat@http://127.0.0.1:1234/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | native@http://127.0.0.1:1234/api/v1/chat: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | google/direct: RuntimeError: chunk1: RuntimeError: dj: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | classic: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | google/http://127.0.0.1:7890: RuntimeError: chunk1: RuntimeError: dj: HTTPError: HTTP Error 429: Too Many Requests | classic: HTTPError: HTTP Error 429: Too Many Requests",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "Abstract Motivation Target-specific 3D molecular generation is a promising approach for structure-based drug design. However, existing diffusion-based methods are generally restricted to marginal distributions with closed-form solutions, limiting the flexibility of generative process design, especially for the forward noising process. As a result, these methods may be less effective in modeling the complex distributions underlying pocket-conditioned molecular generation. Results We develop Perturbed Flow Matching (PFM), a flow-matching-based framework for protein pocket–conditioned 3D molecular generation. PFM employs a perturbed conditional probability path that incorporates both pocket binding-site information and coupled atom type–coordinate information, enabling more effective generation of molecules in protein binding environments. On CrossDocked2020, PFM achieves competitive structural quality and the best average Vina score among the evaluated unguided methods (-7.12); PFM-G further improves the score to -8.70 with tailored classifier-free guidance. Experiments on additional molecular datasets further confirm the effectiveness and generalizability of the proposed framework. Availability and implementation https://github.com/kurisu92725/PFM",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "en",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "Target-specific 3D molecular generation is a promising approach for structure-based drug design. However, existing diffusion-based methods are generally restricted to marginal distributions with closed-form solutions, limiting the flexibility of generative process design, especially for the forward noising process. As a result, these methods may be less effective in modeling the complex distributions underlying pocket-conditioned molecular generation. Results We develop Perturbed Flow Matching (PFM), a flow-matching-based framework for protein pocket–conditioned 3D molecular generation. PFM employs a perturbed conditional probability path that incorporates both pocket binding-site information and coupled atom type–coordinate information, enabling more effective generation of molecules in protein binding environments. On CrossDocked2020, PFM achieves competitive structural quality and the best average Vina score among the evaluated unguided methods (-7.12); PFM-G further improves the score to -8.70 with tailored classifier-free guidance. Experiments on additional molecular datasets further confirm the effectiveness and generalizability of the proposed framework.",
+      "primary_summary_zh": ""
+    },
+    {
+      "title": "In situ profiling of plasma cell clonality with image-based single-cell transcriptomics",
+      "link": "https://www.nature.com/articles/s41592-026-03296-3",
+      "published_at": "2026-11-10T08:00:00+08:00",
+      "published_date": "2026-11-10",
+      "summary": "BCR-MERFISH enables tracking of plasma cell clones by combining V gene-specific detection with spatial transcriptomics",
+      "authors": [
+        "Evan Yang",
+        "Jose Aceves-Salvador",
+        "Carlos Castrillon",
+        "Uli S. Herrmann",
+        "Elliot H. Akama-Garren",
+        "Michael C. Carroll",
+        "Jeffrey R. Moffitt"
+      ],
+      "doi": "10.1038/s41592-026-03296-3",
+      "journal": "Nature methods",
+      "source_feed": "https://www.nature.com/nmeth.rss",
+      "entry_id": "doi:10.1038/s41592-026-03296-3",
+      "pmid": "",
+      "pubmed_url": "",
+      "abstract": "",
+      "affiliations": [],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [],
+      "pubmed_journal": "",
+      "pubmed_publication_date": "",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "not_found",
+      "pubmed_warning": "No PubMed match found",
+      "llm_title_zh": "",
+      "llm_title_bilingual": "",
+      "llm_research_question_zh": "",
+      "llm_highlights_zh": [],
+      "llm_rss_summary_zh": "",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "error",
+      "llm_warning": "LLM generation failed: direct: RuntimeError: chat@http://127.0.0.1:1234/v1/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/v1/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | chat@http://127.0.0.1:1234/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | native@http://127.0.0.1:1234/api/v1/chat: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | google/direct: RuntimeError: chunk1: RuntimeError: dj: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | classic: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | google/http://127.0.0.1:7890: RuntimeError: chunk1: RuntimeError: dj: HTTPError: HTTP Error 429: Too Many Requests | classic: HTTPError: HTTP Error 429: Too Many Requests",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "BCR-MERFISH enables tracking of plasma cell clones by combining V gene-specific detection with spatial transcriptomics",
+      "primary_summary_source": "rss",
+      "primary_summary_language": "en",
+      "preferred_summary_source": "rss",
+      "primary_summary_raw": "BCR-MERFISH enables tracking of plasma cell clones by combining V gene-specific detection with spatial transcriptomics",
+      "primary_summary_zh": ""
+    },
+    {
+      "title": "CellSavior: an open-source framework for improved cell calling in targeted single-cell DNA sequencing",
+      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag808/9027071?rss=1",
+      "published_at": "2026-11-10T08:00:00+08:00",
+      "published_date": "2026-11-10",
+      "summary": "Abstract Motivation Single-cell DNA sequencing (scDNA-seq) has emerged as a key approach for studying complex genomic variation, including tumor heterogeneity. Despite its increasing commercial availability, exemplified by the Tapestri platform, analytical reproducibility remains limited due to reliance on proprietary and non-transparent pipelines. Among preprocessing steps, cell calling is particularly critical, as it determines which barcodes correspond to true cells rather than background noise and directly shapes all downstream analyses. However, existing methods typically rely on empirical thresholding and exhibit inconsistent performance across datasets. These limitations underscore the need for a robust and generalizable cell calling framework for reliable scDNA-seq analysis. Results We developed CellSavior, an open-source cell calling algorithm with an integrated downstream pipeline that produces standardized outputs. CellSavior employs an ensemble clustering strategy across multiple distance metrics, combined with confidence-weighted merging, to generate a consensus classification that reduces bias and improves robustness. Across 33 public and in-house single-cell DNA sequencing datasets, CellSavior recapitulated cell annotations generated by commercial software (CellFinder) in 31 cases (93.9%). In the remaining discordant cases, CellSavior yielded more biologically interpretable annotations, rescuing previously undetected clusters enriched for key hotspot genomic alterations. Availability The source code for CellSavior is freely available at https://github.com/dauer-tgilab/CellSavior ; DOI: https://doi.org/10.5281/zenodo.22744146",
+      "authors": [
+        "Taehyeon Kim",
+        "Young-Soo Chung",
+        "Dongwoo Park",
+        "Seungho Oh",
+        "Jin-Kyoung Shim",
+        "Hyejoung Cho",
+        "Seok-Gu Kang",
+        "Sangwoo Kim"
+      ],
+      "doi": "10.1093/bioinformatics/btag808",
+      "journal": "Bioinformatics",
+      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
+      "entry_id": "http://doi.org/10.1093/bioinformatics/btag808",
+      "pmid": "43006921",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43006921/",
+      "abstract": "MOTIVATION: Single-cell DNA sequencing (scDNA-seq) has emerged as a key approach for studying complex genomic variation, including tumor heterogeneity. Despite its increasing commercial availability, exemplified by the Tapestri platform, analytical reproducibility remains limited due to reliance on proprietary and non-transparent pipelines. Among preprocessing steps, cell calling is particularly critical, as it determines which barcodes correspond to true cells rather than background noise and directly shapes all downstream analyses. However, existing methods typically rely on empirical thresholding and exhibit inconsistent performance across datasets. These limitations underscore the need for a robust and generalizable cell calling framework for reliable scDNA-seq analysis.\n\nRESULTS: We developed CellSavior, an open-source cell calling algorithm with an integrated downstream pipeline that produces standardized outputs. CellSavior employs an ensemble clustering strategy across multiple distance metrics, combined with confidence-weighted merging, to generate a consensus classification that reduces bias and improves robustness. Across 33 public and in-house single-cell DNA sequencing datasets, CellSavior recapitulated cell annotations generated by commercial software (CellFinder) in 31 cases (93.9%). In the remaining discordant cases, CellSavior yielded more biologically interpretable annotations, rescuing previously undetected clusters enriched for key hotspot genomic alterations.\n\nAVAILABILITY: The source code for CellSavior is freely available at https://github.com/dauer-tgilab/CellSavior; DOI: https://doi.org/10.5281/zenodo.22744146.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "affiliations": [
+        "Department of Biomedical Systems Informatics, Graduate School of Medical Science, Brain Korea 21 FOUR Project, Yonsei University College of Medicine, Seoul 03722, Republic of Korea.",
+        "Department of Biomedical Systems Informatics, Yonsei University College of Medicine, Seoul 03722, Republic of Korea.",
+        "Department of Neurosurgery, Brain Tumor Center, Severance Hospital, Yonsei University College of Medicine, Seoul 03722, Republic of Korea.",
+        "Brain Tumor Translational Research Laboratory, Department of Biomedical Sciences, Yonsei University College of Medicine, Seoul 03722, Republic of Korea.",
+        "Brain Research Institute, Yonsei University College of Medicine, Seoul 03722, Republic of Korea.",
+        "Department of Neurosurgery, Graduate School of Medical Science, Brain Korea 21 Project, Yonsei University College of Medicine, Seoul 03722, Republic of Korea."
+      ],
+      "mesh_terms": [],
+      "paper_keywords": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_journal": "Bioinformatics (Oxford, England)",
+      "pubmed_publication_date": "2026-11-10",
+      "pubmed_match_source": "doi",
+      "pubmed_status": "success",
+      "pubmed_warning": "",
+      "llm_title_zh": "",
+      "llm_title_bilingual": "",
+      "llm_research_question_zh": "",
+      "llm_highlights_zh": [],
+      "llm_rss_summary_zh": "",
+      "llm_pubmed_abstract_zh": "",
+      "llm_paper_keywords_zh": [],
+      "llm_publication_types_zh": [],
+      "llm_status": "error",
+      "llm_warning": "LLM generation failed: direct: RuntimeError: chat@http://127.0.0.1:1234/v1/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/v1/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | chat@http://127.0.0.1:1234/chat/completions: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | responses@http://127.0.0.1:1234/responses: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | native@http://127.0.0.1:1234/api/v1/chat: URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> | google/direct: RuntimeError: chunk1: RuntimeError: dj: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | classic: URLError: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。> | google/http://127.0.0.1:7890: RuntimeError: chunk1: RuntimeError: dj: HTTPError: HTTP Error 429: Too Many Requests | classic: HTTPError: HTTP Error 429: Too Many Requests",
+      "matched_keywords": [],
+      "keyword_score": 0,
+      "is_new_to_state": true,
+      "primary_summary": "MOTIVATION: Single-cell DNA sequencing (scDNA-seq) has emerged as a key approach for studying complex genomic variation, including tumor heterogeneity. Despite its increasing commercial availability, exemplified by the Tapestri platform, analytical reproducibility remains limited due to reliance on proprietary and non-transparent pipelines. Among preprocessing steps, cell calling is particularly critical, as it determines which barcodes correspond to true cells rather than background noise and directly shapes all downstream analyses. However, existing methods typically rely on empirical thresholding and exhibit inconsistent performance across datasets. These limitations underscore the need for a robust and generalizable cell calling framework for reliable scDNA-seq analysis.\n\nRESULTS: We developed CellSavior, an open-source cell calling algorithm with an integrated downstream pipeline that produces standardized outputs. CellSavior employs an ensemble clustering strategy across multiple distance metrics, combined with confidence-weighted merging, to generate a consensus classification that reduces bias and improves robustness. Across 33 public and in-house single-cell DNA sequencing datasets, CellSavior recapitulated cell annotations generated by commercial software (CellFinder) in 31 cases (93.9%). In the remaining discordant cases, CellSavior yielded more biologically interpretable annotations, rescuing previously undetected clusters enriched for key hotspot genomic alterations.\n\nAVAILABILITY: The source code for CellSavior is freely available at https://github.com/dauer-tgilab/CellSavior; DOI: https://doi.org/10.5281/zenodo.22744146.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "primary_summary_source": "pubmed",
+      "primary_summary_language": "en",
+      "preferred_summary_source": "pubmed",
+      "primary_summary_raw": "MOTIVATION: Single-cell DNA sequencing (scDNA-seq) has emerged as a key approach for studying complex genomic variation, including tumor heterogeneity. Despite its increasing commercial availability, exemplified by the Tapestri platform, analytical reproducibility remains limited due to reliance on proprietary and non-transparent pipelines. Among preprocessing steps, cell calling is particularly critical, as it determines which barcodes correspond to true cells rather than background noise and directly shapes all downstream analyses. However, existing methods typically rely on empirical thresholding and exhibit inconsistent performance across datasets. These limitations underscore the need for a robust and generalizable cell calling framework for reliable scDNA-seq analysis.\n\nRESULTS: We developed CellSavior, an open-source cell calling algorithm with an integrated downstream pipeline that produces standardized outputs. CellSavior employs an ensemble clustering strategy across multiple distance metrics, combined with confidence-weighted merging, to generate a consensus classification that reduces bias and improves robustness. Across 33 public and in-house single-cell DNA sequencing datasets, CellSavior recapitulated cell annotations generated by commercial software (CellFinder) in 31 cases (93.9%). In the remaining discordant cases, CellSavior yielded more biologically interpretable annotations, rescuing previously undetected clusters enriched for key hotspot genomic alterations.\n\nAVAILABILITY: The source code for CellSavior is freely available at https://github.com/dauer-tgilab/CellSavior; DOI: https://doi.org/10.5281/zenodo.22744146.\n\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "primary_summary_zh": ""
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}
