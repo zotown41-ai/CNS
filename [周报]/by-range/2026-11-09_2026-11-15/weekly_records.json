@@ -1,0 +1,3006 @@
+{
+  "generated_at": "2026-11-16T03:04:04",
+  "start": "2026-11-09",
+  "end": "2026-11-15",
+  "journals": [
+    "Nature",
+    "Science",
+    "Cell",
+    "Cell metabolism",
+    "immunity",
+    "Nature Immunology",
+    "Science Immunology",
+    "Bioinformatics",
+    "Nature Protocols"
+  ],
+  "keywords": [
+    "免疫代谢",
+    "代谢表观调控",
+    "单细胞算法",
+    "单细胞图谱",
+    "流感",
+    "HSV",
+    "H1N1",
+    "肺损伤",
+    "肺组织修复",
+    "皮肤免疫"
+  ],
+  "top10": [
+    {
+      "pmid": "43019438",
+      "title": "Differentiation of stem-like CD4+ T cells modulates early effector responses in colorectal cancer.",
+      "journal": "Science (New York, N.Y.)",
+      "pub_date": "2026-11-12",
+      "abstract": "Strategies to improve cancer immunotherapy have largely focused on the intratumor immunosuppressive microenvironment, whereas approaches to amplify peripheral T cells and promote tumor recruitment have not been thoroughly explored. Using imaging mass cytometry in patients with colorectal cancer (CRC), we observed T helper 1 (TH1)-like immune architectures in mismatch repair-deficient tumors associated with response to anti-programmed cell death protein 1 (PD-1) immunotherapy. By contrast, mismatch repair-proficient (pMMR) tumors showed regulatory T-dominant spatial interactions. Clonal analyses revealed that stem-like CD4+ T cells differentiated into TH1-like cells after PD-1 blockade. In pMMR CRC mouse models, combined OX40 agonist and PD-1 blockade suppressed tumor progression by expanding Il7r+ early effector CD4+ intermediates in tumor-draining lymph nodes, promoting migration and connection with TH1-like cells. This was accompanied by interferon-γ-dependent induction of immunostimulatory monocyte-macrophages and CD8+ effector T cells. These findings suggest that leveraging peripheral CD4+ T cell amplification may improve immunotherapy responses.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1126/science.ady7788",
+      "pmcid": null,
+      "authors": [
+        "Yu Zhang",
+        "Hu Nie",
+        "Zixuan Dai",
+        "Liying Zhao",
+        "Yihong Wan",
+        "Yi Wang",
+        "Yikang Chen",
+        "Xinhua Chen"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 35.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1126/science.ady7788",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42705228",
+      "title": "A pulmonary innate lymphoid cell-driven serotonergic neuroimmune axis orchestrates airway hyperreactivity and cough hypersensitivity.",
+      "journal": "Immunity",
+      "pub_date": "2026-11-10",
+      "abstract": "Asthma is a heterogeneous disease characterized by airway hyperreactivity (AHR) and chronic cough, exacerbated by respiratory viruses or allergen exposure. Yet, the immune pathway-mediated serotonergic circuits underlying these responses remain poorly defined. Here, we identified a serotonergic neuroimmune axis in which pulmonary group 2 innate lymphoid cells (ILC2s) expressed tryptophan hydroxylase-1 (Tph1) and released serotonin via CCAAT/enhancer-binding protein beta (C/EBPβ)-dependent transcription following interleukin (IL)-33 stimulation. Tph1 deficiency in ILC2s and adoptive transfer experiments demonstrated that ILC2-derived serotonin amplified type 2 cytokine production via 5-hydroxytryptamine (5-HT)2A-NF-κB activation, resulting in exacerbated AHR in respiratory syncytial virus-driven asthmatic models. Using engineered viral tools, we showed that ILC2-derived serotonin sensitized vagal sensory neurons through 5-HT3A to promote cough hypersensitivity. Clinically, asthma patients exhibited elevated TPH1 and plasma serotonin levels, both of which correlated with type 2 cytokines. Together, these findings reveal that an ILC2-driven serotonergic circuit contributes to asthma pathophysiology and highlight serotonergic signaling as a therapeutic target.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.08.004",
+      "pmcid": null,
+      "authors": [
+        "Chia-Hui Luo",
+        "Jheng-Syuan Shao",
+        "Alan Chuan-Ying Lai",
+        "Wei-Chang Huang",
+        "Ko-Chien Wu",
+        "Wei-Yu Chen",
+        "Chih-Cheng Chen",
+        "Nicholas W Lukacs"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "cough hypersensitivity",
+        "group 2 innate lymphoid cells",
+        "neuro-immune crosstalk",
+        "respiratory syncytial virus",
+        "serotonin",
+        "vagal sensory neuron"
+      ],
+      "weekly_match": true,
+      "score": 34.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.08.004",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42962666",
+      "title": "Mitochondrial DNA abundance is a determinant of immunogenic cell death in cancer.",
+      "journal": "Immunity",
+      "pub_date": "2026-11-10",
+      "abstract": "Cells experiencing mitochondrial stress can undergo apoptosis or cell death that triggers innate immune activation. We examined the mechanisms determining these distinct outcomes in cancer. Abundant mitochondrial DNA (mtDNA) and high expression of the cGAS-STING pathway were features of KRAS-mutant cancers. In a pharmacological screen, MEK inhibitor (MEKi) effectively induced mtDNA release into the cytosol in KRAS-mutant cancer cells. However, MEKi also induced PRKN-mediated mitophagy, which limited mtDNA release by eliminating damaged mitochondria. Inhibition of mitophagy sustained mtDNA efflux and amplified cGAS-STING signaling. Mechanistically, PRKN-mediated mitophagy restrained mitochondrial outer membrane permeabilization (MOMP) to limit mtDNA efflux. The balance between mtDNA and cytochrome c (cyt.c) release defined two immunologically distinct outcomes: immunogenic cell death (ICD) and apoptosis. In preclinical models, combined inhibition of MEK and mitophagy induced robust dendritic cell (DC) activation and promoted CD8+ T cell-mediated antitumor immunity. Consistently, PRKN expression negatively correlated with immune infiltration in human cancers. Collectively, these findings provide a rationale for combination strategies targeting mitochondrial dynamics to augment antitumor immunity.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.10.002",
+      "pmcid": null,
+      "authors": [
+        "Kosuke Tanaka",
+        "Yasuki Adachi",
+        "Takuma Irie",
+        "Tomoko Yamamori-Morita",
+        "Kazuhiro Kumagai",
+        "Takuya Owari",
+        "Genki Okumura",
+        "Yoshihisa Kobayashi"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "KRAS-mutant cancer",
+        "TWINKLE",
+        "cGAS-STING",
+        "immunogenic cell death",
+        "mitochondrial DNA",
+        "mitophagy",
+        "molecularly targeted therapy",
+        "subapoptotic MOMP",
+        "type I interferon"
+      ],
+      "weekly_match": true,
+      "score": 33.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.002",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43015474",
+      "title": "NRF2 is a mechanosensitive checkpoint for NLRP3 inflammasome activation.",
+      "journal": "Nature",
+      "pub_date": "2026-11-11",
+      "abstract": "Disconnects between in vitro and in vivo results in experimental biology have long been recognized as potential hurdles to understanding health and disease. A prototypical example of such a disconnect is the NLRP3 inflammasome, which mediates inflammation in diverse settings of disease and protective immunity1,2. Activation of the NLRP3 inflammasome in vitro requires two signals: (1) priming by pathogen-associated molecular patterns such as bacterial lipopolysaccharides and (2) activation by molecules that disrupt cellular homeostasis1,3. By contrast, the NLRP3 inflammasome in vivo is activated by lipopolysaccharide alone. The mechanisms that underlie the difference between in vitro and in vivo activation of the NLRP3 inflammasome are undefined. Here we report that extracellular matrix (ECM) stiffness is a determinant of NLRP3 activities and that in vitro systems using physiological ECM stiffness enable one-signal in vivo-like NLRP3 activities to occur in human and mouse phagocytes. Physiological ECM stiffness induced expression of the transcription factor NRF2, which was found to be necessary for one-signal NLRP3 activation. Mechanistically, we identify Panx1 as an NRF2-regulated gene that promotes NLRP3 activity. Macrophages derived from the stiff matrix of the bone-osteoclasts-had reduced NRF2 levels and impaired NLRP3 activity. Moreover, alveolar macrophages from patients with pulmonary fibrosis displayed reduced NRF2 activity. Finally, NRF2 was required for antitumour immunity induced by cancer vaccines consisting of NLRP3 agonistic adjuvants. These findings indicate that NRF2 may be a transcriptional checkpoint that controls NLRP3 inflammasome activity.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1038/s41586-026-11324-7",
+      "pmcid": null,
+      "authors": [
+        "Daniel Okin",
+        "Joon H Choi",
+        "Chun Wang",
+        "Anh Cao",
+        "Daniel Fisch",
+        "Weiyi Ma",
+        "Katherine E Lindblad",
+        "Marta Valenti"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 31.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1038/s41586-026-11324-7",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43015469",
+      "title": "Mitochondrial protein import defects enhance tumour immunogenicity.",
+      "journal": "Nature",
+      "pub_date": "2026-11-11",
+      "abstract": "Tumour cells evade detection and elimination by the immune system through a suite of adaptations1, including the repression of antigen presentation, which is required for the recognition of tumour cells by CD8+ T cells. Mitochondria have emerged as targets for enhancing antitumour immunity; however, the extensive mitochondrial proteome has remained largely unstudied for its ability to modulate immune responses. Here we show that defects in the mitochondrial protein import machinery promote tumour immunogenicity and synergize with immune checkpoint blockade treatment in melanoma models. Mitochondrial protein import perturbation, specifically through depletion of the TIM23 import complex subunit TIMM50, enhances tumour immunogenicity through a pathway involving mitochondrial DNA escape, cGAS-STING pathway activation and interferon-β (IFNβ) secretion. Secreted IFNβ signals through the type I IFN receptor to activate the JAK-STAT pathway, resulting in increased antigen presentation on MHC class I complexes. Mitochondrial DNA escape in Timm50-depleted cells is linked to the formation of mitochondrial-derived vesicles. Depletion of SNX9 and RAB9, involved in mitochondrial-derived vesicle formation2, suppresses mitochondrial DNA-dependent type I IFN production and signalling. By disrupting mitochondrial proteostasis and membrane architecture, defective protein import in Timm50-depleted cells drives the immune phenotype. This study shows that mitochondrial protein import inhibition causes tumour immunogenicity, including sensitization to immune checkpoint blockade, by promoting mitochondrial DNA escape and IFNβ-driven MHC class I antigen presentation.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1038/s41586-026-11249-1",
+      "pmcid": null,
+      "authors": [
+        "Thomas D Jackson",
+        "Jonathan M Palozzi",
+        "Christopher D McGann",
+        "Tevis Vitale",
+        "Ruth Choa",
+        "Hieu H M Nguyen",
+        "Joao A Paulo",
+        "Pedro Latorre-Muro"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 27.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1038/s41586-026-11249-1",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43014307",
+      "title": "The blood-brain barrier imports diverse neuroprotective proteins through pathways impaired early in Alzheimer's disease models.",
+      "journal": "Cell",
+      "pub_date": "2026-11-11",
+      "abstract": "The blood-brain barrier (BBB) has been defined primarily by what it excludes, yet the scale and function of physiological blood-to-brain protein transport remain largely unknown. Using bioorthogonal proteomics, we find that the healthy BBB samples 191 plasma proteins and permits 92 into the brain parenchyma. Enriched for carrier and metabolic functions, these proteins home to distinct brain cell types, such as apolipoprotein A1 (APOA1) to astrocytes and alpha-1 antitrypsin (SERPINA1) to microglia. This cell-type tropism relies on a BBB-parenchyma receptor hand-off: APOA1 crosses the BBB via SR-B1 and engages astrocytic ATP-binding cassette transporter A1 (ABCA1), a key Alzheimer's risk gene, driving cholesterol efflux that supports synapse integrity. Unlike LPS-induced nonspecific leakage, early-stage 5xFAD mice show selective BBB transport remodeling, with reduced APOA1 and increased SERPINA1 uptake. Hepatic APOA1 overexpression restores APOA1 in the 5xFAD brain, rescuing astrocytic, synaptic, and behavioral deficits. These findings recast the BBB as a selective interface that recruits neuroprotective circulatory proteins for brain health.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cell.2026.10.039",
+      "pmcid": null,
+      "authors": [
+        "Haoyue Zhou",
+        "Jason C Maynard",
+        "Alexander J Pennacchio",
+        "Amanda Apolonio",
+        "Xi Liu",
+        "Lei Yao",
+        "Mina Negahban",
+        "Zimo Zhang"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "Alzheimer’s disease",
+        "astrocytes",
+        "bioorthogonal chemistry",
+        "blood-brain barrier",
+        "brain-body crosstalk",
+        "cholesterol efflux",
+        "plasma proteins",
+        "proteomics",
+        "receptor-mediated transcytosis"
+      ],
+      "weekly_match": true,
+      "score": 26.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.039",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42956746",
+      "title": "Growth factor VEGF-B sustains intestinal Tfh cell stemness to restrict Taurinivorans outgrowth and microbiota-driven obesity.",
+      "journal": "Immunity",
+      "pub_date": "2026-11-10",
+      "abstract": "Autocrine signaling through vascular endothelial growth factor receptor-1 (VEGFR-1) reprograms T cell metabolism upon TCR stimulation. We found that mice bearing conditional deletion of Flt1 (encoding VEGFR-1) in T cells developed spontaneous obesity with advancing age. Analyses of lymphoid and metabolic tissues identified a VEGFR-1+ T follicular helper (Tfh) population in Peyer's patches and mesenteric lymph nodes. Flt1 deletion impaired Tfh fitness and reduced secretory IgA in the gut, resulting in unrestricted expansion of the pathobiont Taurinivorans. Taurinivorans overgrowth depleted host taurine, which drove obesity via suppressed adipocyte lipolysis and thermogenesis. Mechanistically, a VEGFR-1-AKT signaling axis promoted Tfh cell stemness by limiting p53-mediated senescence. This Tfh-microbiota-obesity pathway was also observed in diet-induced obese mice and in humans. Oral administration of IgA reduced Taurinivorans and alleviated adiposity, highlighting the therapeutic potential of this axis. Tfh cell senescence impairs IgA production, disrupting gut microbial homeostasis, with consequences to host metabolic disease.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.10.004",
+      "pmcid": null,
+      "authors": [
+        "Jin-An Zhou",
+        "Jun Tu",
+        "Jiang Yue",
+        "Qi-Er Zhang",
+        "Yalan Chen",
+        "Qiuju Fan",
+        "Jing Ma",
+        "Yong Zuo"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "IgA",
+        "T follicular helper cells",
+        "Taurinivorans",
+        "Tfh cells",
+        "VEGF-B",
+        "VEGFR-1",
+        "obesity",
+        "senescence",
+        "stemness"
+      ],
+      "weekly_match": true,
+      "score": 25.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.004",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "42950825",
+      "title": "PD-L1 expression in germinal centers promotes humoral immunity by restricting T follicular regulatory cell differentiation.",
+      "journal": "Immunity",
+      "pub_date": "2026-11-10",
+      "abstract": "Germinal center (GC) responses generate humoral immunity through coordinated interactions between B cells and T follicular helper (TFH) and T follicular regulatory (TFR) cells. Despite high expression of PD-1 by TFH and TFR cells, the function of its ligand PD-L1 in the GC is unclear. Here, we show an immunogenic role for PD-L1 via tuning T-B collaboration to promote humoral immunity. Integrated analyses of secondary lymphoid organs (SLOs) revealed that B cell zone reticular cells (BRCs), including follicular dendritic cells (FDCs), expressed PD-L1. BRC expression of PD-L1 facilitated GC formation and enabled loss of B cell tolerance in autoantibody disease. Mechanistically, BRC-specific deletion of PD-L1 enhanced TFH cell production of Sostdc1 and TFR cell differentiation, destabilizing T-B contacts in the GC. Patient-derived tumor biopsies indicated that a tumor-infiltrating TFH SOSTDC1 signature inversely correlated with immunotherapy responsiveness. These findings reveal a non-canonical immunogenic role for PD-L1 in the GC and suggest that augmenting B cell responses could improve the efficacy of PD-L1 blockade.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.10.001",
+      "pmcid": null,
+      "authors": [
+        "Elliot H Akama-Garren",
+        "Yingying Zhang",
+        "Balthasar A Heesters",
+        "Padraic G Fallon",
+        "Michael C Carroll"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "B cell zone reticular cells",
+        "PD-1",
+        "PD-L1",
+        "Sostdc1",
+        "T follicular helper cell",
+        "T follicular regulatory cell",
+        "autoimmunity",
+        "follicular dendritic cell",
+        "germinal center",
+        "secondary lymphoid organ",
+        "tonsil"
+      ],
+      "weekly_match": true,
+      "score": 23.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.001",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43003967",
+      "title": "Mechanosensitive YAP-RUNX1 signaling drives TH1 cell dysfunction and tumor immunosuppression.",
+      "journal": "Nature immunology",
+      "pub_date": "2026-11-09",
+      "abstract": "Tissue stiffening is a predominant malignant physical alteration in cancer progression, yet its effect on specific immune subsets within the tumor microenvironment is not well defined. Here we show that elevated tissue stiffness subverts tumor-infiltrating type 1 helper T (TH1) cells to drive immunosuppression in pancreatic cancer. Mechanistically, stiffness triggers integrin-mediated mechanotransduction to activate YAP, which translocates to the nucleus and cooperates with RUNX1 to transcriptionally upregulate a set of dysfunction-associated genes. These reprogrammed TH1 cells acquire a distinct dysfunction-associated secretory phenotype, which in turn drives M2-like polarization of macrophages and amplifies local immunosuppression. Notably, inhibiting YAP expression or disrupting YAP-RUNX1 interaction reverses the dysfunctional state of TH1 cells and restores antitumor immunity. These findings delineate a mechano-immunological mechanism by which tumor stiffness subverts TH1 cell functions, indicating a possible therapeutic avenue to alleviate immunosuppression and potentiate immunotherapy efficacy in stiff tumors.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1038/s41590-026-02708-y",
+      "pmcid": null,
+      "authors": [
+        "Zilan Xu",
+        "Shuang Deng",
+        "Hongzhe Zhao",
+        "Daoyuan Wang",
+        "Qingchang Jin",
+        "Chunling Xue",
+        "Shuang Liu",
+        "Shaoqiu Liu"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 23.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1038/s41590-026-02708-y",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43020081",
+      "title": "Granzyme K is a driver of age-related tissue remodeling and functional decline independently of age-associated immune dysfunction.",
+      "journal": "Immunity",
+      "pub_date": "2026-11-12",
+      "abstract": "Aging is characterized by progressive tissue and organ decline, with chronic low-grade inflammation (inflammaging) implicated as a central driver. Granzyme K (GzmK), a serine protease that is markedly upregulated in aged memory CD8+ T cells, is proposed to be a central mediator of both immune and organismal aging. Using young and aged GzmK-/- mice, we showed that GzmK was dispensable for the major hallmarks of immune aging, including T cell dysfunction, but was a critical driver of age-related tissue decline. Despite persistent immune aging phenotypes, GzmK deficiency markedly attenuated organ aging, effectively uncoupling immune and tissue aging. In the kidney, this was associated with reduced complement deposition, whereas in the liver, improved function and reduced fibrosis occurred independently of complement, coinciding instead with increased decorin and reduced pro-fibrotic TGF-β signaling. These findings identify GzmK as a tissue-specific driver of organismal aging but not immune aging or systemic inflammaging.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.10.013",
+      "pmcid": null,
+      "authors": [
+        "Dulakara Kannangara",
+        "Jessica Runting",
+        "April L Raftery",
+        "Ekaterina Salimova",
+        "Xavier Y X Sng",
+        "Ali Zaid",
+        "Samantha J Emery-Corbin",
+        "David Chisanga"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "CD8 T cells",
+        "TGF-β",
+        "complement",
+        "granzyme K",
+        "immune aging",
+        "inflammaging",
+        "organismal aging"
+      ],
+      "weekly_match": true,
+      "score": 22.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.013",
+      "supplement_reason": null
+    }
+  ],
+  "weekly_papers": {
+    "Nature": [
+      {
+        "pmid": "43015474",
+        "title": "NRF2 is a mechanosensitive checkpoint for NLRP3 inflammasome activation.",
+        "journal": "Nature",
+        "pub_date": "2026-11-11",
+        "abstract": "Disconnects between in vitro and in vivo results in experimental biology have long been recognized as potential hurdles to understanding health and disease. A prototypical example of such a disconnect is the NLRP3 inflammasome, which mediates inflammation in diverse settings of disease and protective immunity1,2. Activation of the NLRP3 inflammasome in vitro requires two signals: (1) priming by pathogen-associated molecular patterns such as bacterial lipopolysaccharides and (2) activation by molecules that disrupt cellular homeostasis1,3. By contrast, the NLRP3 inflammasome in vivo is activated by lipopolysaccharide alone. The mechanisms that underlie the difference between in vitro and in vivo activation of the NLRP3 inflammasome are undefined. Here we report that extracellular matrix (ECM) stiffness is a determinant of NLRP3 activities and that in vitro systems using physiological ECM stiffness enable one-signal in vivo-like NLRP3 activities to occur in human and mouse phagocytes. Physiological ECM stiffness induced expression of the transcription factor NRF2, which was found to be necessary for one-signal NLRP3 activation. Mechanistically, we identify Panx1 as an NRF2-regulated gene that promotes NLRP3 activity. Macrophages derived from the stiff matrix of the bone-osteoclasts-had reduced NRF2 levels and impaired NLRP3 activity. Moreover, alveolar macrophages from patients with pulmonary fibrosis displayed reduced NRF2 activity. Finally, NRF2 was required for antitumour immunity induced by cancer vaccines consisting of NLRP3 agonistic adjuvants. These findings indicate that NRF2 may be a transcriptional checkpoint that controls NLRP3 inflammasome activity.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11324-7",
+        "pmcid": null,
+        "authors": [
+          "Daniel Okin",
+          "Joon H Choi",
+          "Chun Wang",
+          "Anh Cao",
+          "Daniel Fisch",
+          "Weiyi Ma",
+          "Katherine E Lindblad",
+          "Marta Valenti"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 31.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11324-7",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43015472",
+        "title": "Epigenetic heterogeneity in breast tumours informs diagnosis and prognosis.",
+        "journal": "Nature",
+        "pub_date": "2026-11-11",
+        "abstract": "Breast cancer, the most diagnosed cancer among women, is stratified by gene expression patterns into luminal and basal-like subtypes, and the latter is associated with worse prognosis1-3. Recent advances in single-cell technologies have underscored the presence of intratumour heterogeneity, which poses substantial challenges in cancer treatment and achieving long-term disease-free survival4-7. Here we extensively profile epigenetic heterogeneity in a cohort of treatment-naive human luminal tumours, which were obtained directly after surgical resection. By applying a single-cell epigenetic approach based on cytometry by time-of-flight, we identify a recurrent subpopulation of basal-like cells in luminal tumours with a conserved epigenetic signature across patients. These basal-like cells, also identified by deconvolution of whole-genome DNA methylation patterns, are characterized by high expression of aggressive oncogenic traits and downregulation of hormone receptor signalling. Direct comparison of single-cell proteomic and genomic profiling of monomethylation and trimethylation of histone 3 on lysine 4 revealed that these marks are key features associated with loss of luminal identity. Finally, we highlight the potential of concomitant single-molecule profiling of histone modifications on cell-free nucleosomes in blood as an epigenetic liquid biopsy approach for early diagnosis of breast cancer. Moreover, the epigenetic basal signature measured in blood is linked to prognosis, which enables the identification of patients at increased risk for disease relapse.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11230-y",
+        "pmcid": null,
+        "authors": [
+          "Noa Furth",
+          "Christina Riemenschneider",
+          "Yishai Arieli",
+          "Matan Avni",
+          "Michael-Yakov Povolotski",
+          "Hadas Yung",
+          "Shiri Karagach",
+          "Ofir Atrakchi"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 20.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11230-y",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43015469",
+        "title": "Mitochondrial protein import defects enhance tumour immunogenicity.",
+        "journal": "Nature",
+        "pub_date": "2026-11-11",
+        "abstract": "Tumour cells evade detection and elimination by the immune system through a suite of adaptations1, including the repression of antigen presentation, which is required for the recognition of tumour cells by CD8+ T cells. Mitochondria have emerged as targets for enhancing antitumour immunity; however, the extensive mitochondrial proteome has remained largely unstudied for its ability to modulate immune responses. Here we show that defects in the mitochondrial protein import machinery promote tumour immunogenicity and synergize with immune checkpoint blockade treatment in melanoma models. Mitochondrial protein import perturbation, specifically through depletion of the TIM23 import complex subunit TIMM50, enhances tumour immunogenicity through a pathway involving mitochondrial DNA escape, cGAS-STING pathway activation and interferon-β (IFNβ) secretion. Secreted IFNβ signals through the type I IFN receptor to activate the JAK-STAT pathway, resulting in increased antigen presentation on MHC class I complexes. Mitochondrial DNA escape in Timm50-depleted cells is linked to the formation of mitochondrial-derived vesicles. Depletion of SNX9 and RAB9, involved in mitochondrial-derived vesicle formation2, suppresses mitochondrial DNA-dependent type I IFN production and signalling. By disrupting mitochondrial proteostasis and membrane architecture, defective protein import in Timm50-depleted cells drives the immune phenotype. This study shows that mitochondrial protein import inhibition causes tumour immunogenicity, including sensitization to immune checkpoint blockade, by promoting mitochondrial DNA escape and IFNβ-driven MHC class I antigen presentation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11249-1",
+        "pmcid": null,
+        "authors": [
+          "Thomas D Jackson",
+          "Jonathan M Palozzi",
+          "Christopher D McGann",
+          "Tevis Vitale",
+          "Ruth Choa",
+          "Hieu H M Nguyen",
+          "Joao A Paulo",
+          "Pedro Latorre-Muro"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 27.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11249-1",
+        "supplement_reason": null
+      }
+    ],
+    "Science": [
+      {
+        "pmid": "43019438",
+        "title": "Differentiation of stem-like CD4+ T cells modulates early effector responses in colorectal cancer.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-12",
+        "abstract": "Strategies to improve cancer immunotherapy have largely focused on the intratumor immunosuppressive microenvironment, whereas approaches to amplify peripheral T cells and promote tumor recruitment have not been thoroughly explored. Using imaging mass cytometry in patients with colorectal cancer (CRC), we observed T helper 1 (TH1)-like immune architectures in mismatch repair-deficient tumors associated with response to anti-programmed cell death protein 1 (PD-1) immunotherapy. By contrast, mismatch repair-proficient (pMMR) tumors showed regulatory T-dominant spatial interactions. Clonal analyses revealed that stem-like CD4+ T cells differentiated into TH1-like cells after PD-1 blockade. In pMMR CRC mouse models, combined OX40 agonist and PD-1 blockade suppressed tumor progression by expanding Il7r+ early effector CD4+ intermediates in tumor-draining lymph nodes, promoting migration and connection with TH1-like cells. This was accompanied by interferon-γ-dependent induction of immunostimulatory monocyte-macrophages and CD8+ effector T cells. These findings suggest that leveraging peripheral CD4+ T cell amplification may improve immunotherapy responses.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.ady7788",
+        "pmcid": null,
+        "authors": [
+          "Yu Zhang",
+          "Hu Nie",
+          "Zixuan Dai",
+          "Liying Zhao",
+          "Yihong Wan",
+          "Yi Wang",
+          "Yikang Chen",
+          "Xinhua Chen"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 35.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.ady7788",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43019437",
+        "title": "The genetic landscape of canine tumors: Insights from the Canine Cancer Genome Atlas (CCGA).",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-12",
+        "abstract": "The Canine Cancer Genome Atlas (CCGA, https://caninecancergenomeatlas.org/) is an open, accessible comparative oncology resource that harmonizes whole-exome data across 10 canine tumor histotypes. It aggregates 667 tumor-normal pairs with curated single-nucleotide variants, insertions and deletions, structural variants, and copy number aberrations. Cohort-depth stratification distinguished primary, exploratory, and descriptive analyses. Selection analyses identified 39 cancer drivers, including recurrent TP53, PIK3CA, PTEN, SETD2, MAP3K14, and FAT4 alterations; copy number events included MYC amplifications and PTEN deletions. Direct comparison with matched human cancers revealed conserved and species-enriched oncogenic mechanisms, pathways, and therapeutic contexts. The CCGA standardizes alignment, variant calling, and annotation through consensus pipelines and provides downloadable data and interactive analyses. This reusable framework advances precision veterinary oncology and strengthens translational bridges to human cancer, supporting comparative and translational research.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aeg8777",
+        "pmcid": null,
+        "authors": [
+          "Eugenio Mazzone",
+          "Laura Marconato",
+          "Antonella Fanelli",
+          "Luciano Cascione",
+          "Francesco Bertoni",
+          "Caterina Marchiò",
+          "Anna Sapino",
+          "Luca Aresu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aeg8777",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43019424",
+        "title": "Nature's cellular nuke.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-12",
+        "abstract": "Discovery of an unknown immune cell type and its cytotoxic killing mode.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aen0894",
+        "pmcid": null,
+        "authors": [
+          "Chew Chai"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aen0894",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43019419",
+        "title": "A trapped catalytic product acts as molecular glue for innate immune signalosome assembly.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-12",
+        "abstract": "Innate immune systems of living organisms are essential for host defense. Central to these systems is the Toll/interleukin-1 receptor (TIR) domain, an evolutionarily conserved module. From antiphage systems in prokaryotes to innate immune systems in plants, TIR domains have catalytic activity. However, TIR domains within animal innate immune receptors, such as Toll-like receptors (TLRs), have been considered as scaffolds for adaptor recruitment. We report that the TLR4 TIR domain possesses an allosterically activated nicotinamide adenine dinucleotide (NAD+) hydrolase (NADase) activity that operates in a single-turnover manner. Its product, adenosine diphosphate ribose, is not released but entrapped as a \"molecular glue,\" stabilizing a composite catalytic pocket with adaptor TIR domain-containing adaptor protein (TIRAP) to nucleate signalosome assembly. This \"produce-and-trap\" mechanism represents a signaling mode that integrates enzymatic activity with adaptor function to drive downstream signaling.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aef3150",
+        "pmcid": null,
+        "authors": [
+          "Qi Liu",
+          "Zhongjian Bai",
+          "Tianyi Liu",
+          "Fangshuai Jia",
+          "Yi Ji",
+          "Canxi Chen",
+          "Yao Gong",
+          "Liuyuan Duan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aef3150",
+        "supplement_reason": null
+      }
+    ],
+    "Cell": [
+      {
+        "pmid": "43020034",
+        "title": "Harmonized brain ontology and 3D atlases for human, macaque, and marmoset basal ganglia.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "A major goal of the BRAIN Initiative Cell Atlas Network (BICAN) is to create a suite of foundational reference cell atlases and associated standards for human and nonhuman primate brains. Central to this goal is the creation of cross-species-harmonized cellular taxonomies and structural parcellations with formal ontologies that can be mapped onto 3D reference frameworks, bridging neuroimaging and cellular and histological resolutions. We describe an iterative approach, focused initially on the basal ganglia, to co-create structural and cellular ontologies for human, macaque, and marmoset brains and to map and refine structural parcellations into neuroimaging-based common coordinate frameworks. We create a Harmonized Ontology of Mammalian Brain Anatomy (HOMBA) to meet these needs. These references provide the framework for documenting and mapping all experimental sampling in BICAN, allowing analyses of cellular and molecular variation as a function of topographic position and enabling comparisons of cellular, molecular, and neuroimaging-based functional variation across species.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.033",
+        "pmcid": null,
+        "authors": [
+          "Song-Lin Ding",
+          "Ashwin A Bhandiwad",
+          "Burke Q Rosen",
+          "Stephanie C Seeman",
+          "Brian Long",
+          "Nelson J Johansen",
+          "Ugur Bayindir",
+          "Benjamin Facer"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "3D digital atlas",
+          "basal ganglia",
+          "brain ontology",
+          "cell atlas",
+          "cell ontology",
+          "common coordinate frameworks",
+          "human",
+          "macaque",
+          "marmoset",
+          "subcortex",
+          "transcriptomics"
+        ],
+        "weekly_match": true,
+        "score": 10.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.033",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020033",
+        "title": "An integrative single-cell epigenomic atlas annotates the regulatory genome of the adult mouse brain.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "Histone modifications underpin the cell-type-specific gene regulatory programs that drive the remarkable cellular diversity of the mammalian brain. Here, we jointly profiled four histone modifications and the transcriptome in 2.5 million nuclei from the adult mouse brain. By integrating these data with chromatin accessibility, DNA methylation, and three-dimensional genome organization, we constructed a unified epigenomic atlas spanning over 100 brain cell subclasses and assigned active, primed, and repressive chromatin states across 81% of the genome. Active chromatin states marked by combinatorial histone modifications better nominate candidate enhancers with functional support than chromatin accessibility alone, while H3K27me3- and H3K9me3-marked chromatin states delineate distinct modes of cell-type-specific gene repression. Finally, this multimodal resource enables the development of deep learning models that predict cell-type-specific epigenomic features and gene expression from DNA sequence, providing a comprehensive framework for annotating the brain regulatory genome and interpreting non-coding disease risk variants.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.022",
+        "pmcid": null,
+        "authors": [
+          "Zhaoning Wang",
+          "Songpeng Zu",
+          "Ethan J Armand",
+          "Timothy H Loe",
+          "Jonathan A Rink",
+          "Wanying Wu",
+          "Yang Xie",
+          "Lei Chang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Paired-Tag",
+          "brain enhancers",
+          "chromatin state",
+          "cis-regulatory elements",
+          "histone modification",
+          "neuronal gene regulation",
+          "repressive elements",
+          "sequence-to-function modeling",
+          "single-cell epigenomics",
+          "transposable elements"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.022",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020032",
+        "title": "Single-cell, multi-region profiling of the macaque brain across the lifespan.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "Brain aging is a complex process with profound health and societal consequences. However, the molecular and cellular pathways that govern its progression, and inter- and intra-individual variation, remain poorly defined. We present a transcriptomic atlas of 5.3 million cells from 582 samples spanning 11 brain regions of 55 rhesus macaques (aged 0.5-21 years). We identify age-depleted and vulnerable neuronal populations and subtle, age-associated compositional differences in glia-detectable only at single-cell resolution. We chart convergent and divergent age-associated molecular signatures across regions and cell types, which include sex-specific signatures that could underlie biases in neurological disorders. These signatures overlap those of Alzheimer's disease (AD), which suggests that aging and AD share molecular roots that emerge at different ages and in region- and sex-specific windows of vulnerability. This work provides a temporal, regional, and sex-stratified atlas of the aging primate brain, offering insights into cell-type-specific vulnerabilities and regional heterogeneity with translational human relevance.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.014",
+        "pmcid": "PMC13764095",
+        "authors": [
+          "Wei Yang",
+          "Kelsi L Watkins",
+          "Alex R DeCasien",
+          "Mary B O'Neill",
+          "Martin O Bohlen",
+          "Diana R O'Day",
+          "Elliot A Smith",
+          "Madeleine Duran"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "aging",
+          "molecular aging",
+          "neurodegeneration",
+          "neuroscience",
+          "primate",
+          "sex differences",
+          "single-nucleus RNA sequencing"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.014",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020031",
+        "title": "A single-cell and spatial 3D multi-omic atlas of developing human basal ganglia.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "Human basal ganglia (BG) neurons and inhibitory interneurons originate in the ganglionic eminences (GEs), transient structures in the ventral prenatal brain. This study delineates the specification and maturation of GEs and GE-derived neurons using single-nucleus methyl-3C sequencing (snm3C-seq), spatial transcriptomics, and single-molecule chromatin + RNA imaging, and we found heterogeneous temporal progression across GE subregions. Spiny projection neurons (SPNs), the principal cells of the BG, acquire distinct subtypes through synchronized 3D-epigenomic remodeling, in contrast to the asynchronous maturation of other neuron types. Oligodendrocyte differentiation involves a transient short-range chromatin state during infancy, showing that the short-range and long-range chromatin conformations previously linked to terminal glial and neuronal fates can also be transient. The temporal cortex matured epigenomically faster than other cortical regions during this period. Lastly, SPNs were enriched in genetic risk for neuropsychiatric disease. Our study extends findings on unique 3D-epigenomic dynamics during human brain development.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.008",
+        "pmcid": "PMC13764103",
+        "authors": [
+          "Matthew G Heffel",
+          "Heng Xu",
+          "Oier Pastor-Alonso",
+          "Xinzhe Li",
+          "Mohammad S Baig",
+          "Rayyan Irfan Ghoor",
+          "Runjia Li",
+          "Colin Kern"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "brain development",
+          "chromatin",
+          "conformation",
+          "epigenomic",
+          "ganglionic eminence",
+          "inhibitory neurons",
+          "methylation",
+          "multi-omic",
+          "single-cell",
+          "spatial transcriptomic",
+          "striatum"
+        ],
+        "weekly_match": true,
+        "score": 12.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.008",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020030",
+        "title": "Disruption of cell-type-specific molecular programs of striatal spiny projection neurons in autism.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "Rare genetic variants contribute substantially to autism spectrum disorder (ASD), yet the regulatory logic of vulnerable subcortical cells is poorly understood. In a 16p11.2 deletion mouse model, lineage tracing across five brain regions revealed prominent striatal changes. In the human putamen from ASD and neurotypical donors, single-nucleus multi-omics showed transcriptional alterations concentrated in D1 striosome spiny projection neurons (SPNs), affecting synaptic and energy metabolism genes, with altered synapse-supporting programs in astrocytes. Gene regulatory network analysis integrating chromatin accessibility and expression identified EGR1 and EGR3 as key regulators of these programs, with reduced activity in D1 striosome SPNs. Deleting EGR1 or EGR3 in human striatal organoids produced partially overlapping transcriptional changes. These findings establish the striatum as a site of molecular convergence in ASD and provide a multi-omic resource for dissecting subcortical mechanisms.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.027",
+        "pmcid": null,
+        "authors": [
+          "Guohua Yuan",
+          "Varun Suresh",
+          "Emilie M Wigdor",
+          "Yuhan Hao",
+          "Fiona Y Sun",
+          "Clements Evans",
+          "Rachel Leonard",
+          "Yasmin Fukushima"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "D1 striosome spiny projection neurons",
+          "EGR1 and EGR3",
+          "autism spectrum disorder",
+          "lineage tracing",
+          "putamen",
+          "single-nucleus multi-omics",
+          "striatum"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.027",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020029",
+        "title": "Circuit-aligned specialization of human basal ganglia astrocytes.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "Astrocytes shape synapses and circuits, yet their diversity within the human basal ganglia remains poorly defined. Integrating single-nucleus transcriptomic and epigenomic profiling with spatial transcriptomics, we identify three anatomically organized astrocyte subgroups-striatal gray matter (GM), extra-striatal GM, and white matter (WM)-distinguished by neurotransmitter transporter expression and synapse-associated programs that reflect afferent input. These molecular distinctions generalize brain-wide, separating telencephalic from non-telencephalic astrocytes, with LHX2 marking telencephalic astrocyte identity across species. Within the striatum (STR), dorsal and ventral populations align with distinct microcircuits; a ventral population maps to the nucleus accumbens mediodorsal shell alongside specialized neuronal subtypes, a pattern conserved in nonhuman primates. A deep learning sequence model identifies subgroup-specific enhancer codes and recovers established transcription factor motif logic from published enhancer-AAV datasets, providing a foundation for targeted viral vector design. These findings define intersecting axes of human astrocyte specialization and offer a framework for cell-type-specific dissection of basal ganglia circuits.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.041",
+        "pmcid": null,
+        "authors": [
+          "Yuanyuan Fu",
+          "Niklas Kempynck",
+          "Wubin Ding",
+          "Meghan A Turner",
+          "Aaron D Garcia",
+          "Matthew T Schmitz",
+          "Jennie Close",
+          "Inkar Kapen"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "DNA methylation",
+          "astrocyte-synapse interactions",
+          "basal ganglia",
+          "chromatin accessibility",
+          "enhancer-AAV",
+          "glial heterogeneity",
+          "single-nucleus multiomics",
+          "striatum"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.041",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020028",
+        "title": "Morphoelectric diversity and specialization of primate striatal neuron types.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "The basal ganglia are evolutionarily ancient subcortical nuclei that form interconnected loops with the neocortex and limbic system to regulate movement, learning, habit formation, emotion, and motivation. Their dysfunction contributes to major neurological and psychiatric disorders, yet most cellular-level insights derive from rodent studies, leaving knowledge gaps in humans and translationally relevant primate species. To address this, we generated multimodal Patch-seq data linking transcriptomic identity with morphological and electrophysiological properties in the macaque striatum-the input nucleus of the basal ganglia. We found underappreciated diversity among spiny projection neurons (SPNs), including non-canonical types, and variation aligned with functional gradients. Interneurons also exhibited spatial variation and even greater morphoelectric diversity, highlighting their functional modularity. Despite broad evolutionary conservation, we identified primate-specific features and key differences from rodent striatal neurons. By integrating molecular classification with cellular properties that shape network function, our findings provide insights into the functional organization of the primate striatum.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.028",
+        "pmcid": null,
+        "authors": [
+          "Xiao-Ping Liu",
+          "Rachel Dalley",
+          "Nelson Johansen",
+          "Agata Budzillo",
+          "Julian Thijssen",
+          "Jeremy A Miller",
+          "Sarah Walling-Bell",
+          "Scott Sawchuk"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Patch-seq",
+          "basal ganglia",
+          "intrinsic properties",
+          "macaque",
+          "neuronal morphology",
+          "single-cell RNA sequencing",
+          "spiny projection neurons",
+          "striatum"
+        ],
+        "weekly_match": true,
+        "score": 10.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.028",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020027",
+        "title": "Spatial and regulatory organization of cell identity across the primate subcortex.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "Mammalian brain cell identity is shaped by intrinsic factors and external context. We present a spatially resolved transcriptomic and gene regulatory atlas of cell types across all subcortical regions in a primate, the common marmoset. Dense sampling and cross-species integration revealed spatially precise neuronal assemblies, including ones in complex midbrain and diencephalic structures. Chromatin accessibility and transcriptional identity are spatially tuned within and across subcortical structures; spatial gradients within hippocampal subfields are orchestrated by graded transcription factors acting through graded enhancers. The primate-expanded thalamic γ-aminobutyric acid (GABAergic) population shares transcriptional and regulatory syntax with conserved midbrain populations, reflecting an evolutionary adaptation compared with rodents. Similar regional expression across cell types can arise by distinct regulatory architectures, as observed in telencephalic astrocytes and neurons. Conversely, distant cell types can share regulatory programs despite divergent identities: striatal GABAergic spiny projection neurons and telencephalic glutamatergic neurons share a postsynaptic regulatory program despite divergent lineages, regions, and neurotransmitter identities.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.007",
+        "pmcid": null,
+        "authors": [
+          "Shu Dan",
+          "Meghan A Turner",
+          "Michael DeBerardine",
+          "Lakme Caceres",
+          "Victor E Nieto-Caballero",
+          "Jessica Schembri",
+          "Kirsten Levandowski",
+          "Christopher Cardenas"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "ATAC",
+          "RNA",
+          "brain",
+          "cell type",
+          "gene regulatory network",
+          "primate",
+          "single-cell genomics",
+          "spatial transcriptomics",
+          "subcortex"
+        ],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.007",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020026",
+        "title": "Single-cell multimodal atlas reveals regulatory programs in the human brain.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "Direct measurement of chromatin states together with transcription is essential for understanding how cell-type-specific regulatory programs are established and maintained in the adult human brain. Here, we present a large-scale single-cell multimodal atlas by jointly profiling the transcriptome with active (H3K27ac) or repressive (H3K27me3) histone modifications across 18 adult brain regions. We targeted over 750,000 nuclei spanning 160 cell types and integrated these data with chromatin accessibility, DNA methylation, 3D genome architecture, and spatial transcriptomes. This framework resolved chromatin states for over 500,000 candidate regulatory elements, identified enhancer-gene links and regulatory programs, revealed Polycomb-associated ultra-long-range contacts, and uncovered brainwide epigenomic heterogeneity. We further developed a sequence-to-function model to predict cell-type-specific effects of candidate neurological disease variants. Finally, comparative analyses across species reveal conservation in active regulatory programs but divergence in repressive programs. Together, this study provides a comprehensive epigenomic reference for interpreting regulatory principles and epigenetic memory underlying human brain organization and disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.08.012",
+        "pmcid": null,
+        "authors": [
+          "Yang Xie",
+          "Lei Chang",
+          "Guojie Zhong",
+          "Jonathan A Rink",
+          "Cindy Tatiana Báez-Becerra",
+          "Ethan Armand",
+          "Wubin Ding",
+          "Kai Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Polycomb repression",
+          "chromatin state",
+          "gene regulatory networks",
+          "genome organization",
+          "histone modification",
+          "human brain",
+          "neurological genetics",
+          "regulatory evolution",
+          "single-cell multiomics",
+          "spatial transcriptomics"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.08.012",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020025",
+        "title": "Multiscale spatial atlas of human basal ganglia cell types and communities.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "The human basal ganglia comprise functionally varied nuclei, but their cell-type composition and spatial organization have not been comprehensively resolved. We generated a multi-region, subcellular-resolution spatial transcriptomic atlas by integrating multiplexed error-robust fluorescence in situ hybridization (MERFISH)+ and spatiotemporal enhanced-resolution omics sequencing (Stereo-seq) across four neurotypical donors. The datasets profiled ∼7.9 million cells across the caudate, putamen, nucleus accumbens, and globus pallidus, resolving 60 transcriptionally distinct cell types. We identify region-selective molecular and spatial diversification of spiny projection neurons and non-neuronal populations. Subcellular RNA localization captures somatic size and projection-inferred signatures, reflecting direct- and indirect-pathway topology. Cellular community analyses reveal astrocyte and oligodendrocyte subclusters enriched at striosome-matrix borders, while primate-expanded interneurons are confined to matrix territories. Cross-species comparisons reveal conserved and species-specialized organization, including orthologous striosome-matrix architecture and conserved dorsolateral-to-ventromedial transcriptional gradients. Together, this multi-centimeter-scale human basal ganglia atlas links cell types, spatial architecture, and subcellular transcript topography across scales.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.027",
+        "pmcid": null,
+        "authors": [
+          "Bereket Tesfay Berackey",
+          "Zhiqun Tan",
+          "Ginny Wu",
+          "Sujan C Das",
+          "Ren Li",
+          "Benjamin Esser",
+          "Qiao Ye",
+          "Mahsa Nafisi"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "MERFISH+",
+          "Stereo-seq",
+          "cellular communities",
+          "cross-species comparison",
+          "single-cell atlas",
+          "striosome-matrix organization",
+          "transcript topography"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.027",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020024",
+        "title": "Single-cell analysis of chromatin state and transcriptome in the human basal ganglia.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "The basal ganglia are central to motor control, learning, emotion, and reward processing, and their dysfunction contributes to many neurological and psychiatric disorders. Here, we generated a single-cell multi-omic atlas of histone modifications and transcriptomes across eight basal ganglia regions from neurotypical human donors. This atlas resolved cell-type- and region-specific landscapes of active and repressive candidate cis-regulatory elements and delineated gene regulatory networks underlying cell identity. We found that the combinatorial expression of homeobox transcription factors provides distinctive molecular descriptors of neuronal cell identities in the basal ganglia. Integration with matched MERFISH spatial transcriptomics further uncovered regional heterogeneity in epigenomic and transcriptional programs. Finally, we used this atlas to interpret noncoding risk variants associated with neuropsychiatric disorders and to construct a deep-learning model that predicts gene regulatory activities and variant effects. Together, this work provides a multimodal regulatory framework for understanding human basal ganglia organization, evolution, and disease genetics.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.008",
+        "pmcid": null,
+        "authors": [
+          "Lei Chang",
+          "Kai Li",
+          "Yang Xie",
+          "Guojie Zhong",
+          "Jonathan A Rink",
+          "Cindy Tatiana Báez-Becerra",
+          "Audrey Lie",
+          "Hannah S Indralingam"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "EpiBRAIN",
+          "H3K27ac",
+          "H3K27me3",
+          "H3K9me3",
+          "Paired-Tag",
+          "epigenome",
+          "histone modifications",
+          "neuropsychiatric disorders",
+          "sequence-to-function models",
+          "single-cell multi-omics"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.008",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020023",
+        "title": "Multimodal single-cell epigenomic and 3D genome atlas of the human basal ganglia.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "The basal ganglia (BG) underlie motor control, reward processing, and many neurological and psychiatric disorders, yet cell-type-resolved epigenomic and 3D genome maps of the human BG remain limited. Here, we present a multimodal single-cell atlas of DNA methylation (261,331 nuclei) and 3D chromatin conformation (229,286 nuclei) from eight subregions, harmonized under the BG consensus taxonomy and integrated with matched data across multiple regulatory layers. We identify millions of differentially methylated regions across cell types, enriched for distinct transcription factor motifs, and link them to disease-associated heritability. We characterize the POU6F2+ STR D2 SMYD2-HTR7 spiny projection neuron (SPN) subtype, with concordant signatures across multiple modalities, and reveal region-specific methylation and contact gradients. Integrative gene regulatory networks (GRNs) predict cell-type-resolved enhancer-promoter interactions, nominating candidate regulatory mechanisms for Parkinson's disease (PD) risk variants at SNCA. Finally, multiplexed error-robust fluorescence in situ hybridization (MERFISH) profiling combined with cross-species Patch-seq identifies a neuronal subtype, STR FS PTHLH-PVALB GABA, with electrophysiological differences across the striatal matrix-striosome (MS) boundary.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.019",
+        "pmcid": null,
+        "authors": [
+          "Wubin Ding",
+          "Amit Klein",
+          "Cindy Tatiana Báez-Becerra",
+          "Jonathan A Rink",
+          "Anna Bartlett",
+          "Ruoxuan Wang",
+          "Qiurui Zeng",
+          "Rosa Gomez Castanon"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "DNA methylation",
+          "HiC",
+          "basal ganglia",
+          "chromatin",
+          "epigenome",
+          "gene regulatory networks",
+          "medium spiny neurons",
+          "multi-omics",
+          "neurons and glia",
+          "spatial transcriptomics"
+        ],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.019",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020022",
+        "title": "Common variation of cell abundances and gene expression in the human striatum.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "The cellular and molecular bases of inter-individual variation in the human brain are not yet understood, particularly beyond the neocortex. Here, we describe cellular and gene-expression variation in the striatum and prefrontal cortex from single-nucleus RNA sequencing (snRNA-seq) analysis of 3.9 million nuclei from 178 adult brain donors. People with more astrocytes, microglia, or oligodendrocyte precursor cells (OPCs) in any one brain region tended to have this property in all gray-matter regions sampled. OPC proportions declined by 40% across ages 30-80 in the cortex and striatum. Age-associated gene-expression changes differed substantially across cell types. Donor age was predicted from RNA-expression patterns with a median absolute error of 6.6 years across cell types. Common genetic variants were associated with the expression of nearly 10,000 genes; these effects were mostly cell-type specific and distinguished striatal from cortical neurons. These open-access data provide a foundation for future studies of human brain variation and vulnerabilities.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.026",
+        "pmcid": null,
+        "authors": [
+          "Steven C Burger",
+          "James Nemesh",
+          "Olivia Yoo",
+          "Ezra Muratoglu",
+          "Charles Vanderburg",
+          "Jiayi Yuan",
+          "Khalid Shakir",
+          "Curtis J Mello"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "brain aging",
+          "cell-type composition",
+          "eQTLs",
+          "glial cells",
+          "human brain",
+          "inter-individual variation",
+          "oligodendrocyte precursor cells",
+          "single-nucleus RNA sequencing",
+          "striatum",
+          "transcriptomic aging clocks"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.026",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020021",
+        "title": "Mesoscale molecular architecture of the striatum across cell types and adult aging.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "The human striatum governs diverse motor, cognitive, and affective behaviors yet lacks the obvious cytoarchitectural boundaries defining functional territories elsewhere in the brain. Using Slide-tags single-nucleus spatial transcriptomics, we profiled 1.1 million cells across 19 postmortem donors to uncover the striatum's spatial organization. These data revealed a consistent subdivision of the striatum into six zones, each defined by molecularly distinct populations of spiny projection neurons (SPNs) and featuring spatially coordinated neuron-astrocyte interaction networks. To determine their structural relevance, we generated a companion mouse spatial atlas that identified four homologous zones that aligned with territories defined by brain-wide afferent projections. Finally, imputing zonal identities onto a 131-donor single-nucleus RNA sequencing (snRNA-seq) cohort revealed that dorsal zones exhibit the greatest age-related transcriptional change and that the expression differences defining zonation attenuate with age. This resource establishes a conserved mesoscale spatial framework for the mammalian striatum, linking single-cell molecular identity to structural connectomics and aging.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.029",
+        "pmcid": null,
+        "authors": [
+          "Andrew W Kraft",
+          "Matthew Lee",
+          "Haoyuan Gao",
+          "Abir Mohsin",
+          "Nirmala A Rayan",
+          "Alyssa J Lawler",
+          "Garam Kim",
+          "Julianna Milidantri"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Human Brain Atlas",
+          "brain aging",
+          "brain connectivity",
+          "genomics",
+          "piny projection neurons",
+          "single-nucleus RNA sequencing",
+          "spatial transcriptomics",
+          "striatum"
+        ],
+        "weekly_match": true,
+        "score": 8.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.029",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020020",
+        "title": "Spatial transcriptomics reveals molecular organization of human and nonhuman primate basal ganglia.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "The basal ganglia (BG) are interconnected subcortical nuclei with a complex topographical organization that orchestrate goal-directed behaviors and are implicated in neurodegenerative movement disorders. We generated a cellular-resolution spatial transcriptomics atlas of the BG in human, rhesus macaque, and common marmoset, sampling over one million cells in each species. By integrating spatial data with a cross-species consensus single-nucleus RNA sequencing (snRNA-seq) cell-type taxonomy, this atlas reveals principles of molecular organization within and across structures. Extensive spatial sampling across the rostral-caudal axis illuminates complex, yet highly stereotyped, multi-axis gene expression gradients superimposed onto discrete compartments of the striatum. Additionally, we identify core-shell organization of the internal globus pallidus. This unified, cross-species spatial transcriptomics atlas will be a foundational resource for characterizing the molecular and functional organization of the BG and their roles in health and disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.023",
+        "pmcid": null,
+        "authors": [
+          "Madeleine N Hewitt",
+          "Meghan A Turner",
+          "Nelson Johansen",
+          "Delissa A McMillen",
+          "Shu Dan",
+          "Michael DeBerardine",
+          "Augustin Ruiz",
+          "Mike Huang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "basal ganglia",
+          "gene expression",
+          "globus pallidus",
+          "human",
+          "primate",
+          "spatial transcriptomics",
+          "striatum",
+          "striosome",
+          "subthalamic nucleus"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.023",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020019",
+        "title": "Cross-species multiomic atlas of the primate basal ganglia.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "The basal ganglia (BG) are conserved brain regions essential for motor control, learning, emotion, and cognition and are implicated in neurological and psychiatric disease, yet a unified cross-species taxonomy of BG cell types is lacking. We present a multiomic consensus atlas of 1.8 million nuclei from humans, macaques, and marmosets spanning eight BG structures, integrating gene expression, open chromatin, and spatial profiling. Alignment across species and to mouse and human whole-brain atlases identifies 61 homologous cell types conserved over 76 million years. Dorsal-ventral spatial identity is more conserved than D1/D2 receptor or striosome/matrix identity, and striatum (STR) D2 SMYD2-HTR7 spiny projection neurons have distinct molecular, electrophysiological, and morphological features. Cis-regulatory analysis reveals conserved sequence grammars that encode cell identity and inform viral targeting, and cell-type-resolved mapping localizes psychiatric and neurodegenerative risk to specific BG cell populations. This work provides a foundational resource for BG evolution, function, and disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.012",
+        "pmcid": null,
+        "authors": [
+          "Nelson J Johansen",
+          "Yuanyuan Fu",
+          "Matthew Schmitz",
+          "Alma Dubuc",
+          "Niklas Kempynck",
+          "Morgan Wirthlin",
+          "Aaron D Garcia",
+          "Madeleine Hewitt"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "basal ganglia",
+          "cross-species taxonomy",
+          "multiomics",
+          "spiny projection neuron",
+          "striatum"
+        ],
+        "weekly_match": true,
+        "score": 11.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.012",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020018",
+        "title": "Toward an integrated framework for a human and mammalian brain cell atlas.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "The NIH BRAIN Initiative Cell Atlas Network (BICAN) is developing a standardized, integrated reference framework for classifying and studying brain cell types across human, macaque, marmoset, and mouse. We present a cross-species, multimodal atlas of the basal ganglia, a group of subcortical nuclei central to motor control, adaptive behavior, and neurological disease. Built from large-scale single-cell transcriptomic classification and integrated with epigenomic, spatial genomic, multiomic, and developmental datasets, the atlas provides a curated, data-driven taxonomy with standardized nomenclature, extensive phenotypic characterization, and community-informed annotation. Cell types are mapped into species-specific anatomical reference frameworks and linked across species through structural ontologies. Realizing this resource required coordinated standards for tissue acquisition and processing, harmonized donor metadata, anatomical registration, sequencing pipelines, data infrastructure, visualization, mapping tools, and interoperable metadata. The BICAN basal ganglia atlas demonstrates how pipelines and standards can be implemented, validated, and scaled toward a whole-brain human and mammalian cell-type reference.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.031",
+        "pmcid": null,
+        "authors": [
+          "BRAIN Initiative Cell Atlas Network (BICAN). Electronic address: ecker@salk.edu",
+          "BRAIN Initiative Cell Atlas Network (BICAN)"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "3D digital atlas",
+          "Brain Knowledge Platform",
+          "basal ganglia",
+          "brain ontology",
+          "cell ontology",
+          "common coordinate frameworks",
+          "data archives",
+          "human",
+          "macaque",
+          "marmoset"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.031",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020016",
+        "title": "Stepping (hi)stones: Charting a single-cell multiomic path toward understanding the human brain.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "In this issue of Cell, two single-cell multiomic atlases jointly profile transcription and histone modifications across different regions of the adult human brain, revealing cell-type-specific regulatory landscapes, developmental epigenetic memory, and improved interpretation of neurological variants. These studies establish a framework for understanding human brain cell identity, evolution, and pathology.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.020",
+        "pmcid": null,
+        "authors": [
+          "Mattia Zaghi",
+          "Yonglong Dang",
+          "Gonçalo Castelo-Branco"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 10.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.020",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020015",
+        "title": "From the human genome to the human brain cell atlas.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "The BRAIN Initiative Cell Atlas Network (BICAN) is establishing an evolving reference for neuroscience by integrating cell identities, anatomy, and multimodal evidence across species. In analogy with the Human Genome Project, the BICAN basal ganglia atlas is a model for a federated reference to advance understanding of brain organization, function, variation, and disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.034",
+        "pmcid": null,
+        "authors": [
+          "Joseph Ecker",
+          "Satrajit Ghosh",
+          "Michael Hawrylycz",
+          "Kiku Ichihara",
+          "Arnold Kriegstein",
+          "Ed Lein",
+          "Chongyuan Luo",
+          "Evan Macosko"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.034",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020014",
+        "title": "Deploying liquid intelligence in cancer: Finding answers in our blood.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "Liquid biopsies are one of the few noninvasive procedures for probing disease at the molecular level. They represent a scalable solution to cancer detection and monitoring by capturing tumor-derived signals from circulating biomolecules such as proteins, DNA, RNA, and metabolites. However, these signals are often sparse, heterogeneous, and shaped by genetics, demographics, and comorbidities. Recent advances in artificial intelligence, especially with multimodal foundation models, have proven capable of extracting signals from noisy, high-dimensional data. Pretraining on large cohorts and integrating complementary modalities may improve sensitivity for tumor signals in blood, though significant clinical and infrastructural barriers remain. This review synthesizes advances in liquid biopsy technologies and artificial intelligence and examines how their convergence can enable enhanced cancer monitoring.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1016/j.cell.2026.10.024",
+        "pmcid": null,
+        "authors": [
+          "James M George",
+          "Andre J Wielenga",
+          "Matthew K Iyer",
+          "Arul M Chinnaiyan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cancer monitoring",
+          "disease surveillance",
+          "liquid biopsies",
+          "multimodal foundation models"
+        ],
+        "weekly_match": true,
+        "score": 11.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.024",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42945956",
+        "title": "Deep sequencing of 3,367 maize genomes uncovers substantial contribution of rare variants to agronomic traits.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "Rare variants are highly abundant, yet their genome-wide contributions to agronomic traits remain elusive in plants. Here, we performed deep whole-genome sequencing of 3,367 diverse elite maize inbred lines, uncovering 75.3 million variants, of which 79.2% were rare. Overall, we identified 411 independent association signals for 10 agronomic traits, including 359 attributable to globally rare variants, with rare variants showing effect sizes approximately 2.4 times those of common variants. Frequency-stratified genome-based restricted maximum likelihood (GREML) analyses indicated that rare variants captured a substantial proportion of phenotypic variance for traits under strong adaptive selection, consistent with the allele frequencies of trait-associated variants shifting from common in tropical to rare in temperate maize. Complementing conventional variant-level genome-wide association studies (GWAS), gene-based tests identified an additional 94 candidate gene-trait associations. Our study highlights rare variants as important components of the genetic architecture of complex agronomic traits in maize and provides much-needed resources for future functional studies and breeding.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.063",
+        "pmcid": null,
+        "authors": [
+          "Liangliang Huang",
+          "Chao Bian",
+          "Beibei Xin",
+          "Xuecai Zhang",
+          "Qiong Lu",
+          "Yang Yue",
+          "Yingshuang Li",
+          "Rong Zeng"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "adaptive selection",
+          "estimation",
+          "heritability",
+          "maize",
+          "population genetics",
+          "rare variants",
+          "reference panel",
+          "whole-genome sequencing"
+        ],
+        "weekly_match": true,
+        "score": 0.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.063",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020052",
+        "title": "Sub-second dopamine reinforcement shapes juvenile social play.",
+        "journal": "Cell",
+        "pub_date": "2026-11-11",
+        "abstract": "Juvenile social play is critical for neurodevelopment, yet the neural mechanisms organizing moment-to-moment interactions remain elusive. Using social behavior sequencing (Social-seq)-an occlusion-robust 3D pose estimation and unsupervised clustering pipeline-we found that nucleus accumbens (NAc) dopamine was tightly coupled to sub-second social syllables during naturalistic interactions. In wild-type juveniles, males exhibited a sharper dopaminergic contrast between proactive play and forced submission than females did, consistent with sex-divergent play strategies. In Shank3-deficient autism models, this process was fundamentally corrupted: proactive play-evoked dopamine responses were abolished in males and significantly sign-inverted in females, with male-specific enhancements during non-social behaviors, driving social play deficits. A multi-agent reinforcement learning model parameterized by disrupted, play-related dopaminergic reinforcement values recapitulated mutant phenotypes. Closed-loop optogenetic stimulation of ventral tegmental area (VTA)-NAc dopamine projections, time-locked to proactive play, restored reciprocal play in Shank3-deficient rats. Sub-second dopaminergic reinforcement thus orchestrates naturalistic social behavior, providing a behaviorally contingent interventional framework for neurodevelopmental disorders.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.040",
+        "pmcid": null,
+        "authors": [
+          "Xinfeng Chen",
+          "Xianming Tao",
+          "Zhenchao Zhong",
+          "Fanyu Zhu",
+          "Yuanqing Zhang",
+          "Yangzhen Wang",
+          "Miao Wang",
+          "Yixuan Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "MARL",
+          "Shank3",
+          "autism",
+          "closed-loop intervention",
+          "computer vision",
+          "dopamine",
+          "juvenile social play",
+          "machine learning",
+          "neuroscience",
+          "reinforcement learning"
+        ],
+        "weekly_match": true,
+        "score": 3.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.040",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43014307",
+        "title": "The blood-brain barrier imports diverse neuroprotective proteins through pathways impaired early in Alzheimer's disease models.",
+        "journal": "Cell",
+        "pub_date": "2026-11-11",
+        "abstract": "The blood-brain barrier (BBB) has been defined primarily by what it excludes, yet the scale and function of physiological blood-to-brain protein transport remain largely unknown. Using bioorthogonal proteomics, we find that the healthy BBB samples 191 plasma proteins and permits 92 into the brain parenchyma. Enriched for carrier and metabolic functions, these proteins home to distinct brain cell types, such as apolipoprotein A1 (APOA1) to astrocytes and alpha-1 antitrypsin (SERPINA1) to microglia. This cell-type tropism relies on a BBB-parenchyma receptor hand-off: APOA1 crosses the BBB via SR-B1 and engages astrocytic ATP-binding cassette transporter A1 (ABCA1), a key Alzheimer's risk gene, driving cholesterol efflux that supports synapse integrity. Unlike LPS-induced nonspecific leakage, early-stage 5xFAD mice show selective BBB transport remodeling, with reduced APOA1 and increased SERPINA1 uptake. Hepatic APOA1 overexpression restores APOA1 in the 5xFAD brain, rescuing astrocytic, synaptic, and behavioral deficits. These findings recast the BBB as a selective interface that recruits neuroprotective circulatory proteins for brain health.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.039",
+        "pmcid": null,
+        "authors": [
+          "Haoyue Zhou",
+          "Jason C Maynard",
+          "Alexander J Pennacchio",
+          "Amanda Apolonio",
+          "Xi Liu",
+          "Lei Yao",
+          "Mina Negahban",
+          "Zimo Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Alzheimer’s disease",
+          "astrocytes",
+          "bioorthogonal chemistry",
+          "blood-brain barrier",
+          "brain-body crosstalk",
+          "cholesterol efflux",
+          "plasma proteins",
+          "proteomics",
+          "receptor-mediated transcytosis"
+        ],
+        "weekly_match": true,
+        "score": 26.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.039",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43008726",
+        "title": "Nicotianamine-driven nickel transport to sink organs underpins maize productivity.",
+        "journal": "Cell",
+        "pub_date": "2026-11-10",
+        "abstract": "Nickel (Ni), the last essential trace element identified in plants, has long been enigmatic regarding the genetic basis underlying its homeostasis and its agricultural significance. Using genome-wide association analysis, we identified ZmNAET1 as a key transporter controlling Ni allocation to seeds. Mechanistically, ZmNAET1 mediates nicotianamine secretion and enables nicotianamine-dependent phloem loading of Ni in nodes and subsequent Ni translocation into sink organs. Mutants lacking ZmNAET1 exhibit significant yield penalties, decreased seed germination velocity, and drastically shortened seed longevity. In an irreplaceable role, supplemented Ni fully rescued seed germination and proper vegetative development of the mutants. We show that NAET1-dependent delivery of Ni to urease is essential for amino acid turnover in developing sink organs, revealing an unappreciated role of Ni in yield formation of graminaceous plants. This study uncovers an underestimated requirement for nicotianamine and Ni and opens a new research avenue toward optimizing micronutrient provision for cereal crop productivity.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.035",
+        "pmcid": null,
+        "authors": [
+          "Zhen-Fei Chao",
+          "Yuanyuan Chen",
+          "Jia-Chen Wu",
+          "Ya-Ling Wang",
+          "Yingjie Xiao",
+          "Yong Peng",
+          "Lu-Yu Fan",
+          "Xiaqing Wang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "crop productivity",
+          "germination",
+          "maize",
+          "nickel",
+          "nicotianamine efflux transporter",
+          "seed longevity",
+          "source-sink transport",
+          "urea hydrolysis"
+        ],
+        "weekly_match": true,
+        "score": 3.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.035",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43003088",
+        "title": "Reconstructing developmental and disease progression with sample-level embeddings.",
+        "journal": "Cell",
+        "pub_date": "2026-11-09",
+        "abstract": "Single-cell genomics is transformative for characterizing cellular heterogeneity, but many biological questions require comparing samples rather than individual cells. Typical analyses compare \"case\" and \"control\" groups, ignoring sample-level variation within them. Here, we present scSLIDE (single-cell sample-level inference using density estimation), a framework that transforms each sample's single-cell data into a compact profile describing where its cells are distributed in high-dimensional space. By comparing these density profiles, scSLIDE calculates embeddings to characterize variation across samples. We implement scSLIDE in version 6 of our Seurat package and apply it to COVID-19 infection, Alzheimer's disease, and zebrafish embryogenesis. scSLIDE reveals patient subgroups, reconstructs disease trajectories, and identifies coordinated cellular programs across samples. We discover separable axes of infection and severity, a trajectory of Alzheimer's progression, and embryonic \"pseudostages\" that vary across and within time points. Our results demonstrate how case-control analyses collapse rich biological variation into binary labels and how sample-level embedding represents a powerful analytical alternative.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.018",
+        "pmcid": null,
+        "authors": [
+          "Longda Jiang",
+          "Zhixin Cyrillus Tan",
+          "Isabella N Grabski",
+          "Yuhan Hao",
+          "Nathan Nakatsuka",
+          "Sourav Sarkar",
+          "Anagha Shenoy",
+          "Rahul Satija"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Alzheimer’s disease",
+          "COVID-19",
+          "sample-level embeddings",
+          "single cell",
+          "single-cell RNA sequencing",
+          "zebrafish embryogenesis"
+        ],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.018",
+        "supplement_reason": null
+      }
+    ],
+    "Cell metabolism": [],
+    "immunity": [
+      {
+        "pmid": "43025425",
+        "title": "Human interferon-α autoantibody development broadens reactivity and enables functional synergy.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-13",
+        "abstract": "Neutralizing autoantibodies against interferon-α (IFN-α) are associated with severe viral infections but may improve outcomes in IFN-α-driven autoimmunity. How these antibodies emerge, mature, and function at the molecular level remains unclear. Here, we tracked development of plasma neutralizing activity against all 12 IFN-αs in multiple human donors over years. Plasma neutralization frequently initiated with narrow IFN-α specificity, often against IFN-α8, but increased in breadth and potency with individual kinetics. Monoclonal antibody analyses revealed that affinity maturation generated epitope-specific antibody classes, highlighting parallel emergence of subtype-restricted and broadly reactive antibodies. Biophysical and structural characterization of human antibody-IFN-α complexes uncovered determinants of initial specificity and breadth development. Antibodies engaging non-competing, neutralizing epitopes acted co-operatively to block IFN-α signaling, and some combinations triggered Fc-effector functions via cell surface IFN-α:IFNAR2 interactions that may eliminate IFN-α-responsive cells. Our findings reveal features shaping anti-IFN-α autoantibody repertoires and synergistic mechanisms that amplify their potency and pathogenic potential.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.012",
+        "pmcid": null,
+        "authors": [
+          "Kevin Groen",
+          "Jacques A Moritz",
+          "Sheena Vasquez",
+          "Adonis A Rubio",
+          "Roger Kuratli",
+          "David Jones",
+          "Deborah Grafl",
+          "Maddalena Motta"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Fc-effector functions",
+          "autoantibodies",
+          "interferon",
+          "monoclonal antibodies",
+          "structural analysis",
+          "synergistic actions"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.012",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020081",
+        "title": "Granzyme K is a driver of age-related tissue remodeling and functional decline independently of age-associated immune dysfunction.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-12",
+        "abstract": "Aging is characterized by progressive tissue and organ decline, with chronic low-grade inflammation (inflammaging) implicated as a central driver. Granzyme K (GzmK), a serine protease that is markedly upregulated in aged memory CD8+ T cells, is proposed to be a central mediator of both immune and organismal aging. Using young and aged GzmK-/- mice, we showed that GzmK was dispensable for the major hallmarks of immune aging, including T cell dysfunction, but was a critical driver of age-related tissue decline. Despite persistent immune aging phenotypes, GzmK deficiency markedly attenuated organ aging, effectively uncoupling immune and tissue aging. In the kidney, this was associated with reduced complement deposition, whereas in the liver, improved function and reduced fibrosis occurred independently of complement, coinciding instead with increased decorin and reduced pro-fibrotic TGF-β signaling. These findings identify GzmK as a tissue-specific driver of organismal aging but not immune aging or systemic inflammaging.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.013",
+        "pmcid": null,
+        "authors": [
+          "Dulakara Kannangara",
+          "Jessica Runting",
+          "April L Raftery",
+          "Ekaterina Salimova",
+          "Xavier Y X Sng",
+          "Ali Zaid",
+          "Samantha J Emery-Corbin",
+          "David Chisanga"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CD8 T cells",
+          "TGF-β",
+          "complement",
+          "granzyme K",
+          "immune aging",
+          "inflammaging",
+          "organismal aging"
+        ],
+        "weekly_match": true,
+        "score": 22.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.013",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43008722",
+        "title": "TIGIT and PD-L1 co-blockade promotes dendritic cell-dependent production of non-exhausted CD8+ T cells.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Combination immunotherapy targeting the coinhibitory molecules TIGIT and PD-L1 promotes non-exhausted CD8+ T cell differentiation in cancer. Because anti-TIGIT efficacy requires Fc binding, we investigated the role of Fcγ receptor (FcγR)-expressing myeloid cells in the mechanism of action. Conventional dendritic cells (cDCs) were required for therapeutic efficacy. Transcriptional profiling of intratumoral myeloid cells revealed an FcγR+ cDC type-1 (cDC1)-like activation state characterized by elevated costimulatory ligands for CD28 (CD80/CD86) and CD226 (PVR) that was enriched in Fc-active anti-TIGIT combination-treated tumors. Therapy-expanded CD8+ T cells expressed CD28 and upregulated CD226 upon treatment. Mechanistically, CD28 signaling was a prerequisite for therapy-induced CD226 expression on T cells, and cDC-derived PVR promoted CD226-mediated non-exhausted T cell differentiation. Type I interferon (IFN-I), induced through FcγR engagement, maintained and amplified the FcγR+ cDC1-like state, and exogenous IFN-I rescued anti-tumor immunity upon Fc-inert anti-TIGIT and anti-PD-L1 combination. Thus, Fc-active anti-TIGIT and anti-PD-L1 therapy promotes a sequential costimulatory cascade centered on cDCs, amplified by IFN-I signaling.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.005",
+        "pmcid": null,
+        "authors": [
+          "Ellen Duong",
+          "Thomas D Wu",
+          "Charles W Tran",
+          "Conrad Foo",
+          "Karl L Banta",
+          "Lili Adams",
+          "Katherine Nutsch",
+          "Aditya A Anand"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "T cell activation",
+          "T cell differentiation",
+          "T cell exhaustion",
+          "checkpoint inhibition",
+          "costimulation",
+          "dendritic cells",
+          "immunotherapy",
+          "interferon signaling",
+          "myeloid cells",
+          "priming",
+          "tumor microenvironment"
+        ],
+        "weekly_match": true,
+        "score": 19.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.005",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43008721",
+        "title": "Frankenstein protein assembled by mRNA trans-splicing promotes cytokine release.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Trans-splicing of pre-mRNAs to produce alternate proteins is known to occur in unicellular and invertebrate organisms; yet whether such events occur and produce functional proteins in mammals remains unclear. In a recent issue of Nature, macrophages polarized to an inflammatory state were found to produce several chimeric RNAs through trans-splicing with consequences for the inflammatory response.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.009",
+        "pmcid": null,
+        "authors": [
+          "Elliott M Bernard",
+          "Petr Broz"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 3.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.009",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43008720",
+        "title": "Phosphocreatine strengthens CD8+ T cells by remodeling chromatin.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Metabolites can regulate T cell gene expression and effector function, but how changes in mitochondrial ATP production influence chromatin remodeling remains unclear. In a recent issue of Cell, Ng et al. demonstrate that D-α-hydroxybutyrate (DAHB) increases oxidative phosphorylation and phosphocreatine production, promoting chromatin accessibility and CD8+ T cell effector function to limit tumor growth.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.010",
+        "pmcid": null,
+        "authors": [
+          "Gregory Mannino",
+          "Jonathan R Brestoff"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.010",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42962666",
+        "title": "Mitochondrial DNA abundance is a determinant of immunogenic cell death in cancer.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Cells experiencing mitochondrial stress can undergo apoptosis or cell death that triggers innate immune activation. We examined the mechanisms determining these distinct outcomes in cancer. Abundant mitochondrial DNA (mtDNA) and high expression of the cGAS-STING pathway were features of KRAS-mutant cancers. In a pharmacological screen, MEK inhibitor (MEKi) effectively induced mtDNA release into the cytosol in KRAS-mutant cancer cells. However, MEKi also induced PRKN-mediated mitophagy, which limited mtDNA release by eliminating damaged mitochondria. Inhibition of mitophagy sustained mtDNA efflux and amplified cGAS-STING signaling. Mechanistically, PRKN-mediated mitophagy restrained mitochondrial outer membrane permeabilization (MOMP) to limit mtDNA efflux. The balance between mtDNA and cytochrome c (cyt.c) release defined two immunologically distinct outcomes: immunogenic cell death (ICD) and apoptosis. In preclinical models, combined inhibition of MEK and mitophagy induced robust dendritic cell (DC) activation and promoted CD8+ T cell-mediated antitumor immunity. Consistently, PRKN expression negatively correlated with immune infiltration in human cancers. Collectively, these findings provide a rationale for combination strategies targeting mitochondrial dynamics to augment antitumor immunity.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.002",
+        "pmcid": null,
+        "authors": [
+          "Kosuke Tanaka",
+          "Yasuki Adachi",
+          "Takuma Irie",
+          "Tomoko Yamamori-Morita",
+          "Kazuhiro Kumagai",
+          "Takuya Owari",
+          "Genki Okumura",
+          "Yoshihisa Kobayashi"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "KRAS-mutant cancer",
+          "TWINKLE",
+          "cGAS-STING",
+          "immunogenic cell death",
+          "mitochondrial DNA",
+          "mitophagy",
+          "molecularly targeted therapy",
+          "subapoptotic MOMP",
+          "type I interferon"
+        ],
+        "weekly_match": true,
+        "score": 33.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.002",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42956746",
+        "title": "Growth factor VEGF-B sustains intestinal Tfh cell stemness to restrict Taurinivorans outgrowth and microbiota-driven obesity.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Autocrine signaling through vascular endothelial growth factor receptor-1 (VEGFR-1) reprograms T cell metabolism upon TCR stimulation. We found that mice bearing conditional deletion of Flt1 (encoding VEGFR-1) in T cells developed spontaneous obesity with advancing age. Analyses of lymphoid and metabolic tissues identified a VEGFR-1+ T follicular helper (Tfh) population in Peyer's patches and mesenteric lymph nodes. Flt1 deletion impaired Tfh fitness and reduced secretory IgA in the gut, resulting in unrestricted expansion of the pathobiont Taurinivorans. Taurinivorans overgrowth depleted host taurine, which drove obesity via suppressed adipocyte lipolysis and thermogenesis. Mechanistically, a VEGFR-1-AKT signaling axis promoted Tfh cell stemness by limiting p53-mediated senescence. This Tfh-microbiota-obesity pathway was also observed in diet-induced obese mice and in humans. Oral administration of IgA reduced Taurinivorans and alleviated adiposity, highlighting the therapeutic potential of this axis. Tfh cell senescence impairs IgA production, disrupting gut microbial homeostasis, with consequences to host metabolic disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.004",
+        "pmcid": null,
+        "authors": [
+          "Jin-An Zhou",
+          "Jun Tu",
+          "Jiang Yue",
+          "Qi-Er Zhang",
+          "Yalan Chen",
+          "Qiuju Fan",
+          "Jing Ma",
+          "Yong Zuo"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "IgA",
+          "T follicular helper cells",
+          "Taurinivorans",
+          "Tfh cells",
+          "VEGF-B",
+          "VEGFR-1",
+          "obesity",
+          "senescence",
+          "stemness"
+        ],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.004",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42950826",
+        "title": "T cell cross-priming by PD-L1+ type 1 conventional dendritic cells mediates the antitumor efficacy of a PD-L1×4-1BB bispecific antibody.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Bispecific antibodies that conditionally engage costimulatory receptors aim to enhance antitumor T cell immunity while limiting systemic toxicity. We investigated mechanisms underlying the clinical performance of a PD-L1×4-1BB bispecific antibody. Therapeutic efficacy of PD-L1×4-1BB was largely independent of PD-L1 expression on malignant cells but waned in Batf3-/- mice or upon depletion of type 1 conventional dendritic cells (cDC1s). cDC1-specific deletion of PD-L1 markedly limited tumor control. PD-L1×4-1BB enhanced proliferation of tumor-antigen-specific CD8+ T cells through mechanisms dependent on cross-presentation, the presence of interleukin (IL)-12, 4-1BB costimulation, and CD40L-mediated cDC1 licensing. PD-L1×4-1BB increased cDC1-T cell contacts, which promoted transcriptional programs associated with T cell activation and proliferation. Treated tumors exhibited increased infiltration and spatial proximity of cDC1s and activated CD8+ T cells. Accordingly, increasing dendritic-cell abundance via Flt3L further enhanced tumor control. Thus, cDC1-T cell interactions are central to PD-L1×4-1BB activity, with antigen cross-presentation, dendritic-cell licensing, and IL-12 and 4-1BB costimulation converging to promote antitumor immunity.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.003",
+        "pmcid": null,
+        "authors": [
+          "Carlos Luri-Rey",
+          "Inmaculada Rodríguez",
+          "Saioa Arrieta-Aranzueque",
+          "David Ruiz Guillamón",
+          "Enric Vercher",
+          "Nekane Soria",
+          "Paula Molero-Glez",
+          "Raquel Cuesta"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "4-1BB",
+          "CD137",
+          "CD274",
+          "Flt3L",
+          "IL-12",
+          "PD-L1",
+          "bispecific antibody",
+          "cDC1",
+          "cross-presentation",
+          "cross-priming"
+        ],
+        "weekly_match": true,
+        "score": 22.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.003",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42950825",
+        "title": "PD-L1 expression in germinal centers promotes humoral immunity by restricting T follicular regulatory cell differentiation.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Germinal center (GC) responses generate humoral immunity through coordinated interactions between B cells and T follicular helper (TFH) and T follicular regulatory (TFR) cells. Despite high expression of PD-1 by TFH and TFR cells, the function of its ligand PD-L1 in the GC is unclear. Here, we show an immunogenic role for PD-L1 via tuning T-B collaboration to promote humoral immunity. Integrated analyses of secondary lymphoid organs (SLOs) revealed that B cell zone reticular cells (BRCs), including follicular dendritic cells (FDCs), expressed PD-L1. BRC expression of PD-L1 facilitated GC formation and enabled loss of B cell tolerance in autoantibody disease. Mechanistically, BRC-specific deletion of PD-L1 enhanced TFH cell production of Sostdc1 and TFR cell differentiation, destabilizing T-B contacts in the GC. Patient-derived tumor biopsies indicated that a tumor-infiltrating TFH SOSTDC1 signature inversely correlated with immunotherapy responsiveness. These findings reveal a non-canonical immunogenic role for PD-L1 in the GC and suggest that augmenting B cell responses could improve the efficacy of PD-L1 blockade.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.001",
+        "pmcid": null,
+        "authors": [
+          "Elliot H Akama-Garren",
+          "Yingying Zhang",
+          "Balthasar A Heesters",
+          "Padraic G Fallon",
+          "Michael C Carroll"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "B cell zone reticular cells",
+          "PD-1",
+          "PD-L1",
+          "Sostdc1",
+          "T follicular helper cell",
+          "T follicular regulatory cell",
+          "autoimmunity",
+          "follicular dendritic cell",
+          "germinal center",
+          "secondary lymphoid organ",
+          "tonsil"
+        ],
+        "weekly_match": true,
+        "score": 23.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.001",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42887498",
+        "title": "Embracing macrophage complexity for research and translation.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Macrophages are among the most versatile differentiated cell types in the body, serving as key regulators of tissue development, homeostasis, inflammation, repair, and immunity. Their functional diversity cannot be captured by fixed subsets, binary activation states, or single-marker definitions. Macrophage identity emerges instead from the integration of developmental origin, tissue niche, epigenetic history, local environmental cues, and disease-associated signals. Advances in single-cell genomics, spatial profiling, epigenomics, in vivo perturbation, and computational modeling now show that this behavior is organized through modular gene programs, so that any given macrophage state is best described as a weighted combination of program activities rather than a discrete label. We argue that embracing this modular architecture matters not only for annotation but for therapy: macrophage-directed interventions will require defining disease-associated states, identifying surface-accessible entry points into them, and rewiring the underlying programs with spatial and temporal precision.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.015",
+        "pmcid": null,
+        "authors": [
+          "Florent Ginhoux",
+          "Kevin Mulder",
+          "Sebastian Arcila-Barrera",
+          "Ido Amit"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "immune plasticity",
+          "immunotherapy",
+          "macrophage",
+          "macrophage reprogramming",
+          "macrophage-targeted therapies",
+          "modular gene programs",
+          "single-cell genomics",
+          "synthetic immunology",
+          "tissue microenvironment",
+          "translational immunology"
+        ],
+        "weekly_match": true,
+        "score": 4.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.015",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42863468",
+        "title": "Skin-resident CXCR6+ memory CD4+ T cells and dendritic cells form dermal perivascular hubs that drive relapse in allergic dermatitis.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "CD4+ tissue-resident memory T (TRM) cells are crucial for relapse in allergic skin conditions. However, the mechanisms underlying their maintenance and pathogenic potential remain poorly defined. Here, across multiple models of allergic dermatitis, we identified a C-X-C chemokine receptor 6 (CXCR6+) subpopulation within CD4+ TRM cells as a distinct pathogenic subset that rapidly induces relapse. This subset is supported by C-X-C chemokine ligand 16 (CXCL16)-dependent interactions with CD301b+ conventional type 2 dendritic cells (cDC2s) for in situ maintenance. Functional blockade of the CXCL16-CXCR6 signaling pathway impaired proliferation and maintenance of CXCR6+ CD4+ TRM cells. In human atopic dermatitis (AD), CXCR6+ CD4+ TRM cells co-localized with CD301+ cDC2s in perivascular clusters even after successful anti-IL-13 therapy. These findings point to CXCR6+ CD4+ TRM cells as a pathogenic reservoir sustaining chronic and recurrent inflammation and suggest the CXCL16-CXCR6 axis as a therapeutic target to prevent relapse in allergic skin diseases.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.010",
+        "pmcid": null,
+        "authors": [
+          "Ryota Asahina",
+          "Fuuka Minami",
+          "Satoshi Nakamizo",
+          "Toshiya Miyake",
+          "Satoru Yonekura",
+          "Toshiaki Kogame",
+          "Shuto Kanameishi",
+          "Kosuke Katsuo"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CD4(+) tissue-resident memory T cells",
+          "CXCL16",
+          "CXCR6",
+          "T cell-dendritic cell interactions",
+          "allergic skin disease relapse",
+          "atopic dermatitis",
+          "conventional type 2 dendritic cells",
+          "pathogenic TRM subset",
+          "perivascular clusters"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.010",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42854691",
+        "title": "Lymphatic constraint of germinal centers optimizes protective antibody responses.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Immunization strategies are central to pathogen control, where efficacy relies on antigen distribution and inflammatory context. Lymphatic vessels are necessary conduits for antigen transport that actively remodel in peripheral tissues and draining lymph nodes (LNs) in response to their inflammatory context. In this study, we found that inhibiting viral-induced lymphatic remodeling in skin and LNs prompted germinal center (GC) expansion but, paradoxically, decreased the protective antibody response. While GCs scaled proportionately, larger GCs failed to support proliferative bursts consistent with clonal selection due to impaired T-B cell interactions. Accordingly, follicle and GC size are evolutionarily conserved across diverse mammals despite increased LN size. Lymphatic vessels controlled GC size through two coordinated processes: lymphatic remodeling in infected skin limited viral transport to the LN, while the resulting permissive environment in the LN supported perifollicular lymphangiogenesis that constrained GC expansion.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.013",
+        "pmcid": "PMC13660447",
+        "authors": [
+          "Tenny Mudianto",
+          "Gabrielle R Berman",
+          "Kimberly Zaldana",
+          "Marta Schips",
+          "Niklas Schwan",
+          "Luan Firmino-Cruz",
+          "Jana Bilanovic",
+          "Ochapa Ibrahim"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "antibody",
+          "antigen transport",
+          "follicular helper T cells",
+          "germinal centers",
+          "host-pathogen interactions",
+          "lymph nodes",
+          "lymphangiogenesis",
+          "lymphatic vessels",
+          "type I interferon",
+          "viral infection"
+        ],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.013",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42849443",
+        "title": "Microglia-mediated extracellular matrix disruption drives neuronal dysfunction, motor impairments, and sedation following alcohol abuse.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Alcohol abuse is the primary risk factor for alcohol use disorder (AUD), a leading cause of preventable morbidity and mortality worldwide. While direct effects of alcohol on neuronal function are well established, the role of microglia in acute and chronic neurological dysfunction in AUD remains underappreciated. Using mouse models of binge and high-intensity alcohol exposure and longitudinal in vivo imaging, we found that microglia exhibited acute and progressive morphological responses that preceded but paralleled ethanol-induced sedation. Ethanol also induced microglia-dependent extracellular matrix (ECM) disruption, synapse elimination, and reduced neuronal activity and density. Genetic deletion of microglial Myd88 protected against ethanol-induced microglial reactivity, neuronal damage and dysfunction, intoxication, and motor impairments by preventing ECM disruption. Frontal cortex ECM was similarly disrupted in human brain tissue from individuals with AUD. These findings identify microglia as cellular drivers of brain dysfunction following alcohol abuse and MyD88 as a critical therapeutic target for AUD.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.011",
+        "pmcid": null,
+        "authors": [
+          "Evi Paouri",
+          "Sarah Stanko",
+          "Nadia Gasmi",
+          "Gabriele Glusauskas",
+          "Valery Mao",
+          "Andrew Kwak",
+          "Stephanie Hsu",
+          "Sahar Sarmadi"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "MyD88",
+          "alcohol abuse",
+          "alcohol use disorder",
+          "ethanol-induced sedation",
+          "extracellular matrix",
+          "microglia",
+          "neuroinflammation",
+          "prefrontal cortex",
+          "two-photon imaging"
+        ],
+        "weekly_match": true,
+        "score": 12.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.011",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42822442",
+        "title": "Glucose-deprived tumor microenvironment activates AMP-activated protein kinase to drive adoptively transferred T helper 9 cell senescence.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "T helper 9 (Th9) cells show promise for adoptive cell therapy (ACT) against solid tumors. However, clinical application faces challenges regarding their persistence in the tumor microenvironment (TME). We observed that tumor growth gradually reduced glucose concentrations in the TME, accompanied by a decline in transferred Th9 cells and their effector functions, due to Th9 cell senescence. Restoring glucose concentrations suppressed Th9 cell senescence, thereby improving their persistence. Mechanistically, glucose-deprivation-activated AMP-activated protein kinase (AMPK), triggering downstream leucine-zipper and sterile-α motif kinase (ZAK)-nuclear factor κB (NF-κB)-inducing kinase (NIK) cascades that suppressed noncanonical NF-κB signaling and interleukin (IL)-9 production, ultimately driving Th9 cell senescence. ZAK-associated chimeric antigen receptor (CAR)-T cell senescence was linked to compromised therapeutic efficacy in human cancers. Targeting ZAK rejuvenated Th9 cells and enhanced CAR-Th9 cell efficacy against solid tumors. Our study uncovers a mechanism by which nutrient deprivation promotes Th9 cell senescence to compromise persistence, highlights the potential of targeting ZAK to rejuvenate CAR-Th9 cells for solid tumor therapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.004",
+        "pmcid": null,
+        "authors": [
+          "Jiemeng Fu",
+          "Siyu Pei",
+          "Jiadan Du",
+          "Xiuyu Deng",
+          "Xindong Wang",
+          "Tong Li",
+          "Huan Huang",
+          "Jialin Ye"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "AMPK",
+          "CAR-Th9",
+          "Th9 cell senescence",
+          "ZAK",
+          "glucose deprivation"
+        ],
+        "weekly_match": true,
+        "score": 19.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.004",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42810333",
+        "title": "Microglia with distinct origins and non-canonical phenotypes coexist within the border-like niche of the brain's circumventricular organs.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Circumventricular organs (CVOs) are small brain regions lacking a blood-brain barrier, giving neurons direct access to blood-borne signals, yet how these microenvironments shape the origin and phenotype of local macrophages remains unclear. Using multi-omics, we characterized the immune landscape of two CVOs, the area postrema (AP) and median eminence (ME), revealing brain-border-like environments with a unique macrophage compartment. CVO microglia showed a distinct, heterogeneous phenotype, including a CLEC7Ahigh myelin-associated subset in the ME, shaped by ageing and metabolism. CVO microglia were ontogenically diverse: fetal monocytes entered the CVOs perinatally and generated long-lived monocyte-derived microglia that fully adopted a yolk-sac-derived microglia identity. After depletion, CVO microglia were repopulated by local Sall1high cells but also by monocytes in the AP. Similarly, perivascular CVO border-associated macrophages displayed a distinct phenotype and origin. Our findings establish CVOs as specialized immune niches that shape local macrophages, reflecting the immune and metabolic demands of these environments.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.002",
+        "pmcid": null,
+        "authors": [
+          "Hannah Van Hove",
+          "Jonathan Bastos",
+          "Daliya Kancheva",
+          "Mónica Vara-Pérez",
+          "Marie-France Dorion",
+          "Frederike Westermann",
+          "Can Ulutekin",
+          "Hadis Shakeri"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "BAMs",
+          "CVO",
+          "DAM",
+          "area postrema",
+          "brain borders",
+          "median eminence",
+          "microglia",
+          "ontogeny"
+        ],
+        "weekly_match": true,
+        "score": 19.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.002",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42785294",
+        "title": "Targeting a site of vulnerability on circumsporozoite protein inhibits Plasmodium vivax malaria infection.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Circumsporozoite protein (CSP) is the most abundant Plasmodium sporozoite surface antigen. It is the major component of licensed Plasmodium falciparum vaccines and, hence, is the logical lead candidate for Plasmodium vivax (P. vivax) vaccines. However, our limited knowledge of protective B cell epitopes on P. vivax CSP remains a major roadblock. Here we identified two Plasmodium vivax CSP (PvCSP) B cell epitopes, PvCSP-A and PvCSP-B/NAGG, by screening inhibitory plasma from P. vivax-infected individuals. The epitopes were located in the N- and C-terminal regions of PvCSP, respectively, and were distinct from the canonical central repeat region epitope. We isolated a monoclonal antibody, GRAM-4, that recognized the PvCSP-B/NAGG epitope and mediated potent inhibition of traversal, hepatocyte invasion, and liver-stage development in vitro, confirming PvCSP-B/NAGG as a genuine neutralization target. Structural resolution of the GRAM-4:PvCSP-B/NAGG interaction at 2.65 Å revealed the molecular basis of epitope recognition, providing a blueprint for PvCSP vaccine development.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.09.001",
+        "pmcid": null,
+        "authors": [
+          "Ganesh R R Visweswaran",
+          "Pooya Mahdavi",
+          "Kamalakannan Vijayan",
+          "Francis B Ntumngia",
+          "Bart L Staker",
+          "Samantha J Barnes",
+          "Pradeep A Subramani",
+          "Andrew Raappana"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Plasmodium",
+          "antibody",
+          "antigen",
+          "circumsporozoite protein",
+          "epitope",
+          "malaria",
+          "pre-erythrocytic",
+          "structure",
+          "vaccine",
+          "vivax"
+        ],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.09.001",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42705228",
+        "title": "A pulmonary innate lymphoid cell-driven serotonergic neuroimmune axis orchestrates airway hyperreactivity and cough hypersensitivity.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Asthma is a heterogeneous disease characterized by airway hyperreactivity (AHR) and chronic cough, exacerbated by respiratory viruses or allergen exposure. Yet, the immune pathway-mediated serotonergic circuits underlying these responses remain poorly defined. Here, we identified a serotonergic neuroimmune axis in which pulmonary group 2 innate lymphoid cells (ILC2s) expressed tryptophan hydroxylase-1 (Tph1) and released serotonin via CCAAT/enhancer-binding protein beta (C/EBPβ)-dependent transcription following interleukin (IL)-33 stimulation. Tph1 deficiency in ILC2s and adoptive transfer experiments demonstrated that ILC2-derived serotonin amplified type 2 cytokine production via 5-hydroxytryptamine (5-HT)2A-NF-κB activation, resulting in exacerbated AHR in respiratory syncytial virus-driven asthmatic models. Using engineered viral tools, we showed that ILC2-derived serotonin sensitized vagal sensory neurons through 5-HT3A to promote cough hypersensitivity. Clinically, asthma patients exhibited elevated TPH1 and plasma serotonin levels, both of which correlated with type 2 cytokines. Together, these findings reveal that an ILC2-driven serotonergic circuit contributes to asthma pathophysiology and highlight serotonergic signaling as a therapeutic target.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.08.004",
+        "pmcid": null,
+        "authors": [
+          "Chia-Hui Luo",
+          "Jheng-Syuan Shao",
+          "Alan Chuan-Ying Lai",
+          "Wei-Chang Huang",
+          "Ko-Chien Wu",
+          "Wei-Yu Chen",
+          "Chih-Cheng Chen",
+          "Nicholas W Lukacs"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cough hypersensitivity",
+          "group 2 innate lymphoid cells",
+          "neuro-immune crosstalk",
+          "respiratory syncytial virus",
+          "serotonin",
+          "vagal sensory neuron"
+        ],
+        "weekly_match": true,
+        "score": 34.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.08.004",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42705227",
+        "title": "Twenty-year persistence of SARS-CoV-1 immune imprinting shapes antibody responses to SARS-CoV-2 infection.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Antibody imprinting is well recognized, yet its long-term dynamics and epitope specificity remain poorly understood. Here, we studied individuals sequentially infected with SARS-CoV-1 (SARS-1) and SARS-CoV-2 (SARS-2) over two decades and found durable imprinting of antibody responses following SARS-2 BF.7 breakthrough infection. Approximately 60% of isolated monoclonal antibodies were SARS-1 imprinted and targeted conserved receptor-binding domain regions, whereas 37% overcame imprinting to recognize the SARS-2 receptor-binding motif overlapping the ACE2-binding site. Notably, some SARS-1-only antibodies retained germline-like features and neutralizing activity 20 years after infection. One exceptionally imprinted broadly neutralizing antibody, THZ937, protected hamsters against contact and airborne transmission of Omicron EG.5.1, demonstrating the functional relevance of durable imprinted antibodies. Together, these findings define the remarkable longevity and molecular basis of antibody imprinting and provide insights for pan-sarbecovirus vaccine design.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.08.009",
+        "pmcid": null,
+        "authors": [
+          "Qi Zhang",
+          "Peng Chen",
+          "Fenglin Guo",
+          "Runhong Zhou",
+          "Ruihan Guo",
+          "Xiaofei Ge",
+          "Qianqian Yang",
+          "Xin Xie"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "SARS-CoV-1",
+          "SARS-CoV-2",
+          "antibody imprinting",
+          "antigenic divergence",
+          "conserved epitope",
+          "long-lived memory B cells",
+          "neutralizing antibody",
+          "sarbecoviruses"
+        ],
+        "weekly_match": true,
+        "score": 21.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.08.009",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Immunology": [
+      {
+        "pmid": "43026322",
+        "title": "Rewiring dendritic cell function with CLEC9A and DEC205 CARs.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-13",
+        "abstract": "Dendritic cells (DCs) are central orchestrators of antitumor immunity, yet their therapeutic potential is constrained by dysfunction and inadequate activation within solid tumors. Here we report chimeric antigen receptor-engineered DCs (CAR-DCs) that prime T cells and reprogram the tumor microenvironment. We identify the intracellular domains of CLEC9A or LY75 (DEC205) as essential for functional CAR-DC activity, enabling enhanced antigen uptake and cross-presentation and driving T cell expansion and function. CARs incorporating the CLEC9A or DEC205 intracellular domains triggered SYK phosphorylation and downstream signaling. In both conventional and humanized mouse models, CAR-DC therapy suppressed tumor growth and promoted expansion of tumor-reactive T cells. These findings establish CAR-DCs as scalable and clinically translatable platforms for next-generation solid tumor immunotherapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02711-3",
+        "pmcid": null,
+        "authors": [
+          "Congyi Niu",
+          "Xiaoqiu Dai",
+          "He Gao",
+          "Haiyue Zhang",
+          "Yunju Ma",
+          "Hui Wang",
+          "Zhen Xiao",
+          "Yingxi Xu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02711-3",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43015493",
+        "title": "PKA signaling controls ILC3 homeostasis and IL-23-mediated inflammation in the gut.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-11",
+        "abstract": "Group 3 innate lymphoid cells (ILC3s) are tissue-protective lymphocytes that are enriched in the healthy gut and depleted in gastrointestinal disorders. Here we created a single-cell atlas to define how ILC3s respond to distinct stimuli, observing that prostaglandin engages protein kinase A (PKA) to upregulate tissue-protective factors. In contrast, the canonical activator interleukin-23 (IL-23) decreased negative regulators of PKA, including PRKAR1A. Lineage-specific Prkar1a deletion reduced ILC3s and increased susceptibility to enteric infection in mice. PRKAR1A was not required in early life but continuously preserved ILC3 homeostasis in adults by restraining PKA activity. Overproduction of IL-23 was sufficient to reduce PRKAR1A in ILC3s and increase PKA signaling that provoked gut inflammation. Finally, ILC3s from the healthy human intestine expressed PRKAR1A, which was downregulated by IL-23 or in inflammatory bowel disease. These results demonstrate that regulated PKA signaling is essential for tissue-protective ILC3s, while IL-23 drives aberrant PKA signaling to elicit intestinal inflammation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02703-3",
+        "pmcid": null,
+        "authors": [
+          "Lan Kang",
+          "Jordan Z Zhou",
+          "Anees Ahmed",
+          "Veronika Horn",
+          "Myeong Joon Kim",
+          "Mengze Lyu",
+          "Gregory F Sonnenberg"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02703-3",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43003967",
+        "title": "Mechanosensitive YAP-RUNX1 signaling drives TH1 cell dysfunction and tumor immunosuppression.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-09",
+        "abstract": "Tissue stiffening is a predominant malignant physical alteration in cancer progression, yet its effect on specific immune subsets within the tumor microenvironment is not well defined. Here we show that elevated tissue stiffness subverts tumor-infiltrating type 1 helper T (TH1) cells to drive immunosuppression in pancreatic cancer. Mechanistically, stiffness triggers integrin-mediated mechanotransduction to activate YAP, which translocates to the nucleus and cooperates with RUNX1 to transcriptionally upregulate a set of dysfunction-associated genes. These reprogrammed TH1 cells acquire a distinct dysfunction-associated secretory phenotype, which in turn drives M2-like polarization of macrophages and amplifies local immunosuppression. Notably, inhibiting YAP expression or disrupting YAP-RUNX1 interaction reverses the dysfunctional state of TH1 cells and restores antitumor immunity. These findings delineate a mechano-immunological mechanism by which tumor stiffness subverts TH1 cell functions, indicating a possible therapeutic avenue to alleviate immunosuppression and potentiate immunotherapy efficacy in stiff tumors.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02708-y",
+        "pmcid": null,
+        "authors": [
+          "Zilan Xu",
+          "Shuang Deng",
+          "Hongzhe Zhao",
+          "Daoyuan Wang",
+          "Qingchang Jin",
+          "Chunling Xue",
+          "Shuang Liu",
+          "Shaoqiu Liu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 23.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02708-y",
+        "supplement_reason": null
+      }
+    ],
+    "Science Immunology": [
+      {
+        "pmid": "43024738",
+        "title": "TOX and PD-1 are required for the maintenance of CD4 T cell precursors during chronic infection.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-13",
+        "abstract": "In contrast with the well-established mechanisms that maintain exhausted CD8 T cells, our knowledge about the differentiation and in particular the molecular control of CD4 T cells in chronic infections is limited. Using the lymphocytic choriomeningitis virus (LCMV) infection model, we identified that CXCR5+TCF-1+ CD4 T cells, found mainly in secondary lymphoid organs, serve as precursors for the CD4 population. These cells transition into terminally differentiated cells and combine T follicular helper (TFH) cell features (IL-21 expression) with T helper 1 (TH1) cell characteristics (CXCR6 expression and IFN-γ and TNF secretion). In the CXCR5+TCF-1+ population, CD62L+ cells exhibit the highest re-expansion potential in adoptive transfer settings. All subsets express TOX and PD-1, which ensure the maintenance of the CD4 T cell population. Absence of either factor reduces the number of CD62L+ precursors and impairs their further differentiation. Overall, we define a hierarchical framework for CD4 T cell maintenance in chronic infection and reveal common mechanisms that sustain both exhausted CD4 and CD8 T cell responses.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aei3443",
+        "pmcid": null,
+        "authors": [
+          "Jacqueline Berner",
+          "Gustavo P de Almeida",
+          "Siran Lin",
+          "Miriam Kuhlmann",
+          "Lara V Donhauser",
+          "Ann-Katrin Gerullis",
+          "Madlaina von Hoesslin",
+          "Christine Wurmser"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aei3443",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43024737",
+        "title": "IFN-γ-driven MHC class II on gut epithelium induces cytolytic TH1 cell differentiation and stem cell loss in graft-versus-host disease.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-13",
+        "abstract": "The molecular cues by which CD4 T cells are invoked to mediate lethal gut graft-versus-host disease (GVHD) at the epithelial interface after allogeneic hematopoietic stem cell transplantation are unclear. Here, we demonstrate that MHC class II (MHCII) but not MHC class I expression by intestinal epithelial cells (IECs) within the first 3 days of transplantation promotes lethal GVHD in mice. This was dependent on direct IFN-γ-dependent induction of MHCII on IECs, which expanded perforin/granzyme B-expressing cytolytic donor TH1 cell while restraining TH17 cell differentiation locally within the ileum. In contrast, intestinal stem cells (ISCs) were preferentially and progressively depleted by cytolytic TH1 cells as a result of IFN-γ-induced MHCII expression. Together, IEC-intrinsic IFN-γ signaling is critical for the MHCII-dependent early local generation of cytolytic TH1 cells that thereafter mediate MHCII-dependent ISC deletion. These data demonstrate a critical IFN-γ-MHCII feed-forward axis in the initiation of cytolytic TH1 cell-dependent gut disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.ady3001",
+        "pmcid": null,
+        "authors": [
+          "Motoko Koyama",
+          "Albert C Yeh",
+          "Françoise Haeseleer",
+          "Kathleen S Ensbey",
+          "Shruti S Bhise",
+          "Iona S Schuster",
+          "Samuel R W Legg",
+          "Ethan L Nelson"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.ady3001",
+        "supplement_reason": null
+      }
+    ],
+    "Bioinformatics": [
+      {
+        "pmid": "43016319",
+        "title": "Deep learning-based enhancing spatial biological context parsing.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-12",
+        "abstract": "MOTIVATION: The rapid advancement of spatial transcriptomics (ST) has established a foundation for the complementary integration of multimodal information from gene expression profiles, spatial localization, and histological images. However, noise and data heterogeneity complicate the characterization of spatial relationships and tissue structure.\nRESULTS: In this study, we develop a deep learning framework, CroSP, based on a multi-view graph autoencoder. The framework integrates gene expression profiles, spatial locations, and tissue morphology information into a low-dimensional latent representation. Cross-view contrastive learning and metric learning coordinate the complementary views. Across datasets from multiple platforms and spatial resolutions, CroSP improved spatial domain identification and delineated brain and olfactory bulb structures. Analyses using established downstream methods further characterized spatially variable genes and the spatial heterogeneity, immune microenvironments, and cell-cell communication in human breast cancer tissue. These results support the use of CroSP for spatial biological analysis in healthy and diseased tissues.\nAVAILABILITY AND IMPLEMENTATION: Source code and tutorials: https://github.com/Biowust/CroSP.git. Archived code: https://doi.org/10.5281/zenodo.22675113. Public raw datasets: https://doi.org/10.5281/zenodo.22533825.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag829",
+        "pmcid": null,
+        "authors": [
+          "Junlin Xu",
+          "Xinjie Liao",
+          "Chang Zhou",
+          "Shuting Jin",
+          "Yajie Meng",
+          "Xianfang Tang",
+          "Changcheng Lu",
+          "Jialiang Yang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "clustering",
+          "spatial domain identification",
+          "spatial multi-omics"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag829",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43009207",
+        "title": "SeekRBP: Leveraging Sequence-Structure Integration with Reinforcement Learning for Receptor-Binding Protein Identification.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-10",
+        "abstract": "MOTIVATION: Receptor-binding proteins (RBPs) initiate viral infection and determine host specificity, serving as key targets for phage engineering and therapy. However, the identification of RBPs is complicated by their extreme sequence divergence, which often renders traditional homology-based alignment methods ineffective. While machine learning offers a promising alternative, such approaches struggle with severe class imbalance and the difficulty of selecting informative negative samples from heterogeneous tail proteins. Existing methods often fail to balance learning from these \"hard negatives\" while maintaining generalization.\nRESULTS: We present SeekRBP, a sequence-structure framework that models negative sampling as a sequential decision-making problem. By employing a multi-armed bandit strategy, SeekRBP dynamically prioritizes informative non-RBP sequences based on real-time training feedback, complemented by a multimodal fusion of protein language and structural embeddings. Benchmarking demonstrates that SeekRBP consistently outperforms static sampling strategies. Furthermore, a case study on Vibrio phages validates that SeekRBP effectively identifies RBPs to improve host prediction, highlighting its potential for large-scale annotation and synthetic biology applications.\nAVAILABILITY: The source code of SeekRBP is available via: https://github.com/Saillxl/SeekRBP.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag813",
+        "pmcid": null,
+        "authors": [
+          "Xiling Luo",
+          "Le Ou-Yang",
+          "Yang Shen",
+          "Jiaojiao Guan",
+          "Dehan Cai",
+          "Jun Zhang",
+          "Guoliang Xing",
+          "Yanni Sun"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag813",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Protocols": []
+  },
+  "selected_papers": {
+    "Nature": [
+      {
+        "pmid": "43015474",
+        "title": "NRF2 is a mechanosensitive checkpoint for NLRP3 inflammasome activation.",
+        "journal": "Nature",
+        "pub_date": "2026-11-11",
+        "abstract": "Disconnects between in vitro and in vivo results in experimental biology have long been recognized as potential hurdles to understanding health and disease. A prototypical example of such a disconnect is the NLRP3 inflammasome, which mediates inflammation in diverse settings of disease and protective immunity1,2. Activation of the NLRP3 inflammasome in vitro requires two signals: (1) priming by pathogen-associated molecular patterns such as bacterial lipopolysaccharides and (2) activation by molecules that disrupt cellular homeostasis1,3. By contrast, the NLRP3 inflammasome in vivo is activated by lipopolysaccharide alone. The mechanisms that underlie the difference between in vitro and in vivo activation of the NLRP3 inflammasome are undefined. Here we report that extracellular matrix (ECM) stiffness is a determinant of NLRP3 activities and that in vitro systems using physiological ECM stiffness enable one-signal in vivo-like NLRP3 activities to occur in human and mouse phagocytes. Physiological ECM stiffness induced expression of the transcription factor NRF2, which was found to be necessary for one-signal NLRP3 activation. Mechanistically, we identify Panx1 as an NRF2-regulated gene that promotes NLRP3 activity. Macrophages derived from the stiff matrix of the bone-osteoclasts-had reduced NRF2 levels and impaired NLRP3 activity. Moreover, alveolar macrophages from patients with pulmonary fibrosis displayed reduced NRF2 activity. Finally, NRF2 was required for antitumour immunity induced by cancer vaccines consisting of NLRP3 agonistic adjuvants. These findings indicate that NRF2 may be a transcriptional checkpoint that controls NLRP3 inflammasome activity.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11324-7",
+        "pmcid": null,
+        "authors": [
+          "Daniel Okin",
+          "Joon H Choi",
+          "Chun Wang",
+          "Anh Cao",
+          "Daniel Fisch",
+          "Weiyi Ma",
+          "Katherine E Lindblad",
+          "Marta Valenti"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 31.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11324-7",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43015469",
+        "title": "Mitochondrial protein import defects enhance tumour immunogenicity.",
+        "journal": "Nature",
+        "pub_date": "2026-11-11",
+        "abstract": "Tumour cells evade detection and elimination by the immune system through a suite of adaptations1, including the repression of antigen presentation, which is required for the recognition of tumour cells by CD8+ T cells. Mitochondria have emerged as targets for enhancing antitumour immunity; however, the extensive mitochondrial proteome has remained largely unstudied for its ability to modulate immune responses. Here we show that defects in the mitochondrial protein import machinery promote tumour immunogenicity and synergize with immune checkpoint blockade treatment in melanoma models. Mitochondrial protein import perturbation, specifically through depletion of the TIM23 import complex subunit TIMM50, enhances tumour immunogenicity through a pathway involving mitochondrial DNA escape, cGAS-STING pathway activation and interferon-β (IFNβ) secretion. Secreted IFNβ signals through the type I IFN receptor to activate the JAK-STAT pathway, resulting in increased antigen presentation on MHC class I complexes. Mitochondrial DNA escape in Timm50-depleted cells is linked to the formation of mitochondrial-derived vesicles. Depletion of SNX9 and RAB9, involved in mitochondrial-derived vesicle formation2, suppresses mitochondrial DNA-dependent type I IFN production and signalling. By disrupting mitochondrial proteostasis and membrane architecture, defective protein import in Timm50-depleted cells drives the immune phenotype. This study shows that mitochondrial protein import inhibition causes tumour immunogenicity, including sensitization to immune checkpoint blockade, by promoting mitochondrial DNA escape and IFNβ-driven MHC class I antigen presentation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11249-1",
+        "pmcid": null,
+        "authors": [
+          "Thomas D Jackson",
+          "Jonathan M Palozzi",
+          "Christopher D McGann",
+          "Tevis Vitale",
+          "Ruth Choa",
+          "Hieu H M Nguyen",
+          "Joao A Paulo",
+          "Pedro Latorre-Muro"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 27.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11249-1",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43015472",
+        "title": "Epigenetic heterogeneity in breast tumours informs diagnosis and prognosis.",
+        "journal": "Nature",
+        "pub_date": "2026-11-11",
+        "abstract": "Breast cancer, the most diagnosed cancer among women, is stratified by gene expression patterns into luminal and basal-like subtypes, and the latter is associated with worse prognosis1-3. Recent advances in single-cell technologies have underscored the presence of intratumour heterogeneity, which poses substantial challenges in cancer treatment and achieving long-term disease-free survival4-7. Here we extensively profile epigenetic heterogeneity in a cohort of treatment-naive human luminal tumours, which were obtained directly after surgical resection. By applying a single-cell epigenetic approach based on cytometry by time-of-flight, we identify a recurrent subpopulation of basal-like cells in luminal tumours with a conserved epigenetic signature across patients. These basal-like cells, also identified by deconvolution of whole-genome DNA methylation patterns, are characterized by high expression of aggressive oncogenic traits and downregulation of hormone receptor signalling. Direct comparison of single-cell proteomic and genomic profiling of monomethylation and trimethylation of histone 3 on lysine 4 revealed that these marks are key features associated with loss of luminal identity. Finally, we highlight the potential of concomitant single-molecule profiling of histone modifications on cell-free nucleosomes in blood as an epigenetic liquid biopsy approach for early diagnosis of breast cancer. Moreover, the epigenetic basal signature measured in blood is linked to prognosis, which enables the identification of patients at increased risk for disease relapse.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41586-026-11230-y",
+        "pmcid": null,
+        "authors": [
+          "Noa Furth",
+          "Christina Riemenschneider",
+          "Yishai Arieli",
+          "Matan Avni",
+          "Michael-Yakov Povolotski",
+          "Hadas Yung",
+          "Shiri Karagach",
+          "Ofir Atrakchi"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 20.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41586-026-11230-y",
+        "supplement_reason": null
+      }
+    ],
+    "Science": [
+      {
+        "pmid": "43019438",
+        "title": "Differentiation of stem-like CD4+ T cells modulates early effector responses in colorectal cancer.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-12",
+        "abstract": "Strategies to improve cancer immunotherapy have largely focused on the intratumor immunosuppressive microenvironment, whereas approaches to amplify peripheral T cells and promote tumor recruitment have not been thoroughly explored. Using imaging mass cytometry in patients with colorectal cancer (CRC), we observed T helper 1 (TH1)-like immune architectures in mismatch repair-deficient tumors associated with response to anti-programmed cell death protein 1 (PD-1) immunotherapy. By contrast, mismatch repair-proficient (pMMR) tumors showed regulatory T-dominant spatial interactions. Clonal analyses revealed that stem-like CD4+ T cells differentiated into TH1-like cells after PD-1 blockade. In pMMR CRC mouse models, combined OX40 agonist and PD-1 blockade suppressed tumor progression by expanding Il7r+ early effector CD4+ intermediates in tumor-draining lymph nodes, promoting migration and connection with TH1-like cells. This was accompanied by interferon-γ-dependent induction of immunostimulatory monocyte-macrophages and CD8+ effector T cells. These findings suggest that leveraging peripheral CD4+ T cell amplification may improve immunotherapy responses.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.ady7788",
+        "pmcid": null,
+        "authors": [
+          "Yu Zhang",
+          "Hu Nie",
+          "Zixuan Dai",
+          "Liying Zhao",
+          "Yihong Wan",
+          "Yi Wang",
+          "Yikang Chen",
+          "Xinhua Chen"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 35.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.ady7788",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43019437",
+        "title": "The genetic landscape of canine tumors: Insights from the Canine Cancer Genome Atlas (CCGA).",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-12",
+        "abstract": "The Canine Cancer Genome Atlas (CCGA, https://caninecancergenomeatlas.org/) is an open, accessible comparative oncology resource that harmonizes whole-exome data across 10 canine tumor histotypes. It aggregates 667 tumor-normal pairs with curated single-nucleotide variants, insertions and deletions, structural variants, and copy number aberrations. Cohort-depth stratification distinguished primary, exploratory, and descriptive analyses. Selection analyses identified 39 cancer drivers, including recurrent TP53, PIK3CA, PTEN, SETD2, MAP3K14, and FAT4 alterations; copy number events included MYC amplifications and PTEN deletions. Direct comparison with matched human cancers revealed conserved and species-enriched oncogenic mechanisms, pathways, and therapeutic contexts. The CCGA standardizes alignment, variant calling, and annotation through consensus pipelines and provides downloadable data and interactive analyses. This reusable framework advances precision veterinary oncology and strengthens translational bridges to human cancer, supporting comparative and translational research.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aeg8777",
+        "pmcid": null,
+        "authors": [
+          "Eugenio Mazzone",
+          "Laura Marconato",
+          "Antonella Fanelli",
+          "Luciano Cascione",
+          "Francesco Bertoni",
+          "Caterina Marchiò",
+          "Anna Sapino",
+          "Luca Aresu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aeg8777",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43019419",
+        "title": "A trapped catalytic product acts as molecular glue for innate immune signalosome assembly.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-12",
+        "abstract": "Innate immune systems of living organisms are essential for host defense. Central to these systems is the Toll/interleukin-1 receptor (TIR) domain, an evolutionarily conserved module. From antiphage systems in prokaryotes to innate immune systems in plants, TIR domains have catalytic activity. However, TIR domains within animal innate immune receptors, such as Toll-like receptors (TLRs), have been considered as scaffolds for adaptor recruitment. We report that the TLR4 TIR domain possesses an allosterically activated nicotinamide adenine dinucleotide (NAD+) hydrolase (NADase) activity that operates in a single-turnover manner. Its product, adenosine diphosphate ribose, is not released but entrapped as a \"molecular glue,\" stabilizing a composite catalytic pocket with adaptor TIR domain-containing adaptor protein (TIRAP) to nucleate signalosome assembly. This \"produce-and-trap\" mechanism represents a signaling mode that integrates enzymatic activity with adaptor function to drive downstream signaling.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aef3150",
+        "pmcid": null,
+        "authors": [
+          "Qi Liu",
+          "Zhongjian Bai",
+          "Tianyi Liu",
+          "Fangshuai Jia",
+          "Yi Ji",
+          "Canxi Chen",
+          "Yao Gong",
+          "Liuyuan Duan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aef3150",
+        "supplement_reason": null
+      }
+    ],
+    "Cell": [
+      {
+        "pmid": "43014307",
+        "title": "The blood-brain barrier imports diverse neuroprotective proteins through pathways impaired early in Alzheimer's disease models.",
+        "journal": "Cell",
+        "pub_date": "2026-11-11",
+        "abstract": "The blood-brain barrier (BBB) has been defined primarily by what it excludes, yet the scale and function of physiological blood-to-brain protein transport remain largely unknown. Using bioorthogonal proteomics, we find that the healthy BBB samples 191 plasma proteins and permits 92 into the brain parenchyma. Enriched for carrier and metabolic functions, these proteins home to distinct brain cell types, such as apolipoprotein A1 (APOA1) to astrocytes and alpha-1 antitrypsin (SERPINA1) to microglia. This cell-type tropism relies on a BBB-parenchyma receptor hand-off: APOA1 crosses the BBB via SR-B1 and engages astrocytic ATP-binding cassette transporter A1 (ABCA1), a key Alzheimer's risk gene, driving cholesterol efflux that supports synapse integrity. Unlike LPS-induced nonspecific leakage, early-stage 5xFAD mice show selective BBB transport remodeling, with reduced APOA1 and increased SERPINA1 uptake. Hepatic APOA1 overexpression restores APOA1 in the 5xFAD brain, rescuing astrocytic, synaptic, and behavioral deficits. These findings recast the BBB as a selective interface that recruits neuroprotective circulatory proteins for brain health.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.039",
+        "pmcid": null,
+        "authors": [
+          "Haoyue Zhou",
+          "Jason C Maynard",
+          "Alexander J Pennacchio",
+          "Amanda Apolonio",
+          "Xi Liu",
+          "Lei Yao",
+          "Mina Negahban",
+          "Zimo Zhang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Alzheimer’s disease",
+          "astrocytes",
+          "bioorthogonal chemistry",
+          "blood-brain barrier",
+          "brain-body crosstalk",
+          "cholesterol efflux",
+          "plasma proteins",
+          "proteomics",
+          "receptor-mediated transcytosis"
+        ],
+        "weekly_match": true,
+        "score": 26.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.039",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43003088",
+        "title": "Reconstructing developmental and disease progression with sample-level embeddings.",
+        "journal": "Cell",
+        "pub_date": "2026-11-09",
+        "abstract": "Single-cell genomics is transformative for characterizing cellular heterogeneity, but many biological questions require comparing samples rather than individual cells. Typical analyses compare \"case\" and \"control\" groups, ignoring sample-level variation within them. Here, we present scSLIDE (single-cell sample-level inference using density estimation), a framework that transforms each sample's single-cell data into a compact profile describing where its cells are distributed in high-dimensional space. By comparing these density profiles, scSLIDE calculates embeddings to characterize variation across samples. We implement scSLIDE in version 6 of our Seurat package and apply it to COVID-19 infection, Alzheimer's disease, and zebrafish embryogenesis. scSLIDE reveals patient subgroups, reconstructs disease trajectories, and identifies coordinated cellular programs across samples. We discover separable axes of infection and severity, a trajectory of Alzheimer's progression, and embryonic \"pseudostages\" that vary across and within time points. Our results demonstrate how case-control analyses collapse rich biological variation into binary labels and how sample-level embedding represents a powerful analytical alternative.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.018",
+        "pmcid": null,
+        "authors": [
+          "Longda Jiang",
+          "Zhixin Cyrillus Tan",
+          "Isabella N Grabski",
+          "Yuhan Hao",
+          "Nathan Nakatsuka",
+          "Sourav Sarkar",
+          "Anagha Shenoy",
+          "Rahul Satija"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Alzheimer’s disease",
+          "COVID-19",
+          "sample-level embeddings",
+          "single cell",
+          "single-cell RNA sequencing",
+          "zebrafish embryogenesis"
+        ],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.018",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43020032",
+        "title": "Single-cell, multi-region profiling of the macaque brain across the lifespan.",
+        "journal": "Cell",
+        "pub_date": "2026-11-12",
+        "abstract": "Brain aging is a complex process with profound health and societal consequences. However, the molecular and cellular pathways that govern its progression, and inter- and intra-individual variation, remain poorly defined. We present a transcriptomic atlas of 5.3 million cells from 582 samples spanning 11 brain regions of 55 rhesus macaques (aged 0.5-21 years). We identify age-depleted and vulnerable neuronal populations and subtle, age-associated compositional differences in glia-detectable only at single-cell resolution. We chart convergent and divergent age-associated molecular signatures across regions and cell types, which include sex-specific signatures that could underlie biases in neurological disorders. These signatures overlap those of Alzheimer's disease (AD), which suggests that aging and AD share molecular roots that emerge at different ages and in region- and sex-specific windows of vulnerability. This work provides a temporal, regional, and sex-stratified atlas of the aging primate brain, offering insights into cell-type-specific vulnerabilities and regional heterogeneity with translational human relevance.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.09.014",
+        "pmcid": "PMC13764095",
+        "authors": [
+          "Wei Yang",
+          "Kelsi L Watkins",
+          "Alex R DeCasien",
+          "Mary B O'Neill",
+          "Martin O Bohlen",
+          "Diana R O'Day",
+          "Elliot A Smith",
+          "Madeleine Duran"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "aging",
+          "molecular aging",
+          "neurodegeneration",
+          "neuroscience",
+          "primate",
+          "sex differences",
+          "single-nucleus RNA sequencing"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.09.014",
+        "supplement_reason": null
+      }
+    ],
+    "Cell metabolism": [],
+    "immunity": [
+      {
+        "pmid": "42705228",
+        "title": "A pulmonary innate lymphoid cell-driven serotonergic neuroimmune axis orchestrates airway hyperreactivity and cough hypersensitivity.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Asthma is a heterogeneous disease characterized by airway hyperreactivity (AHR) and chronic cough, exacerbated by respiratory viruses or allergen exposure. Yet, the immune pathway-mediated serotonergic circuits underlying these responses remain poorly defined. Here, we identified a serotonergic neuroimmune axis in which pulmonary group 2 innate lymphoid cells (ILC2s) expressed tryptophan hydroxylase-1 (Tph1) and released serotonin via CCAAT/enhancer-binding protein beta (C/EBPβ)-dependent transcription following interleukin (IL)-33 stimulation. Tph1 deficiency in ILC2s and adoptive transfer experiments demonstrated that ILC2-derived serotonin amplified type 2 cytokine production via 5-hydroxytryptamine (5-HT)2A-NF-κB activation, resulting in exacerbated AHR in respiratory syncytial virus-driven asthmatic models. Using engineered viral tools, we showed that ILC2-derived serotonin sensitized vagal sensory neurons through 5-HT3A to promote cough hypersensitivity. Clinically, asthma patients exhibited elevated TPH1 and plasma serotonin levels, both of which correlated with type 2 cytokines. Together, these findings reveal that an ILC2-driven serotonergic circuit contributes to asthma pathophysiology and highlight serotonergic signaling as a therapeutic target.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.08.004",
+        "pmcid": null,
+        "authors": [
+          "Chia-Hui Luo",
+          "Jheng-Syuan Shao",
+          "Alan Chuan-Ying Lai",
+          "Wei-Chang Huang",
+          "Ko-Chien Wu",
+          "Wei-Yu Chen",
+          "Chih-Cheng Chen",
+          "Nicholas W Lukacs"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cough hypersensitivity",
+          "group 2 innate lymphoid cells",
+          "neuro-immune crosstalk",
+          "respiratory syncytial virus",
+          "serotonin",
+          "vagal sensory neuron"
+        ],
+        "weekly_match": true,
+        "score": 34.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.08.004",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42962666",
+        "title": "Mitochondrial DNA abundance is a determinant of immunogenic cell death in cancer.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Cells experiencing mitochondrial stress can undergo apoptosis or cell death that triggers innate immune activation. We examined the mechanisms determining these distinct outcomes in cancer. Abundant mitochondrial DNA (mtDNA) and high expression of the cGAS-STING pathway were features of KRAS-mutant cancers. In a pharmacological screen, MEK inhibitor (MEKi) effectively induced mtDNA release into the cytosol in KRAS-mutant cancer cells. However, MEKi also induced PRKN-mediated mitophagy, which limited mtDNA release by eliminating damaged mitochondria. Inhibition of mitophagy sustained mtDNA efflux and amplified cGAS-STING signaling. Mechanistically, PRKN-mediated mitophagy restrained mitochondrial outer membrane permeabilization (MOMP) to limit mtDNA efflux. The balance between mtDNA and cytochrome c (cyt.c) release defined two immunologically distinct outcomes: immunogenic cell death (ICD) and apoptosis. In preclinical models, combined inhibition of MEK and mitophagy induced robust dendritic cell (DC) activation and promoted CD8+ T cell-mediated antitumor immunity. Consistently, PRKN expression negatively correlated with immune infiltration in human cancers. Collectively, these findings provide a rationale for combination strategies targeting mitochondrial dynamics to augment antitumor immunity.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.002",
+        "pmcid": null,
+        "authors": [
+          "Kosuke Tanaka",
+          "Yasuki Adachi",
+          "Takuma Irie",
+          "Tomoko Yamamori-Morita",
+          "Kazuhiro Kumagai",
+          "Takuya Owari",
+          "Genki Okumura",
+          "Yoshihisa Kobayashi"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "KRAS-mutant cancer",
+          "TWINKLE",
+          "cGAS-STING",
+          "immunogenic cell death",
+          "mitochondrial DNA",
+          "mitophagy",
+          "molecularly targeted therapy",
+          "subapoptotic MOMP",
+          "type I interferon"
+        ],
+        "weekly_match": true,
+        "score": 33.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.002",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "42956746",
+        "title": "Growth factor VEGF-B sustains intestinal Tfh cell stemness to restrict Taurinivorans outgrowth and microbiota-driven obesity.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-10",
+        "abstract": "Autocrine signaling through vascular endothelial growth factor receptor-1 (VEGFR-1) reprograms T cell metabolism upon TCR stimulation. We found that mice bearing conditional deletion of Flt1 (encoding VEGFR-1) in T cells developed spontaneous obesity with advancing age. Analyses of lymphoid and metabolic tissues identified a VEGFR-1+ T follicular helper (Tfh) population in Peyer's patches and mesenteric lymph nodes. Flt1 deletion impaired Tfh fitness and reduced secretory IgA in the gut, resulting in unrestricted expansion of the pathobiont Taurinivorans. Taurinivorans overgrowth depleted host taurine, which drove obesity via suppressed adipocyte lipolysis and thermogenesis. Mechanistically, a VEGFR-1-AKT signaling axis promoted Tfh cell stemness by limiting p53-mediated senescence. This Tfh-microbiota-obesity pathway was also observed in diet-induced obese mice and in humans. Oral administration of IgA reduced Taurinivorans and alleviated adiposity, highlighting the therapeutic potential of this axis. Tfh cell senescence impairs IgA production, disrupting gut microbial homeostasis, with consequences to host metabolic disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.004",
+        "pmcid": null,
+        "authors": [
+          "Jin-An Zhou",
+          "Jun Tu",
+          "Jiang Yue",
+          "Qi-Er Zhang",
+          "Yalan Chen",
+          "Qiuju Fan",
+          "Jing Ma",
+          "Yong Zuo"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "IgA",
+          "T follicular helper cells",
+          "Taurinivorans",
+          "Tfh cells",
+          "VEGF-B",
+          "VEGFR-1",
+          "obesity",
+          "senescence",
+          "stemness"
+        ],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.004",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Immunology": [
+      {
+        "pmid": "43003967",
+        "title": "Mechanosensitive YAP-RUNX1 signaling drives TH1 cell dysfunction and tumor immunosuppression.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-09",
+        "abstract": "Tissue stiffening is a predominant malignant physical alteration in cancer progression, yet its effect on specific immune subsets within the tumor microenvironment is not well defined. Here we show that elevated tissue stiffness subverts tumor-infiltrating type 1 helper T (TH1) cells to drive immunosuppression in pancreatic cancer. Mechanistically, stiffness triggers integrin-mediated mechanotransduction to activate YAP, which translocates to the nucleus and cooperates with RUNX1 to transcriptionally upregulate a set of dysfunction-associated genes. These reprogrammed TH1 cells acquire a distinct dysfunction-associated secretory phenotype, which in turn drives M2-like polarization of macrophages and amplifies local immunosuppression. Notably, inhibiting YAP expression or disrupting YAP-RUNX1 interaction reverses the dysfunctional state of TH1 cells and restores antitumor immunity. These findings delineate a mechano-immunological mechanism by which tumor stiffness subverts TH1 cell functions, indicating a possible therapeutic avenue to alleviate immunosuppression and potentiate immunotherapy efficacy in stiff tumors.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02708-y",
+        "pmcid": null,
+        "authors": [
+          "Zilan Xu",
+          "Shuang Deng",
+          "Hongzhe Zhao",
+          "Daoyuan Wang",
+          "Qingchang Jin",
+          "Chunling Xue",
+          "Shuang Liu",
+          "Shaoqiu Liu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 23.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02708-y",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43026322",
+        "title": "Rewiring dendritic cell function with CLEC9A and DEC205 CARs.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-13",
+        "abstract": "Dendritic cells (DCs) are central orchestrators of antitumor immunity, yet their therapeutic potential is constrained by dysfunction and inadequate activation within solid tumors. Here we report chimeric antigen receptor-engineered DCs (CAR-DCs) that prime T cells and reprogram the tumor microenvironment. We identify the intracellular domains of CLEC9A or LY75 (DEC205) as essential for functional CAR-DC activity, enabling enhanced antigen uptake and cross-presentation and driving T cell expansion and function. CARs incorporating the CLEC9A or DEC205 intracellular domains triggered SYK phosphorylation and downstream signaling. In both conventional and humanized mouse models, CAR-DC therapy suppressed tumor growth and promoted expansion of tumor-reactive T cells. These findings establish CAR-DCs as scalable and clinically translatable platforms for next-generation solid tumor immunotherapy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02711-3",
+        "pmcid": null,
+        "authors": [
+          "Congyi Niu",
+          "Xiaoqiu Dai",
+          "He Gao",
+          "Haiyue Zhang",
+          "Yunju Ma",
+          "Hui Wang",
+          "Zhen Xiao",
+          "Yingxi Xu"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02711-3",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43015493",
+        "title": "PKA signaling controls ILC3 homeostasis and IL-23-mediated inflammation in the gut.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-11",
+        "abstract": "Group 3 innate lymphoid cells (ILC3s) are tissue-protective lymphocytes that are enriched in the healthy gut and depleted in gastrointestinal disorders. Here we created a single-cell atlas to define how ILC3s respond to distinct stimuli, observing that prostaglandin engages protein kinase A (PKA) to upregulate tissue-protective factors. In contrast, the canonical activator interleukin-23 (IL-23) decreased negative regulators of PKA, including PRKAR1A. Lineage-specific Prkar1a deletion reduced ILC3s and increased susceptibility to enteric infection in mice. PRKAR1A was not required in early life but continuously preserved ILC3 homeostasis in adults by restraining PKA activity. Overproduction of IL-23 was sufficient to reduce PRKAR1A in ILC3s and increase PKA signaling that provoked gut inflammation. Finally, ILC3s from the healthy human intestine expressed PRKAR1A, which was downregulated by IL-23 or in inflammatory bowel disease. These results demonstrate that regulated PKA signaling is essential for tissue-protective ILC3s, while IL-23 drives aberrant PKA signaling to elicit intestinal inflammation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02703-3",
+        "pmcid": null,
+        "authors": [
+          "Lan Kang",
+          "Jordan Z Zhou",
+          "Anees Ahmed",
+          "Veronika Horn",
+          "Myeong Joon Kim",
+          "Mengze Lyu",
+          "Gregory F Sonnenberg"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02703-3",
+        "supplement_reason": null
+      }
+    ],
+    "Science Immunology": [
+      {
+        "pmid": "43024737",
+        "title": "IFN-γ-driven MHC class II on gut epithelium induces cytolytic TH1 cell differentiation and stem cell loss in graft-versus-host disease.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-13",
+        "abstract": "The molecular cues by which CD4 T cells are invoked to mediate lethal gut graft-versus-host disease (GVHD) at the epithelial interface after allogeneic hematopoietic stem cell transplantation are unclear. Here, we demonstrate that MHC class II (MHCII) but not MHC class I expression by intestinal epithelial cells (IECs) within the first 3 days of transplantation promotes lethal GVHD in mice. This was dependent on direct IFN-γ-dependent induction of MHCII on IECs, which expanded perforin/granzyme B-expressing cytolytic donor TH1 cell while restraining TH17 cell differentiation locally within the ileum. In contrast, intestinal stem cells (ISCs) were preferentially and progressively depleted by cytolytic TH1 cells as a result of IFN-γ-induced MHCII expression. Together, IEC-intrinsic IFN-γ signaling is critical for the MHCII-dependent early local generation of cytolytic TH1 cells that thereafter mediate MHCII-dependent ISC deletion. These data demonstrate a critical IFN-γ-MHCII feed-forward axis in the initiation of cytolytic TH1 cell-dependent gut disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.ady3001",
+        "pmcid": null,
+        "authors": [
+          "Motoko Koyama",
+          "Albert C Yeh",
+          "Françoise Haeseleer",
+          "Kathleen S Ensbey",
+          "Shruti S Bhise",
+          "Iona S Schuster",
+          "Samuel R W Legg",
+          "Ethan L Nelson"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.ady3001",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43024738",
+        "title": "TOX and PD-1 are required for the maintenance of CD4 T cell precursors during chronic infection.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-13",
+        "abstract": "In contrast with the well-established mechanisms that maintain exhausted CD8 T cells, our knowledge about the differentiation and in particular the molecular control of CD4 T cells in chronic infections is limited. Using the lymphocytic choriomeningitis virus (LCMV) infection model, we identified that CXCR5+TCF-1+ CD4 T cells, found mainly in secondary lymphoid organs, serve as precursors for the CD4 population. These cells transition into terminally differentiated cells and combine T follicular helper (TFH) cell features (IL-21 expression) with T helper 1 (TH1) cell characteristics (CXCR6 expression and IFN-γ and TNF secretion). In the CXCR5+TCF-1+ population, CD62L+ cells exhibit the highest re-expansion potential in adoptive transfer settings. All subsets express TOX and PD-1, which ensure the maintenance of the CD4 T cell population. Absence of either factor reduces the number of CD62L+ precursors and impairs their further differentiation. Overall, we define a hierarchical framework for CD4 T cell maintenance in chronic infection and reveal common mechanisms that sustain both exhausted CD4 and CD8 T cell responses.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aei3443",
+        "pmcid": null,
+        "authors": [
+          "Jacqueline Berner",
+          "Gustavo P de Almeida",
+          "Siran Lin",
+          "Miriam Kuhlmann",
+          "Lara V Donhauser",
+          "Ann-Katrin Gerullis",
+          "Madlaina von Hoesslin",
+          "Christine Wurmser"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aei3443",
+        "supplement_reason": null
+      }
+    ],
+    "Bioinformatics": [
+      {
+        "pmid": "43016319",
+        "title": "Deep learning-based enhancing spatial biological context parsing.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-12",
+        "abstract": "MOTIVATION: The rapid advancement of spatial transcriptomics (ST) has established a foundation for the complementary integration of multimodal information from gene expression profiles, spatial localization, and histological images. However, noise and data heterogeneity complicate the characterization of spatial relationships and tissue structure.\nRESULTS: In this study, we develop a deep learning framework, CroSP, based on a multi-view graph autoencoder. The framework integrates gene expression profiles, spatial locations, and tissue morphology information into a low-dimensional latent representation. Cross-view contrastive learning and metric learning coordinate the complementary views. Across datasets from multiple platforms and spatial resolutions, CroSP improved spatial domain identification and delineated brain and olfactory bulb structures. Analyses using established downstream methods further characterized spatially variable genes and the spatial heterogeneity, immune microenvironments, and cell-cell communication in human breast cancer tissue. These results support the use of CroSP for spatial biological analysis in healthy and diseased tissues.\nAVAILABILITY AND IMPLEMENTATION: Source code and tutorials: https://github.com/Biowust/CroSP.git. Archived code: https://doi.org/10.5281/zenodo.22675113. Public raw datasets: https://doi.org/10.5281/zenodo.22533825.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag829",
+        "pmcid": null,
+        "authors": [
+          "Junlin Xu",
+          "Xinjie Liao",
+          "Chang Zhou",
+          "Shuting Jin",
+          "Yajie Meng",
+          "Xianfang Tang",
+          "Changcheng Lu",
+          "Jialiang Yang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "clustering",
+          "spatial domain identification",
+          "spatial multi-omics"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag829",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43009207",
+        "title": "SeekRBP: Leveraging Sequence-Structure Integration with Reinforcement Learning for Receptor-Binding Protein Identification.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-10",
+        "abstract": "MOTIVATION: Receptor-binding proteins (RBPs) initiate viral infection and determine host specificity, serving as key targets for phage engineering and therapy. However, the identification of RBPs is complicated by their extreme sequence divergence, which often renders traditional homology-based alignment methods ineffective. While machine learning offers a promising alternative, such approaches struggle with severe class imbalance and the difficulty of selecting informative negative samples from heterogeneous tail proteins. Existing methods often fail to balance learning from these \"hard negatives\" while maintaining generalization.\nRESULTS: We present SeekRBP, a sequence-structure framework that models negative sampling as a sequential decision-making problem. By employing a multi-armed bandit strategy, SeekRBP dynamically prioritizes informative non-RBP sequences based on real-time training feedback, complemented by a multimodal fusion of protein language and structural embeddings. Benchmarking demonstrates that SeekRBP consistently outperforms static sampling strategies. Furthermore, a case study on Vibrio phages validates that SeekRBP effectively identifies RBPs to improve host prediction, highlighting its potential for large-scale annotation and synthetic biology applications.\nAVAILABILITY: The source code of SeekRBP is available via: https://github.com/Saillxl/SeekRBP.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag813",
+        "pmcid": null,
+        "authors": [
+          "Xiling Luo",
+          "Le Ou-Yang",
+          "Yang Shen",
+          "Jiaojiao Guan",
+          "Dehan Cai",
+          "Jun Zhang",
+          "Guoliang Xing",
+          "Yanni Sun"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag813",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Protocols": []
+  },
+  "fulltext_cache": {}
+}

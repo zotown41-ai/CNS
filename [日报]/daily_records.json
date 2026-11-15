@@ -2,10 +2,10 @@
   "schema_version": "1.0",
   "task": "paper-overview-extractor-rss",
   "status": "partial_success",
-  "generated_at": "2026-11-14T20:01:58.123015+00:00",
+  "generated_at": "2026-11-15T20:00:34.330777+00:00",
   "date_range": {
-    "start": "2026-11-14",
-    "end": "2026-11-14"
+    "start": "2026-11-15",
+    "end": "2026-11-15"
   },
   "inputs": {
     "journals_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\目标期刊.txt",
@@ -32,10 +32,10 @@
   },
   "summary": {
     "journal_count": 10,
-    "paper_count": 1,
+    "paper_count": 0,
     "pubmed_enriched_count": 0,
-    "llm_enhanced_count": 1,
-    "llm_google_fallback_count": 1
+    "llm_enhanced_count": 0,
+    "llm_google_fallback_count": 0
   },
   "journals": [
     {
@@ -245,58 +245,11 @@
         }
       ],
       "warnings": [
-        "Filtered non-paper items by papers-only rule: 1"
+        "Filtered non-paper items by papers-only rule: 1",
+        "成功访问 feed，但在指定时间范围内未筛到论文。"
       ],
-      "paper_count": 1,
-      "papers": [
-        {
-          "title": "BioLM-Score: Language-Prior Conditioned Probabilistic Geometric Potentials for Protein-Ligand Scoring",
-          "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag839/9055668?rss=1",
-          "published_at": "2026-11-14T08:00:00+08:00",
-          "published_date": "2026-11-14",
-          "summary": "Abstract Motivation Protein-ligand scoring must address affinity prediction, pose selection, and virtual screening, but these objectives are not necessarily optimized together. Geometric likelihood models may generalize poorly when training-set structural coverage is limited. We test whether pretrained biomolecular representations improve scoring under a controlled geometric baseline. Results BioLM-Score integrates frozen protein and molecular language-model embeddings into a residue-atom distance-likelihood framework via gated graph convolutions. We evaluate geometry-only, jointly trained, and two-stage fine-tuned variants, using the jointly trained variant for the primary controlled comparisons. All three DEKOIS 2.0 screening endpoints improve over the matched geometric baseline with target-level paired support, but affinity scoring and ranking do not improve uniformly. Under a time-split protocol, scoring is significantly lower and ranking is also lower than the geometric baseline, while screening gains persist. On BDB2020+, the difference in affinity correlation between BioLM-Score and GenScore narrows after LP-PDBBind-compatible retraining. Shuffling protein embeddings at inference reduces the screening advantage. However, retrained shuffle controls recover much of the performance, so correct alignment is not established as necessary. BioLM-Score strengthens geometric scoring on screening tasks without retraining the language models. Availability and implementation Code, dataset-split identifiers, preprocessing and evaluation scripts, and language-model embedding-generation utilities are available at https://github.com/SZU-ADDG/BioLM-Score . An archival code snapshot and pretrained model weights are available at",
-          "authors": [],
-          "doi": "10.1093/bioinformatics/btag839",
-          "journal": "Bioinformatics",
-          "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
-          "entry_id": "http://doi.org/10.1093/bioinformatics/btag839",
-          "pmid": "",
-          "pubmed_url": "",
-          "abstract": "",
-          "affiliations": [],
-          "mesh_terms": [],
-          "paper_keywords": [],
-          "publication_types": [],
-          "pubmed_journal": "",
-          "pubmed_publication_date": "",
-          "pubmed_match_source": "doi",
-          "pubmed_status": "not_found",
-          "pubmed_warning": "No PubMed match found",
-          "llm_title_zh": "BioLM-Score：用于蛋白质配体评分的语言先验条件概率几何势",
-          "llm_title_bilingual": "BioLM-Score：用于蛋白质配体评分的语言先验条件概率几何势 / BioLM-Score: Language-Prior Conditioned Probabilistic Geometric Potentials for Protein-Ligand Scoring",
-          "llm_research_question_zh": "蛋白质配体评分必须解决亲和力预测、姿势选择和虚拟筛选，但这些目标不一定一起优化。",
-          "llm_highlights_zh": [
-            "当训练集结构覆盖范围有限时，几何似然模型的泛化能力可能很差。",
-            "我们测试预训练的生物分子表示是否可以在受控几何基线下提高评分。",
-            "BioLM-Score 通过门控图卷积将冷冻蛋白质和分子语言模型嵌入集成到残基原子距离似然框架中。"
-          ],
-          "llm_rss_summary_zh": "蛋白质配体评分必须解决亲和力预测、姿势选择和虚拟筛选，但这些目标不一定一起优化。当训练集结构覆盖范围有限时，几何似然模型的泛化能力可能很差。我们测试预训练的生物分子表示是否可以在受控几何基线下提高评分。结果 BioLM-Score 通过门控图卷积将冷冻蛋白质和分子语言模型嵌入集成到残基原子距离似然框架中。我们评估仅几何、联合训练和两阶段微调的变体，使用联合训练的变体进行主要受控比较。所有三个 DEKOIS 2.0 筛选终点均比具有目标水平配对支持的匹配几何基线有所改善，但亲和力评分和排名并未均匀改善。在时间分割协议下，评分明显较低，排名也低于几何基线，而筛选收益仍然存在。在 BDB2020+ 上，经过 LP-PDBBind 兼容的再训练后，BioLM-Score 和 GenScore 之间的亲和力相关性差异缩小。在推理时改组蛋白质嵌入会降低筛选优势。然而，重新训练的随机播放控件可以恢复大部分性能，因此无法根据需要建立正确的对齐方式。 BioLM-Score 增强了筛选任务的几何评分，而无需重新训练语言模型。可用性和实现代码、数据集分割标识符、预处理和评估脚本以及语言模型嵌入生成实用程序可在 https://github.com/SZU-ADDG/BioLM-Score 上获取。存档代码快照和预训练模型权重可在",
-          "llm_pubmed_abstract_zh": "",
-          "llm_paper_keywords_zh": [],
-          "llm_publication_types_zh": [],
-          "llm_status": "fallback_google",
-          "llm_warning": "Relay failed; used Google Translate fallback.",
-          "matched_keywords": [],
-          "keyword_score": 0,
-          "is_new_to_state": true,
-          "primary_summary": "蛋白质配体评分必须解决亲和力预测、姿势选择和虚拟筛选，但这些目标不一定一起优化。当训练集结构覆盖范围有限时，几何似然模型的泛化能力可能很差。我们测试预训练的生物分子表示是否可以在受控几何基线下提高评分。结果 BioLM-Score 通过门控图卷积将冷冻蛋白质和分子语言模型嵌入集成到残基原子距离似然框架中。我们评估仅几何、联合训练和两阶段微调的变体，使用联合训练的变体进行主要受控比较。所有三个 DEKOIS 2.0 筛选终点均比具有目标水平配对支持的匹配几何基线有所改善，但亲和力评分和排名并未均匀改善。在时间分割协议下，评分明显较低，排名也低于几何基线，而筛选收益仍然存在。在 BDB2020+ 上，经过 LP-PDBBind 兼容的再训练后，BioLM-Score 和 GenScore 之间的亲和力相关性差异缩小。在推理时改组蛋白质嵌入会降低筛选优势。然而，重新训练的随机播放控件可以恢复大部分性能，因此无法根据需要建立正确的对齐方式。 BioLM-Score 增强了筛选任务的几何评分，而无需重新训练语言模型。可用性和实现代码、数据集分割标识符、预处理和评估脚本以及语言模型嵌入生成实用程序可在 https://github.com/SZU-ADDG/BioLM-Score 上获取。存档代码快照和预训练模型权重可在",
-          "primary_summary_source": "rss",
-          "primary_summary_language": "zh",
-          "preferred_summary_source": "rss",
-          "primary_summary_raw": "Protein-ligand scoring must address affinity prediction, pose selection, and virtual screening, but these objectives are not necessarily optimized together. Geometric likelihood models may generalize poorly when training-set structural coverage is limited. We test whether pretrained biomolecular representations improve scoring under a controlled geometric baseline. Results BioLM-Score integrates frozen protein and molecular language-model embeddings into a residue-atom distance-likelihood framework via gated graph convolutions. We evaluate geometry-only, jointly trained, and two-stage fine-tuned variants, using the jointly trained variant for the primary controlled comparisons. All three DEKOIS 2.0 screening endpoints improve over the matched geometric baseline with target-level paired support, but affinity scoring and ranking do not improve uniformly. Under a time-split protocol, scoring is significantly lower and ranking is also lower than the geometric baseline, while screening gains persist. On BDB2020+, the difference in affinity correlation between BioLM-Score and GenScore narrows after LP-PDBBind-compatible retraining. Shuffling protein embeddings at inference reduces the screening advantage. However, retrained shuffle controls recover much of the performance, so correct alignment is not established as necessary. BioLM-Score strengthens geometric scoring on screening tasks without retraining the language models.",
-          "primary_summary_zh": "蛋白质配体评分必须解决亲和力预测、姿势选择和虚拟筛选，但这些目标不一定一起优化。当训练集结构覆盖范围有限时，几何似然模型的泛化能力可能很差。我们测试预训练的生物分子表示是否可以在受控几何基线下提高评分。结果 BioLM-Score 通过门控图卷积将冷冻蛋白质和分子语言模型嵌入集成到残基原子距离似然框架中。我们评估仅几何、联合训练和两阶段微调的变体，使用联合训练的变体进行主要受控比较。所有三个 DEKOIS 2.0 筛选终点均比具有目标水平配对支持的匹配几何基线有所改善，但亲和力评分和排名并未均匀改善。在时间分割协议下，评分明显较低，排名也低于几何基线，而筛选收益仍然存在。在 BDB2020+ 上，经过 LP-PDBBind 兼容的再训练后，BioLM-Score 和 GenScore 之间的亲和力相关性差异缩小。在推理时改组蛋白质嵌入会降低筛选优势。然而，重新训练的随机播放控件可以恢复大部分性能，因此无法根据需要建立正确的对齐方式。 BioLM-Score 增强了筛选任务的几何评分，而无需重新训练语言模型。可用性和实现代码、数据集分割标识符、预处理和评估脚本以及语言模型嵌入生成实用程序可在 https://github.com/SZU-ADDG/BioLM-Score 上获取。存档代码快照和预训练模型权重可在"
-        }
-      ]
+      "paper_count": 0,
+      "papers": []
     },
     {
       "journal": "Nature Protocols",
@@ -348,55 +301,9 @@
       "papers": []
     }
   ],
-  "all_papers": [
-    {
-      "title": "BioLM-Score: Language-Prior Conditioned Probabilistic Geometric Potentials for Protein-Ligand Scoring",
-      "link": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag839/9055668?rss=1",
-      "published_at": "2026-11-14T08:00:00+08:00",
-      "published_date": "2026-11-14",
-      "summary": "Abstract Motivation Protein-ligand scoring must address affinity prediction, pose selection, and virtual screening, but these objectives are not necessarily optimized together. Geometric likelihood models may generalize poorly when training-set structural coverage is limited. We test whether pretrained biomolecular representations improve scoring under a controlled geometric baseline. Results BioLM-Score integrates frozen protein and molecular language-model embeddings into a residue-atom distance-likelihood framework via gated graph convolutions. We evaluate geometry-only, jointly trained, and two-stage fine-tuned variants, using the jointly trained variant for the primary controlled comparisons. All three DEKOIS 2.0 screening endpoints improve over the matched geometric baseline with target-level paired support, but affinity scoring and ranking do not improve uniformly. Under a time-split protocol, scoring is significantly lower and ranking is also lower than the geometric baseline, while screening gains persist. On BDB2020+, the difference in affinity correlation between BioLM-Score and GenScore narrows after LP-PDBBind-compatible retraining. Shuffling protein embeddings at inference reduces the screening advantage. However, retrained shuffle controls recover much of the performance, so correct alignment is not established as necessary. BioLM-Score strengthens geometric scoring on screening tasks without retraining the language models. Availability and implementation Code, dataset-split identifiers, preprocessing and evaluation scripts, and language-model embedding-generation utilities are available at https://github.com/SZU-ADDG/BioLM-Score . An archival code snapshot and pretrained model weights are available at",
-      "authors": [],
-      "doi": "10.1093/bioinformatics/btag839",
-      "journal": "Bioinformatics",
-      "source_feed": "https://academic.oup.com/rss/site_5139/advanceAccess_3001.xml",
-      "entry_id": "http://doi.org/10.1093/bioinformatics/btag839",
-      "pmid": "",
-      "pubmed_url": "",
-      "abstract": "",
-      "affiliations": [],
-      "mesh_terms": [],
-      "paper_keywords": [],
-      "publication_types": [],
-      "pubmed_journal": "",
-      "pubmed_publication_date": "",
-      "pubmed_match_source": "doi",
-      "pubmed_status": "not_found",
-      "pubmed_warning": "No PubMed match found",
-      "llm_title_zh": "BioLM-Score：用于蛋白质配体评分的语言先验条件概率几何势",
-      "llm_title_bilingual": "BioLM-Score：用于蛋白质配体评分的语言先验条件概率几何势 / BioLM-Score: Language-Prior Conditioned Probabilistic Geometric Potentials for Protein-Ligand Scoring",
-      "llm_research_question_zh": "蛋白质配体评分必须解决亲和力预测、姿势选择和虚拟筛选，但这些目标不一定一起优化。",
-      "llm_highlights_zh": [
-        "当训练集结构覆盖范围有限时，几何似然模型的泛化能力可能很差。",
-        "我们测试预训练的生物分子表示是否可以在受控几何基线下提高评分。",
-        "BioLM-Score 通过门控图卷积将冷冻蛋白质和分子语言模型嵌入集成到残基原子距离似然框架中。"
-      ],
-      "llm_rss_summary_zh": "蛋白质配体评分必须解决亲和力预测、姿势选择和虚拟筛选，但这些目标不一定一起优化。当训练集结构覆盖范围有限时，几何似然模型的泛化能力可能很差。我们测试预训练的生物分子表示是否可以在受控几何基线下提高评分。结果 BioLM-Score 通过门控图卷积将冷冻蛋白质和分子语言模型嵌入集成到残基原子距离似然框架中。我们评估仅几何、联合训练和两阶段微调的变体，使用联合训练的变体进行主要受控比较。所有三个 DEKOIS 2.0 筛选终点均比具有目标水平配对支持的匹配几何基线有所改善，但亲和力评分和排名并未均匀改善。在时间分割协议下，评分明显较低，排名也低于几何基线，而筛选收益仍然存在。在 BDB2020+ 上，经过 LP-PDBBind 兼容的再训练后，BioLM-Score 和 GenScore 之间的亲和力相关性差异缩小。在推理时改组蛋白质嵌入会降低筛选优势。然而，重新训练的随机播放控件可以恢复大部分性能，因此无法根据需要建立正确的对齐方式。 BioLM-Score 增强了筛选任务的几何评分，而无需重新训练语言模型。可用性和实现代码、数据集分割标识符、预处理和评估脚本以及语言模型嵌入生成实用程序可在 https://github.com/SZU-ADDG/BioLM-Score 上获取。存档代码快照和预训练模型权重可在",
-      "llm_pubmed_abstract_zh": "",
-      "llm_paper_keywords_zh": [],
-      "llm_publication_types_zh": [],
-      "llm_status": "fallback_google",
-      "llm_warning": "Relay failed; used Google Translate fallback.",
-      "matched_keywords": [],
-      "keyword_score": 0,
-      "is_new_to_state": true,
-      "primary_summary": "蛋白质配体评分必须解决亲和力预测、姿势选择和虚拟筛选，但这些目标不一定一起优化。当训练集结构覆盖范围有限时，几何似然模型的泛化能力可能很差。我们测试预训练的生物分子表示是否可以在受控几何基线下提高评分。结果 BioLM-Score 通过门控图卷积将冷冻蛋白质和分子语言模型嵌入集成到残基原子距离似然框架中。我们评估仅几何、联合训练和两阶段微调的变体，使用联合训练的变体进行主要受控比较。所有三个 DEKOIS 2.0 筛选终点均比具有目标水平配对支持的匹配几何基线有所改善，但亲和力评分和排名并未均匀改善。在时间分割协议下，评分明显较低，排名也低于几何基线，而筛选收益仍然存在。在 BDB2020+ 上，经过 LP-PDBBind 兼容的再训练后，BioLM-Score 和 GenScore 之间的亲和力相关性差异缩小。在推理时改组蛋白质嵌入会降低筛选优势。然而，重新训练的随机播放控件可以恢复大部分性能，因此无法根据需要建立正确的对齐方式。 BioLM-Score 增强了筛选任务的几何评分，而无需重新训练语言模型。可用性和实现代码、数据集分割标识符、预处理和评估脚本以及语言模型嵌入生成实用程序可在 https://github.com/SZU-ADDG/BioLM-Score 上获取。存档代码快照和预训练模型权重可在",
-      "primary_summary_source": "rss",
-      "primary_summary_language": "zh",
-      "preferred_summary_source": "rss",
-      "primary_summary_raw": "Protein-ligand scoring must address affinity prediction, pose selection, and virtual screening, but these objectives are not necessarily optimized together. Geometric likelihood models may generalize poorly when training-set structural coverage is limited. We test whether pretrained biomolecular representations improve scoring under a controlled geometric baseline. Results BioLM-Score integrates frozen protein and molecular language-model embeddings into a residue-atom distance-likelihood framework via gated graph convolutions. We evaluate geometry-only, jointly trained, and two-stage fine-tuned variants, using the jointly trained variant for the primary controlled comparisons. All three DEKOIS 2.0 screening endpoints improve over the matched geometric baseline with target-level paired support, but affinity scoring and ranking do not improve uniformly. Under a time-split protocol, scoring is significantly lower and ranking is also lower than the geometric baseline, while screening gains persist. On BDB2020+, the difference in affinity correlation between BioLM-Score and GenScore narrows after LP-PDBBind-compatible retraining. Shuffling protein embeddings at inference reduces the screening advantage. However, retrained shuffle controls recover much of the performance, so correct alignment is not established as necessary. BioLM-Score strengthens geometric scoring on screening tasks without retraining the language models.",
-      "primary_summary_zh": "蛋白质配体评分必须解决亲和力预测、姿势选择和虚拟筛选，但这些目标不一定一起优化。当训练集结构覆盖范围有限时，几何似然模型的泛化能力可能很差。我们测试预训练的生物分子表示是否可以在受控几何基线下提高评分。结果 BioLM-Score 通过门控图卷积将冷冻蛋白质和分子语言模型嵌入集成到残基原子距离似然框架中。我们评估仅几何、联合训练和两阶段微调的变体，使用联合训练的变体进行主要受控比较。所有三个 DEKOIS 2.0 筛选终点均比具有目标水平配对支持的匹配几何基线有所改善，但亲和力评分和排名并未均匀改善。在时间分割协议下，评分明显较低，排名也低于几何基线，而筛选收益仍然存在。在 BDB2020+ 上，经过 LP-PDBBind 兼容的再训练后，BioLM-Score 和 GenScore 之间的亲和力相关性差异缩小。在推理时改组蛋白质嵌入会降低筛选优势。然而，重新训练的随机播放控件可以恢复大部分性能，因此无法根据需要建立正确的对齐方式。 BioLM-Score 增强了筛选任务的几何评分，而无需重新训练语言模型。可用性和实现代码、数据集分割标识符、预处理和评估脚本以及语言模型嵌入生成实用程序可在 https://github.com/SZU-ADDG/BioLM-Score 上获取。存档代码快照和预训练模型权重可在"
-    }
+  "all_papers": [],
+  "warnings": [
+    "本次运行未在指定日期范围内抓到任何论文。"
   ],
-  "warnings": [],
   "errors": []
 }
