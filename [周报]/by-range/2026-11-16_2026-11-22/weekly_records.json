@@ -1,0 +1,2125 @@
+{
+  "generated_at": "2026-11-23T03:03:28",
+  "start": "2026-11-16",
+  "end": "2026-11-22",
+  "journals": [
+    "Nature",
+    "Science",
+    "Cell",
+    "Cell metabolism",
+    "immunity",
+    "Nature Immunology",
+    "Science Immunology",
+    "Bioinformatics",
+    "Nature Protocols"
+  ],
+  "keywords": [
+    "免疫代谢",
+    "代谢表观调控",
+    "单细胞算法",
+    "单细胞图谱",
+    "流感",
+    "HSV",
+    "H1N1",
+    "肺损伤",
+    "肺组织修复",
+    "皮肤免疫"
+  ],
+  "top10": [
+    {
+      "pmid": "43057228",
+      "title": "CD19 CAR T cell therapy alters disease-associated immune signatures in multiple sclerosis.",
+      "journal": "Cell",
+      "pub_date": "2026-11-19",
+      "abstract": "Multiple sclerosis (MS) is a chronic inflammatory central nervous system (CNS) disease. Although current immunotherapies control relapses, they have limited impact on progression, which might reflect incomplete access to or modulation of compartmentalized CNS inflammation. Chimeric antigen receptor (CAR) T cells can infiltrate tissues, but their ability to access and eliminate immune cells residing in the CNS remains elusive. We report the treatment of five individuals with progressive or relapsing-remitting MS with autologous CD19 CAR T cells to assess safety-relevant aspects, CNS bioavailability, and compartment-specific effects. The intervention induces remodeling of the cerebrospinal fluid (CSF) B cell pool, with a sustained reduction in CSF humoral biomarkers. Notably, CSF-infiltrating CAR T cells selectively upregulate phosphodiesterase 7B, while reconstituted peripheral B cells show altered cytokine and homing profiles. These findings indicate compartment-specific immunomodulation beyond peripheral B cell depletion and support controlled trials to test safety, durability, and efficacy.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cell.2026.10.044",
+      "pmcid": null,
+      "authors": [
+        "Felix Fischbach",
+        "Lena Kristina Pfeffer",
+        "Jan Broder Engler",
+        "Tradite Neziraj",
+        "Johanna Richter",
+        "Neda Sattarnezhad",
+        "Kristina Berve",
+        "Anne-Catherine Lecourt"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "B cells",
+        "CAR T cells",
+        "EBV",
+        "autoimmunity",
+        "central nervous system",
+        "immune reconstitution",
+        "immunotherapy",
+        "intrathecal antibodies",
+        "multiple sclerosis"
+      ],
+      "weekly_match": true,
+      "score": 38.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.044",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43040049",
+      "title": "Maternal and early life obesity programs CD4+ T cell fate to impair vaccine immunity.",
+      "journal": "Nature immunology",
+      "pub_date": "2026-11-16",
+      "abstract": "In their first 3 years, children experience an average of 14 infections and receive vaccines against roughly 15 pathogens, yet whether maternal and early life obesity alters adaptive immune responses during this critical period remains largely undefined. Using a mouse model that mirrored the epidemiological link between maternal and childhood obesity, we found that high-fat diet exposure during pregnancy or early postnatal life, but not adulthood, reshaped the epigenetic and transcriptional landscape of naive CD4+ T cells and impaired their ability to differentiate into T follicular helper (TFH) cells and support germinal center reactions in response to mRNA-based and protein-based vaccines. Mechanistically, epigenetic repression of the ubiquitin-editing enzyme A20 (Tnfaip3) was a central driver of these defects. Pediatric patients with haploinsufficiency of A20 displayed a marked reduction in circulating TFH cells. Altogether, these findings establish maternal and early life obesity as determinants of adaptive immunity during a critical developmental window.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1038/s41590-026-02700-6",
+      "pmcid": null,
+      "authors": [
+        "Michaël F Michieletto",
+        "Monica T Jimenez",
+        "Atishay Jay",
+        "Michelle Y Y Lee",
+        "Jean-Christophe Beltra",
+        "Corentin Le Saos-Patrinos",
+        "Samir U Sayed",
+        "Megan L Clark"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 36.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1038/s41590-026-02700-6",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43044587",
+      "title": "Diet-microbiome interaction shapes stress susceptibility via a gut-brain neurometabolic circuit.",
+      "journal": "Cell metabolism",
+      "pub_date": "2026-11-17",
+      "abstract": "Dietary patterns shape mood and behavior, yet the microbial signals and neurosensory mechanisms underlying these effects remain unclear. Here, we identify a microbiota-mediated gut-brain circuit that dynamically regulates stress susceptibility during high-fat diet (HFD) exposure. Short- and long-term HFD differentially alter L-pipecolic acid (L-PipA), a metabolite produced by bacterial pyrroline-5-carboxylate reductase and sensed by oxytocinergic neurons in the paraventricular hypothalamus (PVH). Supplementation with L-PipA, either through its native producer Alistipes dispar or a bioengineered bacterial strain, promotes stress resilience, an effect mechanistically linked to ferritin heavy chain 1 (FTH1)-associated oxytocin secretion and a neural circuit linking PVH oxytocinergic neurons to lateral septal γ-aminobutyric acid (GABAergic) neurons. In humans, circulating L-PipA levels are reduced in patients with depression but increased in healthy volunteers following a 5-day HFD intervention. Together, these findings reveal a diet-microbiome-neural circuit axis regulating stress-related behaviors and suggest a potential strategy for enhancing stress resilience.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cmet.2026.10.014",
+      "pmcid": null,
+      "authors": [
+        "Youying Zhang",
+        "Ruizhe Nie",
+        "Zixin Chen",
+        "Xuanyao Li",
+        "Zemin Li",
+        "Yuanlong Hou",
+        "Chunyu Li",
+        "Guangbo Kang"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "L-pipecolic acid",
+        "depression",
+        "diet-microbe interaction",
+        "gut microbiome",
+        "gut-brain axis",
+        "high-fat diet",
+        "lysine metabolism",
+        "neurometabolic circuit",
+        "oxytocin",
+        "stress susceptibility"
+      ],
+      "weekly_match": true,
+      "score": 35.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.014",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43044585",
+      "title": "Innate immune memory of past hepatic injury promotes ischemic cardiac inflammation.",
+      "journal": "Cell metabolism",
+      "pub_date": "2026-11-17",
+      "abstract": "Hepatic disorders frequently coexist with cardiovascular diseases, leading to worsened prognosis. However, the mechanisms of inter-organ communication and the impact of historical hepatic injury await elucidation. Here, we report that the historical liver damage triggers long-term reprogramming of the innate immune system, biases hematopoietic stem cells differentiation toward myeloid fate, and aggravates inflammatory injury during myocardial infarction (MI). This immune memory is transmissible in bone marrow transplantation and parabiosis models. Injured liver-derived palmitic acid is responsible for the metabolic rewiring of cardiac macrophages during memory formation and establishes persistent epigenetic signatures in the transcriptional regulatory regions of hepatic injury-associated memory (\"HepMem\") genes containing the activator protein-1 motif. The HepMem monocyte/macrophages are expanded in liver-injured mice and potentiate the post-MI inflammatory cascades and adverse cardiac remodeling. Therefore, the innate immune memory links the past hepatic injury with MI, guiding the promising therapeutic approaches for the inflammatory cardiac comorbidities.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cmet.2026.10.012",
+      "pmcid": null,
+      "authors": [
+        "Sheng Zhang",
+        "Yunkai Zhang",
+        "Xuewen Duan",
+        "Yong Tan",
+        "Bo Wang",
+        "Diwei Du",
+        "Ying Xia",
+        "Lijie Ma"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "cardiac macrophages",
+        "hepatic dysfunction",
+        "histone modification",
+        "innate immune memory",
+        "ischemic cardiac diseases",
+        "palmitic acid",
+        "post-infarction repair",
+        "trained immunity"
+      ],
+      "weekly_match": true,
+      "score": 32.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.012",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43044601",
+      "title": "Brain border-associated macrophages rhythmically scavenge amyloid-beta and regulate vascular amyloid pathology.",
+      "journal": "Immunity",
+      "pub_date": "2026-11-17",
+      "abstract": "Circadian disruptions perturb the brain and immune system and increase the risk of developing Alzheimer's disease (AD), yet whether this involves dysregulation of brain immunity remains less clear. Here, we performed single-cell RNA sequencing of the brain immune compartment around the day-night cycle and identified brain border-associated macrophages (BAMs) as highly rhythmic cells. We found that the rest phase was a specialized time for BAM engulfment, characterized by upregulation of endocytic machinery and enhanced uptake of fluid-borne material including amyloid-beta (Aβ). Rhythmicity in BAM scavenging was regulated by the clock gene Bmal1, mediated by the scavenger receptor CD206, and perturbed with age. In a mouse model of AD, deletion of Bmal1 in BAMs worsened perivascular and leptomeningeal Aβ plaque burden. Our results characterize rapid endocytosis as a specialized and rhythmic BAM function and identify perturbed timing of brain border immunity as one avenue by which circadian disruptions may precipitate amyloidosis.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.10.014",
+      "pmcid": null,
+      "authors": [
+        "Helena J Barr",
+        "Sydney K Caldwell",
+        "Justin M Colville-Reimertz",
+        "Constanze Depp",
+        "Alec J Walker",
+        "Jasmin Patel",
+        "Samuel E Marsh",
+        "Anushree S Gupte"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "Alzheimer’s disease",
+        "aging",
+        "amyloid-beta clearance",
+        "border-associated macrophages",
+        "circadian rhythms",
+        "endocytosis",
+        "engulfment",
+        "neuroimmunology",
+        "perivascular macrophages"
+      ],
+      "weekly_match": true,
+      "score": 25.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.014",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43057230",
+      "title": "Genome writing reveals SVA retrotransposon consequences in X-linked dystonia-parkinsonism.",
+      "journal": "Cell",
+      "pub_date": "2026-11-19",
+      "abstract": "Human retrotransposon insertions are often associated with diseases. Regarding neurodegenerative X-linked dystonia-parkinsonism (XDP), a human-specific SINE-VNTR-Alu (SVA) subfamily F retrotransposon was inserted in intron 32 of the TAF1 gene. Here, we genomically rewrote a portion of the mouse Taf1 allele with the corresponding 78-kb XDP patient-derived TAF1 allele. In mouse embryonic stem cells (mESCs), the presence of the intronic SVA-rather than the hybrid gene structure-reduces hyTAF1 (hybrid TAF1 mRNA) levels. This leads to transcriptional downregulation of genes with TATA boxes enriched in their promoters and triggers apoptosis. Chromatin and transcriptome profiling revealed that intronic SVAs are actively transcribed, forming barriers that likely impede transcription elongation. In mice, neuronal-lineage TAF1 humanization resulted in lethality in male progeny within 2 months. XDP male mice developed severe atrophy centered on the striatum-the same brain region affected in XDP patients. Lastly, CRISPRa-mediated activation of hyTAF1 restored mESC viability, suggesting that boosting TAF1 transcription could be a therapeutic approach.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.cell.2026.07.057",
+      "pmcid": "PMC13787558",
+      "authors": [
+        "Weimin Zhang",
+        "Yu Zhao",
+        "Priya Prakash",
+        "Heather Appleby",
+        "Kelly Barriball",
+        "Simona Capponi",
+        "Qingwen Jiang",
+        "Aleksandra M Wudzinska"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "RNA polymerase pausing",
+        "RNA splicing",
+        "SVA retrotransposon",
+        "X-linked dystonia-parkinsonism",
+        "XDP retrotransposon",
+        "founder effect disorder",
+        "genome writing",
+        "striatal atrophy",
+        "transcription"
+      ],
+      "weekly_match": true,
+      "score": 21.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.cell.2026.07.057",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43063302",
+      "title": "Wall teichoic acid regulates DNA-triggered innate immune receptor activation by Staphylococcus aureus.",
+      "journal": "Science immunology",
+      "pub_date": "2026-11-20",
+      "abstract": "Cytosolic receptors that stimulate inflammation are commonly activated by ligands derived from microbes within phagosomes. The mechanisms that facilitate immunostimulatory ligand release into the cytosol during intraphagosomal infection are largely undefined. Using the pathogen Staphylococcus aureus, we describe wall teichoic acid (WTA) as a mediator of immune receptor activation during infection. Mechanistically, we find that the α-glycosylated form of WTA, generated by the glycosyltransferase TarM, mediates phagosome damage that enables bacterial escape into the macrophage cytoplasm. Peptidoglycan (PGN) O-acetylation reduces WTA attachment to PGN to prevent phagosomal escape. This competition among PGN-modifying enzymes determines the release of bacterial DNA into the macrophage cytoplasm and the activation of cytosolic DNA receptors AIM2 and cGAS. WTA thus controls the cytosolic exposure of microbe-derived ligands that stimulate innate immunity.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1126/sciimmunol.ael7335",
+      "pmcid": null,
+      "authors": [
+        "Jordan B Jastrab",
+        "Ashley Tseng",
+        "Daniel Fisch",
+        "Stephanie A Ragland",
+        "Jonathan C Kagan"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 20.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1126/sciimmunol.ael7335",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43056446",
+      "title": "The fate of poised pre-mRNAs shapes mitochondrial activity and cellular differentiation.",
+      "journal": "Science (New York, N.Y.)",
+      "pub_date": "2026-11-19",
+      "abstract": "Although RNA quality control tightly regulates gene expression, the scope of its regulatory functions in the nucleus remains unclear. In this study, we describe the quality control, on chromatin, of poised intron-containing polyadenylated RNAs (PIA-RNAs). Whether these precursor messenger RNAs (pre-mRNAs) constitute immature mRNAs whose splicing is pending or, alternatively, are degraded by the nuclear RNA exosome depends on whether they engage nuclear cap-binding protein 3 (NCBP3) or anillin, respectively. Many PIA-RNAs inversely controlled by NCBP3 and anillin encode mitochondrial factors. Thus, NCBP3 depletion in mouse as well as pathogenic mutations in the RNA exosome in humans result in reduced mitochondrial activity, muscle weakness, cerebellar hypomyelination, and diminished motor coordination. Our findings reveal a competition between pre-mRNA metabolic pathways whose balance controls mitochondrial function and, when perturbed, leads to neurological diseases.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1126/science.aee8018",
+      "pmcid": null,
+      "authors": [
+        "Xavier Rambout",
+        "Rina Nagao",
+        "Victor Gu",
+        "Sophie Werner",
+        "Justin Youngyunpipatkul",
+        "Jadon Schlierf",
+        "Christoph Pröschel",
+        "Lynne E Maquat"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 18.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1126/science.aee8018",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43044600",
+      "title": "The transcription factor TOX maintains stemness circuits that sustain longevity and multipotency of progenitor CD4+ T cells in chronic infection.",
+      "journal": "Immunity",
+      "pub_date": "2026-11-17",
+      "abstract": "Progenitor CD4+ T (Tpex) cells retain developmental plasticity and replenish antigen-specific CD4+ T cell responses in settings of chronic infection and cancer. Given the sustained, elevated expression of the transcription factor TOX across all CD4+ TEX cell subsets during chronic infection, we examined how TOX impacts CD4+ TEX differentiation during chronic infection. Deletion of TOX in lymphocytic choriomeningitis virus (LCMV)-specific transgenic CD4+ T cells impaired Tpex cell survival and drove unrestrained TEX cell differentiation. Multiomic profiling revealed that this effector-like state was concomitant with loss of TCF-1 pathway activity and gain of NFAT, NF-κB, and RUNX-coordinated transcriptional circuitry. TOX also promoted the multipotent potential of CD4+ Tpex cells to differentiate into T helper (Th)1-like or Tfh-like cells by day 8 post-infection (p.i.) prior to establishment of chronic infection. These data reveal a TOX-driven transcriptional network that maintains CD4+ Tpex cell function and persistence, supporting a durable and malleable response during persisting antigen stimulation.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1016/j.immuni.2026.10.015",
+      "pmcid": null,
+      "authors": [
+        "Stefan Lundh",
+        "Josephine R Giles",
+        "Christopher H Holliday",
+        "Amy E Baxter",
+        "Sasikanth Manne",
+        "Matthew A Sullivan",
+        "Katherine A Dalton",
+        "Warren S Pear"
+      ],
+      "corresponding_authors": [],
+      "keywords": [
+        "CD4(+) T cells",
+        "LCMV cl13",
+        "RUNX",
+        "TOX",
+        "chronic viral infection",
+        "effector T cells",
+        "exhaustion",
+        "progenitor T cells",
+        "single-cell genomics",
+        "transcriptional circuit"
+      ],
+      "weekly_match": true,
+      "score": 17.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.015",
+      "supplement_reason": null
+    },
+    {
+      "pmid": "43063301",
+      "title": "CD36+ Kupffer cells control postprandial lipid clearance and fuel metabolic dysfunction-associated steatotic liver diseases.",
+      "journal": "Science immunology",
+      "pub_date": "2026-11-20",
+      "abstract": "Liver macrophages comprise distinct populations with specialized functions. Kupffer cells (KCs) populate liver sinusoids during embryonic development and monitor the blood, clear erythrocytes, and recycle iron. In metabolic dysfunction-associated steatotic liver disease (MASLD), KCs acquire a lipid-associated macrophage phenotype characterized by the expression of CD36. Whether lipid-associated KCs exist at steady state and perform physiological functions remains unclear. Here, we show that CD36+ KCs, previously identified as KC2, are present at steady state in both mice and healthy human livers and that lipid handling is an intrinsic feature of this KC subset. Using KC-specific Cd36 deletion, we demonstrate that CD36 is required for postprandial hepatic lipid retention in healthy mice. CD36+ KCs also promoted lipid accumulation during MASLD, whereas KC-specific CD36 deficiency attenuated hepatic steatosis, identifying this subset as a regulator of physiological lipid homeostasis and metabolic liver disease.",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "doi": "10.1126/sciimmunol.aef5478",
+      "pmcid": null,
+      "authors": [
+        "Joanna Razafiarison",
+        "Fawaz Alzaid",
+        "Claire Leveau",
+        "Dorothy Tonui",
+        "Marc Diedisheim",
+        "Flavie Bernigole",
+        "Mathilde Bied",
+        "Aymeric Silvin"
+      ],
+      "corresponding_authors": [],
+      "keywords": [],
+      "weekly_match": true,
+      "score": 16.0,
+      "source": "pubmed",
+      "publisher_url": "https://doi.org/10.1126/sciimmunol.aef5478",
+      "supplement_reason": null
+    }
+  ],
+  "weekly_papers": {
+    "Nature": [],
+    "Science": [
+      {
+        "pmid": "43056466",
+        "title": "Balancing redox-mediated cytotoxicity and catalysis in natural product biosynthesis.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-19",
+        "abstract": "Redox-mediated chemistry is central to both the biosynthesis and cytotoxicity of many natural products, yet how microbes balance these processes remains poorly understood. Here, we uncover a conserved mechanism that coordinates three redox-mediated processes in secondary metabolite biosynthesis: self-protection, prevention of substrate degradation, and late-stage biosynthesis. Using the antitumor antibiotic doxorubicin as a model system, we show that the vicinal oxygen chelate (VOC) protein DnrV prevents reactive oxygen species formation and substrate degradation while promoting P450 catalysis. We expand this paradigm to a conserved family of VOC-fold proteins, redox-associated cytotoxin-binding proteins (REACT), found across bacteria, fungi, and plants. REACT represents a multifunctional protein class that balances antibiotic assembly, self-protection, and prevention of metabolite destruction, providing a foundational understanding of production of redox-active natural products.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aee2641",
+        "pmcid": null,
+        "authors": [
+          "Hannah A Boesger",
+          "Emma Fang",
+          "Rongbin Wang",
+          "Ralph J Harte",
+          "Arina Koroleva",
+          "Taylan Tunckanat",
+          "Areeba N Momin",
+          "Sean J Elliott"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aee2641",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43056450",
+        "title": "Divergent activation of the RXFP1 relaxin receptor by protein and small-molecule agonists.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-19",
+        "abstract": "The relaxin receptor RXFP1 is a therapeutic target owing to its potential benefits in the treatment of fibrosis and heart failure. Protein and small-molecule agonists are currently in midstage clinical trials for various forms of heart disease. In this work, we present three cryo-electron microscopy structures of RXFP1: ligand-free, bound to the native agonist relaxin-2, and bound to the small-molecule drug candidate AZD5462. These structures reveal that relaxin-2 engages the receptor's ectodomain, whereas AZD5462 binds to the transmembrane domain. Together with hydrogen-deuterium exchange mass spectrometry, we show that relaxin-2 induces reorganization of the linker domain into a helical secondary structure. By contrast, AZD5462 stabilizes an active conformation through a distinct set of conformational rearrangements. Altogether, our findings define divergent activation mechanisms for protein and small-molecule agonists of RXFP1.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aei0135",
+        "pmcid": null,
+        "authors": [
+          "James Osei-Owusu",
+          "Tristan Girbau",
+          "Xunan Wang",
+          "Jeffrey S Smith",
+          "Pengxiang Shen",
+          "Sarah C Erlandson",
+          "Amanda K Williamson",
+          "Xiaojing Cong"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 10.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aei0135",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43056446",
+        "title": "The fate of poised pre-mRNAs shapes mitochondrial activity and cellular differentiation.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-19",
+        "abstract": "Although RNA quality control tightly regulates gene expression, the scope of its regulatory functions in the nucleus remains unclear. In this study, we describe the quality control, on chromatin, of poised intron-containing polyadenylated RNAs (PIA-RNAs). Whether these precursor messenger RNAs (pre-mRNAs) constitute immature mRNAs whose splicing is pending or, alternatively, are degraded by the nuclear RNA exosome depends on whether they engage nuclear cap-binding protein 3 (NCBP3) or anillin, respectively. Many PIA-RNAs inversely controlled by NCBP3 and anillin encode mitochondrial factors. Thus, NCBP3 depletion in mouse as well as pathogenic mutations in the RNA exosome in humans result in reduced mitochondrial activity, muscle weakness, cerebellar hypomyelination, and diminished motor coordination. Our findings reveal a competition between pre-mRNA metabolic pathways whose balance controls mitochondrial function and, when perturbed, leads to neurological diseases.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aee8018",
+        "pmcid": null,
+        "authors": [
+          "Xavier Rambout",
+          "Rina Nagao",
+          "Victor Gu",
+          "Sophie Werner",
+          "Justin Youngyunpipatkul",
+          "Jadon Schlierf",
+          "Christoph Pröschel",
+          "Lynne E Maquat"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 18.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aee8018",
+        "supplement_reason": null
+      }
+    ],
+    "Cell": [
+      {
+        "pmid": "43057230",
+        "title": "Genome writing reveals SVA retrotransposon consequences in X-linked dystonia-parkinsonism.",
+        "journal": "Cell",
+        "pub_date": "2026-11-19",
+        "abstract": "Human retrotransposon insertions are often associated with diseases. Regarding neurodegenerative X-linked dystonia-parkinsonism (XDP), a human-specific SINE-VNTR-Alu (SVA) subfamily F retrotransposon was inserted in intron 32 of the TAF1 gene. Here, we genomically rewrote a portion of the mouse Taf1 allele with the corresponding 78-kb XDP patient-derived TAF1 allele. In mouse embryonic stem cells (mESCs), the presence of the intronic SVA-rather than the hybrid gene structure-reduces hyTAF1 (hybrid TAF1 mRNA) levels. This leads to transcriptional downregulation of genes with TATA boxes enriched in their promoters and triggers apoptosis. Chromatin and transcriptome profiling revealed that intronic SVAs are actively transcribed, forming barriers that likely impede transcription elongation. In mice, neuronal-lineage TAF1 humanization resulted in lethality in male progeny within 2 months. XDP male mice developed severe atrophy centered on the striatum-the same brain region affected in XDP patients. Lastly, CRISPRa-mediated activation of hyTAF1 restored mESC viability, suggesting that boosting TAF1 transcription could be a therapeutic approach.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.07.057",
+        "pmcid": "PMC13787558",
+        "authors": [
+          "Weimin Zhang",
+          "Yu Zhao",
+          "Priya Prakash",
+          "Heather Appleby",
+          "Kelly Barriball",
+          "Simona Capponi",
+          "Qingwen Jiang",
+          "Aleksandra M Wudzinska"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "RNA polymerase pausing",
+          "RNA splicing",
+          "SVA retrotransposon",
+          "X-linked dystonia-parkinsonism",
+          "XDP retrotransposon",
+          "founder effect disorder",
+          "genome writing",
+          "striatal atrophy",
+          "transcription"
+        ],
+        "weekly_match": true,
+        "score": 21.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.07.057",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43057229",
+        "title": "Myelin pathology is a key feature of X-linked dystonia-parkinsonism.",
+        "journal": "Cell",
+        "pub_date": "2026-11-19",
+        "abstract": "X-linked dystonia-parkinsonism (XDP) is an adult-onset movement disorder predominantly affecting males of Filipino descent. It is caused by the insertion of a SINE-variable number of tandem repeat (VNTR)-Alu subfamily F (SVA_F) retrotransposon in the TATA-box binding protein-associated factor 1 (TAF1) gene. A barrier to XDP research has been the lack of animal models. Here, we introduce a conditional humanized XDP mouse model harboring a hybrid mouse-human Taf1/TAF1 gene (hyTAF1) containing the pathogenic SVA_F. We activated hyTAF1 in Nestin+ cells and found the resulting XDP male mice recapitulate features of human XDP, including severe motor impairment and striatal atrophy. Transcriptomic, histological, and electron microscopy analyses revealed a reduction in oligodendrocyte-lineage cells and myelin disruption. Consistent with this, postmortem brain tissue from XDP patients revealed similar myelin pathology, including loss of myelin in the medial prefrontal cortex. These results identify oligodendrocyte dysfunction and myelin loss as major contributors to XDP, providing new mechanistic insight into this disorder.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.046",
+        "pmcid": null,
+        "authors": [
+          "Priya Prakash",
+          "Kerry C Limberg",
+          "Weimin Zhang",
+          "Yu Zhao",
+          "Klaudia F Laborc",
+          "Anna O'Keeffe",
+          "Heather Appleby",
+          "Bryanna C Vilnaigre"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "SVA",
+          "dystonia",
+          "glia",
+          "motor disease",
+          "myelin",
+          "neurodegeneration",
+          "oligodendrocytes",
+          "parkinsonism",
+          "retrotransposon",
+          "striatum"
+        ],
+        "weekly_match": true,
+        "score": 12.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.046",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43057228",
+        "title": "CD19 CAR T cell therapy alters disease-associated immune signatures in multiple sclerosis.",
+        "journal": "Cell",
+        "pub_date": "2026-11-19",
+        "abstract": "Multiple sclerosis (MS) is a chronic inflammatory central nervous system (CNS) disease. Although current immunotherapies control relapses, they have limited impact on progression, which might reflect incomplete access to or modulation of compartmentalized CNS inflammation. Chimeric antigen receptor (CAR) T cells can infiltrate tissues, but their ability to access and eliminate immune cells residing in the CNS remains elusive. We report the treatment of five individuals with progressive or relapsing-remitting MS with autologous CD19 CAR T cells to assess safety-relevant aspects, CNS bioavailability, and compartment-specific effects. The intervention induces remodeling of the cerebrospinal fluid (CSF) B cell pool, with a sustained reduction in CSF humoral biomarkers. Notably, CSF-infiltrating CAR T cells selectively upregulate phosphodiesterase 7B, while reconstituted peripheral B cells show altered cytokine and homing profiles. These findings indicate compartment-specific immunomodulation beyond peripheral B cell depletion and support controlled trials to test safety, durability, and efficacy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.044",
+        "pmcid": null,
+        "authors": [
+          "Felix Fischbach",
+          "Lena Kristina Pfeffer",
+          "Jan Broder Engler",
+          "Tradite Neziraj",
+          "Johanna Richter",
+          "Neda Sattarnezhad",
+          "Kristina Berve",
+          "Anne-Catherine Lecourt"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "B cells",
+          "CAR T cells",
+          "EBV",
+          "autoimmunity",
+          "central nervous system",
+          "immune reconstitution",
+          "immunotherapy",
+          "intrathecal antibodies",
+          "multiple sclerosis"
+        ],
+        "weekly_match": true,
+        "score": 38.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.044",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43057227",
+        "title": "RNA folding drives species-dependent host mRNA partitioning in Ebola virus condensates.",
+        "journal": "Cell",
+        "pub_date": "2026-11-19",
+        "abstract": "RNA viruses form membraneless condensates in host cells to drive replication, but whether these compartments regulate host RNAs remains unclear. Using multiplexed error-robust fluorescence in situ hybridization (MERFISH)-based subcellular transcriptomics, we quantified cellular mRNA recruitment into Ebola virus condensates under basal and interferon (IFN)-stimulated states. We find that, in the basal state, cellular RNAs with minimally folded coding regions are selectively recruited. Under IFN stimulation, however, IFN-stimulated genes (ISGs) with structured 3' UTRs concentrate in viral condensates. We find that both RNA structural features are conserved in the viral genome and support its retention in condensates. In parallel, for cellular mRNAs, we find that partitioning into condensates prolongs RNA half-life and amplifies, rather than dampens, ISG expression. Fruit bats, which do not experience severe disease from RNA viruses, instead have ISGs with reduced 3' UTR folding and may evade condensate sequestration, thus enabling balanced antiviral responses. This selective stabilization links condensate function to RNA regulation as a molecular determinant of virus-host co-evolution and disease pathogenesis.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.047",
+        "pmcid": null,
+        "authors": [
+          "Jingru Fang",
+          "Dylan C Lam",
+          "Clarence K Mah",
+          "Reika Watanabe",
+          "Hailey M Tanner",
+          "Troy Comi",
+          "Yuan Cai",
+          "Cheng-Yi Chen"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Ebola virus",
+          "ISGs",
+          "MERFISH",
+          "RNA biology",
+          "bat antiviral immunity",
+          "biomolecular condensates",
+          "immune dysregulation",
+          "interferon-stimulated genes",
+          "phase separation",
+          "spatial transcriptomics",
+          "viral evolution",
+          "virus-host interactions"
+        ],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.047",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43057226",
+        "title": "A natural mutation of timeless enhances mosquito thermal adaptation and malaria parasite transmission.",
+        "journal": "Cell",
+        "pub_date": "2026-11-19",
+        "abstract": "Anopheles stephensi, a malaria-transmitting mosquito, has invaded Africa and rapidly adapts to the high temperatures in urban settings. However, the molecular basis of its thermal adaptation remains unclear. Here, we identified a variant of a 5-kb deletion in the circadian clock gene timeless (tim-5kb) that rose to high frequency after 3 years of rearing at high laboratory temperatures. The tim+/-5kb heterozygous males maintain stable expression of the period gene at high temperatures, conferring a competitive mating advantage through the increased expression of the adipokinetic hormone gene AKH1 to promote energy mobilization and flight activity, together with the upregulation of fatty acyl-CoA reductase genes FAR3 and FAR5 to enhance the production of heptacosane pheromone. Moreover, heterozygous females exhibit increased susceptibility to Plasmodium infection, increasing malaria transmission potential. These findings reveal a circadian-based genetic mechanism that may underlie thermal adaptation in An. stephensi and hold important implications for malaria control in Africa.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.049",
+        "pmcid": null,
+        "authors": [
+          "Guandong Wang",
+          "Peilu Sun",
+          "Bingchen Yang",
+          "Yiguan Wang",
+          "Tao Zhou",
+          "Yang Shi",
+          "Gangqi Fang",
+          "Fang Li"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Anopheles stephensi",
+          "Plasmodium infection",
+          "adipokinetic hormone",
+          "malaria transmission",
+          "mating advantage",
+          "natural variation",
+          "thermal adaptation",
+          "timeless"
+        ],
+        "weekly_match": true,
+        "score": 3.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.049",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43057225",
+        "title": "Genomic surveillance reveals age-structured SARS-CoV-2 transmission across settings.",
+        "journal": "Cell",
+        "pub_date": "2026-11-19",
+        "abstract": "Understanding respiratory virus transmission requires integrating pathogen genomic data with detailed epidemiological context. We analyzed >85,000 SARS-CoV-2 genomes linked to epidemiological data collected in Massachusetts from November 2021 to January 2023. Collected in 666 settings, including schools, colleges, and skilled nursing facilities, this dataset enabled direct comparison of within-setting transmission to community-wide risk. Elevated transmission was concentrated in specific age-defined subpopulations-older adolescents in schools, undergraduates in colleges, and residents in nursing facilities-with little additional risk among other groups, notably including staff. Young adults, particularly in colleges, played a disproportionate role in spread, and new viral lineages consistently expanded first within this group. Viral spread followed reproducible urban-to-rural gradients, and vaccination was associated with reduced onward transmission. We further estimated sequencing thresholds required for timely detection of emerging variants. Together, these findings reveal consistent demographic and spatial structure in SARS-CoV-2 transmission that can inform viral respiratory pathogen genomic surveillance.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.051",
+        "pmcid": null,
+        "authors": [
+          "Gage K Moreno",
+          "Taylor Brock-Fisher",
+          "Lydia A Krasilnikova",
+          "Stephen F Schaffner",
+          "Meagan Burns",
+          "Carolyn E Casiello",
+          "Katelyn S Messer",
+          "Brittany Petros"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "COVID-19",
+          "SARS-CoV-2",
+          "age-structured transmission",
+          "genomic epidemiology",
+          "genomic surveillance",
+          "genomics",
+          "surveillance",
+          "transmission",
+          "vaccination"
+        ],
+        "weekly_match": true,
+        "score": 0.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.051",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43044583",
+        "title": "Paleogenomics illuminates mobility and changing lifeways in Chalcolithic Anatolia.",
+        "journal": "Cell",
+        "pub_date": "2026-11-17",
+        "abstract": "Once labeled the \"Dark Ages\" of Anatolian prehistory, the Chalcolithic period (c. 6000-3000 BCE) was characterized by drastically reduced settlement densities compared with the preceding Neolithic and the succeeding Bronze Ages, a change interpreted as population decline. Using 44 new genomes combined with published data, we find no evidence for a population reduction. The genetic evidence instead suggests that populations in Chalcolithic Anatolia were increasingly mobile and/or growing in size while receiving gene flow from eastern regions (e.g., East Anatolia and the South Caucasus) through a 3,000-year-long admixture process. We propose that genetic and archaeological evidence may be reconciled by hypothesizing the presence of communities with dispersed and mobile lifeways that are mostly invisible to archaeology. These communities also practiced consanguinity at frequencies unobserved in previous periods. Finally, we identify a mid-5th-millennium BCE individual in Central Anatolia carrying ∼10%-30% Pontic-Caspian Steppe-related ancestry, shedding light on mobility between the Eurasian Steppe and Anatolia.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.041",
+        "pmcid": null,
+        "authors": [
+          "Ayça Aydoğan",
+          "Kıvılcım Başak Vural",
+          "Duygu Deniz Kazancı",
+          "Arda Sevkar",
+          "Eren Yüncü",
+          "Ekin Sağlıcan",
+          "Sevgi Yorulmaz",
+          "Merve Nur Güler"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Aegean",
+          "Anatolia",
+          "Caucasus",
+          "Chalcolithic Age",
+          "Pontic-Caspian Steppe",
+          "admixture",
+          "ancient DNA",
+          "mobility",
+          "settlement patterns"
+        ],
+        "weekly_match": true,
+        "score": 0.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.041",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43044582",
+        "title": "Evolutionary repurposing of a pore-forming toxin drives epithelial remodeling during terrestrial adaptation.",
+        "journal": "Cell",
+        "pub_date": "2026-11-17",
+        "abstract": "The ability of vertebrates to conquer land is attributed to innovations in respiration and locomotion. However, land adaptation profoundly reshaped mucosal surfaces such as the skin, the main interface between hosts and the environment. To adapt to land, African lungfish annually remodel their skin, forming a cocoon. Here, we report the discovery of a small pore-forming toxin in African lungfish, Protop-CrTX-A, with no other vertebrate counterpart that is sufficient to drive epithelial morphogenesis transcriptional programs. In free-swimming lungfish, goblet cells secrete Protop-CrTX-A into the mucus. During estivation, this niche is replaced by a mucin-low/basal epithelial niche, adjacent to a granulocyte immune niche that becomes the predominant source of Protop-CrTX-A in the estivated skin. Protop-CrTX-A acts as a reversible switch for skin remodeling, sufficient to convert African lungfish skin between aquatic and terrestrial states. We propose that innate immunity, through its capacity to remodel tissues, was a key driver of vertebrate water-land transitions.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.038",
+        "pmcid": null,
+        "authors": [
+          "Daphne Siciliani",
+          "Ottavia Benedicenti",
+          "Marijan Posavi",
+          "Temiloluwa Omotade",
+          "Sara Ximena Amortegui",
+          "Benjamin J Garcia",
+          "Ryan D Heimroth",
+          "Yago Serra Dos Santos"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "epithelium",
+          "evolution",
+          "goblet cells",
+          "granulocytes",
+          "immunity",
+          "pore-forming toxin",
+          "skin",
+          "tissue remodeling",
+          "vertebrates",
+          "water-land transitions"
+        ],
+        "weekly_match": true,
+        "score": 12.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.038",
+        "supplement_reason": null
+      }
+    ],
+    "Cell metabolism": [
+      {
+        "pmid": "43051150",
+        "title": "Macronutrient composition and genetic background determine the response to a ketogenic diet in mice.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-18",
+        "abstract": "While high-fat diets (HFDs) cause hyperphagia and obesity, ketogenic diets (KDs) generally reduce food intake and body weight. In C57BL/6J (B6J) but not C57BL/6NJ (B6NJ) mice, a KD with 5% protein (KD-5%P) induced hypophagia, weight loss, and hypoglycemia, whereas the same diet with 10% protein (KD-10%P) increased adiposity and glucose intolerance. KD-5%P increased GDF15 and LCN2 in B6J mice, and GFRAL-neuron ablation blunted weight loss. B6J mice harbor Nnt and Nlrp12 mutations, and hepatic NNT re-expression mitigated weight loss, with a trend toward reduced GDF15. An Nrp12 knockout (KO) in B6NJ mice induced weight loss and increased LCN2, and combined Nlrp12/Nnt KO shifted the response to KD-5%P toward that of B6J mice. Finally, in B6J mice, KD-5%P induced hepatic stress and inflammation, and N-acetylcysteine reduced circulating GDF15 and LCN2 to attenuate weight loss. These findings indicate that interactions between macronutrient composition and genetic background shape the murine response to a low-protein KD, suggesting that these factors might also be relevant to the response in humans.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.10.017",
+        "pmcid": null,
+        "authors": [
+          "Zhaoyue Zhang",
+          "Alexandre Moura-Assis",
+          "Shanshan Liu",
+          "Alon Millet",
+          "Jordan Shaked",
+          "Divya Rajan",
+          "Katelin Chen",
+          "Anduena Toci"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "GDF15",
+          "LCN2",
+          "Nlrp12",
+          "Nnt",
+          "genetic background",
+          "inflammation",
+          "ketogenic diet",
+          "metabolic adaptation",
+          "oxidative stress"
+        ],
+        "weekly_match": true,
+        "score": 11.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.017",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43051149",
+        "title": "Repeated sugar exposure reshapes cue-potentiated motivation without a detectable change in explicit valuation.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-18",
+        "abstract": "The degree to which habitual consumption of rewarding foods shapes responses to environmental food cues remains poorly understood. Preclinical research suggests that sugar exposure alters neural mechanisms that underlie motivated behavior and increases the influence of reward-predictive cues. In a randomized controlled trial (NCT03490734), adults consumed a sucrose-sweetened or a flavor-matched, unsweetened, non-caloric control beverage daily for 3 weeks (n = 160; n = 122 neuroimaging subsample). Repeated sugar exposure increased approach speed toward the beverage cue, which was associated with differences in ventral striatal cue response between groups. This occurred without detectable between-group changes in sugary beverage valuation, body mass, or diet. In exploratory analyses at follow-up, the sugar group performed better compared to controls during sugar-based reversal learning. In humans under controlled exposure, cue-potentiated motivation increased without a change in explicit valuation, consistent with a signature prediction of incentive sensitization.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.10.018",
+        "pmcid": "PMC13782753",
+        "authors": [
+          "Kyle S Burger",
+          "Grace E Shearrer",
+          "Afroditi Papantoni",
+          "Jennifer R Sadler",
+          "Jeanette Mumford",
+          "Dana M Small",
+          "Russell A Poldrack",
+          "Emily S Finn"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "approach motivation",
+          "calorie",
+          "cue reactivity",
+          "eating behavior",
+          "functional MRI",
+          "functional connectivity",
+          "habitual consumption",
+          "incentive sensitization",
+          "obesity",
+          "reinforcement learning",
+          "reward",
+          "sugar-sweetened beverages"
+        ],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.018",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43044588",
+        "title": "Microglial SUCNR1 senses metabolic state to regulate whole-body homeostasis.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-17",
+        "abstract": "Peripheral metabolic cues influence central energy control through incompletely understood pathways. Succinate, a Krebs cycle-derived metabolite elevated during nutrient excess and inflammation, signals via the G protein-coupled receptor SUCNR1; however, its central nervous system (CNS) role remains poorly defined. Using integrated mouse, human, and cellular approaches, we investigated how the succinate-SUCNR1 axis regulates peripheral energy balance in normal and high-fat diet states. Cerebrospinal fluid succinate dynamics were dissociated from plasma levels yet reflected systemic metabolic status, supporting a distinct central succinate compartment dynamically associated with peripheral metabolic state. Multi-omic and functional analyses identified microglia as the principal CNS targets of succinate, characterized by high SUCNR1 expression and functional dependence on this signaling pathway. Microglial Sucnr1 deletion altered peripheral energy regulation, conferring resistance to diet-induced metabolic stress while disrupting physiological energy balance, including leptin responsiveness and fasting-refeeding behavior. These findings establish the microglial succinate-SUCNR1 axis as a key immuno-metabolic mechanism linking systemic metabolic signals to the hypothalamic control of energy homeostasis.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.10.013",
+        "pmcid": null,
+        "authors": [
+          "Maria Repollés-de-Dalmau",
+          "Evridiki Asimakidou",
+          "Grzegorz Krzak",
+          "Andi Munteanu",
+          "Anna Marsal-Beltran",
+          "Carlos Castaño",
+          "Francisco J Osuna-Prieto",
+          "Maria Llambrich"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "SUCNR1",
+          "energy homeostasis",
+          "hypothalamus",
+          "immunometabolism",
+          "leptin signaling",
+          "metabolic sensing",
+          "microglia",
+          "neuroinflammation",
+          "obesity",
+          "succinate"
+        ],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.013",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43044587",
+        "title": "Diet-microbiome interaction shapes stress susceptibility via a gut-brain neurometabolic circuit.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-17",
+        "abstract": "Dietary patterns shape mood and behavior, yet the microbial signals and neurosensory mechanisms underlying these effects remain unclear. Here, we identify a microbiota-mediated gut-brain circuit that dynamically regulates stress susceptibility during high-fat diet (HFD) exposure. Short- and long-term HFD differentially alter L-pipecolic acid (L-PipA), a metabolite produced by bacterial pyrroline-5-carboxylate reductase and sensed by oxytocinergic neurons in the paraventricular hypothalamus (PVH). Supplementation with L-PipA, either through its native producer Alistipes dispar or a bioengineered bacterial strain, promotes stress resilience, an effect mechanistically linked to ferritin heavy chain 1 (FTH1)-associated oxytocin secretion and a neural circuit linking PVH oxytocinergic neurons to lateral septal γ-aminobutyric acid (GABAergic) neurons. In humans, circulating L-PipA levels are reduced in patients with depression but increased in healthy volunteers following a 5-day HFD intervention. Together, these findings reveal a diet-microbiome-neural circuit axis regulating stress-related behaviors and suggest a potential strategy for enhancing stress resilience.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.10.014",
+        "pmcid": null,
+        "authors": [
+          "Youying Zhang",
+          "Ruizhe Nie",
+          "Zixin Chen",
+          "Xuanyao Li",
+          "Zemin Li",
+          "Yuanlong Hou",
+          "Chunyu Li",
+          "Guangbo Kang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "L-pipecolic acid",
+          "depression",
+          "diet-microbe interaction",
+          "gut microbiome",
+          "gut-brain axis",
+          "high-fat diet",
+          "lysine metabolism",
+          "neurometabolic circuit",
+          "oxytocin",
+          "stress susceptibility"
+        ],
+        "weekly_match": true,
+        "score": 35.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.014",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43044585",
+        "title": "Innate immune memory of past hepatic injury promotes ischemic cardiac inflammation.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-17",
+        "abstract": "Hepatic disorders frequently coexist with cardiovascular diseases, leading to worsened prognosis. However, the mechanisms of inter-organ communication and the impact of historical hepatic injury await elucidation. Here, we report that the historical liver damage triggers long-term reprogramming of the innate immune system, biases hematopoietic stem cells differentiation toward myeloid fate, and aggravates inflammatory injury during myocardial infarction (MI). This immune memory is transmissible in bone marrow transplantation and parabiosis models. Injured liver-derived palmitic acid is responsible for the metabolic rewiring of cardiac macrophages during memory formation and establishes persistent epigenetic signatures in the transcriptional regulatory regions of hepatic injury-associated memory (\"HepMem\") genes containing the activator protein-1 motif. The HepMem monocyte/macrophages are expanded in liver-injured mice and potentiate the post-MI inflammatory cascades and adverse cardiac remodeling. Therefore, the innate immune memory links the past hepatic injury with MI, guiding the promising therapeutic approaches for the inflammatory cardiac comorbidities.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.10.012",
+        "pmcid": null,
+        "authors": [
+          "Sheng Zhang",
+          "Yunkai Zhang",
+          "Xuewen Duan",
+          "Yong Tan",
+          "Bo Wang",
+          "Diwei Du",
+          "Ying Xia",
+          "Lijie Ma"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cardiac macrophages",
+          "hepatic dysfunction",
+          "histone modification",
+          "innate immune memory",
+          "ischemic cardiac diseases",
+          "palmitic acid",
+          "post-infarction repair",
+          "trained immunity"
+        ],
+        "weekly_match": true,
+        "score": 32.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.012",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43038987",
+        "title": "Microbial bile acid deconjugation counters metabolic decline in aging.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-16",
+        "abstract": "Interventions such as caloric restriction and time-restricted feeding improve lifespan and aging-associated metabolic health, in part through effects on the gut microbiome and bile acid dynamics. However, how aging alters microbial function and bile acid signaling, and whether these changes can be therapeutically leveraged, remain unclear. Here, we show that aged mice exhibit increased deconjugation of taurine-conjugated bile acids accompanied by increased bile salt hydrolase (BSH)-related transcriptional activity. Individuals with exceptional longevity show a similar bile acid deconjugation signature, suggesting an association with resilient or exceptional aging. Using engineered native bacteria, we further increased luminal BSH activity in aged mice and improved insulin sensitivity, accompanied by supportive changes in body composition and other metabolic readouts. Together, these findings suggest that elevated BSH activity may have a protective role during aging. They challenge the view that age-related changes in bile acid biotransformations are uniformly detrimental, highlighting microbial bile acid modulation as a potential strategy to improve late-life metabolic health.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.10.016",
+        "pmcid": null,
+        "authors": [
+          "Ana Carolina Dantas Machado",
+          "Wuling Zhong",
+          "Anand R Saran",
+          "Baylee J Russell",
+          "Erica Maissy",
+          "Stephany Flores Ramos",
+          "Antonio F M Pinto",
+          "Juan Pablo Zuniga-Hertz"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "NF-κ B signaling",
+          "bacterial engraftment",
+          "centenarian",
+          "circadian rhythms",
+          "host-microbe interactions",
+          "ileum",
+          "insulin resistance",
+          "metatranscriptomics",
+          "mitochondrial respiration",
+          "respiratory exchange ratio"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.016",
+        "supplement_reason": null
+      }
+    ],
+    "immunity": [
+      {
+        "pmid": "43044601",
+        "title": "Brain border-associated macrophages rhythmically scavenge amyloid-beta and regulate vascular amyloid pathology.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-17",
+        "abstract": "Circadian disruptions perturb the brain and immune system and increase the risk of developing Alzheimer's disease (AD), yet whether this involves dysregulation of brain immunity remains less clear. Here, we performed single-cell RNA sequencing of the brain immune compartment around the day-night cycle and identified brain border-associated macrophages (BAMs) as highly rhythmic cells. We found that the rest phase was a specialized time for BAM engulfment, characterized by upregulation of endocytic machinery and enhanced uptake of fluid-borne material including amyloid-beta (Aβ). Rhythmicity in BAM scavenging was regulated by the clock gene Bmal1, mediated by the scavenger receptor CD206, and perturbed with age. In a mouse model of AD, deletion of Bmal1 in BAMs worsened perivascular and leptomeningeal Aβ plaque burden. Our results characterize rapid endocytosis as a specialized and rhythmic BAM function and identify perturbed timing of brain border immunity as one avenue by which circadian disruptions may precipitate amyloidosis.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.014",
+        "pmcid": null,
+        "authors": [
+          "Helena J Barr",
+          "Sydney K Caldwell",
+          "Justin M Colville-Reimertz",
+          "Constanze Depp",
+          "Alec J Walker",
+          "Jasmin Patel",
+          "Samuel E Marsh",
+          "Anushree S Gupte"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Alzheimer’s disease",
+          "aging",
+          "amyloid-beta clearance",
+          "border-associated macrophages",
+          "circadian rhythms",
+          "endocytosis",
+          "engulfment",
+          "neuroimmunology",
+          "perivascular macrophages"
+        ],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.014",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43044600",
+        "title": "The transcription factor TOX maintains stemness circuits that sustain longevity and multipotency of progenitor CD4+ T cells in chronic infection.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-17",
+        "abstract": "Progenitor CD4+ T (Tpex) cells retain developmental plasticity and replenish antigen-specific CD4+ T cell responses in settings of chronic infection and cancer. Given the sustained, elevated expression of the transcription factor TOX across all CD4+ TEX cell subsets during chronic infection, we examined how TOX impacts CD4+ TEX differentiation during chronic infection. Deletion of TOX in lymphocytic choriomeningitis virus (LCMV)-specific transgenic CD4+ T cells impaired Tpex cell survival and drove unrestrained TEX cell differentiation. Multiomic profiling revealed that this effector-like state was concomitant with loss of TCF-1 pathway activity and gain of NFAT, NF-κB, and RUNX-coordinated transcriptional circuitry. TOX also promoted the multipotent potential of CD4+ Tpex cells to differentiate into T helper (Th)1-like or Tfh-like cells by day 8 post-infection (p.i.) prior to establishment of chronic infection. These data reveal a TOX-driven transcriptional network that maintains CD4+ Tpex cell function and persistence, supporting a durable and malleable response during persisting antigen stimulation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.015",
+        "pmcid": null,
+        "authors": [
+          "Stefan Lundh",
+          "Josephine R Giles",
+          "Christopher H Holliday",
+          "Amy E Baxter",
+          "Sasikanth Manne",
+          "Matthew A Sullivan",
+          "Katherine A Dalton",
+          "Warren S Pear"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CD4(+) T cells",
+          "LCMV cl13",
+          "RUNX",
+          "TOX",
+          "chronic viral infection",
+          "effector T cells",
+          "exhaustion",
+          "progenitor T cells",
+          "single-cell genomics",
+          "transcriptional circuit"
+        ],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.015",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Immunology": [
+      {
+        "pmid": "43064785",
+        "title": "Herpesvirus exposures map to self-reactivity networks in chronic disease.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-20",
+        "abstract": "",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02679-0",
+        "pmcid": null,
+        "authors": [],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 7.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02679-0",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43064784",
+        "title": "Large-scale antibody reactome profiling identifies herpesvirus-autoantigen associations that underlie chronic diseases.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-20",
+        "abstract": "Herpesviruses infect nearly all humans and have long been implicated in autoimmune and chronic diseases, yet their interactions with host proteins have not been systematically characterized. We profiled immunoglobulin G reactivities to >4,600 herpesvirus peptides and >15,000 human proteins using multiplexed protein display in two Mass General Brigham Biobank cohorts (discovery n = 1,289; replication n = 763), with longitudinal electronic health record follow-up. We identified and replicated 4,943 FDR-significant associations across 106 autoantigens, including previously uncharacterized viral-autoantigen axes, such as PHLDA1 and ZNF550. Eleven autoantigens were predicted by viral reactivities with >85% accuracy in independent validation, two of which exhibited viral-host sequence homology consistent with possible molecular mimicry. Integrating immune reactivities with incident diseases revealed virus-specific networks. Cytomegalovirus formed the largest multimorbid network, Epstein-Barr virus converged on pleiotropic autoimmune hubs and herpes simplex viruses formed partially overlapping networks. These findings define a herpesvirus-autoantigen-disease network atlas and prioritize candidate viral-host immune axes for mechanistic investigation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02674-5",
+        "pmcid": null,
+        "authors": [
+          "Sanghun Lee",
+          "Nicole Prince",
+          "Qingwen Chen",
+          "Xueying Chen",
+          "Junwei Lu",
+          "Kevin M Mendez",
+          "Rachel S Kelly",
+          "Julian Hecker"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 13.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02674-5",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43045751",
+        "title": "Fever-induced OR560 promotes antibacterial immunity through macrophage pseudopod formation and phagocytosis.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-17",
+        "abstract": "Fever is a conserved physiological response to pathogen infection. However, how fever promotes host defense remains poorly understood. Here we find that fever empowers antibacterial immunity by inducing olfactory receptor 560 (OR560) to promote macrophage phagocytosis. Through a genome-wide CRISPR screen, we discovered that OR560 is indispensable for macrophage phagocytosis. Febrile temperature drives the serum response factor-dependent OR560 induction in macrophages to boost phagocytosis. OR560 responds to bacteria-derived peptides and plays an essential role in mediating pseudopod formation-a key step required for target uptake. Modulation of body temperature in mice showed that the immune-amplifying effect of fever depends predominantly on OR560. We further demonstrated that the genetic ablation of either Olfr560 or serum response factor (Srf) in mice not only abolished fever-potentiated macrophage phagocytosis but also led to catastrophic defects in bacterial clearance and increased mortality upon infections. Thus, our work reveals that OR560 is a pivotal regulator of fever-enhanced antibacterial phagocytosis and integrates both pathogen-derived and febrile signals to ensure a robust response to infection.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02709-x",
+        "pmcid": null,
+        "authors": [
+          "Hong Cai",
+          "Jun-Xi Yi",
+          "Jing-Yi Sun",
+          "Jin Li",
+          "Min-Yi Feng",
+          "Zhe-Han Liu",
+          "Shuai Jiang",
+          "Li-Ming Sun"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02709-x",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43040049",
+        "title": "Maternal and early life obesity programs CD4+ T cell fate to impair vaccine immunity.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-16",
+        "abstract": "In their first 3 years, children experience an average of 14 infections and receive vaccines against roughly 15 pathogens, yet whether maternal and early life obesity alters adaptive immune responses during this critical period remains largely undefined. Using a mouse model that mirrored the epidemiological link between maternal and childhood obesity, we found that high-fat diet exposure during pregnancy or early postnatal life, but not adulthood, reshaped the epigenetic and transcriptional landscape of naive CD4+ T cells and impaired their ability to differentiate into T follicular helper (TFH) cells and support germinal center reactions in response to mRNA-based and protein-based vaccines. Mechanistically, epigenetic repression of the ubiquitin-editing enzyme A20 (Tnfaip3) was a central driver of these defects. Pediatric patients with haploinsufficiency of A20 displayed a marked reduction in circulating TFH cells. Altogether, these findings establish maternal and early life obesity as determinants of adaptive immunity during a critical developmental window.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02700-6",
+        "pmcid": null,
+        "authors": [
+          "Michaël F Michieletto",
+          "Monica T Jimenez",
+          "Atishay Jay",
+          "Michelle Y Y Lee",
+          "Jean-Christophe Beltra",
+          "Corentin Le Saos-Patrinos",
+          "Samir U Sayed",
+          "Megan L Clark"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 36.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02700-6",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43040048",
+        "title": "Early-life obesity edits T cell fate.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-16",
+        "abstract": "",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02710-4",
+        "pmcid": null,
+        "authors": [
+          "Danish Umar",
+          "Deepshika Ramanan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02710-4",
+        "supplement_reason": null
+      }
+    ],
+    "Science Immunology": [
+      {
+        "pmid": "43063303",
+        "title": "Aging drives distinct chromatin signatures of CD8 T cell dysfunction and the emergence of a unique CD8 Treg cell population.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-20",
+        "abstract": "Aging profoundly alters CD8 T cells, driving senescence and exhaustion that contribute to immune decline. By mapping chromatin accessibility across functional and dysfunctional CD8 T cell subsets from young and aged mice, we found that age-related CD8 T cell dysfunction was associated with a loss of regulation at three distinct levels. Dysfunctional CD8 T cells showed reduced accessibility of genes essential for \"stemness,\" indicating diminished regenerative potential. Exhausted memory T cells (Tmem cells) showed decreased accessibility of \"restraint\" genes, which limit differentiation postactivation. Last, both senescent virtual memory T cells (TVM cells) and exhausted Tmem cells displayed increased accessibility of \"terminal inhibitory\" genes, underscoring progression toward irreversible dysfunction. The inhibitory receptor gene Fcgr2b, encoding FcγRIIb/CD32b, was notably increased in a subset of aged TVM cells with regulatory characteristics. This study defines mechanisms of CD8 T cell aging and identifies a CD8 regulatory T cell (Treg cell) population that emerges as a hallmark of aging.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aej5412",
+        "pmcid": null,
+        "authors": [
+          "Daniel Thiele",
+          "Liam C Kealy",
+          "David Chisanga",
+          "Brendan E Russ",
+          "Angela Nguyen",
+          "Jessica Runting",
+          "Iona S Schuster",
+          "Adele Barugahare"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aej5412",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43063302",
+        "title": "Wall teichoic acid regulates DNA-triggered innate immune receptor activation by Staphylococcus aureus.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-20",
+        "abstract": "Cytosolic receptors that stimulate inflammation are commonly activated by ligands derived from microbes within phagosomes. The mechanisms that facilitate immunostimulatory ligand release into the cytosol during intraphagosomal infection are largely undefined. Using the pathogen Staphylococcus aureus, we describe wall teichoic acid (WTA) as a mediator of immune receptor activation during infection. Mechanistically, we find that the α-glycosylated form of WTA, generated by the glycosyltransferase TarM, mediates phagosome damage that enables bacterial escape into the macrophage cytoplasm. Peptidoglycan (PGN) O-acetylation reduces WTA attachment to PGN to prevent phagosomal escape. This competition among PGN-modifying enzymes determines the release of bacterial DNA into the macrophage cytoplasm and the activation of cytosolic DNA receptors AIM2 and cGAS. WTA thus controls the cytosolic exposure of microbe-derived ligands that stimulate innate immunity.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.ael7335",
+        "pmcid": null,
+        "authors": [
+          "Jordan B Jastrab",
+          "Ashley Tseng",
+          "Daniel Fisch",
+          "Stephanie A Ragland",
+          "Jonathan C Kagan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 20.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.ael7335",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43063301",
+        "title": "CD36+ Kupffer cells control postprandial lipid clearance and fuel metabolic dysfunction-associated steatotic liver diseases.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-20",
+        "abstract": "Liver macrophages comprise distinct populations with specialized functions. Kupffer cells (KCs) populate liver sinusoids during embryonic development and monitor the blood, clear erythrocytes, and recycle iron. In metabolic dysfunction-associated steatotic liver disease (MASLD), KCs acquire a lipid-associated macrophage phenotype characterized by the expression of CD36. Whether lipid-associated KCs exist at steady state and perform physiological functions remains unclear. Here, we show that CD36+ KCs, previously identified as KC2, are present at steady state in both mice and healthy human livers and that lipid handling is an intrinsic feature of this KC subset. Using KC-specific Cd36 deletion, we demonstrate that CD36 is required for postprandial hepatic lipid retention in healthy mice. CD36+ KCs also promoted lipid accumulation during MASLD, whereas KC-specific CD36 deficiency attenuated hepatic steatosis, identifying this subset as a regulator of physiological lipid homeostasis and metabolic liver disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aef5478",
+        "pmcid": null,
+        "authors": [
+          "Joanna Razafiarison",
+          "Fawaz Alzaid",
+          "Claire Leveau",
+          "Dorothy Tonui",
+          "Marc Diedisheim",
+          "Flavie Bernigole",
+          "Mathilde Bied",
+          "Aymeric Silvin"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aef5478",
+        "supplement_reason": null
+      }
+    ],
+    "Bioinformatics": [
+      {
+        "pmid": "43062152",
+        "title": "pyGENIE: A Python library for programmatic access and mutational analysis of AACR Project GENIE.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-20",
+        "abstract": "MOTIVATION: As of today, AACR Project GENIE has completed 19 data releases since its launch in 2015. The latest release includes more than 268 000 samples from nearly 250 000 patients, and as of February 2026, over 1730 scientific journal articles have cited Project GENIE data. Despite its scale and scientific impact, programmatic analysis of GENIE data often still requires researchers to work directly with complex flat files and develop custom data integration workflows.\nRESULTS: Here we present pyGENIE, a Python package that provides a unified API for accessing GENIE flat files, performing clinical and genomic queries, computing tumor mutational burden, and integrating with leading mutational signature analysis tools including SigProfiler and SigMA. Following a data-as-a-service paradigm, pyGENIE returns all results as native pandas DataFrames, enabling seamless integration with machine learning and visualization libraries. Applied to a lung adenocarcinoma (LUAD) case study, pyGENIE reproduces known mutation frequencies, co-mutation patterns, and mutational signatures while reducing the required codebase by approximately an order of magnitude.\nAVAILABILITY: pyGENIE is freely available at https://github.com/gersteinlab/pyGENIE under the MIT License, archived at https://doi.org/10.5281/zenodo.21981945, and can be installed from PyPI using pip install pygenie-sdk.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag844",
+        "pmcid": null,
+        "authors": [
+          "Dana Dayan",
+          "Mark Gerstein"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag844",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43059007",
+        "title": "hlafactor: a tool for multi-layer functional annotation of HLA variation.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-19",
+        "abstract": "MOTIVATION: The human leukocyte antigen (HLA) system is the most polymorphic region of the human genome and a major determinant of immune function and disease susceptibility. Ideally, analyses of HLA variation would capture multiple layers of information, from classical alleles and amino-acid residues to higher-level functional properties such as tapasin dependency, cell-surface expression, and NK cell ligand groups. However, while allele- and amino-acid-level data are now routinely available, the corresponding functional annotations remain scattered across publications and reference datasets, and no existing tool integrates them within a unified, reproducible framework.\nRESULTS: We present hlafactor, a computational tool that brings together established HLA functional annotations within a single, standardised framework. Starting from two-field HLA genotype calls, whether imputed or molecularly typed, hlafactor assigns functional annotations from published reference datasets and applies established calculations to derive individual-level features. These include tapasin dependency scores, general and functional heterozygosity, allele-specific cell surface expression, NK cell-related polymorphisms (Bw4/Bw6, C1/C2, HLA-B -21 M/T), and class I/II supertype assignments. hlafactor also maps alleles to IMGT/HLA amino-acid alignments to generate residue-level genotypes. All outputs are formatted for direct use in downstream association analyses with existing software. Applied to 17,960 samples from the MalariaGEN consortium, each functional annotation module completed in under 15 seconds on a single CPU core, and preprocessing and quality control in just over four minutes, supporting its use in large cohort studies.\nAVAILABILITY: hlafactor is implemented in C ++20 and is freely available at https://github.com/QiJingS/hlafactor and archived on Zenodo under DOI https://doi.org/10.5281/zenodo.20647440.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag845",
+        "pmcid": null,
+        "authors": [
+          "Qijing Shen",
+          "Mathias Viard",
+          "Mary Carrington",
+          "Gavin Band",
+          "M Azim Ansari"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag845",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43046612",
+        "title": "CiliaHub: an updated gold-standard catalogue of ciliary genes with integrated ciliopathy data.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-17",
+        "abstract": "MOTIVATION: Cilia are specialised cell-surface extensions central to signalling and sensation, and their dysfunction causes ciliopathies, a clinically heterogeneous group of disorders. Progress in the field has been held back by the lack of an updated and expanded gold-standard gene set.\nRESULTS: We present CiliaHub, an open-access platform centered on an expert-curated catalog of over 2,500 ciliary and cilia-associated genes that significantly expands upon the scope of the SYSCILIA Gold Standard v2. For each gene, CiliaHub brings together subcellular localization, protein-complex information, domain architecture, cross-species orthology, functional-screen results, expression profiles, and ClinVar variants, as well as a dedicated ciliopathy module covering over 70 ciliopathies and over 400 disease genes. The data are queried through a rule-based question-answering assistant (CiliAI), gene-list analysis tools, a phenotype-driven search, and open static-JSON endpoints, supporting screen interpretation, variant prioritization, and ciliopathy research from a single point of access.\nAVAILABILITY: CiliaHub is freely available at https://ciliahub.org without registration. Source code is available on https://github.com/theCiliaHub/theCiliaHub.github.io and archived at Zenodo version 3 (DOI: 10.5281/zenodo.23257334). All figures and counts in this manuscript refer to CiliaHub release v9.2 (frozen October 2026). The versions of every external data source used in that release are listed in Supplementary Table S6, and the release version, freeze date and data file are stated at https://ciliahub.org/about.html.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Zenodo online and static-JSON API endpoints (https://ciliahub.org/api.html).",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag836",
+        "pmcid": null,
+        "authors": [
+          "Ferhan Yenisert",
+          "Sebiha Cevik",
+          "Oktay I Kaplan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag836",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Protocols": [
+      {
+        "pmid": "43040031",
+        "title": "Predictive modeling of single-cell transcriptomic dynamics with Dynamo.",
+        "journal": "Nature protocols",
+        "pub_date": "2026-11-16",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) provides a powerful means to investigate cell fate dynamics during development and disease. However, existing computational approaches-such as RNA velocity-are often limited to qualitative and descriptive insights. We previously presented Dynamo, a machine learning framework that leverages noisy RNA velocity estimates to learn analytical and predictive vector fields of gene expression dynamics. These learned vector fields enable a suite of novel, quantitative analyses, including mapping the geometry of cell state transitions, identifying dynamic features of differentiation trajectories, inferring gene regulatory networks, predicting optimal paths and transcription factor cocktails for cellular reprogramming, and simulating in silico genetic perturbations. Here we provide a comprehensive protocol for applying Dynamo across four distinct data types and five downstream analyses, demonstrating its versatility in handling conventional and metabolic-labeling-enabled scRNA-seq, multiomic datasets and even datasets without velocity information. We also show that Dynamo can predict cell fate diversions following genetic perturbations and accurately identify key transcription factors that enable lineage transitions in the hematopoietic system. By enabling predictive modeling from single-cell data, our protocol aims to empower the development of generative and predictive models of single-cell genomics. While typical RNA velocity vector field analyses can be completed in less than an hour, the nine case studies in the Protocol can be completed in ~7 h and 35 min. The Protocol is designed for researchers with basic familiarity in scRNA-seq analysis and Python programming, although no advanced coding expertise is required.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1038/s41596-026-01458-3",
+        "pmcid": null,
+        "authors": [
+          "Zehua Zeng",
+          "Sichao Yu",
+          "Ke Ni",
+          "Yan Zhang",
+          "Ukyeon Shin",
+          "Cinlong Huang",
+          "Natalie Cao",
+          "Jonathan Weissman"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 1.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41596-026-01458-3",
+        "supplement_reason": null
+      }
+    ]
+  },
+  "selected_papers": {
+    "Nature": [],
+    "Science": [
+      {
+        "pmid": "43056446",
+        "title": "The fate of poised pre-mRNAs shapes mitochondrial activity and cellular differentiation.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-19",
+        "abstract": "Although RNA quality control tightly regulates gene expression, the scope of its regulatory functions in the nucleus remains unclear. In this study, we describe the quality control, on chromatin, of poised intron-containing polyadenylated RNAs (PIA-RNAs). Whether these precursor messenger RNAs (pre-mRNAs) constitute immature mRNAs whose splicing is pending or, alternatively, are degraded by the nuclear RNA exosome depends on whether they engage nuclear cap-binding protein 3 (NCBP3) or anillin, respectively. Many PIA-RNAs inversely controlled by NCBP3 and anillin encode mitochondrial factors. Thus, NCBP3 depletion in mouse as well as pathogenic mutations in the RNA exosome in humans result in reduced mitochondrial activity, muscle weakness, cerebellar hypomyelination, and diminished motor coordination. Our findings reveal a competition between pre-mRNA metabolic pathways whose balance controls mitochondrial function and, when perturbed, leads to neurological diseases.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aee8018",
+        "pmcid": null,
+        "authors": [
+          "Xavier Rambout",
+          "Rina Nagao",
+          "Victor Gu",
+          "Sophie Werner",
+          "Justin Youngyunpipatkul",
+          "Jadon Schlierf",
+          "Christoph Pröschel",
+          "Lynne E Maquat"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 18.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aee8018",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43056450",
+        "title": "Divergent activation of the RXFP1 relaxin receptor by protein and small-molecule agonists.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-19",
+        "abstract": "The relaxin receptor RXFP1 is a therapeutic target owing to its potential benefits in the treatment of fibrosis and heart failure. Protein and small-molecule agonists are currently in midstage clinical trials for various forms of heart disease. In this work, we present three cryo-electron microscopy structures of RXFP1: ligand-free, bound to the native agonist relaxin-2, and bound to the small-molecule drug candidate AZD5462. These structures reveal that relaxin-2 engages the receptor's ectodomain, whereas AZD5462 binds to the transmembrane domain. Together with hydrogen-deuterium exchange mass spectrometry, we show that relaxin-2 induces reorganization of the linker domain into a helical secondary structure. By contrast, AZD5462 stabilizes an active conformation through a distinct set of conformational rearrangements. Altogether, our findings define divergent activation mechanisms for protein and small-molecule agonists of RXFP1.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aei0135",
+        "pmcid": null,
+        "authors": [
+          "James Osei-Owusu",
+          "Tristan Girbau",
+          "Xunan Wang",
+          "Jeffrey S Smith",
+          "Pengxiang Shen",
+          "Sarah C Erlandson",
+          "Amanda K Williamson",
+          "Xiaojing Cong"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 10.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aei0135",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43056466",
+        "title": "Balancing redox-mediated cytotoxicity and catalysis in natural product biosynthesis.",
+        "journal": "Science (New York, N.Y.)",
+        "pub_date": "2026-11-19",
+        "abstract": "Redox-mediated chemistry is central to both the biosynthesis and cytotoxicity of many natural products, yet how microbes balance these processes remains poorly understood. Here, we uncover a conserved mechanism that coordinates three redox-mediated processes in secondary metabolite biosynthesis: self-protection, prevention of substrate degradation, and late-stage biosynthesis. Using the antitumor antibiotic doxorubicin as a model system, we show that the vicinal oxygen chelate (VOC) protein DnrV prevents reactive oxygen species formation and substrate degradation while promoting P450 catalysis. We expand this paradigm to a conserved family of VOC-fold proteins, redox-associated cytotoxin-binding proteins (REACT), found across bacteria, fungi, and plants. REACT represents a multifunctional protein class that balances antibiotic assembly, self-protection, and prevention of metabolite destruction, providing a foundational understanding of production of redox-active natural products.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/science.aee2641",
+        "pmcid": null,
+        "authors": [
+          "Hannah A Boesger",
+          "Emma Fang",
+          "Rongbin Wang",
+          "Ralph J Harte",
+          "Arina Koroleva",
+          "Taylan Tunckanat",
+          "Areeba N Momin",
+          "Sean J Elliott"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/science.aee2641",
+        "supplement_reason": null
+      }
+    ],
+    "Cell": [
+      {
+        "pmid": "43057228",
+        "title": "CD19 CAR T cell therapy alters disease-associated immune signatures in multiple sclerosis.",
+        "journal": "Cell",
+        "pub_date": "2026-11-19",
+        "abstract": "Multiple sclerosis (MS) is a chronic inflammatory central nervous system (CNS) disease. Although current immunotherapies control relapses, they have limited impact on progression, which might reflect incomplete access to or modulation of compartmentalized CNS inflammation. Chimeric antigen receptor (CAR) T cells can infiltrate tissues, but their ability to access and eliminate immune cells residing in the CNS remains elusive. We report the treatment of five individuals with progressive or relapsing-remitting MS with autologous CD19 CAR T cells to assess safety-relevant aspects, CNS bioavailability, and compartment-specific effects. The intervention induces remodeling of the cerebrospinal fluid (CSF) B cell pool, with a sustained reduction in CSF humoral biomarkers. Notably, CSF-infiltrating CAR T cells selectively upregulate phosphodiesterase 7B, while reconstituted peripheral B cells show altered cytokine and homing profiles. These findings indicate compartment-specific immunomodulation beyond peripheral B cell depletion and support controlled trials to test safety, durability, and efficacy.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.044",
+        "pmcid": null,
+        "authors": [
+          "Felix Fischbach",
+          "Lena Kristina Pfeffer",
+          "Jan Broder Engler",
+          "Tradite Neziraj",
+          "Johanna Richter",
+          "Neda Sattarnezhad",
+          "Kristina Berve",
+          "Anne-Catherine Lecourt"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "B cells",
+          "CAR T cells",
+          "EBV",
+          "autoimmunity",
+          "central nervous system",
+          "immune reconstitution",
+          "immunotherapy",
+          "intrathecal antibodies",
+          "multiple sclerosis"
+        ],
+        "weekly_match": true,
+        "score": 38.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.044",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43057230",
+        "title": "Genome writing reveals SVA retrotransposon consequences in X-linked dystonia-parkinsonism.",
+        "journal": "Cell",
+        "pub_date": "2026-11-19",
+        "abstract": "Human retrotransposon insertions are often associated with diseases. Regarding neurodegenerative X-linked dystonia-parkinsonism (XDP), a human-specific SINE-VNTR-Alu (SVA) subfamily F retrotransposon was inserted in intron 32 of the TAF1 gene. Here, we genomically rewrote a portion of the mouse Taf1 allele with the corresponding 78-kb XDP patient-derived TAF1 allele. In mouse embryonic stem cells (mESCs), the presence of the intronic SVA-rather than the hybrid gene structure-reduces hyTAF1 (hybrid TAF1 mRNA) levels. This leads to transcriptional downregulation of genes with TATA boxes enriched in their promoters and triggers apoptosis. Chromatin and transcriptome profiling revealed that intronic SVAs are actively transcribed, forming barriers that likely impede transcription elongation. In mice, neuronal-lineage TAF1 humanization resulted in lethality in male progeny within 2 months. XDP male mice developed severe atrophy centered on the striatum-the same brain region affected in XDP patients. Lastly, CRISPRa-mediated activation of hyTAF1 restored mESC viability, suggesting that boosting TAF1 transcription could be a therapeutic approach.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.07.057",
+        "pmcid": "PMC13787558",
+        "authors": [
+          "Weimin Zhang",
+          "Yu Zhao",
+          "Priya Prakash",
+          "Heather Appleby",
+          "Kelly Barriball",
+          "Simona Capponi",
+          "Qingwen Jiang",
+          "Aleksandra M Wudzinska"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "RNA polymerase pausing",
+          "RNA splicing",
+          "SVA retrotransposon",
+          "X-linked dystonia-parkinsonism",
+          "XDP retrotransposon",
+          "founder effect disorder",
+          "genome writing",
+          "striatal atrophy",
+          "transcription"
+        ],
+        "weekly_match": true,
+        "score": 21.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.07.057",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43057229",
+        "title": "Myelin pathology is a key feature of X-linked dystonia-parkinsonism.",
+        "journal": "Cell",
+        "pub_date": "2026-11-19",
+        "abstract": "X-linked dystonia-parkinsonism (XDP) is an adult-onset movement disorder predominantly affecting males of Filipino descent. It is caused by the insertion of a SINE-variable number of tandem repeat (VNTR)-Alu subfamily F (SVA_F) retrotransposon in the TATA-box binding protein-associated factor 1 (TAF1) gene. A barrier to XDP research has been the lack of animal models. Here, we introduce a conditional humanized XDP mouse model harboring a hybrid mouse-human Taf1/TAF1 gene (hyTAF1) containing the pathogenic SVA_F. We activated hyTAF1 in Nestin+ cells and found the resulting XDP male mice recapitulate features of human XDP, including severe motor impairment and striatal atrophy. Transcriptomic, histological, and electron microscopy analyses revealed a reduction in oligodendrocyte-lineage cells and myelin disruption. Consistent with this, postmortem brain tissue from XDP patients revealed similar myelin pathology, including loss of myelin in the medial prefrontal cortex. These results identify oligodendrocyte dysfunction and myelin loss as major contributors to XDP, providing new mechanistic insight into this disorder.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cell.2026.10.046",
+        "pmcid": null,
+        "authors": [
+          "Priya Prakash",
+          "Kerry C Limberg",
+          "Weimin Zhang",
+          "Yu Zhao",
+          "Klaudia F Laborc",
+          "Anna O'Keeffe",
+          "Heather Appleby",
+          "Bryanna C Vilnaigre"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "SVA",
+          "dystonia",
+          "glia",
+          "motor disease",
+          "myelin",
+          "neurodegeneration",
+          "oligodendrocytes",
+          "parkinsonism",
+          "retrotransposon",
+          "striatum"
+        ],
+        "weekly_match": true,
+        "score": 12.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cell.2026.10.046",
+        "supplement_reason": null
+      }
+    ],
+    "Cell metabolism": [
+      {
+        "pmid": "43044587",
+        "title": "Diet-microbiome interaction shapes stress susceptibility via a gut-brain neurometabolic circuit.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-17",
+        "abstract": "Dietary patterns shape mood and behavior, yet the microbial signals and neurosensory mechanisms underlying these effects remain unclear. Here, we identify a microbiota-mediated gut-brain circuit that dynamically regulates stress susceptibility during high-fat diet (HFD) exposure. Short- and long-term HFD differentially alter L-pipecolic acid (L-PipA), a metabolite produced by bacterial pyrroline-5-carboxylate reductase and sensed by oxytocinergic neurons in the paraventricular hypothalamus (PVH). Supplementation with L-PipA, either through its native producer Alistipes dispar or a bioengineered bacterial strain, promotes stress resilience, an effect mechanistically linked to ferritin heavy chain 1 (FTH1)-associated oxytocin secretion and a neural circuit linking PVH oxytocinergic neurons to lateral septal γ-aminobutyric acid (GABAergic) neurons. In humans, circulating L-PipA levels are reduced in patients with depression but increased in healthy volunteers following a 5-day HFD intervention. Together, these findings reveal a diet-microbiome-neural circuit axis regulating stress-related behaviors and suggest a potential strategy for enhancing stress resilience.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.10.014",
+        "pmcid": null,
+        "authors": [
+          "Youying Zhang",
+          "Ruizhe Nie",
+          "Zixin Chen",
+          "Xuanyao Li",
+          "Zemin Li",
+          "Yuanlong Hou",
+          "Chunyu Li",
+          "Guangbo Kang"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "L-pipecolic acid",
+          "depression",
+          "diet-microbe interaction",
+          "gut microbiome",
+          "gut-brain axis",
+          "high-fat diet",
+          "lysine metabolism",
+          "neurometabolic circuit",
+          "oxytocin",
+          "stress susceptibility"
+        ],
+        "weekly_match": true,
+        "score": 35.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.014",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43044585",
+        "title": "Innate immune memory of past hepatic injury promotes ischemic cardiac inflammation.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-17",
+        "abstract": "Hepatic disorders frequently coexist with cardiovascular diseases, leading to worsened prognosis. However, the mechanisms of inter-organ communication and the impact of historical hepatic injury await elucidation. Here, we report that the historical liver damage triggers long-term reprogramming of the innate immune system, biases hematopoietic stem cells differentiation toward myeloid fate, and aggravates inflammatory injury during myocardial infarction (MI). This immune memory is transmissible in bone marrow transplantation and parabiosis models. Injured liver-derived palmitic acid is responsible for the metabolic rewiring of cardiac macrophages during memory formation and establishes persistent epigenetic signatures in the transcriptional regulatory regions of hepatic injury-associated memory (\"HepMem\") genes containing the activator protein-1 motif. The HepMem monocyte/macrophages are expanded in liver-injured mice and potentiate the post-MI inflammatory cascades and adverse cardiac remodeling. Therefore, the innate immune memory links the past hepatic injury with MI, guiding the promising therapeutic approaches for the inflammatory cardiac comorbidities.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.10.012",
+        "pmcid": null,
+        "authors": [
+          "Sheng Zhang",
+          "Yunkai Zhang",
+          "Xuewen Duan",
+          "Yong Tan",
+          "Bo Wang",
+          "Diwei Du",
+          "Ying Xia",
+          "Lijie Ma"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "cardiac macrophages",
+          "hepatic dysfunction",
+          "histone modification",
+          "innate immune memory",
+          "ischemic cardiac diseases",
+          "palmitic acid",
+          "post-infarction repair",
+          "trained immunity"
+        ],
+        "weekly_match": true,
+        "score": 32.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.012",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43038987",
+        "title": "Microbial bile acid deconjugation counters metabolic decline in aging.",
+        "journal": "Cell metabolism",
+        "pub_date": "2026-11-16",
+        "abstract": "Interventions such as caloric restriction and time-restricted feeding improve lifespan and aging-associated metabolic health, in part through effects on the gut microbiome and bile acid dynamics. However, how aging alters microbial function and bile acid signaling, and whether these changes can be therapeutically leveraged, remain unclear. Here, we show that aged mice exhibit increased deconjugation of taurine-conjugated bile acids accompanied by increased bile salt hydrolase (BSH)-related transcriptional activity. Individuals with exceptional longevity show a similar bile acid deconjugation signature, suggesting an association with resilient or exceptional aging. Using engineered native bacteria, we further increased luminal BSH activity in aged mice and improved insulin sensitivity, accompanied by supportive changes in body composition and other metabolic readouts. Together, these findings suggest that elevated BSH activity may have a protective role during aging. They challenge the view that age-related changes in bile acid biotransformations are uniformly detrimental, highlighting microbial bile acid modulation as a potential strategy to improve late-life metabolic health.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.cmet.2026.10.016",
+        "pmcid": null,
+        "authors": [
+          "Ana Carolina Dantas Machado",
+          "Wuling Zhong",
+          "Anand R Saran",
+          "Baylee J Russell",
+          "Erica Maissy",
+          "Stephany Flores Ramos",
+          "Antonio F M Pinto",
+          "Juan Pablo Zuniga-Hertz"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "NF-κ B signaling",
+          "bacterial engraftment",
+          "centenarian",
+          "circadian rhythms",
+          "host-microbe interactions",
+          "ileum",
+          "insulin resistance",
+          "metatranscriptomics",
+          "mitochondrial respiration",
+          "respiratory exchange ratio"
+        ],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.cmet.2026.10.016",
+        "supplement_reason": null
+      }
+    ],
+    "immunity": [
+      {
+        "pmid": "43044601",
+        "title": "Brain border-associated macrophages rhythmically scavenge amyloid-beta and regulate vascular amyloid pathology.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-17",
+        "abstract": "Circadian disruptions perturb the brain and immune system and increase the risk of developing Alzheimer's disease (AD), yet whether this involves dysregulation of brain immunity remains less clear. Here, we performed single-cell RNA sequencing of the brain immune compartment around the day-night cycle and identified brain border-associated macrophages (BAMs) as highly rhythmic cells. We found that the rest phase was a specialized time for BAM engulfment, characterized by upregulation of endocytic machinery and enhanced uptake of fluid-borne material including amyloid-beta (Aβ). Rhythmicity in BAM scavenging was regulated by the clock gene Bmal1, mediated by the scavenger receptor CD206, and perturbed with age. In a mouse model of AD, deletion of Bmal1 in BAMs worsened perivascular and leptomeningeal Aβ plaque burden. Our results characterize rapid endocytosis as a specialized and rhythmic BAM function and identify perturbed timing of brain border immunity as one avenue by which circadian disruptions may precipitate amyloidosis.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.014",
+        "pmcid": null,
+        "authors": [
+          "Helena J Barr",
+          "Sydney K Caldwell",
+          "Justin M Colville-Reimertz",
+          "Constanze Depp",
+          "Alec J Walker",
+          "Jasmin Patel",
+          "Samuel E Marsh",
+          "Anushree S Gupte"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "Alzheimer’s disease",
+          "aging",
+          "amyloid-beta clearance",
+          "border-associated macrophages",
+          "circadian rhythms",
+          "endocytosis",
+          "engulfment",
+          "neuroimmunology",
+          "perivascular macrophages"
+        ],
+        "weekly_match": true,
+        "score": 25.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.014",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43044600",
+        "title": "The transcription factor TOX maintains stemness circuits that sustain longevity and multipotency of progenitor CD4+ T cells in chronic infection.",
+        "journal": "Immunity",
+        "pub_date": "2026-11-17",
+        "abstract": "Progenitor CD4+ T (Tpex) cells retain developmental plasticity and replenish antigen-specific CD4+ T cell responses in settings of chronic infection and cancer. Given the sustained, elevated expression of the transcription factor TOX across all CD4+ TEX cell subsets during chronic infection, we examined how TOX impacts CD4+ TEX differentiation during chronic infection. Deletion of TOX in lymphocytic choriomeningitis virus (LCMV)-specific transgenic CD4+ T cells impaired Tpex cell survival and drove unrestrained TEX cell differentiation. Multiomic profiling revealed that this effector-like state was concomitant with loss of TCF-1 pathway activity and gain of NFAT, NF-κB, and RUNX-coordinated transcriptional circuitry. TOX also promoted the multipotent potential of CD4+ Tpex cells to differentiate into T helper (Th)1-like or Tfh-like cells by day 8 post-infection (p.i.) prior to establishment of chronic infection. These data reveal a TOX-driven transcriptional network that maintains CD4+ Tpex cell function and persistence, supporting a durable and malleable response during persisting antigen stimulation.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1016/j.immuni.2026.10.015",
+        "pmcid": null,
+        "authors": [
+          "Stefan Lundh",
+          "Josephine R Giles",
+          "Christopher H Holliday",
+          "Amy E Baxter",
+          "Sasikanth Manne",
+          "Matthew A Sullivan",
+          "Katherine A Dalton",
+          "Warren S Pear"
+        ],
+        "corresponding_authors": [],
+        "keywords": [
+          "CD4(+) T cells",
+          "LCMV cl13",
+          "RUNX",
+          "TOX",
+          "chronic viral infection",
+          "effector T cells",
+          "exhaustion",
+          "progenitor T cells",
+          "single-cell genomics",
+          "transcriptional circuit"
+        ],
+        "weekly_match": true,
+        "score": 17.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1016/j.immuni.2026.10.015",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Immunology": [
+      {
+        "pmid": "43040049",
+        "title": "Maternal and early life obesity programs CD4+ T cell fate to impair vaccine immunity.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-16",
+        "abstract": "In their first 3 years, children experience an average of 14 infections and receive vaccines against roughly 15 pathogens, yet whether maternal and early life obesity alters adaptive immune responses during this critical period remains largely undefined. Using a mouse model that mirrored the epidemiological link between maternal and childhood obesity, we found that high-fat diet exposure during pregnancy or early postnatal life, but not adulthood, reshaped the epigenetic and transcriptional landscape of naive CD4+ T cells and impaired their ability to differentiate into T follicular helper (TFH) cells and support germinal center reactions in response to mRNA-based and protein-based vaccines. Mechanistically, epigenetic repression of the ubiquitin-editing enzyme A20 (Tnfaip3) was a central driver of these defects. Pediatric patients with haploinsufficiency of A20 displayed a marked reduction in circulating TFH cells. Altogether, these findings establish maternal and early life obesity as determinants of adaptive immunity during a critical developmental window.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02700-6",
+        "pmcid": null,
+        "authors": [
+          "Michaël F Michieletto",
+          "Monica T Jimenez",
+          "Atishay Jay",
+          "Michelle Y Y Lee",
+          "Jean-Christophe Beltra",
+          "Corentin Le Saos-Patrinos",
+          "Samir U Sayed",
+          "Megan L Clark"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 36.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02700-6",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43045751",
+        "title": "Fever-induced OR560 promotes antibacterial immunity through macrophage pseudopod formation and phagocytosis.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-17",
+        "abstract": "Fever is a conserved physiological response to pathogen infection. However, how fever promotes host defense remains poorly understood. Here we find that fever empowers antibacterial immunity by inducing olfactory receptor 560 (OR560) to promote macrophage phagocytosis. Through a genome-wide CRISPR screen, we discovered that OR560 is indispensable for macrophage phagocytosis. Febrile temperature drives the serum response factor-dependent OR560 induction in macrophages to boost phagocytosis. OR560 responds to bacteria-derived peptides and plays an essential role in mediating pseudopod formation-a key step required for target uptake. Modulation of body temperature in mice showed that the immune-amplifying effect of fever depends predominantly on OR560. We further demonstrated that the genetic ablation of either Olfr560 or serum response factor (Srf) in mice not only abolished fever-potentiated macrophage phagocytosis but also led to catastrophic defects in bacterial clearance and increased mortality upon infections. Thus, our work reveals that OR560 is a pivotal regulator of fever-enhanced antibacterial phagocytosis and integrates both pathogen-derived and febrile signals to ensure a robust response to infection.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02709-x",
+        "pmcid": null,
+        "authors": [
+          "Hong Cai",
+          "Jun-Xi Yi",
+          "Jing-Yi Sun",
+          "Jin Li",
+          "Min-Yi Feng",
+          "Zhe-Han Liu",
+          "Shuai Jiang",
+          "Li-Ming Sun"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02709-x",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43040048",
+        "title": "Early-life obesity edits T cell fate.",
+        "journal": "Nature immunology",
+        "pub_date": "2026-11-16",
+        "abstract": "",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1038/s41590-026-02710-4",
+        "pmcid": null,
+        "authors": [
+          "Danish Umar",
+          "Deepshika Ramanan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 14.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41590-026-02710-4",
+        "supplement_reason": null
+      }
+    ],
+    "Science Immunology": [
+      {
+        "pmid": "43063302",
+        "title": "Wall teichoic acid regulates DNA-triggered innate immune receptor activation by Staphylococcus aureus.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-20",
+        "abstract": "Cytosolic receptors that stimulate inflammation are commonly activated by ligands derived from microbes within phagosomes. The mechanisms that facilitate immunostimulatory ligand release into the cytosol during intraphagosomal infection are largely undefined. Using the pathogen Staphylococcus aureus, we describe wall teichoic acid (WTA) as a mediator of immune receptor activation during infection. Mechanistically, we find that the α-glycosylated form of WTA, generated by the glycosyltransferase TarM, mediates phagosome damage that enables bacterial escape into the macrophage cytoplasm. Peptidoglycan (PGN) O-acetylation reduces WTA attachment to PGN to prevent phagosomal escape. This competition among PGN-modifying enzymes determines the release of bacterial DNA into the macrophage cytoplasm and the activation of cytosolic DNA receptors AIM2 and cGAS. WTA thus controls the cytosolic exposure of microbe-derived ligands that stimulate innate immunity.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.ael7335",
+        "pmcid": null,
+        "authors": [
+          "Jordan B Jastrab",
+          "Ashley Tseng",
+          "Daniel Fisch",
+          "Stephanie A Ragland",
+          "Jonathan C Kagan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 20.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.ael7335",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43063301",
+        "title": "CD36+ Kupffer cells control postprandial lipid clearance and fuel metabolic dysfunction-associated steatotic liver diseases.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-20",
+        "abstract": "Liver macrophages comprise distinct populations with specialized functions. Kupffer cells (KCs) populate liver sinusoids during embryonic development and monitor the blood, clear erythrocytes, and recycle iron. In metabolic dysfunction-associated steatotic liver disease (MASLD), KCs acquire a lipid-associated macrophage phenotype characterized by the expression of CD36. Whether lipid-associated KCs exist at steady state and perform physiological functions remains unclear. Here, we show that CD36+ KCs, previously identified as KC2, are present at steady state in both mice and healthy human livers and that lipid handling is an intrinsic feature of this KC subset. Using KC-specific Cd36 deletion, we demonstrate that CD36 is required for postprandial hepatic lipid retention in healthy mice. CD36+ KCs also promoted lipid accumulation during MASLD, whereas KC-specific CD36 deficiency attenuated hepatic steatosis, identifying this subset as a regulator of physiological lipid homeostasis and metabolic liver disease.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aef5478",
+        "pmcid": null,
+        "authors": [
+          "Joanna Razafiarison",
+          "Fawaz Alzaid",
+          "Claire Leveau",
+          "Dorothy Tonui",
+          "Marc Diedisheim",
+          "Flavie Bernigole",
+          "Mathilde Bied",
+          "Aymeric Silvin"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aef5478",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43063303",
+        "title": "Aging drives distinct chromatin signatures of CD8 T cell dysfunction and the emergence of a unique CD8 Treg cell population.",
+        "journal": "Science immunology",
+        "pub_date": "2026-11-20",
+        "abstract": "Aging profoundly alters CD8 T cells, driving senescence and exhaustion that contribute to immune decline. By mapping chromatin accessibility across functional and dysfunctional CD8 T cell subsets from young and aged mice, we found that age-related CD8 T cell dysfunction was associated with a loss of regulation at three distinct levels. Dysfunctional CD8 T cells showed reduced accessibility of genes essential for \"stemness,\" indicating diminished regenerative potential. Exhausted memory T cells (Tmem cells) showed decreased accessibility of \"restraint\" genes, which limit differentiation postactivation. Last, both senescent virtual memory T cells (TVM cells) and exhausted Tmem cells displayed increased accessibility of \"terminal inhibitory\" genes, underscoring progression toward irreversible dysfunction. The inhibitory receptor gene Fcgr2b, encoding FcγRIIb/CD32b, was notably increased in a subset of aged TVM cells with regulatory characteristics. This study defines mechanisms of CD8 T cell aging and identifies a CD8 regulatory T cell (Treg cell) population that emerges as a hallmark of aging.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1126/sciimmunol.aej5412",
+        "pmcid": null,
+        "authors": [
+          "Daniel Thiele",
+          "Liam C Kealy",
+          "David Chisanga",
+          "Brendan E Russ",
+          "Angela Nguyen",
+          "Jessica Runting",
+          "Iona S Schuster",
+          "Adele Barugahare"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 15.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1126/sciimmunol.aej5412",
+        "supplement_reason": null
+      }
+    ],
+    "Bioinformatics": [
+      {
+        "pmid": "43062152",
+        "title": "pyGENIE: A Python library for programmatic access and mutational analysis of AACR Project GENIE.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-20",
+        "abstract": "MOTIVATION: As of today, AACR Project GENIE has completed 19 data releases since its launch in 2015. The latest release includes more than 268 000 samples from nearly 250 000 patients, and as of February 2026, over 1730 scientific journal articles have cited Project GENIE data. Despite its scale and scientific impact, programmatic analysis of GENIE data often still requires researchers to work directly with complex flat files and develop custom data integration workflows.\nRESULTS: Here we present pyGENIE, a Python package that provides a unified API for accessing GENIE flat files, performing clinical and genomic queries, computing tumor mutational burden, and integrating with leading mutational signature analysis tools including SigProfiler and SigMA. Following a data-as-a-service paradigm, pyGENIE returns all results as native pandas DataFrames, enabling seamless integration with machine learning and visualization libraries. Applied to a lung adenocarcinoma (LUAD) case study, pyGENIE reproduces known mutation frequencies, co-mutation patterns, and mutational signatures while reducing the required codebase by approximately an order of magnitude.\nAVAILABILITY: pyGENIE is freely available at https://github.com/gersteinlab/pyGENIE under the MIT License, archived at https://doi.org/10.5281/zenodo.21981945, and can be installed from PyPI using pip install pygenie-sdk.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag844",
+        "pmcid": null,
+        "authors": [
+          "Dana Dayan",
+          "Mark Gerstein"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 16.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag844",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43059007",
+        "title": "hlafactor: a tool for multi-layer functional annotation of HLA variation.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-19",
+        "abstract": "MOTIVATION: The human leukocyte antigen (HLA) system is the most polymorphic region of the human genome and a major determinant of immune function and disease susceptibility. Ideally, analyses of HLA variation would capture multiple layers of information, from classical alleles and amino-acid residues to higher-level functional properties such as tapasin dependency, cell-surface expression, and NK cell ligand groups. However, while allele- and amino-acid-level data are now routinely available, the corresponding functional annotations remain scattered across publications and reference datasets, and no existing tool integrates them within a unified, reproducible framework.\nRESULTS: We present hlafactor, a computational tool that brings together established HLA functional annotations within a single, standardised framework. Starting from two-field HLA genotype calls, whether imputed or molecularly typed, hlafactor assigns functional annotations from published reference datasets and applies established calculations to derive individual-level features. These include tapasin dependency scores, general and functional heterozygosity, allele-specific cell surface expression, NK cell-related polymorphisms (Bw4/Bw6, C1/C2, HLA-B -21 M/T), and class I/II supertype assignments. hlafactor also maps alleles to IMGT/HLA amino-acid alignments to generate residue-level genotypes. All outputs are formatted for direct use in downstream association analyses with existing software. Applied to 17,960 samples from the MalariaGEN consortium, each functional annotation module completed in under 15 seconds on a single CPU core, and preprocessing and quality control in just over four minutes, supporting its use in large cohort studies.\nAVAILABILITY: hlafactor is implemented in C ++20 and is freely available at https://github.com/QiJingS/hlafactor and archived on Zenodo under DOI https://doi.org/10.5281/zenodo.20647440.",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag845",
+        "pmcid": null,
+        "authors": [
+          "Qijing Shen",
+          "Mathias Viard",
+          "Mary Carrington",
+          "Gavin Band",
+          "M Azim Ansari"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 9.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag845",
+        "supplement_reason": null
+      },
+      {
+        "pmid": "43046612",
+        "title": "CiliaHub: an updated gold-standard catalogue of ciliary genes with integrated ciliopathy data.",
+        "journal": "Bioinformatics (Oxford, England)",
+        "pub_date": "2026-11-17",
+        "abstract": "MOTIVATION: Cilia are specialised cell-surface extensions central to signalling and sensation, and their dysfunction causes ciliopathies, a clinically heterogeneous group of disorders. Progress in the field has been held back by the lack of an updated and expanded gold-standard gene set.\nRESULTS: We present CiliaHub, an open-access platform centered on an expert-curated catalog of over 2,500 ciliary and cilia-associated genes that significantly expands upon the scope of the SYSCILIA Gold Standard v2. For each gene, CiliaHub brings together subcellular localization, protein-complex information, domain architecture, cross-species orthology, functional-screen results, expression profiles, and ClinVar variants, as well as a dedicated ciliopathy module covering over 70 ciliopathies and over 400 disease genes. The data are queried through a rule-based question-answering assistant (CiliAI), gene-list analysis tools, a phenotype-driven search, and open static-JSON endpoints, supporting screen interpretation, variant prioritization, and ciliopathy research from a single point of access.\nAVAILABILITY: CiliaHub is freely available at https://ciliahub.org without registration. Source code is available on https://github.com/theCiliaHub/theCiliaHub.github.io and archived at Zenodo version 3 (DOI: 10.5281/zenodo.23257334). All figures and counts in this manuscript refer to CiliaHub release v9.2 (frozen October 2026). The versions of every external data source used in that release are listed in Supplementary Table S6, and the release version, freeze date and data file are stated at https://ciliahub.org/about.html.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Zenodo online and static-JSON API endpoints (https://ciliahub.org/api.html).",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "doi": "10.1093/bioinformatics/btag836",
+        "pmcid": null,
+        "authors": [
+          "Ferhan Yenisert",
+          "Sebiha Cevik",
+          "Oktay I Kaplan"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 6.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1093/bioinformatics/btag836",
+        "supplement_reason": null
+      }
+    ],
+    "Nature Protocols": [
+      {
+        "pmid": "43040031",
+        "title": "Predictive modeling of single-cell transcriptomic dynamics with Dynamo.",
+        "journal": "Nature protocols",
+        "pub_date": "2026-11-16",
+        "abstract": "Single-cell RNA sequencing (scRNA-seq) provides a powerful means to investigate cell fate dynamics during development and disease. However, existing computational approaches-such as RNA velocity-are often limited to qualitative and descriptive insights. We previously presented Dynamo, a machine learning framework that leverages noisy RNA velocity estimates to learn analytical and predictive vector fields of gene expression dynamics. These learned vector fields enable a suite of novel, quantitative analyses, including mapping the geometry of cell state transitions, identifying dynamic features of differentiation trajectories, inferring gene regulatory networks, predicting optimal paths and transcription factor cocktails for cellular reprogramming, and simulating in silico genetic perturbations. Here we provide a comprehensive protocol for applying Dynamo across four distinct data types and five downstream analyses, demonstrating its versatility in handling conventional and metabolic-labeling-enabled scRNA-seq, multiomic datasets and even datasets without velocity information. We also show that Dynamo can predict cell fate diversions following genetic perturbations and accurately identify key transcription factors that enable lineage transitions in the hematopoietic system. By enabling predictive modeling from single-cell data, our protocol aims to empower the development of generative and predictive models of single-cell genomics. While typical RNA velocity vector field analyses can be completed in less than an hour, the nine case studies in the Protocol can be completed in ~7 h and 35 min. The Protocol is designed for researchers with basic familiarity in scRNA-seq analysis and Python programming, although no advanced coding expertise is required.",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "doi": "10.1038/s41596-026-01458-3",
+        "pmcid": null,
+        "authors": [
+          "Zehua Zeng",
+          "Sichao Yu",
+          "Ke Ni",
+          "Yan Zhang",
+          "Ukyeon Shin",
+          "Cinlong Huang",
+          "Natalie Cao",
+          "Jonathan Weissman"
+        ],
+        "corresponding_authors": [],
+        "keywords": [],
+        "weekly_match": true,
+        "score": 1.0,
+        "source": "pubmed",
+        "publisher_url": "https://doi.org/10.1038/s41596-026-01458-3",
+        "supplement_reason": null
+      }
+    ]
+  },
+  "fulltext_cache": {}
+}
