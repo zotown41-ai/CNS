@@ -1,6 +1,6 @@
 ﻿# 文献追踪日报｜2026-11-25
 
-- 正式论文与综述：21 条 · 重点研究：0 条 · 期刊覆盖：11/11
+- 正式论文与综述：22 条 · 重点研究：0 条 · 期刊覆盖：11/11
 - 追踪主题：免疫代谢、代谢表观调控、单细胞算法、单细胞图谱、流感、HSV、H1N1、肺损伤、肺组织修复、皮肤免疫
 
 ## 重点研究
@@ -9,7 +9,7 @@
 
 ## 其他研究与综述
 
-### Nature（20）
+### Nature（22）
 
 #### 在果蝇中，肠道与大脑之间的感觉运动回路负责调节糖分的摄入量。 / A gut–brain sensory-motor circuit regulates sugar ingestion in Drosophila
 - Nature · 2026-11-25 · 期刊导读
@@ -22,6 +22,18 @@
 - 作者：Jevan B. Yu, Etienne Fluet-Chouinard, Susan E. Page, Chris D. Evans, Charles F. Harvey, César Terrer
 - 期刊导读（期刊 RSS · 中文译文）：对过去两个世纪全球泥炭地排水所导致的辐射强迫效应进行重建后发现，由于排水引起的二氧化碳排放所带来的正向辐射强迫作用远远超过了由此避免的甲烷排放所带来的负向辐射强迫作用，因此整体上仍存在持续的升温趋势。
 - [查看来源](<https://www.nature.com/articles/s41586-026-11339-0>)
+
+#### 一种极端环境适应性转基因基因能够显著提升谷物的抗旱能力并增加其产量。 / An extremophile transgene improves drought resistance and yield in cereals
+- Nature · 2026-11-25 · 期刊导读
+- 作者：Linying Du, Fangfang Li, Xu Qian, Hongqing Zhu, Chunhao Fang, Chen Wang, Zhen Qin, Bingbing Li, Suxin Wang, Ping Jiang, Yuting Hou, Xueling Huang, Dongling Tang, Bin Chen, Shiqi Yang, Qiannan Wang, Shijie Tian, Zhangtong Sun, Liangliang Song, Ming Yu, Tongfang Xing, Yuling Liu, Shuangxing Zhang, Peiyin Zhang, Wenxuan Feng, Jin Hu, Jing Zhao, Gangming Zhan, Shumin Li, Yanyan Wang, Jiangchun Wei, Zhensheng Kang, Hude Mao
+- 期刊导读（期刊 RSS · 中文译文）：利用这种源自极端环境真菌的基因，可以消除干旱胁迫与作物产量下降之间的矛盾——该基因能够增强小麦、水稻和玉米的抗旱能力，从而提高其产量。
+- [查看来源](<https://www.nature.com/articles/s41586-026-11151-w>)
+
+#### 一种可用于全钙钛矿叠层太阳能电池的原位氧化还原转化分子 / An in situ redox-converted molecule for all-perovskite tandem solar cells
+- Nature · 2026-11-25 · 有摘要
+- 作者：Shaomin Yang, Chunxiang Lan, Miaomiao Zeng, Liqing Wu, Tian Zhang, Mimi Fu, Boyu Yang, Ziwei Zheng, Yu Wu, Jing Guo, Rui Guo, Mi Xu, Rongyan Wen, Zaiwei Wang, Shuangyan Hu, Mostafa Boshta, Jun Chen, Yaoguang Rong, Xiong Li
+- 论文摘要（PubMed 摘要 · 中文摘译）：全钙钛矿叠层太阳能电池因其能够突破单结钙钛矿太阳能电池的效率极限，而日益受到重视1,2。
+- [查看来源](<https://www.nature.com/articles/s41586-026-11465-9>)
 
 #### 射血分数保留的心脏代谢性心力衰竭的临床特征 / Clinical landscape of cardiometabolic heart failure with preserved ejection fraction
 - Nature · 2026-11-25 · 综述
@@ -130,11 +142,3 @@
 - 作者：Haotian Su, Sauviz Alaei, Áshildur Friðriksdóttir, Sydney Fultz-Waters, Hyeonhu Bae, Xiangjin Wu, Yufei Zhao, Donglai Zhong, Tara Peña, Matthew J. Hurley, Yujun Deng, Sandesh Kalantre, Andrew J. Barnum, Gregory Pitner, Sam Vaziri, Xinyu Bao, Zhi-Xun Shen, David Goldhaber-Gordon, Paul C. McIntyre, Shan X. Wang, Aaron Sharpe, Yuri Suzuki, Binghai Yan, Eric Pop
 - 期刊导读（期刊 RSS · 中文译文）：磷化铌半金属纳米带其电阻率会随着宽度的减小而降低，这一现象与铜等传统金属的常规特性截然不同。因此，这种材料为通过适用于工业生产的自上而下式纳米制造技术来开发纳米级导线及互连结构提供了理想的基础。
 - [查看来源](<https://www.nature.com/articles/s41586-026-11288-8>)
-
-## 待补详情
-
-#### 一种可用于全钙钛矿叠层太阳能电池的原位氧化还原转化分子 / An in situ redox-converted molecule for all-perovskite tandem solar cells
-- Nature · 2026-11-25 · 待补详情
-- 作者：Shaomin Yang, Chunxiang Lan, Miaomiao Zeng, Liqing Wu, Tian Zhang, Mimi Fu, Boyu Yang, Ziwei Zheng, Yu Wu, Jing Guo, Rui Guo, Mi Xu, Rongyan Wen, Zaiwei Wang, Shuangyan Hu, Mostafa Boshta, Jun Chen, Yaoguang Rong, Xiong Li
-- 补查未成功，可稍后重试
-- [查看来源](<https://www.nature.com/articles/s41586-026-11465-9>)
