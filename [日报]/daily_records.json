@@ -1,6 +1,6 @@
 ﻿{
   "schema_version": "1.1",
-  "presentation_version": "daily-reader-7",
+  "presentation_version": "daily-reader-8",
   "detail_quality": {
     "total": 1,
     "readable": 1,
@@ -18,10 +18,10 @@
     "journals_uncovered": [],
     "failed_feed_attempts": 0
   },
-  "generated_at": "2026-11-26T20:00:54.723385+00:00",
+  "generated_at": "2026-11-27T20:00:40.434847+00:00",
   "date_range": {
-    "start": "2026-11-26",
-    "end": "2026-11-26"
+    "start": "2026-11-27",
+    "end": "2026-11-27"
   },
   "inputs": {
     "journals_file": "D:\\vibecoding\\文献追踪项目\\paper-overview-extractor-RSS\\配置\\目标期刊.txt",
@@ -73,7 +73,7 @@
         }
       ],
       "warnings": [
-        "Filtered non-paper items by papers-only rule: 51"
+        "Filtered non-paper items by papers-only rule: 52"
       ],
       "collection_status": "no_matching_papers",
       "paper_count": 0,
@@ -95,7 +95,7 @@
           "final_url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
           "status_code": 200,
           "error": "",
-          "item_count": 35
+          "item_count": 36
         },
         {
           "url": "https://www.science.org/rss/express.xml",
@@ -103,7 +103,7 @@
           "final_url": "https://feeds.science.org/rss/science-aop.xml",
           "status_code": 200,
           "error": "",
-          "item_count": 19
+          "item_count": 16
         }
       ],
       "warnings": [],
@@ -169,7 +169,7 @@
         {
           "url": "https://www.nature.com/natmetab.rss",
           "ok": true,
-          "final_url": "https://www.nature.com/natmetab.rss",
+          "final_url": "https://www.nature.com/natmetab.rss?error=cookies_not_supported&code=5f337dd5-a30b-46ea-9d4d-3fe3f0e58bd3",
           "status_code": 200,
           "error": "",
           "item_count": 8
@@ -178,9 +178,126 @@
       "warnings": [
         "Filtered non-paper items by papers-only rule: 3"
       ],
-      "collection_status": "no_matching_papers",
-      "paper_count": 0,
-      "papers": []
+      "collection_status": "collected",
+      "paper_count": 1,
+      "papers": [
+        {
+          "title": "Age-dependent progenitor switching shapes adult brown adipose tissue heterogeneity",
+          "link": "https://www.nature.com/articles/s42255-026-01669-8",
+          "published_at": "2026-11-27T08:00:00+08:00",
+          "published_date": "2026-11-27",
+          "summary": "While Pdgfra+ progenitors shape brown adipose tissue in early life, a distinct population of Myl1+ progenitors predominantly differentiates into brown adipocytes in BAT of adult and middle-aged mice and modulates systemic glucose metabolism in mice",
+          "authors": [
+            "Chenxin Gu",
+            "Zengdi Zhang",
+            "Shaolei Xiong",
+            "Jiawen Ma",
+            "Zuoxiao Shi",
+            "Zan Huang",
+            "Sunhye Shin",
+            "Xuechun Chang",
+            "Zihao Wang",
+            "Aneesh Swaminathan",
+            "Ifrah Aden",
+            "Zahra Moazzami",
+            "Xiaoli Sky Wu",
+            "Christina D. Camell",
+            "Yuwei Jiang",
+            "Hai-Bin Ruan"
+          ],
+          "doi": "10.1038/s42255-026-01669-8",
+          "journal": "Nature Metabolism",
+          "source_feed": "https://www.nature.com/natmetab.rss?error=cookies_not_supported&code=5f337dd5-a30b-46ea-9d4d-3fe3f0e58bd3",
+          "entry_id": "doi:10.1038/s42255-026-01669-8",
+          "pmid": "",
+          "pubmed_url": "",
+          "abstract": "",
+          "affiliations": [],
+          "mesh_terms": [],
+          "paper_keywords": [],
+          "publication_types": [],
+          "pubmed_journal": "",
+          "pubmed_publication_date": "",
+          "pubmed_match_source": "doi",
+          "pubmed_status": "not_found",
+          "pubmed_warning": "No PubMed match found",
+          "llm_title_zh": "年龄因素所引发的祖细胞类型转变，决定了成年棕色脂肪组织的异质性特征。",
+          "llm_title_bilingual": "年龄因素所引发的祖细胞类型转变，决定了成年棕色脂肪组织的异质性特征。 / Age-dependent progenitor switching shapes adult brown adipose tissue heterogeneity",
+          "llm_research_question_zh": "",
+          "llm_highlights_zh": [],
+          "llm_rss_summary_zh": "虽然 Pdgfra+ 前体细胞在生命早期负责形成棕色脂肪组织，但另一类名为 Myl1+ 的前体细胞主要在中年及成年小鼠的棕色脂肪中分化为棕色脂肪细胞，并进而调节这些小鼠的全身葡萄糖代谢过程。",
+          "llm_pubmed_abstract_zh": "",
+          "llm_paper_keywords_zh": [],
+          "llm_publication_types_zh": [],
+          "llm_status": "success",
+          "llm_warning": "",
+          "matched_keywords": [],
+          "keyword_score": 0,
+          "is_new_to_state": true,
+          "source_types": [],
+          "match_evidence": [],
+          "publisher_detail": {},
+          "verified_content_types": [
+            "Article"
+          ],
+          "content_type_evidence": [
+            {
+              "type": "Article",
+              "doi": "10.1038/s42255-026-01669-8",
+              "source": "https://www.nature.com/natmetab/articles"
+            }
+          ],
+          "primary_summary": "虽然 Pdgfra+ 前体细胞在生命早期负责形成棕色脂肪组织，但另一类名为 Myl1+ 的前体细胞主要在中年及成年小鼠的棕色脂肪中分化为棕色脂肪细胞，并进而调节这些小鼠的全身葡萄糖代谢过程。",
+          "primary_summary_source": "rss",
+          "primary_summary_language": "zh",
+          "preferred_summary_source": "rss",
+          "primary_summary_raw": "While Pdgfra+ progenitors shape brown adipose tissue in early life, a distinct population of Myl1+ progenitors predominantly differentiates into brown adipocytes in BAT of adult and middle-aged mice and modulates systemic glucose metabolism in mice",
+          "primary_summary_zh": "虽然 Pdgfra+ 前体细胞在生命早期负责形成棕色脂肪组织，但另一类名为 Myl1+ 的前体细胞主要在中年及成年小鼠的棕色脂肪中分化为棕色脂肪细胞，并进而调节这些小鼠的全身葡萄糖代谢过程。",
+          "presentation": {
+            "kind": "rss_note",
+            "admission": "research",
+            "title_en": "Age-dependent progenitor switching shapes adult brown adipose tissue heterogeneity",
+            "title_zh": "年龄因素所引发的祖细胞类型转变，决定了成年棕色脂肪组织的异质性特征。",
+            "authors": [
+              "Chenxin Gu",
+              "Zengdi Zhang",
+              "Shaolei Xiong",
+              "Jiawen Ma",
+              "Zuoxiao Shi",
+              "Zan Huang",
+              "Sunhye Shin",
+              "Xuechun Chang",
+              "Zihao Wang",
+              "Aneesh Swaminathan",
+              "Ifrah Aden",
+              "Zahra Moazzami",
+              "Xiaoli Sky Wu",
+              "Christina D. Camell",
+              "Yuwei Jiang",
+              "Hai-Bin Ruan"
+            ],
+            "date": "2026-11-27",
+            "source": "rss",
+            "notes_label": "期刊导读",
+            "notes": "虽然 Pdgfra+ 前体细胞在生命早期负责形成棕色脂肪组织，但另一类名为 Myl1+ 的前体细胞主要在中年及成年小鼠的棕色脂肪中分化为棕色脂肪细胞，并进而调节这些小鼠的全身葡萄糖代谢过程。",
+            "teaser": "虽然 Pdgfra+ 前体细胞在生命早期负责形成棕色脂肪组织，但另一类名为 Myl1+ 的前体细胞主要在中年及成年小鼠的棕色脂肪中分化为棕色脂肪细胞，并进而调节这些小鼠的全身葡萄糖代谢过程。",
+            "source_label": "期刊 RSS",
+            "source_method": "",
+            "depth": "journal_note",
+            "original_notes": "While Pdgfra+ progenitors shape brown adipose tissue in early life, a distinct population of Myl1+ progenitors predominantly differentiates into brown adipocytes in BAT of adult and middle-aged mice and modulates systemic glucose metabolism in mice",
+            "translation_corrected": false,
+            "related_url": "",
+            "pending_reason": "",
+            "notes_language": "zh",
+            "translation_status": "success",
+            "findings": [],
+            "findings_language": "",
+            "focus": false,
+            "matches": [],
+            "match_evidence": []
+          }
+        }
+      ]
     },
     {
       "journal": "Immunity",
@@ -217,7 +334,7 @@
         {
           "url": "https://www.nature.com/ni/current_issue/rss",
           "ok": true,
-          "final_url": "https://www.nature.com/ni.rss",
+          "final_url": "https://www.nature.com/ni.rss?error=cookies_not_supported&code=9b958062-564f-4b42-917e-80f1c9aa9f43",
           "status_code": 200,
           "error": "",
           "item_count": 8
@@ -333,124 +450,40 @@
       "warnings": [
         "Filtered non-paper items by papers-only rule: 1"
       ],
-      "collection_status": "collected",
-      "paper_count": 1,
-      "papers": [
-        {
-          "title": "Mitigating preferred orientation in cryo-EM with ultrasonic excitation during vitrification",
-          "link": "https://www.nature.com/articles/s41592-026-03382-6",
-          "published_at": "2026-11-26T08:00:00+08:00",
-          "published_date": "2026-11-26",
-          "summary": "Exciting cryo-electron microscopy specimens with ultrasonic waves during vitrification helps mitigate the preferred particle orientation problem that plagues protein structure determination",
-          "authors": [
-            "Harry M. Williams",
-            "Wyatt A. Curtis",
-            "Michal Haubner",
-            "Jakub Wenz",
-            "Marcel Drabbels",
-            "Ulrich J. Lorenz"
-          ],
-          "doi": "10.1038/s41592-026-03382-6",
-          "journal": "Nature methods",
-          "source_feed": "https://www.nature.com/nmeth.rss",
-          "entry_id": "doi:10.1038/s41592-026-03382-6",
-          "pmid": "",
-          "pubmed_url": "",
-          "abstract": "",
-          "affiliations": [],
-          "mesh_terms": [],
-          "paper_keywords": [],
-          "publication_types": [],
-          "pubmed_journal": "",
-          "pubmed_publication_date": "",
-          "pubmed_match_source": "doi",
-          "pubmed_status": "not_found",
-          "pubmed_warning": "No PubMed match found",
-          "llm_title_zh": "在玻璃化过程中利用超声激发来减轻冷冻电镜成像中的优先取向现象",
-          "llm_title_bilingual": "在玻璃化过程中利用超声激发来减轻冷冻电镜成像中的优先取向现象 / Mitigating preferred orientation in cryo-EM with ultrasonic excitation during vitrification",
-          "llm_research_question_zh": "",
-          "llm_highlights_zh": [],
-          "llm_rss_summary_zh": "在蛋白质玻璃化过程中利用超声波处理这些令人兴奋的冷冻电子显微镜样品，有助于有效解决那些影响蛋白质结构分析结果的颗粒取向问题。",
-          "llm_pubmed_abstract_zh": "",
-          "llm_paper_keywords_zh": [],
-          "llm_publication_types_zh": [],
-          "llm_status": "success",
-          "llm_warning": "",
-          "matched_keywords": [],
-          "keyword_score": 0,
-          "is_new_to_state": true,
-          "source_types": [],
-          "match_evidence": [],
-          "publisher_detail": {},
-          "verified_content_types": [
-            "Article"
-          ],
-          "content_type_evidence": [
-            {
-              "type": "Article",
-              "doi": "10.1038/s41592-026-03382-6",
-              "source": "https://www.nature.com/nmeth/articles"
-            }
-          ],
-          "primary_summary": "在蛋白质玻璃化过程中利用超声波处理这些令人兴奋的冷冻电子显微镜样品，有助于有效解决那些影响蛋白质结构分析结果的颗粒取向问题。",
-          "primary_summary_source": "rss",
-          "primary_summary_language": "zh",
-          "preferred_summary_source": "rss",
-          "primary_summary_raw": "Exciting cryo-electron microscopy specimens with ultrasonic waves during vitrification helps mitigate the preferred particle orientation problem that plagues protein structure determination",
-          "primary_summary_zh": "在蛋白质玻璃化过程中利用超声波处理这些令人兴奋的冷冻电子显微镜样品，有助于有效解决那些影响蛋白质结构分析结果的颗粒取向问题。",
-          "presentation": {
-            "kind": "rss_note",
-            "admission": "research",
-            "title_en": "Mitigating preferred orientation in cryo-EM with ultrasonic excitation during vitrification",
-            "title_zh": "在玻璃化过程中利用超声激发来减轻冷冻电镜成像中的优先取向现象",
-            "authors": [
-              "Harry M. Williams",
-              "Wyatt A. Curtis",
-              "Michal Haubner",
-              "Jakub Wenz",
-              "Marcel Drabbels",
-              "Ulrich J. Lorenz"
-            ],
-            "date": "2026-11-26",
-            "source": "rss",
-            "notes_label": "期刊导读",
-            "notes": "在蛋白质玻璃化过程中利用超声波处理这些令人兴奋的冷冻电子显微镜样品，有助于有效解决那些影响蛋白质结构分析结果的颗粒取向问题。",
-            "teaser": "在蛋白质玻璃化过程中利用超声波处理这些令人兴奋的冷冻电子显微镜样品，有助于有效解决那些影响蛋白质结构分析结果的颗粒取向问题。",
-            "source_label": "期刊 RSS",
-            "source_method": "",
-            "related_url": "",
-            "pending_reason": "",
-            "notes_language": "zh",
-            "translation_status": "success",
-            "findings": [],
-            "findings_language": "",
-            "focus": false,
-            "matches": [],
-            "match_evidence": []
-          }
-        }
-      ]
+      "collection_status": "no_matching_papers",
+      "paper_count": 0,
+      "papers": []
     }
   ],
   "all_papers": [
     {
-      "title": "Mitigating preferred orientation in cryo-EM with ultrasonic excitation during vitrification",
-      "link": "https://www.nature.com/articles/s41592-026-03382-6",
-      "published_at": "2026-11-26T08:00:00+08:00",
-      "published_date": "2026-11-26",
-      "summary": "Exciting cryo-electron microscopy specimens with ultrasonic waves during vitrification helps mitigate the preferred particle orientation problem that plagues protein structure determination",
+      "title": "Age-dependent progenitor switching shapes adult brown adipose tissue heterogeneity",
+      "link": "https://www.nature.com/articles/s42255-026-01669-8",
+      "published_at": "2026-11-27T08:00:00+08:00",
+      "published_date": "2026-11-27",
+      "summary": "While Pdgfra+ progenitors shape brown adipose tissue in early life, a distinct population of Myl1+ progenitors predominantly differentiates into brown adipocytes in BAT of adult and middle-aged mice and modulates systemic glucose metabolism in mice",
       "authors": [
-        "Harry M. Williams",
-        "Wyatt A. Curtis",
-        "Michal Haubner",
-        "Jakub Wenz",
-        "Marcel Drabbels",
-        "Ulrich J. Lorenz"
+        "Chenxin Gu",
+        "Zengdi Zhang",
+        "Shaolei Xiong",
+        "Jiawen Ma",
+        "Zuoxiao Shi",
+        "Zan Huang",
+        "Sunhye Shin",
+        "Xuechun Chang",
+        "Zihao Wang",
+        "Aneesh Swaminathan",
+        "Ifrah Aden",
+        "Zahra Moazzami",
+        "Xiaoli Sky Wu",
+        "Christina D. Camell",
+        "Yuwei Jiang",
+        "Hai-Bin Ruan"
       ],
-      "doi": "10.1038/s41592-026-03382-6",
-      "journal": "Nature methods",
-      "source_feed": "https://www.nature.com/nmeth.rss",
-      "entry_id": "doi:10.1038/s41592-026-03382-6",
+      "doi": "10.1038/s42255-026-01669-8",
+      "journal": "Nature Metabolism",
+      "source_feed": "https://www.nature.com/natmetab.rss?error=cookies_not_supported&code=5f337dd5-a30b-46ea-9d4d-3fe3f0e58bd3",
+      "entry_id": "doi:10.1038/s42255-026-01669-8",
       "pmid": "",
       "pubmed_url": "",
       "abstract": "",
@@ -463,11 +496,11 @@
       "pubmed_match_source": "doi",
       "pubmed_status": "not_found",
       "pubmed_warning": "No PubMed match found",
-      "llm_title_zh": "在玻璃化过程中利用超声激发来减轻冷冻电镜成像中的优先取向现象",
-      "llm_title_bilingual": "在玻璃化过程中利用超声激发来减轻冷冻电镜成像中的优先取向现象 / Mitigating preferred orientation in cryo-EM with ultrasonic excitation during vitrification",
+      "llm_title_zh": "年龄因素所引发的祖细胞类型转变，决定了成年棕色脂肪组织的异质性特征。",
+      "llm_title_bilingual": "年龄因素所引发的祖细胞类型转变，决定了成年棕色脂肪组织的异质性特征。 / Age-dependent progenitor switching shapes adult brown adipose tissue heterogeneity",
       "llm_research_question_zh": "",
       "llm_highlights_zh": [],
-      "llm_rss_summary_zh": "在蛋白质玻璃化过程中利用超声波处理这些令人兴奋的冷冻电子显微镜样品，有助于有效解决那些影响蛋白质结构分析结果的颗粒取向问题。",
+      "llm_rss_summary_zh": "虽然 Pdgfra+ 前体细胞在生命早期负责形成棕色脂肪组织，但另一类名为 Myl1+ 的前体细胞主要在中年及成年小鼠的棕色脂肪中分化为棕色脂肪细胞，并进而调节这些小鼠的全身葡萄糖代谢过程。",
       "llm_pubmed_abstract_zh": "",
       "llm_paper_keywords_zh": [],
       "llm_publication_types_zh": [],
@@ -485,36 +518,49 @@
       "content_type_evidence": [
         {
           "type": "Article",
-          "doi": "10.1038/s41592-026-03382-6",
-          "source": "https://www.nature.com/nmeth/articles"
+          "doi": "10.1038/s42255-026-01669-8",
+          "source": "https://www.nature.com/natmetab/articles"
         }
       ],
-      "primary_summary": "在蛋白质玻璃化过程中利用超声波处理这些令人兴奋的冷冻电子显微镜样品，有助于有效解决那些影响蛋白质结构分析结果的颗粒取向问题。",
+      "primary_summary": "虽然 Pdgfra+ 前体细胞在生命早期负责形成棕色脂肪组织，但另一类名为 Myl1+ 的前体细胞主要在中年及成年小鼠的棕色脂肪中分化为棕色脂肪细胞，并进而调节这些小鼠的全身葡萄糖代谢过程。",
       "primary_summary_source": "rss",
       "primary_summary_language": "zh",
       "preferred_summary_source": "rss",
-      "primary_summary_raw": "Exciting cryo-electron microscopy specimens with ultrasonic waves during vitrification helps mitigate the preferred particle orientation problem that plagues protein structure determination",
-      "primary_summary_zh": "在蛋白质玻璃化过程中利用超声波处理这些令人兴奋的冷冻电子显微镜样品，有助于有效解决那些影响蛋白质结构分析结果的颗粒取向问题。",
+      "primary_summary_raw": "While Pdgfra+ progenitors shape brown adipose tissue in early life, a distinct population of Myl1+ progenitors predominantly differentiates into brown adipocytes in BAT of adult and middle-aged mice and modulates systemic glucose metabolism in mice",
+      "primary_summary_zh": "虽然 Pdgfra+ 前体细胞在生命早期负责形成棕色脂肪组织，但另一类名为 Myl1+ 的前体细胞主要在中年及成年小鼠的棕色脂肪中分化为棕色脂肪细胞，并进而调节这些小鼠的全身葡萄糖代谢过程。",
       "presentation": {
         "kind": "rss_note",
         "admission": "research",
-        "title_en": "Mitigating preferred orientation in cryo-EM with ultrasonic excitation during vitrification",
-        "title_zh": "在玻璃化过程中利用超声激发来减轻冷冻电镜成像中的优先取向现象",
+        "title_en": "Age-dependent progenitor switching shapes adult brown adipose tissue heterogeneity",
+        "title_zh": "年龄因素所引发的祖细胞类型转变，决定了成年棕色脂肪组织的异质性特征。",
         "authors": [
-          "Harry M. Williams",
-          "Wyatt A. Curtis",
-          "Michal Haubner",
-          "Jakub Wenz",
-          "Marcel Drabbels",
-          "Ulrich J. Lorenz"
+          "Chenxin Gu",
+          "Zengdi Zhang",
+          "Shaolei Xiong",
+          "Jiawen Ma",
+          "Zuoxiao Shi",
+          "Zan Huang",
+          "Sunhye Shin",
+          "Xuechun Chang",
+          "Zihao Wang",
+          "Aneesh Swaminathan",
+          "Ifrah Aden",
+          "Zahra Moazzami",
+          "Xiaoli Sky Wu",
+          "Christina D. Camell",
+          "Yuwei Jiang",
+          "Hai-Bin Ruan"
         ],
-        "date": "2026-11-26",
+        "date": "2026-11-27",
         "source": "rss",
         "notes_label": "期刊导读",
-        "notes": "在蛋白质玻璃化过程中利用超声波处理这些令人兴奋的冷冻电子显微镜样品，有助于有效解决那些影响蛋白质结构分析结果的颗粒取向问题。",
-        "teaser": "在蛋白质玻璃化过程中利用超声波处理这些令人兴奋的冷冻电子显微镜样品，有助于有效解决那些影响蛋白质结构分析结果的颗粒取向问题。",
+        "notes": "虽然 Pdgfra+ 前体细胞在生命早期负责形成棕色脂肪组织，但另一类名为 Myl1+ 的前体细胞主要在中年及成年小鼠的棕色脂肪中分化为棕色脂肪细胞，并进而调节这些小鼠的全身葡萄糖代谢过程。",
+        "teaser": "虽然 Pdgfra+ 前体细胞在生命早期负责形成棕色脂肪组织，但另一类名为 Myl1+ 的前体细胞主要在中年及成年小鼠的棕色脂肪中分化为棕色脂肪细胞，并进而调节这些小鼠的全身葡萄糖代谢过程。",
         "source_label": "期刊 RSS",
         "source_method": "",
+        "depth": "journal_note",
+        "original_notes": "While Pdgfra+ progenitors shape brown adipose tissue in early life, a distinct population of Myl1+ progenitors predominantly differentiates into brown adipocytes in BAT of adult and middle-aged mice and modulates systemic glucose metabolism in mice",
+        "translation_corrected": false,
         "related_url": "",
         "pending_reason": "",
         "notes_language": "zh",
@@ -533,15 +579,29 @@
     "research": 1,
     "review": 0,
     "excluded": 1,
-    "unconfirmed": 2
+    "unconfirmed": 0
   },
   "type_lookup": {
-    "checked": 2,
+    "checked": 0,
     "confirmed": 0,
     "catalog": {
-      "pages": 3,
-      "matched": 2,
-      "unavailable": 1
+      "pages": 1,
+      "matched": 1,
+      "unavailable": 0
     }
+  },
+  "reader_coverage": {
+    "abstract": 0,
+    "abstract_excerpt": 0,
+    "journal_note": 1,
+    "pending": 0,
+    "type_unconfirmed": 0
+  },
+  "focus_abstract_lookup": {
+    "attempted": 0,
+    "upgraded": 0,
+    "unavailable": 0,
+    "no_abstract": 0,
+    "type_conflict": 0
   }
 }
